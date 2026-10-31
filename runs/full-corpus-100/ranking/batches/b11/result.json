@@ -1,0 +1,48 @@
+{
+  "batch_id": "b11",
+  "video_ids": [
+    "st_d524156ea0",
+    "st_99ade0a7e7",
+    "st_cf2e0e0210",
+    "st_569647273e",
+    "st_fe22601532"
+  ],
+  "labels": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "rankings": {
+    "pitch_positivity": [
+      "st_d524156ea0",
+      "st_cf2e0e0210",
+      "st_fe22601532",
+      "st_99ade0a7e7",
+      "st_569647273e"
+    ],
+    "expressed_enthusiasm": [
+      "st_d524156ea0",
+      "st_cf2e0e0210",
+      "st_fe22601532",
+      "st_99ade0a7e7",
+      "st_569647273e"
+    ],
+    "interpersonal_warmth": [
+      "st_fe22601532",
+      "st_d524156ea0",
+      "st_cf2e0e0210",
+      "st_569647273e",
+      "st_99ade0a7e7"
+    ]
+  },
+  "notes": {
+    "pitch_positivity": "Clip A features non-stop smiles and extremely upbeat energy, while Clip D is much calmer and more subdued. Clips A and C are close.",
+    "expressed_enthusiasm": "Clip A shows immense physical energy and excitement while demonstrating the product, whereas Clip D has a calm, measured delivery. A and C are close.",
+    "interpersonal_warmth": "Clip E conveys deep warmth through the sweet mother-son dynamic, while Clip B is more formal and rehearsed. Clips E and A are close."
+  },
+  "batch_notes": "",
+  "model_version": "gemini-3.1-pro-preview",
+  "prompt_hash": "83d1721df059bb52"
+}

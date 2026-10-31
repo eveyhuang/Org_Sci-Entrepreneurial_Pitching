@@ -1,0 +1,6 @@
+finding,model_or_comparison,metric,value,ci_low,ci_high,n_pitches_informative
+identity alone ranks the sharks of a pitch,I0,within_auc,0.6696696696696697,0.6011896034073453,0.7396926323515919,67.0
+own questions and answers beside identity,I3 minus I2,within_auc,-0.0570570570570571,-0.12016131175423217,0.003039513677811523,67.0
+the reaction features beside identity,IR minus I4,within_auc,-0.036036036036036,-0.06708342656821069,-0.006190045248868849,67.0
+all content beside identity,I5 minus I2,within_auc,-0.06306306306306309,-0.12846006641526425,0.0,67.0
+"all content beside identity, pooled over pitches",I5 minus I2,auc,0.07241972415996567,0.009192931835802356,0.1403359958630888,67.0

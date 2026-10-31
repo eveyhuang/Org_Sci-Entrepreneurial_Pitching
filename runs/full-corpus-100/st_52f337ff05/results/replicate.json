@@ -1,0 +1,1775 @@
+{
+  "pass": "replicate",
+  "unit_key": "panel__st_52f337ff05__replicate",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:15-1:44"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "none",
+      "3": "demonstration",
+      "4": "demonstration",
+      "5": "social",
+      "6": "demonstration",
+      "7": "demonstration",
+      "8": "demonstration",
+      "9": "demonstration",
+      "10": "demonstration",
+      "11": "demonstration",
+      "12": "demonstration",
+      "13": "qa",
+      "14": "qa",
+      "15": "qa",
+      "16": "qa",
+      "17": "qa",
+      "18": "qa",
+      "19": "qa",
+      "20": "qa",
+      "21": "qa",
+      "22": "qa",
+      "23": "qa",
+      "24": "qa",
+      "25": "qa",
+      "26": "qa",
+      "27": "qa",
+      "28": "qa",
+      "29": "qa",
+      "30": "qa",
+      "31": "qa",
+      "32": "qa",
+      "33": "qa",
+      "34": "qa",
+      "35": "none",
+      "36": "none",
+      "37": "none",
+      "38": "none",
+      "39": "none",
+      "40": "none",
+      "41": "none",
+      "42": "none",
+      "43": "negotiation",
+      "44": "social",
+      "45": "social",
+      "46": "social",
+      "47": "social",
+      "48": "negotiation",
+      "49": "negotiation",
+      "50": "social",
+      "51": "social",
+      "52": "social",
+      "53": "negotiation",
+      "54": "negotiation",
+      "55": "negotiation",
+      "56": "social"
+    },
+    "segment_seconds": {
+      "presentation": 89.0,
+      "qa": 187.0,
+      "social": 28.0,
+      "demonstration": 21.0,
+      "negotiation": 94.0,
+      "none": 61.0
+    },
+    "exchange_counts": {
+      "substantive": 5,
+      "social": 4,
+      "demonstration": 1,
+      "negotiation": 1
+    },
+    "turn_frame": {
+      "13": "prevention",
+      "14": "prevention",
+      "15": "promotion",
+      "16": "promotion",
+      "17": "prevention",
+      "18": "prevention",
+      "19": "promotion",
+      "20": "promotion",
+      "21": "prevention",
+      "22": "prevention",
+      "23": "prevention",
+      "24": "prevention",
+      "25": "promotion",
+      "26": "prevention",
+      "27": "promotion",
+      "28": "promotion",
+      "30": "promotion",
+      "31": "promotion",
+      "32": "promotion",
+      "33": "promotion",
+      "34": "promotion"
+    },
+    "frame_match": {
+      "14": "match",
+      "16": "match",
+      "18": "match",
+      "20": "match",
+      "22": "match",
+      "24": "match",
+      "26": "switch_to_prevention",
+      "28": "match",
+      "30": "match",
+      "32": "match",
+      "34": "match"
+    },
+    "other_concepts": []
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Kayla Lupean"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Lori Greiner"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Daymond John"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Barbara Corcoran"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Mark Cuban"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 15.0,
+        "end_s": 104.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 14.0,
+        "kind": "teaser"
+      },
+      {
+        "start_s": 524.0,
+        "end_s": 538.0,
+        "kind": "recap"
+      }
+    ],
+    "gaps": [],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 5,
+        "uncodable": false,
+        "moment_s": 99.0,
+        "note": "Pronounced, sustained positive engagement and smiling throughout the pitch."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 61.0,
+        "note": "Sustained engagement with the subject is evident across much of the presentation."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 26.0,
+        "note": "Friendly, approachable and considerate expression characterizes much of the presentation."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "1",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "0",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "Portable, magnetic dollhouses in tin cases designed for mess-free play.",
+      "primary_industry": "children_education",
+      "secondary_industries": [],
+      "product_form": "physical_good",
+      "customer_type": "consumer",
+      "founder_gender": "all_women",
+      "product_category": "portable dollhouses",
+      "earliest_s": 19.0,
+      "note": "",
+      "ask_amount_usd": 150000,
+      "ask_equity_pct": 10.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 15.0,
+        "end_s": 104.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Founder delivers the prepared presentation, explaining the problem with messy toys and introducing the portable magnetic dollhouse solution."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "S5",
+        "start_s": 105.0,
+        "end_s": 106.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark compliments the presentation."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "S2",
+        "start_s": 106.0,
+        "end_s": 108.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori calls the product cute and asks if the items in front of them are the cases."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "F1",
+        "start_s": 108.0,
+        "end_s": 110.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kayla confirms the cases are in front of them and begins explaining the different themes."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "S5",
+        "start_s": 110.0,
+        "end_s": 112.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark jokes about having the wild case."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "F1",
+        "start_s": 112.0,
+        "end_s": 116.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kayla explains the themes of the cases given to Mark and Barbara."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "S4",
+        "start_s": 116.0,
+        "end_s": 118.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara says her case has her favorite room."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "S1",
+        "start_s": 118.0,
+        "end_s": 121.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin notes he has the red case and likes it."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "S2",
+        "start_s": 122.0,
+        "end_s": 125.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori notes she has the cozy case."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "S3",
+        "start_s": 126.0,
+        "end_s": 128.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond checks out his wild case and calls it cool."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "S2",
+        "start_s": 128.0,
+        "end_s": 130.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori praises the product as a cute magnetic dollhouse."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "F1",
+        "start_s": 130.0,
+        "end_s": 131.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kayla agrees with Lori."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "S4",
+        "start_s": 132.0,
+        "end_s": 133.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Barbara asks if there are only two characters available."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "F1",
+        "start_s": 133.0,
+        "end_s": 168.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          13
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kayla explains there is a set of six characters, emphasizing gender neutrality, inclusivity, and her plans to expand the line."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "S2",
+        "start_s": 169.0,
+        "end_s": 171.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks Kayla to tell the panel her personal story."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "F1",
+        "start_s": 171.0,
+        "end_s": 228.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          15
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kayla shares her journey of divorce, starting a photography business, adopting her daughter, and creating the product during COVID."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "S1",
+        "start_s": 229.0,
+        "end_s": 231.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks about the landed cost of the product."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "F1",
+        "start_s": 231.0,
+        "end_s": 235.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          17
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kayla states the landed cost is thirteen dollars, including all components."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "S1",
+        "start_s": 236.0,
+        "end_s": 237.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks for the online selling price."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "F1",
+        "start_s": 237.0,
+        "end_s": 241.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          19
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kayla says she sells them for forty-nine ninety-nine, giving her a seventy percent margin."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "S5",
+        "start_s": 242.0,
+        "end_s": 243.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks Kayla to tell them about the business details."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "F1",
+        "start_s": 243.0,
+        "end_s": 246.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          21
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kayla states she launched her Kickstarter in March 2021."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "S5",
+        "start_s": 246.0,
+        "end_s": 248.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks how much she tried to raise and how much she actually raised."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "F1",
+        "start_s": 249.0,
+        "end_s": 274.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          23
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kayla explains she raised thirty thousand dollars, sold her car to fund production, and closed 2021 with significant revenue."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "S3",
+        "start_s": 275.0,
+        "end_s": 276.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Daymond asks for her year-to-date sales figures."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "F1",
+        "start_s": 276.0,
+        "end_s": 295.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          25
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "deflects",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kayla deflects the sales question to explain an issue with a purchase order that required her to order five thousand units."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "S2",
+        "start_s": 295.0,
+        "end_s": 297.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks how many units the buyer ultimately ordered."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "F1",
+        "start_s": 297.0,
+        "end_s": 299.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          27
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kayla answers that they only ordered a few hundred cases."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "S4",
+        "start_s": 299.0,
+        "end_s": 300.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara expresses sympathy for the difficult situation."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "F1",
+        "start_s": 300.0,
+        "end_s": 313.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          25
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kayla explains she found an investor to cover inventory costs and then states her year-to-date sales are fifty-five thousand dollars."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "S3",
+        "start_s": 314.0,
+        "end_s": 317.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "forecast",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Daymond asks for her projected sales by the end of the year."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "F1",
+        "start_s": 317.0,
+        "end_s": 319.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          31
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "forecast",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kayla projects she will be around four hundred thousand dollars by the end of the year."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "S3",
+        "start_s": 320.0,
+        "end_s": 322.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Daymond asks how much inventory she currently has on hand and its value."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "F1",
+        "start_s": 322.0,
+        "end_s": 327.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          33
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kayla states she has over nine thousand units worth about half a million dollars in revenue."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "S3",
+        "start_s": 328.0,
+        "end_s": 336.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond states he does not clearly see the vision for growth and decides to drop out."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "F1",
+        "start_s": 336.0,
+        "end_s": 337.0,
+        "function": "accepts",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": null,
+        "responds_to": [
+          35
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kayla thanks Daymond for his time."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "S1",
+        "start_s": 338.0,
+        "end_s": 344.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin praises her achievement but decides it is not a business for him and exits."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "F1",
+        "start_s": 345.0,
+        "end_s": 346.0,
+        "function": "accepts",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": null,
+        "responds_to": [
+          37
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kayla acknowledges Kevin's decision."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "S2",
+        "start_s": 346.0,
+        "end_s": 367.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori expresses admiration for her perseverance but decides the product is not right for her."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "F1",
+        "start_s": 368.0,
+        "end_s": 369.0,
+        "function": "accepts",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": null,
+        "responds_to": [
+          39
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kayla thanks Lori."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "S5",
+        "start_s": 370.0,
+        "end_s": 390.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark gives her credit but believes she is trying to do too much too soon, and exits."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "F1",
+        "start_s": 390.0,
+        "end_s": 392.0,
+        "function": "accepts",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": null,
+        "responds_to": [
+          41
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kayla appreciates Mark's feedback."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "S4",
+        "start_s": 393.0,
+        "end_s": 457.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara praises the product and Kayla's courage, then makes a greedy offer involving equity and a royalty."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "S3",
+        "start_s": 458.0,
+        "end_s": 459.0,
+        "function": "social",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond calls Barbara's offer outrageous."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "S2",
+        "start_s": 459.0,
+        "end_s": 460.0,
+        "function": "social",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori reacts with surprise to Barbara's offer."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "S5",
+        "start_s": 461.0,
+        "end_s": 463.0,
+        "function": "social",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark jokes that Barbara sounds like Kevin with her royalty offer."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "S4",
+        "start_s": 463.0,
+        "end_s": 464.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara reacts to the other sharks' comments."
+      },
+      {
+        "turn_id": 48,
+        "speaker": "F1",
+        "start_s": 465.0,
+        "end_s": 475.0,
+        "function": "decides",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kayla counters Barbara's offer by asking to reduce the equity or increase the capital."
+      },
+      {
+        "turn_id": 49,
+        "speaker": "S4",
+        "start_s": 476.0,
+        "end_s": 483.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara revises her offer by adding a credit line to maintain the thirty percent equity."
+      },
+      {
+        "turn_id": 50,
+        "speaker": "S1",
+        "start_s": 484.0,
+        "end_s": 488.0,
+        "function": "social",
+        "addressed": [
+          "F1",
+          "S4"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin jokes that Barbara said nice things just before becoming a savage."
+      },
+      {
+        "turn_id": 51,
+        "speaker": "S2",
+        "start_s": 489.0,
+        "end_s": 490.0,
+        "function": "social",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori defends Barbara, saying she is not a savage."
+      },
+      {
+        "turn_id": 52,
+        "speaker": "S4",
+        "start_s": 491.0,
+        "end_s": 492.0,
+        "function": "social",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara agrees she is not a savage."
+      },
+      {
+        "turn_id": 53,
+        "speaker": "F1",
+        "start_s": 492.0,
+        "end_s": 494.0,
+        "function": "negotiates",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kayla explains she cannot give up thirty percent because she already gave ten percent to another investor."
+      },
+      {
+        "turn_id": 54,
+        "speaker": "S4",
+        "start_s": 495.0,
+        "end_s": 504.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara drops the equity to twenty percent but increases the royalty to seven dollars."
+      },
+      {
+        "turn_id": 55,
+        "speaker": "F1",
+        "start_s": 505.0,
+        "end_s": 507.0,
+        "function": "decides",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kayla accepts Barbara's revised offer."
+      },
+      {
+        "turn_id": 56,
+        "speaker": "S4",
+        "start_s": 508.0,
+        "end_s": 523.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara and Kayla celebrate the deal with a hug."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "demonstration",
+        "topic": "NONE",
+        "label": "handling the cases"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "wild baby joke"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "number of characters"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "substantive",
+        "topic": "self_promotion",
+        "label": "founder's background"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "operating_efficiency",
+        "label": "landed cost and margin"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "Kickstarter and fundraising"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "year to date sales and inventory"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "negotiation",
+        "topic": "NONE",
+        "label": "offers and terms"
+      },
+      {
+        "exchange_id": 9,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "reactions to Barbara's offer"
+      },
+      {
+        "exchange_id": 10,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "savage comments"
+      },
+      {
+        "exchange_id": 11,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "celebration"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S3",
+        "kind": "exit",
+        "time_s": 335.0,
+        "turn_id": 35,
+        "offer_id": null,
+        "terms": "",
+        "note": "Does not clearly see the vision for growth."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S1",
+        "kind": "exit",
+        "time_s": 343.0,
+        "turn_id": 37,
+        "offer_id": null,
+        "terms": "",
+        "note": "Thinks it is an admirable achievement but not a business for him."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S2",
+        "kind": "exit",
+        "time_s": 366.0,
+        "turn_id": 39,
+        "offer_id": null,
+        "terms": "",
+        "note": "Impressed by her perseverance but the product is not right for her."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S5",
+        "kind": "exit",
+        "time_s": 389.0,
+        "turn_id": 41,
+        "offer_id": null,
+        "terms": "",
+        "note": "Believes she is trying to do too much too soon."
+      },
+      {
+        "decision_id": 5,
+        "actor": "S4",
+        "kind": "offer",
+        "time_s": 448.0,
+        "turn_id": 43,
+        "offer_id": "O1",
+        "terms": "$150,000 for 30% and a $5 royalty per unit until recouped",
+        "note": "Loves the product and her courage as a single mother."
+      },
+      {
+        "decision_id": 6,
+        "actor": "F1",
+        "kind": "founder_counters",
+        "time_s": 465.0,
+        "turn_id": 48,
+        "offer_id": "O1",
+        "terms": "$150k for 20% + $5 royalty, or $200k for 30% + $5 royalty",
+        "note": "Counters to retain more equity or get more capital."
+      },
+      {
+        "decision_id": 7,
+        "actor": "S4",
+        "kind": "revises_offer",
+        "time_s": 476.0,
+        "turn_id": 49,
+        "offer_id": "O1",
+        "terms": "$150,000 and a $100,000 credit line for 30% and a $5 royalty until recouped",
+        "note": "Offers a credit line to keep the equity at 30 percent."
+      },
+      {
+        "decision_id": 8,
+        "actor": "S4",
+        "kind": "revises_offer",
+        "time_s": 498.0,
+        "turn_id": 54,
+        "offer_id": "O1",
+        "terms": "$150,000 for 20% and a $7 royalty per unit until recouped",
+        "note": "Agrees to drop equity to 20 percent but increases the royalty to 7 dollars."
+      },
+      {
+        "decision_id": 9,
+        "actor": "F1",
+        "kind": "founder_accepts",
+        "time_s": 505.0,
+        "turn_id": 55,
+        "offer_id": "O1",
+        "terms": "$150,000 for 20% and a $7 royalty per unit until recouped",
+        "note": "Accepts the revised offer."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": ""
+  }
+}

@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+
+# Pipeline runtime state
+registry.sqlite
+registry*.sqlite
+runs/**/raw/
+runs/**/parsed/
+runs/**/transcripts/
+runs/**/timelines/
+data/clips/
+data/media/
+.superpowers/
+registry.sqlite-*
+
+# Stage A ranking clips are cut locally from source video; never commit them
+runs/**/ranking/clips/

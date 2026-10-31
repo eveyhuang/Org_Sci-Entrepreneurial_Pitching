@@ -1,0 +1,2025 @@
+{
+  "pass": "replicate",
+  "unit_key": "panel__st_af8ecff15c__replicate",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:17-1:50"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "qa",
+      "3": "qa",
+      "4": "qa",
+      "5": "qa",
+      "6": "qa",
+      "7": "qa",
+      "8": "qa",
+      "9": "qa",
+      "10": "qa",
+      "11": "qa",
+      "12": "qa",
+      "13": "social",
+      "14": "social",
+      "15": "qa",
+      "16": "qa",
+      "17": "qa",
+      "18": "qa",
+      "19": "qa",
+      "20": "social",
+      "21": "social",
+      "22": "qa",
+      "23": "qa",
+      "24": "qa",
+      "25": "qa",
+      "26": "qa",
+      "27": "social",
+      "28": "social",
+      "29": "qa",
+      "30": "qa",
+      "31": "qa",
+      "32": "qa",
+      "33": "qa",
+      "34": "qa",
+      "35": "qa",
+      "36": "qa",
+      "37": "qa",
+      "38": "none",
+      "39": "none",
+      "40": "qa",
+      "41": "qa",
+      "42": "qa",
+      "43": "none",
+      "44": "negotiation",
+      "45": "negotiation",
+      "46": "negotiation",
+      "47": "negotiation",
+      "48": "negotiation",
+      "49": "none",
+      "50": "negotiation",
+      "51": "negotiation"
+    },
+    "segment_seconds": {
+      "presentation": 93.0,
+      "qa": 204.0,
+      "social": 15.0,
+      "demonstration": 0.0,
+      "negotiation": 75.0,
+      "none": 99.0
+    },
+    "exchange_counts": {
+      "substantive": 9,
+      "social": 3,
+      "demonstration": 0,
+      "negotiation": 1
+    },
+    "turn_frame": {
+      "2": "promotion",
+      "3": "promotion",
+      "4": "promotion",
+      "5": "prevention",
+      "6": "prevention",
+      "7": "prevention",
+      "8": "prevention",
+      "9": "promotion",
+      "10": "promotion",
+      "11": "promotion",
+      "12": "promotion",
+      "15": "prevention",
+      "16": "prevention",
+      "17": "unclassified",
+      "18": "unclassified",
+      "19": "prevention",
+      "22": "prevention",
+      "23": "promotion",
+      "24": "promotion",
+      "25": "prevention",
+      "26": "prevention",
+      "29": "prevention",
+      "30": "prevention",
+      "31": "prevention",
+      "32": "promotion",
+      "33": "promotion",
+      "34": "promotion",
+      "35": "promotion",
+      "36": "unclassified",
+      "37": "unclassified"
+    },
+    "frame_match": {
+      "3": "match",
+      "4": "match",
+      "6": "match",
+      "7": "match",
+      "8": "match",
+      "10": "match",
+      "11": "match",
+      "16": "match",
+      "18": "unclassified",
+      "19": "match",
+      "22": "match",
+      "24": "match",
+      "26": "match",
+      "29": "match",
+      "31": "match",
+      "33": "match",
+      "35": "match",
+      "37": "unclassified"
+    },
+    "other_concepts": [
+      {
+        "where": "turn",
+        "id": 17,
+        "code": "PR-CONCEPT",
+        "name": "million dollar dating project",
+        "clock": "3:32"
+      },
+      {
+        "where": "turn",
+        "id": 18,
+        "code": "RS-CONCEPT",
+        "name": "grant details",
+        "clock": "3:33"
+      }
+    ]
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "H1",
+        "role": "host",
+        "label": "Narrator"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Nirav Tolia"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Robert Herjavec"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Lori Greiner"
+      },
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Nathan"
+      },
+      {
+        "actor_id": "F2",
+        "role": "founder",
+        "label": "Sterling"
+      },
+      {
+        "actor_id": "F3",
+        "role": "founder",
+        "label": "Leigh"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Mark Cuban"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 17.0,
+        "end_s": 110.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 16.0,
+        "kind": "narration"
+      },
+      {
+        "start_s": 527.0,
+        "end_s": 587.0,
+        "kind": "recap"
+      }
+    ],
+    "gaps": [],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 42.0,
+        "note": "They maintain strong positive engagement and smiling while discussing the app features."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 60.0,
+        "note": "They show sustained engaged excitement about the dating app and their mission for cats."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 78.0,
+        "note": "The team comes across as very friendly, approachable, and considerate throughout the pitch."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "1",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "A dating and community app specifically designed for cat lovers and owners to connect.",
+      "primary_industry": "general_technology",
+      "secondary_industries": [
+        "pets"
+      ],
+      "product_form": "software_digital",
+      "customer_type": "consumer",
+      "founder_gender": "mixed",
+      "product_category": "dating app",
+      "earliest_s": 25.0,
+      "note": "They are seeking $300k for 20% equity in their company Tabby.",
+      "ask_amount_usd": 300000,
+      "ask_equity_pct": 20.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F3",
+        "start_s": 17.0,
+        "end_s": 110.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The founders present Tabby, a dating app for cat lovers, asking for $300k for 20% equity."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "S3",
+        "start_s": 110.0,
+        "end_s": 113.0,
+        "function": "question",
+        "addressed": [
+          "F3"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S3 asks F3 how she came up with the idea for a cat dating app."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "F3",
+        "start_s": 113.0,
+        "end_s": 126.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          2
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F3 explains she previously started a dog dating app and is currently in acquisition talks."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "F3",
+        "start_s": 128.0,
+        "end_s": 140.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          2
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "market_opportunity",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F3 adds that they learned cat people face a stigma and lack places to meet."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "S1",
+        "start_s": 144.0,
+        "end_s": 145.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S1 asks if the other founders are also involved in the dog dating app."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "F3",
+        "start_s": 145.0,
+        "end_s": 148.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          5
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F3 clarifies they are only working on Tabby."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "F1",
+        "start_s": 148.0,
+        "end_s": 155.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          5
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 explains his background as a social media influencer known as the cat lady."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "F2",
+        "start_s": 155.0,
+        "end_s": 174.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          5
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F2 details his background running a cat rescue nonprofit and his title as Trap King."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "S4",
+        "start_s": 175.0,
+        "end_s": 178.0,
+        "function": "question",
+        "addressed": [
+          "UNKNOWN"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "market_opportunity",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S4 asks how many cat owners exist in the first place."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "F3",
+        "start_s": 178.0,
+        "end_s": 182.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          9
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "market_opportunity",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F3 states there are 17 million single cat owners in the US."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "F1",
+        "start_s": 182.0,
+        "end_s": 186.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          9
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "partial",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "market_opportunity",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 adds that many cat owners hide it due to shame."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "S4",
+        "start_s": 186.0,
+        "end_s": 192.0,
+        "function": "question",
+        "addressed": [
+          "UNKNOWN"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "market_opportunity",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S4 expresses confusion over why there is any shame associated with owning a cat."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "S3",
+        "start_s": 192.0,
+        "end_s": 196.0,
+        "function": "social",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S3 jokes that owning a cat is not considered cool."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "S4",
+        "start_s": 196.0,
+        "end_s": 201.0,
+        "function": "social",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S4 argues that cats are cool and compares them to lions."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "S1",
+        "start_s": 201.0,
+        "end_s": 206.0,
+        "function": "question",
+        "addressed": [
+          "UNKNOWN"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S1 asks for statistics on users, launch date, and what they have learned."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "F3",
+        "start_s": 206.0,
+        "end_s": 212.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          15
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F3 explains they launched after winning a million dollar dating project."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "S2",
+        "start_s": 212.0,
+        "end_s": 213.0,
+        "function": "question",
+        "addressed": [
+          "F3"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "other",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": "million dollar dating project",
+        "summary": "S2 asks what the million dollar dating project is."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "F3",
+        "start_s": 213.0,
+        "end_s": 226.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          17
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "other",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": "grant details",
+        "summary": "F3 describes it as a grant providing $50k and access to a pre-made dating platform."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "F3",
+        "start_s": 226.0,
+        "end_s": 235.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          15
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F3 notes they launched on International Cat Day but faced massive platform problems."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "S5",
+        "start_s": 235.0,
+        "end_s": 236.0,
+        "function": "social",
+        "addressed": [
+          "F3"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S5 makes a sarcastic remark about the platform problems."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "S4",
+        "start_s": 236.0,
+        "end_s": 238.0,
+        "function": "social",
+        "addressed": [
+          "F3"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S4 expresses sympathy for the technical issues they faced."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "F3",
+        "start_s": 238.0,
+        "end_s": 250.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          15
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F3 explains the platform was built for the web and not optimized for mobile."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "S5",
+        "start_s": 250.0,
+        "end_s": 254.0,
+        "function": "question",
+        "addressed": [
+          "F3"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S5 interrupts to ask for their actual numbers and revenue."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "F3",
+        "start_s": 254.0,
+        "end_s": 269.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          23
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F3 reports 31,000 users and $43k in revenue, mostly from subscriptions and a partner."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "S1",
+        "start_s": 269.0,
+        "end_s": 272.0,
+        "function": "question",
+        "addressed": [
+          "F3"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S1 asks if they are still operating on the pre-made platform."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "F3",
+        "start_s": 272.0,
+        "end_s": 286.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          25
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F3 explains they want to switch platforms because their contract was terminated early."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "S5",
+        "start_s": 286.0,
+        "end_s": 287.0,
+        "function": "social",
+        "addressed": [
+          "F3"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S5 makes another sarcastic remark about the situation."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "S2",
+        "start_s": 287.0,
+        "end_s": 289.0,
+        "function": "social",
+        "addressed": [
+          "F3"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S2 jokes that the situation is hitting the fan."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "F3",
+        "start_s": 289.0,
+        "end_s": 297.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          25
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F3 states they built an entirely new app with a new development team."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "S2",
+        "start_s": 297.0,
+        "end_s": 299.0,
+        "function": "question",
+        "addressed": [
+          "F3"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S2 asks when the new app will be ready to release."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "F3",
+        "start_s": 299.0,
+        "end_s": 303.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          30
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F3 says the app is currently under review by Apple and will launch soon."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "S2",
+        "start_s": 303.0,
+        "end_s": 305.0,
+        "function": "question",
+        "addressed": [
+          "F3"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S2 asks if the app uses a monthly subscription model."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "F3",
+        "start_s": 305.0,
+        "end_s": 309.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          32
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F3 confirms it costs $19.99 a month, dropping to $9.99 for six months."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "S4",
+        "start_s": 309.0,
+        "end_s": 311.0,
+        "function": "question",
+        "addressed": [
+          "F3"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S4 asks if that price point is considered expensive."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "F3",
+        "start_s": 311.0,
+        "end_s": 317.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          34
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F3 argues it is not extraordinarily expensive for premium dating subscriptions."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "S3",
+        "start_s": 317.0,
+        "end_s": 319.0,
+        "function": "question",
+        "addressed": [
+          "UNKNOWN"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S3 asks how much money they have raised so far."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "F3",
+        "start_s": 319.0,
+        "end_s": 322.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          36
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "1",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F3 confirms they have raised no money other than the initial grant."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "S5",
+        "start_s": 322.0,
+        "end_s": 348.0,
+        "function": "decides",
+        "addressed": [
+          "F3"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S5 exits, citing the difficulty and expense of growing an app after their platform issues."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "S3",
+        "start_s": 348.0,
+        "end_s": 360.0,
+        "function": "decides",
+        "addressed": [
+          "F3"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S3 exits, stating the business is simply not for him despite the good cause."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "F3",
+        "start_s": 360.0,
+        "end_s": 366.0,
+        "function": "repair",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 12,
+        "responds_to": [
+          38
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F3 argues they have everything ready and just need capital to take off."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "S5",
+        "start_s": 366.0,
+        "end_s": 370.0,
+        "function": "challenges",
+        "addressed": [
+          "F3"
+        ],
+        "exchange_id": 12,
+        "responds_to": [
+          40
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S5 challenges her, stating they have no money to fuel their growth."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "F3",
+        "start_s": 370.0,
+        "end_s": 374.0,
+        "function": "repair",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 12,
+        "responds_to": [
+          41
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F3 reiterates that they are seeking investment to fuel their growth."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "S1",
+        "start_s": 374.0,
+        "end_s": 398.0,
+        "function": "decides",
+        "addressed": [
+          "F3"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S1 exits, noting the extreme difficulty of getting distribution for a new dating app."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "S2",
+        "start_s": 398.0,
+        "end_s": 442.0,
+        "function": "decides",
+        "addressed": [
+          "F3"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S2 offers $300k for 30%, leveraging his existing cat database company Basepaws."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "S1",
+        "start_s": 442.0,
+        "end_s": 445.0,
+        "function": "negotiates",
+        "addressed": [
+          "F3"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S1 encourages them to take the offer, noting they are starting from scratch."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "S2",
+        "start_s": 445.0,
+        "end_s": 447.0,
+        "function": "negotiates",
+        "addressed": [
+          "F3"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S2 agrees with S1 that his proposal is a great offer."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "F3",
+        "start_s": 447.0,
+        "end_s": 454.0,
+        "function": "decides",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F3 counters S2, asking if he would accept 25% equity instead."
+      },
+      {
+        "turn_id": 48,
+        "speaker": "S2",
+        "start_s": 454.0,
+        "end_s": 457.0,
+        "function": "negotiates",
+        "addressed": [
+          "F3"
+        ],
+        "exchange_id": 13,
+        "responds_to": [
+          47
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S2 refuses the counteroffer, sticking to his original terms."
+      },
+      {
+        "turn_id": 49,
+        "speaker": "S4",
+        "start_s": 457.0,
+        "end_s": 494.0,
+        "function": "decides",
+        "addressed": [
+          "F3"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S4 exits, stating she lacks tech expertise and S2 is a better strategic partner."
+      },
+      {
+        "turn_id": 50,
+        "speaker": "S1",
+        "start_s": 494.0,
+        "end_s": 506.0,
+        "function": "negotiates",
+        "addressed": [
+          "F3"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S1 reiterates that S2 provides both cash and the necessary distribution traffic."
+      },
+      {
+        "turn_id": 51,
+        "speaker": "F3",
+        "start_s": 506.0,
+        "end_s": 510.0,
+        "function": "decides",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 13,
+        "responds_to": [
+          44
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F3 accepts S2's offer of $300k for a 30% stake."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "substantive",
+        "topic": "self_promotion",
+        "label": "origin of the idea"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "substantive",
+        "topic": "team_capabilities",
+        "label": "other ventures"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "market_opportunity",
+        "label": "number of cat owners"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "cat shame"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "launch and traction"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "platform problems"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "revenue and users"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "new platform"
+      },
+      {
+        "exchange_id": 9,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "hitting the fan"
+      },
+      {
+        "exchange_id": 10,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "subscription price"
+      },
+      {
+        "exchange_id": 11,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "funds raised"
+      },
+      {
+        "exchange_id": 12,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "needing capital"
+      },
+      {
+        "exchange_id": 13,
+        "kind": "negotiation",
+        "topic": "NONE",
+        "label": "Kevin's offer"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S5",
+        "kind": "exit",
+        "time_s": 322.0,
+        "turn_id": 38,
+        "offer_id": null,
+        "terms": "out",
+        "note": "Growing an app is difficult, competitive, and really expensive after their platform issues."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S3",
+        "kind": "exit",
+        "time_s": 348.0,
+        "turn_id": 39,
+        "offer_id": null,
+        "terms": "out",
+        "note": "It's not for him despite thinking it's a wonderful thing."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S1",
+        "kind": "exit",
+        "time_s": 374.0,
+        "turn_id": 43,
+        "offer_id": null,
+        "terms": "out",
+        "note": "It is very difficult to get distribution and build a breakthrough tech app."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S2",
+        "kind": "offer",
+        "time_s": 398.0,
+        "turn_id": 44,
+        "offer_id": "O1",
+        "terms": "$300,000 for 30%",
+        "note": "Offers his database of cat owners through his other company Basepaws."
+      },
+      {
+        "decision_id": 5,
+        "actor": "F3",
+        "kind": "founder_counters",
+        "time_s": 447.0,
+        "turn_id": 47,
+        "offer_id": "O1",
+        "terms": "25%",
+        "note": "Asks if S2 would meet them in the middle at 25%."
+      },
+      {
+        "decision_id": 6,
+        "actor": "S4",
+        "kind": "exit",
+        "time_s": 457.0,
+        "turn_id": 49,
+        "offer_id": null,
+        "terms": "out",
+        "note": "She is not a tech app expert and S2 is a better strategic partner."
+      },
+      {
+        "decision_id": 7,
+        "actor": "F3",
+        "kind": "founder_accepts",
+        "time_s": 506.0,
+        "turn_id": 51,
+        "offer_id": "O1",
+        "terms": "$300,000 for 30%",
+        "note": "Accepts Kevin's offer for cash and distribution."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": "Nirav Tolia appears as a Guest Shark."
+  }
+}

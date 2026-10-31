@@ -1,0 +1,1486 @@
+{
+  "pass": "primary",
+  "unit_key": "panel__st_f9c388f4a8__primary",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:16-1:47"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "none",
+      "3": "qa",
+      "4": "qa",
+      "5": "qa",
+      "6": "qa",
+      "7": "qa",
+      "8": "qa",
+      "9": "qa",
+      "10": "qa",
+      "11": "qa",
+      "12": "qa",
+      "13": "qa",
+      "14": "qa",
+      "15": "qa",
+      "16": "qa",
+      "17": "qa",
+      "18": "qa",
+      "19": "qa",
+      "20": "qa",
+      "21": "qa",
+      "22": "qa",
+      "23": "none",
+      "24": "none",
+      "25": "none",
+      "26": "none",
+      "27": "negotiation",
+      "28": "negotiation",
+      "29": "negotiation",
+      "30": "negotiation",
+      "31": "negotiation",
+      "32": "negotiation",
+      "33": "negotiation",
+      "34": "negotiation",
+      "35": "negotiation",
+      "36": "negotiation"
+    },
+    "segment_seconds": {
+      "presentation": 91.0,
+      "qa": 172.0,
+      "social": 0.0,
+      "demonstration": 0.0,
+      "negotiation": 89.0,
+      "none": 66.0
+    },
+    "exchange_counts": {
+      "substantive": 7,
+      "social": 0,
+      "demonstration": 0,
+      "negotiation": 1
+    },
+    "turn_frame": {
+      "3": "promotion",
+      "4": "promotion",
+      "5": "promotion",
+      "6": "prevention",
+      "7": "prevention",
+      "8": "promotion",
+      "9": "promotion",
+      "10": "promotion",
+      "11": "prevention",
+      "12": "prevention",
+      "13": "prevention",
+      "14": "prevention",
+      "15": "unclassified",
+      "16": "unclassified",
+      "17": "prevention",
+      "18": "prevention",
+      "19": "promotion",
+      "20": "promotion",
+      "21": "promotion",
+      "22": "promotion"
+    },
+    "frame_match": {
+      "4": "match",
+      "5": "match",
+      "7": "match",
+      "8": "switch_to_promotion",
+      "10": "match",
+      "12": "match",
+      "14": "match",
+      "16": "unclassified",
+      "18": "match",
+      "20": "match",
+      "22": "match"
+    },
+    "other_concepts": [
+      {
+        "where": "turn",
+        "id": 15,
+        "code": "PR-CONCEPT",
+        "name": "personal funding",
+        "clock": "4:30"
+      },
+      {
+        "where": "turn",
+        "id": 16,
+        "code": "RS-CONCEPT",
+        "name": "personal funding",
+        "clock": "4:34"
+      },
+      {
+        "where": "exchange",
+        "id": 5,
+        "code": "EX-TOPIC",
+        "name": "personal money invested",
+        "clock": "4:30"
+      }
+    ]
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Millie"
+      },
+      {
+        "actor_id": "F2",
+        "role": "founder",
+        "label": "Taylor"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Kendra Scott"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Lori Greiner"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Daymond John"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Mark Cuban"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 16.0,
+        "end_s": 107.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 15.0,
+        "kind": "teaser"
+      },
+      {
+        "start_s": 560.0,
+        "end_s": 590.0,
+        "kind": "recap"
+      }
+    ],
+    "gaps": [
+      {
+        "at_s": 374.0,
+        "note": "Edit before Kevin speaks."
+      }
+    ],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 41.0,
+        "note": "Founders maintain bright, smiling expressions and upbeat vocal delivery throughout most of the pitch."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 56.0,
+        "note": "Strong vocal energy and animated gestures when introducing the product's features."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 18.0,
+        "note": "Friendly, conversational opening with the panel establishes an approachable demeanor."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "1",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "A foldable fitness mat that provides extra thickness and doubles as a support block for workouts.",
+      "primary_industry": "sports_leisure",
+      "secondary_industries": [],
+      "product_form": "physical_good",
+      "customer_type": "consumer",
+      "founder_gender": "all_women",
+      "product_category": "fitness mat",
+      "earliest_s": 25.0,
+      "note": "Founders demonstrate the mat folding into a block for exercises.",
+      "ask_amount_usd": 100000,
+      "ask_equity_pct": 10.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 16.0,
+        "end_s": 107.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The founders introduce their foldable fitness mat, demonstrate its uses, and state their ask."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "S3",
+        "start_s": 108.0,
+        "end_s": 109.0,
+        "function": "accepts",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori praises the founders for a good job on the pitch."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "S1",
+        "start_s": 116.0,
+        "end_s": 124.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks what is unique about their mat compared to the many foldable mats already available."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "F2",
+        "start_s": 125.0,
+        "end_s": 152.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          3
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "4",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Taylor explains that their mat bridges the gap between heavy gymnastics mats and standard rolled yoga mats."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "F1",
+        "start_s": 153.0,
+        "end_s": 192.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          3
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "partial",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Millie shares the background of how they met and developed the mat during the pandemic while working out at home."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "S2",
+        "start_s": 192.0,
+        "end_s": 196.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kendra asks about the cost to make the mat and its retail price."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "F2",
+        "start_s": 197.0,
+        "end_s": 205.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          6
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Taylor states the mat costs $14.90 to make, lands at $21.50, and sells for $86."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "F1",
+        "start_s": 209.0,
+        "end_s": 215.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          6
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "partial",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Millie adds that they sell direct-to-consumer through their website and rely on organic content for marketing."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "S1",
+        "start_s": 216.0,
+        "end_s": 221.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks them to prove the product has merit by sharing their sales figures."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "F2",
+        "start_s": 222.0,
+        "end_s": 226.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          9
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Taylor reports that they have done over $110,000 in sales in six and a half months."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "S1",
+        "start_s": 231.0,
+        "end_s": 238.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks what price points he would see if he searched online for a Pilates mat."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "F2",
+        "start_s": 238.0,
+        "end_s": 254.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          11
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "4",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Taylor explains the market is segmented by materials, and they compete in the premium segment against mats priced from $70 to $130."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "S3",
+        "start_s": 255.0,
+        "end_s": 264.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori points out there are much cheaper mats available made of PVC."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "F2",
+        "start_s": 265.0,
+        "end_s": 269.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          13
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Taylor agrees but notes PVC is toxic and reiterates that their mat doubles as a piece of equipment."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "S2",
+        "start_s": 270.0,
+        "end_s": 273.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "other",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": "personal funding",
+        "summary": "Kendra asks how much of their own money they have invested in the business."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "F2",
+        "start_s": 274.0,
+        "end_s": 276.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          15
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "other",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": "personal funding",
+        "summary": "Taylor replies that they each put in a bit over $25,000 from their savings."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "S1",
+        "start_s": 277.0,
+        "end_s": 279.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks if running the business is their full-time job."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "F1",
+        "start_s": 280.0,
+        "end_s": 288.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          17
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Millie answers that they both have full-time jobs, mentioning her background in sales at startups."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "S5",
+        "start_s": 288.0,
+        "end_s": 290.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks Millie what kind of startups she has worked at."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "F1",
+        "start_s": 291.0,
+        "end_s": 298.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          19
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Millie lists her experience working with restaurants, dentists, and experiential retail startups."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "S5",
+        "start_s": 299.0,
+        "end_s": 305.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark then asks Taylor about her professional background."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "F2",
+        "start_s": 305.0,
+        "end_s": 310.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          21
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Taylor explains she has worked in product for six years on the fintech side."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "S4",
+        "start_s": 316.0,
+        "end_s": 339.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond explains he doesn't know the market well enough and feels other sharks can add more value, so he exits."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "S5",
+        "start_s": 340.0,
+        "end_s": 351.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark reveals he invested in a competing fitness company, Bala, making it a conflict of interest, so he exits."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "S2",
+        "start_s": 352.0,
+        "end_s": 373.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kendra says she doesn't see longevity for her involvement because mats are not frequently repurchased, so she exits."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "S1",
+        "start_s": 376.0,
+        "end_s": 386.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin states that while he likes the founders, it is not a suitable business for him, so he exits."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "S3",
+        "start_s": 396.0,
+        "end_s": 409.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori offers $100k for 15% equity, plus a $1 royalty per unit until she recoups her investment."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "F2",
+        "start_s": 446.0,
+        "end_s": 459.0,
+        "function": "decides",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Taylor counters Lori's offer, asking for $100k for 20% straight equity to avoid a royalty siphoning growth."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "S3",
+        "start_s": 460.0,
+        "end_s": 479.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori explains the royalty won't hurt given their margins, but offers a revised deal of $100k for 25% equity."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "S5",
+        "start_s": 480.0,
+        "end_s": 487.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1",
+          "F2",
+          "S3"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark and Kevin comment on the low valuation implied by Lori's 25% equity offer."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "F1",
+        "start_s": 488.0,
+        "end_s": 494.0,
+        "function": "decides",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Millie counters Lori's revised offer, asking if she would do $150k for 22.5% equity."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "S3",
+        "start_s": 495.0,
+        "end_s": 503.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori rejects the counter, explaining her plan is to sell so many units they won't need the extra cash."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "S1",
+        "start_s": 504.0,
+        "end_s": 513.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin summarizes the founders' options: 25% straight equity or 15% with a $1 royalty."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "F2",
+        "start_s": 514.0,
+        "end_s": 522.0,
+        "function": "decides",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Taylor counters again, asking for $100k for 15% equity with a 35 cent royalty."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "S3",
+        "start_s": 523.0,
+        "end_s": 526.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori revises the royalty amount, offering 75 cents."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "F2",
+        "start_s": 527.0,
+        "end_s": 530.0,
+        "function": "decides",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Taylor and Millie look at each other, and Taylor accepts the 75 cent royalty deal."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "substantive",
+        "topic": "assets",
+        "label": "unique features and origin"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "substantive",
+        "topic": "operating_efficiency",
+        "label": "cost and retail price"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "sales to date"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "substantive",
+        "topic": "competition",
+        "label": "price points vs competitors"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "other",
+        "label": "personal money invested"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "substantive",
+        "topic": "team_capabilities",
+        "label": "full-time commitment"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "substantive",
+        "topic": "self_promotion",
+        "label": "founders' professional backgrounds"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "negotiation",
+        "topic": "NONE",
+        "label": "offers and equity"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S4",
+        "kind": "exit",
+        "time_s": 316.0,
+        "turn_id": 23,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Does not know the market well enough; feels other sharks can add more value."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S5",
+        "kind": "exit",
+        "time_s": 340.0,
+        "turn_id": 24,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Invested in a competing fitness equipment company (Bala)."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S2",
+        "kind": "exit",
+        "time_s": 352.0,
+        "turn_id": 25,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Does not see frequent repeat purchases or longevity for her involvement."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S1",
+        "kind": "exit",
+        "time_s": 376.0,
+        "turn_id": 26,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Likes the founders but does not see it as a suitable business for him."
+      },
+      {
+        "decision_id": 5,
+        "actor": "S3",
+        "kind": "offer",
+        "time_s": 396.0,
+        "turn_id": 27,
+        "offer_id": "O1",
+        "terms": "$100k for 15% equity plus a $1 royalty per unit until $100k is recouped.",
+        "note": "Wants to recoup her investment via a royalty due to the high margins."
+      },
+      {
+        "decision_id": 6,
+        "actor": "F2",
+        "kind": "founder_counters",
+        "time_s": 446.0,
+        "turn_id": 28,
+        "offer_id": "O1",
+        "terms": "$100k for 20% equity.",
+        "note": "Concerned the royalty will siphon cash needed for growth."
+      },
+      {
+        "decision_id": 7,
+        "actor": "S3",
+        "kind": "revises_offer",
+        "time_s": 460.0,
+        "turn_id": 29,
+        "offer_id": "O2",
+        "terms": "$100k for 25% equity.",
+        "note": "Offers a straight equity deal without a royalty."
+      },
+      {
+        "decision_id": 8,
+        "actor": "F1",
+        "kind": "founder_counters",
+        "time_s": 488.0,
+        "turn_id": 31,
+        "offer_id": "O2",
+        "terms": "$150k for 22.5% equity.",
+        "note": "Tries to negotiate a slightly better valuation for giving up more equity."
+      },
+      {
+        "decision_id": 9,
+        "actor": "F2",
+        "kind": "founder_counters",
+        "time_s": 514.0,
+        "turn_id": 34,
+        "offer_id": "O1",
+        "terms": "$100k for 15% equity plus a 35 cent royalty per unit.",
+        "note": "Returns to the royalty structure but asks for a lower per-unit amount."
+      },
+      {
+        "decision_id": 10,
+        "actor": "S3",
+        "kind": "revises_offer",
+        "time_s": 523.0,
+        "turn_id": 35,
+        "offer_id": "O1",
+        "terms": "$100k for 15% equity plus a 75 cent royalty per unit.",
+        "note": "Meets them in the middle on the royalty amount."
+      },
+      {
+        "decision_id": 11,
+        "actor": "F2",
+        "kind": "founder_accepts",
+        "time_s": 527.0,
+        "turn_id": 36,
+        "offer_id": "O1",
+        "terms": "You have a deal.",
+        "note": "Accepts the 75 cent royalty offer."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": "There is a minor edit before Kevin speaks at 6:16."
+  }
+}

@@ -1,0 +1,20 @@
+release_id: demo-support-v1
+status: development
+templates_dir: ../prompts
+books:
+  stage_a:
+    markdown: stage_a_perceived_delivery.md
+    yaml: stage_a_perceived_delivery.yaml
+    template: stage_a_perceived_delivery.j2
+    schema: pipeline.schemas.stage_a_perceived_delivery.StageADeliveryRecord
+  stage_b_panel:
+    markdown: stage_b_panel.md
+    yaml: stage_b_panel.yaml
+    template: panel_full.j2
+    schema: pipeline.schemas.stage_b_panel.PanelRecord
+  venture_context:
+    markdown: venture_context.md
+    yaml: venture_context.yaml
+    template: panel_full.j2
+    schema: pipeline.schemas.stage_b_panel.PanelRecord
+archives: []

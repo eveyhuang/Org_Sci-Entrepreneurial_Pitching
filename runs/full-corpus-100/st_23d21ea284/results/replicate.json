@@ -1,0 +1,1403 @@
+{
+  "pass": "replicate",
+  "unit_key": "panel__st_23d21ea284__replicate",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:15-2:18"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "qa",
+      "3": "qa",
+      "4": "qa",
+      "5": "qa",
+      "6": "qa",
+      "7": "qa",
+      "8": "qa",
+      "9": "qa",
+      "10": "qa",
+      "11": "qa",
+      "12": "qa",
+      "13": "qa",
+      "14": "qa",
+      "15": "qa",
+      "16": "qa",
+      "17": "qa",
+      "18": "qa",
+      "19": "qa",
+      "20": "qa",
+      "21": "qa",
+      "22": "qa",
+      "23": "qa",
+      "24": "qa",
+      "25": "qa",
+      "26": "qa",
+      "27": "none",
+      "28": "none",
+      "29": "none",
+      "30": "none",
+      "31": "none",
+      "32": "none"
+    },
+    "segment_seconds": {
+      "presentation": 123.0,
+      "qa": 232.0,
+      "social": 0.0,
+      "demonstration": 0.0,
+      "negotiation": 0.0,
+      "none": 111.0
+    },
+    "exchange_counts": {
+      "substantive": 8,
+      "social": 0,
+      "demonstration": 0,
+      "negotiation": 0
+    },
+    "turn_frame": {
+      "2": "promotion",
+      "3": "promotion",
+      "4": "promotion",
+      "5": "promotion",
+      "6": "prevention",
+      "7": "prevention",
+      "8": "promotion",
+      "9": "prevention",
+      "10": "promotion",
+      "11": "prevention",
+      "12": "promotion",
+      "13": "promotion",
+      "14": "promotion",
+      "15": "promotion",
+      "16": "prevention",
+      "17": "prevention",
+      "18": "unclassified",
+      "19": "prevention",
+      "20": "promotion",
+      "21": "promotion",
+      "22": "promotion",
+      "24": "prevention",
+      "25": "promotion",
+      "26": "promotion"
+    },
+    "frame_match": {
+      "3": "match",
+      "5": "match",
+      "7": "match",
+      "9": "switch_to_prevention",
+      "11": "switch_to_prevention",
+      "14": "match",
+      "16": "switch_to_prevention",
+      "18": "unclassified",
+      "20": "switch_to_promotion",
+      "22": "match",
+      "26": "match"
+    },
+    "other_concepts": []
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "H1",
+        "role": "host",
+        "label": "Narrator"
+      },
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Dr. Staci Whitman"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Daymond John"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Mark Cuban"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Lori Greiner"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "investor in dark blazer"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 15.0,
+        "end_s": 138.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 14.0,
+        "kind": "teaser"
+      },
+      {
+        "start_s": 499.0,
+        "end_s": 561.0,
+        "kind": "interview"
+      }
+    ],
+    "gaps": [],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 51.0,
+        "note": "Strong positive expression, smiling brightly as she drops confetti from an umbrella."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 90.0,
+        "note": "Sustained engaged excitement, speaking animatedly about the environmental benefits of her product."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 29.0,
+        "note": "Friendly and approachable demeanor, warmly addressing the sharks and smiling frequently."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "1",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "2",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "Compostable dental flossers made from layers of post-consumer recycled paper.",
+      "primary_industry": "health_personal_care",
+      "secondary_industries": [],
+      "product_form": "physical_good",
+      "customer_type": "consumer",
+      "founder_gender": "all_women",
+      "product_category": "dental flossers",
+      "earliest_s": 104.0,
+      "note": "Founder is a pediatric dentist aiming to reduce plastic waste in the dental industry.",
+      "ask_amount_usd": 200000,
+      "ask_equity_pct": 10.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 15.0,
+        "end_s": 138.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 presents Happi Floss, compostable paper dental flossers, seeking $200k for 10 percent equity."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "S4",
+        "start_s": 138.0,
+        "end_s": 141.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S4 asks if the product is similar to existing plastic flossers but made of paper."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "F1",
+        "start_s": 145.0,
+        "end_s": 158.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          2
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 confirms, explaining that most flossers are plastic and her product avoids plastic waste."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "S2",
+        "start_s": 158.0,
+        "end_s": 159.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S2 asks how she came up with the idea for the product."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "F1",
+        "start_s": 159.0,
+        "end_s": 226.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          4
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 shares her origin story from a Hawaii conference and her parents' refusal to use string floss."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "S4",
+        "start_s": 226.0,
+        "end_s": 228.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S4 asks to confirm that the product is not yet available on the market."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "F1",
+        "start_s": 228.0,
+        "end_s": 244.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          6
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 confirms it is a pre-sale prototype and explains her struggle is with manufacturing machinery."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "S1",
+        "start_s": 244.0,
+        "end_s": 276.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S1 asks why she doesn't just license the idea to major dental equipment companies."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "F1",
+        "start_s": 277.0,
+        "end_s": 280.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          8
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "deflects",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 deflects by stating that the margins on floss picks can be up to 50 percent."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "S1",
+        "start_s": 281.0,
+        "end_s": 283.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S1 asks how she plans to sell the product and if she is selling it yet."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "F1",
+        "start_s": 283.0,
+        "end_s": 293.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          10
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 clarifies she is not selling yet, the prototypes are handmade, and she needs manufacturing."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "S1",
+        "start_s": 293.0,
+        "end_s": 297.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S1 asks why she wants to manufacture it herself instead of licensing."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "S4",
+        "start_s": 297.0,
+        "end_s": 298.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S4 interrupts to ask if F1 has a patent for the product."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "F1",
+        "start_s": 298.0,
+        "end_s": 303.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          13
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 states she has utility patents pending in the US, Europe, and Canada."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "S4",
+        "start_s": 303.0,
+        "end_s": 305.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S4 asks what the likelihood is of those pending patents being granted."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "F1",
+        "start_s": 305.0,
+        "end_s": 314.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          15
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 says the likelihood is very high and mentions Humble Co as her biggest competitor."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "S3",
+        "start_s": 314.0,
+        "end_s": 316.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S3 asks how she plans to compete against her biggest competitor."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "F1",
+        "start_s": 316.0,
+        "end_s": 322.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          17
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "deflects",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "1",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 says she needs the Sharks to help her compete."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "S5",
+        "start_s": 322.0,
+        "end_s": 344.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S5 summarizes her challenges: no product, fierce competitor, zero sales, but a $2 million valuation."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "F1",
+        "start_s": 344.0,
+        "end_s": 352.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          19
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 clarifies she has about $100,000 in presales from a crowdfunding campaign."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "S3",
+        "start_s": 352.0,
+        "end_s": 354.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S3 asks what the retail price is for the flossers."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "F1",
+        "start_s": 355.0,
+        "end_s": 359.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          21
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 states they started at $12.99 for a 30-pack, acknowledging it is high."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "S1",
+        "start_s": 359.0,
+        "end_s": 360.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          22
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S1 challenges the high retail price point, calling it crazy."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "F1",
+        "start_s": 360.0,
+        "end_s": 364.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          23
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 explains that scaling up manufacturing will bring the price down."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "S1",
+        "start_s": 364.0,
+        "end_s": 367.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S1 asks why she isn't trying to use an existing manufacturer for the product."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "F1",
+        "start_s": 368.0,
+        "end_s": 378.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          25
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 says she doesn't know who to go to and they aren't interested in her direct-to-consumer product."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "S1",
+        "start_s": 379.0,
+        "end_s": 390.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S1 disagrees with her manufacturing plan, calling it a joke, and exits."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "S4",
+        "start_s": 391.0,
+        "end_s": 425.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S4 agrees F1 should license instead of taking on manufacturing full-time, and exits."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "S5",
+        "start_s": 426.0,
+        "end_s": 439.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S5 says the business is not investable at this moment and exits."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "S2",
+        "start_s": 440.0,
+        "end_s": 464.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S2 says it's too early and he would need 50 percent equity for the tuition money, so he exits."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "S3",
+        "start_s": 468.0,
+        "end_s": 493.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S3 says she lacks business experience and is too dependent on others, and exits."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "F1",
+        "start_s": 494.0,
+        "end_s": 498.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 thanks the panel for their advice and time."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "substantive",
+        "topic": "assets",
+        "label": "paper versus plastic material"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "substantive",
+        "topic": "self_promotion",
+        "label": "founder origin story"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "prototype stage"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "substantive",
+        "topic": "go_to_market",
+        "label": "licensing versus manufacturing"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "assets",
+        "label": "utility patents pending"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "substantive",
+        "topic": "competition",
+        "label": "competing with Humble Co"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "summary of challenges and presales"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "retail price point"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S1",
+        "kind": "exit",
+        "time_s": 379.0,
+        "turn_id": 27,
+        "offer_id": null,
+        "terms": "out",
+        "note": "Disagrees with her manufacturing plan, thinks it is a joke."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S4",
+        "kind": "exit",
+        "time_s": 391.0,
+        "turn_id": 28,
+        "offer_id": null,
+        "terms": "out",
+        "note": "Agrees with Kevin that she should license, manufacturing takes full-time effort."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S5",
+        "kind": "exit",
+        "time_s": 426.0,
+        "turn_id": 29,
+        "offer_id": null,
+        "terms": "out",
+        "note": "Believes the business is not investable at this moment."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S2",
+        "kind": "exit",
+        "time_s": 440.0,
+        "turn_id": 30,
+        "offer_id": null,
+        "terms": "out",
+        "note": "Too early, would be paying for tuition and would need 50 percent equity."
+      },
+      {
+        "decision_id": 5,
+        "actor": "S3",
+        "kind": "exit",
+        "time_s": 468.0,
+        "turn_id": 31,
+        "offer_id": null,
+        "terms": "out",
+        "note": "Founder lacks business experience and is too dependent on someone else."
+      }
+    ],
+    "claim_conflicts": [
+      {
+        "turn_a": 11,
+        "turn_b": 20,
+        "metric": "sales",
+        "note": "Founder states she is not selling yet, but later claims $100k in presales.",
+        "reconciled": true,
+        "reconciled_turn": 20
+      }
+    ],
+    "notes": ""
+  }
+}

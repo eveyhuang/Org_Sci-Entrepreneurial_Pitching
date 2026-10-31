@@ -1,0 +1,1806 @@
+{
+  "pass": "primary",
+  "unit_key": "panel__st_6903c293dd__primary",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:14-1:55"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "demonstration",
+      "3": "qa",
+      "4": "qa",
+      "5": "qa",
+      "6": "qa",
+      "7": "qa",
+      "8": "qa",
+      "9": "qa",
+      "10": "qa",
+      "11": "qa",
+      "12": "qa",
+      "13": "qa",
+      "14": "qa",
+      "15": "qa",
+      "16": "qa",
+      "17": "qa",
+      "18": "qa",
+      "19": "qa",
+      "20": "qa",
+      "21": "qa",
+      "22": "qa",
+      "23": "qa",
+      "24": "qa",
+      "25": "qa",
+      "26": "qa",
+      "27": "qa",
+      "28": "qa",
+      "29": "qa",
+      "30": "qa",
+      "31": "qa",
+      "32": "none",
+      "33": "qa",
+      "34": "negotiation",
+      "35": "negotiation",
+      "36": "none",
+      "37": "qa",
+      "38": "qa",
+      "39": "none",
+      "40": "negotiation",
+      "41": "negotiation",
+      "42": "negotiation",
+      "43": "negotiation",
+      "44": "negotiation",
+      "45": "social",
+      "46": "negotiation",
+      "47": "negotiation"
+    },
+    "segment_seconds": {
+      "presentation": 101.0,
+      "qa": 233.0,
+      "social": 2.0,
+      "demonstration": 15.0,
+      "negotiation": 121.0,
+      "none": 52.0
+    },
+    "exchange_counts": {
+      "substantive": 13,
+      "social": 1,
+      "demonstration": 1,
+      "negotiation": 1
+    },
+    "turn_frame": {
+      "3": "promotion",
+      "4": "promotion",
+      "5": "prevention",
+      "6": "prevention",
+      "7": "promotion",
+      "8": "prevention",
+      "9": "promotion",
+      "10": "prevention",
+      "11": "prevention",
+      "12": "prevention",
+      "13": "prevention",
+      "14": "prevention",
+      "15": "prevention",
+      "16": "promotion",
+      "17": "prevention",
+      "20": "promotion",
+      "21": "prevention",
+      "22": "prevention",
+      "23": "promotion",
+      "24": "promotion",
+      "25": "prevention",
+      "26": "prevention",
+      "27": "prevention",
+      "28": "prevention",
+      "29": "unclassified",
+      "30": "unclassified",
+      "33": "promotion"
+    },
+    "frame_match": {
+      "4": "match",
+      "6": "match",
+      "9": "match",
+      "11": "match",
+      "13": "match",
+      "15": "match",
+      "17": "switch_to_prevention",
+      "20": "match",
+      "22": "match",
+      "24": "match",
+      "26": "match",
+      "28": "match",
+      "30": "unclassified"
+    },
+    "other_concepts": []
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "H1",
+        "role": "host",
+        "label": "Narrator"
+      },
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Brett"
+      },
+      {
+        "actor_id": "F2",
+        "role": "founder",
+        "label": "AJ"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Maria Sharapova"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Mark Cuban"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Daymond John"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Lori Greiner"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 14.0,
+        "end_s": 115.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 13.0,
+        "kind": "narration"
+      },
+      {
+        "start_s": 615.0,
+        "end_s": 635.0,
+        "kind": "other"
+      }
+    ],
+    "gaps": [
+      {
+        "at_s": 169.0,
+        "note": "audio edit during sales figure"
+      }
+    ],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 65.0,
+        "note": "F1 delivers most of the pitch with strong positive energy and a clear, friendly tone."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 52.0,
+        "note": "Sustained engagement with the subject, expressing excitement about waking up the dog food industry."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 105.0,
+        "note": "Friendly and approachable presentation style, directly engaging the panel with a warm demeanor."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "1",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "0",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "A dog food seasoning made from human-grade ingredients to make meals more appetizing.",
+      "primary_industry": "pets",
+      "secondary_industries": [],
+      "product_form": "physical_good",
+      "customer_type": "consumer",
+      "founder_gender": "all_men",
+      "product_category": "dog food seasoning",
+      "earliest_s": 18.0,
+      "note": "They are seeking $100,000 for 20% of their company.",
+      "ask_amount_usd": 100000,
+      "ask_equity_pct": 20.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 14.0,
+        "end_s": 115.0,
+        "function": "presents",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 and F2 pitch Shake It Pup, a dog food seasoning made from human-grade ingredients to make dog meals more appetizing."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "F1",
+        "start_s": 115.0,
+        "end_s": 130.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 16,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 hands out samples of the seasoning to the panel for them to examine and taste."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "S1",
+        "start_s": 131.0,
+        "end_s": 134.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S1 asks to confirm that the product is just a seasoning that goes on top of the dog's food."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "F1",
+        "start_s": 134.0,
+        "end_s": 156.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          3
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 confirms and explains that unlike other toppers, this completely coats the food so dogs cannot pick it out."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "S2",
+        "start_s": 156.0,
+        "end_s": 158.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S2 asks what other comparable products are currently out there on the market."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "F1",
+        "start_s": 158.0,
+        "end_s": 164.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          5
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 states their main competitors are wet foods and meat-based freeze-dried toppers."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "S2",
+        "start_s": 164.0,
+        "end_s": 166.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S2 asks to hear the business numbers to prove the concept's traction."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "S1",
+        "start_s": 166.0,
+        "end_s": 167.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S1 asks how long the business has been operating."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "F1",
+        "start_s": 167.0,
+        "end_s": 193.0,
+        "function": "answer",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          7,
+          8
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 states they launched a year ago, made $105,000 in sales, and ran into production issues growing fast."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "S1",
+        "start_s": 193.0,
+        "end_s": 195.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S1 asks to clarify if they completely sold out of their product."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "F1",
+        "start_s": 195.0,
+        "end_s": 197.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          10
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 confirms that they completely sold out."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "S3",
+        "start_s": 197.0,
+        "end_s": 198.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S3 asks if they have found a co-packer yet."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "F1",
+        "start_s": 198.0,
+        "end_s": 200.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          12
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 confirms that they do not currently have a co-packer."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "S4",
+        "start_s": 200.0,
+        "end_s": 202.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S4 asks if they are still operating out of the same small apartment."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "F1",
+        "start_s": 202.0,
+        "end_s": 212.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          14
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 confirms they are, having invested everything back into small equipment out of necessity."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "S4",
+        "start_s": 212.0,
+        "end_s": 213.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S4 asks what the selling price is for each unit."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "F1",
+        "start_s": 213.0,
+        "end_s": 220.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          16
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 answers that it costs $2.45 to make on average and sells for $12.99."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "S3",
+        "start_s": 220.0,
+        "end_s": 221.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          17
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S3 expresses positive surprise at the high selling price."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "S5",
+        "start_s": 221.0,
+        "end_s": 222.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          17
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S5 repeats the selling price in surprise."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "F1",
+        "start_s": 223.0,
+        "end_s": 227.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          16
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 adds that each bottle of seasoning lasts for thirty to sixty meals."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "S3",
+        "start_s": 227.0,
+        "end_s": 229.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S3 points out that F2 is not speaking much and asks what his role in the company is."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "F2",
+        "start_s": 229.0,
+        "end_s": 232.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          21
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F2 explains that he lets F1 do the talking because F1 speaks well and is on top of everything."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "S1",
+        "start_s": 232.0,
+        "end_s": 234.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S1 asks F2 to share his background."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "F2",
+        "start_s": 234.0,
+        "end_s": 272.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          23
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F2 tells the story of meeting F1 in second grade and how the business was inspired by his dog."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "S2",
+        "start_s": 272.0,
+        "end_s": 284.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S2 asks about their current inventory situation, noting that capital is their main challenge."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "F1",
+        "start_s": 284.0,
+        "end_s": 292.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          25
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 states they have about 3,000 bottles, a month and a half supply, and order when they get POs."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "S3",
+        "start_s": 292.0,
+        "end_s": 295.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S3 asks if they have investigated using co-packers in the spice industry."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "F1",
+        "start_s": 295.0,
+        "end_s": 307.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          27
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 confirms they have, noting that minimums are 3,000 bottles per SKU and it drops costs to $2."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "S1",
+        "start_s": 308.0,
+        "end_s": 309.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S1 asks why they need the sharks' investment."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "F1",
+        "start_s": 309.0,
+        "end_s": 320.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          29
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 explains they cannot produce it themselves anymore and need a partner to reduce high packaging costs."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "S3",
+        "start_s": 320.0,
+        "end_s": 337.0,
+        "function": "accepts",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          30
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S3 states he has seen many crazy dog ideas work and is converted to believing in this one."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "F2",
+        "start_s": 338.0,
+        "end_s": 349.0,
+        "function": "NONE",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F2 remarks that dogs eating plain kibble is a massive marketing problem."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "S1",
+        "start_s": 350.0,
+        "end_s": 358.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 12,
+        "responds_to": [
+          32
+        ],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S1 asks why F2 considers it a marketing problem."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "S3",
+        "start_s": 358.0,
+        "end_s": 388.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S3 offers $100,000 for 50 percent equity, citing the early stage and logistical nightmare."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "F1",
+        "start_s": 398.0,
+        "end_s": 402.0,
+        "function": "negotiates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 13,
+        "responds_to": [
+          34
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 repeats the 50 percent equity ask and states he wants to see if there are other offers."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "S4",
+        "start_s": 410.0,
+        "end_s": 428.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S4 states it is a genius idea but believes big dog food companies will copy it, so he exits."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "F2",
+        "start_s": 428.0,
+        "end_s": 440.0,
+        "function": "challenges",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 14,
+        "responds_to": [
+          36
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F2 disputes S4's concern, arguing that big dog food companies will not make toppers that imply their food is bad."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "S2",
+        "start_s": 444.0,
+        "end_s": 453.0,
+        "function": "accepts",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 14,
+        "responds_to": [
+          37
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S2 agrees with F2, stating that the biggest inhibitor is their own ability to manufacture the product."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "S1",
+        "start_s": 454.0,
+        "end_s": 477.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S1 states she loves the brand but feels it is too niche and a second-step process, so she exits."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "S5",
+        "start_s": 480.0,
+        "end_s": 507.0,
+        "function": "accepts",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S5 states she finds the product interesting and likes everything about the idea of making dog food better."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "S5",
+        "start_s": 508.0,
+        "end_s": 536.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S5 offers $100,000 for 3 percent equity, plus a royalty of $1 per unit until recouped, then 25 cents forever."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "S3",
+        "start_s": 539.0,
+        "end_s": 544.0,
+        "function": "negotiates",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 13,
+        "responds_to": [
+          41
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S3 defends his offer by arguing that S5's low equity leaves them without enough capital to succeed."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "S5",
+        "start_s": 546.0,
+        "end_s": 551.0,
+        "function": "negotiates",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 13,
+        "responds_to": [
+          42
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S5 counters that she is providing the capital and will continue to bankroll purchase orders if they do well."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "S2",
+        "start_s": 554.0,
+        "end_s": 574.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S2 offers $100,000 for 25 percent equity, citing his experience with a previous organic dog food deal."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "F1",
+        "start_s": 580.0,
+        "end_s": 582.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 15,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 jokes about needing to consult their dog Cooper about the offers."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "F1",
+        "start_s": 585.0,
+        "end_s": 586.0,
+        "function": "decides",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 13,
+        "responds_to": [
+          44
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 accepts S2's offer."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "F2",
+        "start_s": 586.0,
+        "end_s": 587.0,
+        "function": "decides",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 13,
+        "responds_to": [
+          44
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F2 confirms the acceptance of S2's offer."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "substantive",
+        "topic": "usage",
+        "label": "how the seasoning is applied"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "substantive",
+        "topic": "competition",
+        "label": "comparable products on the market"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "sales numbers and time in business"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "selling out of inventory"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "having a co-packer"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "operating from an apartment"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "unit cost and selling price"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "substantive",
+        "topic": "team_capabilities",
+        "label": "F2's role and background"
+      },
+      {
+        "exchange_id": 9,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "current inventory levels"
+      },
+      {
+        "exchange_id": 10,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "investigating spice co-packers"
+      },
+      {
+        "exchange_id": 11,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "reasons for needing investment"
+      },
+      {
+        "exchange_id": 12,
+        "kind": "substantive",
+        "topic": "go_to_market",
+        "label": "the marketing problem"
+      },
+      {
+        "exchange_id": 13,
+        "kind": "negotiation",
+        "topic": "NONE",
+        "label": "offers and equity"
+      },
+      {
+        "exchange_id": 14,
+        "kind": "substantive",
+        "topic": "competition",
+        "label": "big dog food companies copying"
+      },
+      {
+        "exchange_id": 15,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "consulting the dog"
+      },
+      {
+        "exchange_id": 16,
+        "kind": "demonstration",
+        "topic": "NONE",
+        "label": "handing out samples"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S3",
+        "kind": "offer",
+        "time_s": 358.0,
+        "turn_id": 34,
+        "offer_id": "O1",
+        "terms": "$100,000 for 50%.",
+        "note": "Commensurate with how early stage they are and the nightmare of logistics."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S4",
+        "kind": "exit",
+        "time_s": 410.0,
+        "turn_id": 36,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Believes big dog food companies will enter the market and it will be too hard to fight them."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S1",
+        "kind": "exit",
+        "time_s": 454.0,
+        "turn_id": 39,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Loves the brand but feels it is too niche and a second-step process."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S5",
+        "kind": "offer",
+        "time_s": 508.0,
+        "turn_id": 41,
+        "offer_id": "O2",
+        "terms": "$100,000 for 3% equity and a royalty of $1 per unit until $100k is paid back, then 25 cents in perpetuity.",
+        "note": "Likes the product and wants to bankroll purchase orders."
+      },
+      {
+        "decision_id": 5,
+        "actor": "S2",
+        "kind": "offer",
+        "time_s": 554.0,
+        "turn_id": 44,
+        "offer_id": "O3",
+        "terms": "$100,000 for 25% equity.",
+        "note": "Did a deal with Wild Earth, knows dog owners care about health, and can help them grow."
+      },
+      {
+        "decision_id": 6,
+        "actor": "F1",
+        "kind": "founder_accepts",
+        "time_s": 585.0,
+        "turn_id": 46,
+        "offer_id": "O3",
+        "terms": "I think we have a deal.",
+        "note": "Accepts Mark's offer."
+      },
+      {
+        "decision_id": 7,
+        "actor": "F2",
+        "kind": "founder_accepts",
+        "time_s": 586.0,
+        "turn_id": 47,
+        "offer_id": "O3",
+        "terms": "Done.",
+        "note": "Accepts Mark's offer."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": ""
+  }
+}

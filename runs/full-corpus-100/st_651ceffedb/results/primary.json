@@ -1,0 +1,1665 @@
+{
+  "pass": "primary",
+  "unit_key": "panel__st_651ceffedb__primary",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:40-2:56"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "social",
+      "3": "qa",
+      "4": "qa",
+      "5": "qa",
+      "6": "qa",
+      "7": "qa",
+      "8": "qa",
+      "9": "qa",
+      "10": "qa",
+      "11": "qa",
+      "12": "social",
+      "13": "qa",
+      "14": "qa",
+      "15": "qa",
+      "16": "social",
+      "17": "qa",
+      "18": "qa",
+      "19": "qa",
+      "20": "qa",
+      "21": "qa",
+      "22": "qa",
+      "23": "social",
+      "24": "qa",
+      "25": "qa",
+      "26": "qa",
+      "27": "qa",
+      "28": "qa",
+      "29": "qa",
+      "30": "qa",
+      "31": "qa",
+      "32": "qa",
+      "33": "qa",
+      "34": "qa",
+      "35": "qa",
+      "36": "none",
+      "37": "none",
+      "38": "none",
+      "39": "none",
+      "40": "none",
+      "41": "none"
+    },
+    "segment_seconds": {
+      "presentation": 136.0,
+      "qa": 160.0,
+      "social": 7.0,
+      "demonstration": 0.0,
+      "negotiation": 0.0,
+      "none": 97.0
+    },
+    "exchange_counts": {
+      "substantive": 6,
+      "social": 4,
+      "demonstration": 0,
+      "negotiation": 0
+    },
+    "turn_frame": {
+      "3": "unclassified",
+      "4": "promotion",
+      "5": "prevention",
+      "6": "prevention",
+      "7": "promotion",
+      "8": "promotion",
+      "9": "promotion",
+      "10": "promotion",
+      "11": "unclassified",
+      "13": "unclassified",
+      "14": "unclassified",
+      "17": "unclassified",
+      "18": "prevention",
+      "19": "prevention",
+      "20": "promotion",
+      "21": "prevention",
+      "22": "promotion",
+      "24": "promotion",
+      "25": "promotion",
+      "26": "promotion",
+      "27": "promotion",
+      "28": "prevention",
+      "29": "prevention",
+      "30": "prevention",
+      "31": "prevention",
+      "32": "prevention",
+      "33": "prevention",
+      "34": "prevention",
+      "35": "prevention"
+    },
+    "frame_match": {
+      "4": "unclassified",
+      "6": "match",
+      "8": "match",
+      "10": "match",
+      "14": "unclassified",
+      "19": "match",
+      "22": "match",
+      "25": "match",
+      "27": "match",
+      "29": "match",
+      "31": "match",
+      "33": "match",
+      "35": "match"
+    },
+    "other_concepts": []
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Rick Smith Jr."
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Mark Cuban"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Barbara Corcoran"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Robert Herjavec"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Daymond John"
+      },
+      {
+        "actor_id": "H1",
+        "role": "host",
+        "label": "Narrator"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 40.0,
+        "end_s": 176.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 11.0,
+        "kind": "teaser"
+      },
+      {
+        "start_s": 448.0,
+        "end_s": 475.0,
+        "kind": "recap"
+      }
+    ],
+    "gaps": [],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 93.0,
+        "note": "F1 maintains a very upbeat, smiling, and energetic delivery throughout the performance."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 60.0,
+        "note": "F1 speaks with passion and high energy about creating a family-friendly magic show."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 3,
+        "uncodable": false,
+        "moment_s": 38.0,
+        "note": "F1 is polite and engaging with the panel, especially during the interactive magic tricks."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "2",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "1",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "1",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "A Las Vegas magic and entertainment production show featuring illusions, singers, dancers, and jugglers.",
+      "primary_industry": "sports_leisure",
+      "secondary_industries": [],
+      "product_form": "service",
+      "customer_type": "consumer",
+      "founder_gender": "all_men",
+      "product_category": "Live magic show",
+      "earliest_s": 47.0,
+      "note": "F1 is pitching a live entertainment production rather than a traditional product or company.",
+      "ask_amount_usd": 1500000,
+      "ask_equity_pct": 20.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 40.0,
+        "end_s": 176.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 delivers his prepared pitch, introducing his magic act and asking for $1.5M for 20%."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "S1",
+        "start_s": 176.0,
+        "end_s": 178.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S1 jokes that F1 just burnt his ass during the interactive magic trick."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "S1",
+        "start_s": 179.0,
+        "end_s": 190.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S1 questions the $7.5M valuation implied by the ask."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "F1",
+        "start_s": 191.0,
+        "end_s": 210.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          3
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "forecast",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 explains he projects to gross $12M in the first year from ticket sales."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "S1",
+        "start_s": 210.0,
+        "end_s": 212.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S1 points out that F1 has not actually achieved this yet."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "F1",
+        "start_s": 212.0,
+        "end_s": 219.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          5
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 admits he hasn't done a Vegas show but currently does corporate events."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "S1",
+        "start_s": 219.0,
+        "end_s": 220.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S1 asks how much F1 made last year."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "F1",
+        "start_s": 220.0,
+        "end_s": 223.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          7
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "too_short"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 states he made $200,000 last year."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "S1",
+        "start_s": 223.0,
+        "end_s": 232.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "market_opportunity",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S1 challenges the valuation, noting the high number of competing magicians in Vegas."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "F1",
+        "start_s": 232.0,
+        "end_s": 233.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          9
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "market_opportunity",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "too_short"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 acknowledges there are many magicians in Las Vegas."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "S1",
+        "start_s": 233.0,
+        "end_s": 246.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S1 asks why he shouldn't just fund his own magic show and take 80%."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "S2",
+        "start_s": 246.0,
+        "end_s": 247.0,
+        "function": "social",
+        "addressed": [
+          "UNKNOWN"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S2 laughs at S1's hypothetical proposition."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "S1",
+        "start_s": 247.0,
+        "end_s": 258.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S1 continues, arguing he should make the rules since he puts up all the money."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "F1",
+        "start_s": 258.0,
+        "end_s": 259.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          13
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "partial",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "too_short"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 weakly agrees with S1's point."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "S1",
+        "start_s": 259.0,
+        "end_s": 262.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S1 asserts F1 would just be an employee and could be fired."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "S5",
+        "start_s": 262.0,
+        "end_s": 264.0,
+        "function": "social",
+        "addressed": [
+          "UNKNOWN"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S5 laughs at S1's aggressive hypothetical."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "F1",
+        "start_s": 264.0,
+        "end_s": 270.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          15
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 offers to pay back twice the investment if the show makes money."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "S3",
+        "start_s": 270.0,
+        "end_s": 272.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S3 points out that making the money is the biggest risk."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "F1",
+        "start_s": 272.0,
+        "end_s": 274.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          18
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "partial",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "too_short"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 repeats that the condition is if he makes the money."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "S4",
+        "start_s": 274.0,
+        "end_s": 282.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S4 argues the main risk is that F1 is not a known brand."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "S1",
+        "start_s": 282.0,
+        "end_s": 288.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S1 adds that without a brand, the $1.5M could easily go to zero."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "F1",
+        "start_s": 288.0,
+        "end_s": 294.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          20,
+          21
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "deflects",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "too_short"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 starts to say that every Vegas magician started this way."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "S2",
+        "start_s": 294.0,
+        "end_s": 296.0,
+        "function": "social",
+        "addressed": [
+          "UNKNOWN"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S2 laughs at F1's defense."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "S4",
+        "start_s": 296.0,
+        "end_s": 300.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S4 insists that successful Vegas acts have a brand before they go there."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "F1",
+        "start_s": 300.0,
+        "end_s": 305.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          24
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 disagrees, claiming most magicians had the same story as him."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "S2",
+        "start_s": 305.0,
+        "end_s": 307.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S2 asks why F1 doesn't start in a smaller town first."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "F1",
+        "start_s": 307.0,
+        "end_s": 311.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          26
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "vision",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 says he is open to anything but his dream is to be a feature performer."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "S3",
+        "start_s": 311.0,
+        "end_s": 313.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S3 asks if he just gave up on his Vegas dream."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "F1",
+        "start_s": 313.0,
+        "end_s": 314.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          28
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "partial",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "too_short"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 repeats that he is up for anything."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "S3",
+        "start_s": 314.0,
+        "end_s": 316.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S3 reiterates that he gave up on Las Vegas very quickly."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "F1",
+        "start_s": 316.0,
+        "end_s": 323.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          30
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 denies giving up, citing his three years of work with a publicist."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "S2",
+        "start_s": 323.0,
+        "end_s": 337.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S2 argues publicists just want to be paid and notes Vegas showrooms are expensive."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "F1",
+        "start_s": 337.0,
+        "end_s": 343.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          32
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 states that showroom rent is currently between 6 and 8 thousand dollars a week."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "S2",
+        "start_s": 343.0,
+        "end_s": 344.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S2 expresses surprise at the weekly rent figure."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "F1",
+        "start_s": 344.0,
+        "end_s": 345.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          34
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "too_short"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 confirms the rent is weekly."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "S5",
+        "start_s": 345.0,
+        "end_s": 367.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S5 explains that even top managers struggle in Vegas, calls the proposal absurd, and exits."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "S1",
+        "start_s": 367.0,
+        "end_s": 377.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S1 calls the proposal an insane risk and exits."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "S2",
+        "start_s": 377.0,
+        "end_s": 403.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S2 says F1 set his sights too high and asked for too much money, and exits."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "S4",
+        "start_s": 404.0,
+        "end_s": 422.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S4 praises F1's skills but says success takes years, not one act, and exits."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "S3",
+        "start_s": 426.0,
+        "end_s": 441.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S3 says F1 asked for too much too soon without proof, and exits."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "F1",
+        "start_s": 441.0,
+        "end_s": 447.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 thanks the investors for their time and says he looks forward to seeing them in Vegas."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "Valuation based on projections"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "Past experience and sales"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "Hypothetical deal structure"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "substantive",
+        "topic": "go_to_market",
+        "label": "Lack of brand recognition"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "go_to_market",
+        "label": "Starting in a smaller town"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "substantive",
+        "topic": "operating_efficiency",
+        "label": "Cost of Vegas showrooms"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "Burning S1's pants"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "Laughing at S1's joke"
+      },
+      {
+        "exchange_id": 9,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "Laughing at S1's joke"
+      },
+      {
+        "exchange_id": 10,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "Laughing at F1's comment"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S5",
+        "kind": "exit",
+        "time_s": 366.0,
+        "turn_id": 36,
+        "offer_id": null,
+        "terms": "none",
+        "note": "The market is too challenging even for top managers; the proposal is absurd."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S1",
+        "kind": "exit",
+        "time_s": 376.0,
+        "turn_id": 37,
+        "offer_id": null,
+        "terms": "none",
+        "note": "The proposal is an insane risk, not even a tolerable risk."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S2",
+        "kind": "exit",
+        "time_s": 402.0,
+        "turn_id": 38,
+        "offer_id": null,
+        "terms": "none",
+        "note": "Asked for too much money; set sights too high and it won't work."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S4",
+        "kind": "exit",
+        "time_s": 421.0,
+        "turn_id": 39,
+        "offer_id": null,
+        "terms": "none",
+        "note": "Takes 10-15 years to become an overnight success; won't happen with one act."
+      },
+      {
+        "decision_id": 5,
+        "actor": "S3",
+        "kind": "exit",
+        "time_s": 440.0,
+        "turn_id": 40,
+        "offer_id": null,
+        "terms": "none",
+        "note": "Asked for too much too soon with nothing to prove he could pull it off."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": "F1 performs an extended magic trick with his assistant, singers, and dancers before formally starting the pitch at 0:40."
+  }
+}

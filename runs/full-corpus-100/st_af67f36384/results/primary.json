@@ -1,0 +1,2741 @@
+{
+  "pass": "primary",
+  "unit_key": "panel__st_af67f36384__primary",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:17-1:45"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "presentation",
+      "3": "presentation",
+      "4": "presentation",
+      "5": "presentation",
+      "6": "presentation",
+      "7": "presentation",
+      "8": "presentation",
+      "9": "presentation",
+      "10": "presentation",
+      "11": "presentation",
+      "12": "presentation",
+      "13": "none",
+      "14": "qa",
+      "15": "qa",
+      "16": "qa",
+      "17": "qa",
+      "18": "qa",
+      "19": "qa",
+      "20": "qa",
+      "21": "qa",
+      "22": "qa",
+      "23": "qa",
+      "24": "qa",
+      "25": "qa",
+      "26": "qa",
+      "27": "qa",
+      "28": "qa",
+      "29": "qa",
+      "30": "qa",
+      "31": "social",
+      "32": "social",
+      "33": "qa",
+      "34": "qa",
+      "35": "social",
+      "36": "social",
+      "37": "qa",
+      "38": "qa",
+      "39": "qa",
+      "40": "qa",
+      "41": "qa",
+      "42": "qa",
+      "43": "qa",
+      "44": "qa",
+      "45": "qa",
+      "46": "qa",
+      "47": "qa",
+      "48": "qa",
+      "49": "social",
+      "50": "social",
+      "51": "social",
+      "52": "social",
+      "53": "negotiation",
+      "54": "negotiation",
+      "55": "negotiation",
+      "56": "negotiation",
+      "57": "negotiation",
+      "58": "negotiation",
+      "59": "negotiation",
+      "60": "negotiation",
+      "61": "negotiation",
+      "62": "negotiation",
+      "63": "negotiation",
+      "64": "negotiation",
+      "65": "negotiation",
+      "66": "negotiation",
+      "67": "negotiation",
+      "68": "negotiation",
+      "69": "negotiation",
+      "70": "negotiation",
+      "71": "negotiation",
+      "72": "negotiation",
+      "73": "negotiation",
+      "74": "negotiation",
+      "75": "negotiation",
+      "76": "negotiation",
+      "77": "negotiation",
+      "78": "negotiation",
+      "79": "negotiation",
+      "80": "negotiation",
+      "81": "negotiation",
+      "82": "negotiation",
+      "83": "negotiation",
+      "84": "negotiation",
+      "85": "social"
+    },
+    "segment_seconds": {
+      "presentation": 76.0,
+      "qa": 230.0,
+      "social": 53.0,
+      "demonstration": 0.0,
+      "negotiation": 207.0,
+      "none": 1.0
+    },
+    "exchange_counts": {
+      "substantive": 12,
+      "social": 4,
+      "demonstration": 0,
+      "negotiation": 1
+    },
+    "turn_frame": {
+      "14": "prevention",
+      "15": "prevention",
+      "16": "promotion",
+      "17": "promotion",
+      "18": "prevention",
+      "19": "prevention",
+      "20": "promotion",
+      "22": "promotion",
+      "23": "prevention",
+      "24": "prevention",
+      "25": "promotion",
+      "26": "promotion",
+      "27": "prevention",
+      "28": "prevention",
+      "29": "prevention",
+      "30": "prevention",
+      "33": "promotion",
+      "34": "promotion",
+      "37": "promotion",
+      "38": "promotion",
+      "39": "promotion",
+      "40": "promotion",
+      "41": "NEUTRAL",
+      "42": "NEUTRAL",
+      "43": "promotion",
+      "44": "promotion",
+      "45": "prevention",
+      "46": "prevention",
+      "47": "unclassified",
+      "48": "unclassified",
+      "55": "unclassified",
+      "56": "unclassified",
+      "57": "unclassified",
+      "58": "unclassified",
+      "64": "unclassified",
+      "65": "unclassified",
+      "66": "unclassified",
+      "67": "unclassified",
+      "71": "unclassified"
+    },
+    "frame_match": {
+      "15": "match",
+      "17": "match",
+      "19": "match",
+      "22": "match",
+      "24": "match",
+      "26": "match",
+      "28": "match",
+      "30": "match",
+      "34": "match",
+      "38": "match",
+      "40": "match",
+      "42": "neutral",
+      "44": "match",
+      "46": "match",
+      "48": "unclassified",
+      "56": "unclassified",
+      "58": "unclassified",
+      "65": "unclassified",
+      "67": "unclassified"
+    },
+    "other_concepts": []
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Mark Singer"
+      },
+      {
+        "actor_id": "F2",
+        "role": "founder",
+        "label": "Kenzo Singer"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Barbara Corcoran"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Daymond John"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Mark Cuban"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Lori Greiner"
+      },
+      {
+        "actor_id": "H1",
+        "role": "host",
+        "label": "Narrator"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 17.0,
+        "end_s": 105.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 17.0,
+        "kind": "narration"
+      },
+      {
+        "start_s": 710.0,
+        "end_s": 764.0,
+        "kind": "recap"
+      }
+    ],
+    "gaps": [
+      {
+        "at_s": 604.0,
+        "note": "The founders step into the hallway to privately discuss the multi-shark deal."
+      },
+      {
+        "at_s": 649.0,
+        "note": "The founders return to the tank after their hallway discussion."
+      }
+    ],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 50.0,
+        "note": "The presenting team communicates a strong, positive, and engaging demeanor throughout the pitch."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 86.0,
+        "note": "The founders show sustained engagement and excitement when demonstrating the product and listing their awards."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 40.0,
+        "note": "The team presents in a friendly, approachable manner, sharing personal anecdotes warmly."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "5",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "1",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "2",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "Wearable reading glasses that wrap around the wrist and snap open when needed.",
+      "primary_industry": "health_personal_care",
+      "secondary_industries": [
+        "apparel_accessories"
+      ],
+      "product_form": "physical_good",
+      "customer_type": "consumer",
+      "founder_gender": "all_men",
+      "product_category": "Wearable reading glasses",
+      "earliest_s": 28.0,
+      "note": "The product is reading glasses that function as a wrist accessory.",
+      "ask_amount_usd": 25000,
+      "ask_equity_pct": 5.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 17.0,
+        "end_s": 19.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark introduces himself to the panel."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "F2",
+        "start_s": 19.0,
+        "end_s": 38.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kenzo introduces himself, states the ask, and opens with a question about unrelated food items."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "F1",
+        "start_s": 39.0,
+        "end_s": 48.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark explains they were bought by mistake because he forgot his reading glasses."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "F2",
+        "start_s": 49.0,
+        "end_s": 57.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kenzo describes the frustration people have when they need reading glasses but do not have them."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "F1",
+        "start_s": 58.0,
+        "end_s": 72.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark demonstrates how the reading glasses wrap around the wrist and snap open to be worn."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "F2",
+        "start_s": 74.0,
+        "end_s": 76.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kenzo asks his father to show the mechanism one more time."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "F1",
+        "start_s": 77.0,
+        "end_s": 81.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark demonstrates the glasses snapping open and closed again."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "F2",
+        "start_s": 81.0,
+        "end_s": 83.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kenzo explains that the patented design allows the glasses to spring open and snap shut."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "F2",
+        "start_s": 86.0,
+        "end_s": 89.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kenzo mentions the product has received four international design awards."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "F1",
+        "start_s": 89.0,
+        "end_s": 93.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark adds that the reading glasses are fashionable."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "F1",
+        "start_s": 96.0,
+        "end_s": 98.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark asks which investor is interested in forming a strategic partnership."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "F2",
+        "start_s": 98.0,
+        "end_s": 105.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kenzo invites the panel to try the samples provided in front of them."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "S4",
+        "start_s": 106.0,
+        "end_s": 107.0,
+        "function": "accepts",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark Cuban praises the presentation as the best pitch ever."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "S2",
+        "start_s": 109.0,
+        "end_s": 117.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Barbara asks if the wristbands come in different sizes to fit various wrists."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "F2",
+        "start_s": 118.0,
+        "end_s": 124.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          14
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kenzo explains they are starting with a universal one-size-fits-all model that covers the vast majority of the population."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "S2",
+        "start_s": 125.0,
+        "end_s": 128.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Barbara asks if they hold a utility patent on the design."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "F1",
+        "start_s": 129.0,
+        "end_s": 136.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          16
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark confirms they have utility patents in the US, China, and Japan, with European countries pending."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "S1",
+        "start_s": 137.0,
+        "end_s": 141.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks if the grippers on the band leave a mark on the skin after extended wear."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "F1",
+        "start_s": 142.0,
+        "end_s": 150.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          18
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark explains he wears them constantly and while they may leave a slight mark, it is not bothersome."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "S4",
+        "start_s": 151.0,
+        "end_s": 152.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark Cuban notes that the glasses are intended for on-the-go use rather than long-term reading."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "S2",
+        "start_s": 153.0,
+        "end_s": 154.0,
+        "function": "accepts",
+        "addressed": [
+          "S4",
+          "F2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          20
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara agrees with Mark Cuban that they are meant for on-the-go use."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "F2",
+        "start_s": 154.0,
+        "end_s": 162.0,
+        "function": "answer",
+        "addressed": [
+          "S4",
+          "S2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          20
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kenzo confirms they are designed for the many brief moments a day when someone quickly needs to read something."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "S4",
+        "start_s": 163.0,
+        "end_s": 164.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark Cuban asks for the manufacturing cost and the retail selling price."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "F2",
+        "start_s": 165.0,
+        "end_s": 172.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          23
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kenzo states that they cost thirty dollars and fifty cents landed and sell for one hundred ten dollars online."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "S3",
+        "start_s": 173.0,
+        "end_s": 174.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Daymond asks Mark if he is an inventor by trade."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "F1",
+        "start_s": 174.0,
+        "end_s": 189.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          25
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark explains it was born of a personal need when he kept forgetting his reading glasses."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "S2",
+        "start_s": 194.0,
+        "end_s": 195.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Barbara asks Kenzo if he has a background in engineering."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "F2",
+        "start_s": 195.0,
+        "end_s": 199.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          27
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kenzo confirms he holds a bachelor's and a master's degree in structural engineering from Cornell University."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "S2",
+        "start_s": 200.0,
+        "end_s": 201.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Barbara asks Kenzo how he developed the idea for the mechanism."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "F2",
+        "start_s": 202.0,
+        "end_s": 229.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          29
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kenzo explains he applied the physics principles used in skyscrapers to the small scale of the glasses."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "S2",
+        "start_s": 231.0,
+        "end_s": 232.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara jokingly asks Mark for his reaction to being outwitted by his son."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "F1",
+        "start_s": 236.0,
+        "end_s": 241.0,
+        "function": "social",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          31
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark jokes that starting a business is tough but doing it with a child is even harder."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "S2",
+        "start_s": 242.0,
+        "end_s": 244.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Barbara asks Mark to share his own background since they had not heard it yet."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "F1",
+        "start_s": 244.0,
+        "end_s": 270.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          33
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark shares he left home early, worked as a woodworker, and eventually founded several companies including Gorilla Glue."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "S2",
+        "start_s": 271.0,
+        "end_s": 272.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara expresses extreme surprise at Mark being the founder of Gorilla Glue."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "F1",
+        "start_s": 273.0,
+        "end_s": 279.0,
+        "function": "social",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          35
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark confirms and jokes with the panel about the famous glue brand."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "S3",
+        "start_s": 280.0,
+        "end_s": 282.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Daymond asks Mark if he sold the company, noting its massive current scale."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "F1",
+        "start_s": 282.0,
+        "end_s": 284.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          37
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark confirms that he sold the company years ago."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "S1",
+        "start_s": 285.0,
+        "end_s": 286.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks Mark if the sale resulted in a good financial outcome for him."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "F1",
+        "start_s": 287.0,
+        "end_s": 291.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          39
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark explains that every company he has sold included a royalty component, which worked out very well."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "S1",
+        "start_s": 294.0,
+        "end_s": 295.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "NONE",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks Mark to verify that he mentioned a royalty."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "F1",
+        "start_s": 295.0,
+        "end_s": 296.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          41
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "NONE",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "1",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark confirms that he did indeed say royalty."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "S5",
+        "start_s": 298.0,
+        "end_s": 300.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks for details regarding their sales figures and how many units they have sold."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "F2",
+        "start_s": 301.0,
+        "end_s": 337.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 12,
+        "responds_to": [
+          43
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kenzo details their recent website launch, twenty-eight thousand dollars in sales, and their profitable ad spend testing."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "S2",
+        "start_s": 338.0,
+        "end_s": 340.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Barbara asks Mark how much of his own money he has invested in the business."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "F1",
+        "start_s": 341.0,
+        "end_s": 344.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 13,
+        "responds_to": [
+          45
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark reveals he has put about six hundred thirty thousand dollars into the company."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "S3",
+        "start_s": 345.0,
+        "end_s": 351.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 14,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Daymond asks Mark why he needs a shark if he already has substantial funds."
+      },
+      {
+        "turn_id": 48,
+        "speaker": "F1",
+        "start_s": 352.0,
+        "end_s": 391.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 14,
+        "responds_to": [
+          47
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark explains that his time is passed to build another company, and he wants to leave his son in good hands."
+      },
+      {
+        "turn_id": 49,
+        "speaker": "S2",
+        "start_s": 392.0,
+        "end_s": 393.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 15,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara expresses strong endearment toward Mark after his heartfelt explanation."
+      },
+      {
+        "turn_id": 50,
+        "speaker": "S1",
+        "start_s": 394.0,
+        "end_s": 397.0,
+        "function": "accepts",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 15,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin states his clear intention to make the founders an offer."
+      },
+      {
+        "turn_id": 51,
+        "speaker": "S5",
+        "start_s": 398.0,
+        "end_s": 403.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 15,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori becomes visibly emotional and apologizes while crying."
+      },
+      {
+        "turn_id": 52,
+        "speaker": "S5",
+        "start_s": 404.0,
+        "end_s": 432.0,
+        "function": "accepts",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 15,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori explains that Mark's desire to secure his son's future deeply touched her, and expresses her strong interest."
+      },
+      {
+        "turn_id": 53,
+        "speaker": "S5",
+        "start_s": 433.0,
+        "end_s": 456.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 16,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori offers twenty-five thousand dollars for a ten percent stake, citing her expertise in the business."
+      },
+      {
+        "turn_id": 54,
+        "speaker": "S1",
+        "start_s": 458.0,
+        "end_s": 479.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 16,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin offers fifty thousand dollars for a ten percent stake, praising the product's social media potential."
+      },
+      {
+        "turn_id": 55,
+        "speaker": "S4",
+        "start_s": 480.0,
+        "end_s": 487.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 16,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark Cuban asks the founders what their decision-making criteria are for choosing a partner."
+      },
+      {
+        "turn_id": 56,
+        "speaker": "F2",
+        "start_s": 488.0,
+        "end_s": 495.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 16,
+        "responds_to": [
+          55
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kenzo explains they need the know-how to successfully distribute the product."
+      },
+      {
+        "turn_id": 57,
+        "speaker": "S2",
+        "start_s": 496.0,
+        "end_s": 501.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 16,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Barbara asks Mark directly whether he would prefer Lori or Kevin as a mentor for his son."
+      },
+      {
+        "turn_id": 58,
+        "speaker": "F1",
+        "start_s": 503.0,
+        "end_s": 505.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 16,
+        "responds_to": [
+          57
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "partial",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark deflects choosing one, stating they are open to all of the above or multiple partners."
+      },
+      {
+        "turn_id": 59,
+        "speaker": "S4",
+        "start_s": 506.0,
+        "end_s": 523.0,
+        "function": "accepts",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 16,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark Cuban notes the founders have flexibility because it is a great deal with retail, online, and licensing components."
+      },
+      {
+        "turn_id": 60,
+        "speaker": "F1",
+        "start_s": 520.0,
+        "end_s": 522.0,
+        "function": "negotiates",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 16,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark agrees that licensing the technology is a major opportunity for the business."
+      },
+      {
+        "turn_id": 61,
+        "speaker": "S3",
+        "start_s": 524.0,
+        "end_s": 535.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2",
+          "S5"
+        ],
+        "exchange_id": 16,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond offers to join Lori's deal, doubling whatever she has if she allows him in."
+      },
+      {
+        "turn_id": 62,
+        "speaker": "S5",
+        "start_s": 536.0,
+        "end_s": 540.0,
+        "function": "negotiates",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 16,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori states she would be happy to work with Daymond on the deal."
+      },
+      {
+        "turn_id": 63,
+        "speaker": "F1",
+        "start_s": 541.0,
+        "end_s": 548.0,
+        "function": "negotiates",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 16,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark tells Lori that ten percent equity is too high, despite the invaluable expertise the sharks bring."
+      },
+      {
+        "turn_id": 64,
+        "speaker": "S1",
+        "start_s": 549.0,
+        "end_s": 550.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 16,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks Mark to clarify if he is unwilling to give up that much equity."
+      },
+      {
+        "turn_id": 65,
+        "speaker": "F1",
+        "start_s": 551.0,
+        "end_s": 551.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 16,
+        "responds_to": [
+          64
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "1",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark briefly confirms that Kevin's understanding is correct."
+      },
+      {
+        "turn_id": 66,
+        "speaker": "S1",
+        "start_s": 552.0,
+        "end_s": 558.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 16,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks if Mark would be willing to give up ten percent if he got three sharks."
+      },
+      {
+        "turn_id": 67,
+        "speaker": "F1",
+        "start_s": 559.0,
+        "end_s": 559.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 16,
+        "responds_to": [
+          66
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "1",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark briefly agrees to the idea of three sharks for ten percent."
+      },
+      {
+        "turn_id": 68,
+        "speaker": "S1",
+        "start_s": 561.0,
+        "end_s": 562.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 16,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin proposes they do the deal with him included in the syndicate."
+      },
+      {
+        "turn_id": 69,
+        "speaker": "S4",
+        "start_s": 564.0,
+        "end_s": 566.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 16,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark Cuban declares he would love to be in the deal too."
+      },
+      {
+        "turn_id": 70,
+        "speaker": "S2",
+        "start_s": 567.0,
+        "end_s": 569.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 16,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara states she does not want to be left out of the deal."
+      },
+      {
+        "turn_id": 71,
+        "speaker": "S1",
+        "start_s": 570.0,
+        "end_s": 575.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 16,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks Mark what equity he would give up to have all five sharks."
+      },
+      {
+        "turn_id": 72,
+        "speaker": "F1",
+        "start_s": 576.0,
+        "end_s": 580.0,
+        "function": "negotiates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 16,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark throws the question back to the panel, asking what terms would work for all five."
+      },
+      {
+        "turn_id": 73,
+        "speaker": "S4",
+        "start_s": 581.0,
+        "end_s": 599.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 16,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark Cuban suggests the founders step into the hall so the sharks can discuss a joint offer."
+      },
+      {
+        "turn_id": 74,
+        "speaker": "F2",
+        "start_s": 600.0,
+        "end_s": 603.0,
+        "function": "negotiates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 16,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kenzo agrees and asks for a second to step out."
+      },
+      {
+        "turn_id": 75,
+        "speaker": "F2",
+        "start_s": 610.0,
+        "end_s": 616.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 16,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "In the hallway, Kenzo tells his father he does not want to give up more than fifteen percent."
+      },
+      {
+        "turn_id": 76,
+        "speaker": "F1",
+        "start_s": 616.0,
+        "end_s": 617.0,
+        "function": "negotiates",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 16,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark tells Kenzo to let the sharks work it out."
+      },
+      {
+        "turn_id": 77,
+        "speaker": "S4",
+        "start_s": 617.0,
+        "end_s": 635.0,
+        "function": "negotiates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 16,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "In the tank, Mark Cuban proposes a twenty-five percent total equity split among the five sharks."
+      },
+      {
+        "turn_id": 78,
+        "speaker": "S2",
+        "start_s": 636.0,
+        "end_s": 640.0,
+        "function": "negotiates",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 16,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara points out the founder never said he would entertain twenty-five percent."
+      },
+      {
+        "turn_id": 79,
+        "speaker": "S4",
+        "start_s": 641.0,
+        "end_s": 642.0,
+        "function": "negotiates",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 16,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark Cuban replies that they are going to find out if he will accept it."
+      },
+      {
+        "turn_id": 80,
+        "speaker": "S4",
+        "start_s": 658.0,
+        "end_s": 673.0,
+        "function": "accepts",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 16,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark Cuban welcomes them back, noting it is unprecedented that all five sharks want to back them."
+      },
+      {
+        "turn_id": 81,
+        "speaker": "S5",
+        "start_s": 674.0,
+        "end_s": 684.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 16,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori offers them one hundred twenty-five thousand dollars for twenty-five percent for all five sharks."
+      },
+      {
+        "turn_id": 82,
+        "speaker": "F2",
+        "start_s": 696.0,
+        "end_s": 699.0,
+        "function": "decides",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 16,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kenzo counters the five-shark offer, proposing twenty percent equity instead."
+      },
+      {
+        "turn_id": 83,
+        "speaker": "S5",
+        "start_s": 704.0,
+        "end_s": 704.0,
+        "function": "decides",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 16,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori accepts the founders' counter-offer on behalf of the panel."
+      },
+      {
+        "turn_id": 84,
+        "speaker": "F2",
+        "start_s": 705.0,
+        "end_s": 706.0,
+        "function": "decides",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 16,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kenzo enthusiastically accepts the revised five-shark deal."
+      },
+      {
+        "turn_id": 85,
+        "speaker": "S1",
+        "start_s": 707.0,
+        "end_s": 710.0,
+        "function": "social",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 17,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin and the other sharks congratulate the founders on closing the deal."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "sizes and fit"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "substantive",
+        "topic": "assets",
+        "label": "patent protection"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "comfort and marks"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "substantive",
+        "topic": "usage",
+        "label": "use cases on the go"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "operating_efficiency",
+        "label": "cost and price"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "substantive",
+        "topic": "self_promotion",
+        "label": "founder background"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "substantive",
+        "topic": "team_capabilities",
+        "label": "engineering background"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "design process"
+      },
+      {
+        "exchange_id": 9,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "reaction to son outwitting"
+      },
+      {
+        "exchange_id": 10,
+        "kind": "substantive",
+        "topic": "self_promotion",
+        "label": "Mark's background and exits"
+      },
+      {
+        "exchange_id": 11,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "Gorilla glue surprise"
+      },
+      {
+        "exchange_id": 12,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "current sales and profit"
+      },
+      {
+        "exchange_id": 13,
+        "kind": "substantive",
+        "topic": "operating_efficiency",
+        "label": "money invested"
+      },
+      {
+        "exchange_id": 14,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "reason for seeking a shark"
+      },
+      {
+        "exchange_id": 15,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "emotional reactions and praise"
+      },
+      {
+        "exchange_id": 16,
+        "kind": "negotiation",
+        "topic": "NONE",
+        "label": "offers and syndicate terms"
+      },
+      {
+        "exchange_id": 17,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "congratulations"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S5",
+        "kind": "offer",
+        "time_s": 433.0,
+        "turn_id": 53,
+        "offer_id": "O1",
+        "terms": "$25,000 for 10%",
+        "note": "Lori offers to invest because she knows the business and can put her heart behind it."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S1",
+        "kind": "offer",
+        "time_s": 458.0,
+        "turn_id": 54,
+        "offer_id": "O2",
+        "terms": "$50,000 for 10%",
+        "note": "Kevin makes a competing offer because he is impressed with them."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S3",
+        "kind": "joins_offer",
+        "time_s": 524.0,
+        "turn_id": 61,
+        "offer_id": "O1",
+        "terms": "Double whatever she has",
+        "note": "Daymond offers to join Lori's deal, doubling the investment amount."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S1",
+        "kind": "offer",
+        "time_s": 561.0,
+        "turn_id": 68,
+        "offer_id": "O3",
+        "terms": "3 sharks for 10%",
+        "note": "Kevin proposes a syndicate of three sharks for ten percent total equity."
+      },
+      {
+        "decision_id": 5,
+        "actor": "S4",
+        "kind": "joins_offer",
+        "time_s": 564.0,
+        "turn_id": 69,
+        "offer_id": "O3",
+        "terms": "3 sharks for 10%",
+        "note": "Mark joins Kevin's proposed syndicate."
+      },
+      {
+        "decision_id": 6,
+        "actor": "S2",
+        "kind": "joins_offer",
+        "time_s": 567.0,
+        "turn_id": 70,
+        "offer_id": "O3",
+        "terms": "3 sharks for 10%",
+        "note": "Barbara joins the proposed syndicate."
+      },
+      {
+        "decision_id": 7,
+        "actor": "S5",
+        "kind": "offer",
+        "time_s": 674.0,
+        "turn_id": 81,
+        "offer_id": "O4",
+        "terms": "$125,000 for 25%",
+        "note": "Lori offers a deal including all five sharks for twenty-five percent equity."
+      },
+      {
+        "decision_id": 8,
+        "actor": "F2",
+        "kind": "founder_counters",
+        "time_s": 696.0,
+        "turn_id": 82,
+        "offer_id": "O4",
+        "terms": "20%",
+        "note": "Kenzo counters the five-shark offer, asking to give up twenty percent instead."
+      },
+      {
+        "decision_id": 9,
+        "actor": "S5",
+        "kind": "revises_offer",
+        "time_s": 704.0,
+        "turn_id": 83,
+        "offer_id": "O4",
+        "terms": "$125,000 for 20%",
+        "note": "Lori accepts the founders' counter on behalf of the panel."
+      },
+      {
+        "decision_id": 10,
+        "actor": "F2",
+        "kind": "founder_accepts",
+        "time_s": 705.0,
+        "turn_id": 84,
+        "offer_id": "O4",
+        "terms": "$125,000 for 20%",
+        "note": "Kenzo enthusiastically accepts the revised five-shark deal."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": "The founders step into the hallway during the negotiation to discuss the terms privately, which is included as part of the encounter."
+  }
+}

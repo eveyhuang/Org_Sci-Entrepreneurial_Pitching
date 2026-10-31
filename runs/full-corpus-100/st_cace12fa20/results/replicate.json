@@ -1,0 +1,1848 @@
+{
+  "pass": "replicate",
+  "unit_key": "panel__st_cace12fa20__replicate",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:16-2:01"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "social",
+      "3": "social",
+      "4": "social",
+      "5": "qa",
+      "6": "qa",
+      "7": "demonstration",
+      "8": "demonstration",
+      "9": "qa",
+      "10": "qa",
+      "11": "qa",
+      "12": "qa",
+      "13": "qa",
+      "14": "qa",
+      "15": "qa",
+      "16": "qa",
+      "17": "qa",
+      "18": "qa",
+      "19": "qa",
+      "20": "qa",
+      "21": "qa",
+      "22": "social",
+      "23": "qa",
+      "24": "qa",
+      "25": "qa",
+      "26": "qa",
+      "27": "qa",
+      "28": "qa",
+      "29": "qa",
+      "30": "qa",
+      "31": "qa",
+      "32": "qa",
+      "33": "qa",
+      "34": "qa",
+      "35": "qa",
+      "36": "none",
+      "37": "none",
+      "38": "none",
+      "39": "none",
+      "40": "none",
+      "41": "none",
+      "42": "none",
+      "43": "none",
+      "44": "qa",
+      "45": "qa",
+      "46": "none",
+      "47": "none",
+      "48": "social",
+      "49": "social"
+    },
+    "segment_seconds": {
+      "presentation": 105.0,
+      "qa": 150.0,
+      "social": 12.0,
+      "demonstration": 9.0,
+      "negotiation": 0.0,
+      "none": 149.0
+    },
+    "exchange_counts": {
+      "substantive": 7,
+      "social": 3,
+      "demonstration": 1,
+      "negotiation": 0
+    },
+    "turn_frame": {
+      "5": "promotion",
+      "6": "promotion",
+      "9": "prevention",
+      "10": "prevention",
+      "11": "prevention",
+      "12": "prevention",
+      "13": "prevention",
+      "14": "prevention",
+      "15": "prevention",
+      "16": "prevention",
+      "18": "promotion",
+      "19": "promotion",
+      "20": "promotion",
+      "21": "promotion",
+      "23": "promotion",
+      "24": "promotion",
+      "25": "promotion",
+      "26": "promotion",
+      "27": "promotion",
+      "28": "promotion",
+      "29": "prevention",
+      "30": "prevention",
+      "32": "prevention",
+      "33": "prevention",
+      "34": "prevention",
+      "35": "prevention",
+      "44": "promotion",
+      "45": "promotion"
+    },
+    "frame_match": {
+      "6": "match",
+      "10": "match",
+      "12": "match",
+      "14": "match",
+      "16": "match",
+      "19": "match",
+      "21": "match",
+      "23": "match",
+      "24": "match",
+      "26": "match",
+      "28": "match",
+      "30": "match",
+      "33": "match",
+      "35": "match",
+      "45": "match"
+    },
+    "other_concepts": []
+  },
+  "normalizations": [
+    "turns[13].codes PREP-COH: value 'not_applicable' dropped because missing is 'not_applicable'",
+    "turns[13].codes PREP-CTX: value 'not_applicable' dropped because missing is 'not_applicable'",
+    "turns[27].codes PREP-COH: value 'not_applicable' dropped because missing is 'not_applicable'",
+    "turns[27].codes PREP-CTX: value 'not_applicable' dropped because missing is 'not_applicable'",
+    "turns[32].codes PREP-COH: value 'not_applicable' dropped because missing is 'not_applicable'",
+    "turns[32].codes PREP-CTX: value 'not_applicable' dropped because missing is 'not_applicable'"
+  ],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "H1",
+        "role": "host",
+        "label": "Narrator"
+      },
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Pete Badawy"
+      },
+      {
+        "actor_id": "F2",
+        "role": "founder",
+        "label": "Bianca Badawy"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Daymond John"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Lori Greiner"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Mark Cuban"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Blake Mycoskie"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 16.0,
+        "end_s": 121.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 15.0,
+        "kind": "narration"
+      },
+      {
+        "start_s": 480.0,
+        "end_s": 530.0,
+        "kind": "recap"
+      }
+    ],
+    "gaps": [],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 80.0,
+        "note": "The founders deliver a highly theatrical, smiling, and energetic presentation."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 87.0,
+        "note": "They show strong engagement with their solution, using props and dramatic gestures."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 106.0,
+        "note": "Both founders are consistently smiling, friendly, and approachable throughout the pitch."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "1",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "0",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "A natural garment and fabric cleanser spray that eliminates odor and kills germs and bacteria on clothes.",
+      "primary_industry": "home_household",
+      "secondary_industries": [
+        "health_personal_care"
+      ],
+      "product_form": "physical_good",
+      "customer_type": "consumer",
+      "founder_gender": "mixed",
+      "product_category": "Fabric sanitizing spray",
+      "earliest_s": 82.0,
+      "note": "GarmaGuard is presented as the first natural garment and fabric cleanser of its kind.",
+      "ask_amount_usd": 100000,
+      "ask_equity_pct": 10.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 16.0,
+        "end_s": 121.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The founders introduce themselves, ask for $100k for 10%, and demonstrate the problem and their fabric sanitizer solution."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "S1",
+        "start_s": 122.0,
+        "end_s": 124.0,
+        "function": "social",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond jokes that he really enjoyed the high school play style presentation."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "S5",
+        "start_s": 124.0,
+        "end_s": 125.0,
+        "function": "social",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Blake agrees that the presentation was fun."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "S2",
+        "start_s": 125.0,
+        "end_s": 127.0,
+        "function": "social",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori calls the presentation very good bad theater."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "S5",
+        "start_s": 127.0,
+        "end_s": 146.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Blake asks if the product can remove smoke smell from clothes to save people money on dry cleaning."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "F1",
+        "start_s": 146.0,
+        "end_s": 158.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          5
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Pete confirms it does and mentions receiving positive feedback from police detectives and firefighters who use it."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "S5",
+        "start_s": 158.0,
+        "end_s": 160.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Blake smells a shoe treated with the product and notes that it works."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "S5",
+        "start_s": 162.0,
+        "end_s": 169.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Blake explains that wearing shoes without socks causes odor, but the treated shoe has no odor at all."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "S3",
+        "start_s": 170.0,
+        "end_s": 172.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks how the product works to extract or eliminate the odor."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "F1",
+        "start_s": 172.0,
+        "end_s": 174.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          9
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Pete explains that the product actually eliminates the odor-causing bacteria."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "S5",
+        "start_s": 174.0,
+        "end_s": 175.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Blake asks to clarify if the product is killing the bacteria."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "F1",
+        "start_s": 175.0,
+        "end_s": 183.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          11
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Pete confirms it is lab tested to kill 99 percent of germs, though they cannot make EPA claims yet."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "S5",
+        "start_s": 186.0,
+        "end_s": 187.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Blake asks if the product kills viruses too."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "F1",
+        "start_s": 187.0,
+        "end_s": 188.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          13
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "1",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Pete confirms that it does kill viruses."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "S4",
+        "start_s": 188.0,
+        "end_s": 189.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks specifically if it kills COVID."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "F1",
+        "start_s": 190.0,
+        "end_s": 192.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          15
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Pete admits they do not have the claim to kill COVID yet."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "S5",
+        "start_s": 193.0,
+        "end_s": 197.0,
+        "function": "accepts",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Blake notes that getting that claim is how their sales will grow significantly."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "S4",
+        "start_s": 198.0,
+        "end_s": 200.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks them to share their current sales figures."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "F1",
+        "start_s": 200.0,
+        "end_s": 204.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          18
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Pete states they have been in business a year and a half with $476,000 in sales."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "S5",
+        "start_s": 205.0,
+        "end_s": 212.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Blake praises the sales and asks if they have always been in this business."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "F2",
+        "start_s": 212.0,
+        "end_s": 218.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          20
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Bianca explains she is a nurse who worked until having her third daughter three months ago."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "S4",
+        "start_s": 218.0,
+        "end_s": 220.0,
+        "function": "social",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark and the rest of the panel congratulate Bianca on her new baby."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "F2",
+        "start_s": 220.0,
+        "end_s": 230.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          20
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Bianca explains the idea came from feeling dirty after nursing shifts and wanting to avoid spreading germs at home."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "F1",
+        "start_s": 230.0,
+        "end_s": 239.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          20
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Pete adds that they needed a product for their clothing, and since none existed, they decided to make one."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "S1",
+        "start_s": 240.0,
+        "end_s": 244.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Daymond asks where they are currently selling and what they are doing to amplify their sales."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "F1",
+        "start_s": 244.0,
+        "end_s": 247.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          25
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Pete answers they are selling on their own website and a couple of other websites."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "S4",
+        "start_s": 248.0,
+        "end_s": 249.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark clarifies if they are only selling online right now."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "F1",
+        "start_s": 249.0,
+        "end_s": 250.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          27
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "1",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Pete confirms they are only online."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "S4",
+        "start_s": 250.0,
+        "end_s": 252.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks for the retail price and the cost to make the product."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "F2",
+        "start_s": 253.0,
+        "end_s": 255.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          29
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Bianca states it sells for $12.99 and costs $1.85 to make."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "S5",
+        "start_s": 256.0,
+        "end_s": 258.0,
+        "function": "accepts",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Blake compliments them on having a nice margin."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "S3",
+        "start_s": 260.0,
+        "end_s": 274.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks if they are going to get the claim that it kills COVID on clothes, calling it the golden ring."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "F1",
+        "start_s": 275.0,
+        "end_s": 276.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          32
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "1",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Pete confidently asserts they will get the claim 100 percent."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "S5",
+        "start_s": 276.0,
+        "end_s": 283.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Blake asks for the timeline to get that approval, noting it will change the business dramatically."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "F1",
+        "start_s": 284.0,
+        "end_s": 286.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          34
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Pete estimates it will take six months to a year to get the approval."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "S4",
+        "start_s": 288.0,
+        "end_s": 308.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark says they need to be a great marketing company to compete with similar formulas, so he is out."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "F1",
+        "start_s": 308.0,
+        "end_s": 310.0,
+        "function": "accepts",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Pete thanks Mark for his time and feedback."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "S3",
+        "start_s": 310.0,
+        "end_s": 337.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin exits because they lack the immediate marketing dream of a COVID-killing claim."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "F1",
+        "start_s": 337.0,
+        "end_s": 338.0,
+        "function": "accepts",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Pete thanks Kevin."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "S1",
+        "start_s": 339.0,
+        "end_s": 350.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond exits, believing they have a good business that can scale to millions without needing an investor."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "F1",
+        "start_s": 350.0,
+        "end_s": 352.0,
+        "function": "accepts",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Pete thanks Daymond for his comments."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "S2",
+        "start_s": 353.0,
+        "end_s": 376.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori says she will be a customer but exits because the business is too early for an investment."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "F1",
+        "start_s": 377.0,
+        "end_s": 378.0,
+        "function": "accepts",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Pete thanks Lori for her feedback."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "S5",
+        "start_s": 386.0,
+        "end_s": 400.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "forecast",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Blake asks for their projected sales and profitability for the current year given their huge margins."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "F1",
+        "start_s": 400.0,
+        "end_s": 406.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          44
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "forecast",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Pete projects $500,000 in sales with 20 percent margins, yielding $100,000 in profit."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "S5",
+        "start_s": 411.0,
+        "end_s": 471.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Blake exits, advising them to keep grinding without giving up equity, as they will profit more later."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "F1",
+        "start_s": 471.0,
+        "end_s": 473.0,
+        "function": "accepts",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Pete thanks Blake for the advice."
+      },
+      {
+        "turn_id": 48,
+        "speaker": "S2",
+        "start_s": 473.0,
+        "end_s": 475.0,
+        "function": "social",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori thanks the founders for their services."
+      },
+      {
+        "turn_id": 49,
+        "speaker": "F1",
+        "start_s": 475.0,
+        "end_s": 478.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Pete and Bianca thank the panel as they leave."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "Joking about pitch"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "substantive",
+        "topic": "usage",
+        "label": "Removing smoke smell"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "demonstration",
+        "topic": "NONE",
+        "label": "Smelling the shoe"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "Killing bacteria and viruses"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "Sales to date"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "substantive",
+        "topic": "self_promotion",
+        "label": "Founder background"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "Congratulations on baby"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "substantive",
+        "topic": "go_to_market",
+        "label": "Sales channels and margins"
+      },
+      {
+        "exchange_id": 9,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "COVID claim timeline"
+      },
+      {
+        "exchange_id": 10,
+        "kind": "substantive",
+        "topic": "forecast",
+        "label": "Current year projections"
+      },
+      {
+        "exchange_id": 11,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "Farewells and thanks"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S4",
+        "kind": "exit",
+        "time_s": 288.0,
+        "turn_id": 36,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Thinks they need to be a great marketing company to stand out among similar formulas, and they aren't ready for his investment."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S3",
+        "kind": "exit",
+        "time_s": 310.0,
+        "turn_id": 38,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Wants a product that explicitly claims to kill COVID right now, which they don't have."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S1",
+        "kind": "exit",
+        "time_s": 339.0,
+        "turn_id": 40,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Believes the business is good enough to scale to $1-2 million without needing an investor partner."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S2",
+        "kind": "exit",
+        "time_s": 353.0,
+        "turn_id": 42,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Thinks the product is great but the business is too early for an investment."
+      },
+      {
+        "decision_id": 5,
+        "actor": "S5",
+        "kind": "exit",
+        "time_s": 411.0,
+        "turn_id": 46,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Believes they don't need an equity investment and will be better off keeping their equity and growing through cash flow."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": ""
+  }
+}

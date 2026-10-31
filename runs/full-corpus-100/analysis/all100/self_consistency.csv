@@ -1,0 +1,32 @@
+part,field,compared,agree,share_agreeing,within_one,share_within_one,what_is_counted,n_videos,label
+Outcomes and decisions,Whether the pitch got any offer,100,100,1.0,,,pitches,100,model self-consistency under sampling; not validity
+Outcomes and decisions,Whether each investor ever offered,501,494,0.99,,,investors,100,model self-consistency under sampling; not validity
+Outcomes and decisions,Decisions found by both passes,743,678,0.91,,,decisions of the primary pass,100,model self-consistency under sampling; not validity
+Outcomes and decisions,Decisions of the replicate pass also found in the primary,739,678,0.92,,,decisions of the replicate pass,100,model self-consistency under sampling; not validity
+Outcomes and decisions,Who is part of each offer,119,93,0.78,,,offers,100,model self-consistency under sampling; not validity
+Venture context,"Venture context (industry, form, customer, team gender)",400,378,0.94,,,fields,100,model self-consistency under sampling; not validity
+Venture context,Primary industry (primary_industry),100,94,0.94,,,pitches,100,model self-consistency under sampling; not validity
+Venture context,Product form (product_form),100,95,0.95,,,pitches,100,model self-consistency under sampling; not validity
+Venture context,Customer type (customer_type),100,90,0.9,,,pitches,100,model self-consistency under sampling; not validity
+Venture context,Presenting team gender composition (founder_gender),100,99,0.99,,,pitches,100,model self-consistency under sampling; not validity
+Prepared presentation,Prepared presentation window (seconds in both passes' windows),9346,8875,0.95,,,seconds in either pass's window,100,model self-consistency under sampling; not validity
+Turns,Turns found by both passes with the same function,6791,4673,0.69,,,turns of the primary pass,100,model self-consistency under sampling; not validity
+Turns,"Turn function, among turns paired across passes",5195,4673,0.9,,,paired turns,100,model self-consistency under sampling; not validity
+Turn codes,Question concept (PR-CONCEPT),1229,1004,0.82,,,paired turns with a value in both passes,100,model self-consistency under sampling; not validity
+Turn codes,Question frame (derived from the concept),1229,1066,0.87,,,paired turns with a value in both passes,100,model self-consistency under sampling; not validity
+Turn codes,Question severity (PR-SEV),1229,1075,0.87,1195,0.97,paired turns with a value in both passes,100,model self-consistency under sampling; not validity
+Turn codes,Answer coherence (PREP-COH),1119,738,0.66,1087,0.97,paired turns with a value in both passes,100,model self-consistency under sampling; not validity
+Turn codes,Answer contextualisation (PREP-CTX),1108,973,0.88,1038,0.94,paired turns with a value in both passes,100,model self-consistency under sampling; not validity
+Turn codes,Answer substance (PREP-SUBS),1201,760,0.63,1169,0.97,paired turns with a value in both passes,100,model self-consistency under sampling; not validity
+Turn codes,Answer concept (RS-CONCEPT),1443,1105,0.77,,,paired turns with a value in both passes,100,model self-consistency under sampling; not validity
+Turn codes,Checkable support (RS-EVID),1439,1260,0.88,,,paired turns with a value in both passes,100,model self-consistency under sampling; not validity
+Turn codes,Answer frame (derived from the concept),1443,1216,0.84,,,paired turns with a value in both passes,100,model self-consistency under sampling; not validity
+Turn codes,Answer directness (RS-RESP),1444,1324,0.92,,,paired turns with a value in both passes,100,model self-consistency under sampling; not validity
+Turn codes,Admitted uncertainty or concession (RS-UNCERT),1439,1388,0.96,,,paired turns with a value in both passes,100,model self-consistency under sampling; not validity
+Exchanges,Exchanges paired with at least half their turns in common,1198,836,0.7,,,exchanges of the primary pass,100,model self-consistency under sampling; not validity
+Exchanges,"Exchange kind, among paired exchanges",904,884,0.98,,,paired exchanges,100,model self-consistency under sampling; not validity
+Exchanges,"Exchange topic, among paired substantive exchanges",711,549,0.77,,,paired substantive exchanges,100,model self-consistency under sampling; not validity
+Stage A ratings,Stage A ratings of the prepared presentation,300,191,0.64,300,1.0,items rated in both passes,100,model self-consistency under sampling; not validity
+Stage A ratings,Stage A: pitch positivity (pitch_positivity),100,69,0.69,100,1.0,pitches rated on the item in both passes,100,model self-consistency under sampling; not validity
+Stage A ratings,Stage A: expressed enthusiasm (expressed_enthusiasm),100,63,0.63,100,1.0,pitches rated on the item in both passes,100,model self-consistency under sampling; not validity
+Stage A ratings,Stage A: interpersonal warmth (interpersonal_warmth),100,59,0.59,100,1.0,pitches rated on the item in both passes,100,model self-consistency under sampling; not validity

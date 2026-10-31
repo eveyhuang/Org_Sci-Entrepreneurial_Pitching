@@ -1,0 +1,3135 @@
+{
+  "PR-FRAME": {
+    "kind": "categorical",
+    "n": 4,
+    "units": 4,
+    "videos": 1,
+    "raters": [
+      "coder",
+      "model"
+    ],
+    "n_off_scale": 0,
+    "coder_values": {
+      "promotion": 4,
+      "prevention": 0,
+      "unclassified": 0,
+      "NEUTRAL": 0
+    },
+    "model_values": {
+      "promotion": 2,
+      "prevention": 2,
+      "unclassified": 0,
+      "NEUTRAL": 0
+    },
+    "figures": {
+      "exact": {
+        "value": 0.5,
+        "low": null,
+        "high": null
+      },
+      "alpha": {
+        "value": -0.16666666666666674,
+        "low": null,
+        "high": null
+      },
+      "ac1": {
+        "value": 0.42857142857142855,
+        "low": null,
+        "high": null
+      },
+      "modal_share": {
+        "value": 0.75,
+        "low": null,
+        "high": null,
+        "by_rater": [
+          1.0,
+          0.5
+        ]
+      },
+      "confusion": {
+        "value": {
+          "promotion": {
+            "promotion": 2,
+            "prevention": 2,
+            "unclassified": 0,
+            "NEUTRAL": 0
+          },
+          "prevention": {
+            "promotion": 0,
+            "prevention": 0,
+            "unclassified": 0,
+            "NEUTRAL": 0
+          },
+          "unclassified": {
+            "promotion": 0,
+            "prevention": 0,
+            "unclassified": 0,
+            "NEUTRAL": 0
+          },
+          "NEUTRAL": {
+            "promotion": 0,
+            "prevention": 0,
+            "unclassified": 0,
+            "NEUTRAL": 0
+          }
+        },
+        "low": null,
+        "high": null
+      }
+    },
+    "flags": [
+      "prevalence",
+      "small_n"
+    ],
+    "counts": {
+      "promotion": {
+        "promotion": 2,
+        "prevention": 2,
+        "unclassified": 0,
+        "NEUTRAL": 0
+      },
+      "prevention": {
+        "promotion": 0,
+        "prevention": 0,
+        "unclassified": 0,
+        "NEUTRAL": 0
+      },
+      "unclassified": {
+        "promotion": 0,
+        "prevention": 0,
+        "unclassified": 0,
+        "NEUTRAL": 0
+      },
+      "NEUTRAL": {
+        "promotion": 0,
+        "prevention": 0,
+        "unclassified": 0,
+        "NEUTRAL": 0
+      }
+    },
+    "without_unsure": {
+      "exact": 0.5,
+      "alpha": -0.16666666666666674,
+      "ac1": 0.42857142857142855,
+      "modal_share": 0.75,
+      "n": 4
+    },
+    "strata": {}
+  },
+  "PR-SEV": {
+    "kind": "ordinal",
+    "n": 4,
+    "units": 4,
+    "videos": 1,
+    "raters": [
+      "coder",
+      "model"
+    ],
+    "n_off_scale": 0,
+    "coder_values": {
+      "1": 4,
+      "2": 0,
+      "3": 0
+    },
+    "model_values": {
+      "1": 3,
+      "2": 1,
+      "3": 0
+    },
+    "figures": {
+      "exact": {
+        "value": 0.75,
+        "low": null,
+        "high": null
+      },
+      "chance_exact": {
+        "value": 0.75,
+        "low": null,
+        "high": null
+      },
+      "within_one": {
+        "value": 1.0,
+        "low": null,
+        "high": null
+      },
+      "chance_within_one": {
+        "value": 1.0,
+        "low": null,
+        "high": null
+      },
+      "alpha": {
+        "value": 0.0,
+        "low": null,
+        "high": null
+      },
+      "ac2": {
+        "value": 0.92,
+        "low": null,
+        "high": null
+      },
+      "modal_share": {
+        "value": 0.875,
+        "low": null,
+        "high": null,
+        "by_rater": [
+          1.0,
+          0.75
+        ]
+      },
+      "mean_difference": {
+        "value": -0.25,
+        "low": null,
+        "high": null
+      },
+      "spearman": {
+        "value": null,
+        "low": null,
+        "high": null
+      }
+    },
+    "flags": [
+      "prevalence",
+      "small_n"
+    ],
+    "counts": {
+      "1": {
+        "1": 3,
+        "2": 1,
+        "3": 0
+      },
+      "2": {
+        "1": 0,
+        "2": 0,
+        "3": 0
+      },
+      "3": {
+        "1": 0,
+        "2": 0,
+        "3": 0
+      }
+    },
+    "without_unsure": {
+      "exact": 0.75,
+      "chance_exact": 0.75,
+      "within_one": 1.0,
+      "chance_within_one": 1.0,
+      "alpha": 0.0,
+      "ac2": 0.92,
+      "modal_share": 0.875,
+      "mean_difference": -0.25,
+      "spearman": null,
+      "n": 4
+    },
+    "strata": {}
+  },
+  "PREP-COH": {
+    "kind": "ordinal",
+    "n": 4,
+    "units": 4,
+    "videos": 1,
+    "raters": [
+      "coder",
+      "model"
+    ],
+    "n_off_scale": 0,
+    "coder_values": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 3,
+      "5": 1
+    },
+    "model_values": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 4,
+      "5": 0
+    },
+    "figures": {
+      "exact": {
+        "value": 0.75,
+        "low": null,
+        "high": null
+      },
+      "chance_exact": {
+        "value": 0.75,
+        "low": null,
+        "high": null
+      },
+      "within_one": {
+        "value": 1.0,
+        "low": null,
+        "high": null
+      },
+      "chance_within_one": {
+        "value": 1.0,
+        "low": null,
+        "high": null
+      },
+      "alpha": {
+        "value": 0.0,
+        "low": null,
+        "high": null
+      },
+      "ac2": {
+        "value": 0.9803439803439803,
+        "low": null,
+        "high": null
+      },
+      "modal_share": {
+        "value": 0.875,
+        "low": null,
+        "high": null,
+        "by_rater": [
+          0.75,
+          1.0
+        ]
+      },
+      "mean_difference": {
+        "value": 0.25,
+        "low": null,
+        "high": null
+      },
+      "spearman": {
+        "value": null,
+        "low": null,
+        "high": null
+      }
+    },
+    "flags": [
+      "prevalence",
+      "small_n"
+    ],
+    "counts": {
+      "1": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "2": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "3": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "4": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 3,
+        "5": 0
+      },
+      "5": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 0
+      }
+    },
+    "without_unsure": {
+      "exact": 0.75,
+      "chance_exact": 0.75,
+      "within_one": 1.0,
+      "chance_within_one": 1.0,
+      "alpha": 0.0,
+      "ac2": 0.9803439803439803,
+      "modal_share": 0.875,
+      "mean_difference": 0.25,
+      "spearman": null,
+      "n": 4
+    },
+    "strata": {}
+  },
+  "PREP-SUBS": {
+    "kind": "ordinal",
+    "n": 4,
+    "units": 4,
+    "videos": 1,
+    "raters": [
+      "coder",
+      "model"
+    ],
+    "n_off_scale": 0,
+    "coder_values": {
+      "1": 0,
+      "2": 0,
+      "3": 3,
+      "4": 1,
+      "5": 0
+    },
+    "model_values": {
+      "1": 0,
+      "2": 0,
+      "3": 1,
+      "4": 3,
+      "5": 0
+    },
+    "figures": {
+      "exact": {
+        "value": 0.5,
+        "low": null,
+        "high": null
+      },
+      "chance_exact": {
+        "value": 0.375,
+        "low": null,
+        "high": null
+      },
+      "within_one": {
+        "value": 1.0,
+        "low": null,
+        "high": null
+      },
+      "chance_within_one": {
+        "value": 1.0,
+        "low": null,
+        "high": null
+      },
+      "alpha": {
+        "value": 0.125,
+        "low": null,
+        "high": null
+      },
+      "ac2": {
+        "value": 0.9411764705882353,
+        "low": null,
+        "high": null
+      },
+      "modal_share": {
+        "value": 0.5,
+        "low": null,
+        "high": null,
+        "by_rater": [
+          0.75,
+          0.75
+        ]
+      },
+      "mean_difference": {
+        "value": -0.5,
+        "low": null,
+        "high": null
+      },
+      "spearman": {
+        "value": 0.3333333333333333,
+        "low": null,
+        "high": null
+      }
+    },
+    "flags": [
+      "small_n"
+    ],
+    "counts": {
+      "1": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "2": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "3": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 2,
+        "5": 0
+      },
+      "4": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 0
+      },
+      "5": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      }
+    },
+    "without_unsure": {
+      "exact": 0.5,
+      "chance_exact": 0.375,
+      "within_one": 1.0,
+      "chance_within_one": 1.0,
+      "alpha": 0.125,
+      "ac2": 0.9411764705882353,
+      "modal_share": 0.5,
+      "mean_difference": -0.5,
+      "spearman": 0.3333333333333333,
+      "n": 4
+    },
+    "strata": {}
+  },
+  "RS-EVID": {
+    "kind": "binary",
+    "n": 4,
+    "units": 4,
+    "videos": 1,
+    "raters": [
+      "coder",
+      "model"
+    ],
+    "n_off_scale": 0,
+    "coder_values": {
+      "true": 3,
+      "false": 1
+    },
+    "model_values": {
+      "true": 2,
+      "false": 2
+    },
+    "figures": {
+      "counts": {
+        "value": {
+          "a": 2,
+          "b": 1,
+          "c": 0,
+          "d": 1
+        },
+        "low": null,
+        "high": null
+      },
+      "exact": {
+        "value": 0.75,
+        "low": null,
+        "high": null
+      },
+      "alpha": {
+        "value": 0.5333333333333333,
+        "low": null,
+        "high": null
+      },
+      "positive_agreement": {
+        "value": 0.8,
+        "low": null,
+        "high": null
+      },
+      "negative_agreement": {
+        "value": 0.6666666666666666,
+        "low": null,
+        "high": null
+      },
+      "ac1": {
+        "value": 0.5294117647058824,
+        "low": null,
+        "high": null
+      },
+      "modal_share": {
+        "value": 0.625,
+        "low": null,
+        "high": null,
+        "by_rater": [
+          0.75,
+          0.5
+        ]
+      },
+      "prevalence_index": {
+        "value": 0.25,
+        "low": null,
+        "high": null
+      },
+      "bias_index": {
+        "value": 0.25,
+        "low": null,
+        "high": null,
+        "direction": "coder"
+      }
+    },
+    "flags": [
+      "small_n"
+    ],
+    "counts": {
+      "a": 2,
+      "b": 1,
+      "c": 0,
+      "d": 1
+    },
+    "without_unsure": {
+      "exact": 0.75,
+      "alpha": 0.5333333333333333,
+      "positive_agreement": 0.8,
+      "negative_agreement": 0.6666666666666666,
+      "ac1": 0.5294117647058824,
+      "modal_share": 0.625,
+      "prevalence_index": 0.25,
+      "bias_index": 0.25,
+      "n": 4
+    },
+    "strata": {}
+  },
+  "RS-RESP": {
+    "kind": "categorical",
+    "n": 4,
+    "units": 4,
+    "videos": 1,
+    "raters": [
+      "coder",
+      "model"
+    ],
+    "n_off_scale": 0,
+    "coder_values": {
+      "addresses": 4,
+      "partial": 0,
+      "deflects": 0,
+      "NONE": 0
+    },
+    "model_values": {
+      "addresses": 4,
+      "partial": 0,
+      "deflects": 0,
+      "NONE": 0
+    },
+    "figures": {
+      "exact": {
+        "value": 1.0,
+        "low": null,
+        "high": null
+      },
+      "alpha": {
+        "value": null,
+        "low": null,
+        "high": null
+      },
+      "ac1": {
+        "value": 1.0,
+        "low": null,
+        "high": null
+      },
+      "modal_share": {
+        "value": 1.0,
+        "low": null,
+        "high": null,
+        "by_rater": [
+          1.0,
+          1.0
+        ]
+      },
+      "confusion": {
+        "value": {
+          "addresses": {
+            "addresses": 4,
+            "partial": 0,
+            "deflects": 0,
+            "NONE": 0
+          },
+          "partial": {
+            "addresses": 0,
+            "partial": 0,
+            "deflects": 0,
+            "NONE": 0
+          },
+          "deflects": {
+            "addresses": 0,
+            "partial": 0,
+            "deflects": 0,
+            "NONE": 0
+          },
+          "NONE": {
+            "addresses": 0,
+            "partial": 0,
+            "deflects": 0,
+            "NONE": 0
+          }
+        },
+        "low": null,
+        "high": null
+      }
+    },
+    "flags": [
+      "prevalence",
+      "small_n"
+    ],
+    "counts": {
+      "addresses": {
+        "addresses": 4,
+        "partial": 0,
+        "deflects": 0,
+        "NONE": 0
+      },
+      "partial": {
+        "addresses": 0,
+        "partial": 0,
+        "deflects": 0,
+        "NONE": 0
+      },
+      "deflects": {
+        "addresses": 0,
+        "partial": 0,
+        "deflects": 0,
+        "NONE": 0
+      },
+      "NONE": {
+        "addresses": 0,
+        "partial": 0,
+        "deflects": 0,
+        "NONE": 0
+      }
+    },
+    "without_unsure": {
+      "exact": 1.0,
+      "alpha": null,
+      "ac1": 1.0,
+      "modal_share": 1.0,
+      "n": 4
+    },
+    "strata": {}
+  },
+  "cut": {
+    "kind": "clock",
+    "n": 1,
+    "units": 1,
+    "videos": 1,
+    "raters": [
+      "coder",
+      "model"
+    ],
+    "n_off_scale": 0,
+    "coder_values": {},
+    "model_values": {},
+    "figures": {
+      "same_turn": {
+        "value": 1.0,
+        "low": null,
+        "high": null
+      },
+      "share_within_5": {
+        "value": 0.0,
+        "low": null,
+        "high": null
+      },
+      "share_within_30": {
+        "value": 1.0,
+        "low": null,
+        "high": null
+      },
+      "median_abs": {
+        "value": 12.0,
+        "low": null,
+        "high": null
+      },
+      "mean_signed": {
+        "value": 12.0,
+        "low": null,
+        "high": null
+      },
+      "loa_low": {
+        "value": null,
+        "low": null,
+        "high": null
+      },
+      "loa_high": {
+        "value": null,
+        "low": null,
+        "high": null
+      }
+    },
+    "flags": [
+      "small_n"
+    ],
+    "counts": {
+      "n": 1,
+      "within_5": 0,
+      "within_30": 1,
+      "same_turn_n": 1,
+      "same_turn_agree": 1,
+      "same_turn_undetermined": 0
+    },
+    "without_unsure": {
+      "same_turn": 1.0,
+      "share_within_5": 0.0,
+      "share_within_30": 1.0,
+      "median_abs": 12.0,
+      "mean_signed": 12.0,
+      "loa_low": null,
+      "loa_high": null,
+      "same_turn_n": 1,
+      "same_turn_undetermined": 0,
+      "n": 1
+    },
+    "strata": {}
+  },
+  "PRES-COH": {
+    "kind": "ordinal",
+    "n": 1,
+    "units": 1,
+    "videos": 1,
+    "raters": [
+      "coder",
+      "model"
+    ],
+    "n_off_scale": 0,
+    "coder_values": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 1
+    },
+    "model_values": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 0
+    },
+    "figures": {
+      "exact": {
+        "value": 0.0,
+        "low": null,
+        "high": null
+      },
+      "chance_exact": {
+        "value": 0.0,
+        "low": null,
+        "high": null
+      },
+      "within_one": {
+        "value": 1.0,
+        "low": null,
+        "high": null
+      },
+      "chance_within_one": {
+        "value": 1.0,
+        "low": null,
+        "high": null
+      },
+      "alpha": {
+        "value": null,
+        "low": null,
+        "high": null
+      },
+      "ac2": {
+        "value": null,
+        "low": null,
+        "high": null
+      },
+      "modal_share": {
+        "value": 0.5,
+        "low": null,
+        "high": null,
+        "by_rater": [
+          1.0,
+          1.0
+        ]
+      },
+      "mean_difference": {
+        "value": 1.0,
+        "low": null,
+        "high": null
+      },
+      "spearman": {
+        "value": null,
+        "low": null,
+        "high": null
+      }
+    },
+    "flags": [
+      "small_n"
+    ],
+    "counts": {
+      "1": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "2": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "3": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "4": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "5": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 0
+      }
+    },
+    "without_unsure": {
+      "exact": 0.0,
+      "chance_exact": 0.0,
+      "within_one": 1.0,
+      "chance_within_one": 1.0,
+      "alpha": null,
+      "ac2": null,
+      "modal_share": 0.5,
+      "mean_difference": 1.0,
+      "spearman": null,
+      "n": 1
+    },
+    "strata": {}
+  },
+  "PRES-EVID": {
+    "kind": "ordinal",
+    "n": 1,
+    "units": 1,
+    "videos": 1,
+    "raters": [
+      "coder",
+      "model"
+    ],
+    "n_off_scale": 0,
+    "coder_values": {
+      "0": 0,
+      "1-2": 0,
+      "3-5": 1,
+      "6+": 0
+    },
+    "model_values": {
+      "0": 0,
+      "1-2": 0,
+      "3-5": 0,
+      "6+": 1
+    },
+    "figures": {
+      "exact": {
+        "value": 0.0,
+        "low": null,
+        "high": null
+      },
+      "chance_exact": {
+        "value": 0.0,
+        "low": null,
+        "high": null
+      },
+      "within_one": {
+        "value": 1.0,
+        "low": null,
+        "high": null
+      },
+      "chance_within_one": {
+        "value": 1.0,
+        "low": null,
+        "high": null
+      },
+      "alpha": {
+        "value": null,
+        "low": null,
+        "high": null
+      },
+      "ac2": {
+        "value": null,
+        "low": null,
+        "high": null
+      },
+      "modal_share": {
+        "value": 0.5,
+        "low": null,
+        "high": null,
+        "by_rater": [
+          1.0,
+          1.0
+        ]
+      },
+      "mean_difference": {
+        "value": -1.0,
+        "low": null,
+        "high": null
+      },
+      "spearman": {
+        "value": null,
+        "low": null,
+        "high": null
+      }
+    },
+    "flags": [
+      "small_n"
+    ],
+    "counts": {
+      "0": {
+        "0": 0,
+        "1-2": 0,
+        "3-5": 0,
+        "6+": 0
+      },
+      "1-2": {
+        "0": 0,
+        "1-2": 0,
+        "3-5": 0,
+        "6+": 0
+      },
+      "3-5": {
+        "0": 0,
+        "1-2": 0,
+        "3-5": 0,
+        "6+": 1
+      },
+      "6+": {
+        "0": 0,
+        "1-2": 0,
+        "3-5": 0,
+        "6+": 0
+      }
+    },
+    "without_unsure": {
+      "exact": 0.0,
+      "chance_exact": 0.0,
+      "within_one": 1.0,
+      "chance_within_one": 1.0,
+      "alpha": null,
+      "ac2": null,
+      "modal_share": 0.5,
+      "mean_difference": -1.0,
+      "spearman": null,
+      "n": 1
+    },
+    "strata": {}
+  },
+  "PRES-SUBS": {
+    "kind": "ordinal",
+    "n": 1,
+    "units": 1,
+    "videos": 1,
+    "raters": [
+      "coder",
+      "model"
+    ],
+    "n_off_scale": 0,
+    "coder_values": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 0
+    },
+    "model_values": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 0
+    },
+    "figures": {
+      "exact": {
+        "value": 1.0,
+        "low": null,
+        "high": null
+      },
+      "chance_exact": {
+        "value": 1.0,
+        "low": null,
+        "high": null
+      },
+      "within_one": {
+        "value": 1.0,
+        "low": null,
+        "high": null
+      },
+      "chance_within_one": {
+        "value": 1.0,
+        "low": null,
+        "high": null
+      },
+      "alpha": {
+        "value": null,
+        "low": null,
+        "high": null
+      },
+      "ac2": {
+        "value": null,
+        "low": null,
+        "high": null
+      },
+      "modal_share": {
+        "value": 1.0,
+        "low": null,
+        "high": null,
+        "by_rater": [
+          1.0,
+          1.0
+        ]
+      },
+      "mean_difference": {
+        "value": 0.0,
+        "low": null,
+        "high": null
+      },
+      "spearman": {
+        "value": null,
+        "low": null,
+        "high": null
+      }
+    },
+    "flags": [
+      "prevalence",
+      "small_n"
+    ],
+    "counts": {
+      "1": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "2": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "3": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "4": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 0
+      },
+      "5": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      }
+    },
+    "without_unsure": {
+      "exact": 1.0,
+      "chance_exact": 1.0,
+      "within_one": 1.0,
+      "chance_within_one": 1.0,
+      "alpha": null,
+      "ac2": null,
+      "modal_share": 1.0,
+      "mean_difference": 0.0,
+      "spearman": null,
+      "n": 1
+    },
+    "strata": {}
+  },
+  "expressed_enthusiasm": {
+    "kind": "ordinal",
+    "n": 1,
+    "units": 1,
+    "videos": 1,
+    "raters": [
+      "coder",
+      "model"
+    ],
+    "n_off_scale": 0,
+    "coder_values": {
+      "1": 0,
+      "2": 0,
+      "3": 1,
+      "4": 0,
+      "5": 0
+    },
+    "model_values": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 1
+    },
+    "figures": {
+      "exact": {
+        "value": 0.0,
+        "low": null,
+        "high": null
+      },
+      "chance_exact": {
+        "value": 0.0,
+        "low": null,
+        "high": null
+      },
+      "within_one": {
+        "value": 0.0,
+        "low": null,
+        "high": null
+      },
+      "chance_within_one": {
+        "value": 0.0,
+        "low": null,
+        "high": null
+      },
+      "alpha": {
+        "value": null,
+        "low": null,
+        "high": null
+      },
+      "ac2": {
+        "value": null,
+        "low": null,
+        "high": null
+      },
+      "modal_share": {
+        "value": 0.5,
+        "low": null,
+        "high": null,
+        "by_rater": [
+          1.0,
+          1.0
+        ]
+      },
+      "mean_difference": {
+        "value": -2.0,
+        "low": null,
+        "high": null
+      },
+      "spearman": {
+        "value": null,
+        "low": null,
+        "high": null
+      }
+    },
+    "flags": [
+      "small_n"
+    ],
+    "counts": {
+      "1": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "2": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "3": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1
+      },
+      "4": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "5": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      }
+    },
+    "without_unsure": {
+      "exact": 0.0,
+      "chance_exact": 0.0,
+      "within_one": 0.0,
+      "chance_within_one": 0.0,
+      "alpha": null,
+      "ac2": null,
+      "modal_share": 0.5,
+      "mean_difference": -2.0,
+      "spearman": null,
+      "n": 1
+    },
+    "strata": {}
+  },
+  "interpersonal_warmth": {
+    "kind": "ordinal",
+    "n": 1,
+    "units": 1,
+    "videos": 1,
+    "raters": [
+      "coder",
+      "model"
+    ],
+    "n_off_scale": 0,
+    "coder_values": {
+      "1": 0,
+      "2": 1,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "model_values": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 0
+    },
+    "figures": {
+      "exact": {
+        "value": 0.0,
+        "low": null,
+        "high": null
+      },
+      "chance_exact": {
+        "value": 0.0,
+        "low": null,
+        "high": null
+      },
+      "within_one": {
+        "value": 0.0,
+        "low": null,
+        "high": null
+      },
+      "chance_within_one": {
+        "value": 0.0,
+        "low": null,
+        "high": null
+      },
+      "alpha": {
+        "value": null,
+        "low": null,
+        "high": null
+      },
+      "ac2": {
+        "value": null,
+        "low": null,
+        "high": null
+      },
+      "modal_share": {
+        "value": 0.5,
+        "low": null,
+        "high": null,
+        "by_rater": [
+          1.0,
+          1.0
+        ]
+      },
+      "mean_difference": {
+        "value": -2.0,
+        "low": null,
+        "high": null
+      },
+      "spearman": {
+        "value": null,
+        "low": null,
+        "high": null
+      }
+    },
+    "flags": [
+      "small_n"
+    ],
+    "counts": {
+      "1": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "2": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 0
+      },
+      "3": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "4": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "5": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      }
+    },
+    "without_unsure": {
+      "exact": 0.0,
+      "chance_exact": 0.0,
+      "within_one": 0.0,
+      "chance_within_one": 0.0,
+      "alpha": null,
+      "ac2": null,
+      "modal_share": 0.5,
+      "mean_difference": -2.0,
+      "spearman": null,
+      "n": 1
+    },
+    "strata": {}
+  },
+  "pitch_positivity": {
+    "kind": "ordinal",
+    "n": 1,
+    "units": 1,
+    "videos": 1,
+    "raters": [
+      "coder",
+      "model"
+    ],
+    "n_off_scale": 0,
+    "coder_values": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 0
+    },
+    "model_values": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 0
+    },
+    "figures": {
+      "exact": {
+        "value": 1.0,
+        "low": null,
+        "high": null
+      },
+      "chance_exact": {
+        "value": 1.0,
+        "low": null,
+        "high": null
+      },
+      "within_one": {
+        "value": 1.0,
+        "low": null,
+        "high": null
+      },
+      "chance_within_one": {
+        "value": 1.0,
+        "low": null,
+        "high": null
+      },
+      "alpha": {
+        "value": null,
+        "low": null,
+        "high": null
+      },
+      "ac2": {
+        "value": null,
+        "low": null,
+        "high": null
+      },
+      "modal_share": {
+        "value": 1.0,
+        "low": null,
+        "high": null,
+        "by_rater": [
+          1.0,
+          1.0
+        ]
+      },
+      "mean_difference": {
+        "value": 0.0,
+        "low": null,
+        "high": null
+      },
+      "spearman": {
+        "value": null,
+        "low": null,
+        "high": null
+      }
+    },
+    "flags": [
+      "prevalence",
+      "small_n"
+    ],
+    "counts": {
+      "1": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "2": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "3": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "4": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 0
+      },
+      "5": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      }
+    },
+    "without_unsure": {
+      "exact": 1.0,
+      "chance_exact": 1.0,
+      "within_one": 1.0,
+      "chance_within_one": 1.0,
+      "alpha": null,
+      "ac2": null,
+      "modal_share": 1.0,
+      "mean_difference": 0.0,
+      "spearman": null,
+      "n": 1
+    },
+    "strata": {}
+  },
+  "venture:ask": {
+    "kind": "exact",
+    "n": 1,
+    "units": 1,
+    "videos": 1,
+    "raters": [
+      "coder",
+      "model"
+    ],
+    "n_off_scale": 0,
+    "coder_values": {},
+    "model_values": {},
+    "figures": {
+      "exact": {
+        "value": 1.0,
+        "low": null,
+        "high": null
+      }
+    },
+    "flags": [
+      "small_n"
+    ],
+    "counts": {
+      "agree": 1,
+      "n": 1
+    },
+    "without_unsure": {
+      "exact": 1.0,
+      "n": 1
+    },
+    "strata": {}
+  },
+  "human_human": {},
+  "pass_to_pass": {
+    "PR-FRAME": {
+      "kind": "categorical",
+      "n": 4,
+      "units": 4,
+      "videos": 1,
+      "raters": [
+        "primary",
+        "replicate"
+      ],
+      "n_off_scale": 0,
+      "coder_values": {
+        "promotion": 2,
+        "prevention": 2,
+        "unclassified": 0,
+        "NEUTRAL": 0
+      },
+      "model_values": {
+        "promotion": 2,
+        "prevention": 2,
+        "unclassified": 0,
+        "NEUTRAL": 0
+      },
+      "figures": {
+        "exact": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        },
+        "alpha": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        },
+        "ac1": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        },
+        "modal_share": {
+          "value": 0.5,
+          "low": null,
+          "high": null,
+          "by_rater": [
+            0.5,
+            0.5
+          ]
+        },
+        "confusion": {
+          "value": {
+            "promotion": {
+              "promotion": 2,
+              "prevention": 0,
+              "unclassified": 0,
+              "NEUTRAL": 0
+            },
+            "prevention": {
+              "promotion": 0,
+              "prevention": 2,
+              "unclassified": 0,
+              "NEUTRAL": 0
+            },
+            "unclassified": {
+              "promotion": 0,
+              "prevention": 0,
+              "unclassified": 0,
+              "NEUTRAL": 0
+            },
+            "NEUTRAL": {
+              "promotion": 0,
+              "prevention": 0,
+              "unclassified": 0,
+              "NEUTRAL": 0
+            }
+          },
+          "low": null,
+          "high": null
+        }
+      },
+      "flags": [
+        "small_n"
+      ],
+      "counts": {
+        "promotion": {
+          "promotion": 2,
+          "prevention": 0,
+          "unclassified": 0,
+          "NEUTRAL": 0
+        },
+        "prevention": {
+          "promotion": 0,
+          "prevention": 2,
+          "unclassified": 0,
+          "NEUTRAL": 0
+        },
+        "unclassified": {
+          "promotion": 0,
+          "prevention": 0,
+          "unclassified": 0,
+          "NEUTRAL": 0
+        },
+        "NEUTRAL": {
+          "promotion": 0,
+          "prevention": 0,
+          "unclassified": 0,
+          "NEUTRAL": 0
+        }
+      },
+      "without_unsure": {
+        "exact": 1.0,
+        "alpha": 1.0,
+        "ac1": 1.0,
+        "modal_share": 0.5,
+        "n": 4
+      },
+      "strata": {}
+    },
+    "PR-SEV": {
+      "kind": "ordinal",
+      "n": 4,
+      "units": 4,
+      "videos": 1,
+      "raters": [
+        "primary",
+        "replicate"
+      ],
+      "n_off_scale": 0,
+      "coder_values": {
+        "1": 3,
+        "2": 1,
+        "3": 0
+      },
+      "model_values": {
+        "1": 3,
+        "2": 0,
+        "3": 1
+      },
+      "figures": {
+        "exact": {
+          "value": 0.75,
+          "low": null,
+          "high": null
+        },
+        "chance_exact": {
+          "value": 0.5625,
+          "low": null,
+          "high": null
+        },
+        "within_one": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        },
+        "chance_within_one": {
+          "value": 0.8125,
+          "low": null,
+          "high": null
+        },
+        "alpha": {
+          "value": 0.9642857142857143,
+          "low": null,
+          "high": null
+        },
+        "ac2": {
+          "value": 0.8947368421052632,
+          "low": null,
+          "high": null
+        },
+        "modal_share": {
+          "value": 0.75,
+          "low": null,
+          "high": null,
+          "by_rater": [
+            0.75,
+            0.75
+          ]
+        },
+        "mean_difference": {
+          "value": -0.25,
+          "low": null,
+          "high": null
+        },
+        "spearman": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        }
+      },
+      "flags": [
+        "prevalence",
+        "small_n"
+      ],
+      "counts": {
+        "1": {
+          "1": 3,
+          "2": 0,
+          "3": 0
+        },
+        "2": {
+          "1": 0,
+          "2": 0,
+          "3": 1
+        },
+        "3": {
+          "1": 0,
+          "2": 0,
+          "3": 0
+        }
+      },
+      "without_unsure": {
+        "exact": 0.75,
+        "chance_exact": 0.5625,
+        "within_one": 1.0,
+        "chance_within_one": 0.8125,
+        "alpha": 0.9642857142857143,
+        "ac2": 0.8947368421052632,
+        "modal_share": 0.75,
+        "mean_difference": -0.25,
+        "spearman": 1.0,
+        "n": 4
+      },
+      "strata": {}
+    },
+    "PREP-COH": {
+      "kind": "ordinal",
+      "n": 4,
+      "units": 4,
+      "videos": 1,
+      "raters": [
+        "primary",
+        "replicate"
+      ],
+      "n_off_scale": 0,
+      "coder_values": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 4,
+        "5": 0
+      },
+      "model_values": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 4,
+        "5": 0
+      },
+      "figures": {
+        "exact": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        },
+        "chance_exact": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        },
+        "within_one": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        },
+        "chance_within_one": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        },
+        "alpha": {
+          "value": null,
+          "low": null,
+          "high": null
+        },
+        "ac2": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        },
+        "modal_share": {
+          "value": 1.0,
+          "low": null,
+          "high": null,
+          "by_rater": [
+            1.0,
+            1.0
+          ]
+        },
+        "mean_difference": {
+          "value": 0.0,
+          "low": null,
+          "high": null
+        },
+        "spearman": {
+          "value": null,
+          "low": null,
+          "high": null
+        }
+      },
+      "flags": [
+        "prevalence",
+        "small_n"
+      ],
+      "counts": {
+        "1": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "2": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "3": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "4": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 4,
+          "5": 0
+        },
+        "5": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "without_unsure": {
+        "exact": 1.0,
+        "chance_exact": 1.0,
+        "within_one": 1.0,
+        "chance_within_one": 1.0,
+        "alpha": null,
+        "ac2": 1.0,
+        "modal_share": 1.0,
+        "mean_difference": 0.0,
+        "spearman": null,
+        "n": 4
+      },
+      "strata": {}
+    },
+    "PREP-SUBS": {
+      "kind": "ordinal",
+      "n": 4,
+      "units": 4,
+      "videos": 1,
+      "raters": [
+        "primary",
+        "replicate"
+      ],
+      "n_off_scale": 0,
+      "coder_values": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 3,
+        "5": 0
+      },
+      "model_values": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 3,
+        "5": 0
+      },
+      "figures": {
+        "exact": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        },
+        "chance_exact": {
+          "value": 0.625,
+          "low": null,
+          "high": null
+        },
+        "within_one": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        },
+        "chance_within_one": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        },
+        "alpha": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        },
+        "ac2": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        },
+        "modal_share": {
+          "value": 0.75,
+          "low": null,
+          "high": null,
+          "by_rater": [
+            0.75,
+            0.75
+          ]
+        },
+        "mean_difference": {
+          "value": 0.0,
+          "low": null,
+          "high": null
+        },
+        "spearman": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        }
+      },
+      "flags": [
+        "prevalence",
+        "small_n"
+      ],
+      "counts": {
+        "1": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "2": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "3": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "4": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 3,
+          "5": 0
+        },
+        "5": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "without_unsure": {
+        "exact": 1.0,
+        "chance_exact": 0.625,
+        "within_one": 1.0,
+        "chance_within_one": 1.0,
+        "alpha": 1.0,
+        "ac2": 1.0,
+        "modal_share": 0.75,
+        "mean_difference": 0.0,
+        "spearman": 1.0,
+        "n": 4
+      },
+      "strata": {}
+    },
+    "RS-EVID": {
+      "kind": "binary",
+      "n": 4,
+      "units": 4,
+      "videos": 1,
+      "raters": [
+        "primary",
+        "replicate"
+      ],
+      "n_off_scale": 0,
+      "coder_values": {
+        "true": 2,
+        "false": 2
+      },
+      "model_values": {
+        "true": 3,
+        "false": 1
+      },
+      "figures": {
+        "counts": {
+          "value": {
+            "a": 2,
+            "b": 0,
+            "c": 1,
+            "d": 1
+          },
+          "low": null,
+          "high": null
+        },
+        "exact": {
+          "value": 0.75,
+          "low": null,
+          "high": null
+        },
+        "alpha": {
+          "value": 0.5333333333333333,
+          "low": null,
+          "high": null
+        },
+        "positive_agreement": {
+          "value": 0.8,
+          "low": null,
+          "high": null
+        },
+        "negative_agreement": {
+          "value": 0.6666666666666666,
+          "low": null,
+          "high": null
+        },
+        "ac1": {
+          "value": 0.5294117647058824,
+          "low": null,
+          "high": null
+        },
+        "modal_share": {
+          "value": 0.625,
+          "low": null,
+          "high": null,
+          "by_rater": [
+            0.5,
+            0.75
+          ]
+        },
+        "prevalence_index": {
+          "value": 0.25,
+          "low": null,
+          "high": null
+        },
+        "bias_index": {
+          "value": 0.25,
+          "low": null,
+          "high": null,
+          "direction": "replicate"
+        }
+      },
+      "flags": [
+        "small_n"
+      ],
+      "counts": {
+        "a": 2,
+        "b": 0,
+        "c": 1,
+        "d": 1
+      },
+      "without_unsure": {
+        "exact": 0.75,
+        "alpha": 0.5333333333333333,
+        "positive_agreement": 0.8,
+        "negative_agreement": 0.6666666666666666,
+        "ac1": 0.5294117647058824,
+        "modal_share": 0.625,
+        "prevalence_index": 0.25,
+        "bias_index": 0.25,
+        "n": 4
+      },
+      "strata": {}
+    },
+    "RS-RESP": {
+      "kind": "categorical",
+      "n": 4,
+      "units": 4,
+      "videos": 1,
+      "raters": [
+        "primary",
+        "replicate"
+      ],
+      "n_off_scale": 0,
+      "coder_values": {
+        "addresses": 4,
+        "partial": 0,
+        "deflects": 0,
+        "NONE": 0
+      },
+      "model_values": {
+        "addresses": 4,
+        "partial": 0,
+        "deflects": 0,
+        "NONE": 0
+      },
+      "figures": {
+        "exact": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        },
+        "alpha": {
+          "value": null,
+          "low": null,
+          "high": null
+        },
+        "ac1": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        },
+        "modal_share": {
+          "value": 1.0,
+          "low": null,
+          "high": null,
+          "by_rater": [
+            1.0,
+            1.0
+          ]
+        },
+        "confusion": {
+          "value": {
+            "addresses": {
+              "addresses": 4,
+              "partial": 0,
+              "deflects": 0,
+              "NONE": 0
+            },
+            "partial": {
+              "addresses": 0,
+              "partial": 0,
+              "deflects": 0,
+              "NONE": 0
+            },
+            "deflects": {
+              "addresses": 0,
+              "partial": 0,
+              "deflects": 0,
+              "NONE": 0
+            },
+            "NONE": {
+              "addresses": 0,
+              "partial": 0,
+              "deflects": 0,
+              "NONE": 0
+            }
+          },
+          "low": null,
+          "high": null
+        }
+      },
+      "flags": [
+        "prevalence",
+        "small_n"
+      ],
+      "counts": {
+        "addresses": {
+          "addresses": 4,
+          "partial": 0,
+          "deflects": 0,
+          "NONE": 0
+        },
+        "partial": {
+          "addresses": 0,
+          "partial": 0,
+          "deflects": 0,
+          "NONE": 0
+        },
+        "deflects": {
+          "addresses": 0,
+          "partial": 0,
+          "deflects": 0,
+          "NONE": 0
+        },
+        "NONE": {
+          "addresses": 0,
+          "partial": 0,
+          "deflects": 0,
+          "NONE": 0
+        }
+      },
+      "without_unsure": {
+        "exact": 1.0,
+        "alpha": null,
+        "ac1": 1.0,
+        "modal_share": 1.0,
+        "n": 4
+      },
+      "strata": {}
+    },
+    "cut": {
+      "kind": "clock",
+      "n": 1,
+      "units": 1,
+      "videos": 1,
+      "raters": [
+        "primary",
+        "replicate"
+      ],
+      "n_off_scale": 0,
+      "coder_values": {},
+      "model_values": {},
+      "figures": {
+        "same_turn": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        },
+        "share_within_5": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        },
+        "share_within_30": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        },
+        "median_abs": {
+          "value": 0.0,
+          "low": null,
+          "high": null
+        },
+        "mean_signed": {
+          "value": 0.0,
+          "low": null,
+          "high": null
+        },
+        "loa_low": {
+          "value": null,
+          "low": null,
+          "high": null
+        },
+        "loa_high": {
+          "value": null,
+          "low": null,
+          "high": null
+        }
+      },
+      "flags": [
+        "small_n"
+      ],
+      "counts": {
+        "n": 1,
+        "within_5": 1,
+        "within_30": 1,
+        "same_turn_n": 1,
+        "same_turn_agree": 1,
+        "same_turn_undetermined": 0
+      },
+      "without_unsure": {
+        "same_turn": 1.0,
+        "share_within_5": 1.0,
+        "share_within_30": 1.0,
+        "median_abs": 0.0,
+        "mean_signed": 0.0,
+        "loa_low": null,
+        "loa_high": null,
+        "same_turn_n": 1,
+        "same_turn_undetermined": 0,
+        "n": 1
+      },
+      "strata": {}
+    },
+    "PRES-COH": {
+      "kind": "ordinal",
+      "n": 1,
+      "units": 1,
+      "videos": 1,
+      "raters": [
+        "primary",
+        "replicate"
+      ],
+      "n_off_scale": 0,
+      "coder_values": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 0
+      },
+      "model_values": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1
+      },
+      "figures": {
+        "exact": {
+          "value": 0.0,
+          "low": null,
+          "high": null
+        },
+        "chance_exact": {
+          "value": 0.0,
+          "low": null,
+          "high": null
+        },
+        "within_one": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        },
+        "chance_within_one": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        },
+        "alpha": {
+          "value": null,
+          "low": null,
+          "high": null
+        },
+        "ac2": {
+          "value": null,
+          "low": null,
+          "high": null
+        },
+        "modal_share": {
+          "value": 0.5,
+          "low": null,
+          "high": null,
+          "by_rater": [
+            1.0,
+            1.0
+          ]
+        },
+        "mean_difference": {
+          "value": -1.0,
+          "low": null,
+          "high": null
+        },
+        "spearman": {
+          "value": null,
+          "low": null,
+          "high": null
+        }
+      },
+      "flags": [
+        "small_n"
+      ],
+      "counts": {
+        "1": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "2": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "3": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "4": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 1
+        },
+        "5": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "without_unsure": {
+        "exact": 0.0,
+        "chance_exact": 0.0,
+        "within_one": 1.0,
+        "chance_within_one": 1.0,
+        "alpha": null,
+        "ac2": null,
+        "modal_share": 0.5,
+        "mean_difference": -1.0,
+        "spearman": null,
+        "n": 1
+      },
+      "strata": {}
+    },
+    "PRES-EVID": {
+      "kind": "ordinal",
+      "n": 1,
+      "units": 1,
+      "videos": 1,
+      "raters": [
+        "primary",
+        "replicate"
+      ],
+      "n_off_scale": 0,
+      "coder_values": {
+        "0": 0,
+        "1-2": 0,
+        "3-5": 0,
+        "6+": 1
+      },
+      "model_values": {
+        "0": 0,
+        "1-2": 0,
+        "3-5": 1,
+        "6+": 0
+      },
+      "figures": {
+        "exact": {
+          "value": 0.0,
+          "low": null,
+          "high": null
+        },
+        "chance_exact": {
+          "value": 0.0,
+          "low": null,
+          "high": null
+        },
+        "within_one": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        },
+        "chance_within_one": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        },
+        "alpha": {
+          "value": null,
+          "low": null,
+          "high": null
+        },
+        "ac2": {
+          "value": null,
+          "low": null,
+          "high": null
+        },
+        "modal_share": {
+          "value": 0.5,
+          "low": null,
+          "high": null,
+          "by_rater": [
+            1.0,
+            1.0
+          ]
+        },
+        "mean_difference": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        },
+        "spearman": {
+          "value": null,
+          "low": null,
+          "high": null
+        }
+      },
+      "flags": [
+        "small_n"
+      ],
+      "counts": {
+        "0": {
+          "0": 0,
+          "1-2": 0,
+          "3-5": 0,
+          "6+": 0
+        },
+        "1-2": {
+          "0": 0,
+          "1-2": 0,
+          "3-5": 0,
+          "6+": 0
+        },
+        "3-5": {
+          "0": 0,
+          "1-2": 0,
+          "3-5": 0,
+          "6+": 0
+        },
+        "6+": {
+          "0": 0,
+          "1-2": 0,
+          "3-5": 1,
+          "6+": 0
+        }
+      },
+      "without_unsure": {
+        "exact": 0.0,
+        "chance_exact": 0.0,
+        "within_one": 1.0,
+        "chance_within_one": 1.0,
+        "alpha": null,
+        "ac2": null,
+        "modal_share": 0.5,
+        "mean_difference": 1.0,
+        "spearman": null,
+        "n": 1
+      },
+      "strata": {}
+    },
+    "PRES-SUBS": {
+      "kind": "ordinal",
+      "n": 1,
+      "units": 1,
+      "videos": 1,
+      "raters": [
+        "primary",
+        "replicate"
+      ],
+      "n_off_scale": 0,
+      "coder_values": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 0
+      },
+      "model_values": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 0
+      },
+      "figures": {
+        "exact": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        },
+        "chance_exact": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        },
+        "within_one": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        },
+        "chance_within_one": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        },
+        "alpha": {
+          "value": null,
+          "low": null,
+          "high": null
+        },
+        "ac2": {
+          "value": null,
+          "low": null,
+          "high": null
+        },
+        "modal_share": {
+          "value": 1.0,
+          "low": null,
+          "high": null,
+          "by_rater": [
+            1.0,
+            1.0
+          ]
+        },
+        "mean_difference": {
+          "value": 0.0,
+          "low": null,
+          "high": null
+        },
+        "spearman": {
+          "value": null,
+          "low": null,
+          "high": null
+        }
+      },
+      "flags": [
+        "prevalence",
+        "small_n"
+      ],
+      "counts": {
+        "1": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "2": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "3": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "4": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 0
+        },
+        "5": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "without_unsure": {
+        "exact": 1.0,
+        "chance_exact": 1.0,
+        "within_one": 1.0,
+        "chance_within_one": 1.0,
+        "alpha": null,
+        "ac2": null,
+        "modal_share": 1.0,
+        "mean_difference": 0.0,
+        "spearman": null,
+        "n": 1
+      },
+      "strata": {}
+    },
+    "expressed_enthusiasm": {
+      "kind": "ordinal",
+      "n": 1,
+      "units": 1,
+      "videos": 1,
+      "raters": [
+        "primary",
+        "replicate"
+      ],
+      "n_off_scale": 0,
+      "coder_values": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1
+      },
+      "model_values": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 0
+      },
+      "figures": {
+        "exact": {
+          "value": 0.0,
+          "low": null,
+          "high": null
+        },
+        "chance_exact": {
+          "value": 0.0,
+          "low": null,
+          "high": null
+        },
+        "within_one": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        },
+        "chance_within_one": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        },
+        "alpha": {
+          "value": null,
+          "low": null,
+          "high": null
+        },
+        "ac2": {
+          "value": null,
+          "low": null,
+          "high": null
+        },
+        "modal_share": {
+          "value": 0.5,
+          "low": null,
+          "high": null,
+          "by_rater": [
+            1.0,
+            1.0
+          ]
+        },
+        "mean_difference": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        },
+        "spearman": {
+          "value": null,
+          "low": null,
+          "high": null
+        }
+      },
+      "flags": [
+        "small_n"
+      ],
+      "counts": {
+        "1": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "2": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "3": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "4": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "5": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 0
+        }
+      },
+      "without_unsure": {
+        "exact": 0.0,
+        "chance_exact": 0.0,
+        "within_one": 1.0,
+        "chance_within_one": 1.0,
+        "alpha": null,
+        "ac2": null,
+        "modal_share": 0.5,
+        "mean_difference": 1.0,
+        "spearman": null,
+        "n": 1
+      },
+      "strata": {}
+    },
+    "interpersonal_warmth": {
+      "kind": "ordinal",
+      "n": 1,
+      "units": 1,
+      "videos": 1,
+      "raters": [
+        "primary",
+        "replicate"
+      ],
+      "n_off_scale": 0,
+      "coder_values": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 0
+      },
+      "model_values": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 0,
+        "5": 0
+      },
+      "figures": {
+        "exact": {
+          "value": 0.0,
+          "low": null,
+          "high": null
+        },
+        "chance_exact": {
+          "value": 0.0,
+          "low": null,
+          "high": null
+        },
+        "within_one": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        },
+        "chance_within_one": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        },
+        "alpha": {
+          "value": null,
+          "low": null,
+          "high": null
+        },
+        "ac2": {
+          "value": null,
+          "low": null,
+          "high": null
+        },
+        "modal_share": {
+          "value": 0.5,
+          "low": null,
+          "high": null,
+          "by_rater": [
+            1.0,
+            1.0
+          ]
+        },
+        "mean_difference": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        },
+        "spearman": {
+          "value": null,
+          "low": null,
+          "high": null
+        }
+      },
+      "flags": [
+        "small_n"
+      ],
+      "counts": {
+        "1": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "2": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "3": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "4": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "5": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "without_unsure": {
+        "exact": 0.0,
+        "chance_exact": 0.0,
+        "within_one": 1.0,
+        "chance_within_one": 1.0,
+        "alpha": null,
+        "ac2": null,
+        "modal_share": 0.5,
+        "mean_difference": 1.0,
+        "spearman": null,
+        "n": 1
+      },
+      "strata": {}
+    },
+    "pitch_positivity": {
+      "kind": "ordinal",
+      "n": 1,
+      "units": 1,
+      "videos": 1,
+      "raters": [
+        "primary",
+        "replicate"
+      ],
+      "n_off_scale": 0,
+      "coder_values": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 0
+      },
+      "model_values": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 0
+      },
+      "figures": {
+        "exact": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        },
+        "chance_exact": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        },
+        "within_one": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        },
+        "chance_within_one": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        },
+        "alpha": {
+          "value": null,
+          "low": null,
+          "high": null
+        },
+        "ac2": {
+          "value": null,
+          "low": null,
+          "high": null
+        },
+        "modal_share": {
+          "value": 1.0,
+          "low": null,
+          "high": null,
+          "by_rater": [
+            1.0,
+            1.0
+          ]
+        },
+        "mean_difference": {
+          "value": 0.0,
+          "low": null,
+          "high": null
+        },
+        "spearman": {
+          "value": null,
+          "low": null,
+          "high": null
+        }
+      },
+      "flags": [
+        "prevalence",
+        "small_n"
+      ],
+      "counts": {
+        "1": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "2": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "3": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "4": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 0
+        },
+        "5": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "without_unsure": {
+        "exact": 1.0,
+        "chance_exact": 1.0,
+        "within_one": 1.0,
+        "chance_within_one": 1.0,
+        "alpha": null,
+        "ac2": null,
+        "modal_share": 1.0,
+        "mean_difference": 0.0,
+        "spearman": null,
+        "n": 1
+      },
+      "strata": {}
+    },
+    "venture:ask": {
+      "kind": "exact",
+      "n": 1,
+      "units": 1,
+      "videos": 1,
+      "raters": [
+        "primary",
+        "replicate"
+      ],
+      "n_off_scale": 0,
+      "coder_values": {},
+      "model_values": {},
+      "figures": {
+        "exact": {
+          "value": 1.0,
+          "low": null,
+          "high": null
+        }
+      },
+      "flags": [
+        "small_n"
+      ],
+      "counts": {
+        "agree": 1,
+        "n": 1
+      },
+      "without_unsure": {
+        "exact": 1.0,
+        "n": 1
+      },
+      "strata": {}
+    }
+  }
+}

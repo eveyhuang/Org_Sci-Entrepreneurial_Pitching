@@ -1,0 +1,215 @@
+{
+  "$defs": {
+    "EpisodeRecord_PREP_SUBS": {
+      "additionalProperties": false,
+      "properties": {
+        "evidence": {
+          "description": "what was said or done that this judgment rests on",
+          "maxLength": 600,
+          "minLength": 1,
+          "title": "Evidence",
+          "type": "string"
+        },
+        "turn_refs": {
+          "description": "transcript turn indices (tN) the judgment rests on",
+          "items": {
+            "type": "integer"
+          },
+          "title": "Turn Refs",
+          "type": "array"
+        },
+        "uncodable": {
+          "description": "true when the evidence needed to judge this code is absent",
+          "title": "Uncodable",
+          "type": "boolean"
+        },
+        "value": {
+          "anyOf": [
+            {
+              "maximum": 5,
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "ordinal answer; null only when uncodable",
+          "title": "Value"
+        }
+      },
+      "required": [
+        "uncodable",
+        "evidence",
+        "turn_refs",
+        "value"
+      ],
+      "title": "EpisodeRecord_PREP_SUBS",
+      "type": "object"
+    },
+    "EpisodeRecord_PR_FRAME": {
+      "additionalProperties": false,
+      "properties": {
+        "evidence": {
+          "description": "what was said or done that this judgment rests on",
+          "maxLength": 600,
+          "minLength": 1,
+          "title": "Evidence",
+          "type": "string"
+        },
+        "turn_refs": {
+          "description": "transcript turn indices (tN) the judgment rests on",
+          "items": {
+            "type": "integer"
+          },
+          "title": "Turn Refs",
+          "type": "array"
+        },
+        "uncodable": {
+          "description": "true when the evidence needed to judge this code is absent",
+          "title": "Uncodable",
+          "type": "boolean"
+        },
+        "value": {
+          "anyOf": [
+            {
+              "enum": [
+                "promotion",
+                "prevention",
+                "NEUTRAL"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "categorical answer; null only when uncodable",
+          "title": "Value"
+        }
+      },
+      "required": [
+        "uncodable",
+        "evidence",
+        "turn_refs",
+        "value"
+      ],
+      "title": "EpisodeRecord_PR_FRAME",
+      "type": "object"
+    },
+    "EpisodeRecord_RAP_INTERRUPT": {
+      "additionalProperties": false,
+      "properties": {
+        "evidence": {
+          "description": "what was said or done that this judgment rests on",
+          "maxLength": 600,
+          "minLength": 1,
+          "title": "Evidence",
+          "type": "string"
+        },
+        "turn_refs": {
+          "description": "transcript turn indices (tN) the judgment rests on",
+          "items": {
+            "type": "integer"
+          },
+          "title": "Turn Refs",
+          "type": "array"
+        },
+        "uncodable": {
+          "description": "true when the evidence needed to judge this code is absent",
+          "title": "Uncodable",
+          "type": "boolean"
+        },
+        "value": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "count answer; null only when uncodable",
+          "title": "Value"
+        }
+      },
+      "required": [
+        "uncodable",
+        "evidence",
+        "turn_refs",
+        "value"
+      ],
+      "title": "EpisodeRecord_RAP_INTERRUPT",
+      "type": "object"
+    },
+    "EpisodeRecord_RS_EVID": {
+      "additionalProperties": false,
+      "properties": {
+        "evidence": {
+          "description": "what was said or done that this judgment rests on",
+          "maxLength": 600,
+          "minLength": 1,
+          "title": "Evidence",
+          "type": "string"
+        },
+        "turn_refs": {
+          "description": "transcript turn indices (tN) the judgment rests on",
+          "items": {
+            "type": "integer"
+          },
+          "title": "Turn Refs",
+          "type": "array"
+        },
+        "uncodable": {
+          "description": "true when the evidence needed to judge this code is absent",
+          "title": "Uncodable",
+          "type": "boolean"
+        },
+        "value": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "binary answer; null only when uncodable",
+          "title": "Value"
+        }
+      },
+      "required": [
+        "uncodable",
+        "evidence",
+        "turn_refs",
+        "value"
+      ],
+      "title": "EpisodeRecord_RS_EVID",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "PR-FRAME": {
+      "$ref": "#/$defs/EpisodeRecord_PR_FRAME"
+    },
+    "PREP-SUBS": {
+      "$ref": "#/$defs/EpisodeRecord_PREP_SUBS"
+    },
+    "RAP-INTERRUPT": {
+      "$ref": "#/$defs/EpisodeRecord_RAP_INTERRUPT"
+    },
+    "RS-EVID": {
+      "$ref": "#/$defs/EpisodeRecord_RS_EVID"
+    }
+  },
+  "required": [
+    "PR-FRAME",
+    "RS-EVID",
+    "PREP-SUBS",
+    "RAP-INTERRUPT"
+  ],
+  "title": "EpisodeRecord",
+  "type": "object"
+}

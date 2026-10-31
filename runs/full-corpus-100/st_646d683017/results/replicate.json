@@ -1,0 +1,1814 @@
+{
+  "pass": "replicate",
+  "unit_key": "panel__st_646d683017__replicate",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:14-2:26"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "presentation",
+      "3": "demonstration",
+      "4": "demonstration",
+      "5": "demonstration",
+      "6": "demonstration",
+      "7": "demonstration",
+      "8": "demonstration",
+      "9": "qa",
+      "10": "qa",
+      "11": "qa",
+      "12": "qa",
+      "13": "qa",
+      "14": "qa",
+      "15": "qa",
+      "16": "qa",
+      "17": "qa",
+      "18": "qa",
+      "19": "qa",
+      "20": "qa",
+      "21": "qa",
+      "22": "qa",
+      "23": "qa",
+      "24": "qa",
+      "25": "qa",
+      "26": "qa",
+      "27": "qa",
+      "28": "qa",
+      "29": "qa",
+      "30": "qa",
+      "31": "qa",
+      "32": "social",
+      "33": "social",
+      "34": "social",
+      "35": "none",
+      "36": "none",
+      "37": "none",
+      "38": "none",
+      "39": "qa",
+      "40": "qa",
+      "41": "none",
+      "42": "none",
+      "43": "negotiation",
+      "44": "negotiation",
+      "45": "negotiation",
+      "46": "negotiation",
+      "47": "negotiation",
+      "48": "negotiation",
+      "49": "negotiation",
+      "50": "negotiation",
+      "51": "negotiation",
+      "52": "negotiation",
+      "53": "negotiation"
+    },
+    "segment_seconds": {
+      "presentation": 135.0,
+      "qa": 147.0,
+      "social": 13.0,
+      "demonstration": 15.0,
+      "negotiation": 111.0,
+      "none": 68.0
+    },
+    "exchange_counts": {
+      "substantive": 8,
+      "social": 1,
+      "demonstration": 1,
+      "negotiation": 1
+    },
+    "turn_frame": {
+      "9": "prevention",
+      "10": "prevention",
+      "11": "prevention",
+      "12": "promotion",
+      "13": "promotion",
+      "14": "promotion",
+      "15": "promotion",
+      "16": "promotion",
+      "17": "promotion",
+      "18": "NEUTRAL",
+      "19": "prevention",
+      "20": "promotion",
+      "22": "prevention",
+      "23": "promotion",
+      "24": "promotion",
+      "25": "promotion",
+      "26": "promotion",
+      "27": "promotion",
+      "28": "promotion",
+      "29": "promotion",
+      "30": "promotion",
+      "31": "promotion",
+      "39": "unclassified",
+      "40": "unclassified"
+    },
+    "frame_match": {
+      "10": "match",
+      "12": "switch_to_promotion",
+      "14": "match",
+      "16": "match",
+      "18": "neutral",
+      "20": "switch_to_promotion",
+      "23": "switch_to_promotion",
+      "25": "match",
+      "27": "match",
+      "29": "match",
+      "31": "match",
+      "40": "unclassified"
+    },
+    "other_concepts": []
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "H1",
+        "role": "host",
+        "label": "Narrator"
+      },
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Bobbi Peterson"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Lori Greiner"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Robert Herjavec"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Barbara Corcoran"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Mark Cuban"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 14.0,
+        "end_s": 146.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 6.0,
+        "kind": "teaser"
+      },
+      {
+        "start_s": 631.0,
+        "end_s": 687.0,
+        "kind": "other"
+      }
+    ],
+    "gaps": [
+      {
+        "at_s": 435.0,
+        "note": "edited gap before Kevin speaks"
+      },
+      {
+        "at_s": 516.0,
+        "note": "edited gap during Kevin's negotiation"
+      },
+      {
+        "at_s": 566.0,
+        "note": "edited gap before Bobbi's response"
+      }
+    ],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 5,
+        "uncodable": false,
+        "moment_s": 64.0,
+        "note": "Founder is highly energetic, smiling constantly, and uses expressive hand gestures throughout the pitch."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 5,
+        "uncodable": false,
+        "moment_s": 115.0,
+        "note": "She speaks with great passion and energy about her product's features and benefits."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 14.0,
+        "note": "She greets the panel warmly with a big smile and maintains an approachable, friendly demeanor."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "2",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "An oversized electric toothbrush with a wider brush head designed to clean more surface area and reduce brushing time.",
+      "primary_industry": "health_personal_care",
+      "secondary_industries": [],
+      "product_form": "physical_good",
+      "customer_type": "consumer",
+      "founder_gender": "all_women",
+      "product_category": "Electric toothbrush",
+      "earliest_s": 21.0,
+      "note": "The founder is an orthodontist who designed the toothbrush.",
+      "ask_amount_usd": 150000,
+      "ask_equity_pct": 10.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "H1",
+        "start_s": 3.0,
+        "end_s": 6.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Narrator introduces the next product as a way to get teeth cleaner faster."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "F1",
+        "start_s": 14.0,
+        "end_s": 146.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Founder introduces herself, asks for $150k for 10%, and explains the problem of gum disease and her oversized toothbrush solution."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "S2",
+        "start_s": 146.0,
+        "end_s": 147.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Investor compliments the founder on a good job with the presentation."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "F1",
+        "start_s": 148.0,
+        "end_s": 150.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Founder points out the samples provided to the investors."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "S1",
+        "start_s": 155.0,
+        "end_s": 156.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Investor notes the product has more settings than she has ever seen."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "F1",
+        "start_s": 157.0,
+        "end_s": 158.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Founder confirms the observation about the numerous settings."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "S1",
+        "start_s": 158.0,
+        "end_s": 167.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Investor lists the various settings on the toothbrush and expresses approval."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "F1",
+        "start_s": 167.0,
+        "end_s": 168.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Founder thanks the investor for the positive comment."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "S1",
+        "start_s": 168.0,
+        "end_s": 171.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Investor asks if the wider brush head cuts down on brushing time."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "F1",
+        "start_s": 171.0,
+        "end_s": 174.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          9
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Founder confirms that it potentially cuts toothbrushing time in half."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "S4",
+        "start_s": 175.0,
+        "end_s": 184.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Investor asks why major toothbrush companies wouldn't just make a head with a bigger brush."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "F1",
+        "start_s": 184.0,
+        "end_s": 187.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          11
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Founder states she has a patent-pending design on the toothbrush."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "S2",
+        "start_s": 187.0,
+        "end_s": 188.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Investor asks if the patent is on the size of the brush."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "F1",
+        "start_s": 189.0,
+        "end_s": 192.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          13
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Founder confirms the design patent covers the size of the toothbrush."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "S2",
+        "start_s": 196.0,
+        "end_s": 202.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Investor asks for clarification on whether the design patent is specifically on the size of the brush head."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "F1",
+        "start_s": 202.0,
+        "end_s": 203.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          15
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Founder confirms the patent is for a wider toothbrush head."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "S2",
+        "start_s": 203.0,
+        "end_s": 205.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Investor asks how she defines an oversized brush head."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "F1",
+        "start_s": 205.0,
+        "end_s": 207.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          17
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "NONE",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "NONE",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Founder begins to answer but is interrupted by another question."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "S4",
+        "start_s": 207.0,
+        "end_s": 210.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Investor questions how the patent protects against major competitors."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "F1",
+        "start_s": 211.0,
+        "end_s": 219.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          19
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "deflects",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Founder deflects the patent question by mentioning her MBA paper on the dental industry."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "S4",
+        "start_s": 225.0,
+        "end_s": 232.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          20
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Investor asserts that major companies control the market and no new entrant has broken their share."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "S3",
+        "start_s": 234.0,
+        "end_s": 238.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Investor asks why the large companies don't already make a fat toothbrush."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "F1",
+        "start_s": 238.0,
+        "end_s": 245.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          22
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "partial",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Founder suggests that it takes an orthodontist to come up with the good idea."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "S2",
+        "start_s": 246.0,
+        "end_s": 248.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Investor asks for the selling price of the toothbrush."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "F1",
+        "start_s": 248.0,
+        "end_s": 251.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          24
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Founder provides the selling price and the landed cost."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "S5",
+        "start_s": 254.0,
+        "end_s": 257.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Investor asks where the product is being sold besides her practice."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "F1",
+        "start_s": 257.0,
+        "end_s": 258.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          26
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Founder states she is also selling them online."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "S4",
+        "start_s": 259.0,
+        "end_s": 260.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Investor asks for the number of units sold."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "F1",
+        "start_s": 260.0,
+        "end_s": 284.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          28
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Founder shares her launch date, total sales figures, and mentions selling out quickly."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "S1",
+        "start_s": 285.0,
+        "end_s": 287.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Investor invites the founder to share her personal background."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "F1",
+        "start_s": 287.0,
+        "end_s": 312.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          30
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Founder details her challenging upbringing, educational achievements, and the opening of her practice."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "S3",
+        "start_s": 315.0,
+        "end_s": 320.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Investor points out the shared name Barbara in the founder's family."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "F1",
+        "start_s": 320.0,
+        "end_s": 327.0,
+        "function": "social",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Founder explains her nickname and the generations of Barbaras in her family."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "S4",
+        "start_s": 328.0,
+        "end_s": 329.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Investor jokes about the confusing names."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "S1",
+        "start_s": 331.0,
+        "end_s": 345.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Investor praises the founder but exits due to concerns about the crowded and competitive space."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "F1",
+        "start_s": 346.0,
+        "end_s": 347.0,
+        "function": "accepts",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": null,
+        "responds_to": [
+          35
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Founder thanks the exiting investor."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "S2",
+        "start_s": 348.0,
+        "end_s": 374.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Investor admires the founder's story but exits because of the brutally competitive market."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "S5",
+        "start_s": 376.0,
+        "end_s": 395.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Investor exits, citing the challenge of being a double entrepreneur and going too wide."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "S3",
+        "start_s": 398.0,
+        "end_s": 400.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Investor asks how the investment money would be utilized."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "F1",
+        "start_s": 400.0,
+        "end_s": 422.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          39
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Founder explains the need for proper staff, shipping space, and retail expansion."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "S3",
+        "start_s": 422.0,
+        "end_s": 429.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Investor decides to pass, stating it is not the right business for her."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "F1",
+        "start_s": 450.0,
+        "end_s": 451.0,
+        "function": "accepts",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": null,
+        "responds_to": [
+          41
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Founder expresses disappointment at the investor's exit."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "S4",
+        "start_s": 461.0,
+        "end_s": 494.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Investor offers $150k for 25% equity plus a $5 per unit royalty in perpetuity."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "F1",
+        "start_s": 495.0,
+        "end_s": 502.0,
+        "function": "negotiates",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          43
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Founder mentions hiring another orthodontist to dedicate full time to the business."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "S4",
+        "start_s": 507.0,
+        "end_s": 512.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          44
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Investor acknowledges her credibility and suggests she should have asked for less money."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "F1",
+        "start_s": 534.0,
+        "end_s": 542.0,
+        "function": "negotiates",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          45
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Founder emphasizes her resilience and willingness to reinvest money back into the business."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "S4",
+        "start_s": 543.0,
+        "end_s": 556.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          46
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Investor reiterates his offer terms, emphasizing the royalty component."
+      },
+      {
+        "turn_id": 48,
+        "speaker": "F1",
+        "start_s": 568.0,
+        "end_s": 577.0,
+        "function": "negotiates",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          47
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Founder expresses dissatisfaction with the high royalty amount."
+      },
+      {
+        "turn_id": 49,
+        "speaker": "S4",
+        "start_s": 578.0,
+        "end_s": 593.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          48
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Investor stands firm on the $5 royalty requirement."
+      },
+      {
+        "turn_id": 50,
+        "speaker": "F1",
+        "start_s": 596.0,
+        "end_s": 607.0,
+        "function": "decides",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          49
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Founder counters with $150k for 20% equity and a $2 royalty."
+      },
+      {
+        "turn_id": 51,
+        "speaker": "S5",
+        "start_s": 608.0,
+        "end_s": 614.0,
+        "function": "negotiates",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          50
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Investor points out that the counter-offer is close."
+      },
+      {
+        "turn_id": 52,
+        "speaker": "S3",
+        "start_s": 618.0,
+        "end_s": 620.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          50
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Investor re-enters the negotiation and accepts the founder's counter-offer."
+      },
+      {
+        "turn_id": 53,
+        "speaker": "F1",
+        "start_s": 620.0,
+        "end_s": 622.0,
+        "function": "decides",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          52
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Founder enthusiastically accepts the offer from the re-entered investor."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "demonstration",
+        "topic": "NONE",
+        "label": "handing out and examining samples"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "substantive",
+        "topic": "operating_efficiency",
+        "label": "time to brush"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "competition",
+        "label": "patent and big competitors"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "substantive",
+        "topic": "competition",
+        "label": "why big competitors don't make it"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "price and cost"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "substantive",
+        "topic": "go_to_market",
+        "label": "sales channels"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "sales to date"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "substantive",
+        "topic": "self_promotion",
+        "label": "founder background"
+      },
+      {
+        "exchange_id": 9,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "shared names"
+      },
+      {
+        "exchange_id": 10,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "use of funds"
+      },
+      {
+        "exchange_id": 11,
+        "kind": "negotiation",
+        "topic": "NONE",
+        "label": "offers and counters"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S1",
+        "kind": "exit",
+        "time_s": 331.0,
+        "turn_id": 35,
+        "offer_id": null,
+        "terms": "I'm out",
+        "note": "Smart but very crowded space, concerned about competing."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S2",
+        "kind": "exit",
+        "time_s": 348.0,
+        "turn_id": 37,
+        "offer_id": null,
+        "terms": "I'm out",
+        "note": "Brutally competitive market with a lot of pain."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S5",
+        "kind": "exit",
+        "time_s": 376.0,
+        "turn_id": 38,
+        "offer_id": null,
+        "terms": "I'm out",
+        "note": "Tough business, going too wide while being a double entrepreneur."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S3",
+        "kind": "exit",
+        "time_s": 422.0,
+        "turn_id": 41,
+        "offer_id": null,
+        "terms": "I'm out",
+        "note": "Not a business for her."
+      },
+      {
+        "decision_id": 5,
+        "actor": "S4",
+        "kind": "offer",
+        "time_s": 461.0,
+        "turn_id": 43,
+        "offer_id": "O1",
+        "terms": "$150k for 25% plus a $5 per unit royalty in perpetuity",
+        "note": "Brutal market, wants a 10x return."
+      },
+      {
+        "decision_id": 6,
+        "actor": "F1",
+        "kind": "founder_counters",
+        "time_s": 596.0,
+        "turn_id": 50,
+        "offer_id": "O1",
+        "terms": "$150k for 20% and a $2 royalty",
+        "note": "The $5 royalty is too high and killing her margins."
+      },
+      {
+        "decision_id": 7,
+        "actor": "S3",
+        "kind": "offer",
+        "time_s": 618.0,
+        "turn_id": 52,
+        "offer_id": "O2",
+        "terms": "$150k for 20% and a $2 royalty",
+        "note": "Re-enters the negotiation to accept the founder's counter terms."
+      },
+      {
+        "decision_id": 8,
+        "actor": "F1",
+        "kind": "founder_accepts",
+        "time_s": 620.0,
+        "turn_id": 53,
+        "offer_id": "O2",
+        "terms": "$150k for 20% and a $2 royalty",
+        "note": "Excited to partner with the fourth Barbara."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": "Barbara re-enters the negotiation after exiting to accept the founder's counter-offer."
+  }
+}

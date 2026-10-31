@@ -1,0 +1,1906 @@
+{
+  "pass": "replicate",
+  "unit_key": "panel__st_04fd2fd01d__replicate",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:15-0:54",
+    "1:57-2:02",
+    "2:10-2:20"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "none",
+      "3": "none",
+      "4": "none",
+      "5": "none",
+      "6": "none",
+      "7": "none",
+      "8": "none",
+      "9": "none",
+      "10": "none",
+      "11": "none",
+      "12": "none",
+      "13": "none",
+      "14": "none",
+      "15": "none",
+      "16": "none",
+      "17": "presentation",
+      "18": "none",
+      "19": "none",
+      "20": "presentation",
+      "21": "qa",
+      "22": "qa",
+      "23": "qa",
+      "24": "qa",
+      "25": "qa",
+      "26": "qa",
+      "27": "qa",
+      "28": "qa",
+      "29": "qa",
+      "30": "qa",
+      "31": "qa",
+      "32": "qa",
+      "33": "qa",
+      "34": "qa",
+      "35": "qa",
+      "36": "qa",
+      "37": "qa",
+      "38": "qa",
+      "39": "qa",
+      "40": "qa",
+      "41": "qa",
+      "42": "qa",
+      "43": "qa",
+      "44": "qa",
+      "45": "qa",
+      "46": "qa",
+      "47": "qa",
+      "48": "qa",
+      "49": "qa",
+      "50": "qa",
+      "51": "none",
+      "52": "none",
+      "53": "none",
+      "54": "none",
+      "55": "none",
+      "56": "none",
+      "57": "none",
+      "58": "none",
+      "59": "none",
+      "60": "none",
+      "61": "none"
+    },
+    "segment_seconds": {
+      "presentation": 54.0,
+      "qa": 134.0,
+      "social": 0.0,
+      "demonstration": 0.0,
+      "negotiation": 0.0,
+      "none": 237.0
+    },
+    "exchange_counts": {
+      "substantive": 8,
+      "social": 0,
+      "demonstration": 0,
+      "negotiation": 0
+    },
+    "turn_frame": {
+      "21": "promotion",
+      "22": "promotion",
+      "23": "promotion",
+      "24": "promotion",
+      "25": "prevention",
+      "26": "promotion",
+      "27": "prevention",
+      "28": "prevention",
+      "29": "promotion",
+      "30": "promotion",
+      "31": "promotion",
+      "32": "promotion",
+      "33": "promotion",
+      "35": "promotion",
+      "36": "prevention",
+      "37": "prevention",
+      "38": "promotion",
+      "39": "promotion",
+      "40": "prevention",
+      "41": "prevention",
+      "42": "prevention",
+      "43": "NEUTRAL",
+      "46": "prevention",
+      "49": "promotion",
+      "50": "promotion"
+    },
+    "frame_match": {
+      "22": "match",
+      "24": "match",
+      "26": "switch_to_promotion",
+      "28": "match",
+      "30": "match",
+      "32": "match",
+      "35": "match",
+      "37": "match",
+      "39": "match",
+      "41": "match",
+      "43": "neutral",
+      "50": "match"
+    },
+    "other_concepts": []
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "H1",
+        "role": "host",
+        "label": "Narrator"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Barbara Corcoran"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Lori Greiner"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Robert Herjavec"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Mark Cuban"
+      },
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Wally Amos"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 15.0,
+        "end_s": 54.0
+      },
+      {
+        "start_s": 117.0,
+        "end_s": 122.0
+      },
+      {
+        "start_s": 130.0,
+        "end_s": 140.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 15.0,
+        "kind": "teaser"
+      },
+      {
+        "start_s": 500.0,
+        "end_s": 535.0,
+        "kind": "recap"
+      },
+      {
+        "start_s": 536.0,
+        "end_s": 565.0,
+        "kind": "other"
+      }
+    ],
+    "gaps": [],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 45.0,
+        "note": "Founder delivers the pitch with a big smile and talks about selling happiness."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 50.0,
+        "note": "Founder shows strong engagement and excitement when describing his long history with cookies."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 5,
+        "uncodable": false,
+        "moment_s": 15.0,
+        "note": "A very friendly and approachable greeting with 'Aloha sharks' and a warm demeanor."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "2",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "1",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "1",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "Handmade cookies sold online and in Costco in Hawaii.",
+      "primary_industry": "food_beverage",
+      "secondary_industries": [],
+      "product_form": "physical_good",
+      "customer_type": "both",
+      "founder_gender": "all_men",
+      "product_category": "cookies",
+      "earliest_s": 30.0,
+      "note": "Founder is Wally Amos, previously of Famous Amos.",
+      "ask_amount_usd": 50000,
+      "ask_equity_pct": 20.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 15.0,
+        "end_s": 54.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Wally introduces himself, asks for 50k for 20 percent, and says he has been selling cookies for 40 years."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "F1",
+        "start_s": 55.0,
+        "end_s": 69.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Wally jokes with the sharks about not smiling and compliments Kevin."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "S4",
+        "start_s": 70.0,
+        "end_s": 71.0,
+        "function": "social",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert asks Mark if the founder is the Famous Amos."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "S5",
+        "start_s": 72.0,
+        "end_s": 73.0,
+        "function": "social",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": null,
+        "responds_to": [
+          3
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark confirms that it is indeed Wally Amos."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "F1",
+        "start_s": 74.0,
+        "end_s": 81.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Wally hands out samples of his cookies to the sharks."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "S1",
+        "start_s": 81.0,
+        "end_s": 82.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin jokes that this is going to end badly."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "S5",
+        "start_s": 83.0,
+        "end_s": 84.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark jokes asking if anyone is allergic to cookies."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "F1",
+        "start_s": 85.0,
+        "end_s": 88.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Wally comments that the sharks look the same as on television."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "S5",
+        "start_s": 88.0,
+        "end_s": 91.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [
+          8
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark jokes back about being shocked to be close to the sharks."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "S4",
+        "start_s": 92.0,
+        "end_s": 95.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert hands a cookie sample to Lori."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "S4",
+        "start_s": 96.0,
+        "end_s": 98.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert hands a cookie sample to Kevin."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "S5",
+        "start_s": 101.0,
+        "end_s": 104.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark tells Wally he is a legend and jokes if he himself is a legend."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "F1",
+        "start_s": 105.0,
+        "end_s": 109.0,
+        "function": "social",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": null,
+        "responds_to": [
+          12
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Wally jokes about getting money from them and confirms Mark is a legend."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "F1",
+        "start_s": 109.0,
+        "end_s": 111.0,
+        "function": "social",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Wally tells Kevin he is as tough as everybody says."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "S4",
+        "start_s": 112.0,
+        "end_s": 114.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert tastes the cookie and says he likes them."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "S3",
+        "start_s": 115.0,
+        "end_s": 116.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori comments that she loves a light crunchy cookie."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "F1",
+        "start_s": 117.0,
+        "end_s": 122.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Wally formally states that he is the one who started Famous Amos 40 years ago."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "S5",
+        "start_s": 123.0,
+        "end_s": 124.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark reiterates that Wally is a legend."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "F1",
+        "start_s": 125.0,
+        "end_s": 129.0,
+        "function": "social",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": null,
+        "responds_to": [
+          18
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Wally thanks Mark for the compliment."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "F1",
+        "start_s": 130.0,
+        "end_s": 140.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Wally introduces his new cookie business, The Cookie Kahuna, and notes he is no longer affiliated with the original company."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "S4",
+        "start_s": 140.0,
+        "end_s": 141.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks what happened to Wally's original company."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "F1",
+        "start_s": 142.0,
+        "end_s": 162.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          21
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Wally explains his background in show business as an agent before he started making cookies."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "S4",
+        "start_s": 163.0,
+        "end_s": 165.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert notes that Wally's cookies used to be everywhere all over the world."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "F1",
+        "start_s": 165.0,
+        "end_s": 166.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          23
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Wally confirms that they were everywhere."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "S2",
+        "start_s": 166.0,
+        "end_s": 168.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Barbara asks what went wrong with the original business."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "F1",
+        "start_s": 168.0,
+        "end_s": 177.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          25
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Wally explains he is a good promoter but not a business guy and wasn't focused on money."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "S4",
+        "start_s": 178.0,
+        "end_s": 179.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert presses again on what exactly happened with the business."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "F1",
+        "start_s": 180.0,
+        "end_s": 190.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          27
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Wally says the company went through five owners, he got diluted, and had no equity left."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "S3",
+        "start_s": 191.0,
+        "end_s": 197.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks if the original company licenses his picture and name from him."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "F1",
+        "start_s": 199.0,
+        "end_s": 202.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          29
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Wally clarifies that they do not license it, they own Famous Amos outright."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "S1",
+        "start_s": 204.0,
+        "end_s": 205.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks Wally to tell them about the new business."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "F1",
+        "start_s": 206.0,
+        "end_s": 215.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          31
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Wally explains he started it a year and a half ago and currently sells online and at Costco in Hawaii."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "S4",
+        "start_s": 216.0,
+        "end_s": 217.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks what he sells the cookies for."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "F1",
+        "start_s": 218.0,
+        "end_s": 228.0,
+        "function": "NONE",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Wally asks for a moment to get his numbers, joking again that he is not a business guy."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "F1",
+        "start_s": 229.0,
+        "end_s": 234.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          33
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Wally reads that Costco buys them for $7.89 for a one-pound bag."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "S5",
+        "start_s": 235.0,
+        "end_s": 236.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks how much it costs to make the cookies."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "F1",
+        "start_s": 236.0,
+        "end_s": 239.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          36
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Wally states that it costs $5.25 to make them."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "S4",
+        "start_s": 240.0,
+        "end_s": 241.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks for the sales figures for the last year."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "F1",
+        "start_s": 242.0,
+        "end_s": 246.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          38
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Wally provides the exact sales number of $36,215.97 for the year so far."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "S4",
+        "start_s": 247.0,
+        "end_s": 248.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks if he can see the paper with the numbers."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "F1",
+        "start_s": 249.0,
+        "end_s": 252.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          40
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Wally hands over the paper but jokes not to ask him any questions about them."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "S4",
+        "start_s": 255.0,
+        "end_s": 258.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert points out that the margin Wally is making is less than twenty percent."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "F1",
+        "start_s": 259.0,
+        "end_s": 260.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          42
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "NONE",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Wally simply acknowledges Robert's statement."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "S1",
+        "start_s": 261.0,
+        "end_s": 262.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          43
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin remarks that the margin is bad in the food business."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "S4",
+        "start_s": 263.0,
+        "end_s": 278.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          43
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert explains that the margin is not enough to sustain the business because packaging and shipping take over 40 percent."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "S1",
+        "start_s": 278.0,
+        "end_s": 279.0,
+        "function": "question",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks Robert if that percentage includes the baked goods."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "S4",
+        "start_s": 280.0,
+        "end_s": 282.0,
+        "function": "NONE",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          46
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert clarifies to Kevin that it is just the packaging costs."
+      },
+      {
+        "turn_id": 48,
+        "speaker": "F1",
+        "start_s": 283.0,
+        "end_s": 284.0,
+        "function": "accepts",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          45
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Wally admits that the situation is worse than he thought."
+      },
+      {
+        "turn_id": 49,
+        "speaker": "S2",
+        "start_s": 285.0,
+        "end_s": 292.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "vision",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Barbara asks why he would want to start all over again after what he went through."
+      },
+      {
+        "turn_id": 50,
+        "speaker": "F1",
+        "start_s": 293.0,
+        "end_s": 302.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          49
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "vision",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Wally explains he loves cookies and believes he can build the business again just like he did before."
+      },
+      {
+        "turn_id": 51,
+        "speaker": "S1",
+        "start_s": 303.0,
+        "end_s": 320.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin states that without access to Wally's image and name, the new brand isn't investable for him, and exits."
+      },
+      {
+        "turn_id": 52,
+        "speaker": "F1",
+        "start_s": 321.0,
+        "end_s": 324.0,
+        "function": "accepts",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": null,
+        "responds_to": [
+          51
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Wally accepts Kevin's decision without any problem and thanks him."
+      },
+      {
+        "turn_id": 53,
+        "speaker": "S3",
+        "start_s": 326.0,
+        "end_s": 362.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori explains that the struggle of starting over when something isn't working makes her decide to be out."
+      },
+      {
+        "turn_id": 54,
+        "speaker": "F1",
+        "start_s": 363.0,
+        "end_s": 364.0,
+        "function": "accepts",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": null,
+        "responds_to": [
+          53
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Wally understands and accepts Lori's decision."
+      },
+      {
+        "turn_id": 55,
+        "speaker": "S4",
+        "start_s": 365.0,
+        "end_s": 378.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert cites the high costs and limited distribution as reasons to not invest, and exits."
+      },
+      {
+        "turn_id": 56,
+        "speaker": "F1",
+        "start_s": 379.0,
+        "end_s": 380.0,
+        "function": "accepts",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": null,
+        "responds_to": [
+          55
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Wally accepts Robert's exit gracefully."
+      },
+      {
+        "turn_id": 57,
+        "speaker": "S2",
+        "start_s": 383.0,
+        "end_s": 444.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara shares a similar personal story, noting that without his personality attached, the business lacks value, and exits."
+      },
+      {
+        "turn_id": 58,
+        "speaker": "F1",
+        "start_s": 445.0,
+        "end_s": 451.0,
+        "function": "accepts",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": null,
+        "responds_to": [
+          57
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Wally agrees with Barbara's assessment and accepts her decision."
+      },
+      {
+        "turn_id": 59,
+        "speaker": "S5",
+        "start_s": 452.0,
+        "end_s": 465.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark tells Wally he is a legend, but due to a conflict of interest in the cookie business, he is out."
+      },
+      {
+        "turn_id": 60,
+        "speaker": "F1",
+        "start_s": 465.0,
+        "end_s": 467.0,
+        "function": "accepts",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": null,
+        "responds_to": [
+          59
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Wally thanks Mark and accepts the decision."
+      },
+      {
+        "turn_id": 61,
+        "speaker": "F1",
+        "start_s": 468.0,
+        "end_s": 499.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Wally says his goodbyes, tells them to stay tuned, and leaves with an Aloha."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "substantive",
+        "topic": "self_promotion",
+        "label": "founder's background"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "past business success"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "loss of past business"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "substantive",
+        "topic": "assets",
+        "label": "licensing of image and name"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "new business sales and costs"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "requesting the numbers sheet"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "substantive",
+        "topic": "operating_efficiency",
+        "label": "low margins and high costs"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "substantive",
+        "topic": "vision",
+        "label": "motivation to start again"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S1",
+        "kind": "exit",
+        "time_s": 303.0,
+        "turn_id": 51,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "He feels the brand is not investable without access to Wally's image and name."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S3",
+        "kind": "exit",
+        "time_s": 326.0,
+        "turn_id": 53,
+        "offer_id": null,
+        "terms": "I have to be out.",
+        "note": "She believes the struggle of starting over makes it unappealing."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S4",
+        "kind": "exit",
+        "time_s": 365.0,
+        "turn_id": 55,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "He points out the costs are too high and distribution is limited."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S2",
+        "kind": "exit",
+        "time_s": 383.0,
+        "turn_id": 57,
+        "offer_id": null,
+        "terms": "I have to be out.",
+        "note": "She relates to selling her personality and thinks the new business lacks value without it."
+      },
+      {
+        "decision_id": 5,
+        "actor": "S5",
+        "kind": "exit",
+        "time_s": 452.0,
+        "turn_id": 59,
+        "offer_id": null,
+        "terms": "So I'm out.",
+        "note": "He is already in the cookie business and it would be a conflict of interest."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": "The pitch features a well-known founder. The prepared presentation is split by a long demonstration and social interaction."
+  }
+}

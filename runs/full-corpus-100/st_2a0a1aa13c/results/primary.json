@@ -1,0 +1,2281 @@
+{
+  "pass": "primary",
+  "unit_key": "panel__st_2a0a1aa13c__primary",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:15-1:58"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "social",
+      "3": "social",
+      "4": "social",
+      "5": "social",
+      "6": "social",
+      "7": "demonstration",
+      "8": "demonstration",
+      "9": "qa",
+      "10": "qa",
+      "11": "qa",
+      "12": "qa",
+      "13": "qa",
+      "14": "qa",
+      "15": "qa",
+      "16": "qa",
+      "17": "qa",
+      "18": "qa",
+      "19": "qa",
+      "20": "qa",
+      "21": "qa",
+      "22": "qa",
+      "23": "qa",
+      "24": "qa",
+      "25": "qa",
+      "26": "qa",
+      "27": "qa",
+      "28": "qa",
+      "29": "qa",
+      "30": "qa",
+      "31": "qa",
+      "32": "qa",
+      "33": "qa",
+      "34": "qa",
+      "35": "none",
+      "36": "qa",
+      "37": "qa",
+      "38": "none",
+      "39": "social",
+      "40": "qa",
+      "41": "negotiation",
+      "42": "negotiation",
+      "43": "social",
+      "44": "negotiation",
+      "45": "none",
+      "46": "negotiation",
+      "47": "negotiation",
+      "48": "negotiation",
+      "49": "negotiation",
+      "50": "negotiation",
+      "51": "negotiation",
+      "52": "negotiation",
+      "53": "negotiation",
+      "54": "negotiation",
+      "55": "negotiation",
+      "56": "negotiation",
+      "57": "negotiation",
+      "58": "social",
+      "59": "negotiation",
+      "60": "negotiation",
+      "61": "negotiation",
+      "62": "negotiation",
+      "63": "negotiation",
+      "64": "none",
+      "65": "negotiation",
+      "66": "negotiation",
+      "67": "negotiation",
+      "68": "negotiation",
+      "69": "negotiation",
+      "70": "negotiation",
+      "71": "social"
+    },
+    "segment_seconds": {
+      "presentation": 103.0,
+      "qa": 147.0,
+      "social": 34.0,
+      "demonstration": 3.0,
+      "negotiation": 266.0,
+      "none": 49.0
+    },
+    "exchange_counts": {
+      "substantive": 7,
+      "social": 5,
+      "demonstration": 1,
+      "negotiation": 1
+    },
+    "turn_frame": {
+      "7": "unclassified",
+      "8": "unclassified",
+      "9": "promotion",
+      "10": "promotion",
+      "11": "promotion",
+      "12": "promotion",
+      "13": "promotion",
+      "14": "promotion",
+      "15": "promotion",
+      "16": "promotion",
+      "17": "prevention",
+      "18": "prevention",
+      "19": "prevention",
+      "20": "prevention",
+      "21": "prevention",
+      "22": "prevention",
+      "23": "prevention",
+      "24": "prevention",
+      "25": "promotion",
+      "26": "promotion",
+      "27": "promotion",
+      "28": "promotion",
+      "29": "promotion",
+      "30": "prevention",
+      "34": "promotion",
+      "37": "promotion",
+      "53": "unclassified"
+    },
+    "frame_match": {
+      "8": "unclassified",
+      "10": "match",
+      "12": "match",
+      "14": "match",
+      "16": "match",
+      "18": "match",
+      "20": "match",
+      "22": "match",
+      "24": "match",
+      "26": "match",
+      "28": "match",
+      "30": "switch_to_prevention"
+    },
+    "other_concepts": [
+      {
+        "where": "turn",
+        "id": 7,
+        "code": "PR-CONCEPT",
+        "name": "demonstration",
+        "clock": "2:05"
+      },
+      {
+        "where": "turn",
+        "id": 8,
+        "code": "RS-CONCEPT",
+        "name": "demonstration",
+        "clock": "2:06"
+      }
+    ]
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "H1",
+        "role": "host",
+        "label": "Narrator"
+      },
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Aaron Krause"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Daymond John"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Lori Greiner"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Robert Herjavec"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Mark Cuban"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 15.0,
+        "end_s": 118.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 14.0,
+        "kind": "narration"
+      },
+      {
+        "start_s": 374.0,
+        "end_s": 395.0,
+        "kind": "recap"
+      },
+      {
+        "start_s": 701.0,
+        "end_s": 740.0,
+        "kind": "recap"
+      }
+    ],
+    "gaps": [
+      {
+        "at_s": 374.0,
+        "note": "commercial break and recap"
+      }
+    ],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 5,
+        "uncodable": false,
+        "moment_s": 91.0,
+        "note": "Extremely energetic, smiling, and positively engaged throughout the live infomercial style pitch."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 5,
+        "uncodable": false,
+        "moment_s": 33.0,
+        "note": "Sustained, high-energy excitement while demonstrating the product's features and benefits."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 114.0,
+        "note": "Friendly and approachable demeanor, frequently smiling and engaging directly with the investors."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "5",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "7",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "A reusable, scratch-free scrubbing sponge that changes texture based on water temperature.",
+      "primary_industry": "home_household",
+      "secondary_industries": [],
+      "product_form": "physical_good",
+      "customer_type": "consumer",
+      "founder_gender": "all_men",
+      "product_category": "kitchen sponge",
+      "earliest_s": 15.0,
+      "note": "The founder gives a comprehensive live demonstration of the product's capabilities.",
+      "ask_amount_usd": 100000,
+      "ask_equity_pct": 10.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 15.0,
+        "end_s": 118.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Founder demonstrates the Scrub Daddy sponge, showing how its texture changes with water temperature to clean various surfaces."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "S1",
+        "start_s": 118.0,
+        "end_s": 119.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond expresses amazement at the product demonstration."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "S2",
+        "start_s": 119.0,
+        "end_s": 120.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori expresses amazement at the product demonstration."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "S3",
+        "start_s": 120.0,
+        "end_s": 121.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin enthusiastically repeats the product name."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "S1",
+        "start_s": 121.0,
+        "end_s": 123.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond praises the presentation as a fantastic live infomercial."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "S4",
+        "start_s": 123.0,
+        "end_s": 124.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert praises the presentation as incredible."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "S1",
+        "start_s": 125.0,
+        "end_s": 126.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "other",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": "demonstration",
+        "summary": "Daymond asks if the founder has product samples to hand out."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "F1",
+        "start_s": 126.0,
+        "end_s": 128.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          7
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "other",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": "demonstration",
+        "summary": "Founder confirms he has samples for the panel."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "S2",
+        "start_s": 129.0,
+        "end_s": 131.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks where the product is currently being sold."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "F1",
+        "start_s": 131.0,
+        "end_s": 140.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          9
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Founder explains they are in five local supermarkets and have appeared on QVC three times."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "S4",
+        "start_s": 140.0,
+        "end_s": 141.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks how the QVC appearances performed."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "F1",
+        "start_s": 141.0,
+        "end_s": 147.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          11
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Founder says QVC went fantastic, with reorders increasing each time."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "S3",
+        "start_s": 148.0,
+        "end_s": 153.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin notes the business is humming and asks for the total sales figures across all channels."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "F1",
+        "start_s": 153.0,
+        "end_s": 155.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          13
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Founder states total sales are just over one hundred thousand dollars."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "S2",
+        "start_s": 155.0,
+        "end_s": 156.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks if the product has a patent."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "F1",
+        "start_s": 156.0,
+        "end_s": 162.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          15
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Founder confirms one issued patent, two pending, plus trademarks and domain names."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "S4",
+        "start_s": 162.0,
+        "end_s": 165.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks what the requested investment will be used for."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "F1",
+        "start_s": 165.0,
+        "end_s": 169.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          17
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Founder wants to set up an independent manufacturing facility with automated equipment."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "S3",
+        "start_s": 169.0,
+        "end_s": 171.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks why the founder needs his own manufacturing facility."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "F1",
+        "start_s": 171.0,
+        "end_s": 173.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          19
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Founder explains he is currently constrained by his manufacturer's schedule."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "S4",
+        "start_s": 173.0,
+        "end_s": 177.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert clarifies if the founder could make more revenue with continuous production."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "F1",
+        "start_s": 177.0,
+        "end_s": 197.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          21
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Founder confirms, citing QVC demand and his eighteen years of manufacturing experience."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "S2",
+        "start_s": 197.0,
+        "end_s": 199.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks for the cost to make one sponge."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "F1",
+        "start_s": 199.0,
+        "end_s": 200.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          23
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Founder states the manufacturing cost is about one dollar."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "S1",
+        "start_s": 200.0,
+        "end_s": 201.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Daymond asks for the selling price."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "F1",
+        "start_s": 201.0,
+        "end_s": 202.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          25
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Founder says the price is about two dollars and eighty cents."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "S3",
+        "start_s": 203.0,
+        "end_s": 204.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin clarifies if that is the wholesale price."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "F1",
+        "start_s": 204.0,
+        "end_s": 209.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          27
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Founder confirms it is wholesale and mentions his goal of national retail distribution."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "S3",
+        "start_s": 210.0,
+        "end_s": 223.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin argues the retail price will be too expensive compared to standard cheap sponges."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "F1",
+        "start_s": 223.0,
+        "end_s": 230.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          29
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Founder argues the product should be compared to high-end brand name scrubbing pads, not the cheapest options."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "S4",
+        "start_s": 231.0,
+        "end_s": 238.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert doubts the product will succeed in retail settings."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "F1",
+        "start_s": 239.0,
+        "end_s": 251.0,
+        "function": "repair",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          31
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Founder explains their custom display shippers communicate the product's value in stores."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "S1",
+        "start_s": 252.0,
+        "end_s": 255.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond points out that retail end caps are expensive to secure."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "F1",
+        "start_s": 256.0,
+        "end_s": 258.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          33
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Founder agrees that end caps are difficult to get even with money."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "S4",
+        "start_s": 259.0,
+        "end_s": 267.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert repeats his lack of faith in the retail vision and exits."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "S5",
+        "start_s": 268.0,
+        "end_s": 281.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark warns that depending entirely on QVC for sales is dangerous."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "F1",
+        "start_s": 281.0,
+        "end_s": 283.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          36
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Founder claims to have three thousand retail stores lined up."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "S5",
+        "start_s": 284.0,
+        "end_s": 310.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark doubts the retail expansion and dislikes the single-product focus, deciding to exit."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "F1",
+        "start_s": 310.0,
+        "end_s": 314.0,
+        "function": "social",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Founder expresses disappointment that Mark is out."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "S2",
+        "start_s": 315.0,
+        "end_s": 325.0,
+        "function": "accepts",
+        "addressed": [
+          "PANEL",
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori defends QVC, noting its massive sales volume and product rotation strategy."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "S3",
+        "start_s": 326.0,
+        "end_s": 332.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin offers one hundred thousand dollars for half the company."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "F1",
+        "start_s": 338.0,
+        "end_s": 340.0,
+        "function": "negotiates",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Founder suggests Kevin's offer is a starting point for bidding."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "F1",
+        "start_s": 341.0,
+        "end_s": 344.0,
+        "function": "social",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Founder jokes that Kevin is out based on his high equity demand."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "S1",
+        "start_s": 345.0,
+        "end_s": 367.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond offers fifty thousand dollars for fifteen percent, conditional on Lori providing the rest."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "S2",
+        "start_s": 368.0,
+        "end_s": 373.0,
+        "function": "NONE",
+        "addressed": [
+          "UNKNOWN"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori begins to speak but is interrupted by the commercial break."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "S2",
+        "start_s": 396.0,
+        "end_s": 435.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori offers one hundred thousand dollars for thirty percent, promising infomercial and retail success."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "S3",
+        "start_s": 440.0,
+        "end_s": 462.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin offers one hundred thousand dollars with no equity, asking for a per-unit royalty instead."
+      },
+      {
+        "turn_id": 48,
+        "speaker": "S1",
+        "start_s": 463.0,
+        "end_s": 467.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond questions why the founder would give up thirty percent equity."
+      },
+      {
+        "turn_id": 49,
+        "speaker": "S1",
+        "start_s": 468.0,
+        "end_s": 476.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond drops his condition and offers one hundred fifty thousand dollars for twenty-five percent."
+      },
+      {
+        "turn_id": 50,
+        "speaker": "F1",
+        "start_s": 480.0,
+        "end_s": 481.0,
+        "function": "negotiates",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Founder asks Lori how she will respond to Daymond's new offer."
+      },
+      {
+        "turn_id": 51,
+        "speaker": "S2",
+        "start_s": 481.0,
+        "end_s": 495.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori matches Daymond's equity, offering one hundred thousand dollars for twenty-five percent."
+      },
+      {
+        "turn_id": 52,
+        "speaker": "S3",
+        "start_s": 496.0,
+        "end_s": 515.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin argues against giving up equity, emphasizing the value of keeping the company."
+      },
+      {
+        "turn_id": 53,
+        "speaker": "S3",
+        "start_s": 516.0,
+        "end_s": 529.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks if twenty-five percent equity is worth more than his proposed royalty."
+      },
+      {
+        "turn_id": 54,
+        "speaker": "S2",
+        "start_s": 530.0,
+        "end_s": 531.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori dismisses Daymond's retail connections."
+      },
+      {
+        "turn_id": 55,
+        "speaker": "S3",
+        "start_s": 532.0,
+        "end_s": 547.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin reiterates that his royalty deal allows the founder to keep all equity."
+      },
+      {
+        "turn_id": 56,
+        "speaker": "F1",
+        "start_s": 548.0,
+        "end_s": 549.0,
+        "function": "negotiates",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Founder asserts he knows how to handle the business."
+      },
+      {
+        "turn_id": 57,
+        "speaker": "S2",
+        "start_s": 550.0,
+        "end_s": 557.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori defends Daymond's retail success but asks the founder to listen to her."
+      },
+      {
+        "turn_id": 58,
+        "speaker": "S3",
+        "start_s": 558.0,
+        "end_s": 565.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin jokes by pretending the sponge is telling the founder to choose his offer."
+      },
+      {
+        "turn_id": 59,
+        "speaker": "F1",
+        "start_s": 566.0,
+        "end_s": 571.0,
+        "function": "negotiates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Founder asks the panel to summarize the current offers."
+      },
+      {
+        "turn_id": 60,
+        "speaker": "S4",
+        "start_s": 571.0,
+        "end_s": 584.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert recaps the three standing offers from Daymond, Kevin, and Lori."
+      },
+      {
+        "turn_id": 61,
+        "speaker": "S2",
+        "start_s": 586.0,
+        "end_s": 598.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori increases her offer to one hundred fifty thousand dollars for twenty-five percent."
+      },
+      {
+        "turn_id": 62,
+        "speaker": "S1",
+        "start_s": 599.0,
+        "end_s": 605.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond increases his offer to one hundred seventy-five thousand dollars for twenty-five percent."
+      },
+      {
+        "turn_id": 63,
+        "speaker": "S2",
+        "start_s": 606.0,
+        "end_s": 613.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori increases her offer to two hundred thousand dollars for twenty-five percent."
+      },
+      {
+        "turn_id": 64,
+        "speaker": "S1",
+        "start_s": 614.0,
+        "end_s": 624.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond exits, stating his goal was just to drive up the price for Lori."
+      },
+      {
+        "turn_id": 65,
+        "speaker": "S3",
+        "start_s": 631.0,
+        "end_s": 645.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin lowers his royalty ask to stay competitive."
+      },
+      {
+        "turn_id": 66,
+        "speaker": "S4",
+        "start_s": 646.0,
+        "end_s": 653.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert notes the founder has two remaining offers and asks for a decision."
+      },
+      {
+        "turn_id": 67,
+        "speaker": "S2",
+        "start_s": 654.0,
+        "end_s": 664.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori demands an immediate decision on her offer."
+      },
+      {
+        "turn_id": 68,
+        "speaker": "F1",
+        "start_s": 665.0,
+        "end_s": 673.0,
+        "function": "decides",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Founder counters Lori, asking if she will drop her equity stake to twenty percent."
+      },
+      {
+        "turn_id": 69,
+        "speaker": "S2",
+        "start_s": 674.0,
+        "end_s": 683.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori accepts the counter-offer of two hundred thousand dollars for twenty percent."
+      },
+      {
+        "turn_id": 70,
+        "speaker": "F1",
+        "start_s": 684.0,
+        "end_s": 685.0,
+        "function": "decides",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Founder accepts Lori's deal."
+      },
+      {
+        "turn_id": 71,
+        "speaker": "PANEL",
+        "start_s": 686.0,
+        "end_s": 700.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 14,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The panel and founder celebrate the successful negotiation."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "pitch reactions"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "demonstration",
+        "topic": "NONE",
+        "label": "handing out samples"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "current sales and channels"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "substantive",
+        "topic": "assets",
+        "label": "patents and trademarks"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "use of funds for manufacturing"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "substantive",
+        "topic": "operating_efficiency",
+        "label": "cost to make"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "wholesale price and retail price"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "substantive",
+        "topic": "go_to_market",
+        "label": "retail packaging and display"
+      },
+      {
+        "exchange_id": 9,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "dependence on QVC"
+      },
+      {
+        "exchange_id": 10,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "reacting to mark's exit"
+      },
+      {
+        "exchange_id": 11,
+        "kind": "negotiation",
+        "topic": "NONE",
+        "label": "offers and equity discussion"
+      },
+      {
+        "exchange_id": 12,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "joking about kevin's offer"
+      },
+      {
+        "exchange_id": 13,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "sponge impression"
+      },
+      {
+        "exchange_id": 14,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "celebration"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S4",
+        "kind": "exit",
+        "time_s": 259.0,
+        "turn_id": 35,
+        "offer_id": null,
+        "terms": "out",
+        "note": "Does not believe in the retail vision."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S5",
+        "kind": "exit",
+        "time_s": 284.0,
+        "turn_id": 38,
+        "offer_id": null,
+        "terms": "out",
+        "note": "Concerned about being a one-product company dependent on QVC."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S3",
+        "kind": "offer",
+        "time_s": 326.0,
+        "turn_id": 41,
+        "offer_id": "O1",
+        "terms": "$100,000 for 50%",
+        "note": "First offer to start the bidding."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S1",
+        "kind": "offer",
+        "time_s": 345.0,
+        "turn_id": 44,
+        "offer_id": "O2",
+        "terms": "$50,000 for 15%",
+        "note": "Conditional on raising the rest from Lori."
+      },
+      {
+        "decision_id": 5,
+        "actor": "S2",
+        "kind": "offer",
+        "time_s": 396.0,
+        "turn_id": 46,
+        "offer_id": "O3",
+        "terms": "$100,000 for 30%",
+        "note": "Promises infomercial and retail success."
+      },
+      {
+        "decision_id": 6,
+        "actor": "S3",
+        "kind": "offer",
+        "time_s": 440.0,
+        "turn_id": 47,
+        "offer_id": "O4",
+        "terms": "$100,000 for 0% equity, 50 cents per unit until $100k, then 10 cents per unit",
+        "note": "Wants to be a financier without taking equity."
+      },
+      {
+        "decision_id": 7,
+        "actor": "S1",
+        "kind": "revises_offer",
+        "time_s": 468.0,
+        "turn_id": 49,
+        "offer_id": "O5",
+        "terms": "$150,000 for 25%",
+        "note": "Sweetens the pot, drops condition."
+      },
+      {
+        "decision_id": 8,
+        "actor": "S2",
+        "kind": "revises_offer",
+        "time_s": 481.0,
+        "turn_id": 51,
+        "offer_id": "O3",
+        "terms": "$100,000 for 25%",
+        "note": "Matches equity percentage of Daymond's offer."
+      },
+      {
+        "decision_id": 9,
+        "actor": "S2",
+        "kind": "revises_offer",
+        "time_s": 586.0,
+        "turn_id": 61,
+        "offer_id": "O3",
+        "terms": "$150,000 for 25%",
+        "note": "Matches Daymond's valuation."
+      },
+      {
+        "decision_id": 10,
+        "actor": "S1",
+        "kind": "revises_offer",
+        "time_s": 599.0,
+        "turn_id": 62,
+        "offer_id": "O5",
+        "terms": "$175,000 for 25%",
+        "note": "Increases amount to beat Lori."
+      },
+      {
+        "decision_id": 11,
+        "actor": "S2",
+        "kind": "revises_offer",
+        "time_s": 606.0,
+        "turn_id": 63,
+        "offer_id": "O3",
+        "terms": "$200,000 for 25%",
+        "note": "Increases amount to beat Daymond."
+      },
+      {
+        "decision_id": 12,
+        "actor": "S1",
+        "kind": "exit",
+        "time_s": 614.0,
+        "turn_id": 64,
+        "offer_id": null,
+        "terms": "out",
+        "note": "Achieved goal of driving up the price for Lori."
+      },
+      {
+        "decision_id": 13,
+        "actor": "S3",
+        "kind": "revises_offer",
+        "time_s": 631.0,
+        "turn_id": 65,
+        "offer_id": "O4",
+        "terms": "$100,000 for 0% equity, 25 cents per unit until $100k, then 7.5 cents per unit",
+        "note": "Lowers royalty to stay competitive."
+      },
+      {
+        "decision_id": 14,
+        "actor": "F1",
+        "kind": "founder_counters",
+        "time_s": 665.0,
+        "turn_id": 68,
+        "offer_id": "O3",
+        "terms": "$200,000 for 20%",
+        "note": "Asks Lori to reduce her equity stake."
+      },
+      {
+        "decision_id": 15,
+        "actor": "S2",
+        "kind": "revises_offer",
+        "time_s": 674.0,
+        "turn_id": 69,
+        "offer_id": "O3",
+        "terms": "$200,000 for 20%",
+        "note": "Accepts the founder's counter."
+      },
+      {
+        "decision_id": 16,
+        "actor": "F1",
+        "kind": "founder_accepts",
+        "time_s": 684.0,
+        "turn_id": 70,
+        "offer_id": "O3",
+        "terms": "$200,000 for 20%",
+        "note": "Accepts Lori's revised offer."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": "Aaron's pitch is structured like a live infomercial. Commercial break at 6:14, with recap following."
+  }
+}

@@ -1,0 +1,2443 @@
+{
+  "pass": "replicate",
+  "unit_key": "panel__st_026c012f68__replicate",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:14-1:59"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "presentation",
+      "3": "presentation",
+      "4": "presentation",
+      "5": "presentation",
+      "6": "presentation",
+      "7": "presentation",
+      "8": "presentation",
+      "9": "presentation",
+      "10": "presentation",
+      "11": "presentation",
+      "12": "presentation",
+      "13": "presentation",
+      "14": "none",
+      "15": "none",
+      "16": "none",
+      "17": "qa",
+      "18": "qa",
+      "19": "qa",
+      "20": "qa",
+      "21": "qa",
+      "22": "qa",
+      "23": "qa",
+      "24": "qa",
+      "25": "none",
+      "26": "qa",
+      "27": "qa",
+      "28": "qa",
+      "29": "qa",
+      "30": "qa",
+      "31": "qa",
+      "32": "qa",
+      "33": "qa",
+      "34": "qa",
+      "35": "none",
+      "36": "qa",
+      "37": "qa",
+      "38": "qa",
+      "39": "qa",
+      "40": "qa",
+      "41": "qa",
+      "42": "qa",
+      "43": "qa",
+      "44": "qa",
+      "45": "qa",
+      "46": "qa",
+      "47": "qa",
+      "48": "qa",
+      "49": "qa",
+      "50": "qa",
+      "51": "qa",
+      "52": "qa",
+      "53": "qa",
+      "54": "qa",
+      "55": "qa",
+      "56": "qa",
+      "57": "qa",
+      "58": "qa",
+      "59": "none",
+      "60": "none",
+      "61": "qa",
+      "62": "qa",
+      "63": "qa",
+      "64": "qa",
+      "65": "qa",
+      "66": "none",
+      "67": "none",
+      "68": "none"
+    },
+    "segment_seconds": {
+      "presentation": 91.0,
+      "qa": 225.0,
+      "social": 0.0,
+      "demonstration": 0.0,
+      "negotiation": 0.0,
+      "none": 104.0
+    },
+    "exchange_counts": {
+      "substantive": 7,
+      "social": 0,
+      "demonstration": 0,
+      "negotiation": 0
+    },
+    "turn_frame": {
+      "17": "promotion",
+      "18": "promotion",
+      "19": "prevention",
+      "20": "prevention",
+      "21": "promotion",
+      "22": "promotion",
+      "23": "prevention",
+      "24": "prevention",
+      "26": "prevention",
+      "27": "prevention",
+      "28": "prevention",
+      "29": "prevention",
+      "30": "prevention",
+      "31": "prevention",
+      "32": "prevention",
+      "33": "prevention",
+      "34": "promotion",
+      "36": "prevention",
+      "37": "prevention",
+      "38": "prevention",
+      "39": "prevention",
+      "40": "prevention",
+      "41": "promotion",
+      "42": "promotion",
+      "43": "prevention",
+      "44": "prevention",
+      "45": "prevention",
+      "46": "prevention",
+      "49": "promotion",
+      "50": "promotion",
+      "52": "prevention",
+      "53": "prevention",
+      "55": "unclassified",
+      "56": "unclassified",
+      "57": "promotion",
+      "58": "promotion",
+      "61": "promotion",
+      "62": "promotion",
+      "63": "promotion",
+      "64": "promotion",
+      "65": "promotion"
+    },
+    "frame_match": {
+      "18": "match",
+      "20": "match",
+      "22": "match",
+      "24": "match",
+      "26": "match",
+      "28": "match",
+      "30": "match",
+      "32": "match",
+      "34": "switch_to_promotion",
+      "38": "match",
+      "40": "match",
+      "42": "match",
+      "44": "match",
+      "46": "match",
+      "50": "match",
+      "53": "match",
+      "56": "unclassified",
+      "58": "match",
+      "62": "match",
+      "63": "match",
+      "65": "match"
+    },
+    "other_concepts": []
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "H1",
+        "role": "host",
+        "label": "Narrator"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Daniel Lubetzky"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Robert Herjavec"
+      },
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Chase Mitchell"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Lori Greiner"
+      },
+      {
+        "actor_id": "F2",
+        "role": "founder",
+        "label": "Brian Bloch"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Mark Cuban"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 14.0,
+        "end_s": 119.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 13.0,
+        "kind": "teaser"
+      },
+      {
+        "start_s": 551.0,
+        "end_s": 597.0,
+        "kind": "interview"
+      }
+    ],
+    "gaps": [
+      {
+        "at_s": 167.0,
+        "note": "Cut from Daniel to wide shot, F1 starts speaking mid-sentence."
+      },
+      {
+        "at_s": 308.0,
+        "note": "Cut to Mark laughing, Kevin starts talking."
+      },
+      {
+        "at_s": 379.0,
+        "note": "Cut from Daniel to wide shot."
+      },
+      {
+        "at_s": 396.0,
+        "note": "Cut from Kevin to Mark."
+      }
+    ],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 71.0,
+        "note": "Sustained smiling and energetic delivery throughout the pitch."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 108.0,
+        "note": "High energy and engaged tone when delivering the ask and mission."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 3,
+        "uncodable": false,
+        "moment_s": 14.0,
+        "note": "Friendly greeting and approachable demeanor, though mostly focused on script."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "2",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "1",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "2",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "A portable beverage cooler with built-in freezing gel that eliminates the need for ice.",
+      "primary_industry": "home_household",
+      "secondary_industries": [
+        "sports_leisure",
+        "food_beverage"
+      ],
+      "product_form": "physical_good",
+      "customer_type": "consumer",
+      "founder_gender": "all_men",
+      "product_category": "Portable beverage cooler",
+      "earliest_s": 110.0,
+      "note": "The founders ask for $150,000 for 15% equity.",
+      "ask_amount_usd": 150000,
+      "ask_equity_pct": 15.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 14.0,
+        "end_s": 24.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Introduces himself, the company Chill Systems, and the Chiller product."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "F2",
+        "start_s": 28.0,
+        "end_s": 31.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Brian enters carrying a bag of ice, apologizing for being late."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "F1",
+        "start_s": 32.0,
+        "end_s": 34.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Chase says the Chiller doesn't need ice."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "F2",
+        "start_s": 34.0,
+        "end_s": 50.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Brian complains about stopping for ice and breaks the bag on the floor."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "F1",
+        "start_s": 52.0,
+        "end_s": 58.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Chase explains he froze the Chiller and loaded drinks which are now cold."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "F2",
+        "start_s": 58.0,
+        "end_s": 62.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Brian notes the drinks will be cold for a while."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "F1",
+        "start_s": 62.0,
+        "end_s": 67.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Chase shows it chills many types of cans and bottles, including champagne."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "F2",
+        "start_s": 67.0,
+        "end_s": 71.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Brian agrees it can hold all that."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "F1",
+        "start_s": 71.0,
+        "end_s": 85.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Chase calls it the future of portable cooling, saving time, money, and the environment."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "F2",
+        "start_s": 86.0,
+        "end_s": 95.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Brian drops a messy cooler of melting ice to show the problem."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "F1",
+        "start_s": 96.0,
+        "end_s": 104.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Chase highlights the sustainable solution, reducing water waste and single-use plastics."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "F2",
+        "start_s": 108.0,
+        "end_s": 115.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Brian states the ask of $150,000 for 15 percent equity."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "F1",
+        "start_s": 116.0,
+        "end_s": 119.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Chase invites the sharks to try their samples with chilled drinks."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "S4",
+        "start_s": 122.0,
+        "end_s": 128.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori points out the cooler can hold either cans or a bottle."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "F1",
+        "start_s": 128.0,
+        "end_s": 128.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Chase confirms Lori's observation."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "S2",
+        "start_s": 128.0,
+        "end_s": 129.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert remarks that the product is incredibly versatile."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "S3",
+        "start_s": 130.0,
+        "end_s": 136.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin notes it only holds three cans and he would drink them quickly."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "F1",
+        "start_s": 136.0,
+        "end_s": 148.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          17
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Chase explains it cools three beers at a time, allowing users to swap warm ones in."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "S4",
+        "start_s": 149.0,
+        "end_s": 150.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks how long the Chiller stays cold."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "F1",
+        "start_s": 150.0,
+        "end_s": 151.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          19
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Chase replies that it stays cold for six hours."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "S2",
+        "start_s": 152.0,
+        "end_s": 152.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks what their sales have been."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "F2",
+        "start_s": 153.0,
+        "end_s": 160.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          21
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Brian states they have done $111,000 in sales to date, including Kickstarter."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "S5",
+        "start_s": 160.0,
+        "end_s": 161.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks what the cost of the product is."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "F2",
+        "start_s": 161.0,
+        "end_s": 165.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          23
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "partial",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Brian admits the cost of the unit in front of them is awful."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "F1",
+        "start_s": 168.0,
+        "end_s": 170.0,
+        "function": "NONE",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Chase starts to say something but is cut off."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "F2",
+        "start_s": 170.0,
+        "end_s": 178.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          23
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Brian explains the unit cost $18 to build and they imported 350 units."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "S5",
+        "start_s": 178.0,
+        "end_s": 179.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks if the cost is now $22."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "F2",
+        "start_s": 179.0,
+        "end_s": 182.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          27
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Brian says they added sleeves which cost another $11."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "S5",
+        "start_s": 183.0,
+        "end_s": 184.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks if the cost is up to $32."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "F2",
+        "start_s": 184.0,
+        "end_s": 186.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          29
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Brian confirms it went all the way up to $37 for that unit."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "S3",
+        "start_s": 186.0,
+        "end_s": 188.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin clarifies if that is the cost to make it."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "F2",
+        "start_s": 188.0,
+        "end_s": 195.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          31
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Brian explains that was the first run, and they have since brought the cost down to $18."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "S5",
+        "start_s": 196.0,
+        "end_s": 198.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks if they are selling into retail at a loss."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "F2",
+        "start_s": 198.0,
+        "end_s": 203.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          33
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Brian confirms they sell into retail at a loss at $30 to prove the market."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "F1",
+        "start_s": 204.0,
+        "end_s": 206.0,
+        "function": "NONE",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Chase states it is the first sustainable portable beverage chiller."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "S1",
+        "start_s": 207.0,
+        "end_s": 210.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Daniel questions the claim that it is the only sustainable cooler."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "S2",
+        "start_s": 212.0,
+        "end_s": 215.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert points out the large amount of plastic in the product despite saving plastic bags."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "F1",
+        "start_s": 216.0,
+        "end_s": 220.0,
+        "function": "answer",
+        "addressed": [
+          "S1",
+          "S2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          36,
+          37
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Chase explains it is built to last forever and the materials are recyclable."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "S2",
+        "start_s": 221.0,
+        "end_s": 222.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert counters that the plastic bag is also recyclable."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "F1",
+        "start_s": 222.0,
+        "end_s": 225.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          39
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Chase argues that only 9% of thrown away plastic is actually recycled."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "S1",
+        "start_s": 226.0,
+        "end_s": 236.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Daniel asks why they chose to enter the crowded cooler space."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "F2",
+        "start_s": 237.0,
+        "end_s": 252.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          41
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Brian shares they worked at Google and Apple and built this on the side for two years."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "S4",
+        "start_s": 252.0,
+        "end_s": 254.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks if they are still working at their jobs."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "F2",
+        "start_s": 254.0,
+        "end_s": 256.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          43
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Brian says they quit two years ago to do this full time."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "S4",
+        "start_s": 257.0,
+        "end_s": 258.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks if they are making money to sustain themselves."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "F2",
+        "start_s": 259.0,
+        "end_s": 264.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          45
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Brian answers they have not taken a salary since leaving their jobs."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "S3",
+        "start_s": 264.0,
+        "end_s": 266.0,
+        "function": "social",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin jokingly offers to make a call to get their jobs back."
+      },
+      {
+        "turn_id": 48,
+        "speaker": "F1",
+        "start_s": 267.0,
+        "end_s": 271.0,
+        "function": "social",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Chase politely declines, saying they are happy and believe in the mission."
+      },
+      {
+        "turn_id": 49,
+        "speaker": "S3",
+        "start_s": 272.0,
+        "end_s": 290.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin dramatizes how they left promising careers to be pulled in by a cooler."
+      },
+      {
+        "turn_id": 50,
+        "speaker": "F1",
+        "start_s": 295.0,
+        "end_s": 296.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          49
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "1",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Chase agrees with Kevin's dramatic summary."
+      },
+      {
+        "turn_id": 51,
+        "speaker": "S3",
+        "start_s": 297.0,
+        "end_s": 299.0,
+        "function": "social",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin reiterates that they are now here with a cooler."
+      },
+      {
+        "turn_id": 52,
+        "speaker": "S4",
+        "start_s": 301.0,
+        "end_s": 302.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks who their number one competitor is."
+      },
+      {
+        "turn_id": 53,
+        "speaker": "F2",
+        "start_s": 303.0,
+        "end_s": 303.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          52
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Brian answers that their main competitor is ice."
+      },
+      {
+        "turn_id": 54,
+        "speaker": "S4",
+        "start_s": 304.0,
+        "end_s": 305.0,
+        "function": "social",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori repeats their answer with a smile."
+      },
+      {
+        "turn_id": 55,
+        "speaker": "S3",
+        "start_s": 310.0,
+        "end_s": 347.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin talks about his anger management, then questions the valuation for a cooler."
+      },
+      {
+        "turn_id": 56,
+        "speaker": "F2",
+        "start_s": 357.0,
+        "end_s": 358.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          55
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "partial",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "1",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Brian insists they are not out of their minds."
+      },
+      {
+        "turn_id": 57,
+        "speaker": "S3",
+        "start_s": 358.0,
+        "end_s": 370.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "market_opportunity",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks why they would make a chotchkie cooler when there are a million out there."
+      },
+      {
+        "turn_id": 58,
+        "speaker": "F1",
+        "start_s": 371.0,
+        "end_s": 373.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          57
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "market_opportunity",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Chase defends the product as sustainable and convenient."
+      },
+      {
+        "turn_id": 59,
+        "speaker": "S3",
+        "start_s": 373.0,
+        "end_s": 394.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin says he hates the plastic and the sustainability claim, and declares he is out."
+      },
+      {
+        "turn_id": 60,
+        "speaker": "S5",
+        "start_s": 397.0,
+        "end_s": 409.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark criticizes their presentation for not sticking to features, and exits."
+      },
+      {
+        "turn_id": 61,
+        "speaker": "S1",
+        "start_s": 420.0,
+        "end_s": 434.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "vision",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Daniel says the social mission shouldn't be a crutch, and the product must stand on its own."
+      },
+      {
+        "turn_id": 62,
+        "speaker": "F1",
+        "start_s": 435.0,
+        "end_s": 439.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          61
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "vision",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Chase argues the mission is not a crutch but their reason for commitment."
+      },
+      {
+        "turn_id": 63,
+        "speaker": "F2",
+        "start_s": 442.0,
+        "end_s": 448.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          61
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "vision",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Brian adds they wanted to make a difference rather than just becoming millionaires."
+      },
+      {
+        "turn_id": 64,
+        "speaker": "S2",
+        "start_s": 451.0,
+        "end_s": 454.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "vision",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert says Brian's reasoning doesn't make any sense."
+      },
+      {
+        "turn_id": 65,
+        "speaker": "F2",
+        "start_s": 455.0,
+        "end_s": 460.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          64
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "vision",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Brian explains they also wanted to learn because they weren't learning enough at their jobs."
+      },
+      {
+        "turn_id": 66,
+        "speaker": "S2",
+        "start_s": 471.0,
+        "end_s": 511.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert says their story has lapses of credibility and calls it a bad presentation, then exits."
+      },
+      {
+        "turn_id": 67,
+        "speaker": "S4",
+        "start_s": 515.0,
+        "end_s": 524.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori says they need to get the cost down for people to buy in, and exits."
+      },
+      {
+        "turn_id": 68,
+        "speaker": "S1",
+        "start_s": 534.0,
+        "end_s": 545.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daniel expresses doubt about the business size but encourages them to pursue their dreams, and exits."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "substantive",
+        "topic": "usage",
+        "label": "capacity and duration"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "substantive",
+        "topic": "operating_efficiency",
+        "label": "sales and unit cost"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "sustainability claims"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "substantive",
+        "topic": "self_promotion",
+        "label": "founders' background and jobs"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "competition",
+        "label": "main competitor"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "valuation and market need"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "substantive",
+        "topic": "vision",
+        "label": "social mission vs business"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S3",
+        "kind": "exit",
+        "time_s": 394.0,
+        "turn_id": 59,
+        "offer_id": null,
+        "terms": "I'm out",
+        "note": "Hates the product, thinks it's a chotchkie, doesn't buy the sustainability claim."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S5",
+        "kind": "exit",
+        "time_s": 408.0,
+        "turn_id": 60,
+        "offer_id": null,
+        "terms": "I'm out",
+        "note": "Bad presentation, didn't stick to features."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S2",
+        "kind": "exit",
+        "time_s": 511.0,
+        "turn_id": 66,
+        "offer_id": null,
+        "terms": "I'm out",
+        "note": "Lapses of credibility in the story, bad presentation."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S4",
+        "kind": "exit",
+        "time_s": 523.0,
+        "turn_id": 67,
+        "offer_id": null,
+        "terms": "I'm out",
+        "note": "Cost is too high, needs to be more affordable."
+      },
+      {
+        "decision_id": 5,
+        "actor": "S1",
+        "kind": "exit",
+        "time_s": 544.0,
+        "turn_id": 68,
+        "offer_id": null,
+        "terms": "I personally am out",
+        "note": "Not confident it's a huge business."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": "F1 and F2 pitch together. The sharks are highly critical of the presentation and the product's sustainability claims."
+  }
+}

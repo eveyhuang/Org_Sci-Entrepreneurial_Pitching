@@ -1,0 +1,1814 @@
+{
+  "pass": "replicate",
+  "unit_key": "panel__st_1164b596f8__replicate",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:16-1:50"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "demonstration",
+      "3": "demonstration",
+      "4": "none",
+      "5": "demonstration",
+      "6": "demonstration",
+      "7": "demonstration",
+      "8": "social",
+      "9": "social",
+      "10": "social",
+      "11": "qa",
+      "12": "qa",
+      "13": "qa",
+      "14": "qa",
+      "15": "qa",
+      "16": "qa",
+      "17": "qa",
+      "18": "none",
+      "19": "qa",
+      "20": "qa",
+      "21": "qa",
+      "22": "qa",
+      "23": "none",
+      "24": "qa",
+      "25": "qa",
+      "26": "qa",
+      "27": "qa",
+      "28": "qa",
+      "29": "qa",
+      "30": "qa",
+      "31": "qa",
+      "32": "qa",
+      "33": "qa",
+      "34": "none",
+      "35": "qa",
+      "36": "qa",
+      "37": "none",
+      "38": "none",
+      "39": "none",
+      "40": "none",
+      "41": "social",
+      "42": "none",
+      "43": "none",
+      "44": "none",
+      "45": "none",
+      "46": "negotiation",
+      "47": "negotiation",
+      "48": "negotiation",
+      "49": "negotiation",
+      "50": "negotiation",
+      "51": "social",
+      "52": "social",
+      "53": "negotiation",
+      "54": "none",
+      "55": "none"
+    },
+    "segment_seconds": {
+      "presentation": 94.0,
+      "qa": 107.0,
+      "social": 27.0,
+      "demonstration": 29.0,
+      "negotiation": 72.0,
+      "none": 149.0
+    },
+    "exchange_counts": {
+      "substantive": 4,
+      "social": 4,
+      "demonstration": 1,
+      "negotiation": 1
+    },
+    "turn_frame": {
+      "11": "unclassified",
+      "12": "promotion",
+      "13": "prevention",
+      "14": "prevention",
+      "15": "prevention",
+      "16": "prevention",
+      "17": "prevention",
+      "19": "unclassified",
+      "20": "unclassified",
+      "21": "unclassified",
+      "22": "unclassified",
+      "24": "unclassified",
+      "25": "unclassified",
+      "26": "unclassified",
+      "27": "unclassified",
+      "28": "unclassified",
+      "29": "unclassified",
+      "30": "unclassified",
+      "31": "unclassified",
+      "32": "unclassified",
+      "33": "unclassified",
+      "35": "prevention",
+      "36": "prevention"
+    },
+    "frame_match": {
+      "12": "unclassified",
+      "14": "match",
+      "15": "unclassified",
+      "17": "match",
+      "20": "unclassified",
+      "22": "unclassified",
+      "25": "unclassified",
+      "27": "unclassified",
+      "29": "unclassified",
+      "31": "unclassified",
+      "33": "unclassified",
+      "36": "match"
+    },
+    "other_concepts": []
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "H1",
+        "role": "host",
+        "label": "Narrator"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Lori Greiner"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Mark Cuban"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Barbara Corcoran"
+      },
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Dustin Finkel"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Rohan Oza"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 16.0,
+        "end_s": 110.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 16.0,
+        "kind": "teaser"
+      },
+      {
+        "start_s": 531.0,
+        "end_s": 559.0,
+        "kind": "recap"
+      }
+    ],
+    "gaps": [
+      {
+        "at_s": 214.0,
+        "note": "Jump cut to founder discussing investors without a clear transition."
+      },
+      {
+        "at_s": 245.0,
+        "note": "Jump cut to founder defending his hustle and work ethic."
+      },
+      {
+        "at_s": 386.0,
+        "note": "Cut to S4 delivering his decision to exit."
+      }
+    ],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 5,
+        "uncodable": false,
+        "moment_s": 44.0,
+        "note": "Pronounced, sustained positive engagement throughout the pitch, acting enthusiastically as a superhero."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 5,
+        "uncodable": false,
+        "moment_s": 44.0,
+        "note": "Pronounced, sustained engagement and excitement characterize the presentation while fighting bad ingredients."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 50.0,
+        "note": "Friendly, approachable and considerate expression characterizes much of the presentation, including apologies for the mess."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "2",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "Ancient grain popped chips made from sorghum that are vegan, gluten-free, and non-GMO.",
+      "primary_industry": "food_beverage",
+      "secondary_industries": [],
+      "product_form": "physical_good",
+      "customer_type": "consumer",
+      "founder_gender": "all_men",
+      "product_category": "Popped sorghum chips",
+      "earliest_s": 16.0,
+      "note": "The founder pitches enthusiastically in a superhero costume.",
+      "ask_amount_usd": 350000,
+      "ask_equity_pct": 5.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 16.0,
+        "end_s": 110.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 delivers the prepared presentation, introducing Ka-Pop chips made from ancient grains and asking for investment."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "F1",
+        "start_s": 110.0,
+        "end_s": 124.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 passes out samples of the different flavors of chips to the panel."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "F1",
+        "start_s": 136.0,
+        "end_s": 143.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 explains that the chips are made only of sorghum with no fillers, air-popped and seasoned."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "F1",
+        "start_s": 143.0,
+        "end_s": 163.0,
+        "function": "NONE",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 shares his background, having spent thirteen years in the food industry and launching previous gluten-free products."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "S5",
+        "start_s": 163.0,
+        "end_s": 169.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S5 praises the product, stating that it tastes good compared to other healthy snacks."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "S1",
+        "start_s": 169.0,
+        "end_s": 170.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S1 agrees that the product is very good."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "S4",
+        "start_s": 170.0,
+        "end_s": 171.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S4 also compliments the product."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "F1",
+        "start_s": 171.0,
+        "end_s": 174.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 thanks the investors for their positive feedback on the product."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "S5",
+        "start_s": 174.0,
+        "end_s": 180.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S5 jokes about the combination of an investment banker founder and a high company valuation."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "F1",
+        "start_s": 180.0,
+        "end_s": 184.0,
+        "function": "social",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 laughs and agrees that the discussion will be interesting."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "S5",
+        "start_s": 184.0,
+        "end_s": 187.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S5 asks F1 to justify the seven million dollar valuation of the company."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "F1",
+        "start_s": 187.0,
+        "end_s": 195.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          11
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 states that sales were 150k last year and are projected to reach 1.2M this year."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "S5",
+        "start_s": 195.0,
+        "end_s": 197.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S5 interrupts to ask if the company has any profits."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "F1",
+        "start_s": 197.0,
+        "end_s": 198.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          13
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "deflects",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "1",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "1",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 deflects the question about profits, stating he will return to it in a second."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "F1",
+        "start_s": 198.0,
+        "end_s": 212.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          11
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 continues explaining sales growth and mentions that gross margins are in the high 40s to low 50s."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "S5",
+        "start_s": 212.0,
+        "end_s": 213.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S5 asks if the stated gross margin is calculated after trade spend."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "F1",
+        "start_s": 213.0,
+        "end_s": 214.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          16
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 confirms that the margin is indeed after trade spend."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "F1",
+        "start_s": 214.0,
+        "end_s": 231.0,
+        "function": "NONE",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 mentions having experienced investors and high retail sell-in rates without being prompted."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "S2",
+        "start_s": 231.0,
+        "end_s": 234.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S2 asks how much money F1 has invested personally and how much outside investment has been raised."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "F1",
+        "start_s": 234.0,
+        "end_s": 236.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          19
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "partial",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 states that he initially invested fifty thousand dollars of his own money."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "S2",
+        "start_s": 236.0,
+        "end_s": 238.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S2 asks specifically about the amount of money raised from outside investors."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "F1",
+        "start_s": 238.0,
+        "end_s": 242.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          21
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 explains that the first pre-revenue round raised 943k, which included his personal investment."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "F1",
+        "start_s": 245.0,
+        "end_s": 251.0,
+        "function": "NONE",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 defends his fundraising, stating it was difficult and required a lot of hard work."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "S2",
+        "start_s": 251.0,
+        "end_s": 258.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S2 asks how much additional money has been raised and what percentage of the company F1 still owns."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "F1",
+        "start_s": 258.0,
+        "end_s": 268.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          24
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "partial",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 says a new round has started with previous investors and he still owns 100 percent via convertible notes."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "S2",
+        "start_s": 268.0,
+        "end_s": 270.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S2 clarifies his question, asking for F1's ownership percentage after accounting for the first round of notes."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "F1",
+        "start_s": 270.0,
+        "end_s": 271.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          26
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 states that his ownership is 67 percent after the first round."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "S2",
+        "start_s": 271.0,
+        "end_s": 272.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S2 asks for the total amount of money F1 is trying to raise in the current round."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "F1",
+        "start_s": 272.0,
+        "end_s": 274.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          28
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 replies that he is trying to raise about one million dollars."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "S3",
+        "start_s": 275.0,
+        "end_s": 277.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S3 challenges F1, suggesting that he is only appearing on the show to get cash."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "F1",
+        "start_s": 277.0,
+        "end_s": 282.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          30
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 denies this, stating he has plenty of cash and investor interest already."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "S1",
+        "start_s": 282.0,
+        "end_s": 285.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S1 asks what is at stake for F1 if he does not secure a deal with the panel."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "F1",
+        "start_s": 285.0,
+        "end_s": 304.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          32
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "partial",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 explains that partnering with the investors would accelerate growth and fulfill a personal dream."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "F1",
+        "start_s": 304.0,
+        "end_s": 308.0,
+        "function": "NONE",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 adds that he had never had his own idea before creating this product."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "S4",
+        "start_s": 308.0,
+        "end_s": 312.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S4 asks what gives F1 a competitive advantage to win in the crowded pop chip market."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "F1",
+        "start_s": 312.0,
+        "end_s": 322.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          35
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 cites his perseverance and past execution success in the branding and food space."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "S3",
+        "start_s": 323.0,
+        "end_s": 343.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S3 exits, stating F1 is a great salesman but she feels she cannot add value to the business."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "F1",
+        "start_s": 343.0,
+        "end_s": 349.0,
+        "function": "accepts",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": null,
+        "responds_to": [
+          37
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 expresses regret at S3's decision."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "S2",
+        "start_s": 349.0,
+        "end_s": 371.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S2 exits, citing that F1 oversold, failed to discuss challenges, and pitched why the investors need him."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "F1",
+        "start_s": 372.0,
+        "end_s": 375.0,
+        "function": "accepts",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": null,
+        "responds_to": [
+          39
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 thanks S2 for the feedback."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "S4",
+        "start_s": 375.0,
+        "end_s": 385.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S4 compliments F1, offering to hire him to run a company if the venture fails."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "S4",
+        "start_s": 386.0,
+        "end_s": 410.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S4 exits, noting the business is too early, trade spend will hurt margins, and scaling will be arduous."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "F1",
+        "start_s": 411.0,
+        "end_s": 414.0,
+        "function": "accepts",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": null,
+        "responds_to": [
+          42
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 expresses sadness at S4's exit."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "S1",
+        "start_s": 415.0,
+        "end_s": 428.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S1 exits, explaining she prefers to invest where she can help, and F1 already has enough supportive investors."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "F1",
+        "start_s": 429.0,
+        "end_s": 430.0,
+        "function": "accepts",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": null,
+        "responds_to": [
+          44
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 expresses disappointment at S1's decision."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "S5",
+        "start_s": 431.0,
+        "end_s": 468.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S5 offers 350k for 17.5 percent, stating he needs a larger stake to avoid future dilution."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "F1",
+        "start_s": 468.0,
+        "end_s": 473.0,
+        "function": "negotiates",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 counters by mentioning that the bottom line valuation for this round has been capped at five million dollars."
+      },
+      {
+        "turn_id": 48,
+        "speaker": "S5",
+        "start_s": 473.0,
+        "end_s": 482.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S5 dismisses the cap, emphasizing his unique value as an investor compared to others."
+      },
+      {
+        "turn_id": 49,
+        "speaker": "F1",
+        "start_s": 482.0,
+        "end_s": 484.0,
+        "function": "decides",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 counters with an offer of 500k for a 10 percent equity stake."
+      },
+      {
+        "turn_id": 50,
+        "speaker": "S5",
+        "start_s": 484.0,
+        "end_s": 494.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S5 rejects the counter, stating he will not accept the five million dollar valuation."
+      },
+      {
+        "turn_id": 51,
+        "speaker": "F1",
+        "start_s": 498.0,
+        "end_s": 501.0,
+        "function": "social",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 jokingly offers to arm wrestle S5 for the valuation."
+      },
+      {
+        "turn_id": 52,
+        "speaker": "S5",
+        "start_s": 502.0,
+        "end_s": 503.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S5 humors the joke, admitting F1 would likely win an arm wrestle."
+      },
+      {
+        "turn_id": 53,
+        "speaker": "F1",
+        "start_s": 504.0,
+        "end_s": 513.0,
+        "function": "decides",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 makes a final counter, offering to lower the valuation to four million dollars as his bottom line."
+      },
+      {
+        "turn_id": 54,
+        "speaker": "S5",
+        "start_s": 514.0,
+        "end_s": 522.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S5 exits, stating the valuation gap is too large and the counter is more than he will pay."
+      },
+      {
+        "turn_id": 55,
+        "speaker": "F1",
+        "start_s": 526.0,
+        "end_s": 528.0,
+        "function": "accepts",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": null,
+        "responds_to": [
+          54
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 accepts the outcome, acknowledging that they will not make a deal."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "valuation justification"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "funds raised and ownership"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "motive for pitching"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "substantive",
+        "topic": "competition",
+        "label": "competitive advantage"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "negotiation",
+        "topic": "NONE",
+        "label": "negotiating equity"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "arm wrestle joke"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "demonstration",
+        "topic": "NONE",
+        "label": "tasting product"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "thanking for compliments"
+      },
+      {
+        "exchange_id": 9,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "investment banker joke"
+      },
+      {
+        "exchange_id": 10,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "job offer joke"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S3",
+        "kind": "exit",
+        "time_s": 323.0,
+        "turn_id": 37,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Feels he is a great salesman but she cannot add value to the business."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S2",
+        "kind": "exit",
+        "time_s": 349.0,
+        "turn_id": 39,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Founder oversells, didn't discuss challenges, and pitched why sharks need him."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S4",
+        "kind": "exit",
+        "time_s": 386.0,
+        "turn_id": 42,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Business is too early, trade spend will crush margins, and scaling requires manpower."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S1",
+        "kind": "exit",
+        "time_s": 415.0,
+        "turn_id": 44,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Likes the product but feels she already has enough investors who can help him."
+      },
+      {
+        "decision_id": 5,
+        "actor": "S5",
+        "kind": "offer",
+        "time_s": 431.0,
+        "turn_id": 46,
+        "offer_id": "O1",
+        "terms": "$350k for 17.5%",
+        "note": "Needs a higher equity stake to avoid being diluted in future funding rounds."
+      },
+      {
+        "decision_id": 6,
+        "actor": "F1",
+        "kind": "founder_counters",
+        "time_s": 482.0,
+        "turn_id": 49,
+        "offer_id": "O1",
+        "terms": "$500k for 10%",
+        "note": "Counters for more money and less equity."
+      },
+      {
+        "decision_id": 7,
+        "actor": "F1",
+        "kind": "founder_counters",
+        "time_s": 504.0,
+        "turn_id": 53,
+        "offer_id": "O1",
+        "terms": "$350k at $4M valuation",
+        "note": "Offers to lower the valuation to $4M as his bottom line."
+      },
+      {
+        "decision_id": 8,
+        "actor": "S5",
+        "kind": "exit",
+        "time_s": 514.0,
+        "turn_id": 54,
+        "offer_id": null,
+        "terms": "I'm a shark, I do shark deals.",
+        "note": "The valuation gap is too large and the counter is more than he is willing to pay."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": "There are some jump cuts during the pitch and questioning, but the overall encounter flows logically."
+  }
+}

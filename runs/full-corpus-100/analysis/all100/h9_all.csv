@@ -1,0 +1,67 @@
+model,population,method,outcome,predictor,coef,low,high,n_answers,n_pitches_informative,n_pitches_dropped,n_failed,separated,main_failed,estimable
+support,all answers (rated on checkable support and admitted uncertainty),conditional_logit,next_accept,evid,0.4645745617156127,0.09564174190775843,0.8582324527259448,953,68,31,0,False,False,yes
+support,all answers (rated on checkable support and admitted uncertainty),conditional_logit,next_accept,uncert,0.35950618669008244,-0.9303975424818034,1.2675410816123749,953,68,31,12,False,False,yes
+support,all answers (rated on checkable support and admitted uncertainty),conditional_logit,next_challenge,evid,-0.9096448573260711,-1.5100875410305352,-0.3315007313877424,618,43,56,0,False,False,yes
+support,all answers (rated on checkable support and admitted uncertainty),conditional_logit,next_challenge,uncert,0.22308136986750246,-1.4849804269019256,1.5655140307778925,618,43,56,71,False,False,yes
+support,all answers (rated on checkable support and admitted uncertainty),conditional_logit,next_further_question,evid,-0.015373835333145541,-0.3619770124855673,0.32493152468388975,1176,85,14,0,False,False,yes
+support,all answers (rated on checkable support and admitted uncertainty),conditional_logit,next_further_question,uncert,-0.3404582444604756,-1.074869190732314,0.7587694259069702,1176,85,14,0,False,False,yes
+support,all answers (rated on checkable support and admitted uncertainty),conditional_logit,next_question_same_frame,evid,-0.020350413632501948,-0.2930894987865573,0.27660433683842334,1071,93,6,0,False,False,yes
+support,all answers (rated on checkable support and admitted uncertainty),conditional_logit,next_question_same_frame,uncert,0.3732890533546727,-0.4718929341960724,1.3237779527137699,1071,93,6,0,False,False,yes
+support,all answers (rated on checkable support and admitted uncertainty),conditional_logit,next_question_same_frame,q_promotion,0.47668891319112594,0.2121236549753057,0.7739993521244929,1071,93,6,0,False,False,yes
+support,all answers (rated on checkable support and admitted uncertainty),fixed_effects,next_question_sev,evid,-0.12162560217831159,-0.20163580878125645,-0.042990436847983676,1075,96,3,0,False,False,yes
+support,all answers (rated on checkable support and admitted uncertainty),fixed_effects,next_question_sev,uncert,0.16225813192813754,-0.21211716342921738,0.5611385841291391,1075,96,3,0,False,False,yes
+support,all answers (rated on checkable support and admitted uncertainty),fixed_effects,further_questions_same_frame,evid,0.10565913837431623,-0.16664333246808435,0.407198255707807,1250,97,2,0,False,False,yes
+support,all answers (rated on checkable support and admitted uncertainty),fixed_effects,further_questions_same_frame,uncert,-0.24686101433294438,-0.9522775529957929,0.24648546906408056,1250,97,2,0,False,False,yes
+support,all answers (rated on checkable support and admitted uncertainty),fixed_effects,further_questions_same_frame,q_promotion,0.5182144171375802,0.19976951735692808,0.8754719832146064,1250,97,2,0,False,False,yes
+substance,answers with a substance rating,conditional_logit,next_accept,evid,0.5427731667858048,0.102863953740066,1.0235053475286815,806,64,35,0,False,False,yes
+substance,answers with a substance rating,conditional_logit,next_accept,uncert,0.3741280423369736,-1.112850912663986,1.4556369828681732,806,64,35,38,False,False,yes
+substance,answers with a substance rating,conditional_logit,next_accept,subs,0.008839764245427139,-0.19055319349797717,0.21431306008787704,806,64,35,0,False,False,yes
+substance,answers with a substance rating,conditional_logit,next_challenge,evid,-1.0213279008041354,-1.6983447872301152,-0.3997518178323381,532,41,58,0,False,False,yes
+substance,answers with a substance rating,conditional_logit,next_challenge,uncert,-0.1636529239470691,,,532,41,58,255,False,False,yes
+substance,answers with a substance rating,conditional_logit,next_challenge,subs,-0.20501440173692098,-0.5207012587794266,0.09373695646610514,532,41,58,0,False,False,yes
+substance,answers with a substance rating,conditional_logit,next_further_question,evid,-0.053274308755972125,-0.4366218791897078,0.32808781953285077,1000,81,18,0,False,False,yes
+substance,answers with a substance rating,conditional_logit,next_further_question,uncert,-0.20804959811554571,-1.0228988841960742,0.9526420403102115,1000,81,18,3,False,False,yes
+substance,answers with a substance rating,conditional_logit,next_further_question,subs,0.054384249773108795,-0.1371465973046453,0.23440012586814304,1000,81,18,0,False,False,yes
+substance,answers with a substance rating,conditional_logit,next_question_same_frame,evid,-0.05225939410450673,-0.3934605248438697,0.3148087825031978,942,92,7,0,False,False,yes
+substance,answers with a substance rating,conditional_logit,next_question_same_frame,uncert,0.44189416931382963,-0.48390044102379765,1.545739683868065,942,92,7,1,False,False,yes
+substance,answers with a substance rating,conditional_logit,next_question_same_frame,subs,0.0551327670377389,-0.09954762976890104,0.21566760825756126,942,92,7,0,False,False,yes
+substance,answers with a substance rating,conditional_logit,next_question_same_frame,q_promotion,0.48330743186791103,0.1602219042966646,0.7919289885524364,942,92,7,0,False,False,yes
+substance,answers with a substance rating,fixed_effects,next_question_sev,evid,-0.13000768605428323,-0.22091781549259598,-0.04493545914585035,958,96,3,0,False,False,yes
+substance,answers with a substance rating,fixed_effects,next_question_sev,uncert,0.026355199924199976,-0.3730857276863896,0.45469657304243294,958,96,3,0,False,False,yes
+substance,answers with a substance rating,fixed_effects,next_question_sev,subs,0.01650733972799888,-0.027372204426173705,0.06220274256699807,958,96,3,0,False,False,yes
+substance,answers with a substance rating,fixed_effects,further_questions_same_frame,evid,0.03180186910505248,-0.2600814146253701,0.3451375647114711,1110,97,2,0,False,False,yes
+substance,answers with a substance rating,fixed_effects,further_questions_same_frame,uncert,-0.2459717886798089,-1.1230753693378162,0.35831785195678023,1110,97,2,0,False,False,yes
+substance,answers with a substance rating,fixed_effects,further_questions_same_frame,subs,0.15679241386706405,0.013072394074239782,0.32636686944715637,1110,97,2,0,False,False,yes
+substance,answers with a substance rating,fixed_effects,further_questions_same_frame,q_promotion,0.5464109659724962,0.20935906781139205,0.9316316670654928,1110,97,2,0,False,False,yes
+full,"answers rated on support, uncertainty, substance, coherence and context",conditional_logit,next_accept,evid,0.5217581098112,0.04064264872211417,0.9930876105308211,780,62,37,0,False,False,yes
+full,"answers rated on support, uncertainty, substance, coherence and context",conditional_logit,next_accept,uncert,0.5069799261719751,-0.9575991163465146,1.5950382700512342,780,62,37,31,False,False,yes
+full,"answers rated on support, uncertainty, substance, coherence and context",conditional_logit,next_accept,subs,-0.013108480500947262,-0.27994527539950365,0.25565617873864016,780,62,37,0,False,False,yes
+full,"answers rated on support, uncertainty, substance, coherence and context",conditional_logit,next_accept,coh,0.10496569163648745,-0.20533428928090555,0.4796023746786574,780,62,37,0,False,False,yes
+full,"answers rated on support, uncertainty, substance, coherence and context",conditional_logit,next_accept,ctx,-0.18658396219197335,-0.4773371259539456,0.027362235177116858,780,62,37,0,False,False,yes
+full,"answers rated on support, uncertainty, substance, coherence and context",conditional_logit,next_challenge,evid,-0.815140590527538,-1.4962989689914674,-0.12936813030400057,502,38,61,0,False,False,yes
+full,"answers rated on support, uncertainty, substance, coherence and context",conditional_logit,next_challenge,uncert,-0.07176639113950176,,,502,38,61,235,False,False,yes
+full,"answers rated on support, uncertainty, substance, coherence and context",conditional_logit,next_challenge,subs,-0.17429625651339456,-0.6239547502890995,0.263481362093903,502,38,61,0,False,False,yes
+full,"answers rated on support, uncertainty, substance, coherence and context",conditional_logit,next_challenge,coh,-0.2817185394468691,-0.6494344044525172,0.09327606651400243,502,38,61,0,False,False,yes
+full,"answers rated on support, uncertainty, substance, coherence and context",conditional_logit,next_challenge,ctx,0.3983140386553431,0.002856982851258939,0.7033287395568678,502,38,61,0,False,False,yes
+full,"answers rated on support, uncertainty, substance, coherence and context",conditional_logit,next_further_question,evid,-0.11290039388835858,-0.5080751636000327,0.28216758016853094,958,77,22,0,False,False,yes
+full,"answers rated on support, uncertainty, substance, coherence and context",conditional_logit,next_further_question,uncert,-0.20754977383534504,-1.069161760587009,0.9987944241570246,958,77,22,4,False,False,yes
+full,"answers rated on support, uncertainty, substance, coherence and context",conditional_logit,next_further_question,subs,0.021671939453686218,-0.2364060787889662,0.28270688014281314,958,77,22,0,False,False,yes
+full,"answers rated on support, uncertainty, substance, coherence and context",conditional_logit,next_further_question,coh,0.0865967499196622,-0.18011547871391453,0.35126771191043293,958,77,22,0,False,False,yes
+full,"answers rated on support, uncertainty, substance, coherence and context",conditional_logit,next_further_question,ctx,0.01654408775337389,-0.1789247913589021,0.252395381606288,958,77,22,0,False,False,yes
+full,"answers rated on support, uncertainty, substance, coherence and context",conditional_logit,next_question_same_frame,evid,-0.05850713562445307,-0.41071271890257954,0.30829383536777905,920,91,8,0,False,False,yes
+full,"answers rated on support, uncertainty, substance, coherence and context",conditional_logit,next_question_same_frame,uncert,0.3428373373643334,-0.5398117779356979,1.4559328372774107,920,91,8,1,False,False,yes
+full,"answers rated on support, uncertainty, substance, coherence and context",conditional_logit,next_question_same_frame,subs,0.14795262034440967,-0.0849744360679584,0.37773348633296827,920,91,8,0,False,False,yes
+full,"answers rated on support, uncertainty, substance, coherence and context",conditional_logit,next_question_same_frame,coh,-0.0688139641302452,-0.2997855547401031,0.1644432032158337,920,91,8,0,False,False,yes
+full,"answers rated on support, uncertainty, substance, coherence and context",conditional_logit,next_question_same_frame,ctx,-0.19010529684683825,-0.32951741490794123,-0.04744860560727016,920,91,8,0,False,False,yes
+full,"answers rated on support, uncertainty, substance, coherence and context",conditional_logit,next_question_same_frame,q_promotion,0.5201943783921829,0.18828097736498628,0.8496824748458128,920,91,8,0,False,False,yes
+full,"answers rated on support, uncertainty, substance, coherence and context",fixed_effects,next_question_sev,evid,-0.11340151741640635,-0.20293902066956296,-0.02137258511537377,932,94,5,0,False,False,yes
+full,"answers rated on support, uncertainty, substance, coherence and context",fixed_effects,next_question_sev,uncert,-0.021939873213911748,-0.44051242978535665,0.3933694896902221,932,94,5,0,False,False,yes
+full,"answers rated on support, uncertainty, substance, coherence and context",fixed_effects,next_question_sev,subs,0.010753882466211874,-0.042038746917991816,0.06869892477686405,932,94,5,0,False,False,yes
+full,"answers rated on support, uncertainty, substance, coherence and context",fixed_effects,next_question_sev,coh,-0.005704760779558157,-0.06977887644511975,0.055791651213238355,932,94,5,0,False,False,yes
+full,"answers rated on support, uncertainty, substance, coherence and context",fixed_effects,next_question_sev,ctx,0.018071506464491127,-0.03945754783395645,0.07995437664324537,932,94,5,0,False,False,yes
+full,"answers rated on support, uncertainty, substance, coherence and context",fixed_effects,further_questions_same_frame,evid,0.04215017761235951,-0.2541532533660451,0.36003853853901385,1079,96,3,0,False,False,yes
+full,"answers rated on support, uncertainty, substance, coherence and context",fixed_effects,further_questions_same_frame,uncert,-0.34899710400318945,-1.2763285004436,0.2524721261083141,1079,96,3,0,False,False,yes
+full,"answers rated on support, uncertainty, substance, coherence and context",fixed_effects,further_questions_same_frame,subs,0.26610397485671555,0.03308614430430268,0.5809168644714328,1079,96,3,0,False,False,yes
+full,"answers rated on support, uncertainty, substance, coherence and context",fixed_effects,further_questions_same_frame,coh,-0.15738326500229033,-0.39334080895596546,0.04677839579776076,1079,96,3,0,False,False,yes
+full,"answers rated on support, uncertainty, substance, coherence and context",fixed_effects,further_questions_same_frame,ctx,-0.12083829207640837,-0.22515428361727952,-0.025880270820408578,1079,96,3,0,False,False,yes
+full,"answers rated on support, uncertainty, substance, coherence and context",fixed_effects,further_questions_same_frame,q_promotion,0.5677336139904644,0.21249820158051735,0.9907141079263218,1079,96,3,0,False,False,yes

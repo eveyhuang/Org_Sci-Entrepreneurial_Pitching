@@ -1,0 +1,2279 @@
+{
+  "pass": "primary",
+  "unit_key": "panel__st_56c49213b9__primary",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:21-1:45"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "presentation",
+      "3": "presentation",
+      "4": "presentation",
+      "5": "presentation",
+      "6": "presentation",
+      "7": "presentation",
+      "8": "presentation",
+      "9": "demonstration",
+      "10": "demonstration",
+      "11": "demonstration",
+      "12": "social",
+      "13": "demonstration",
+      "14": "demonstration",
+      "15": "demonstration",
+      "16": "qa",
+      "17": "qa",
+      "18": "qa",
+      "19": "qa",
+      "20": "qa",
+      "21": "qa",
+      "22": "qa",
+      "23": "qa",
+      "24": "qa",
+      "25": "qa",
+      "26": "qa",
+      "27": "social",
+      "28": "qa",
+      "29": "qa",
+      "30": "qa",
+      "31": "qa",
+      "32": "qa",
+      "33": "qa",
+      "34": "qa",
+      "35": "qa",
+      "36": "qa",
+      "37": "qa",
+      "38": "qa",
+      "39": "qa",
+      "40": "qa",
+      "41": "qa",
+      "42": "qa",
+      "43": "qa",
+      "44": "qa",
+      "45": "qa",
+      "46": "qa",
+      "47": "qa",
+      "48": "qa",
+      "49": "qa",
+      "50": "qa",
+      "51": "qa",
+      "52": "qa",
+      "53": "social",
+      "54": "social",
+      "55": "social",
+      "56": "social",
+      "57": "none",
+      "58": "social",
+      "59": "none",
+      "60": "social",
+      "61": "qa",
+      "62": "qa",
+      "63": "negotiation",
+      "64": "negotiation",
+      "65": "none",
+      "66": "none",
+      "67": "negotiation",
+      "68": "negotiation",
+      "69": "negotiation",
+      "70": "negotiation",
+      "71": "negotiation",
+      "72": "social",
+      "73": "social"
+    },
+    "segment_seconds": {
+      "presentation": 83.0,
+      "qa": 153.0,
+      "social": 28.0,
+      "demonstration": 19.0,
+      "negotiation": 78.0,
+      "none": 31.0
+    },
+    "exchange_counts": {
+      "substantive": 10,
+      "social": 5,
+      "demonstration": 1,
+      "negotiation": 1
+    },
+    "turn_frame": {
+      "18": "prevention",
+      "19": "prevention",
+      "21": "unclassified",
+      "22": "promotion",
+      "23": "promotion",
+      "24": "promotion",
+      "25": "promotion",
+      "26": "promotion",
+      "28": "promotion",
+      "29": "promotion",
+      "30": "promotion",
+      "31": "promotion",
+      "32": "prevention",
+      "33": "prevention",
+      "38": "prevention",
+      "39": "prevention",
+      "41": "promotion",
+      "42": "promotion",
+      "43": "prevention",
+      "44": "prevention",
+      "45": "prevention",
+      "46": "prevention",
+      "47": "unclassified",
+      "48": "promotion",
+      "49": "promotion",
+      "50": "promotion",
+      "61": "promotion",
+      "62": "promotion"
+    },
+    "frame_match": {
+      "19": "match",
+      "22": "unclassified",
+      "24": "match",
+      "26": "match",
+      "29": "match",
+      "31": "match",
+      "33": "match",
+      "39": "match",
+      "42": "match",
+      "44": "match",
+      "46": "match",
+      "48": "unclassified",
+      "50": "match",
+      "62": "match"
+    },
+    "other_concepts": []
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Dan"
+      },
+      {
+        "actor_id": "F2",
+        "role": "founder",
+        "label": "Andy"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Mark Cuban"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Daymond John"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Lori Greiner"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Robert Herjavec"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 21.0,
+        "end_s": 105.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 21.0,
+        "kind": "teaser"
+      },
+      {
+        "start_s": 513.0,
+        "end_s": 554.0,
+        "kind": "other"
+      }
+    ],
+    "gaps": [],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 95.0,
+        "note": "Smiling and upbeat delivery, clear positive engagement when asking for the deal."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 52.0,
+        "note": "Animated gestures and sustained engagement when describing the invention of the product."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 3,
+        "uncodable": false,
+        "moment_s": 22.0,
+        "note": "Friendly, approachable demeanor and smiling at the Sharks during the introduction."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "0",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "A portable adapter that converts standard dumbbells into kettlebells for workouts.",
+      "primary_industry": "sports_leisure",
+      "secondary_industries": [],
+      "product_form": "physical_good",
+      "customer_type": "consumer",
+      "founder_gender": "all_men",
+      "product_category": "fitness equipment",
+      "earliest_s": 28.0,
+      "note": "The founders present Kettle Gryp, a fitness accessory.",
+      "ask_amount_usd": 300000,
+      "ask_equity_pct": 10.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 21.0,
+        "end_s": 25.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Dan introduces himself to the panel and states his hometown of Missoula, Montana."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "F2",
+        "start_s": 25.0,
+        "end_s": 28.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Andy introduces himself, states his hometown, and mentions they are the inventors."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "F1",
+        "start_s": 28.0,
+        "end_s": 46.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Dan explains that kettlebells are popular but expensive and take up a lot of valuable floor space."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "F2",
+        "start_s": 46.0,
+        "end_s": 64.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Andy describes his idea to convert existing dumbbells into kettlebells, showing an early sketch drawn by a child."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "F1",
+        "start_s": 64.0,
+        "end_s": 82.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Dan explains that the device is a portable adapter allowing users to perform kettlebell exercises with standard dumbbells."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "F2",
+        "start_s": 82.0,
+        "end_s": 95.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Andy lists several exercises that can be performed with the product, including swings and overhead presses."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "F1",
+        "start_s": 95.0,
+        "end_s": 99.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Dan states their ask of three hundred thousand dollars in exchange for ten percent equity in their company."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "F1",
+        "start_s": 100.0,
+        "end_s": 105.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Dan concludes the prepared presentation by asking the panel who is ready to invest in their product."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "F1",
+        "start_s": 105.0,
+        "end_s": 108.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Dan invites the panel to pick up and examine the samples provided to them."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "S5",
+        "start_s": 110.0,
+        "end_s": 114.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert handles the product and places a dumbbell inside the adapter."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "F1",
+        "start_s": 111.0,
+        "end_s": 115.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Dan provides instructions on how to properly insert the dumbbell and secure the latch on the adapter."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "F1",
+        "start_s": 122.0,
+        "end_s": 124.0,
+        "function": "social",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 16,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Dan compliments Robert on his handling of the product."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "S1",
+        "start_s": 131.0,
+        "end_s": 133.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark lifts the assembled product and notes that it is straightforward to use."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "S3",
+        "start_s": 135.0,
+        "end_s": 138.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin lifts the product and jokingly shows Lori how to perform an exercise."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "F2",
+        "start_s": 142.0,
+        "end_s": 145.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Andy notes that the product allows users to safely perform exercises that are difficult with a standard dumbbell."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "S3",
+        "start_s": 146.0,
+        "end_s": 149.0,
+        "function": "accepts",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin remarks that the product actually feels better and more comfortable than a traditional kettlebell."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "F1",
+        "start_s": 150.0,
+        "end_s": 153.0,
+        "function": "accepts",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          16
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Dan agrees, noting that traditional kettlebells can crunch the hands, whereas their product has a comfortable grip."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "S1",
+        "start_s": 154.0,
+        "end_s": 155.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks for the maximum dumbbell weight that the adapter can safely hold."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "F1",
+        "start_s": 156.0,
+        "end_s": 158.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          18
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Dan replies that the adapter is currently rated to hold up to fifty-five pounds."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "S4",
+        "start_s": 159.0,
+        "end_s": 160.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          19
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori expresses positive surprise at the fifty-five pound weight capacity."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "S3",
+        "start_s": 162.0,
+        "end_s": 166.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin questions the three million dollar valuation, stating they need significant sales to justify it."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "F1",
+        "start_s": 167.0,
+        "end_s": 192.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          21
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Dan confirms they have sales, stating lifetime sales of three point six million dollars and listing annual figures."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "S5",
+        "start_s": 194.0,
+        "end_s": 194.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          22
+        ],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks for their sales figures for the current year of twenty twenty-one."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "F1",
+        "start_s": 195.0,
+        "end_s": 203.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          23
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Dan provides the year-to-date sales and projects they will finish the year at one million dollars."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "S2",
+        "start_s": 205.0,
+        "end_s": 208.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Daymond asks if Dan has a background in sales or is a hired spokesperson."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "F1",
+        "start_s": 209.0,
+        "end_s": 211.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          25
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Dan denies being a spokesperson, stating he was a Marine Corps helicopter pilot for twenty years."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "S2",
+        "start_s": 212.0,
+        "end_s": 213.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 17,
+        "responds_to": [
+          26
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond thanks Dan for his military service."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "S5",
+        "start_s": 214.0,
+        "end_s": 214.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          26
+        ],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks what specific type of helicopters Dan flew during his service."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "F1",
+        "start_s": 215.0,
+        "end_s": 229.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          28
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Dan explains he flew Cobra attack helicopters during multiple deployments to Iraq and Afghanistan."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "S5",
+        "start_s": 231.0,
+        "end_s": 231.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert then asks Andy about his professional background before this venture."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "F2",
+        "start_s": 232.0,
+        "end_s": 240.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          30
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Andy explains he opened multiple ice cream stores in San Diego and ran them for twenty years."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "S1",
+        "start_s": 241.0,
+        "end_s": 243.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks for the product's retail price and its manufacturing cost."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "F1",
+        "start_s": 244.0,
+        "end_s": 248.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          32
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Dan provides the manufacturing cost and retail price, noting it yields an eighty-one percent margin."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "S1",
+        "start_s": 251.0,
+        "end_s": 254.0,
+        "function": "accepts",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          33
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark observes that the product saves consumers money compared to buying separate sets of dumbbells and kettlebells."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "F2",
+        "start_s": 255.0,
+        "end_s": 257.0,
+        "function": "accepts",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          34
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Andy agrees, emphasizing that the product saves money and adds convenience for the user."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "S4",
+        "start_s": 258.0,
+        "end_s": 260.0,
+        "function": "accepts",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          35
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori agrees with the point about convenience and cost savings."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "F2",
+        "start_s": 261.0,
+        "end_s": 263.0,
+        "function": "accepts",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          36
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Andy notes that this problem is exactly what inspired him to invent the product."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "S4",
+        "start_s": 264.0,
+        "end_s": 265.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks where the product is manufactured."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "F1",
+        "start_s": 266.0,
+        "end_s": 268.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          38
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Dan answers that the product is manufactured entirely in the United States."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "S3",
+        "start_s": 268.0,
+        "end_s": 269.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          39
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin expresses approval of their domestic manufacturing."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "S4",
+        "start_s": 270.0,
+        "end_s": 271.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks if they hold a patent for the product."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "F2",
+        "start_s": 271.0,
+        "end_s": 286.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          41
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Andy confirms they have a utility patent protecting the closure mechanism integrated into the handle."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "S1",
+        "start_s": 287.0,
+        "end_s": 289.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks how many knockoff products have appeared on the market in their four years of operation."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "F1",
+        "start_s": 289.0,
+        "end_s": 294.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          43
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Dan estimates there are two to three knockoffs but asserts they are not as successful."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "S1",
+        "start_s": 295.0,
+        "end_s": 296.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          44
+        ],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks how the competing knockoff products are priced."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "F2",
+        "start_s": 296.0,
+        "end_s": 301.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          45
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Andy explains the knockoffs are cheaper but of lower quality and less safe."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "S1",
+        "start_s": 302.0,
+        "end_s": 307.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark points out their strong sales and margins, questioning why they need an investor."
+      },
+      {
+        "turn_id": 48,
+        "speaker": "F1",
+        "start_s": 308.0,
+        "end_s": 317.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          47
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Dan explains they need a strategic partner to help them enter new retail marketplaces like big box stores."
+      },
+      {
+        "turn_id": 49,
+        "speaker": "S1",
+        "start_s": 318.0,
+        "end_s": 319.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          48
+        ],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks why large retailers are currently rejecting their product or not returning calls."
+      },
+      {
+        "turn_id": 50,
+        "speaker": "F1",
+        "start_s": 320.0,
+        "end_s": 323.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          49
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Dan admits they are good at production but lack marketing skills to secure retail deals."
+      },
+      {
+        "turn_id": 51,
+        "speaker": "S2",
+        "start_s": 324.0,
+        "end_s": 330.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          50
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond suggests their strong direct-to-consumer sales indicate they are better marketers than they realize."
+      },
+      {
+        "turn_id": 52,
+        "speaker": "F1",
+        "start_s": 335.0,
+        "end_s": 339.0,
+        "function": "accepts",
+        "addressed": [
+          "S2",
+          "S5"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          51
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Dan adds that they have sold over one hundred and six thousand units over the lifetime of the business."
+      },
+      {
+        "turn_id": 53,
+        "speaker": "F1",
+        "start_s": 340.0,
+        "end_s": 348.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Dan jokingly updates the lifetime sales figure as the panel continues to handle the products."
+      },
+      {
+        "turn_id": 54,
+        "speaker": "S3",
+        "start_s": 350.0,
+        "end_s": 351.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          53
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin plays along with the joke about the increasing sales numbers."
+      },
+      {
+        "turn_id": 55,
+        "speaker": "S1",
+        "start_s": 351.0,
+        "end_s": 352.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          54
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark asks for the updated sales number in response to the joke."
+      },
+      {
+        "turn_id": 56,
+        "speaker": "F1",
+        "start_s": 353.0,
+        "end_s": 357.0,
+        "function": "social",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          55
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Dan provides another jokingly updated sales figure, adding two more units."
+      },
+      {
+        "turn_id": 57,
+        "speaker": "S5",
+        "start_s": 358.0,
+        "end_s": 373.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert praises the founders but states he does not see it as an investable business, and exits."
+      },
+      {
+        "turn_id": 58,
+        "speaker": "F1",
+        "start_s": 373.0,
+        "end_s": 377.0,
+        "function": "social",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 12,
+        "responds_to": [
+          57
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Dan thanks Robert and jokingly compliments his hair."
+      },
+      {
+        "turn_id": 59,
+        "speaker": "S1",
+        "start_s": 378.0,
+        "end_s": 390.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark states the product is secondary and limited by the number of dumbbell owners, and exits."
+      },
+      {
+        "turn_id": 60,
+        "speaker": "F1",
+        "start_s": 391.0,
+        "end_s": 394.0,
+        "function": "social",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [
+          59
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Dan jokingly tells Mark they will take him back if he changes his mind."
+      },
+      {
+        "turn_id": 61,
+        "speaker": "S3",
+        "start_s": 395.0,
+        "end_s": 397.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 14,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks the founders if they are familiar with his previous investment in a gym equipment company."
+      },
+      {
+        "turn_id": 62,
+        "speaker": "F1",
+        "start_s": 397.0,
+        "end_s": 398.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 14,
+        "responds_to": [
+          61
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Dan confirms they are aware of Kevin's previous gym equipment deal."
+      },
+      {
+        "turn_id": 63,
+        "speaker": "S3",
+        "start_s": 398.0,
+        "end_s": 418.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin offers three hundred thousand dollars for twenty percent equity, citing his industry connections."
+      },
+      {
+        "turn_id": 64,
+        "speaker": "F2",
+        "start_s": 421.0,
+        "end_s": 426.0,
+        "function": "negotiates",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 13,
+        "responds_to": [
+          63
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Andy acknowledges Kevin's offer but states they want to hear from the remaining investors first."
+      },
+      {
+        "turn_id": 65,
+        "speaker": "S1",
+        "start_s": 428.0,
+        "end_s": 430.0,
+        "function": "NONE",
+        "addressed": [
+          "S2",
+          "S4"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark prompts Daymond and Lori to share their thoughts."
+      },
+      {
+        "turn_id": 66,
+        "speaker": "S2",
+        "start_s": 431.0,
+        "end_s": 433.0,
+        "function": "NONE",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond notes that Lori has been unusually quiet during the pitch."
+      },
+      {
+        "turn_id": 67,
+        "speaker": "S4",
+        "start_s": 434.0,
+        "end_s": 460.0,
+        "function": "accepts",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori praises their sales and notes the product's appeal to women, stating she will make a creative offer."
+      },
+      {
+        "turn_id": 68,
+        "speaker": "S4",
+        "start_s": 464.0,
+        "end_s": 483.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori offers three hundred thousand dollars for twenty percent equity as preferred stock."
+      },
+      {
+        "turn_id": 69,
+        "speaker": "F1",
+        "start_s": 484.0,
+        "end_s": 486.0,
+        "function": "decides",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 13,
+        "responds_to": [
+          68
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Dan counters Lori's offer, asking if she would reduce her equity stake to fifteen percent."
+      },
+      {
+        "turn_id": 70,
+        "speaker": "S4",
+        "start_s": 487.0,
+        "end_s": 490.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 13,
+        "responds_to": [
+          69
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori accepts Dan's counter-offer of fifteen percent equity."
+      },
+      {
+        "turn_id": 71,
+        "speaker": "F1",
+        "start_s": 491.0,
+        "end_s": 494.0,
+        "function": "decides",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 13,
+        "responds_to": [
+          70
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Dan confirms the deal with Lori."
+      },
+      {
+        "turn_id": 72,
+        "speaker": "S2",
+        "start_s": 505.0,
+        "end_s": 507.0,
+        "function": "social",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 15,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond jokes that they accepted the offer before he had a chance to speak."
+      },
+      {
+        "turn_id": 73,
+        "speaker": "F2",
+        "start_s": 508.0,
+        "end_s": 510.0,
+        "function": "social",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 15,
+        "responds_to": [
+          72
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Andy jokes back that Daymond should have acted faster."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "demonstration",
+        "topic": "NONE",
+        "label": "Handling the product"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "substantive",
+        "topic": "usage",
+        "label": "Product feel compared to kettlebell"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "Maximum weight capacity"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "Sales to justify valuation"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "self_promotion",
+        "label": "Founder backgrounds"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "substantive",
+        "topic": "operating_efficiency",
+        "label": "Manufacturing cost and margins"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "Manufacturing location"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "substantive",
+        "topic": "assets",
+        "label": "Utility patent"
+      },
+      {
+        "exchange_id": 9,
+        "kind": "substantive",
+        "topic": "competition",
+        "label": "Knockoffs and their pricing"
+      },
+      {
+        "exchange_id": 10,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "Reason for seeking investment"
+      },
+      {
+        "exchange_id": 11,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "Joking about sales numbers"
+      },
+      {
+        "exchange_id": 12,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "Joking with Robert and Mark"
+      },
+      {
+        "exchange_id": 13,
+        "kind": "negotiation",
+        "topic": "NONE",
+        "label": "Offers and terms"
+      },
+      {
+        "exchange_id": 14,
+        "kind": "substantive",
+        "topic": "go_to_market",
+        "label": "PRX gym deal"
+      },
+      {
+        "exchange_id": 15,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "Daymond jokes about missing out"
+      },
+      {
+        "exchange_id": 16,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "Complimenting Robert"
+      },
+      {
+        "exchange_id": 17,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "Thanking Dan for his service"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S5",
+        "kind": "exit",
+        "time_s": 358.0,
+        "turn_id": 57,
+        "offer_id": null,
+        "terms": "",
+        "note": "Does not see it growing beyond its current state as an investable business."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S1",
+        "kind": "exit",
+        "time_s": 378.0,
+        "turn_id": 59,
+        "offer_id": null,
+        "terms": "",
+        "note": "It is a secondary product limited by the number of consumers who already have dumbbells."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S3",
+        "kind": "offer",
+        "time_s": 398.0,
+        "turn_id": 63,
+        "offer_id": "O1",
+        "terms": "$300,000 for 20% equity",
+        "note": "He is in the space in a big way and can help them get to retail."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S4",
+        "kind": "offer",
+        "time_s": 464.0,
+        "turn_id": 68,
+        "offer_id": "O2",
+        "terms": "$300,000 for 20% preferred stock",
+        "note": "She can help sell to retail and a broader market including women."
+      },
+      {
+        "decision_id": 5,
+        "actor": "F1",
+        "kind": "founder_counters",
+        "time_s": 484.0,
+        "turn_id": 69,
+        "offer_id": "O2",
+        "terms": "$300,000 for 15% preferred stock",
+        "note": "Asks to lower the equity stake."
+      },
+      {
+        "decision_id": 6,
+        "actor": "S4",
+        "kind": "revises_offer",
+        "time_s": 487.0,
+        "turn_id": 70,
+        "offer_id": "O2",
+        "terms": "$300,000 for 15% preferred stock",
+        "note": "Accepts the founders' counter-offer."
+      },
+      {
+        "decision_id": 7,
+        "actor": "F1",
+        "kind": "founder_accepts",
+        "time_s": 491.0,
+        "turn_id": 71,
+        "offer_id": "O2",
+        "terms": "$300,000 for 15% preferred stock",
+        "note": "Founders confirm the deal with Lori."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": "The video includes a brief intro and outro which are excluded. No major edits observed during the pitch."
+  }
+}

@@ -1,0 +1,2359 @@
+{
+  "pass": "replicate",
+  "unit_key": "panel__st_4fd31afc01__replicate",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:16-1:28",
+    "1:38-2:08",
+    "2:18-2:30",
+    "2:34-3:00"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "presentation",
+      "3": "presentation",
+      "4": "none",
+      "5": "presentation",
+      "6": "none",
+      "7": "none",
+      "8": "presentation",
+      "9": "none",
+      "10": "none",
+      "11": "none",
+      "12": "presentation",
+      "13": "demonstration",
+      "14": "demonstration",
+      "15": "demonstration",
+      "16": "demonstration",
+      "17": "demonstration",
+      "18": "demonstration",
+      "19": "demonstration",
+      "20": "presentation",
+      "21": "demonstration",
+      "22": "demonstration",
+      "23": "presentation",
+      "24": "presentation",
+      "25": "none",
+      "26": "none",
+      "27": "qa",
+      "28": "qa",
+      "29": "qa",
+      "30": "qa",
+      "31": "qa",
+      "32": "qa",
+      "33": "qa",
+      "34": "qa",
+      "35": "qa",
+      "36": "qa",
+      "37": "qa",
+      "38": "qa",
+      "39": "qa",
+      "40": "qa",
+      "41": "qa",
+      "42": "qa",
+      "43": "qa",
+      "44": "qa",
+      "45": "qa",
+      "46": "qa",
+      "47": "qa",
+      "48": "qa",
+      "49": "qa",
+      "50": "qa",
+      "51": "qa",
+      "52": "qa",
+      "53": "qa",
+      "54": "qa",
+      "55": "qa",
+      "56": "qa",
+      "57": "qa",
+      "58": "qa",
+      "59": "qa",
+      "60": "qa",
+      "61": "qa",
+      "62": "none",
+      "63": "none",
+      "64": "none",
+      "65": "none",
+      "66": "none",
+      "67": "none"
+    },
+    "segment_seconds": {
+      "presentation": 112.0,
+      "qa": 101.0,
+      "social": 0.0,
+      "demonstration": 22.0,
+      "negotiation": 0.0,
+      "none": 116.0
+    },
+    "exchange_counts": {
+      "substantive": 6,
+      "social": 0,
+      "demonstration": 1,
+      "negotiation": 0
+    },
+    "turn_frame": {
+      "13": "prevention",
+      "14": "prevention",
+      "15": "prevention",
+      "16": "prevention",
+      "17": "promotion",
+      "21": "promotion",
+      "22": "promotion",
+      "27": "prevention",
+      "28": "prevention",
+      "29": "prevention",
+      "30": "prevention",
+      "31": "promotion",
+      "32": "promotion",
+      "34": "prevention",
+      "35": "prevention",
+      "37": "promotion",
+      "38": "promotion",
+      "39": "promotion",
+      "40": "promotion",
+      "41": "promotion",
+      "42": "promotion",
+      "43": "promotion",
+      "44": "promotion",
+      "45": "promotion",
+      "46": "unclassified",
+      "47": "unclassified",
+      "48": "prevention",
+      "49": "prevention",
+      "50": "prevention",
+      "51": "prevention",
+      "52": "prevention",
+      "53": "prevention",
+      "54": "promotion",
+      "55": "promotion",
+      "56": "promotion",
+      "57": "promotion",
+      "59": "promotion",
+      "61": "promotion"
+    },
+    "frame_match": {
+      "14": "match",
+      "16": "match",
+      "22": "match",
+      "28": "match",
+      "30": "match",
+      "32": "match",
+      "35": "match",
+      "38": "match",
+      "40": "match",
+      "42": "match",
+      "44": "match",
+      "45": "match",
+      "47": "unclassified",
+      "49": "match",
+      "51": "match",
+      "53": "match",
+      "55": "match",
+      "57": "match"
+    },
+    "other_concepts": []
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Mark Cuban"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Robert Herjavec"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Daymond John"
+      },
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Juls Bindi"
+      },
+      {
+        "actor_id": "F2",
+        "role": "founder",
+        "label": "Carolyn Shewfelt"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Lori Greiner"
+      },
+      {
+        "actor_id": "H1",
+        "role": "host",
+        "label": "Narrator"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 16.0,
+        "end_s": 88.0
+      },
+      {
+        "start_s": 98.0,
+        "end_s": 128.0
+      },
+      {
+        "start_s": 138.0,
+        "end_s": 150.0
+      },
+      {
+        "start_s": 154.0,
+        "end_s": 180.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 15.0,
+        "kind": "narration"
+      },
+      {
+        "start_s": 426.0,
+        "end_s": 439.0,
+        "kind": "interview"
+      }
+    ],
+    "gaps": [],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 34.0,
+        "note": "Strong positive expression; she smiles warmly while talking about loving dogs."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 60.0,
+        "note": "Sustained engagement; she speaks passionately about the importance of pet safety."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 16.0,
+        "note": "Friendly and approachable demeanor during the introduction and throughout the pitch."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "1",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "A crash-tested car safety harness for small dogs that secures them to the seat to prevent injury in accidents.",
+      "primary_industry": "pets",
+      "secondary_industries": [],
+      "product_form": "physical_good",
+      "customer_type": "consumer",
+      "founder_gender": "all_women",
+      "product_category": "dog car safety harness",
+      "earliest_s": 28.0,
+      "note": "The founders ask for $100,000 for 10% of Zugopet.",
+      "ask_amount_usd": 100000,
+      "ask_equity_pct": 10.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 16.0,
+        "end_s": 20.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Juls introduces herself and her location."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "F2",
+        "start_s": 21.0,
+        "end_s": 27.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Carolyn introduces herself, her location, and the two dogs."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "F1",
+        "start_s": 28.0,
+        "end_s": 72.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Juls states the ask, describes the danger of unsecured dogs, and introduces the Rocketeer Pack."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "S3",
+        "start_s": 73.0,
+        "end_s": 75.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert laughs at the video of the dog in the harness."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "F1",
+        "start_s": 76.0,
+        "end_s": 77.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Juls acknowledges that the product looks unusual."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "S2",
+        "start_s": 78.0,
+        "end_s": 79.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin jokes that the dog looks really happy in the harness."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "S3",
+        "start_s": 80.0,
+        "end_s": 81.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert expresses disbelief at the product's appearance."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "F1",
+        "start_s": 81.0,
+        "end_s": 87.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Juls reassures the panel that despite looking silly, it is the best option."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "S5",
+        "start_s": 88.0,
+        "end_s": 91.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori interrupts to point out that the panel is laughing too hard to hear the pitch."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "S2",
+        "start_s": 92.0,
+        "end_s": 95.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin expresses disbelief that the dogs in the video are real."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "S3",
+        "start_s": 96.0,
+        "end_s": 97.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert continues to express amusement and disbelief."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "F1",
+        "start_s": 98.0,
+        "end_s": 112.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Juls resumes the presentation and begins demonstrating how to attach the harness to the seat."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "S3",
+        "start_s": 113.0,
+        "end_s": 114.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks if the dog is being velcroed directly to the car seat."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "F1",
+        "start_s": 115.0,
+        "end_s": 127.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          13
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Juls explains that the velcro helps hold the dog in place while adjusting the other straps."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "S5",
+        "start_s": 128.0,
+        "end_s": 129.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks if the dog has been given drugs to stay so calm."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "F1",
+        "start_s": 129.0,
+        "end_s": 130.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          15
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "too_short"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Juls assures Lori that the dog is fine and not drugged."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "S5",
+        "start_s": 131.0,
+        "end_s": 133.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori questions how the dog can possibly be happy in that position."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "S1",
+        "start_s": 134.0,
+        "end_s": 135.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark rhetorically asks what alternative would be better."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "S2",
+        "start_s": 135.0,
+        "end_s": 137.0,
+        "function": "challenges",
+        "addressed": [
+          "S1",
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin challenges the idea, stating that dogs prefer to stick their heads out the window."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "F1",
+        "start_s": 138.0,
+        "end_s": 149.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Juls continues the demonstration, adjusting the straps and explaining the suspension protects the spine."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "S5",
+        "start_s": 150.0,
+        "end_s": 151.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks if the dog is scared while suspended in the harness."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "F2",
+        "start_s": 152.0,
+        "end_s": 153.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          21
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Carolyn replies that the dog is just nervous about the pitch."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "F2",
+        "start_s": 154.0,
+        "end_s": 168.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Carolyn points out that their product passed the same crash test that others failed."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "F1",
+        "start_s": 168.0,
+        "end_s": 180.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Juls mentions that the harness can also be used as a front or backpack carrier."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "S5",
+        "start_s": 181.0,
+        "end_s": 182.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori compares the carrier feature to a baby carrier."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "S3",
+        "start_s": 183.0,
+        "end_s": 184.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert agrees that the carrier feature is a great idea."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "S2",
+        "start_s": 184.0,
+        "end_s": 185.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks if there are other similar dog seatbelt products on the market."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "F1",
+        "start_s": 186.0,
+        "end_s": 187.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          27
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Juls replies that they are the only company with a patent for this."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "S2",
+        "start_s": 188.0,
+        "end_s": 192.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin clarifies his question, noting he has seen people strap dogs to bikes."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "F1",
+        "start_s": 193.0,
+        "end_s": 195.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          29
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Juls acknowledges other products exist but notes they are not crash-tested or safety-approved."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "S1",
+        "start_s": 196.0,
+        "end_s": 197.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks for the retail price of the product."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "F1",
+        "start_s": 197.0,
+        "end_s": 198.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          31
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "too_short"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Juls states that the harness costs one hundred and sixty dollars."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "S3",
+        "start_s": 199.0,
+        "end_s": 201.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert remarks that the price seems very high."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "S4",
+        "start_s": 202.0,
+        "end_s": 203.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Daymond asks how much it costs them to manufacture the product."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "F1",
+        "start_s": 203.0,
+        "end_s": 205.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          34
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "too_short"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Juls replies that the manufacturing cost is thirty-six dollars."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "S5",
+        "start_s": 206.0,
+        "end_s": 207.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori notes that the product has a very large profit margin."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "S1",
+        "start_s": 208.0,
+        "end_s": 209.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks for their total sales figures."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "F1",
+        "start_s": 210.0,
+        "end_s": 212.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          37
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Juls states they have one hundred and eighty thousand dollars in sales since launching in November."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "S1",
+        "start_s": 213.0,
+        "end_s": 214.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks which channels they are using to sell the product."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "F1",
+        "start_s": 214.0,
+        "end_s": 215.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          39
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "too_short"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Juls replies that they currently sell exclusively through their own website."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "S1",
+        "start_s": 216.0,
+        "end_s": 217.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "customer_acquisition",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks how they are driving customer traffic to their website."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "F1",
+        "start_s": 218.0,
+        "end_s": 219.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          41
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "customer_acquisition",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "too_short"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Juls explains that their traffic is entirely organic and driven by word of mouth."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "S5",
+        "start_s": 220.0,
+        "end_s": 221.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks how the founders came up with the idea for the product."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "F2",
+        "start_s": 222.0,
+        "end_s": 235.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          43
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Carolyn explains she developed it for her dog with joint injuries because nothing else was available."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "F1",
+        "start_s": 236.0,
+        "end_s": 239.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          43
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Juls adds that she licensed the product from Carolyn because she believes in it."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "S5",
+        "start_s": 240.0,
+        "end_s": 241.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks how much money Juls has invested in Carolyn's business."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "F1",
+        "start_s": 242.0,
+        "end_s": 245.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          46
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "too_short"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Juls states she has invested a total of two hundred thousand dollars."
+      },
+      {
+        "turn_id": 48,
+        "speaker": "S1",
+        "start_s": 246.0,
+        "end_s": 247.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks what the invested money was used for."
+      },
+      {
+        "turn_id": 49,
+        "speaker": "F1",
+        "start_s": 247.0,
+        "end_s": 251.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          48
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Juls explains the funds went toward crash testing, production, and two hundred thousand dollars in inventory."
+      },
+      {
+        "turn_id": 50,
+        "speaker": "S4",
+        "start_s": 252.0,
+        "end_s": 254.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Daymond asks who is responsible for the daily operations of the business."
+      },
+      {
+        "turn_id": 51,
+        "speaker": "F1",
+        "start_s": 255.0,
+        "end_s": 256.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          50
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "too_short"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Juls states that she runs the day-to-day business operations."
+      },
+      {
+        "turn_id": 52,
+        "speaker": "S5",
+        "start_s": 256.0,
+        "end_s": 257.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks what Carolyn's role in the business is."
+      },
+      {
+        "turn_id": 53,
+        "speaker": "F1",
+        "start_s": 257.0,
+        "end_s": 259.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          52
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "too_short"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Juls replies that Carolyn handles all the order fulfillment from her garage."
+      },
+      {
+        "turn_id": 54,
+        "speaker": "S2",
+        "start_s": 260.0,
+        "end_s": 264.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "market_opportunity",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks for statistics on how many dogs are killed in car accidents annually."
+      },
+      {
+        "turn_id": 55,
+        "speaker": "F2",
+        "start_s": 265.0,
+        "end_s": 275.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          54
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "partial",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "market_opportunity",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Carolyn admits she does not know the number but notes UK laws regarding unsecured dogs in accidents."
+      },
+      {
+        "turn_id": 56,
+        "speaker": "S1",
+        "start_s": 276.0,
+        "end_s": 279.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks if they are currently selling the product in the United Kingdom."
+      },
+      {
+        "turn_id": 57,
+        "speaker": "F1",
+        "start_s": 280.0,
+        "end_s": 282.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          56
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "too_short"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Juls confirms they sell the product in forty different countries."
+      },
+      {
+        "turn_id": 58,
+        "speaker": "S2",
+        "start_s": 283.0,
+        "end_s": 287.0,
+        "function": "challenges",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin challenges their sales volume, suggesting they must have sold very few in each country."
+      },
+      {
+        "turn_id": 59,
+        "speaker": "F1",
+        "start_s": 288.0,
+        "end_s": 300.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          58
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "deflects",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Juls defends the product by emphasizing they are one of only three companies to pass the crash test."
+      },
+      {
+        "turn_id": 60,
+        "speaker": "S3",
+        "start_s": 301.0,
+        "end_s": 311.0,
+        "function": "challenges",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert challenges the product's convenience, stating it takes too long to put a dog into the harness."
+      },
+      {
+        "turn_id": 61,
+        "speaker": "F1",
+        "start_s": 312.0,
+        "end_s": 313.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          60
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "too_short"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Juls counters by asking if Robert takes the time to secure his children in the car."
+      },
+      {
+        "turn_id": 62,
+        "speaker": "S3",
+        "start_s": 314.0,
+        "end_s": 329.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert exits, stating he would not spend the time to secure a dog this way."
+      },
+      {
+        "turn_id": 63,
+        "speaker": "S2",
+        "start_s": 330.0,
+        "end_s": 337.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin exits, stating the business is too early and not worth the requested million-dollar valuation."
+      },
+      {
+        "turn_id": 64,
+        "speaker": "S5",
+        "start_s": 338.0,
+        "end_s": 356.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori exits, explaining that the product looks too complicated and needs to be simplified."
+      },
+      {
+        "turn_id": 65,
+        "speaker": "S4",
+        "start_s": 357.0,
+        "end_s": 383.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond exits, stating that while he appreciates the mission, the business is too early for him."
+      },
+      {
+        "turn_id": 66,
+        "speaker": "S1",
+        "start_s": 384.0,
+        "end_s": 420.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark exits, advising them to improve their marketing by selling against the fear of accidents."
+      },
+      {
+        "turn_id": 67,
+        "speaker": "F1",
+        "start_s": 421.0,
+        "end_s": 422.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Juls thanks the investors for their time and feedback."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "demonstration",
+        "topic": "NONE",
+        "label": "demonstrating the harness"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "substantive",
+        "topic": "competition",
+        "label": "other dog seatbelts"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "price and cost"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "current sales and channels"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "self_promotion",
+        "label": "founder background and roles"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "substantive",
+        "topic": "market_opportunity",
+        "label": "dog car accident statistics"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "substantive",
+        "topic": "usage",
+        "label": "time to strap in dog"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S3",
+        "kind": "exit",
+        "time_s": 327.0,
+        "turn_id": 62,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "He doesn't want anything to do with it because it takes too long to put the dog in."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S2",
+        "kind": "exit",
+        "time_s": 335.0,
+        "turn_id": 63,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "He thinks it's too early, not investable yet, and not worth a million dollars."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S5",
+        "kind": "exit",
+        "time_s": 354.0,
+        "turn_id": 64,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "She thinks the product looks complicated and needs to be simpler to use."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S4",
+        "kind": "exit",
+        "time_s": 382.0,
+        "turn_id": 65,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "He thinks they don't have everything figured out yet and it's a little too early."
+      },
+      {
+        "decision_id": 5,
+        "actor": "S1",
+        "kind": "exit",
+        "time_s": 418.0,
+        "turn_id": 66,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "He thinks their marketing isn't good and they need to sell against fear."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": "The presentation includes a demonstration of securing the dog in the harness, which prompts several questions from the panel before the formal Q&A begins. The panel is highly amused by the dog's appearance in the harness."
+  }
+}

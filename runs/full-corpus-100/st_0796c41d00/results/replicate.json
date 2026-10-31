@@ -1,0 +1,3684 @@
+{
+  "pass": "replicate",
+  "unit_key": "panel__st_0796c41d00__replicate",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:16-1:54"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "qa",
+      "3": "qa",
+      "4": "qa",
+      "5": "qa",
+      "6": "qa",
+      "7": "qa",
+      "8": "qa",
+      "9": "qa",
+      "10": "qa",
+      "11": "qa",
+      "12": "qa",
+      "13": "qa",
+      "14": "qa",
+      "15": "qa",
+      "16": "qa",
+      "17": "qa",
+      "18": "qa",
+      "19": "qa",
+      "20": "qa",
+      "21": "qa",
+      "22": "qa",
+      "23": "qa",
+      "24": "qa",
+      "25": "qa",
+      "26": "qa",
+      "27": "qa",
+      "28": "qa",
+      "29": "qa",
+      "30": "qa",
+      "31": "qa",
+      "32": "qa",
+      "33": "qa",
+      "34": "qa",
+      "35": "qa",
+      "36": "qa",
+      "37": "qa",
+      "38": "qa",
+      "39": "qa",
+      "40": "qa",
+      "41": "qa",
+      "42": "qa",
+      "43": "qa",
+      "44": "qa",
+      "45": "qa",
+      "46": "qa",
+      "47": "qa",
+      "48": "qa",
+      "49": "qa",
+      "50": "qa",
+      "51": "qa",
+      "52": "qa",
+      "53": "qa",
+      "54": "qa",
+      "55": "qa",
+      "56": "qa",
+      "57": "qa",
+      "58": "qa",
+      "59": "qa",
+      "60": "qa",
+      "61": "qa",
+      "62": "qa",
+      "63": "qa",
+      "64": "qa",
+      "65": "qa",
+      "66": "qa",
+      "67": "negotiation",
+      "68": "negotiation",
+      "69": "negotiation",
+      "70": "qa",
+      "71": "qa",
+      "72": "negotiation",
+      "73": "negotiation",
+      "74": "negotiation",
+      "75": "qa",
+      "76": "qa",
+      "77": "qa",
+      "78": "qa",
+      "79": "negotiation",
+      "80": "qa",
+      "81": "qa",
+      "82": "qa",
+      "83": "qa",
+      "84": "qa",
+      "85": "none",
+      "86": "negotiation",
+      "87": "negotiation",
+      "88": "none",
+      "89": "negotiation",
+      "90": "negotiation",
+      "91": "negotiation",
+      "92": "none",
+      "93": "negotiation",
+      "94": "none",
+      "95": "negotiation",
+      "96": "negotiation",
+      "97": "negotiation",
+      "98": "negotiation",
+      "99": "negotiation"
+    },
+    "segment_seconds": {
+      "presentation": 98.0,
+      "qa": 301.0,
+      "social": 0.0,
+      "demonstration": 0.0,
+      "negotiation": 102.0,
+      "none": 36.0
+    },
+    "exchange_counts": {
+      "substantive": 14,
+      "social": 0,
+      "demonstration": 0,
+      "negotiation": 1
+    },
+    "turn_frame": {
+      "2": "promotion",
+      "3": "promotion",
+      "5": "promotion",
+      "6": "promotion",
+      "7": "promotion",
+      "8": "promotion",
+      "12": "promotion",
+      "13": "promotion",
+      "15": "promotion",
+      "16": "prevention",
+      "17": "promotion",
+      "18": "promotion",
+      "19": "promotion",
+      "20": "promotion",
+      "21": "promotion",
+      "22": "promotion",
+      "23": "promotion",
+      "24": "promotion",
+      "25": "prevention",
+      "26": "prevention",
+      "27": "prevention",
+      "28": "promotion",
+      "29": "prevention",
+      "30": "promotion",
+      "31": "promotion",
+      "32": "prevention",
+      "33": "promotion",
+      "34": "promotion",
+      "35": "promotion",
+      "36": "promotion",
+      "37": "prevention",
+      "38": "prevention",
+      "39": "prevention",
+      "40": "prevention",
+      "42": "prevention",
+      "44": "promotion",
+      "45": "promotion",
+      "46": "promotion",
+      "47": "prevention",
+      "48": "prevention",
+      "49": "promotion",
+      "50": "promotion",
+      "51": "promotion",
+      "52": "promotion",
+      "53": "unclassified",
+      "54": "unclassified",
+      "55": "unclassified",
+      "56": "unclassified",
+      "57": "prevention",
+      "58": "promotion",
+      "59": "prevention",
+      "60": "promotion",
+      "61": "unclassified",
+      "62": "unclassified",
+      "63": "unclassified",
+      "64": "unclassified",
+      "66": "unclassified",
+      "70": "unclassified",
+      "71": "promotion",
+      "75": "prevention",
+      "76": "prevention",
+      "77": "prevention",
+      "80": "prevention",
+      "81": "prevention",
+      "82": "prevention",
+      "83": "prevention",
+      "84": "prevention"
+    },
+    "frame_match": {
+      "3": "match",
+      "6": "match",
+      "8": "match",
+      "13": "match",
+      "16": "switch_to_prevention",
+      "18": "match",
+      "20": "match",
+      "22": "match",
+      "24": "match",
+      "26": "match",
+      "28": "switch_to_promotion",
+      "30": "switch_to_promotion",
+      "32": "switch_to_prevention",
+      "34": "match",
+      "36": "match",
+      "38": "match",
+      "40": "match",
+      "46": "match",
+      "48": "match",
+      "50": "match",
+      "52": "match",
+      "54": "unclassified",
+      "56": "unclassified",
+      "60": "switch_to_promotion",
+      "62": "unclassified",
+      "64": "unclassified",
+      "71": "unclassified",
+      "76": "match",
+      "81": "match",
+      "84": "match"
+    },
+    "other_concepts": []
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "H1",
+        "role": "host",
+        "label": "Narrator"
+      },
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Nezar Akeel"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Mark Cuban"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Lori Greiner"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Robert Herjavec"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Daymond John"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 16.0,
+        "end_s": 114.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 16.0,
+        "kind": "teaser"
+      },
+      {
+        "start_s": 668.0,
+        "end_s": 698.0,
+        "kind": "teaser"
+      }
+    ],
+    "gaps": [],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 60.0,
+        "note": "Founder is smiling, energetic, and highly positive while demonstrating the product."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 90.0,
+        "note": "Strong engagement and excitement when discussing the app and analytics."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 3,
+        "uncodable": false,
+        "moment_s": 20.0,
+        "note": "Friendly and professional greeting to the sharks, maintaining a courteous demeanor."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "2",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "2",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "A portable cable resistance fitness machine that replaces bulky gym equipment and connects to a coaching app.",
+      "primary_industry": "sports_leisure",
+      "secondary_industries": [
+        "general_technology",
+        "health_personal_care"
+      ],
+      "product_form": "combined",
+      "customer_type": "consumer",
+      "founder_gender": "all_men",
+      "product_category": "Portable cable fitness machine",
+      "earliest_s": 109.0,
+      "note": "Ask includes 2.5% equity.",
+      "ask_amount_usd": 500000,
+      "ask_equity_pct": 2.5,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 16.0,
+        "end_s": 114.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Nezar introduces MaxPro, a portable, connected cable resistance machine offering 5 to 300 pounds of resistance, and asks for $500k."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "S3",
+        "start_s": 114.0,
+        "end_s": 123.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks to confirm if the weight can be adjusted from 3 to 300 pounds."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "F1",
+        "start_s": 123.0,
+        "end_s": 126.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          2
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Nezar confirms and invites Robert to come up and try flexing his muscles on the machine."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "S3",
+        "start_s": 126.0,
+        "end_s": 128.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert agrees to try the machine and walks up to the stage."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "S2",
+        "start_s": 128.0,
+        "end_s": 130.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks what weight is currently set on the machine she is looking at."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "F1",
+        "start_s": 130.0,
+        "end_s": 136.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          5
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Nezar explains that the cables are 10 feet long and made of Dyneema, a high-strength material."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "S3",
+        "start_s": 136.0,
+        "end_s": 138.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks Nezar what weight is currently set for him to pull."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "F1",
+        "start_s": 138.0,
+        "end_s": 140.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          7
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Nezar tells Robert that the weight is currently set to just 5 pounds."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "S3",
+        "start_s": 140.0,
+        "end_s": 143.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert jokes that he thinks the weight is actually 7 pounds, making the panel laugh."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "F1",
+        "start_s": 143.0,
+        "end_s": 147.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Nezar steps in to help Robert adjust the machine and shows him how to use it."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "S3",
+        "start_s": 148.0,
+        "end_s": 151.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert pulls the cables on the machine to test the resistance."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "S3",
+        "start_s": 151.0,
+        "end_s": 152.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks Nezar if the weight he is pulling is 50 pounds."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "F1",
+        "start_s": 152.0,
+        "end_s": 157.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          12
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Nezar answers that it is level 12, which equates to about 45 pounds of resistance."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "S3",
+        "start_s": 158.0,
+        "end_s": 161.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert expresses amazement that all of the resistance is generated from the small device."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "S4",
+        "start_s": 161.0,
+        "end_s": 178.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin notes the $20 million valuation and asks for the company's history, start date, and year-over-year sales figures."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "F1",
+        "start_s": 178.0,
+        "end_s": 185.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          15
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "partial",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Nezar explains that product development took over five years, and they first started shipping in July of last year."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "S4",
+        "start_s": 185.0,
+        "end_s": 187.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks how much they did in sales last year."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "F1",
+        "start_s": 187.0,
+        "end_s": 190.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          17
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Nezar states that they made 4 million dollars in sales last year."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "S3",
+        "start_s": 191.0,
+        "end_s": 192.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks what they have done in sales so far this year."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "F1",
+        "start_s": 192.0,
+        "end_s": 196.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          19
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Nezar answers that they have done over 8 million dollars in sales this year."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "S2",
+        "start_s": 198.0,
+        "end_s": 208.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori expresses dislike for resistance bands due to the hassle of mounting them on doors, asking about exercise versatility."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "F1",
+        "start_s": 210.0,
+        "end_s": 230.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          21
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Nezar explains the product's versatility, showing how it mounts to doors, a specialized wall track, trees, or fences."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "S2",
+        "start_s": 231.0,
+        "end_s": 233.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks Nezar how he came up with the idea and what his professional background is."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "F1",
+        "start_s": 234.0,
+        "end_s": 238.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          23
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Nezar states that his primary background is in the automotive industry, where he spent 25 years."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "S4",
+        "start_s": 238.0,
+        "end_s": 241.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks Nezar if he is an engineer."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "F1",
+        "start_s": 242.0,
+        "end_s": 244.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          25
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "1",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Nezar confirms that he is an engineer."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "S4",
+        "start_s": 244.0,
+        "end_s": 245.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks if he is a mechanical engineer."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "F1",
+        "start_s": 245.0,
+        "end_s": 251.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          27
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Nezar confirms and explains he traveled overseas frequently and wanted to figure out how to get resistance workouts on the road."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "S5",
+        "start_s": 252.0,
+        "end_s": 256.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Daymond asks for the cost to make the product, the selling price, and the cost of the app."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "F1",
+        "start_s": 256.0,
+        "end_s": 259.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          29
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "partial",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Nezar states that the retail value of the product is $849."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "S3",
+        "start_s": 260.0,
+        "end_s": 261.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks to confirm the high retail price of $849."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "F1",
+        "start_s": 267.0,
+        "end_s": 274.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          31
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Nezar explains the landed cost is $205, plus $20 total for pick, pack, and shipping."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "S4",
+        "start_s": 275.0,
+        "end_s": 277.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks if they sell direct-to-consumer only."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "F1",
+        "start_s": 277.0,
+        "end_s": 282.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          33
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Nezar confirms that 97% of their sales are direct-to-consumer."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "S3",
+        "start_s": 283.0,
+        "end_s": 285.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "customer_acquisition",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks how they are managing to sell $8 million worth of the product."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "F1",
+        "start_s": 285.0,
+        "end_s": 291.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          35
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "customer_acquisition",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Nezar credits Covid and spending a ton of money on marketing for their high sales."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "S1",
+        "start_s": 291.0,
+        "end_s": 293.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks what their monthly cash burn is."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "F1",
+        "start_s": 293.0,
+        "end_s": 295.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          37
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Nezar states that their essential burn rate is about $100,000 per month."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "S4",
+        "start_s": 296.0,
+        "end_s": 299.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks if they could become profitable if they slowed down their marketing spend."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "F1",
+        "start_s": 299.0,
+        "end_s": 304.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          39
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "partial",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Nezar answers that it is a yes and a no, explaining that they make money on every unit but reinvest it."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "S4",
+        "start_s": 305.0,
+        "end_s": 307.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          40
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin challenges Nezar's answer, stating that it has to be one or the other."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "F1",
+        "start_s": 308.0,
+        "end_s": 312.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          41
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Nezar clarifies that they are profitable on a unit basis, but they take all the money to reinvest."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "S5",
+        "start_s": 312.0,
+        "end_s": 315.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond acknowledges that he understands the business strategy in a highly competitive market."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "F1",
+        "start_s": 315.0,
+        "end_s": 318.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          43
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Nezar volunteers that they currently have over 3,000 daily active users on their app."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "S3",
+        "start_s": 319.0,
+        "end_s": 322.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert recaps the previous year's sales of 4 million dollars."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "F1",
+        "start_s": 322.0,
+        "end_s": 327.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          45
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "1",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Nezar confirms the 4 million sales figure."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "S3",
+        "start_s": 328.0,
+        "end_s": 331.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks how much money they made on the 4 million in sales."
+      },
+      {
+        "turn_id": 48,
+        "speaker": "F1",
+        "start_s": 332.0,
+        "end_s": 335.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          47
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Nezar states that they made just over $50,000."
+      },
+      {
+        "turn_id": 49,
+        "speaker": "S3",
+        "start_s": 336.0,
+        "end_s": 338.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "forecast",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks if they will make or lose money on the projected 8 million in sales this year."
+      },
+      {
+        "turn_id": 50,
+        "speaker": "F1",
+        "start_s": 338.0,
+        "end_s": 342.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          49
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "partial",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "forecast",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Nezar predicts they will likely reach over 12 million in sales this year instead."
+      },
+      {
+        "turn_id": 51,
+        "speaker": "S3",
+        "start_s": 343.0,
+        "end_s": 344.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "forecast",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks what profit they will make on those projected sales."
+      },
+      {
+        "turn_id": 52,
+        "speaker": "F1",
+        "start_s": 344.0,
+        "end_s": 349.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          51
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "forecast",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Nezar estimates they will be close to breaking even, possibly losing around $100,000."
+      },
+      {
+        "turn_id": 53,
+        "speaker": "S1",
+        "start_s": 350.0,
+        "end_s": 356.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark points out that to scale, they must invest, asking how they plan to fund the growth."
+      },
+      {
+        "turn_id": 54,
+        "speaker": "F1",
+        "start_s": 356.0,
+        "end_s": 360.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          53
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Nezar reveals they took a revenue-based line of credit to fund the growth."
+      },
+      {
+        "turn_id": 55,
+        "speaker": "S1",
+        "start_s": 361.0,
+        "end_s": 365.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks what percentage they have to pay out for every dollar lent."
+      },
+      {
+        "turn_id": 56,
+        "speaker": "F1",
+        "start_s": 366.0,
+        "end_s": 369.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          55
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Nezar answers that the rate started at 20%, went to 25%, and is now 28%."
+      },
+      {
+        "turn_id": 57,
+        "speaker": "F1",
+        "start_s": 370.0,
+        "end_s": 374.0,
+        "function": "answer",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Nezar volunteers that they currently have over 5 million dollars in inventory."
+      },
+      {
+        "turn_id": 58,
+        "speaker": "S3",
+        "start_s": 375.0,
+        "end_s": 376.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks for confirmation of the 5 million inventory figure."
+      },
+      {
+        "turn_id": 59,
+        "speaker": "S2",
+        "start_s": 376.0,
+        "end_s": 379.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori questions why they hold so much inventory when required to do certain quantities."
+      },
+      {
+        "turn_id": 60,
+        "speaker": "F1",
+        "start_s": 380.0,
+        "end_s": 387.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          59
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Nezar explains it was a judgment call because they had just signed an endorsement deal with Shaq."
+      },
+      {
+        "turn_id": 61,
+        "speaker": "S1",
+        "start_s": 397.0,
+        "end_s": 399.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks about the specifics of the equity deal with Shaq."
+      },
+      {
+        "turn_id": 62,
+        "speaker": "F1",
+        "start_s": 399.0,
+        "end_s": 400.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          61
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "partial",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Nezar states that Shaq earns his equity over four years."
+      },
+      {
+        "turn_id": 63,
+        "speaker": "S3",
+        "start_s": 400.0,
+        "end_s": 401.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks how much equity Shaq actually earns."
+      },
+      {
+        "turn_id": 64,
+        "speaker": "F1",
+        "start_s": 402.0,
+        "end_s": 404.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          63
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Nezar clarifies that Shaq gets 1.25% this year and it can go up to 5%."
+      },
+      {
+        "turn_id": 65,
+        "speaker": "S1",
+        "start_s": 405.0,
+        "end_s": 414.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark points out the tough spot the company is in, needing ad money to blow out inventory for the holidays."
+      },
+      {
+        "turn_id": 66,
+        "speaker": "F1",
+        "start_s": 415.0,
+        "end_s": 418.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [
+          65
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Nezar agrees, stating he needs the expertise of the Sharks to help."
+      },
+      {
+        "turn_id": 67,
+        "speaker": "S5",
+        "start_s": 419.0,
+        "end_s": 428.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond offers the $500k with a $25 per unit royalty until recouped, which then converts to 4% equity."
+      },
+      {
+        "turn_id": 68,
+        "speaker": "F1",
+        "start_s": 430.0,
+        "end_s": 433.0,
+        "function": "negotiates",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Nezar clarifies if he heard the word royalty in the offer."
+      },
+      {
+        "turn_id": 69,
+        "speaker": "S5",
+        "start_s": 433.0,
+        "end_s": 443.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond confirms the royalty and repeats the terms of his offer."
+      },
+      {
+        "turn_id": 70,
+        "speaker": "S2",
+        "start_s": 446.0,
+        "end_s": 448.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks what specific help he needs from a Shark."
+      },
+      {
+        "turn_id": 71,
+        "speaker": "F1",
+        "start_s": 449.0,
+        "end_s": 463.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 12,
+        "responds_to": [
+          70
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Nezar explains that Sharks know how to open doors in retail, hotels, and the military."
+      },
+      {
+        "turn_id": 72,
+        "speaker": "S5",
+        "start_s": 464.0,
+        "end_s": 469.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond presses Nezar for feedback on the half-million-dollar offer standing before him."
+      },
+      {
+        "turn_id": 73,
+        "speaker": "F1",
+        "start_s": 470.0,
+        "end_s": 474.0,
+        "function": "negotiates",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Nezar replies that he was thinking about Daymond the whole time."
+      },
+      {
+        "turn_id": 74,
+        "speaker": "S5",
+        "start_s": 475.0,
+        "end_s": 480.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond asks Nezar what he thinks about the offer."
+      },
+      {
+        "turn_id": 75,
+        "speaker": "S2",
+        "start_s": 482.0,
+        "end_s": 484.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 14,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "customer_retention",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks what their return rate is."
+      },
+      {
+        "turn_id": 76,
+        "speaker": "F1",
+        "start_s": 484.0,
+        "end_s": 486.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 14,
+        "responds_to": [
+          75
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "customer_retention",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "1",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Nezar answers that the return rate is less than 5%."
+      },
+      {
+        "turn_id": 77,
+        "speaker": "F1",
+        "start_s": 490.0,
+        "end_s": 493.0,
+        "function": "answer",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 14,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "customer_retention",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Nezar points out that a less than 5% return rate is really good in consumer goods."
+      },
+      {
+        "turn_id": 78,
+        "speaker": "S1",
+        "start_s": 495.0,
+        "end_s": 497.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 14,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark tells Nezar he is overselling at this point."
+      },
+      {
+        "turn_id": 79,
+        "speaker": "S5",
+        "start_s": 503.0,
+        "end_s": 506.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond complains that he has been sitting for 20 minutes waiting for an answer to his offer."
+      },
+      {
+        "turn_id": 80,
+        "speaker": "S1",
+        "start_s": 508.0,
+        "end_s": 511.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 15,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks if they really need the app and all the rest of the connected features."
+      },
+      {
+        "turn_id": 81,
+        "speaker": "F1",
+        "start_s": 511.0,
+        "end_s": 517.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 15,
+        "responds_to": [
+          80
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Nezar defends the app, stating everything has an app today and they are building a new one from scratch."
+      },
+      {
+        "turn_id": 82,
+        "speaker": "S4",
+        "start_s": 517.0,
+        "end_s": 519.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 15,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks if they are losing a ton of money on the app right now."
+      },
+      {
+        "turn_id": 83,
+        "speaker": "S2",
+        "start_s": 519.0,
+        "end_s": 521.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 15,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks how much money they could save if they didn't have the app."
+      },
+      {
+        "turn_id": 84,
+        "speaker": "F1",
+        "start_s": 522.0,
+        "end_s": 528.0,
+        "function": "answer",
+        "addressed": [
+          "S2",
+          "S4"
+        ],
+        "exchange_id": 15,
+        "responds_to": [
+          83
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "deflects",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Nezar emphasizes that the app isn't just a connection, it displays how the user is working out."
+      },
+      {
+        "turn_id": 85,
+        "speaker": "S4",
+        "start_s": 529.0,
+        "end_s": 549.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin cites a philosophical disagreement on spending money on an app when others exist, and exits."
+      },
+      {
+        "turn_id": 86,
+        "speaker": "S1",
+        "start_s": 550.0,
+        "end_s": 558.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark asks if Nezar became more valuable and says he wants to see if he can get to an offer."
+      },
+      {
+        "turn_id": 87,
+        "speaker": "S1",
+        "start_s": 559.0,
+        "end_s": 578.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark offers $500k for 3% equity, plus an additional 5% in advisory shares vesting the same way as Shaq's."
+      },
+      {
+        "turn_id": 88,
+        "speaker": "S3",
+        "start_s": 579.0,
+        "end_s": 583.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert states that Mark's offer is far more generous than what he would make, and exits."
+      },
+      {
+        "turn_id": 89,
+        "speaker": "S1",
+        "start_s": 585.0,
+        "end_s": 587.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark playfully asks Nezar if he became even more valuable after that."
+      },
+      {
+        "turn_id": 90,
+        "speaker": "F1",
+        "start_s": 588.0,
+        "end_s": 591.0,
+        "function": "negotiates",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Nezar turns to Daymond and asks if he answered all of his questions."
+      },
+      {
+        "turn_id": 91,
+        "speaker": "S1",
+        "start_s": 591.0,
+        "end_s": 593.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark interrupts, telling Nezar there are no more questions and he has to decide."
+      },
+      {
+        "turn_id": 92,
+        "speaker": "S2",
+        "start_s": 594.0,
+        "end_s": 603.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori says Mark's offer is really good and she is going to go out."
+      },
+      {
+        "turn_id": 93,
+        "speaker": "F1",
+        "start_s": 604.0,
+        "end_s": 615.0,
+        "function": "negotiates",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Nezar tells Mark he appreciates the offer but wants to ask him one question."
+      },
+      {
+        "turn_id": 94,
+        "speaker": "S5",
+        "start_s": 616.0,
+        "end_s": 619.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond tells Nezar he better make sure the question is good because he is out."
+      },
+      {
+        "turn_id": 95,
+        "speaker": "F1",
+        "start_s": 620.0,
+        "end_s": 622.0,
+        "function": "accepts",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Nezar reacts with surprise to Daymond exiting the deal."
+      },
+      {
+        "turn_id": 96,
+        "speaker": "F1",
+        "start_s": 623.0,
+        "end_s": 632.0,
+        "function": "negotiates",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Nezar asks Mark if there is a way they can replace the line of credit."
+      },
+      {
+        "turn_id": 97,
+        "speaker": "S1",
+        "start_s": 632.0,
+        "end_s": 633.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark answers potentially, but refuses to commit to it right now."
+      },
+      {
+        "turn_id": 98,
+        "speaker": "S4",
+        "start_s": 633.0,
+        "end_s": 637.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin reminds Nezar that the only offer he has left is Mark's."
+      },
+      {
+        "turn_id": 99,
+        "speaker": "F1",
+        "start_s": 638.0,
+        "end_s": 640.0,
+        "function": "decides",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Nezar accepts Mark's offer, stating he is all in."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "substantive",
+        "topic": "usage",
+        "label": "trying the machine"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "historical sales"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "usage",
+        "label": "versatility and mounting"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "substantive",
+        "topic": "self_promotion",
+        "label": "founder background"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "operating_efficiency",
+        "label": "unit costs and retail price"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "substantive",
+        "topic": "go_to_market",
+        "label": "direct to consumer sales"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "substantive",
+        "topic": "customer_acquisition",
+        "label": "marketing burn and users"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "substantive",
+        "topic": "forecast",
+        "label": "sales and profit projections"
+      },
+      {
+        "exchange_id": 9,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "revenue line of credit"
+      },
+      {
+        "exchange_id": 10,
+        "kind": "substantive",
+        "topic": "operating_efficiency",
+        "label": "inventory levels"
+      },
+      {
+        "exchange_id": 11,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "Shaq endorsement equity"
+      },
+      {
+        "exchange_id": 12,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "value of a shark"
+      },
+      {
+        "exchange_id": 13,
+        "kind": "negotiation",
+        "topic": "NONE",
+        "label": "deal negotiation"
+      },
+      {
+        "exchange_id": 14,
+        "kind": "substantive",
+        "topic": "customer_retention",
+        "label": "return rate"
+      },
+      {
+        "exchange_id": 15,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "value of the app"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S5",
+        "kind": "offer",
+        "time_s": 422.0,
+        "turn_id": 67,
+        "offer_id": "O1",
+        "terms": "$500k for 4% stake + a royalty of $25 per unit sold until investment is recouped",
+        "note": "Offers $500k with a $25 per unit royalty until recouped, then 4% equity."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S4",
+        "kind": "exit",
+        "time_s": 547.0,
+        "turn_id": 85,
+        "offer_id": null,
+        "terms": "I'm out",
+        "note": "Philosophical disagreement on spending money on the app."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S1",
+        "kind": "offer",
+        "time_s": 560.0,
+        "turn_id": 87,
+        "offer_id": "O2",
+        "terms": "$500k for a 3% stake + up to 5% in advisory shares that vests over time",
+        "note": "Offers $500k for 3% equity, plus up to 5% in advisory shares."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S3",
+        "kind": "exit",
+        "time_s": 582.0,
+        "turn_id": 88,
+        "offer_id": null,
+        "terms": "I'm out",
+        "note": "Mark's offer is far more generous than he would make."
+      },
+      {
+        "decision_id": 5,
+        "actor": "S2",
+        "kind": "exit",
+        "time_s": 601.0,
+        "turn_id": 92,
+        "offer_id": null,
+        "terms": "I'm out",
+        "note": "Mark offered a really good deal."
+      },
+      {
+        "decision_id": 6,
+        "actor": "S5",
+        "kind": "exit",
+        "time_s": 618.0,
+        "turn_id": 94,
+        "offer_id": null,
+        "terms": "I'm out",
+        "note": "Founder stalled on his offer."
+      },
+      {
+        "decision_id": 7,
+        "actor": "F1",
+        "kind": "founder_accepts",
+        "time_s": 638.0,
+        "turn_id": 99,
+        "offer_id": "O2",
+        "terms": "Absolutely Mark, dude, I'm all in.",
+        "note": "Accepts Mark's offer."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": "None."
+  }
+}

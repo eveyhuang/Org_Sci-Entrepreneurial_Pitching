@@ -1,0 +1,21 @@
+SYSTEM ROLE
+You are a trained observer applying the shared audiovisual coding protocol below.
+
+{% include 'stage_a_perceived_delivery_protocol.md' %}
+
+CODEBOOK
+{% for entry in entries %}
+--- {{ entry.id }} ---
+Definition: {{ entry.definition }}
+Response set:
+{% for anchor in entry.anchors %}
+  {{ anchor.value | int }} — {{ anchor.description }}
+{% endfor %}
+Include if: {{ entry.include_if }}
+Exclude if: {{ entry.exclude_if }}
+
+{% endfor %}
+OUTPUT
+Return one JSON object with a key for each of the three codes. Each rating contains
+value (integer 1–5, or null only when uncodable), uncodable (boolean), and evidence
+(string following the shared protocol). Also return overall_notes (string).

@@ -1,0 +1,2094 @@
+{
+  "pass": "replicate",
+  "unit_key": "panel__st_e6c1077283__replicate",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "1:34-3:26"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "none",
+      "2": "presentation",
+      "3": "qa",
+      "4": "qa",
+      "5": "qa",
+      "6": "qa",
+      "7": "none",
+      "8": "none",
+      "9": "qa",
+      "10": "qa",
+      "11": "qa",
+      "12": "none",
+      "13": "qa",
+      "14": "none",
+      "15": "demonstration",
+      "16": "demonstration",
+      "17": "demonstration",
+      "18": "none",
+      "19": "none",
+      "20": "qa",
+      "21": "qa",
+      "22": "qa",
+      "23": "qa",
+      "24": "qa",
+      "25": "none",
+      "26": "qa",
+      "27": "qa",
+      "28": "none",
+      "29": "negotiation",
+      "30": "none",
+      "31": "negotiation",
+      "32": "negotiation",
+      "33": "negotiation",
+      "34": "negotiation",
+      "35": "qa",
+      "36": "qa",
+      "37": "qa",
+      "38": "qa",
+      "39": "qa",
+      "40": "qa",
+      "41": "qa",
+      "42": "qa",
+      "43": "negotiation",
+      "44": "none",
+      "45": "negotiation",
+      "46": "negotiation",
+      "47": "negotiation",
+      "48": "none",
+      "49": "negotiation",
+      "50": "negotiation",
+      "51": "negotiation",
+      "52": "negotiation",
+      "53": "none",
+      "54": "negotiation",
+      "55": "negotiation",
+      "56": "negotiation",
+      "57": "negotiation",
+      "58": "negotiation",
+      "59": "negotiation",
+      "60": "negotiation",
+      "61": "demonstration",
+      "62": "negotiation",
+      "63": "negotiation",
+      "64": "negotiation",
+      "65": "negotiation",
+      "66": "negotiation",
+      "67": "negotiation",
+      "68": "none",
+      "69": "none",
+      "70": "none",
+      "71": "none",
+      "72": "none",
+      "73": "none",
+      "74": "none"
+    },
+    "segment_seconds": {
+      "presentation": 112.0,
+      "qa": 210.0,
+      "social": 0.0,
+      "demonstration": 17.0,
+      "negotiation": 197.0,
+      "none": 255.0
+    },
+    "exchange_counts": {
+      "substantive": 3,
+      "social": 0,
+      "demonstration": 1,
+      "negotiation": 1
+    },
+    "turn_frame": {
+      "3": "promotion",
+      "4": "unclassified",
+      "9": "promotion",
+      "10": "prevention",
+      "11": "prevention",
+      "13": "unclassified",
+      "20": "unclassified",
+      "21": "unclassified",
+      "22": "unclassified",
+      "23": "unclassified",
+      "26": "unclassified",
+      "27": "unclassified",
+      "29": "unclassified",
+      "32": "unclassified",
+      "33": "unclassified",
+      "35": "prevention",
+      "36": "prevention",
+      "37": "unclassified",
+      "38": "unclassified",
+      "39": "unclassified",
+      "40": "unclassified",
+      "41": "unclassified",
+      "42": "unclassified",
+      "43": "unclassified"
+    },
+    "frame_match": {
+      "4": "unclassified",
+      "11": "match",
+      "21": "unclassified",
+      "23": "unclassified",
+      "27": "unclassified",
+      "33": "unclassified",
+      "36": "match",
+      "38": "unclassified",
+      "40": "unclassified",
+      "42": "unclassified"
+    },
+    "other_concepts": [
+      {
+        "where": "turn",
+        "id": 32,
+        "code": "PR-CONCEPT",
+        "name": "phone call logistics",
+        "clock": "9:25"
+      },
+      {
+        "where": "turn",
+        "id": 33,
+        "code": "RS-CONCEPT",
+        "name": "phone call logistics",
+        "clock": "9:32"
+      },
+      {
+        "where": "turn",
+        "id": 37,
+        "code": "PR-CONCEPT",
+        "name": "advisor's recommendation",
+        "clock": "10:38"
+      },
+      {
+        "where": "turn",
+        "id": 38,
+        "code": "RS-CONCEPT",
+        "name": "advisor's recommendation",
+        "clock": "10:40"
+      }
+    ]
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "James Martin"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Mark Cuban"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Daymond John"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Barbara Corcoran"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Robert Herjavec"
+      },
+      {
+        "actor_id": "H1",
+        "role": "host",
+        "label": "Narrator"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 94.0,
+        "end_s": 206.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 75.0,
+        "kind": "recap"
+      },
+      {
+        "start_s": 602.0,
+        "end_s": 618.0,
+        "kind": "interview"
+      }
+    ],
+    "gaps": [],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 130.0,
+        "note": "smiles broadly while confidently stating his sales figures and growth"
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 138.0,
+        "note": "energetic and engaged delivery when announcing his five million dollar projection"
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 3,
+        "uncodable": false,
+        "moment_s": 94.0,
+        "note": "friendly opening greeting, though balanced with a confrontational stance later"
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "1",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "2",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "Premium wine sold by the glass in patented, single-serve, sealed containers.",
+      "primary_industry": "food_beverage",
+      "secondary_industries": [],
+      "product_form": "physical_good",
+      "customer_type": "both",
+      "founder_gender": "all_men",
+      "product_category": "single-serve wine",
+      "earliest_s": 104.0,
+      "note": "Sells to consumers via large retailers.",
+      "ask_amount_usd": 300000,
+      "ask_equity_pct": 5.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 87.0,
+        "end_s": 90.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Greets the panel playfully upon his return to the tank."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "F1",
+        "start_s": 94.0,
+        "end_s": 206.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Introduces himself, states his ask, recaps his massive sales growth since his last appearance, and addresses Kevin directly."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "S1",
+        "start_s": 206.0,
+        "end_s": 239.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Challenges the founder's decision to bottle the wine himself rather than licensing the technology to the entire industry."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "F1",
+        "start_s": 241.0,
+        "end_s": 244.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          3
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "deflects",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "1",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "1",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Deflects the licensing question by asking Kevin to recall the specific offer he walked away from last time."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "S1",
+        "start_s": 245.0,
+        "end_s": 251.0,
+        "function": "NONE",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Reminds the founder that the offer was his, for six hundred thousand dollars for fifty-one percent."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "S2",
+        "start_s": 252.0,
+        "end_s": 258.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          4
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Asserts that the previous offer was a great deal and that the founder made a mistake by rejecting it."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "S3",
+        "start_s": 259.0,
+        "end_s": 264.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jokes about what the founder is drinking to be brave enough to return to the tank."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "F1",
+        "start_s": 265.0,
+        "end_s": 269.0,
+        "function": "social",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jokes back that he does not remember them being gentle during his first appearance."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "F1",
+        "start_s": 273.0,
+        "end_s": 286.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          6
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Responds to the challenge by asserting that the brand and patents are now much more valuable than before."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "S1",
+        "start_s": 287.0,
+        "end_s": 296.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Recalls calling him a dead man walking and asks if his current success is real or a ghost."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "F1",
+        "start_s": 296.0,
+        "end_s": 315.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          10
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "deflects",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "1",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Deflects the question by revealing a poster of a custom wine bottle named Dead Man Walking dedicated to Kevin."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "S1",
+        "start_s": 316.0,
+        "end_s": 346.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Proposes licensing the technology to the largest players to quadruple his net worth, reiterating his original offer."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "S5",
+        "start_s": 347.0,
+        "end_s": 350.0,
+        "function": "question",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks Kevin to clarify if he is offering the exact same deal as the previous season."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "S1",
+        "start_s": 351.0,
+        "end_s": 351.0,
+        "function": "NONE",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Confirms that he is returning to his original offer because it is the right thing to do."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "S3",
+        "start_s": 352.0,
+        "end_s": 357.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Recalls that the founder passed out wine samples last time and asks him to do it again."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "F1",
+        "start_s": 358.0,
+        "end_s": 363.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Hands out the wine samples to the panel, pointing out how easy it is to serve."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "S1",
+        "start_s": 364.0,
+        "end_s": 366.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Remarks that he is waiting for the good stuff while receiving his sample."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "S3",
+        "start_s": 367.0,
+        "end_s": 375.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Declares he is out because he wasn't interested last time and just wants to be entertained."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "S1",
+        "start_s": 376.0,
+        "end_s": 403.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Expresses strong interest in partnering on the packaging side of the business rather than the winery side."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "S2",
+        "start_s": 404.0,
+        "end_s": 419.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "States discomfort with the six million dollar valuation and asks if the founder is negotiable on the equity."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "F1",
+        "start_s": 420.0,
+        "end_s": 436.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          20
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "partial",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Agrees that he is there to negotiate but insists the panel take his expertise and information seriously."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "S1",
+        "start_s": 437.0,
+        "end_s": 439.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Presses the founder on what it will take to make a deal happen."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "F1",
+        "start_s": 440.0,
+        "end_s": 450.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          22
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Explains his valuation by stating that most national brands sell for two and a half to three times gross value."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "S1",
+        "start_s": 451.0,
+        "end_s": 456.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          23
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Counters the valuation argument by stating the founder's brand is not yet at that national level."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "S4",
+        "start_s": 457.0,
+        "end_s": 486.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Exits the deal, stating she has the same visceral negative reaction to him as during his first pitch."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "S2",
+        "start_s": 488.0,
+        "end_s": 515.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks the founder to move the needle on the valuation so the panel can respond with an offer."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "F1",
+        "start_s": 516.0,
+        "end_s": 526.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          26
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "partial",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Acknowledges their interest and suggests that if they can work on the valuation, a deal might be possible."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "S1",
+        "start_s": 527.0,
+        "end_s": 535.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Makes a new offer, valuing the company at exactly what he believes it is worth right now."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "S5",
+        "start_s": 536.0,
+        "end_s": 539.0,
+        "function": "question",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Clarifies the implied valuation of Kevin's new offer."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "S1",
+        "start_s": 540.0,
+        "end_s": 543.0,
+        "function": "NONE",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Confirms that the valuation he offered is exactly what the company is worth."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "S1",
+        "start_s": 544.0,
+        "end_s": 564.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Pitches his offer by promising to eventually convince the founder to license the technology globally for massive profit."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "S2",
+        "start_s": 565.0,
+        "end_s": 571.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "other",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": "phone call logistics",
+        "summary": "Asks if the founder has anyone he can call before making a decision, seeking a moment alone with the panel."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "F1",
+        "start_s": 572.0,
+        "end_s": 577.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          32
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "other",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "1",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": "phone call logistics",
+        "summary": "Confirms he has someone to call and leaves the room."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "S2",
+        "start_s": 582.0,
+        "end_s": 601.0,
+        "function": "negotiates",
+        "addressed": [
+          "S1",
+          "S5"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Suggests to the other investors that they combine forces to offer more money for a larger total equity stake."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "S5",
+        "start_s": 625.0,
+        "end_s": 627.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks the founder who he called while he was out of the room."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "F1",
+        "start_s": 628.0,
+        "end_s": 637.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          35
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Reveals he called Jim Koch, the founder of Samuel Adams, who has been instrumental in advising him."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "S5",
+        "start_s": 638.0,
+        "end_s": 639.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "other",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": "advisor's recommendation",
+        "summary": "Asks what advice the founder received during the phone call."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "F1",
+        "start_s": 640.0,
+        "end_s": 646.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          37
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "other",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": "advisor's recommendation",
+        "summary": "States that the advisor wanted to ensure any new partner shares the vision and understands the possibilities."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "S2",
+        "start_s": 647.0,
+        "end_s": 649.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks if the advisor is an investor or equity owner in the company."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "F1",
+        "start_s": 650.0,
+        "end_s": 652.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          39
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Clarifies that the advisor does not hold any equity in the company."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "S2",
+        "start_s": 653.0,
+        "end_s": 655.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Questions why the advisor does not simply provide the funding needed for the extra line."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "F1",
+        "start_s": 656.0,
+        "end_s": 665.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          41
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Explains that the best advice comes from someone who is not financially invested in the company."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "S5",
+        "start_s": 666.0,
+        "end_s": 670.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Brings the conversation back to the negotiation by asking what the advisor recommended regarding Kevin's offer."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "F1",
+        "start_s": 671.0,
+        "end_s": 697.0,
+        "function": "decides",
+        "addressed": [
+          "S2",
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Counters the standing offer, proposing a lower equity stake in exchange for partnering with established investors."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "S5",
+        "start_s": 698.0,
+        "end_s": 701.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Confirms that the founder has just made his counter offer."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "S2",
+        "start_s": 702.0,
+        "end_s": 704.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Immediately rejects the founder's counter offer."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "F1",
+        "start_s": 705.0,
+        "end_s": 706.0,
+        "function": "negotiates",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Asks Mark to explain why he is not interested in the counter offer."
+      },
+      {
+        "turn_id": 48,
+        "speaker": "S2",
+        "start_s": 707.0,
+        "end_s": 752.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Explains the value the sharks bring and makes a combined offer on behalf of himself, Robert, and Kevin."
+      },
+      {
+        "turn_id": 49,
+        "speaker": "S5",
+        "start_s": 753.0,
+        "end_s": 756.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Highlights that the combined offer provides twice the capital the founder originally asked for."
+      },
+      {
+        "turn_id": 50,
+        "speaker": "F1",
+        "start_s": 757.0,
+        "end_s": 770.0,
+        "function": "negotiates",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Agrees with the logic of more skin in the game and asks if it guarantees distribution in the Mavericks stadium."
+      },
+      {
+        "turn_id": 51,
+        "speaker": "S2",
+        "start_s": 771.0,
+        "end_s": 787.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Clarifies he cannot guarantee the stadium but offers distribution in his Landmark theaters."
+      },
+      {
+        "turn_id": 52,
+        "speaker": "S2",
+        "start_s": 788.0,
+        "end_s": 793.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Urges the founder to stop talking himself out of a sale and to make a decision."
+      },
+      {
+        "turn_id": 53,
+        "speaker": "S3",
+        "start_s": 794.0,
+        "end_s": 797.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Warns the founder not to repeat his past mistake of walking away from a deal."
+      },
+      {
+        "turn_id": 54,
+        "speaker": "S5",
+        "start_s": 798.0,
+        "end_s": 815.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Emphasizes the unique opportunity of the combined offer and confirms the three participating investors."
+      },
+      {
+        "turn_id": 55,
+        "speaker": "F1",
+        "start_s": 816.0,
+        "end_s": 820.0,
+        "function": "negotiates",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Expresses concern about Kevin potentially wanting to split up the company later."
+      },
+      {
+        "turn_id": 56,
+        "speaker": "S5",
+        "start_s": 821.0,
+        "end_s": 832.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Reassures the founder that he and Mark will keep Kevin in line, praising the concept's growth."
+      },
+      {
+        "turn_id": 57,
+        "speaker": "S2",
+        "start_s": 833.0,
+        "end_s": 836.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Demands that the founder make a decision right now."
+      },
+      {
+        "turn_id": 58,
+        "speaker": "F1",
+        "start_s": 837.0,
+        "end_s": 858.0,
+        "function": "negotiates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "States his desire to partner but questions the value added to justify giving up thirty percent."
+      },
+      {
+        "turn_id": 59,
+        "speaker": "S2",
+        "start_s": 859.0,
+        "end_s": 860.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Tells the founder he simply has to decide."
+      },
+      {
+        "turn_id": 60,
+        "speaker": "S5",
+        "start_s": 861.0,
+        "end_s": 881.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Refuses to sell the panel's value back to the founder, insisting the offer is fair and demanding a decision."
+      },
+      {
+        "turn_id": 61,
+        "speaker": "F1",
+        "start_s": 882.0,
+        "end_s": 887.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Silently opens the custom wine bottle while contemplating the offer."
+      },
+      {
+        "turn_id": 62,
+        "speaker": "S1",
+        "start_s": 888.0,
+        "end_s": 890.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Reiterates the thirty percent equity stake condition."
+      },
+      {
+        "turn_id": 63,
+        "speaker": "F1",
+        "start_s": 893.0,
+        "end_s": 900.0,
+        "function": "negotiates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Looks at the bottle and remarks on the discrepancy between its theoretical value and the offered price."
+      },
+      {
+        "turn_id": 64,
+        "speaker": "S1",
+        "start_s": 901.0,
+        "end_s": 901.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Tells the founder he is not thinking clearly about the deal."
+      },
+      {
+        "turn_id": 65,
+        "speaker": "S5",
+        "start_s": 902.0,
+        "end_s": 904.0,
+        "function": "negotiates",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Interrupts Kevin, interpreting the founder's actions as an acceptance of the deal."
+      },
+      {
+        "turn_id": 66,
+        "speaker": "S1",
+        "start_s": 905.0,
+        "end_s": 913.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Offers to drink the wine with the founder in celebration of the deal."
+      },
+      {
+        "turn_id": 67,
+        "speaker": "S5",
+        "start_s": 914.0,
+        "end_s": 915.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Presses the founder for his final answer."
+      },
+      {
+        "turn_id": 68,
+        "speaker": "F1",
+        "start_s": 923.0,
+        "end_s": 926.0,
+        "function": "decides",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Rejects the combined offer and walks away from the deal."
+      },
+      {
+        "turn_id": 69,
+        "speaker": "S1",
+        "start_s": 927.0,
+        "end_s": 928.0,
+        "function": "NONE",
+        "addressed": [
+          "UNKNOWN"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Reacts with visible frustration to the rejection."
+      },
+      {
+        "turn_id": 70,
+        "speaker": "S2",
+        "start_s": 929.0,
+        "end_s": 969.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Exits angrily, accusing the founder of playing games and creating drama instead of negotiating."
+      },
+      {
+        "turn_id": 71,
+        "speaker": "S5",
+        "start_s": 970.0,
+        "end_s": 974.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Follows Mark's lead and formally exits the deal."
+      },
+      {
+        "turn_id": 72,
+        "speaker": "S3",
+        "start_s": 975.0,
+        "end_s": 978.0,
+        "function": "social",
+        "addressed": [
+          "S1",
+          "S5"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jokes about whether Kevin and Robert will still split the deal."
+      },
+      {
+        "turn_id": 73,
+        "speaker": "S4",
+        "start_s": 979.0,
+        "end_s": 984.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Reiterates her exit, telling the founder he just came to waste their time."
+      },
+      {
+        "turn_id": 74,
+        "speaker": "S1",
+        "start_s": 985.0,
+        "end_s": 993.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Offers a sarcastic toast as the founder leaves the tank."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "substantive",
+        "topic": "go_to_market",
+        "label": "licensing vs bottling"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "demonstration",
+        "topic": "NONE",
+        "label": "passing out wine samples"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "valuation and equity"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "negotiation",
+        "topic": "NONE",
+        "label": "discussing offers and terms"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "team_capabilities",
+        "label": "advisor's recommendation"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S1",
+        "kind": "offer",
+        "time_s": 334.0,
+        "turn_id": 12,
+        "offer_id": "O1",
+        "terms": "$600k for a 51% stake",
+        "note": "Wants to license the technology to the largest players to quadruple net worth."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S3",
+        "kind": "exit",
+        "time_s": 367.0,
+        "turn_id": 18,
+        "offer_id": null,
+        "terms": "",
+        "note": "Was not interested last time and is just watching for entertainment."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S4",
+        "kind": "exit",
+        "time_s": 484.0,
+        "turn_id": 25,
+        "offer_id": null,
+        "terms": "",
+        "note": "Has the same visceral negative reaction to the founder as during his first pitch."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S1",
+        "kind": "offer",
+        "time_s": 527.0,
+        "turn_id": 28,
+        "offer_id": "O2",
+        "terms": "$300k for a 12% stake",
+        "note": "Puts an offer out because that is exactly what he believes the company is worth."
+      },
+      {
+        "decision_id": 5,
+        "actor": "F1",
+        "kind": "founder_counters",
+        "time_s": 694.0,
+        "turn_id": 44,
+        "offer_id": "O2",
+        "terms": "$300k for an 8% stake",
+        "note": "Adviser recommended paying additionally above the ask for a partner like Mark Cuban."
+      },
+      {
+        "decision_id": 6,
+        "actor": "S2",
+        "kind": "offer",
+        "time_s": 732.0,
+        "turn_id": 48,
+        "offer_id": "O3",
+        "terms": "$600k for a 30% stake",
+        "note": "Combined offer from Mark, Robert, and Kevin to provide significant support and skin in the game."
+      },
+      {
+        "decision_id": 7,
+        "actor": "F1",
+        "kind": "founder_rejects",
+        "time_s": 924.0,
+        "turn_id": 68,
+        "offer_id": "O3",
+        "terms": "",
+        "note": "Does not see enough value added by the sharks to justify the discounted valuation."
+      },
+      {
+        "decision_id": 8,
+        "actor": "S2",
+        "kind": "exit",
+        "time_s": 966.0,
+        "turn_id": 70,
+        "offer_id": null,
+        "terms": "",
+        "note": "Feels the founder is playing games and creating drama instead of negotiating."
+      },
+      {
+        "decision_id": 9,
+        "actor": "S5",
+        "kind": "exit",
+        "time_s": 970.0,
+        "turn_id": 71,
+        "offer_id": null,
+        "terms": "",
+        "note": "Follows Mark out after the founder rejects the combined offer."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": "An interview segment with Jim Koch on the phone is edited into the middle of the pitch while the founder is out of the room."
+  }
+}

@@ -1,0 +1,2016 @@
+{
+  "video_id": "st_cace12fa20",
+  "annotation_context": "descriptive_full_context",
+  "note": "Each figure is the share of reviewed items on which two sources give the same value, with the number of items behind it. First-decision agreement uses the same reference turn; missing mappings are undetermined. Other clock values are the same within the tolerance the selection flags by (a decision time within the agreement settings' decision tolerance, each edge of the prepared window within two seconds; see tolerances); ordinal fields (the codes and items whose codebook entry is ordinal) are compared exactly, and within_one gives beside it the share within one scale point. On a flag-driven sheet the sampled rows are a seeded draw, proportional to each field class's share, from the fields that nothing flagged and whose unit both passes recorded: they are the unbiased estimate of human-model agreement on such fields, not on flagged fields nor on units one pass lacks. On an exchange-level sheet every row is a random draw from the populations the manifest records. The flagged rows were chosen because something looked wrong and understate agreement. human_vs_replicate and primary_vs_replicate cover only the rows that have a replicate value; primary_vs_replicate counts a field once however many coders judged it. unit_presence rows (a turn, exchange or decision only one pass recorded) enter none of these figures; by_field_class.unit_presence gives the share of such units the human judged present, separately for those only the primary and those only the replicate recorded.",
+  "tolerances": {
+    "decision_s": 30.0,
+    "window_edge_s": 2.0,
+    "cut_s": 5.0
+  },
+  "n_reviewed": 57,
+  "n_without_a_value": 7,
+  "n_structural": 7,
+  "n_outcome_overrides": 0,
+  "n_cut_overrides": 2,
+  "flagged_left_out": null,
+  "flagged_note": null,
+  "all": {
+    "n": 57,
+    "human_vs_primary": {
+      "agree": 0.5614035087719298,
+      "n": 57
+    },
+    "human_vs_replicate": {
+      "agree": 0.6458333333333334,
+      "n": 48
+    },
+    "primary_vs_replicate": {
+      "agree": 0.7083333333333334,
+      "n": 24
+    },
+    "decision_rule": "same_reference_turn",
+    "clock_diagnostics": {
+      "n": 2,
+      "human_vs_primary": {
+        "agree": 0.0,
+        "n": 2
+      },
+      "human_vs_replicate": {
+        "agree": 0.0,
+        "n": 2
+      },
+      "primary_vs_replicate": {
+        "agree": 1.0,
+        "n": 1
+      }
+    },
+    "decision_undetermined": 0,
+    "alpha": null,
+    "alpha_human_vs_replicate": null,
+    "alpha_primary_vs_replicate": null,
+    "within_one": {
+      "n": 33,
+      "human_vs_primary": {
+        "agree": 0.696969696969697,
+        "n": 33
+      },
+      "human_vs_replicate": {
+        "agree": 1.0,
+        "n": 28
+      },
+      "primary_vs_replicate": {
+        "agree": 0.7142857142857143,
+        "n": 14
+      }
+    }
+  },
+  "by_field_class": {
+    "turn_code": {
+      "n": 41,
+      "human_vs_primary": {
+        "agree": 0.5365853658536586,
+        "n": 41
+      },
+      "human_vs_replicate": {
+        "agree": 0.65625,
+        "n": 32
+      },
+      "primary_vs_replicate": {
+        "agree": 0.5625,
+        "n": 16
+      },
+      "alpha": null,
+      "alpha_human_vs_replicate": null,
+      "alpha_primary_vs_replicate": null,
+      "within_one": {
+        "n": 21,
+        "human_vs_primary": {
+          "agree": 0.5238095238095238,
+          "n": 21
+        },
+        "human_vs_replicate": {
+          "agree": 1.0,
+          "n": 16
+        },
+        "primary_vs_replicate": {
+          "agree": 0.5,
+          "n": 8
+        }
+      }
+    },
+    "stage_a": {
+      "n": 6,
+      "human_vs_primary": {
+        "agree": 0.3333333333333333,
+        "n": 6
+      },
+      "human_vs_replicate": {
+        "agree": 0.3333333333333333,
+        "n": 6
+      },
+      "primary_vs_replicate": {
+        "agree": 1.0,
+        "n": 3
+      },
+      "alpha": 0.1071428571428571,
+      "alpha_human_vs_replicate": 0.1071428571428571,
+      "alpha_primary_vs_replicate": null,
+      "within_one": {
+        "n": 6,
+        "human_vs_primary": {
+          "agree": 1.0,
+          "n": 6
+        },
+        "human_vs_replicate": {
+          "agree": 1.0,
+          "n": 6
+        },
+        "primary_vs_replicate": {
+          "agree": 1.0,
+          "n": 3
+        }
+      }
+    },
+    "prep_pres": {
+      "n": 6,
+      "human_vs_primary": {
+        "agree": 0.6666666666666666,
+        "n": 6
+      },
+      "human_vs_replicate": {
+        "agree": 0.6666666666666666,
+        "n": 6
+      },
+      "primary_vs_replicate": {
+        "agree": 1.0,
+        "n": 3
+      },
+      "alpha": -0.5,
+      "alpha_human_vs_replicate": -0.5,
+      "alpha_primary_vs_replicate": null,
+      "within_one": {
+        "n": 6,
+        "human_vs_primary": {
+          "agree": 1.0,
+          "n": 6
+        },
+        "human_vs_replicate": {
+          "agree": 1.0,
+          "n": 6
+        },
+        "primary_vs_replicate": {
+          "agree": 1.0,
+          "n": 3
+        }
+      }
+    },
+    "venture": {
+      "n": 2,
+      "human_vs_primary": {
+        "agree": 1.0,
+        "n": 2
+      },
+      "human_vs_replicate": {
+        "agree": 1.0,
+        "n": 2
+      },
+      "primary_vs_replicate": {
+        "agree": 1.0,
+        "n": 1
+      },
+      "alpha": null,
+      "alpha_human_vs_replicate": null,
+      "alpha_primary_vs_replicate": null
+    },
+    "cut": {
+      "n": 2,
+      "human_vs_primary": {
+        "agree": 1.0,
+        "n": 2
+      },
+      "human_vs_replicate": {
+        "agree": 1.0,
+        "n": 2
+      },
+      "primary_vs_replicate": {
+        "agree": 1.0,
+        "n": 1
+      },
+      "decision_rule": "same_reference_turn",
+      "clock_diagnostics": {
+        "n": 2,
+        "human_vs_primary": {
+          "agree": 0.0,
+          "n": 2
+        },
+        "human_vs_replicate": {
+          "agree": 0.0,
+          "n": 2
+        },
+        "primary_vs_replicate": {
+          "agree": 1.0,
+          "n": 1
+        }
+      },
+      "decision_undetermined": 0,
+      "alpha": -0.4990151017728168,
+      "alpha_human_vs_replicate": -0.4990151017728168,
+      "alpha_primary_vs_replicate": null
+    }
+  },
+  "sampled_estimates": {
+    "turn_code": {
+      "n": 41,
+      "human_vs_primary": {
+        "agree": 0.5365853658536586,
+        "n": 41
+      },
+      "human_vs_replicate": {
+        "agree": 0.65625,
+        "n": 32
+      },
+      "primary_vs_replicate": {
+        "agree": 0.5625,
+        "n": 16
+      },
+      "alpha": null,
+      "alpha_human_vs_replicate": null,
+      "alpha_primary_vs_replicate": null,
+      "within_one": {
+        "n": 21,
+        "human_vs_primary": {
+          "agree": 0.5238095238095238,
+          "n": 21
+        },
+        "human_vs_replicate": {
+          "agree": 1.0,
+          "n": 16
+        },
+        "primary_vs_replicate": {
+          "agree": 0.5,
+          "n": 8
+        }
+      },
+      "human_vs_primary_ci95": [
+        0.3874647115781267,
+        0.6794376612447911
+      ],
+      "human_vs_primary_wilson95": [
+        0.3874647115781267,
+        0.6794376612447911
+      ],
+      "ci_method": "Wilson; treats rows as independent; optimistic",
+      "population": null
+    },
+    "stage_a": {
+      "n": 6,
+      "human_vs_primary": {
+        "agree": 0.3333333333333333,
+        "n": 6
+      },
+      "human_vs_replicate": {
+        "agree": 0.3333333333333333,
+        "n": 6
+      },
+      "primary_vs_replicate": {
+        "agree": 1.0,
+        "n": 3
+      },
+      "alpha": 0.1071428571428571,
+      "alpha_human_vs_replicate": 0.1071428571428571,
+      "alpha_primary_vs_replicate": null,
+      "within_one": {
+        "n": 6,
+        "human_vs_primary": {
+          "agree": 1.0,
+          "n": 6
+        },
+        "human_vs_replicate": {
+          "agree": 1.0,
+          "n": 6
+        },
+        "primary_vs_replicate": {
+          "agree": 1.0,
+          "n": 3
+        }
+      },
+      "human_vs_primary_ci95": [
+        0.09677141021353448,
+        0.7000066870052566
+      ],
+      "human_vs_primary_wilson95": [
+        0.09677141021353448,
+        0.7000066870052566
+      ],
+      "ci_method": "Wilson; treats rows as independent; optimistic",
+      "population": null
+    },
+    "prep_pres": {
+      "n": 6,
+      "human_vs_primary": {
+        "agree": 0.6666666666666666,
+        "n": 6
+      },
+      "human_vs_replicate": {
+        "agree": 0.6666666666666666,
+        "n": 6
+      },
+      "primary_vs_replicate": {
+        "agree": 1.0,
+        "n": 3
+      },
+      "alpha": -0.5,
+      "alpha_human_vs_replicate": -0.5,
+      "alpha_primary_vs_replicate": null,
+      "within_one": {
+        "n": 6,
+        "human_vs_primary": {
+          "agree": 1.0,
+          "n": 6
+        },
+        "human_vs_replicate": {
+          "agree": 1.0,
+          "n": 6
+        },
+        "primary_vs_replicate": {
+          "agree": 1.0,
+          "n": 3
+        }
+      },
+      "human_vs_primary_ci95": [
+        0.29999331299474324,
+        0.9032285897864654
+      ],
+      "human_vs_primary_wilson95": [
+        0.29999331299474324,
+        0.9032285897864654
+      ],
+      "ci_method": "Wilson; treats rows as independent; optimistic",
+      "population": null
+    },
+    "venture": {
+      "n": 2,
+      "human_vs_primary": {
+        "agree": 1.0,
+        "n": 2
+      },
+      "human_vs_replicate": {
+        "agree": 1.0,
+        "n": 2
+      },
+      "primary_vs_replicate": {
+        "agree": 1.0,
+        "n": 1
+      },
+      "alpha": null,
+      "alpha_human_vs_replicate": null,
+      "alpha_primary_vs_replicate": null,
+      "human_vs_primary_ci95": [
+        0.34238022395464934,
+        1.0
+      ],
+      "human_vs_primary_wilson95": [
+        0.34238022395464934,
+        1.0
+      ],
+      "ci_method": "Wilson; treats rows as independent; optimistic",
+      "population": null
+    },
+    "cut": {
+      "n": 2,
+      "human_vs_primary": {
+        "agree": 1.0,
+        "n": 2
+      },
+      "human_vs_replicate": {
+        "agree": 1.0,
+        "n": 2
+      },
+      "primary_vs_replicate": {
+        "agree": 1.0,
+        "n": 1
+      },
+      "decision_rule": "same_reference_turn",
+      "clock_diagnostics": {
+        "n": 2,
+        "human_vs_primary": {
+          "agree": 0.0,
+          "n": 2
+        },
+        "human_vs_replicate": {
+          "agree": 0.0,
+          "n": 2
+        },
+        "primary_vs_replicate": {
+          "agree": 1.0,
+          "n": 1
+        }
+      },
+      "decision_undetermined": 0,
+      "alpha": -0.4990151017728168,
+      "alpha_human_vs_replicate": -0.4990151017728168,
+      "alpha_primary_vs_replicate": null,
+      "human_vs_primary_ci95": [
+        0.34238022395464934,
+        1.0
+      ],
+      "human_vs_primary_wilson95": [
+        0.34238022395464934,
+        1.0
+      ],
+      "ci_method": "Wilson; treats rows as independent; optimistic",
+      "population": null
+    }
+  },
+  "by_selection": {
+    "flagged": {
+      "all": {
+        "n": 0,
+        "human_vs_primary": {
+          "agree": null,
+          "n": 0
+        },
+        "human_vs_replicate": {
+          "agree": null,
+          "n": 0
+        },
+        "primary_vs_replicate": {
+          "agree": null,
+          "n": 0
+        },
+        "alpha": null,
+        "alpha_human_vs_replicate": null,
+        "alpha_primary_vs_replicate": null
+      },
+      "by_field_class": {}
+    },
+    "sampled": {
+      "all": {
+        "n": 57,
+        "human_vs_primary": {
+          "agree": 0.5614035087719298,
+          "n": 57
+        },
+        "human_vs_replicate": {
+          "agree": 0.6458333333333334,
+          "n": 48
+        },
+        "primary_vs_replicate": {
+          "agree": 0.7083333333333334,
+          "n": 24
+        },
+        "decision_rule": "same_reference_turn",
+        "clock_diagnostics": {
+          "n": 2,
+          "human_vs_primary": {
+            "agree": 0.0,
+            "n": 2
+          },
+          "human_vs_replicate": {
+            "agree": 0.0,
+            "n": 2
+          },
+          "primary_vs_replicate": {
+            "agree": 1.0,
+            "n": 1
+          }
+        },
+        "decision_undetermined": 0,
+        "alpha": null,
+        "alpha_human_vs_replicate": null,
+        "alpha_primary_vs_replicate": null,
+        "within_one": {
+          "n": 33,
+          "human_vs_primary": {
+            "agree": 0.696969696969697,
+            "n": 33
+          },
+          "human_vs_replicate": {
+            "agree": 1.0,
+            "n": 28
+          },
+          "primary_vs_replicate": {
+            "agree": 0.7142857142857143,
+            "n": 14
+          }
+        }
+      },
+      "by_field_class": {
+        "turn_code": {
+          "n": 41,
+          "human_vs_primary": {
+            "agree": 0.5365853658536586,
+            "n": 41
+          },
+          "human_vs_replicate": {
+            "agree": 0.65625,
+            "n": 32
+          },
+          "primary_vs_replicate": {
+            "agree": 0.5625,
+            "n": 16
+          },
+          "alpha": null,
+          "alpha_human_vs_replicate": null,
+          "alpha_primary_vs_replicate": null,
+          "within_one": {
+            "n": 21,
+            "human_vs_primary": {
+              "agree": 0.5238095238095238,
+              "n": 21
+            },
+            "human_vs_replicate": {
+              "agree": 1.0,
+              "n": 16
+            },
+            "primary_vs_replicate": {
+              "agree": 0.5,
+              "n": 8
+            }
+          }
+        },
+        "stage_a": {
+          "n": 6,
+          "human_vs_primary": {
+            "agree": 0.3333333333333333,
+            "n": 6
+          },
+          "human_vs_replicate": {
+            "agree": 0.3333333333333333,
+            "n": 6
+          },
+          "primary_vs_replicate": {
+            "agree": 1.0,
+            "n": 3
+          },
+          "alpha": 0.1071428571428571,
+          "alpha_human_vs_replicate": 0.1071428571428571,
+          "alpha_primary_vs_replicate": null,
+          "within_one": {
+            "n": 6,
+            "human_vs_primary": {
+              "agree": 1.0,
+              "n": 6
+            },
+            "human_vs_replicate": {
+              "agree": 1.0,
+              "n": 6
+            },
+            "primary_vs_replicate": {
+              "agree": 1.0,
+              "n": 3
+            }
+          }
+        },
+        "prep_pres": {
+          "n": 6,
+          "human_vs_primary": {
+            "agree": 0.6666666666666666,
+            "n": 6
+          },
+          "human_vs_replicate": {
+            "agree": 0.6666666666666666,
+            "n": 6
+          },
+          "primary_vs_replicate": {
+            "agree": 1.0,
+            "n": 3
+          },
+          "alpha": -0.5,
+          "alpha_human_vs_replicate": -0.5,
+          "alpha_primary_vs_replicate": null,
+          "within_one": {
+            "n": 6,
+            "human_vs_primary": {
+              "agree": 1.0,
+              "n": 6
+            },
+            "human_vs_replicate": {
+              "agree": 1.0,
+              "n": 6
+            },
+            "primary_vs_replicate": {
+              "agree": 1.0,
+              "n": 3
+            }
+          }
+        },
+        "venture": {
+          "n": 2,
+          "human_vs_primary": {
+            "agree": 1.0,
+            "n": 2
+          },
+          "human_vs_replicate": {
+            "agree": 1.0,
+            "n": 2
+          },
+          "primary_vs_replicate": {
+            "agree": 1.0,
+            "n": 1
+          },
+          "alpha": null,
+          "alpha_human_vs_replicate": null,
+          "alpha_primary_vs_replicate": null
+        },
+        "cut": {
+          "n": 2,
+          "human_vs_primary": {
+            "agree": 1.0,
+            "n": 2
+          },
+          "human_vs_replicate": {
+            "agree": 1.0,
+            "n": 2
+          },
+          "primary_vs_replicate": {
+            "agree": 1.0,
+            "n": 1
+          },
+          "decision_rule": "same_reference_turn",
+          "clock_diagnostics": {
+            "n": 2,
+            "human_vs_primary": {
+              "agree": 0.0,
+              "n": 2
+            },
+            "human_vs_replicate": {
+              "agree": 0.0,
+              "n": 2
+            },
+            "primary_vs_replicate": {
+              "agree": 1.0,
+              "n": 1
+            }
+          },
+          "decision_undetermined": 0,
+          "alpha": -0.4990151017728168,
+          "alpha_human_vs_replicate": -0.4990151017728168,
+          "alpha_primary_vs_replicate": null
+        }
+      }
+    }
+  },
+  "by_reviewer": {
+    "MX": {
+      "note": "Each figure is the share of reviewed items on which two sources give the same value, with the number of items behind it. First-decision agreement uses the same reference turn; missing mappings are undetermined. Other clock values are the same within the tolerance the selection flags by (a decision time within the agreement settings' decision tolerance, each edge of the prepared window within two seconds; see tolerances); ordinal fields (the codes and items whose codebook entry is ordinal) are compared exactly, and within_one gives beside it the share within one scale point. On a flag-driven sheet the sampled rows are a seeded draw, proportional to each field class's share, from the fields that nothing flagged and whose unit both passes recorded: they are the unbiased estimate of human-model agreement on such fields, not on flagged fields nor on units one pass lacks. On an exchange-level sheet every row is a random draw from the populations the manifest records. The flagged rows were chosen because something looked wrong and understate agreement. human_vs_replicate and primary_vs_replicate cover only the rows that have a replicate value; primary_vs_replicate counts a field once however many coders judged it. unit_presence rows (a turn, exchange or decision only one pass recorded) enter none of these figures; by_field_class.unit_presence gives the share of such units the human judged present, separately for those only the primary and those only the replicate recorded.",
+      "tolerances": {
+        "decision_s": 30.0,
+        "window_edge_s": 2.0,
+        "cut_s": 5.0
+      },
+      "n_reviewed": 31,
+      "n_without_a_value": 1,
+      "n_structural": 1,
+      "n_outcome_overrides": 0,
+      "n_cut_overrides": 1,
+      "flagged_left_out": null,
+      "flagged_note": null,
+      "all": {
+        "n": 31,
+        "human_vs_primary": {
+          "agree": 0.5806451612903226,
+          "n": 31
+        },
+        "human_vs_replicate": {
+          "agree": 0.6666666666666666,
+          "n": 24
+        },
+        "primary_vs_replicate": {
+          "agree": 0.7083333333333334,
+          "n": 24
+        },
+        "decision_rule": "same_reference_turn",
+        "clock_diagnostics": {
+          "n": 1,
+          "human_vs_primary": {
+            "agree": 0.0,
+            "n": 1
+          },
+          "human_vs_replicate": {
+            "agree": 0.0,
+            "n": 1
+          },
+          "primary_vs_replicate": {
+            "agree": 1.0,
+            "n": 1
+          }
+        },
+        "decision_undetermined": 0,
+        "alpha": null,
+        "alpha_human_vs_replicate": null,
+        "alpha_primary_vs_replicate": null,
+        "within_one": {
+          "n": 18,
+          "human_vs_primary": {
+            "agree": 0.6666666666666666,
+            "n": 18
+          },
+          "human_vs_replicate": {
+            "agree": 1.0,
+            "n": 14
+          },
+          "primary_vs_replicate": {
+            "agree": 0.7142857142857143,
+            "n": 14
+          }
+        }
+      },
+      "by_field_class": {
+        "turn_code": {
+          "n": 23,
+          "human_vs_primary": {
+            "agree": 0.5217391304347826,
+            "n": 23
+          },
+          "human_vs_replicate": {
+            "agree": 0.625,
+            "n": 16
+          },
+          "primary_vs_replicate": {
+            "agree": 0.5625,
+            "n": 16
+          },
+          "alpha": null,
+          "alpha_human_vs_replicate": null,
+          "alpha_primary_vs_replicate": null,
+          "within_one": {
+            "n": 12,
+            "human_vs_primary": {
+              "agree": 0.5,
+              "n": 12
+            },
+            "human_vs_replicate": {
+              "agree": 1.0,
+              "n": 8
+            },
+            "primary_vs_replicate": {
+              "agree": 0.5,
+              "n": 8
+            }
+          }
+        },
+        "stage_a": {
+          "n": 3,
+          "human_vs_primary": {
+            "agree": 0.6666666666666666,
+            "n": 3
+          },
+          "human_vs_replicate": {
+            "agree": 0.6666666666666666,
+            "n": 3
+          },
+          "primary_vs_replicate": {
+            "agree": 1.0,
+            "n": 3
+          },
+          "alpha": null,
+          "alpha_human_vs_replicate": null,
+          "alpha_primary_vs_replicate": null,
+          "within_one": {
+            "n": 3,
+            "human_vs_primary": {
+              "agree": 1.0,
+              "n": 3
+            },
+            "human_vs_replicate": {
+              "agree": 1.0,
+              "n": 3
+            },
+            "primary_vs_replicate": {
+              "agree": 1.0,
+              "n": 3
+            }
+          }
+        },
+        "prep_pres": {
+          "n": 3,
+          "human_vs_primary": {
+            "agree": 0.6666666666666666,
+            "n": 3
+          },
+          "human_vs_replicate": {
+            "agree": 0.6666666666666666,
+            "n": 3
+          },
+          "primary_vs_replicate": {
+            "agree": 1.0,
+            "n": 3
+          },
+          "alpha": null,
+          "alpha_human_vs_replicate": null,
+          "alpha_primary_vs_replicate": null,
+          "within_one": {
+            "n": 3,
+            "human_vs_primary": {
+              "agree": 1.0,
+              "n": 3
+            },
+            "human_vs_replicate": {
+              "agree": 1.0,
+              "n": 3
+            },
+            "primary_vs_replicate": {
+              "agree": 1.0,
+              "n": 3
+            }
+          }
+        },
+        "venture": {
+          "n": 1,
+          "human_vs_primary": {
+            "agree": 1.0,
+            "n": 1
+          },
+          "human_vs_replicate": {
+            "agree": 1.0,
+            "n": 1
+          },
+          "primary_vs_replicate": {
+            "agree": 1.0,
+            "n": 1
+          },
+          "alpha": null,
+          "alpha_human_vs_replicate": null,
+          "alpha_primary_vs_replicate": null
+        },
+        "cut": {
+          "n": 1,
+          "human_vs_primary": {
+            "agree": 1.0,
+            "n": 1
+          },
+          "human_vs_replicate": {
+            "agree": 1.0,
+            "n": 1
+          },
+          "primary_vs_replicate": {
+            "agree": 1.0,
+            "n": 1
+          },
+          "decision_rule": "same_reference_turn",
+          "clock_diagnostics": {
+            "n": 1,
+            "human_vs_primary": {
+              "agree": 0.0,
+              "n": 1
+            },
+            "human_vs_replicate": {
+              "agree": 0.0,
+              "n": 1
+            },
+            "primary_vs_replicate": {
+              "agree": 1.0,
+              "n": 1
+            }
+          },
+          "decision_undetermined": 0,
+          "alpha": null,
+          "alpha_human_vs_replicate": null,
+          "alpha_primary_vs_replicate": null
+        }
+      },
+      "sampled_estimates": {
+        "turn_code": {
+          "n": 23,
+          "human_vs_primary": {
+            "agree": 0.5217391304347826,
+            "n": 23
+          },
+          "human_vs_replicate": {
+            "agree": 0.625,
+            "n": 16
+          },
+          "primary_vs_replicate": {
+            "agree": 0.5625,
+            "n": 16
+          },
+          "alpha": null,
+          "alpha_human_vs_replicate": null,
+          "alpha_primary_vs_replicate": null,
+          "within_one": {
+            "n": 12,
+            "human_vs_primary": {
+              "agree": 0.5,
+              "n": 12
+            },
+            "human_vs_replicate": {
+              "agree": 1.0,
+              "n": 8
+            },
+            "primary_vs_replicate": {
+              "agree": 0.5,
+              "n": 8
+            }
+          },
+          "human_vs_primary_ci95": [
+            0.32962737204441833,
+            0.7076284270692741
+          ],
+          "human_vs_primary_wilson95": [
+            0.32962737204441833,
+            0.7076284270692741
+          ],
+          "ci_method": "Wilson; treats rows as independent; optimistic",
+          "population": null
+        },
+        "stage_a": {
+          "n": 3,
+          "human_vs_primary": {
+            "agree": 0.6666666666666666,
+            "n": 3
+          },
+          "human_vs_replicate": {
+            "agree": 0.6666666666666666,
+            "n": 3
+          },
+          "primary_vs_replicate": {
+            "agree": 1.0,
+            "n": 3
+          },
+          "alpha": null,
+          "alpha_human_vs_replicate": null,
+          "alpha_primary_vs_replicate": null,
+          "within_one": {
+            "n": 3,
+            "human_vs_primary": {
+              "agree": 1.0,
+              "n": 3
+            },
+            "human_vs_replicate": {
+              "agree": 1.0,
+              "n": 3
+            },
+            "primary_vs_replicate": {
+              "agree": 1.0,
+              "n": 3
+            }
+          },
+          "human_vs_primary_ci95": [
+            0.2076595988078242,
+            0.9385080559790691
+          ],
+          "human_vs_primary_wilson95": [
+            0.2076595988078242,
+            0.9385080559790691
+          ],
+          "ci_method": "Wilson; treats rows as independent; optimistic",
+          "population": null
+        },
+        "prep_pres": {
+          "n": 3,
+          "human_vs_primary": {
+            "agree": 0.6666666666666666,
+            "n": 3
+          },
+          "human_vs_replicate": {
+            "agree": 0.6666666666666666,
+            "n": 3
+          },
+          "primary_vs_replicate": {
+            "agree": 1.0,
+            "n": 3
+          },
+          "alpha": null,
+          "alpha_human_vs_replicate": null,
+          "alpha_primary_vs_replicate": null,
+          "within_one": {
+            "n": 3,
+            "human_vs_primary": {
+              "agree": 1.0,
+              "n": 3
+            },
+            "human_vs_replicate": {
+              "agree": 1.0,
+              "n": 3
+            },
+            "primary_vs_replicate": {
+              "agree": 1.0,
+              "n": 3
+            }
+          },
+          "human_vs_primary_ci95": [
+            0.2076595988078242,
+            0.9385080559790691
+          ],
+          "human_vs_primary_wilson95": [
+            0.2076595988078242,
+            0.9385080559790691
+          ],
+          "ci_method": "Wilson; treats rows as independent; optimistic",
+          "population": null
+        },
+        "venture": {
+          "n": 1,
+          "human_vs_primary": {
+            "agree": 1.0,
+            "n": 1
+          },
+          "human_vs_replicate": {
+            "agree": 1.0,
+            "n": 1
+          },
+          "primary_vs_replicate": {
+            "agree": 1.0,
+            "n": 1
+          },
+          "alpha": null,
+          "alpha_human_vs_replicate": null,
+          "alpha_primary_vs_replicate": null,
+          "human_vs_primary_ci95": [
+            0.20654931179180275,
+            1.0
+          ],
+          "human_vs_primary_wilson95": [
+            0.20654931179180275,
+            1.0
+          ],
+          "ci_method": "Wilson; treats rows as independent; optimistic",
+          "population": null
+        },
+        "cut": {
+          "n": 1,
+          "human_vs_primary": {
+            "agree": 1.0,
+            "n": 1
+          },
+          "human_vs_replicate": {
+            "agree": 1.0,
+            "n": 1
+          },
+          "primary_vs_replicate": {
+            "agree": 1.0,
+            "n": 1
+          },
+          "decision_rule": "same_reference_turn",
+          "clock_diagnostics": {
+            "n": 1,
+            "human_vs_primary": {
+              "agree": 0.0,
+              "n": 1
+            },
+            "human_vs_replicate": {
+              "agree": 0.0,
+              "n": 1
+            },
+            "primary_vs_replicate": {
+              "agree": 1.0,
+              "n": 1
+            }
+          },
+          "decision_undetermined": 0,
+          "alpha": null,
+          "alpha_human_vs_replicate": null,
+          "alpha_primary_vs_replicate": null,
+          "human_vs_primary_ci95": [
+            0.20654931179180275,
+            1.0
+          ],
+          "human_vs_primary_wilson95": [
+            0.20654931179180275,
+            1.0
+          ],
+          "ci_method": "Wilson; treats rows as independent; optimistic",
+          "population": null
+        }
+      },
+      "by_selection": {
+        "flagged": {
+          "all": {
+            "n": 0,
+            "human_vs_primary": {
+              "agree": null,
+              "n": 0
+            },
+            "human_vs_replicate": {
+              "agree": null,
+              "n": 0
+            },
+            "primary_vs_replicate": {
+              "agree": null,
+              "n": 0
+            },
+            "alpha": null,
+            "alpha_human_vs_replicate": null,
+            "alpha_primary_vs_replicate": null
+          },
+          "by_field_class": {}
+        },
+        "sampled": {
+          "all": {
+            "n": 31,
+            "human_vs_primary": {
+              "agree": 0.5806451612903226,
+              "n": 31
+            },
+            "human_vs_replicate": {
+              "agree": 0.6666666666666666,
+              "n": 24
+            },
+            "primary_vs_replicate": {
+              "agree": 0.7083333333333334,
+              "n": 24
+            },
+            "decision_rule": "same_reference_turn",
+            "clock_diagnostics": {
+              "n": 1,
+              "human_vs_primary": {
+                "agree": 0.0,
+                "n": 1
+              },
+              "human_vs_replicate": {
+                "agree": 0.0,
+                "n": 1
+              },
+              "primary_vs_replicate": {
+                "agree": 1.0,
+                "n": 1
+              }
+            },
+            "decision_undetermined": 0,
+            "alpha": null,
+            "alpha_human_vs_replicate": null,
+            "alpha_primary_vs_replicate": null,
+            "within_one": {
+              "n": 18,
+              "human_vs_primary": {
+                "agree": 0.6666666666666666,
+                "n": 18
+              },
+              "human_vs_replicate": {
+                "agree": 1.0,
+                "n": 14
+              },
+              "primary_vs_replicate": {
+                "agree": 0.7142857142857143,
+                "n": 14
+              }
+            }
+          },
+          "by_field_class": {
+            "turn_code": {
+              "n": 23,
+              "human_vs_primary": {
+                "agree": 0.5217391304347826,
+                "n": 23
+              },
+              "human_vs_replicate": {
+                "agree": 0.625,
+                "n": 16
+              },
+              "primary_vs_replicate": {
+                "agree": 0.5625,
+                "n": 16
+              },
+              "alpha": null,
+              "alpha_human_vs_replicate": null,
+              "alpha_primary_vs_replicate": null,
+              "within_one": {
+                "n": 12,
+                "human_vs_primary": {
+                  "agree": 0.5,
+                  "n": 12
+                },
+                "human_vs_replicate": {
+                  "agree": 1.0,
+                  "n": 8
+                },
+                "primary_vs_replicate": {
+                  "agree": 0.5,
+                  "n": 8
+                }
+              }
+            },
+            "stage_a": {
+              "n": 3,
+              "human_vs_primary": {
+                "agree": 0.6666666666666666,
+                "n": 3
+              },
+              "human_vs_replicate": {
+                "agree": 0.6666666666666666,
+                "n": 3
+              },
+              "primary_vs_replicate": {
+                "agree": 1.0,
+                "n": 3
+              },
+              "alpha": null,
+              "alpha_human_vs_replicate": null,
+              "alpha_primary_vs_replicate": null,
+              "within_one": {
+                "n": 3,
+                "human_vs_primary": {
+                  "agree": 1.0,
+                  "n": 3
+                },
+                "human_vs_replicate": {
+                  "agree": 1.0,
+                  "n": 3
+                },
+                "primary_vs_replicate": {
+                  "agree": 1.0,
+                  "n": 3
+                }
+              }
+            },
+            "prep_pres": {
+              "n": 3,
+              "human_vs_primary": {
+                "agree": 0.6666666666666666,
+                "n": 3
+              },
+              "human_vs_replicate": {
+                "agree": 0.6666666666666666,
+                "n": 3
+              },
+              "primary_vs_replicate": {
+                "agree": 1.0,
+                "n": 3
+              },
+              "alpha": null,
+              "alpha_human_vs_replicate": null,
+              "alpha_primary_vs_replicate": null,
+              "within_one": {
+                "n": 3,
+                "human_vs_primary": {
+                  "agree": 1.0,
+                  "n": 3
+                },
+                "human_vs_replicate": {
+                  "agree": 1.0,
+                  "n": 3
+                },
+                "primary_vs_replicate": {
+                  "agree": 1.0,
+                  "n": 3
+                }
+              }
+            },
+            "venture": {
+              "n": 1,
+              "human_vs_primary": {
+                "agree": 1.0,
+                "n": 1
+              },
+              "human_vs_replicate": {
+                "agree": 1.0,
+                "n": 1
+              },
+              "primary_vs_replicate": {
+                "agree": 1.0,
+                "n": 1
+              },
+              "alpha": null,
+              "alpha_human_vs_replicate": null,
+              "alpha_primary_vs_replicate": null
+            },
+            "cut": {
+              "n": 1,
+              "human_vs_primary": {
+                "agree": 1.0,
+                "n": 1
+              },
+              "human_vs_replicate": {
+                "agree": 1.0,
+                "n": 1
+              },
+              "primary_vs_replicate": {
+                "agree": 1.0,
+                "n": 1
+              },
+              "decision_rule": "same_reference_turn",
+              "clock_diagnostics": {
+                "n": 1,
+                "human_vs_primary": {
+                  "agree": 0.0,
+                  "n": 1
+                },
+                "human_vs_replicate": {
+                  "agree": 0.0,
+                  "n": 1
+                },
+                "primary_vs_replicate": {
+                  "agree": 1.0,
+                  "n": 1
+                }
+              },
+              "decision_undetermined": 0,
+              "alpha": null,
+              "alpha_human_vs_replicate": null,
+              "alpha_primary_vs_replicate": null
+            }
+          }
+        }
+      }
+    },
+    "AV": {
+      "note": "Each figure is the share of reviewed items on which two sources give the same value, with the number of items behind it. First-decision agreement uses the same reference turn; missing mappings are undetermined. Other clock values are the same within the tolerance the selection flags by (a decision time within the agreement settings' decision tolerance, each edge of the prepared window within two seconds; see tolerances); ordinal fields (the codes and items whose codebook entry is ordinal) are compared exactly, and within_one gives beside it the share within one scale point. On a flag-driven sheet the sampled rows are a seeded draw, proportional to each field class's share, from the fields that nothing flagged and whose unit both passes recorded: they are the unbiased estimate of human-model agreement on such fields, not on flagged fields nor on units one pass lacks. On an exchange-level sheet every row is a random draw from the populations the manifest records. The flagged rows were chosen because something looked wrong and understate agreement. human_vs_replicate and primary_vs_replicate cover only the rows that have a replicate value; primary_vs_replicate counts a field once however many coders judged it. unit_presence rows (a turn, exchange or decision only one pass recorded) enter none of these figures; by_field_class.unit_presence gives the share of such units the human judged present, separately for those only the primary and those only the replicate recorded.",
+      "tolerances": {
+        "decision_s": 30.0,
+        "window_edge_s": 2.0,
+        "cut_s": 5.0
+      },
+      "n_reviewed": 26,
+      "n_without_a_value": 6,
+      "n_structural": 6,
+      "n_outcome_overrides": 0,
+      "n_cut_overrides": 1,
+      "flagged_left_out": null,
+      "flagged_note": null,
+      "all": {
+        "n": 26,
+        "human_vs_primary": {
+          "agree": 0.5384615384615384,
+          "n": 26
+        },
+        "human_vs_replicate": {
+          "agree": 0.625,
+          "n": 24
+        },
+        "primary_vs_replicate": {
+          "agree": 0.7083333333333334,
+          "n": 24
+        },
+        "decision_rule": "same_reference_turn",
+        "clock_diagnostics": {
+          "n": 1,
+          "human_vs_primary": {
+            "agree": 0.0,
+            "n": 1
+          },
+          "human_vs_replicate": {
+            "agree": 0.0,
+            "n": 1
+          },
+          "primary_vs_replicate": {
+            "agree": 1.0,
+            "n": 1
+          }
+        },
+        "decision_undetermined": 0,
+        "alpha": null,
+        "alpha_human_vs_replicate": null,
+        "alpha_primary_vs_replicate": null,
+        "within_one": {
+          "n": 15,
+          "human_vs_primary": {
+            "agree": 0.7333333333333333,
+            "n": 15
+          },
+          "human_vs_replicate": {
+            "agree": 1.0,
+            "n": 14
+          },
+          "primary_vs_replicate": {
+            "agree": 0.7142857142857143,
+            "n": 14
+          }
+        }
+      },
+      "by_field_class": {
+        "turn_code": {
+          "n": 18,
+          "human_vs_primary": {
+            "agree": 0.5555555555555556,
+            "n": 18
+          },
+          "human_vs_replicate": {
+            "agree": 0.6875,
+            "n": 16
+          },
+          "primary_vs_replicate": {
+            "agree": 0.5625,
+            "n": 16
+          },
+          "alpha": null,
+          "alpha_human_vs_replicate": null,
+          "alpha_primary_vs_replicate": null,
+          "within_one": {
+            "n": 9,
+            "human_vs_primary": {
+              "agree": 0.5555555555555556,
+              "n": 9
+            },
+            "human_vs_replicate": {
+              "agree": 1.0,
+              "n": 8
+            },
+            "primary_vs_replicate": {
+              "agree": 0.5,
+              "n": 8
+            }
+          }
+        },
+        "stage_a": {
+          "n": 3,
+          "human_vs_primary": {
+            "agree": 0.0,
+            "n": 3
+          },
+          "human_vs_replicate": {
+            "agree": 0.0,
+            "n": 3
+          },
+          "primary_vs_replicate": {
+            "agree": 1.0,
+            "n": 3
+          },
+          "alpha": null,
+          "alpha_human_vs_replicate": null,
+          "alpha_primary_vs_replicate": null,
+          "within_one": {
+            "n": 3,
+            "human_vs_primary": {
+              "agree": 1.0,
+              "n": 3
+            },
+            "human_vs_replicate": {
+              "agree": 1.0,
+              "n": 3
+            },
+            "primary_vs_replicate": {
+              "agree": 1.0,
+              "n": 3
+            }
+          }
+        },
+        "prep_pres": {
+          "n": 3,
+          "human_vs_primary": {
+            "agree": 0.6666666666666666,
+            "n": 3
+          },
+          "human_vs_replicate": {
+            "agree": 0.6666666666666666,
+            "n": 3
+          },
+          "primary_vs_replicate": {
+            "agree": 1.0,
+            "n": 3
+          },
+          "alpha": null,
+          "alpha_human_vs_replicate": null,
+          "alpha_primary_vs_replicate": null,
+          "within_one": {
+            "n": 3,
+            "human_vs_primary": {
+              "agree": 1.0,
+              "n": 3
+            },
+            "human_vs_replicate": {
+              "agree": 1.0,
+              "n": 3
+            },
+            "primary_vs_replicate": {
+              "agree": 1.0,
+              "n": 3
+            }
+          }
+        },
+        "venture": {
+          "n": 1,
+          "human_vs_primary": {
+            "agree": 1.0,
+            "n": 1
+          },
+          "human_vs_replicate": {
+            "agree": 1.0,
+            "n": 1
+          },
+          "primary_vs_replicate": {
+            "agree": 1.0,
+            "n": 1
+          },
+          "alpha": null,
+          "alpha_human_vs_replicate": null,
+          "alpha_primary_vs_replicate": null
+        },
+        "cut": {
+          "n": 1,
+          "human_vs_primary": {
+            "agree": 1.0,
+            "n": 1
+          },
+          "human_vs_replicate": {
+            "agree": 1.0,
+            "n": 1
+          },
+          "primary_vs_replicate": {
+            "agree": 1.0,
+            "n": 1
+          },
+          "decision_rule": "same_reference_turn",
+          "clock_diagnostics": {
+            "n": 1,
+            "human_vs_primary": {
+              "agree": 0.0,
+              "n": 1
+            },
+            "human_vs_replicate": {
+              "agree": 0.0,
+              "n": 1
+            },
+            "primary_vs_replicate": {
+              "agree": 1.0,
+              "n": 1
+            }
+          },
+          "decision_undetermined": 0,
+          "alpha": null,
+          "alpha_human_vs_replicate": null,
+          "alpha_primary_vs_replicate": null
+        }
+      },
+      "sampled_estimates": {
+        "turn_code": {
+          "n": 18,
+          "human_vs_primary": {
+            "agree": 0.5555555555555556,
+            "n": 18
+          },
+          "human_vs_replicate": {
+            "agree": 0.6875,
+            "n": 16
+          },
+          "primary_vs_replicate": {
+            "agree": 0.5625,
+            "n": 16
+          },
+          "alpha": null,
+          "alpha_human_vs_replicate": null,
+          "alpha_primary_vs_replicate": null,
+          "within_one": {
+            "n": 9,
+            "human_vs_primary": {
+              "agree": 0.5555555555555556,
+              "n": 9
+            },
+            "human_vs_replicate": {
+              "agree": 1.0,
+              "n": 8
+            },
+            "primary_vs_replicate": {
+              "agree": 0.5,
+              "n": 8
+            }
+          },
+          "human_vs_primary_ci95": [
+            0.3371641549342691,
+            0.7544048199620327
+          ],
+          "human_vs_primary_wilson95": [
+            0.3371641549342691,
+            0.7544048199620327
+          ],
+          "ci_method": "Wilson; treats rows as independent; optimistic",
+          "population": null
+        },
+        "stage_a": {
+          "n": 3,
+          "human_vs_primary": {
+            "agree": 0.0,
+            "n": 3
+          },
+          "human_vs_replicate": {
+            "agree": 0.0,
+            "n": 3
+          },
+          "primary_vs_replicate": {
+            "agree": 1.0,
+            "n": 3
+          },
+          "alpha": null,
+          "alpha_human_vs_replicate": null,
+          "alpha_primary_vs_replicate": null,
+          "within_one": {
+            "n": 3,
+            "human_vs_primary": {
+              "agree": 1.0,
+              "n": 3
+            },
+            "human_vs_replicate": {
+              "agree": 1.0,
+              "n": 3
+            },
+            "primary_vs_replicate": {
+              "agree": 1.0,
+              "n": 3
+            }
+          },
+          "human_vs_primary_ci95": [
+            0.0,
+            0.5614970356393196
+          ],
+          "human_vs_primary_wilson95": [
+            0.0,
+            0.5614970356393196
+          ],
+          "ci_method": "Wilson; treats rows as independent; optimistic",
+          "population": null
+        },
+        "prep_pres": {
+          "n": 3,
+          "human_vs_primary": {
+            "agree": 0.6666666666666666,
+            "n": 3
+          },
+          "human_vs_replicate": {
+            "agree": 0.6666666666666666,
+            "n": 3
+          },
+          "primary_vs_replicate": {
+            "agree": 1.0,
+            "n": 3
+          },
+          "alpha": null,
+          "alpha_human_vs_replicate": null,
+          "alpha_primary_vs_replicate": null,
+          "within_one": {
+            "n": 3,
+            "human_vs_primary": {
+              "agree": 1.0,
+              "n": 3
+            },
+            "human_vs_replicate": {
+              "agree": 1.0,
+              "n": 3
+            },
+            "primary_vs_replicate": {
+              "agree": 1.0,
+              "n": 3
+            }
+          },
+          "human_vs_primary_ci95": [
+            0.2076595988078242,
+            0.9385080559790691
+          ],
+          "human_vs_primary_wilson95": [
+            0.2076595988078242,
+            0.9385080559790691
+          ],
+          "ci_method": "Wilson; treats rows as independent; optimistic",
+          "population": null
+        },
+        "venture": {
+          "n": 1,
+          "human_vs_primary": {
+            "agree": 1.0,
+            "n": 1
+          },
+          "human_vs_replicate": {
+            "agree": 1.0,
+            "n": 1
+          },
+          "primary_vs_replicate": {
+            "agree": 1.0,
+            "n": 1
+          },
+          "alpha": null,
+          "alpha_human_vs_replicate": null,
+          "alpha_primary_vs_replicate": null,
+          "human_vs_primary_ci95": [
+            0.20654931179180275,
+            1.0
+          ],
+          "human_vs_primary_wilson95": [
+            0.20654931179180275,
+            1.0
+          ],
+          "ci_method": "Wilson; treats rows as independent; optimistic",
+          "population": null
+        },
+        "cut": {
+          "n": 1,
+          "human_vs_primary": {
+            "agree": 1.0,
+            "n": 1
+          },
+          "human_vs_replicate": {
+            "agree": 1.0,
+            "n": 1
+          },
+          "primary_vs_replicate": {
+            "agree": 1.0,
+            "n": 1
+          },
+          "decision_rule": "same_reference_turn",
+          "clock_diagnostics": {
+            "n": 1,
+            "human_vs_primary": {
+              "agree": 0.0,
+              "n": 1
+            },
+            "human_vs_replicate": {
+              "agree": 0.0,
+              "n": 1
+            },
+            "primary_vs_replicate": {
+              "agree": 1.0,
+              "n": 1
+            }
+          },
+          "decision_undetermined": 0,
+          "alpha": null,
+          "alpha_human_vs_replicate": null,
+          "alpha_primary_vs_replicate": null,
+          "human_vs_primary_ci95": [
+            0.20654931179180275,
+            1.0
+          ],
+          "human_vs_primary_wilson95": [
+            0.20654931179180275,
+            1.0
+          ],
+          "ci_method": "Wilson; treats rows as independent; optimistic",
+          "population": null
+        }
+      },
+      "by_selection": {
+        "flagged": {
+          "all": {
+            "n": 0,
+            "human_vs_primary": {
+              "agree": null,
+              "n": 0
+            },
+            "human_vs_replicate": {
+              "agree": null,
+              "n": 0
+            },
+            "primary_vs_replicate": {
+              "agree": null,
+              "n": 0
+            },
+            "alpha": null,
+            "alpha_human_vs_replicate": null,
+            "alpha_primary_vs_replicate": null
+          },
+          "by_field_class": {}
+        },
+        "sampled": {
+          "all": {
+            "n": 26,
+            "human_vs_primary": {
+              "agree": 0.5384615384615384,
+              "n": 26
+            },
+            "human_vs_replicate": {
+              "agree": 0.625,
+              "n": 24
+            },
+            "primary_vs_replicate": {
+              "agree": 0.7083333333333334,
+              "n": 24
+            },
+            "decision_rule": "same_reference_turn",
+            "clock_diagnostics": {
+              "n": 1,
+              "human_vs_primary": {
+                "agree": 0.0,
+                "n": 1
+              },
+              "human_vs_replicate": {
+                "agree": 0.0,
+                "n": 1
+              },
+              "primary_vs_replicate": {
+                "agree": 1.0,
+                "n": 1
+              }
+            },
+            "decision_undetermined": 0,
+            "alpha": null,
+            "alpha_human_vs_replicate": null,
+            "alpha_primary_vs_replicate": null,
+            "within_one": {
+              "n": 15,
+              "human_vs_primary": {
+                "agree": 0.7333333333333333,
+                "n": 15
+              },
+              "human_vs_replicate": {
+                "agree": 1.0,
+                "n": 14
+              },
+              "primary_vs_replicate": {
+                "agree": 0.7142857142857143,
+                "n": 14
+              }
+            }
+          },
+          "by_field_class": {
+            "turn_code": {
+              "n": 18,
+              "human_vs_primary": {
+                "agree": 0.5555555555555556,
+                "n": 18
+              },
+              "human_vs_replicate": {
+                "agree": 0.6875,
+                "n": 16
+              },
+              "primary_vs_replicate": {
+                "agree": 0.5625,
+                "n": 16
+              },
+              "alpha": null,
+              "alpha_human_vs_replicate": null,
+              "alpha_primary_vs_replicate": null,
+              "within_one": {
+                "n": 9,
+                "human_vs_primary": {
+                  "agree": 0.5555555555555556,
+                  "n": 9
+                },
+                "human_vs_replicate": {
+                  "agree": 1.0,
+                  "n": 8
+                },
+                "primary_vs_replicate": {
+                  "agree": 0.5,
+                  "n": 8
+                }
+              }
+            },
+            "stage_a": {
+              "n": 3,
+              "human_vs_primary": {
+                "agree": 0.0,
+                "n": 3
+              },
+              "human_vs_replicate": {
+                "agree": 0.0,
+                "n": 3
+              },
+              "primary_vs_replicate": {
+                "agree": 1.0,
+                "n": 3
+              },
+              "alpha": null,
+              "alpha_human_vs_replicate": null,
+              "alpha_primary_vs_replicate": null,
+              "within_one": {
+                "n": 3,
+                "human_vs_primary": {
+                  "agree": 1.0,
+                  "n": 3
+                },
+                "human_vs_replicate": {
+                  "agree": 1.0,
+                  "n": 3
+                },
+                "primary_vs_replicate": {
+                  "agree": 1.0,
+                  "n": 3
+                }
+              }
+            },
+            "prep_pres": {
+              "n": 3,
+              "human_vs_primary": {
+                "agree": 0.6666666666666666,
+                "n": 3
+              },
+              "human_vs_replicate": {
+                "agree": 0.6666666666666666,
+                "n": 3
+              },
+              "primary_vs_replicate": {
+                "agree": 1.0,
+                "n": 3
+              },
+              "alpha": null,
+              "alpha_human_vs_replicate": null,
+              "alpha_primary_vs_replicate": null,
+              "within_one": {
+                "n": 3,
+                "human_vs_primary": {
+                  "agree": 1.0,
+                  "n": 3
+                },
+                "human_vs_replicate": {
+                  "agree": 1.0,
+                  "n": 3
+                },
+                "primary_vs_replicate": {
+                  "agree": 1.0,
+                  "n": 3
+                }
+              }
+            },
+            "venture": {
+              "n": 1,
+              "human_vs_primary": {
+                "agree": 1.0,
+                "n": 1
+              },
+              "human_vs_replicate": {
+                "agree": 1.0,
+                "n": 1
+              },
+              "primary_vs_replicate": {
+                "agree": 1.0,
+                "n": 1
+              },
+              "alpha": null,
+              "alpha_human_vs_replicate": null,
+              "alpha_primary_vs_replicate": null
+            },
+            "cut": {
+              "n": 1,
+              "human_vs_primary": {
+                "agree": 1.0,
+                "n": 1
+              },
+              "human_vs_replicate": {
+                "agree": 1.0,
+                "n": 1
+              },
+              "primary_vs_replicate": {
+                "agree": 1.0,
+                "n": 1
+              },
+              "decision_rule": "same_reference_turn",
+              "clock_diagnostics": {
+                "n": 1,
+                "human_vs_primary": {
+                  "agree": 0.0,
+                  "n": 1
+                },
+                "human_vs_replicate": {
+                  "agree": 0.0,
+                  "n": 1
+                },
+                "primary_vs_replicate": {
+                  "agree": 1.0,
+                  "n": 1
+                }
+              },
+              "decision_undetermined": 0,
+              "alpha": null,
+              "alpha_human_vs_replicate": null,
+              "alpha_primary_vs_replicate": null
+            }
+          }
+        }
+      }
+    }
+  },
+  "human_human": {
+    "reviewers": [
+      "AV",
+      "MX"
+    ],
+    "n_both": 26,
+    "n_dropped_unclear": 0,
+    "n_dropped_structural": 6,
+    "all": {
+      "agree": 0.6538461538461539,
+      "n": 26
+    },
+    "by_field_class": {
+      "turn_code": {
+        "agree": 0.6666666666666666,
+        "n": 18,
+        "alpha": null,
+        "within_one": {
+          "agree": 1.0,
+          "n": 9
+        }
+      },
+      "stage_a": {
+        "agree": 0.0,
+        "n": 3,
+        "alpha": null,
+        "within_one": {
+          "agree": 0.6666666666666666,
+          "n": 3
+        }
+      },
+      "prep_pres": {
+        "agree": 1.0,
+        "n": 3,
+        "alpha": null,
+        "within_one": {
+          "agree": 1.0,
+          "n": 3
+        }
+      },
+      "venture": {
+        "agree": 1.0,
+        "n": 1,
+        "alpha": null
+      },
+      "cut": {
+        "agree": 1.0,
+        "n": 1,
+        "alpha": null,
+        "share_within": 1.0,
+        "within_seconds": null,
+        "same_turn": 1.0,
+        "rule": "same_reference_turn"
+      }
+    }
+  }
+}

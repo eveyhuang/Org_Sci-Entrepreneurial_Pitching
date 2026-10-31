@@ -1,0 +1,2398 @@
+{
+  "pass": "replicate",
+  "unit_key": "panel__st_e796bdfd70__replicate",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:16-1:59"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "presentation",
+      "3": "presentation",
+      "4": "presentation",
+      "5": "presentation",
+      "6": "presentation",
+      "7": "presentation",
+      "8": "presentation",
+      "9": "presentation",
+      "10": "demonstration",
+      "11": "demonstration",
+      "12": "demonstration",
+      "13": "demonstration",
+      "14": "demonstration",
+      "15": "demonstration",
+      "16": "demonstration",
+      "17": "demonstration",
+      "18": "demonstration",
+      "19": "demonstration",
+      "20": "demonstration",
+      "21": "qa",
+      "22": "qa",
+      "23": "qa",
+      "24": "qa",
+      "25": "qa",
+      "26": "qa",
+      "27": "qa",
+      "28": "qa",
+      "29": "qa",
+      "30": "qa",
+      "31": "qa",
+      "32": "qa",
+      "33": "qa",
+      "34": "qa",
+      "35": "qa",
+      "36": "qa",
+      "37": "qa",
+      "38": "qa",
+      "39": "qa",
+      "40": "qa",
+      "41": "qa",
+      "42": "qa",
+      "43": "qa",
+      "44": "qa",
+      "45": "qa",
+      "46": "qa",
+      "47": "none",
+      "48": "none",
+      "49": "qa",
+      "50": "qa",
+      "51": "qa",
+      "52": "qa",
+      "53": "none",
+      "54": "negotiation",
+      "55": "negotiation",
+      "56": "negotiation",
+      "57": "negotiation",
+      "58": "negotiation",
+      "59": "negotiation",
+      "60": "negotiation",
+      "61": "negotiation",
+      "62": "negotiation",
+      "63": "negotiation",
+      "64": "negotiation",
+      "65": "negotiation",
+      "66": "negotiation",
+      "67": "negotiation",
+      "68": "negotiation",
+      "69": "negotiation",
+      "70": "negotiation",
+      "71": "negotiation"
+    },
+    "segment_seconds": {
+      "presentation": 97.0,
+      "qa": 164.0,
+      "social": 0.0,
+      "demonstration": 32.0,
+      "negotiation": 86.0,
+      "none": 37.0
+    },
+    "exchange_counts": {
+      "substantive": 10,
+      "social": 0,
+      "demonstration": 1,
+      "negotiation": 1
+    },
+    "turn_frame": {
+      "21": "unclassified",
+      "22": "unclassified",
+      "23": "promotion",
+      "24": "promotion",
+      "25": "promotion",
+      "26": "promotion",
+      "27": "promotion",
+      "28": "prevention",
+      "29": "prevention",
+      "30": "prevention",
+      "31": "prevention",
+      "32": "prevention",
+      "33": "prevention",
+      "34": "prevention",
+      "35": "prevention",
+      "36": "promotion",
+      "37": "promotion",
+      "38": "prevention",
+      "39": "promotion",
+      "40": "promotion",
+      "41": "promotion",
+      "43": "promotion",
+      "45": "prevention",
+      "46": "promotion",
+      "49": "unclassified",
+      "50": "unclassified",
+      "51": "unclassified",
+      "52": "unclassified",
+      "55": "unclassified",
+      "56": "unclassified",
+      "57": "unclassified",
+      "58": "unclassified",
+      "59": "unclassified",
+      "60": "unclassified"
+    },
+    "frame_match": {
+      "22": "unclassified",
+      "24": "match",
+      "26": "match",
+      "27": "match",
+      "29": "match",
+      "31": "match",
+      "33": "match",
+      "35": "match",
+      "37": "match",
+      "39": "switch_to_promotion",
+      "41": "match",
+      "46": "match",
+      "50": "unclassified",
+      "52": "unclassified",
+      "56": "unclassified",
+      "59": "unclassified"
+    },
+    "other_concepts": [
+      {
+        "where": "turn",
+        "id": 21,
+        "code": "PR-CONCEPT",
+        "name": "nutrition",
+        "clock": "2:41"
+      },
+      {
+        "where": "turn",
+        "id": 22,
+        "code": "RS-CONCEPT",
+        "name": "nutrition",
+        "clock": "2:48"
+      },
+      {
+        "where": "exchange",
+        "id": 2,
+        "code": "EX-TOPIC",
+        "name": "Nutritional comparison",
+        "clock": "2:41"
+      }
+    ]
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Beth Zotter"
+      },
+      {
+        "actor_id": "F2",
+        "role": "founder",
+        "label": "Amanda Stiles"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Mark Cuban"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Emma Grede"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Lori Greiner"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Robert Herjavec"
+      },
+      {
+        "actor_id": "H1",
+        "role": "host",
+        "label": "Narrator"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 16.0,
+        "end_s": 119.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 15.0,
+        "kind": "teaser"
+      },
+      {
+        "start_s": 571.0,
+        "end_s": 601.0,
+        "kind": "other"
+      }
+    ],
+    "gaps": [],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 79.0,
+        "note": "Very upbeat and smiling throughout the presentation, confident delivery."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 33.0,
+        "note": "Passionate tone when discussing the sea change and the new product."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 3,
+        "uncodable": false,
+        "moment_s": 16.0,
+        "note": "Friendly and approachable introduction, though highly focused on the pitch."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "3",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "A plant-based, seaweed-derived bacon and protein alternative.",
+      "primary_industry": "food_beverage",
+      "secondary_industries": [
+        "general_technology"
+      ],
+      "product_form": "physical_good",
+      "customer_type": "both",
+      "founder_gender": "all_women",
+      "product_category": "plant-based meat",
+      "earliest_s": 89.0,
+      "note": "",
+      "ask_amount_usd": 500000,
+      "ask_equity_pct": 2.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 16.0,
+        "end_s": 18.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Beth introduces herself to the panel."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "F2",
+        "start_s": 18.0,
+        "end_s": 24.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Amanda introduces herself and states they are the co-founders of the protein company."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "F1",
+        "start_s": 25.0,
+        "end_s": 35.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Beth states the plant-based meat category is growing but needs a new protein source to change everything."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "F2",
+        "start_s": 35.0,
+        "end_s": 54.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Amanda introduces the seaweed product, noting it is high in protein, grows fast, and requires no land or fertilizer."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "F1",
+        "start_s": 55.0,
+        "end_s": 74.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Beth explains their advanced ocean farming and extraction systems will make the ocean a future protein source."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "F2",
+        "start_s": 75.0,
+        "end_s": 82.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Amanda states they are using the protein to create a popular American food that is salty and delicious."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "F1",
+        "start_s": 83.0,
+        "end_s": 93.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Beth reveals the product is a plant-based bacon that appeals to traditional tastes."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "F2",
+        "start_s": 94.0,
+        "end_s": 107.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Amanda explains they have made both crispy and chewy versions of the bacon to satisfy all preferences."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "F1",
+        "start_s": 108.0,
+        "end_s": 119.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Beth states the market size and asks for five hundred thousand dollars for two percent equity."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "S3",
+        "start_s": 119.0,
+        "end_s": 120.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Emma expresses excitement to try the product and hopes it tastes good."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "F1",
+        "start_s": 121.0,
+        "end_s": 134.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Beth explains the samples provided, noting the crispy bacon in the sandwich and the chewy bacon on the side."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "S4",
+        "start_s": 138.0,
+        "end_s": 140.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori states the crispy version is acceptable but she does not care for the chewy version."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "S5",
+        "start_s": 140.0,
+        "end_s": 141.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert asks which version is the one he is holding."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "F1",
+        "start_s": 142.0,
+        "end_s": 144.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Beth clarifies that the one he is holding is the chewy version straight from the package."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "S5",
+        "start_s": 144.0,
+        "end_s": 147.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert predicts most will prefer the crispy version and states he does not love the product."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "S5",
+        "start_s": 149.0,
+        "end_s": 151.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert adds that the chewy version lacks the expected flavor of the traditional meat."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "F1",
+        "start_s": 151.0,
+        "end_s": 153.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Beth asserts the crispy version has the correct flavor and notes the salted taste."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "S1",
+        "start_s": 153.0,
+        "end_s": 155.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark agrees that the crispy version has the expected salted and cured flavor profile."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "S5",
+        "start_s": 155.0,
+        "end_s": 158.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert praises the product when eaten as part of the provided sandwich."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "S3",
+        "start_s": 159.0,
+        "end_s": 160.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Emma agrees that the product works very well inside the sandwich."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "S4",
+        "start_s": 161.0,
+        "end_s": 167.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "other",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": "nutrition",
+        "summary": "Lori asks how the calorie count of their product compares to a strip of traditional bacon."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "F2",
+        "start_s": 168.0,
+        "end_s": 176.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          21
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "other",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": "nutrition",
+        "summary": "Amanda explains the nutritional profile is very similar, with comparable fat but slightly lower protein to maintain texture."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "S3",
+        "start_s": 176.0,
+        "end_s": 179.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Emma asks about the founders' backgrounds and how they developed the product idea."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "F1",
+        "start_s": 180.0,
+        "end_s": 205.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          23
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "4",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Beth details her background in renewable energy and a large government grant to engineer offshore seaweed farms."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "S3",
+        "start_s": 206.0,
+        "end_s": 207.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Emma asks how the two founders met and teamed up."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "F1",
+        "start_s": 208.0,
+        "end_s": 214.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          25
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Beth explains they grew up in the same area but met in college when she sought a protein expert."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "F2",
+        "start_s": 215.0,
+        "end_s": 232.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          25
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Amanda shares her mission to reduce factory farming and her doctorate in plant biochemistry that provides her expertise."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "S3",
+        "start_s": 233.0,
+        "end_s": 234.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Emma asks how many competitors currently exist in their specific market space."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "F1",
+        "start_s": 235.0,
+        "end_s": 252.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          28
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Beth states they are the only company commercializing seaweed protein and lists their foundational patent applications."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "S3",
+        "start_s": 253.0,
+        "end_s": 254.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Emma notes that the company is not yet selling the product to consumers."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "F1",
+        "start_s": 255.0,
+        "end_s": 256.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          30
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Beth confirms the product provided is an early prototype from their first batch."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "S4",
+        "start_s": 260.0,
+        "end_s": 262.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks about the manufacturing cost and the intended selling price of the product."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "F1",
+        "start_s": 263.0,
+        "end_s": 283.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          32
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "5",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "5",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "4",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Beth details the wholesale price for food service, the distributor cut, and their current and projected production costs."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "S1",
+        "start_s": 284.0,
+        "end_s": 293.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark suggests others will access seaweed and questions if their only advantage is extraction efficiency."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "F1",
+        "start_s": 294.0,
+        "end_s": 297.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          34
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Beth counters that their patent applications specifically cover the use of seaweed protein in plant-based meats."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "S3",
+        "start_s": 298.0,
+        "end_s": 300.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "vision",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Emma asks what other products the company plans to develop after the bacon."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "F1",
+        "start_s": 301.0,
+        "end_s": 309.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          36
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "vision",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Beth shares their plans to expand into other breakfast meats and cured meats like pepperoni and salami."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "S2",
+        "start_s": 309.0,
+        "end_s": 314.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin questions their strategy of building an entire product line from scratch rather than licensing."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "F1",
+        "start_s": 315.0,
+        "end_s": 317.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          38
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "deflects",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "vision",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Beth asserts their ambition to become a dominant company in the industry over the next decade."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "S1",
+        "start_s": 318.0,
+        "end_s": 329.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark expresses concern over the high valuation, questioning how they will win consumers over existing alternatives."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "F1",
+        "start_s": 338.0,
+        "end_s": 341.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          40
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Beth claims no competitor will be able to match the quality of their product."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "S5",
+        "start_s": 342.0,
+        "end_s": 343.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert challenges her assertion, noting it relies entirely on a subjective taste preference."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "F1",
+        "start_s": 344.0,
+        "end_s": 345.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          42
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "1",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Beth reiterates that their product authentically replicates the taste of traditional bacon."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "S5",
+        "start_s": 346.0,
+        "end_s": 347.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert expresses doubt that the product perfectly mimics the taste of the real meat."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "F1",
+        "start_s": 348.0,
+        "end_s": 349.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          44
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Beth acknowledges it is a prototype and promises continuous improvement of the recipe."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "F2",
+        "start_s": 353.0,
+        "end_s": 358.0,
+        "function": "answer",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          40
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Amanda adds that they already have a purchase order and are negotiating with restaurant chains."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "S5",
+        "start_s": 359.0,
+        "end_s": 367.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert exits, stating he cannot invest at the requested valuation based solely on subjective taste."
+      },
+      {
+        "turn_id": 48,
+        "speaker": "F1",
+        "start_s": 368.0,
+        "end_s": 379.0,
+        "function": "NONE",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Beth delivers a rehearsed statement about the plant-based food revolution and their future dominance in the market."
+      },
+      {
+        "turn_id": 49,
+        "speaker": "S1",
+        "start_s": 380.0,
+        "end_s": 382.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark points out that achieving their goals will require raising a massive amount of capital."
+      },
+      {
+        "turn_id": 50,
+        "speaker": "F1",
+        "start_s": 383.0,
+        "end_s": 385.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          49
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Beth confirms they are currently in the middle of raising a Series A funding round."
+      },
+      {
+        "turn_id": 51,
+        "speaker": "S1",
+        "start_s": 386.0,
+        "end_s": 386.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks what valuation they are using for their current funding round."
+      },
+      {
+        "turn_id": 52,
+        "speaker": "F1",
+        "start_s": 387.0,
+        "end_s": 387.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          51
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "1",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Beth states the current funding round is at a twenty-five million dollar valuation."
+      },
+      {
+        "turn_id": 53,
+        "speaker": "S3",
+        "start_s": 389.0,
+        "end_s": 407.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Emma praises the founders but exits due to the high valuation and the likelihood of future dilution."
+      },
+      {
+        "turn_id": 54,
+        "speaker": "S2",
+        "start_s": 411.0,
+        "end_s": 427.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin offers the requested amount but asks for eight percent equity, citing the value he brings."
+      },
+      {
+        "turn_id": 55,
+        "speaker": "S1",
+        "start_s": 431.0,
+        "end_s": 432.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks for the total amount they intend to raise in the current funding round."
+      },
+      {
+        "turn_id": 56,
+        "speaker": "F1",
+        "start_s": 432.0,
+        "end_s": 433.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [
+          55
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "1",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Beth clarifies they are raising ten million dollars in the current round."
+      },
+      {
+        "turn_id": 57,
+        "speaker": "S1",
+        "start_s": 433.0,
+        "end_s": 435.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks if the founders are willing to negotiate the equity offered."
+      },
+      {
+        "turn_id": 58,
+        "speaker": "S2",
+        "start_s": 436.0,
+        "end_s": 437.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks if they will give up more equity for the requested half million dollars."
+      },
+      {
+        "turn_id": 59,
+        "speaker": "F1",
+        "start_s": 438.0,
+        "end_s": 439.0,
+        "function": "answer",
+        "addressed": [
+          "S1",
+          "S2"
+        ],
+        "exchange_id": 12,
+        "responds_to": [
+          57,
+          58
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "1",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Beth confirms they are willing to offer more equity for the requested investment amount."
+      },
+      {
+        "turn_id": 60,
+        "speaker": "S5",
+        "start_s": 440.0,
+        "end_s": 442.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks if they would accept Kevin's offer of eight percent equity."
+      },
+      {
+        "turn_id": 61,
+        "speaker": "F1",
+        "start_s": 443.0,
+        "end_s": 445.0,
+        "function": "decides",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Beth counters Kevin's offer, proposing eight percent equity for a one million dollar investment."
+      },
+      {
+        "turn_id": 62,
+        "speaker": "S1",
+        "start_s": 446.0,
+        "end_s": 447.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark immediately accepts the founders' counter-offer terms for himself."
+      },
+      {
+        "turn_id": 63,
+        "speaker": "S4",
+        "start_s": 454.0,
+        "end_s": 471.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori praises the founders and offers the requested amount for four percent, asking for anti-dilution protection."
+      },
+      {
+        "turn_id": 64,
+        "speaker": "S1",
+        "start_s": 475.0,
+        "end_s": 487.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark reminds the founders his offer stands and highlights his experience and portfolio in the plant-based space."
+      },
+      {
+        "turn_id": 65,
+        "speaker": "F1",
+        "start_s": 488.0,
+        "end_s": 490.0,
+        "function": "negotiates",
+        "addressed": [
+          "S1",
+          "S4"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Beth asks if Mark and Lori would consider partnering together on the deal."
+      },
+      {
+        "turn_id": 66,
+        "speaker": "S1",
+        "start_s": 490.0,
+        "end_s": 491.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark declines the suggestion to partner with another investor."
+      },
+      {
+        "turn_id": 67,
+        "speaker": "S4",
+        "start_s": 491.0,
+        "end_s": 510.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori highlights her corporate connections and suggests the founders must choose their preferred partner."
+      },
+      {
+        "turn_id": 68,
+        "speaker": "S1",
+        "start_s": 511.0,
+        "end_s": 514.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark emphasizes his deep commitment and passion for the businesses he invests in."
+      },
+      {
+        "turn_id": 69,
+        "speaker": "F1",
+        "start_s": 524.0,
+        "end_s": 526.0,
+        "function": "decides",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Beth asks Mark if he would be willing to reduce his equity requirement to seven percent."
+      },
+      {
+        "turn_id": 70,
+        "speaker": "S1",
+        "start_s": 526.0,
+        "end_s": 528.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark agrees to the revised equity term of seven percent."
+      },
+      {
+        "turn_id": 71,
+        "speaker": "F1",
+        "start_s": 528.0,
+        "end_s": 529.0,
+        "function": "decides",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Beth accepts Mark's revised offer to close the deal."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "demonstration",
+        "topic": "NONE",
+        "label": "Tasting the bacon"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "substantive",
+        "topic": "other",
+        "label": "Nutritional comparison"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "self_promotion",
+        "label": "Founders' backgrounds"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "substantive",
+        "topic": "competition",
+        "label": "Market competitors"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "Prototype status"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "substantive",
+        "topic": "operating_efficiency",
+        "label": "Costs and pricing"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "substantive",
+        "topic": "competition",
+        "label": "Patent protection"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "substantive",
+        "topic": "vision",
+        "label": "Future product lines"
+      },
+      {
+        "exchange_id": 9,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "Building from scratch"
+      },
+      {
+        "exchange_id": 10,
+        "kind": "substantive",
+        "topic": "go_to_market",
+        "label": "Consumer adoption and traction"
+      },
+      {
+        "exchange_id": 11,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "Current fundraising round"
+      },
+      {
+        "exchange_id": 12,
+        "kind": "negotiation",
+        "topic": "NONE",
+        "label": "Offers and equity"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S5",
+        "kind": "exit",
+        "time_s": 359.0,
+        "turn_id": 47,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Valuation too high based solely on subjective taste preference."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S3",
+        "kind": "exit",
+        "time_s": 389.0,
+        "turn_id": 53,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Valuation is too high and expects to be diluted in future funding rounds."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S2",
+        "kind": "offer",
+        "time_s": 411.0,
+        "turn_id": 54,
+        "offer_id": "O1",
+        "terms": "$500k for 8%.",
+        "note": "Offers the requested amount for more equity, citing the value he brings."
+      },
+      {
+        "decision_id": 4,
+        "actor": "F1",
+        "kind": "founder_counters",
+        "time_s": 443.0,
+        "turn_id": 61,
+        "offer_id": "O1",
+        "terms": "$1M for 8%.",
+        "note": "Counters Kevin's offer by asking for double the investment amount for the 8%."
+      },
+      {
+        "decision_id": 5,
+        "actor": "S1",
+        "kind": "offer",
+        "time_s": 446.0,
+        "turn_id": 62,
+        "offer_id": "O2",
+        "terms": "$1M for 8%.",
+        "note": "Accepts the terms of the founders' counter-offer as his own new offer."
+      },
+      {
+        "decision_id": 6,
+        "actor": "S4",
+        "kind": "offer",
+        "time_s": 454.0,
+        "turn_id": 63,
+        "offer_id": "O3",
+        "terms": "$500k for 4%, non-dilutive through next round.",
+        "note": "Wants to support the women and offers a non-dilutive deal."
+      },
+      {
+        "decision_id": 7,
+        "actor": "F1",
+        "kind": "founder_counters",
+        "time_s": 524.0,
+        "turn_id": 69,
+        "offer_id": "O2",
+        "terms": "$1M for 7%.",
+        "note": "Asks Mark to drop his equity requirement by one percent."
+      },
+      {
+        "decision_id": 8,
+        "actor": "S1",
+        "kind": "revises_offer",
+        "time_s": 526.0,
+        "turn_id": 70,
+        "offer_id": "O2",
+        "terms": "$1M for 7%.",
+        "note": "Agrees to the founders' revised equity term."
+      },
+      {
+        "decision_id": 9,
+        "actor": "F1",
+        "kind": "founder_accepts",
+        "time_s": 528.0,
+        "turn_id": 71,
+        "offer_id": "O2",
+        "terms": "$1M for 7%.",
+        "note": "Accepts Mark's revised offer to close the deal."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": ""
+  }
+}

@@ -1,0 +1,1849 @@
+{
+  "pass": "replicate",
+  "unit_key": "panel__st_66a79fb6e4__replicate",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:16-1:39"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "presentation",
+      "3": "presentation",
+      "4": "presentation",
+      "5": "none",
+      "6": "presentation",
+      "7": "presentation",
+      "8": "presentation",
+      "9": "presentation",
+      "10": "presentation",
+      "11": "demonstration",
+      "12": "demonstration",
+      "13": "demonstration",
+      "14": "none",
+      "15": "qa",
+      "16": "qa",
+      "17": "qa",
+      "18": "qa",
+      "19": "qa",
+      "20": "qa",
+      "21": "qa",
+      "22": "qa",
+      "23": "qa",
+      "24": "qa",
+      "25": "qa",
+      "26": "qa",
+      "27": "social",
+      "28": "social",
+      "29": "qa",
+      "30": "qa",
+      "31": "qa",
+      "32": "qa",
+      "33": "qa",
+      "34": "qa",
+      "35": "qa",
+      "36": "qa",
+      "37": "none",
+      "38": "social",
+      "39": "qa",
+      "40": "none",
+      "41": "qa",
+      "42": "qa",
+      "43": "qa",
+      "44": "none",
+      "45": "none",
+      "46": "none",
+      "47": "none",
+      "48": "qa",
+      "49": "qa",
+      "50": "none",
+      "51": "none",
+      "52": "negotiation",
+      "53": "negotiation",
+      "54": "negotiation",
+      "55": "negotiation",
+      "56": "negotiation",
+      "57": "negotiation",
+      "58": "negotiation",
+      "59": "negotiation",
+      "60": "negotiation",
+      "61": "negotiation",
+      "62": "none"
+    },
+    "segment_seconds": {
+      "presentation": 76.0,
+      "qa": 186.0,
+      "social": 22.0,
+      "demonstration": 35.0,
+      "negotiation": 78.0,
+      "none": 231.0
+    },
+    "exchange_counts": {
+      "substantive": 9,
+      "social": 1,
+      "demonstration": 1,
+      "negotiation": 1
+    },
+    "turn_frame": {
+      "15": "promotion",
+      "16": "promotion",
+      "17": "promotion",
+      "18": "promotion",
+      "19": "prevention",
+      "20": "prevention",
+      "21": "promotion",
+      "22": "promotion",
+      "23": "promotion",
+      "24": "promotion",
+      "25": "promotion",
+      "26": "promotion",
+      "29": "promotion",
+      "30": "promotion",
+      "31": "promotion",
+      "32": "promotion",
+      "33": "NEUTRAL",
+      "34": "promotion",
+      "35": "unclassified",
+      "36": "unclassified"
+    },
+    "frame_match": {
+      "16": "match",
+      "18": "match",
+      "20": "match",
+      "22": "match",
+      "24": "match",
+      "26": "match",
+      "30": "match",
+      "32": "match",
+      "34": "neutral",
+      "36": "unclassified"
+    },
+    "other_concepts": []
+  },
+  "normalizations": [
+    "turns[17].codes PREP-COH: value 'null' dropped because missing is 'not_applicable'",
+    "turns[17].codes PREP-CTX: value 'null' dropped because missing is 'not_applicable'",
+    "turns[19].codes PREP-COH: value 'null' dropped because missing is 'not_applicable'",
+    "turns[19].codes PREP-CTX: value 'null' dropped because missing is 'not_applicable'",
+    "turns[21].codes PREP-COH: value 'null' dropped because missing is 'not_applicable'",
+    "turns[21].codes PREP-CTX: value 'null' dropped because missing is 'not_applicable'",
+    "turns[29].codes PREP-COH: value 'null' dropped because missing is 'not_applicable'",
+    "turns[29].codes PREP-CTX: value 'null' dropped because missing is 'not_applicable'",
+    "turns[31].codes PREP-COH: value 'null' dropped because missing is 'not_applicable'",
+    "turns[31].codes PREP-CTX: value 'null' dropped because missing is 'not_applicable'",
+    "turns[33].codes PREP-COH: value 'null' dropped because missing is 'not_applicable'",
+    "turns[33].codes PREP-CTX: value 'null' dropped because missing is 'not_applicable'",
+    "turns[35].codes PREP-COH: value 'null' dropped because missing is 'not_applicable'",
+    "turns[35].codes PREP-CTX: value 'null' dropped because missing is 'not_applicable'"
+  ],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Duc Nguyen"
+      },
+      {
+        "actor_id": "F2",
+        "role": "founder",
+        "label": "Lisa Nguyen"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Daymond John"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Lori Greiner"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Robert Herjavec"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Mark Cuban"
+      },
+      {
+        "actor_id": "H1",
+        "role": "host",
+        "label": "Narrator"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 16.0,
+        "end_s": 99.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 15.0,
+        "kind": "narration"
+      },
+      {
+        "start_s": 586.0,
+        "end_s": 597.0,
+        "kind": "recap"
+      },
+      {
+        "start_s": 717.0,
+        "end_s": 736.0,
+        "kind": "teaser"
+      }
+    ],
+    "gaps": [
+      {
+        "at_s": 586.0,
+        "note": "commercial break edit hides the transition and repeats earlier dialogue"
+      }
+    ],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 5,
+        "uncodable": false,
+        "moment_s": 93.0,
+        "note": "Sustained bright smiles, enthusiastic vocal delivery and high energy throughout the pitch."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 5,
+        "uncodable": false,
+        "moment_s": 93.0,
+        "note": "Pronounced excitement about the product possibilities, expressed with energetic gestures and tone."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 5,
+        "uncodable": false,
+        "moment_s": 25.0,
+        "note": "Highly approachable and friendly orientation, introducing their family with warm smiles."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "1",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "2",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "Interchangeable shoe accessories and soles for children to extend shoe life and customize outfits.",
+      "primary_industry": "apparel_accessories",
+      "secondary_industries": [
+        "children_education"
+      ],
+      "product_form": "physical_good",
+      "customer_type": "consumer",
+      "founder_gender": "mixed",
+      "product_category": "Children's interchangeable shoes",
+      "earliest_s": 33.0,
+      "note": "Ask is $100,000 for 15% equity.",
+      "ask_amount_usd": 100000,
+      "ask_equity_pct": 15.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 16.0,
+        "end_s": 19.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 introduces himself and his wife Lisa to the panel of investors."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "F2",
+        "start_s": 19.0,
+        "end_s": 25.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F2 introduces their daughter Kaya and her friend Audrey who are modeling the shoes."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "F1",
+        "start_s": 26.0,
+        "end_s": 32.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 states they are seeking one hundred thousand dollars for fifteen percent equity in their company."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "F2",
+        "start_s": 33.0,
+        "end_s": 50.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F2 explains the problem of children constantly outgrowing their shoes within just a couple of months."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "S2",
+        "start_s": 50.0,
+        "end_s": 52.0,
+        "function": "accepts",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [
+          4
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S2 agrees that children outgrow their shoes very quickly."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "F2",
+        "start_s": 52.0,
+        "end_s": 57.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F2 presents their idea of inventing a single shoe that can be styled with any outfit."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "F1",
+        "start_s": 57.0,
+        "end_s": 62.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 confirms that they successfully invented exactly what they set out to create."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "F2",
+        "start_s": 62.0,
+        "end_s": 80.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F2 introduces Baubles and Soles, their patent-pending interchangeable shoes that allow customization for any occasion."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "F1",
+        "start_s": 82.0,
+        "end_s": 92.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 lists the shoe's features, noting they are machine washable, slip-resistant, and made in America."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "F2",
+        "start_s": 93.0,
+        "end_s": 99.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F2 asks the investors who is ready to partner with them and join their journey."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "F1",
+        "start_s": 99.0,
+        "end_s": 113.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 hands out sample shoes and baubles to the investors for them to examine closely."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "F1",
+        "start_s": 113.0,
+        "end_s": 127.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 demonstrates the twist mechanism used to securely attach the baubles to the shoe soles."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "S5",
+        "start_s": 127.0,
+        "end_s": 134.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S5 successfully tries attaching a bauble to the shoe and expresses his understanding of the mechanism."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "F2",
+        "start_s": 134.0,
+        "end_s": 139.0,
+        "function": "social",
+        "addressed": [
+          "UNKNOWN"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F2 waves and says goodbye to the young girls as they leave the presentation set."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "S4",
+        "start_s": 140.0,
+        "end_s": 142.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S4 asks the founders how they originally came up with the idea for the interchangeable shoes."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "F2",
+        "start_s": 142.0,
+        "end_s": 168.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          15
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F2 explains the idea came from wanting to remove a red heart from her daughter's shoe."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "S2",
+        "start_s": 168.0,
+        "end_s": 170.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S2 asks how many different accessory items they currently have available to attach to the shoes."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "F2",
+        "start_s": 171.0,
+        "end_s": 173.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          17
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F2 answers that they currently offer about twenty different bauble designs for the shoes."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "S5",
+        "start_s": 173.0,
+        "end_s": 176.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S5 asks for the manufacturing cost of one package of the base shoes."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "F1",
+        "start_s": 176.0,
+        "end_s": 183.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          19
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 explains the base shoes cost eleven dollars to make and retail for nearly fifty dollars."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "S2",
+        "start_s": 184.0,
+        "end_s": 186.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S2 asks about the retail price for an individual package of the character baubles."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "F2",
+        "start_s": 186.0,
+        "end_s": 189.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          21
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F2 states the character baubles retail between thirteen and seventeen dollars depending on the design."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "S2",
+        "start_s": 190.0,
+        "end_s": 192.0,
+        "function": "question",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S2 asks both founders to share their professional backgrounds with the panel."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "F1",
+        "start_s": 192.0,
+        "end_s": 210.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          23
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 shares his background in film and his experience running a wedding video production company."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "S2",
+        "start_s": 210.0,
+        "end_s": 212.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S2 asks Lisa to share the details of her personal and professional background."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "F2",
+        "start_s": 212.0,
+        "end_s": 255.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          25
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "5",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F2 shares her inspiring journey from a Vietnamese refugee camp to working in law and finance."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "S1",
+        "start_s": 256.0,
+        "end_s": 268.0,
+        "function": "social",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S1 praises Lisa's incredible refugee survival story and expresses confidence in her strong work ethic."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "F2",
+        "start_s": 268.0,
+        "end_s": 270.0,
+        "function": "social",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F2 proudly agrees with the sentiment that immigrants work hard and get things done."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "S4",
+        "start_s": 270.0,
+        "end_s": 271.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S4 asks the founders to share their total sales figures with the panel."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "F2",
+        "start_s": 271.0,
+        "end_s": 274.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          29
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F2 states they have generated one hundred fifty thousand dollars in revenue over the last year."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "S4",
+        "start_s": 274.0,
+        "end_s": 275.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S4 asks which sales channels they used to achieve that amount of revenue."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "F2",
+        "start_s": 275.0,
+        "end_s": 284.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          31
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F2 explains their sales come from their website and wholesale, with wholesale making up eighty percent."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "S4",
+        "start_s": 284.0,
+        "end_s": 285.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "NONE",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S4 repeats the fact that eighty percent of their business is currently going to wholesale."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "F2",
+        "start_s": 285.0,
+        "end_s": 291.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          33
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "forecast",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F2 confirms the wholesale figure and projects three hundred thousand dollars in revenue for this year."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "S5",
+        "start_s": 291.0,
+        "end_s": 293.0,
+        "function": "question",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S5 asks the founders what exactly they are looking for in an investor partner."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "F2",
+        "start_s": 293.0,
+        "end_s": 298.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          35
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F2 explains they are seeking a strategic partner to help them capture the huge American market."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "S1",
+        "start_s": 298.0,
+        "end_s": 320.0,
+        "function": "decides",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S1 exits, citing the nightmare of managing inventory for so many different sizes and colors."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "S4",
+        "start_s": 322.0,
+        "end_s": 330.0,
+        "function": "social",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          26
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S4 expresses deep respect for their story and their journey starting from the very bottom."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "F2",
+        "start_s": 330.0,
+        "end_s": 339.0,
+        "function": "repair",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          37
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F2 argues their inventory risk is low because they only need to manufacture three hundred pairs per run."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "S4",
+        "start_s": 340.0,
+        "end_s": 358.0,
+        "function": "decides",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S4 exits, expressing concern over their low direct-to-consumer online sales of only thirty thousand dollars."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "F2",
+        "start_s": 358.0,
+        "end_s": 364.0,
+        "function": "repair",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          40
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F2 explains they have done absolutely no advertising, so all online sales have been entirely organic."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "S5",
+        "start_s": 365.0,
+        "end_s": 367.0,
+        "function": "challenges",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          41
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S5 challenges that their complete lack of advertising is exactly the problem they are facing."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "F2",
+        "start_s": 367.0,
+        "end_s": 381.0,
+        "function": "repair",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          42
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F2 shares their plan to implement a custom shoe-building model on their website to boost sales."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "S5",
+        "start_s": 382.0,
+        "end_s": 415.0,
+        "function": "decides",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S5 exits, stating the product lacks obvious differentiation and they have no clear marketing strategy."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "F1",
+        "start_s": 415.0,
+        "end_s": 418.0,
+        "function": "social",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 and F2 politely thank Mark for his time and feedback."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "S3",
+        "start_s": 418.0,
+        "end_s": 447.0,
+        "function": "decides",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S3 exits, respecting their realistic valuation but refusing to enter the difficult shoe business."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "F2",
+        "start_s": 447.0,
+        "end_s": 465.0,
+        "function": "social",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F2 understands his decision and expresses hope that Lori will be interested in the product."
+      },
+      {
+        "turn_id": 48,
+        "speaker": "F2",
+        "start_s": 471.0,
+        "end_s": 484.0,
+        "function": "repair",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          46
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F2 pitches their high returning customer rate of forty-six percent to the remaining investors."
+      },
+      {
+        "turn_id": 49,
+        "speaker": "S2",
+        "start_s": 485.0,
+        "end_s": 487.0,
+        "function": "accepts",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          48
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S2 acknowledges that a high customer retention rate is a very positive metric for the business."
+      },
+      {
+        "turn_id": 50,
+        "speaker": "S2",
+        "start_s": 487.0,
+        "end_s": 551.0,
+        "function": "decides",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S2 exits, moved by their story but deterred by the difficult and highly competitive shoe landscape."
+      },
+      {
+        "turn_id": 51,
+        "speaker": "F2",
+        "start_s": 551.0,
+        "end_s": 563.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F2 remains optimistic, stating that this setback is definitely not the end of their journey."
+      },
+      {
+        "turn_id": 52,
+        "speaker": "F2",
+        "start_s": 563.0,
+        "end_s": 575.0,
+        "function": "negotiates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F2 proposes de-risking the deal by offering to pay back the investment from revenue in two years."
+      },
+      {
+        "turn_id": 53,
+        "speaker": "S1",
+        "start_s": 575.0,
+        "end_s": 578.0,
+        "function": "accepts",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 12,
+        "responds_to": [
+          52
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S1 expresses his strong confidence that their company is ultimately going to be successful."
+      },
+      {
+        "turn_id": 54,
+        "speaker": "F2",
+        "start_s": 578.0,
+        "end_s": 585.0,
+        "function": "negotiates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F2 pleads with the panel, stating that securing a Shark has been their biggest dream."
+      },
+      {
+        "turn_id": 55,
+        "speaker": "F2",
+        "start_s": 597.0,
+        "end_s": 628.0,
+        "function": "negotiates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F2 reiterates their dedication and strong desire to work with the investors after the commercial break."
+      },
+      {
+        "turn_id": 56,
+        "speaker": "S4",
+        "start_s": 628.0,
+        "end_s": 637.0,
+        "function": "challenges",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 12,
+        "responds_to": [
+          55
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S4 reiterates that the business is simply not at the point where he can invest."
+      },
+      {
+        "turn_id": 57,
+        "speaker": "F2",
+        "start_s": 637.0,
+        "end_s": 639.0,
+        "function": "negotiates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F2 insists that they are here specifically for the investors and want to make a deal."
+      },
+      {
+        "turn_id": 58,
+        "speaker": "S1",
+        "start_s": 639.0,
+        "end_s": 644.0,
+        "function": "decides",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S1 offers one hundred thousand dollars for twenty-five percent equity, believing in their strong drive."
+      },
+      {
+        "turn_id": 59,
+        "speaker": "F2",
+        "start_s": 645.0,
+        "end_s": 647.0,
+        "function": "negotiates",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F2 expresses shock and amazement at receiving an offer from Daymond."
+      },
+      {
+        "turn_id": 60,
+        "speaker": "S1",
+        "start_s": 648.0,
+        "end_s": 650.0,
+        "function": "negotiates",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S1 affirms he wants to be in business with them on a straightforward equity deal."
+      },
+      {
+        "turn_id": 61,
+        "speaker": "F2",
+        "start_s": 650.0,
+        "end_s": 655.0,
+        "function": "decides",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F2 happily accepts Daymond's offer without any further negotiation."
+      },
+      {
+        "turn_id": 62,
+        "speaker": "S1",
+        "start_s": 655.0,
+        "end_s": 680.0,
+        "function": "social",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The founders and Daymond share hugs to celebrate their new partnership and successful deal."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "demonstration",
+        "topic": "NONE",
+        "label": "Handing out and attaching baubles"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "substantive",
+        "topic": "self_promotion",
+        "label": "Idea origin"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "assets",
+        "label": "Number of attachments"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "substantive",
+        "topic": "operating_efficiency",
+        "label": "Cost and price"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "self_promotion",
+        "label": "Founders' backgrounds"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "Praising refugee story"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "Sales and distribution"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "Partner search"
+      },
+      {
+        "exchange_id": 9,
+        "kind": "substantive",
+        "topic": "operating_efficiency",
+        "label": "Inventory management"
+      },
+      {
+        "exchange_id": 10,
+        "kind": "substantive",
+        "topic": "customer_acquisition",
+        "label": "DTC marketing"
+      },
+      {
+        "exchange_id": 11,
+        "kind": "substantive",
+        "topic": "customer_retention",
+        "label": "Customer retention rate"
+      },
+      {
+        "exchange_id": 12,
+        "kind": "negotiation",
+        "topic": "NONE",
+        "label": "Negotiating an offer"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S1",
+        "kind": "exit",
+        "time_s": 298.0,
+        "turn_id": 37,
+        "offer_id": null,
+        "terms": "",
+        "note": "Challenging inventory management with too many sizes and colors to stock."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S4",
+        "kind": "exit",
+        "time_s": 340.0,
+        "turn_id": 40,
+        "offer_id": null,
+        "terms": "",
+        "note": "Concerns about growing direct-to-consumer sales, with only $30k sold online."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S5",
+        "kind": "exit",
+        "time_s": 382.0,
+        "turn_id": 44,
+        "offer_id": null,
+        "terms": "",
+        "note": "Product lacks obvious differentiation and they haven't figured out a marketing strategy."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S3",
+        "kind": "exit",
+        "time_s": 418.0,
+        "turn_id": 46,
+        "offer_id": null,
+        "terms": "",
+        "note": "Realistic valuation, but he simply does not want to be in the shoe business."
+      },
+      {
+        "decision_id": 5,
+        "actor": "S2",
+        "kind": "exit",
+        "time_s": 487.0,
+        "turn_id": 50,
+        "offer_id": null,
+        "terms": "",
+        "note": "Moved by the story but deterred by the difficult and competitive shoe landscape."
+      },
+      {
+        "decision_id": 6,
+        "actor": "S1",
+        "kind": "offer",
+        "time_s": 639.0,
+        "turn_id": 58,
+        "offer_id": "O1",
+        "terms": "$100,000 for 25%",
+        "note": "Believes in the founders' drive and wants to be in business with them."
+      },
+      {
+        "decision_id": 7,
+        "actor": "F2",
+        "kind": "founder_accepts",
+        "time_s": 650.0,
+        "turn_id": 61,
+        "offer_id": "O1",
+        "terms": "$100,000 for 25%",
+        "note": "Accepts Daymond's offer."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": ""
+  }
+}

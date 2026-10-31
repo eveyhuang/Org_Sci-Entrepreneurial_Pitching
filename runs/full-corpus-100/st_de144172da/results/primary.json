@@ -1,0 +1,1751 @@
+{
+  "pass": "primary",
+  "unit_key": "panel__st_de144172da__primary",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "1:17-2:40"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "none",
+      "3": "none",
+      "4": "qa",
+      "5": "qa",
+      "6": "qa",
+      "7": "qa",
+      "8": "qa",
+      "9": "qa",
+      "10": "qa",
+      "11": "qa",
+      "12": "qa",
+      "13": "qa",
+      "14": "qa",
+      "15": "qa",
+      "16": "qa",
+      "17": "qa",
+      "18": "qa",
+      "19": "qa",
+      "20": "qa",
+      "21": "qa",
+      "22": "qa",
+      "23": "qa",
+      "24": "qa",
+      "25": "qa",
+      "26": "qa",
+      "27": "qa",
+      "28": "qa",
+      "29": "qa",
+      "30": "qa",
+      "31": "qa",
+      "32": "none",
+      "33": "negotiation",
+      "34": "negotiation",
+      "35": "none",
+      "36": "none",
+      "37": "none",
+      "38": "negotiation",
+      "39": "negotiation",
+      "40": "negotiation",
+      "41": "negotiation",
+      "42": "negotiation",
+      "43": "negotiation"
+    },
+    "segment_seconds": {
+      "presentation": 83.0,
+      "qa": 309.0,
+      "social": 0.0,
+      "demonstration": 0.0,
+      "negotiation": 47.0,
+      "none": 99.0
+    },
+    "exchange_counts": {
+      "substantive": 9,
+      "social": 0,
+      "demonstration": 0,
+      "negotiation": 1
+    },
+    "turn_frame": {
+      "4": "promotion",
+      "5": "promotion",
+      "6": "promotion",
+      "7": "promotion",
+      "8": "promotion",
+      "9": "promotion",
+      "10": "promotion",
+      "11": "promotion",
+      "12": "promotion",
+      "13": "promotion",
+      "14": "promotion",
+      "15": "promotion",
+      "16": "promotion",
+      "17": "promotion",
+      "18": "promotion",
+      "19": "prevention",
+      "20": "prevention",
+      "21": "prevention",
+      "22": "prevention",
+      "23": "promotion",
+      "24": "promotion",
+      "25": "prevention",
+      "26": "prevention",
+      "27": "unclassified",
+      "28": "unclassified",
+      "29": "unclassified",
+      "30": "unclassified",
+      "31": "unclassified"
+    },
+    "frame_match": {
+      "5": "match",
+      "7": "match",
+      "9": "match",
+      "11": "match",
+      "13": "match",
+      "15": "match",
+      "16": "match",
+      "18": "match",
+      "20": "match",
+      "22": "match",
+      "24": "match",
+      "26": "match",
+      "28": "unclassified",
+      "29": "unclassified",
+      "31": "unclassified"
+    },
+    "other_concepts": []
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Joe Dowell"
+      },
+      {
+        "actor_id": "F2",
+        "role": "founder",
+        "label": "Maranda Dowell"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Robert Herjavec"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Lori Greiner"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Mark Cuban"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Daymond John"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 77.0,
+        "end_s": 160.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 62.0,
+        "kind": "teaser"
+      },
+      {
+        "start_s": 695.0,
+        "end_s": 726.0,
+        "kind": "other"
+      }
+    ],
+    "gaps": [],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 5,
+        "uncodable": false,
+        "moment_s": 135.0,
+        "note": "The founders are highly energetic, smiling constantly, and high-five during the pitch, showing sustained positive engagement."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 5,
+        "uncodable": false,
+        "moment_s": 93.0,
+        "note": "They use loud, animated vocal delivery and large gestures to express pronounced excitement about their product."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 78.0,
+        "note": "The founders maintain a friendly, approachable demeanor, smiling warmly at the panel throughout their presentation."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "2",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "1",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "0",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "A versatile seafood breading mix that can be used for frying, baking, or air-frying various foods.",
+      "primary_industry": "food_beverage",
+      "secondary_industries": [],
+      "product_form": "physical_good",
+      "customer_type": "both",
+      "founder_gender": "mixed",
+      "product_category": "seafood breading mix",
+      "earliest_s": 82.0,
+      "note": "They sell directly to consumers and to wholesale and retail channels.",
+      "ask_amount_usd": 150000,
+      "ask_equity_pct": 15.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 77.0,
+        "end_s": 160.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The founders introduce themselves, their company, the ask, and describe their versatile seafood breading mix before offering samples."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "S1",
+        "start_s": 160.0,
+        "end_s": 188.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The investors receive plates of food prepared with the breading mix and taste the samples, expressing approval."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "S2",
+        "start_s": 188.0,
+        "end_s": 191.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The investor asks to see the packaging, and a founder hands him a bag of the mix."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "S1",
+        "start_s": 191.0,
+        "end_s": 194.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The investor asks if the fish fry mix can be applied to vegetables and anything else that can be fried."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "F2",
+        "start_s": 194.0,
+        "end_s": 204.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          4
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder confirms that the mix can be used to fry anything, pointing out different applications listed on the packaging."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "S1",
+        "start_s": 204.0,
+        "end_s": 205.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The investor asks the founders to share their financial numbers."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "F2",
+        "start_s": 206.0,
+        "end_s": 223.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          6
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder details the cost to make a bag, the direct-to-consumer price, the wholesale price, and the retail price."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "S1",
+        "start_s": 223.0,
+        "end_s": 224.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The investor asks for the company's lifetime sales to date."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "F2",
+        "start_s": 224.0,
+        "end_s": 227.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          8
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder states that they have sold four hundred and nine thousand dollars worth of product."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "S2",
+        "start_s": 227.0,
+        "end_s": 229.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "forecast",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The investor asks what the sales projection is for the current year."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "F2",
+        "start_s": 230.0,
+        "end_s": 242.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          10
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "forecast",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder projects finishing the year at two hundred seventy thousand dollars and forecasts four hundred fifty thousand next year."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "S1",
+        "start_s": 242.0,
+        "end_s": 244.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The investor asks if they have done any on-site or on-premise sales."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "F2",
+        "start_s": 244.0,
+        "end_s": 259.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          12
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder confirms they sell on-site, explaining they take pallets of product out every week and sell until empty."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "S5",
+        "start_s": 259.0,
+        "end_s": 262.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The investor asks the founders to explain how they came up with the product idea."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "F1",
+        "start_s": 262.0,
+        "end_s": 291.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          14
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder shares his background as a blue-collar worker who saved money from waiting tables to open his first restaurant."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "F2",
+        "start_s": 292.0,
+        "end_s": 332.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          14
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder recounts how she met her husband in his restaurant, reconnected years later, and eventually married him."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "S5",
+        "start_s": 332.0,
+        "end_s": 335.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The investor asks how long the founder was involved in the restaurant business."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "F1",
+        "start_s": 335.0,
+        "end_s": 340.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          17
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder explains that the restaurants did well and they eventually expanded to open six locations."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "S3",
+        "start_s": 340.0,
+        "end_s": 341.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The investor asks if the six restaurants are still operating."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "F1",
+        "start_s": 341.0,
+        "end_s": 365.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          19
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder explains that Hurricane Katrina destroyed everything, and they survived by taking two saved fryers to festivals nationwide."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "S5",
+        "start_s": 365.0,
+        "end_s": 367.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The investor asks how long they spent selling food at festivals."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "F2",
+        "start_s": 368.0,
+        "end_s": 376.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          21
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder states they have been doing it for fifteen years and are still currently frying fish."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "S2",
+        "start_s": 376.0,
+        "end_s": 383.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The investor asks whether they were selling the packaged product in grocery stores or just driving to festivals."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "F2",
+        "start_s": 384.0,
+        "end_s": 409.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          23
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder explains the idea to bag the mix came when festival customers wanted to take the raw breading home."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "S1",
+        "start_s": 410.0,
+        "end_s": 412.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The investor asks how long ago they transitioned to bagging and selling the mix."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "F2",
+        "start_s": 412.0,
+        "end_s": 437.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          25
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder states it is their third year, detailing growth from eight local stores to eight hundred major retail locations."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "S5",
+        "start_s": 438.0,
+        "end_s": 441.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The investor asks how much of their own money the founders have invested in the business."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "F2",
+        "start_s": 442.0,
+        "end_s": 452.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          27
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder reveals a total investment of fifty thousand dollars from family, noting the father owns eighty-five percent."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "F1",
+        "start_s": 452.0,
+        "end_s": 466.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          27
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder explains that his bad credit required his father to act as the financial front for the business."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "S1",
+        "start_s": 466.0,
+        "end_s": 491.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The investor challenges the million-dollar valuation, arguing that no food companies trade at a twenty-five times multiple."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "F1",
+        "start_s": 492.0,
+        "end_s": 509.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          30
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "deflects",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder deflects the valuation critique, emphasizing their direct connection to consumers and their street-level sales expertise."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "S1",
+        "start_s": 510.0,
+        "end_s": 515.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The investor declares he is out, bluntly stating that the founder is not worth the million-dollar valuation."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "F2",
+        "start_s": 516.0,
+        "end_s": 519.0,
+        "function": "negotiates",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The founder attempts to reassure the exiting investor, stating that he would be making a great bet."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "S1",
+        "start_s": 520.0,
+        "end_s": 526.0,
+        "function": "challenges",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          33
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The investor reiterates his stance, claiming he would need fifty percent equity to justify the requested investment amount."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "S3",
+        "start_s": 528.0,
+        "end_s": 549.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The investor praises the product's taste but concludes it is not the right investment for her and drops out."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "S4",
+        "start_s": 550.0,
+        "end_s": 576.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The investor commends their relentless entrepreneurial spirit but decides the product category is not a fit for him."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "S2",
+        "start_s": 584.0,
+        "end_s": 600.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The investor expresses discomfort making an offer when the father holds most of the equity and authority, exiting."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "S5",
+        "start_s": 616.0,
+        "end_s": 644.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The investor praises their street-level hustle and makes an offer of one hundred fifty thousand dollars for twenty-five percent."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "S3",
+        "start_s": 645.0,
+        "end_s": 649.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "An exited investor enthusiastically encourages the founders to accept the standing offer."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "S2",
+        "start_s": 655.0,
+        "end_s": 657.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Another exited investor prompts the founder to counter the offer at eighteen percent."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "F1",
+        "start_s": 657.0,
+        "end_s": 659.0,
+        "function": "decides",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The founder takes the suggestion and counters the investor's offer, asking for eighteen percent equity instead."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "S5",
+        "start_s": 659.0,
+        "end_s": 660.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          41
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The investor quickly shakes his head and rejects the founder's counter-offer."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "F1",
+        "start_s": 660.0,
+        "end_s": 661.0,
+        "function": "decides",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The founder immediately capitulates and accepts the investor's original offer of twenty-five percent equity."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "substantive",
+        "topic": "usage",
+        "label": "vegetable application"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "costs and revenue"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "forecast",
+        "label": "projected sales"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "substantive",
+        "topic": "go_to_market",
+        "label": "on-site sales"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "self_promotion",
+        "label": "founders' background"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "restaurant closure and pivot"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "substantive",
+        "topic": "go_to_market",
+        "label": "transition to retail"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "retail growth timeline"
+      },
+      {
+        "exchange_id": 9,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "capital invested and valuation"
+      },
+      {
+        "exchange_id": 10,
+        "kind": "negotiation",
+        "topic": "NONE",
+        "label": "offer and counter"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S1",
+        "kind": "exit",
+        "time_s": 510.0,
+        "turn_id": 32,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Believes the valuation is too high and not realistic for a food company."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S3",
+        "kind": "exit",
+        "time_s": 548.0,
+        "turn_id": 35,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Thinks the product tastes fabulous but is not the right fit for her to invest in."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S4",
+        "kind": "exit",
+        "time_s": 567.0,
+        "turn_id": 36,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Admires their hustle but feels the product category does not fit his investment style."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S2",
+        "kind": "exit",
+        "time_s": 599.0,
+        "turn_id": 37,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Uncomfortable investing when the father owns eighty-five percent and has all decision authority."
+      },
+      {
+        "decision_id": 5,
+        "actor": "S5",
+        "kind": "offer",
+        "time_s": 643.0,
+        "turn_id": 38,
+        "offer_id": "O1",
+        "terms": "$150,000 for 25%.",
+        "note": "Appreciates their relentless hustle and direct consumer sales experience."
+      },
+      {
+        "decision_id": 6,
+        "actor": "F1",
+        "kind": "founder_counters",
+        "time_s": 657.0,
+        "turn_id": 41,
+        "offer_id": "O1",
+        "terms": "18%",
+        "note": "Attempts to negotiate the equity down to eighteen percent."
+      },
+      {
+        "decision_id": 7,
+        "actor": "F1",
+        "kind": "founder_accepts",
+        "time_s": 660.0,
+        "turn_id": 43,
+        "offer_id": "O1",
+        "terms": "$150,000 for 25%.",
+        "note": "Accepts the original offer after the counter is rejected."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": ""
+  }
+}

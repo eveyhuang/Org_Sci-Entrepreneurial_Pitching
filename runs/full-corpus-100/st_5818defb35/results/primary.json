@@ -1,0 +1,2480 @@
+{
+  "pass": "primary",
+  "unit_key": "panel__st_5818defb35__primary",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:17-2:15"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "qa",
+      "3": "qa",
+      "4": "qa",
+      "5": "qa",
+      "6": "qa",
+      "7": "qa",
+      "8": "qa",
+      "9": "qa",
+      "10": "qa",
+      "11": "qa",
+      "12": "qa",
+      "13": "qa",
+      "14": "social",
+      "15": "qa",
+      "16": "qa",
+      "17": "qa",
+      "18": "qa",
+      "19": "none",
+      "20": "none",
+      "21": "none",
+      "22": "qa",
+      "23": "qa",
+      "24": "qa",
+      "25": "qa",
+      "26": "qa",
+      "27": "qa",
+      "28": "qa",
+      "29": "qa",
+      "30": "none",
+      "31": "social",
+      "32": "social",
+      "33": "qa",
+      "34": "qa",
+      "35": "qa",
+      "36": "qa",
+      "37": "qa",
+      "38": "qa",
+      "39": "qa",
+      "40": "qa",
+      "41": "qa",
+      "42": "none",
+      "43": "none",
+      "44": "none",
+      "45": "none",
+      "46": "none",
+      "47": "qa",
+      "48": "qa",
+      "49": "qa",
+      "50": "negotiation",
+      "51": "negotiation",
+      "52": "negotiation",
+      "53": "negotiation",
+      "54": "negotiation",
+      "55": "negotiation",
+      "56": "negotiation",
+      "57": "negotiation",
+      "58": "negotiation",
+      "59": "negotiation",
+      "60": "negotiation",
+      "61": "negotiation",
+      "62": "negotiation",
+      "63": "negotiation",
+      "64": "none",
+      "65": "none",
+      "66": "negotiation",
+      "67": "negotiation",
+      "68": "negotiation",
+      "69": "negotiation",
+      "70": "negotiation",
+      "71": "negotiation",
+      "72": "negotiation",
+      "73": "negotiation",
+      "74": "negotiation",
+      "75": "negotiation",
+      "76": "negotiation",
+      "77": "negotiation",
+      "78": "negotiation",
+      "79": "negotiation",
+      "80": "negotiation",
+      "81": "negotiation",
+      "82": "negotiation",
+      "83": "negotiation"
+    },
+    "segment_seconds": {
+      "presentation": 118.0,
+      "qa": 176.0,
+      "social": 13.0,
+      "demonstration": 0.0,
+      "negotiation": 176.0,
+      "none": 89.0
+    },
+    "exchange_counts": {
+      "substantive": 9,
+      "social": 2,
+      "demonstration": 0,
+      "negotiation": 1
+    },
+    "turn_frame": {
+      "2": "prevention",
+      "3": "prevention",
+      "5": "NEUTRAL",
+      "7": "prevention",
+      "8": "promotion",
+      "9": "promotion",
+      "11": "NEUTRAL",
+      "12": "promotion",
+      "15": "promotion",
+      "16": "promotion",
+      "17": "promotion",
+      "18": "promotion",
+      "22": "prevention",
+      "23": "prevention",
+      "24": "promotion",
+      "25": "NEUTRAL",
+      "26": "promotion",
+      "27": "promotion",
+      "29": "promotion",
+      "33": "prevention",
+      "34": "prevention",
+      "35": "promotion",
+      "36": "NEUTRAL",
+      "37": "prevention",
+      "38": "NEUTRAL",
+      "41": "NEUTRAL",
+      "47": "promotion",
+      "48": "promotion"
+    },
+    "frame_match": {
+      "3": "match",
+      "9": "match",
+      "12": "match",
+      "16": "match",
+      "18": "match",
+      "23": "match",
+      "25": "neutral",
+      "27": "match",
+      "34": "match",
+      "36": "neutral",
+      "38": "neutral",
+      "48": "match"
+    },
+    "other_concepts": []
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Jeff Witten"
+      },
+      {
+        "actor_id": "F2",
+        "role": "founder",
+        "label": "Woman assisting as barista"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Lori Greiner"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Robert Herjavec"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Barbara Corcoran"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Mark Cuban"
+      },
+      {
+        "actor_id": "H1",
+        "role": "host",
+        "label": "Narrator"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 17.0,
+        "end_s": 135.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 17.0,
+        "kind": "narration"
+      },
+      {
+        "start_s": 670.0,
+        "end_s": 700.0,
+        "kind": "teaser"
+      }
+    ],
+    "gaps": [
+      {
+        "at_s": 396.0,
+        "note": "Edit cuts to Jeff adjusting his ring, hiding his immediate reaction to Kevin's challenge."
+      }
+    ],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 63.0,
+        "note": "Jeff delivers the pitch with strong, enthusiastic engagement and confident vocal variety."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 104.0,
+        "note": "Sustained engagement and excitement about the product are evident throughout his presentation."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 3,
+        "uncodable": false,
+        "moment_s": 37.0,
+        "note": "Friendly and approachable demeanor, though largely focused on the business proposition."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "0",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "A digital wallet that allows customers to save their loose change at checkout without downloading an app.",
+      "primary_industry": "business_industrial_services",
+      "secondary_industries": [
+        "general_technology"
+      ],
+      "product_form": "software_digital",
+      "customer_type": "both",
+      "founder_gender": "all_men",
+      "product_category": "digital change wallet",
+      "earliest_s": 23.0,
+      "note": "The product is a digital system for saving change, pitched as a service for both merchants and consumers.",
+      "ask_amount_usd": 250000,
+      "ask_equity_pct": 7.5,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 17.0,
+        "end_s": 135.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jeff introduces himself, asks for 250k for 7.5%, and explains how CoinOut digitizes loose change without requiring an app."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "S1",
+        "start_s": 135.0,
+        "end_s": 142.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks how Jeff plans to survive against giant payment operators without getting crushed."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "F1",
+        "start_s": 143.0,
+        "end_s": 153.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          2
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Jeff explains that cash is still widely used and that their technology and regulatory structure provide a strong defense."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "S5",
+        "start_s": 154.0,
+        "end_s": 155.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark interrupts to state that nobody believes cash is going away."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "F1",
+        "start_s": 156.0,
+        "end_s": 159.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          4
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "deflects",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "NONE",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Jeff attempts to continue his explanation respectfully."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "S1",
+        "start_s": 160.0,
+        "end_s": 162.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin reiterates his belief that the business will be crushed by competitors."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "F1",
+        "start_s": 163.0,
+        "end_s": 177.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          6
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "4",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Jeff details the difficulty of building the technology and the required banking and regulatory relationships."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "S4",
+        "start_s": 178.0,
+        "end_s": 180.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Barbara asks what incentive a retailer has to install the system."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "F1",
+        "start_s": 181.0,
+        "end_s": 198.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          8
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Jeff explains that handling cash is expensive for retailers and that the system acts as a loyalty program."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "S1",
+        "start_s": 199.0,
+        "end_s": 204.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin jokes about the barista looking at Jeff with fear."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "F1",
+        "start_s": 205.0,
+        "end_s": 207.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          10
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "deflects",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "NONE",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Jeff asks Kevin to let him finish his point."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "F1",
+        "start_s": 208.0,
+        "end_s": 216.0,
+        "function": "answer",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          8
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Jeff concludes that the system builds a connection between merchants and previously anonymous cash customers."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "S3",
+        "start_s": 217.0,
+        "end_s": 219.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert praises the idea, noting his own dislike for carrying change."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "S2",
+        "start_s": 220.0,
+        "end_s": 221.0,
+        "function": "social",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori jokes that Robert hates change because he is rich."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "S3",
+        "start_s": 222.0,
+        "end_s": 225.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks Jeff to explain the revenue model."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "F1",
+        "start_s": 226.0,
+        "end_s": 228.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          15
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Jeff states they charge merchants twenty dollars a month."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "S5",
+        "start_s": 229.0,
+        "end_s": 230.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks for clarification on the monthly fee."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "F1",
+        "start_s": 231.0,
+        "end_s": 234.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          17
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Jeff confirms the fee and adds they earn three percent on each transaction."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "F1",
+        "start_s": 235.0,
+        "end_s": 258.0,
+        "function": "NONE",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jeff shares his background, including turning down an offer at Apple to pursue this business."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "S2",
+        "start_s": 259.0,
+        "end_s": 260.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori expresses impressed surprise at Jeff's background story."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "F1",
+        "start_s": 261.0,
+        "end_s": 271.0,
+        "function": "NONE",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jeff continues his story, emphasizing his relentless commitment to the business."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "S2",
+        "start_s": 272.0,
+        "end_s": 274.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks how much money has been invested in the company so far."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "F1",
+        "start_s": 275.0,
+        "end_s": 277.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          22
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Jeff states they have raised 460k from family, friends, and his own funds."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "S5",
+        "start_s": 278.0,
+        "end_s": 288.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "customer_acquisition",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark points out the difficulty and cost of getting people to use a new application."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "F1",
+        "start_s": 289.0,
+        "end_s": 289.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          24
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "NONE",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Jeff acknowledges Mark's point."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "S5",
+        "start_s": 290.0,
+        "end_s": 294.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark adds that Jeff is trying to take a share of the merchant's monthly application budget."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "F1",
+        "start_s": 295.0,
+        "end_s": 301.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          26
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Jeff agrees but emphasizes that loose change remains an unsolved problem."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "S5",
+        "start_s": 302.0,
+        "end_s": 302.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark holds up his credit card as his solution to the problem."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "F1",
+        "start_s": 303.0,
+        "end_s": 317.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          28
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "market_opportunity",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "4",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Jeff counters with data showing that a significant portion of transactions are still done in cash."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "F1",
+        "start_s": 318.0,
+        "end_s": 331.0,
+        "function": "NONE",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jeff elaborates on the value of data and how merchants miss out on cash customers."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "S4",
+        "start_s": 332.0,
+        "end_s": 343.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara compliments Jeff on his ability to handle the sharks' questions confidently."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "F1",
+        "start_s": 344.0,
+        "end_s": 345.0,
+        "function": "social",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jeff thanks Barbara for the compliment."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "S1",
+        "start_s": 346.0,
+        "end_s": 350.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks Jeff to share what is currently working in the business."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "F1",
+        "start_s": 351.0,
+        "end_s": 357.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          33
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Jeff shares that they have processed 2500 transactions in four months with high customer retention."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "S3",
+        "start_s": 358.0,
+        "end_s": 366.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert notes that the core problem solved is for people who dislike change."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "F1",
+        "start_s": 366.0,
+        "end_s": 367.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          35
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "NONE",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Jeff agrees with Robert's assessment."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "S5",
+        "start_s": 368.0,
+        "end_s": 373.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks to confirm that the system stores the user's phone number in the cloud."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "F1",
+        "start_s": 374.0,
+        "end_s": 374.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          37
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "NONE",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Jeff confirms the mechanism."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "S5",
+        "start_s": 375.0,
+        "end_s": 391.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark praises the simplicity of using a phone number for a loyalty program."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "S1",
+        "start_s": 392.0,
+        "end_s": 396.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin criticizes Jeff for focusing solely on the CoinOut feature."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "F1",
+        "start_s": 397.0,
+        "end_s": 400.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          40
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "deflects",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "NONE",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Jeff states his disagreement with Kevin's assessment."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "S5",
+        "start_s": 401.0,
+        "end_s": 413.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark exits, stating his concern that both consumers and baristas need to be aware of the system."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "F1",
+        "start_s": 414.0,
+        "end_s": 415.0,
+        "function": "accepts",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": null,
+        "responds_to": [
+          42
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jeff accepts Mark's decision."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "S2",
+        "start_s": 416.0,
+        "end_s": 431.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori exits, noting she doesn't carry cash and is unsure of the investment return."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "F1",
+        "start_s": 432.0,
+        "end_s": 433.0,
+        "function": "accepts",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": null,
+        "responds_to": [
+          44
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jeff accepts Lori's decision."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "F1",
+        "start_s": 434.0,
+        "end_s": 445.0,
+        "function": "NONE",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jeff shares his vision of reaching 100k locations and a thirty million run rate."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "S4",
+        "start_s": 446.0,
+        "end_s": 448.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "forecast",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Barbara asks how long it will take to secure a thousand retailers."
+      },
+      {
+        "turn_id": 48,
+        "speaker": "F1",
+        "start_s": 449.0,
+        "end_s": 453.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          47
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "forecast",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Jeff projects reaching 700 locations by the end of the year and 3000 the following year."
+      },
+      {
+        "turn_id": 49,
+        "speaker": "S4",
+        "start_s": 454.0,
+        "end_s": 457.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          48
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara expresses belief in Jeff's ability to achieve his goals."
+      },
+      {
+        "turn_id": 50,
+        "speaker": "S4",
+        "start_s": 458.0,
+        "end_s": 468.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara offers 250k for 15 percent, contingent on reaching 700 locations by year end."
+      },
+      {
+        "turn_id": 51,
+        "speaker": "F1",
+        "start_s": 469.0,
+        "end_s": 474.0,
+        "function": "negotiates",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jeff appreciates the offer but states the contingency is untenable."
+      },
+      {
+        "turn_id": 52,
+        "speaker": "S4",
+        "start_s": 475.0,
+        "end_s": 477.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara questions why he won't accept if he believes his own projections."
+      },
+      {
+        "turn_id": 53,
+        "speaker": "F1",
+        "start_s": 478.0,
+        "end_s": 480.0,
+        "function": "negotiates",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jeff reiterates his refusal to accept a location-based contingency."
+      },
+      {
+        "turn_id": 54,
+        "speaker": "S4",
+        "start_s": 481.0,
+        "end_s": 482.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara expresses confusion over his reluctance."
+      },
+      {
+        "turn_id": 55,
+        "speaker": "F1",
+        "start_s": 483.0,
+        "end_s": 487.0,
+        "function": "negotiates",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jeff explains it is not in his interest to make the deal dependent on those specific projections."
+      },
+      {
+        "turn_id": 56,
+        "speaker": "S4",
+        "start_s": 488.0,
+        "end_s": 493.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara states she is losing confidence in him."
+      },
+      {
+        "turn_id": 57,
+        "speaker": "F1",
+        "start_s": 494.0,
+        "end_s": 499.0,
+        "function": "negotiates",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jeff argues that a strict contingency shows a lack of belief in the broader vision."
+      },
+      {
+        "turn_id": 58,
+        "speaker": "S1",
+        "start_s": 500.0,
+        "end_s": 501.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin interjects that Jeff lacks belief himself."
+      },
+      {
+        "turn_id": 59,
+        "speaker": "F1",
+        "start_s": 501.0,
+        "end_s": 503.0,
+        "function": "negotiates",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jeff denies Kevin's accusation."
+      },
+      {
+        "turn_id": 60,
+        "speaker": "S1",
+        "start_s": 504.0,
+        "end_s": 506.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin insists Jeff would never make a deal like that."
+      },
+      {
+        "turn_id": 61,
+        "speaker": "F1",
+        "start_s": 507.0,
+        "end_s": 510.0,
+        "function": "negotiates",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jeff admits he would consider it if it were his only option."
+      },
+      {
+        "turn_id": 62,
+        "speaker": "S4",
+        "start_s": 511.0,
+        "end_s": 525.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara shares her own experience of guaranteeing a loan, emphasizing the need for certainty."
+      },
+      {
+        "turn_id": 63,
+        "speaker": "F1",
+        "start_s": 526.0,
+        "end_s": 527.0,
+        "function": "accepts",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 12,
+        "responds_to": [
+          62
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jeff acknowledges her perspective."
+      },
+      {
+        "turn_id": 64,
+        "speaker": "S4",
+        "start_s": 527.0,
+        "end_s": 528.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara exits due to his refusal of the contingency."
+      },
+      {
+        "turn_id": 65,
+        "speaker": "F1",
+        "start_s": 529.0,
+        "end_s": 530.0,
+        "function": "accepts",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": null,
+        "responds_to": [
+          64
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jeff accepts her decision."
+      },
+      {
+        "turn_id": 66,
+        "speaker": "S1",
+        "start_s": 531.0,
+        "end_s": 537.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin offers 250k for 25 percent, taking more equity for the lack of contingency."
+      },
+      {
+        "turn_id": 67,
+        "speaker": "F1",
+        "start_s": 538.0,
+        "end_s": 546.0,
+        "function": "negotiates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jeff thanks Kevin and asks if there are any other offers."
+      },
+      {
+        "turn_id": 68,
+        "speaker": "S1",
+        "start_s": 547.0,
+        "end_s": 556.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin argues the higher equity is the cost of Jeff's lack of confidence."
+      },
+      {
+        "turn_id": 69,
+        "speaker": "F1",
+        "start_s": 557.0,
+        "end_s": 560.0,
+        "function": "negotiates",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jeff tells Kevin he hasn't felt any genuine interest from him."
+      },
+      {
+        "turn_id": 70,
+        "speaker": "S1",
+        "start_s": 561.0,
+        "end_s": 564.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin replies that the deal is about money, not love."
+      },
+      {
+        "turn_id": 71,
+        "speaker": "F1",
+        "start_s": 565.0,
+        "end_s": 570.0,
+        "function": "negotiates",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jeff emphasizes the need for a supportive partner."
+      },
+      {
+        "turn_id": 72,
+        "speaker": "S3",
+        "start_s": 571.0,
+        "end_s": 588.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert offers 250k for 15 percent, contingent on a successful pilot with a large retailer."
+      },
+      {
+        "turn_id": 73,
+        "speaker": "F1",
+        "start_s": 589.0,
+        "end_s": 602.0,
+        "function": "decides",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jeff calls the contingency fair and counters with 10 percent equity."
+      },
+      {
+        "turn_id": 74,
+        "speaker": "S3",
+        "start_s": 603.0,
+        "end_s": 608.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert clarifies the equity amounts of the standing offers."
+      },
+      {
+        "turn_id": 75,
+        "speaker": "F1",
+        "start_s": 609.0,
+        "end_s": 616.0,
+        "function": "decides",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jeff counters again, asking if Robert will accept 12.5 percent."
+      },
+      {
+        "turn_id": 76,
+        "speaker": "S3",
+        "start_s": 617.0,
+        "end_s": 623.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert refuses to lower his equity requirement."
+      },
+      {
+        "turn_id": 77,
+        "speaker": "S5",
+        "start_s": 624.0,
+        "end_s": 635.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark advises Jeff to make a decision and move from theory to reality."
+      },
+      {
+        "turn_id": 78,
+        "speaker": "F1",
+        "start_s": 636.0,
+        "end_s": 638.0,
+        "function": "negotiates",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jeff repeats his request for 12.5 percent."
+      },
+      {
+        "turn_id": 79,
+        "speaker": "S3",
+        "start_s": 639.0,
+        "end_s": 647.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert firmly maintains his offer at 15 percent."
+      },
+      {
+        "turn_id": 80,
+        "speaker": "F1",
+        "start_s": 648.0,
+        "end_s": 655.0,
+        "function": "negotiates",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jeff prepares to concede to the 15 percent."
+      },
+      {
+        "turn_id": 81,
+        "speaker": "S1",
+        "start_s": 656.0,
+        "end_s": 663.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin laughs at Jeff's joking condition."
+      },
+      {
+        "turn_id": 82,
+        "speaker": "F1",
+        "start_s": 664.0,
+        "end_s": 665.0,
+        "function": "decides",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jeff accepts Robert's offer of 15 percent with the pilot contingency."
+      },
+      {
+        "turn_id": 83,
+        "speaker": "S3",
+        "start_s": 666.0,
+        "end_s": 667.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [
+          82
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert confirms the deal is done."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "substantive",
+        "topic": "competition",
+        "label": "getting crushed by giants"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "substantive",
+        "topic": "usage",
+        "label": "incentive for retailers"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "being rich and hating change"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "revenue model and fees"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "operating_efficiency",
+        "label": "money invested so far"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "substantive",
+        "topic": "customer_acquisition",
+        "label": "getting people to use it"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "compliment on handling sharks"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "what is currently working"
+      },
+      {
+        "exchange_id": 9,
+        "kind": "substantive",
+        "topic": "usage",
+        "label": "people disliking change"
+      },
+      {
+        "exchange_id": 10,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "storing phone numbers"
+      },
+      {
+        "exchange_id": 11,
+        "kind": "substantive",
+        "topic": "forecast",
+        "label": "time to reach retailers"
+      },
+      {
+        "exchange_id": 12,
+        "kind": "negotiation",
+        "topic": "NONE",
+        "label": "offers and counters"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S5",
+        "kind": "exit",
+        "time_s": 412.0,
+        "turn_id": 42,
+        "offer_id": null,
+        "terms": "I'm out",
+        "note": "Thinks it's a problem that the consumer and barista both need to be aware of it."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S2",
+        "kind": "exit",
+        "time_s": 430.0,
+        "turn_id": 44,
+        "offer_id": null,
+        "terms": "I'm out",
+        "note": "Hates coins, doesn't carry money, unsure if it will take off or fizzle."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S4",
+        "kind": "offer",
+        "time_s": 458.0,
+        "turn_id": 50,
+        "offer_id": "O1",
+        "terms": "$250,000 for 15% contingent on getting 700 locations by year end.",
+        "note": "Believes he can make it happen but wants a contingency on locations."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S4",
+        "kind": "exit",
+        "time_s": 527.0,
+        "turn_id": 64,
+        "offer_id": null,
+        "terms": "I'm out",
+        "note": "Loses confidence because he won't accept the contingency on locations."
+      },
+      {
+        "decision_id": 5,
+        "actor": "S1",
+        "kind": "offer",
+        "time_s": 535.0,
+        "turn_id": 66,
+        "offer_id": "O2",
+        "terms": "$250,000 for 25%.",
+        "note": "Offers a deal without contingency but takes more equity for the risk."
+      },
+      {
+        "decision_id": 6,
+        "actor": "S3",
+        "kind": "offer",
+        "time_s": 584.0,
+        "turn_id": 72,
+        "offer_id": "O3",
+        "terms": "$250,000 for 15% contingent on a successful pilot with a large retailer.",
+        "note": "Wants proof of concept with a large retailer before committing fully."
+      },
+      {
+        "decision_id": 7,
+        "actor": "F1",
+        "kind": "founder_counters",
+        "time_s": 601.0,
+        "turn_id": 73,
+        "offer_id": "O3",
+        "terms": "$250,000 for 10% contingent on a successful pilot with a large retailer.",
+        "note": "Accepts the contingency but asks for less equity."
+      },
+      {
+        "decision_id": 8,
+        "actor": "F1",
+        "kind": "founder_counters",
+        "time_s": 614.0,
+        "turn_id": 75,
+        "offer_id": "O3",
+        "terms": "$250,000 for 12.5% contingent on a successful pilot with a large retailer.",
+        "note": "Proposes his maximum equity limit of 12.5%."
+      },
+      {
+        "decision_id": 9,
+        "actor": "F1",
+        "kind": "founder_accepts",
+        "time_s": 664.0,
+        "turn_id": 82,
+        "offer_id": "O3",
+        "terms": "I'll do it at 15%",
+        "note": "Accepts the 15% offer with a joking contingency that Kevin can't use it."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": "Edit cuts to Jeff adjusting his ring at 6:36, hiding his immediate reaction to Kevin's challenge."
+  }
+}

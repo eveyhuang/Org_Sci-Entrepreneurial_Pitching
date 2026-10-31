@@ -1,0 +1,48 @@
+{
+  "batch_id": "b04",
+  "video_ids": [
+    "st_03c7703a04",
+    "st_92462e3ff0",
+    "st_edd80b421d",
+    "st_e51a985d9d",
+    "st_c3172f8697"
+  ],
+  "labels": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "rankings": {
+    "pitch_positivity": [
+      "st_92462e3ff0",
+      "st_e51a985d9d",
+      "st_03c7703a04",
+      "st_c3172f8697",
+      "st_edd80b421d"
+    ],
+    "expressed_enthusiasm": [
+      "st_e51a985d9d",
+      "st_92462e3ff0",
+      "st_03c7703a04",
+      "st_c3172f8697",
+      "st_edd80b421d"
+    ],
+    "interpersonal_warmth": [
+      "st_92462e3ff0",
+      "st_e51a985d9d",
+      "st_03c7703a04",
+      "st_c3172f8697",
+      "st_edd80b421d"
+    ]
+  },
+  "notes": {
+    "pitch_positivity": "Clip B features a remarkably bright and optimistic delivery throughout, whereas C is entirely serious and focuses on negative problems. B and D were close.",
+    "expressed_enthusiasm": "Clip D displays peak engaged excitement during the active product demonstration, while C delivers a flat, monotone presentation with no visible excitement. D and B were close.",
+    "interpersonal_warmth": "Clip B maintains a highly friendly and inviting presence with a constant smile, whereas C comes across as stiff, serious, and unapproachable. B and D were close."
+  },
+  "batch_notes": "",
+  "model_version": "gemini-3.1-pro-preview",
+  "prompt_hash": "83d1721df059bb52"
+}

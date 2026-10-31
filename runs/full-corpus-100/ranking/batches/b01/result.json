@@ -1,0 +1,48 @@
+{
+  "batch_id": "b01",
+  "video_ids": [
+    "st_5058b91d09",
+    "st_1164b596f8",
+    "st_23d21ea284",
+    "st_0a7dabb615",
+    "st_937fbc68be"
+  ],
+  "labels": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "rankings": {
+    "pitch_positivity": [
+      "st_23d21ea284",
+      "st_5058b91d09",
+      "st_1164b596f8",
+      "st_0a7dabb615",
+      "st_937fbc68be"
+    ],
+    "expressed_enthusiasm": [
+      "st_1164b596f8",
+      "st_23d21ea284",
+      "st_5058b91d09",
+      "st_0a7dabb615",
+      "st_937fbc68be"
+    ],
+    "interpersonal_warmth": [
+      "st_23d21ea284",
+      "st_0a7dabb615",
+      "st_5058b91d09",
+      "st_937fbc68be",
+      "st_1164b596f8"
+    ]
+  },
+  "notes": {
+    "pitch_positivity": "C and A are close, both showing extremely upbeat and smiling positivity, with C slightly more bubbly. B is energetic but intense. D is mildly positive; E is serious.",
+    "expressed_enthusiasm": "B shows intense, theatrical excitement. C and A are close, both displaying strong, animated engagement. D is calmly passionate about their venture, while E is the least animated.",
+    "interpersonal_warmth": "C is exceptionally friendly. D and A are close in warmth, with D being gentle and A being smilingly approachable. E is professional; B's intensity lacks approachability."
+  },
+  "batch_notes": "",
+  "model_version": "gemini-3.1-pro-preview",
+  "prompt_hash": "83d1721df059bb52"
+}

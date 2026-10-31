@@ -1,0 +1,510 @@
+{
+  "properties": {
+    "actors": {
+      "items": {
+        "properties": {
+          "actor_id": {
+            "description": "F1.. founders, S1.. investors, H1.. host or narrator, in order of first appearance",
+            "minLength": 1,
+            "type": "string"
+          },
+          "role": {
+            "enum": [
+              "founder",
+              "investor",
+              "host",
+              "other"
+            ],
+            "type": "string"
+          },
+          "label": {
+            "description": "name if spoken or shown, else a brief visual description",
+            "maxLength": 120,
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "actor_id",
+          "role",
+          "label"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "prepared_spans": {
+      "items": {
+        "properties": {
+          "start": {
+            "description": "clock time M:SS from the start of the video file, e.g. 1:48",
+            "type": "string"
+          },
+          "end": {
+            "description": "clock time M:SS from the start of the video file, e.g. 1:48",
+            "type": "string"
+          }
+        },
+        "required": [
+          "start",
+          "end"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "excluded_spans": {
+      "items": {
+        "properties": {
+          "start": {
+            "description": "clock time M:SS from the start of the video file, e.g. 1:48",
+            "type": "string"
+          },
+          "end": {
+            "description": "clock time M:SS from the start of the video file, e.g. 1:48",
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "narration",
+              "teaser",
+              "interview",
+              "recap",
+              "other"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "start",
+          "end",
+          "kind"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "gaps": {
+      "items": {
+        "properties": {
+          "at": {
+            "description": "clock time M:SS from the start of the video file, e.g. 1:48",
+            "type": "string"
+          },
+          "note": {
+            "maxLength": 200,
+            "type": "string"
+          }
+        },
+        "required": [
+          "at",
+          "note"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "source_complete": {
+      "type": "boolean"
+    },
+    "stage_a": {
+      "items": {
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "value": {
+            "maximum": 5,
+            "minimum": 1,
+            "type": "integer",
+            "nullable": true
+          },
+          "uncodable": {
+            "type": "boolean"
+          },
+          "moment": {
+            "type": "string",
+            "description": "clock time M:SS from the start of the video file, e.g. 1:48; the single moment that best shows the rating, null when there is none",
+            "nullable": true
+          },
+          "note": {
+            "maxLength": 200,
+            "type": "string"
+          }
+        },
+        "required": [
+          "code",
+          "uncodable",
+          "moment",
+          "note"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "prepared": {
+      "items": {
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string",
+            "description": "categorical value, ordinal integer as text, or true/false; null only when missing is not none",
+            "nullable": true
+          },
+          "missing": {
+            "enum": [
+              "none",
+              "not_applicable",
+              "no_opportunity",
+              "not_observable",
+              "edited_gap",
+              "ambiguous",
+              "too_short"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "code",
+          "value",
+          "missing"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "venture": {
+      "properties": {
+        "description": {
+          "maxLength": 300,
+          "minLength": 1,
+          "type": "string"
+        },
+        "primary_industry": {
+          "type": "string"
+        },
+        "secondary_industries": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "product_form": {
+          "type": "string"
+        },
+        "customer_type": {
+          "type": "string"
+        },
+        "founder_gender": {
+          "description": "one VC-GENDER value: the presenting team's gender composition",
+          "type": "string"
+        },
+        "product_category": {
+          "maxLength": 120,
+          "type": "string"
+        },
+        "earliest": {
+          "type": "string",
+          "description": "clock time M:SS from the start of the video file, e.g. 1:48",
+          "nullable": true
+        },
+        "note": {
+          "maxLength": 200,
+          "type": "string"
+        },
+        "ask_amount_usd": {
+          "minimum": 0,
+          "type": "integer",
+          "description": "VC-ASK: whole US dollars asked, or null with ask_missing",
+          "nullable": true
+        },
+        "ask_equity_pct": {
+          "maximum": 100,
+          "minimum": 0,
+          "type": "number",
+          "description": "VC-ASK: per cent of equity offered, or null with ask_missing",
+          "nullable": true
+        },
+        "ask_missing": {
+          "description": "none when both ask values are given, otherwise why not",
+          "enum": [
+            "none",
+            "not_applicable",
+            "no_opportunity",
+            "not_observable",
+            "edited_gap",
+            "ambiguous",
+            "too_short"
+          ],
+          "type": "string"
+        }
+      },
+      "required": [
+        "description",
+        "primary_industry",
+        "secondary_industries",
+        "product_form",
+        "customer_type",
+        "founder_gender",
+        "product_category",
+        "note",
+        "ask_amount_usd",
+        "ask_equity_pct",
+        "ask_missing"
+      ],
+      "type": "object"
+    },
+    "turns": {
+      "items": {
+        "properties": {
+          "turn_id": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "speaker": {
+            "type": "string"
+          },
+          "start": {
+            "description": "clock time M:SS from the start of the video file, e.g. 1:48",
+            "type": "string"
+          },
+          "end": {
+            "description": "clock time M:SS from the start of the video file, e.g. 1:48",
+            "type": "string"
+          },
+          "function": {
+            "description": "one TURN-FUNC value; NONE when the turn has none of the functions",
+            "type": "string"
+          },
+          "addressed": {
+            "description": "actor ids, or PANEL, or UNKNOWN; empty for the prepared presentation",
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "exchange_id": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "id of the exchange this turn belongs to; null when it belongs to none",
+            "nullable": true
+          },
+          "responds_to": {
+            "description": "ids of earlier turns this one responds to; empty when none is supported",
+            "items": {
+              "type": "integer"
+            },
+            "type": "array"
+          },
+          "codes": {
+            "items": {
+              "properties": {
+                "code": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": "string",
+                  "description": "categorical value, ordinal integer as text, or true/false; null only when missing is not none",
+                  "nullable": true
+                },
+                "missing": {
+                  "enum": [
+                    "none",
+                    "not_applicable",
+                    "no_opportunity",
+                    "not_observable",
+                    "edited_gap",
+                    "ambiguous",
+                    "too_short"
+                  ],
+                  "type": "string"
+                }
+              },
+              "required": [
+                "code",
+                "value",
+                "missing"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "other_concept": {
+            "maxLength": 80,
+            "type": "string",
+            "description": "a few words naming the matter when the turn's PR-CONCEPT or RS-CONCEPT is other; otherwise null",
+            "nullable": true
+          },
+          "summary": {
+            "description": "neutral summary, about 20 words, no quotes",
+            "maxLength": 240,
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "turn_id",
+          "speaker",
+          "start",
+          "end",
+          "function",
+          "addressed",
+          "exchange_id",
+          "responds_to",
+          "codes",
+          "other_concept",
+          "summary"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "exchanges": {
+      "items": {
+        "properties": {
+          "exchange_id": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "kind": {
+            "description": "one EX-KIND value other than NONE",
+            "type": "string"
+          },
+          "topic": {
+            "description": "one EX-TOPIC value; NONE unless the exchange is substantive",
+            "type": "string"
+          },
+          "label": {
+            "description": "a few words naming the specific matter; required when the topic is other",
+            "maxLength": 80,
+            "type": "string"
+          }
+        },
+        "required": [
+          "exchange_id",
+          "kind",
+          "topic",
+          "label"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "decisions": {
+      "items": {
+        "properties": {
+          "decision_id": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "actor": {
+            "type": "string"
+          },
+          "kind": {
+            "description": "one DEC-KIND value",
+            "type": "string"
+          },
+          "time": {
+            "description": "clock time M:SS from the start of the video file, e.g. 1:48",
+            "type": "string"
+          },
+          "turn_id": {
+            "type": "integer",
+            "description": "turn in which the decision is spoken",
+            "nullable": true
+          },
+          "offer_id": {
+            "type": "string",
+            "description": "shared by all moves of the same offer, e.g. O1; null for an exit",
+            "nullable": true
+          },
+          "terms": {
+            "maxLength": 200,
+            "type": "string"
+          },
+          "note": {
+            "maxLength": 200,
+            "type": "string"
+          }
+        },
+        "required": [
+          "decision_id",
+          "actor",
+          "kind",
+          "time",
+          "turn_id",
+          "offer_id",
+          "terms",
+          "note"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "claim_conflicts": {
+      "items": {
+        "properties": {
+          "turn_a": {
+            "description": "turn holding the earlier claim",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "turn_b": {
+            "description": "turn holding the later claim",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "metric": {
+            "maxLength": 120,
+            "type": "string"
+          },
+          "note": {
+            "maxLength": 200,
+            "type": "string"
+          },
+          "reconciled": {
+            "type": "boolean"
+          },
+          "reconciled_turn": {
+            "minimum": 1,
+            "type": "integer",
+            "description": "turn that reconciled the pair; null when there is none",
+            "nullable": true
+          }
+        },
+        "required": [
+          "turn_a",
+          "turn_b",
+          "metric",
+          "note",
+          "reconciled",
+          "reconciled_turn"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "notes": {
+      "maxLength": 600,
+      "type": "string"
+    }
+  },
+  "required": [
+    "actors",
+    "prepared_spans",
+    "excluded_spans",
+    "gaps",
+    "source_complete",
+    "stage_a",
+    "prepared",
+    "venture",
+    "turns",
+    "exchanges",
+    "decisions",
+    "claim_conflicts",
+    "notes"
+  ],
+  "type": "object"
+}

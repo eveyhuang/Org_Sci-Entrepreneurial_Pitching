@@ -1,0 +1,2038 @@
+{
+  "pass": "replicate",
+  "unit_key": "panel__st_a8bb4ff3b4__replicate",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:13-1:24"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "presentation",
+      "3": "presentation",
+      "4": "presentation",
+      "5": "none",
+      "6": "none",
+      "7": "none",
+      "8": "none",
+      "9": "none",
+      "10": "none",
+      "11": "none",
+      "12": "none",
+      "13": "none",
+      "14": "none",
+      "15": "none",
+      "16": "none",
+      "17": "none",
+      "18": "none",
+      "19": "none",
+      "20": "none",
+      "21": "qa",
+      "22": "qa",
+      "23": "qa",
+      "24": "qa",
+      "25": "qa",
+      "26": "qa",
+      "27": "qa",
+      "28": "qa",
+      "29": "qa",
+      "30": "qa",
+      "31": "qa",
+      "32": "qa",
+      "33": "qa",
+      "34": "qa",
+      "35": "qa",
+      "36": "qa",
+      "37": "qa",
+      "38": "qa",
+      "39": "demonstration",
+      "40": "demonstration",
+      "41": "demonstration",
+      "42": "demonstration",
+      "43": "demonstration",
+      "44": "qa",
+      "45": "qa",
+      "46": "qa",
+      "47": "qa",
+      "48": "qa",
+      "49": "social",
+      "50": "social",
+      "51": "social",
+      "52": "social",
+      "53": "social",
+      "54": "none",
+      "55": "qa",
+      "56": "none",
+      "57": "qa",
+      "58": "qa",
+      "59": "qa",
+      "60": "qa",
+      "61": "qa",
+      "62": "qa",
+      "63": "none",
+      "64": "none",
+      "65": "none",
+      "66": "none",
+      "67": "none"
+    },
+    "segment_seconds": {
+      "presentation": 71.0,
+      "qa": 111.0,
+      "social": 14.0,
+      "demonstration": 20.0,
+      "negotiation": 0.0,
+      "none": 152.0
+    },
+    "exchange_counts": {
+      "substantive": 4,
+      "social": 1,
+      "demonstration": 1,
+      "negotiation": 0
+    },
+    "turn_frame": {
+      "21": "promotion",
+      "22": "promotion",
+      "23": "prevention",
+      "24": "prevention",
+      "25": "promotion",
+      "26": "promotion",
+      "27": "promotion",
+      "28": "promotion",
+      "29": "prevention",
+      "30": "prevention",
+      "32": "prevention",
+      "33": "prevention",
+      "34": "promotion",
+      "35": "promotion",
+      "37": "promotion",
+      "38": "NEUTRAL",
+      "44": "promotion",
+      "45": "promotion",
+      "46": "promotion",
+      "47": "promotion",
+      "55": "promotion",
+      "57": "promotion",
+      "59": "prevention",
+      "61": "prevention"
+    },
+    "frame_match": {
+      "22": "match",
+      "24": "match",
+      "26": "match",
+      "28": "match",
+      "30": "match",
+      "35": "match",
+      "38": "neutral",
+      "45": "match",
+      "47": "match"
+    },
+    "other_concepts": []
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "H1",
+        "role": "host",
+        "label": "Narrator"
+      },
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Michael Burtov"
+      },
+      {
+        "actor_id": "F2",
+        "role": "founder",
+        "label": "Dakota Decker"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Barbara Corcoran"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Chris Sacca"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Mark Cuban"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Lori Greiner"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 13.0,
+        "end_s": 84.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 13.0,
+        "kind": "narration"
+      },
+      {
+        "start_s": 442.0,
+        "end_s": 472.0,
+        "kind": "recap"
+      }
+    ],
+    "gaps": [],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 3,
+        "uncodable": false,
+        "moment_s": 50.0,
+        "note": "Delivery is mostly matter-of-fact, but they show clear engagement when demonstrating the installation."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 3,
+        "uncodable": false,
+        "moment_s": 67.0,
+        "note": "Excitement is evident when discussing speed and range, though overall tone remains controlled."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 3,
+        "uncodable": false,
+        "moment_s": 34.0,
+        "note": "Friendly and approachable demeanor, smiling occasionally, though heavily focused on the technical pitch."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "1",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "4",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "A motorized wheel that replaces a standard bicycle front wheel to turn it into an electric bike.",
+      "primary_industry": "sports_leisure",
+      "secondary_industries": [],
+      "product_form": "physical_good",
+      "customer_type": "consumer",
+      "founder_gender": "all_men",
+      "product_category": "electric bicycle wheel",
+      "earliest_s": 24.0,
+      "note": "",
+      "ask_amount_usd": 500000,
+      "ask_equity_pct": 5.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 13.0,
+        "end_s": 35.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Michael introduces the company and the ask of 500k for 5 percent."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "F2",
+        "start_s": 35.0,
+        "end_s": 50.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Dakota explains they want to bring the bicycle into the twenty-first century with their wheel."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "F1",
+        "start_s": 50.0,
+        "end_s": 67.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Michael demonstrates how to install the wheel on a normal bike in under 60 seconds."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "F2",
+        "start_s": 67.0,
+        "end_s": 84.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Dakota lists the performance specs like speed, range, and power of the wheel."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "S5",
+        "start_s": 84.0,
+        "end_s": 85.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin asks if he can try riding the bike."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "F1",
+        "start_s": 85.0,
+        "end_s": 89.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Michael agrees and offers to get a helmet for Kevin."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "S5",
+        "start_s": 89.0,
+        "end_s": 90.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin asks what he needs to know before riding."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "F2",
+        "start_s": 90.0,
+        "end_s": 97.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Dakota explains that it operates exactly like a regular bicycle."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "S1",
+        "start_s": 97.0,
+        "end_s": 98.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara asks if anyone else wants to try riding it."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "S2",
+        "start_s": 100.0,
+        "end_s": 101.0,
+        "function": "social",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Chris jokes about never wearing a helmet on television to avoid blackmail photos."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "S5",
+        "start_s": 102.0,
+        "end_s": 104.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin rides the bike and comments that it is very cool."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "S1",
+        "start_s": 105.0,
+        "end_s": 106.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara says she is going to catch Kevin on the other bike."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "S1",
+        "start_s": 109.0,
+        "end_s": 111.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara gets on the second bike to ride."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "F1",
+        "start_s": 111.0,
+        "end_s": 113.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Michael comments that it is just like riding a bike."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "S2",
+        "start_s": 114.0,
+        "end_s": 115.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Chris makes a joke about the blind chasing the blind."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "S1",
+        "start_s": 117.0,
+        "end_s": 119.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara asks where the brake is while riding."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "S2",
+        "start_s": 119.0,
+        "end_s": 121.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Chris tells Barbara she has to pedal backwards to brake."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "S4",
+        "start_s": 122.0,
+        "end_s": 123.0,
+        "function": "accepts",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori expresses amazement at the demonstration."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "S5",
+        "start_s": 125.0,
+        "end_s": 127.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin continues to ride the bike around the set."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "S1",
+        "start_s": 128.0,
+        "end_s": 131.0,
+        "function": "accepts",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara remarks that riding the bike is fun and like magic."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "S4",
+        "start_s": 131.0,
+        "end_s": 133.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks if they launched on Kickstarter or Indiegogo."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "F1",
+        "start_s": 134.0,
+        "end_s": 145.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          21
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Michael shares they raised over 1.2 million on Kickstarter and more on their website."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "S3",
+        "start_s": 146.0,
+        "end_s": 147.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks if they are currently shipping or still in the prototype phase."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "F2",
+        "start_s": 147.0,
+        "end_s": 149.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          23
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Dakota answers that they will begin shipping their first units in two months."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "S4",
+        "start_s": 150.0,
+        "end_s": 151.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks what the price of the product is."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "F1",
+        "start_s": 153.0,
+        "end_s": 155.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          25
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Michael answers that it will retail for 950 dollars."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "S4",
+        "start_s": 156.0,
+        "end_s": 157.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori clarifies if the 950 dollar price is just for the wheel."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "F1",
+        "start_s": 157.0,
+        "end_s": 158.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          27
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "too_short"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Michael confirms the price is for the wheel alone."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "S1",
+        "start_s": 158.0,
+        "end_s": 160.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Barbara asks if it would be cheaper to just buy an electric bike."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "F2",
+        "start_s": 160.0,
+        "end_s": 161.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          29
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "partial",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "too_short"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Dakota replies that it depends on the specific bike."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "S1",
+        "start_s": 161.0,
+        "end_s": 164.0,
+        "function": "challenges",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara asserts that you can buy an electric bike for around 500 dollars."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "F1",
+        "start_s": 164.0,
+        "end_s": 168.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          31
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Michael counters that the quality of a 500 dollar electric bike would be poor."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "F2",
+        "start_s": 169.0,
+        "end_s": 171.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          31
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Dakota adds that their pre-order customers have not had an issue with the price."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "S2",
+        "start_s": 172.0,
+        "end_s": 176.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "market_opportunity",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Chris asks if the market is limited to existing bikes without electric capabilities."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "F1",
+        "start_s": 176.0,
+        "end_s": 187.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          34
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "market_opportunity",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Michael explains they address hurdles to biking like getting tired and sweating."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "S2",
+        "start_s": 188.0,
+        "end_s": 198.0,
+        "function": "challenges",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Chris argues that the industry is moving toward all bikes having an electric option built in."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "S2",
+        "start_s": 198.0,
+        "end_s": 200.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "vision",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Chris asks directly if they would ever manufacture a complete bike."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "F1",
+        "start_s": 200.0,
+        "end_s": 203.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          37
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "deflects",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "NONE",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "too_short"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Michael deflects the question to show the panel another product."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "S4",
+        "start_s": 204.0,
+        "end_s": 205.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori asks for clarification on whether they currently make complete bikes."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "F2",
+        "start_s": 205.0,
+        "end_s": 206.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Dakota confirms they made something different to show them."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "F1",
+        "start_s": 207.0,
+        "end_s": 214.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Michael demonstrates their penny-farthing style mini electric bike."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "S1",
+        "start_s": 215.0,
+        "end_s": 216.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara says she loves the look of the new mini bike."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "F1",
+        "start_s": 217.0,
+        "end_s": 227.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Michael explains the features of the mini bike, including its tight turning radius."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "S1",
+        "start_s": 227.0,
+        "end_s": 231.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Barbara asks if they are selling the mini bike for 950 dollars as well."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "F1",
+        "start_s": 232.0,
+        "end_s": 235.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          44
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "too_short"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Michael clarifies it costs 200 dollars in addition to the wheel."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "S2",
+        "start_s": 236.0,
+        "end_s": 240.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "vision",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Chris asks whether they are prioritizing the new bike or the wheel."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "F2",
+        "start_s": 241.0,
+        "end_s": 243.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          46
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "vision",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Dakota answers that the bike is just a side note for fun."
+      },
+      {
+        "turn_id": 48,
+        "speaker": "S2",
+        "start_s": 244.0,
+        "end_s": 246.0,
+        "function": "challenges",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Chris expresses disappointment, stating that was the opposite of what he wanted to hear."
+      },
+      {
+        "turn_id": 49,
+        "speaker": "S2",
+        "start_s": 246.0,
+        "end_s": 251.0,
+        "function": "social",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Chris jokes if their progress will be as fast as the Mavericks playoff highlights."
+      },
+      {
+        "turn_id": 50,
+        "speaker": "S5",
+        "start_s": 253.0,
+        "end_s": 255.0,
+        "function": "social",
+        "addressed": [
+          "S2",
+          "S3"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin laughs at Chris's joke about the Mavericks."
+      },
+      {
+        "turn_id": 51,
+        "speaker": "S3",
+        "start_s": 258.0,
+        "end_s": 260.0,
+        "function": "social",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark retorts that Chris does not have any highlights of anything."
+      },
+      {
+        "turn_id": 52,
+        "speaker": "S5",
+        "start_s": 260.0,
+        "end_s": 262.0,
+        "function": "social",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin jokes that Mark's response was his only possible comeback."
+      },
+      {
+        "turn_id": 53,
+        "speaker": "S2",
+        "start_s": 262.0,
+        "end_s": 265.0,
+        "function": "social",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Chris acknowledges Mark's comeback as a good zinger."
+      },
+      {
+        "turn_id": 54,
+        "speaker": "S2",
+        "start_s": 266.0,
+        "end_s": 292.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Chris decides to exit, preferring to invest in native electric bikes rather than retrofits."
+      },
+      {
+        "turn_id": 55,
+        "speaker": "F1",
+        "start_s": 293.0,
+        "end_s": 301.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          54
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "vision",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Michael argues that retrofitting existing items is the actual future of electric vehicles."
+      },
+      {
+        "turn_id": 56,
+        "speaker": "S3",
+        "start_s": 301.0,
+        "end_s": 328.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark decides to exit, citing the extreme difficulty of sales and distribution in this space."
+      },
+      {
+        "turn_id": 57,
+        "speaker": "F1",
+        "start_s": 331.0,
+        "end_s": 342.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          56
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Michael explains their plan to grow through direct-to-consumer and future fleet sales."
+      },
+      {
+        "turn_id": 58,
+        "speaker": "S3",
+        "start_s": 342.0,
+        "end_s": 345.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark argues that every motorized vehicle company wants fleet sales."
+      },
+      {
+        "turn_id": 59,
+        "speaker": "F1",
+        "start_s": 345.0,
+        "end_s": 348.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          58
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Michael points out that police departments already have bikes and do not need new ones."
+      },
+      {
+        "turn_id": 60,
+        "speaker": "S4",
+        "start_s": 349.0,
+        "end_s": 351.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori agrees that police already have their current bicycles."
+      },
+      {
+        "turn_id": 61,
+        "speaker": "F1",
+        "start_s": 352.0,
+        "end_s": 354.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          58
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "too_short"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Michael adds that bike share programs also already have their own bikes."
+      },
+      {
+        "turn_id": 62,
+        "speaker": "S3",
+        "start_s": 354.0,
+        "end_s": 358.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark counters that the 950 dollar price is still a massive hurdle for fleets."
+      },
+      {
+        "turn_id": 63,
+        "speaker": "S4",
+        "start_s": 360.0,
+        "end_s": 381.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori decides to exit because she believes the product is not offered at an affordable price."
+      },
+      {
+        "turn_id": 64,
+        "speaker": "S5",
+        "start_s": 382.0,
+        "end_s": 401.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin decides to exit, wanting to buy the small bike but not invest in the company."
+      },
+      {
+        "turn_id": 65,
+        "speaker": "S1",
+        "start_s": 408.0,
+        "end_s": 431.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara decides to exit, finding the price too high and the installation unappealing for herself."
+      },
+      {
+        "turn_id": 66,
+        "speaker": "F1",
+        "start_s": 436.0,
+        "end_s": 437.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Michael thanks the panel for their time."
+      },
+      {
+        "turn_id": 67,
+        "speaker": "S3",
+        "start_s": 437.0,
+        "end_s": 439.0,
+        "function": "social",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark wishes the founders good luck with their venture."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "Kickstarter and price"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "demonstration",
+        "topic": "NONE",
+        "label": "Penny farthing bike demo"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "Price of the mini bike"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "Mavericks joke"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "vision",
+        "label": "Retrofitting vs native"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "substantive",
+        "topic": "go_to_market",
+        "label": "Fleet sales"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S2",
+        "kind": "exit",
+        "time_s": 266.0,
+        "turn_id": 54,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Believes the future is native electric bikes, not retrofitted wheels."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S3",
+        "kind": "exit",
+        "time_s": 301.0,
+        "turn_id": 56,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Thinks sales and distribution are too challenging and competitive against big box retailers."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S4",
+        "kind": "exit",
+        "time_s": 360.0,
+        "turn_id": 63,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Believes the price is not affordable enough for a great product."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S5",
+        "kind": "exit",
+        "time_s": 382.0,
+        "turn_id": 64,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Loves the small bike but needs the cost below 300; buyer of product, not company."
+      },
+      {
+        "decision_id": 5,
+        "actor": "S1",
+        "kind": "exit",
+        "time_s": 408.0,
+        "turn_id": 65,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Intrigued by the bug bike but price is too high and wouldn't swap wheels herself. Will buy one."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": "The transcript incorrectly attributes Barbara's final sentence of her exit at 7:07 to Dakota."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "batch_id": "b02",
+  "video_ids": [
+    "st_248ba1c7b4",
+    "st_02f25e2b0a",
+    "st_f6cfd4372c",
+    "st_f9c388f4a8",
+    "st_a6074592e6"
+  ],
+  "labels": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "rankings": {
+    "pitch_positivity": [
+      "st_02f25e2b0a",
+      "st_f6cfd4372c",
+      "st_f9c388f4a8",
+      "st_248ba1c7b4",
+      "st_a6074592e6"
+    ],
+    "expressed_enthusiasm": [
+      "st_f6cfd4372c",
+      "st_f9c388f4a8",
+      "st_02f25e2b0a",
+      "st_248ba1c7b4",
+      "st_a6074592e6"
+    ],
+    "interpersonal_warmth": [
+      "st_02f25e2b0a",
+      "st_f6cfd4372c",
+      "st_f9c388f4a8",
+      "st_248ba1c7b4",
+      "st_a6074592e6"
+    ]
+  },
+  "notes": {
+    "pitch_positivity": "B features a beaming, overwhelmingly positive delivery throughout, while E presents with a more subdued tone. C and D were close in high energy.",
+    "expressed_enthusiasm": "C shows highly animated, engaged excitement about their product demo, whereas E is the most reserved. C and D were close in their energetic delivery.",
+    "interpersonal_warmth": "B radiates an exceptionally friendly and approachable demeanor, while E is polite but the least overtly warm. C and D were close in friendliness."
+  },
+  "batch_notes": "",
+  "model_version": "gemini-3.1-pro-preview",
+  "prompt_hash": "83d1721df059bb52"
+}

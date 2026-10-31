@@ -1,0 +1,2409 @@
+{
+  "pass": "primary",
+  "unit_key": "panel__st_ae6818450d__primary",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:14-1:26"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "none",
+      "3": "none",
+      "4": "qa",
+      "5": "qa",
+      "6": "qa",
+      "7": "qa",
+      "8": "qa",
+      "9": "qa",
+      "10": "qa",
+      "11": "qa",
+      "12": "none",
+      "13": "qa",
+      "14": "qa",
+      "15": "qa",
+      "16": "qa",
+      "17": "qa",
+      "18": "qa",
+      "19": "qa",
+      "20": "qa",
+      "21": "qa",
+      "22": "qa",
+      "23": "qa",
+      "24": "qa",
+      "25": "qa",
+      "26": "qa",
+      "27": "qa",
+      "28": "qa",
+      "29": "qa",
+      "30": "qa",
+      "31": "qa",
+      "32": "qa",
+      "33": "qa",
+      "34": "none",
+      "35": "qa",
+      "36": "qa",
+      "37": "qa",
+      "38": "qa",
+      "39": "none",
+      "40": "none",
+      "41": "none",
+      "42": "qa",
+      "43": "qa",
+      "44": "qa",
+      "45": "none",
+      "46": "none",
+      "47": "none",
+      "48": "none",
+      "49": "negotiation",
+      "50": "none",
+      "51": "negotiation",
+      "52": "negotiation",
+      "53": "none",
+      "54": "none",
+      "55": "none",
+      "56": "negotiation",
+      "57": "none",
+      "58": "negotiation",
+      "59": "negotiation",
+      "60": "negotiation",
+      "61": "negotiation",
+      "62": "negotiation",
+      "63": "negotiation",
+      "64": "none",
+      "65": "none",
+      "66": "none",
+      "67": "negotiation",
+      "68": "none",
+      "69": "none"
+    },
+    "segment_seconds": {
+      "presentation": 72.0,
+      "qa": 202.0,
+      "social": 0.0,
+      "demonstration": 0.0,
+      "negotiation": 52.0,
+      "none": 133.0
+    },
+    "exchange_counts": {
+      "substantive": 9,
+      "social": 0,
+      "demonstration": 0,
+      "negotiation": 1
+    },
+    "turn_frame": {
+      "4": "promotion",
+      "5": "prevention",
+      "6": "prevention",
+      "7": "prevention",
+      "8": "prevention",
+      "9": "prevention",
+      "10": "prevention",
+      "11": "prevention",
+      "13": "promotion",
+      "14": "promotion",
+      "15": "promotion",
+      "16": "promotion",
+      "17": "prevention",
+      "18": "prevention",
+      "19": "promotion",
+      "20": "promotion",
+      "21": "promotion",
+      "22": "promotion",
+      "23": "unclassified",
+      "24": "unclassified",
+      "25": "promotion",
+      "26": "promotion",
+      "27": "prevention",
+      "28": "prevention",
+      "30": "prevention",
+      "31": "prevention",
+      "32": "prevention",
+      "33": "promotion",
+      "38": "promotion",
+      "42": "unclassified",
+      "43": "unclassified",
+      "44": "unclassified",
+      "58": "unclassified",
+      "59": "unclassified",
+      "61": "unclassified"
+    },
+    "frame_match": {
+      "6": "match",
+      "8": "match",
+      "10": "match",
+      "11": "match",
+      "13": "switch_to_promotion",
+      "15": "match",
+      "17": "switch_to_prevention",
+      "19": "switch_to_promotion",
+      "21": "match",
+      "23": "unclassified",
+      "24": "unclassified",
+      "26": "match",
+      "28": "match",
+      "30": "match",
+      "32": "match",
+      "38": "match",
+      "43": "unclassified",
+      "59": "unclassified"
+    },
+    "other_concepts": []
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "H1",
+        "role": "host",
+        "label": "Narrator"
+      },
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Kanz Kayfan"
+      },
+      {
+        "actor_id": "F2",
+        "role": "founder",
+        "label": "Sobhan Sanaee"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Lori Greiner"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Daymond John"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Mark Cuban"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Robert Herjavec"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 14.0,
+        "end_s": 86.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 14.0,
+        "kind": "teaser"
+      },
+      {
+        "start_s": 547.0,
+        "end_s": 557.0,
+        "kind": "interview"
+      },
+      {
+        "start_s": 558.0,
+        "end_s": 578.0,
+        "kind": "other"
+      }
+    ],
+    "gaps": [
+      {
+        "at_s": 498.0,
+        "note": "an edit hides the transition to Kevin re-entering the negotiation after exiting"
+      }
+    ],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 5,
+        "uncodable": false,
+        "moment_s": 50.0,
+        "note": "Kanz displays very strong positive expression and enthusiastic body language while explaining the solution."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 5,
+        "uncodable": false,
+        "moment_s": 37.0,
+        "note": "Kanz speaks with pronounced and sustained engagement and excitement when discussing catching live bait."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 15.0,
+        "note": "Both founders present with friendly, approachable smiles and courteous introductions to the panel."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "0",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "A rechargeable, robotic fishing lure that swims like a real fish to attract catches without live bait.",
+      "primary_industry": "sports_leisure",
+      "secondary_industries": [],
+      "product_form": "physical_good",
+      "customer_type": "consumer",
+      "founder_gender": "all_men",
+      "product_category": "robotic fishing lure",
+      "earliest_s": 19.0,
+      "note": "Ask is $325,000 for 10% equity.",
+      "ask_amount_usd": 325000,
+      "ask_equity_pct": 10.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 14.0,
+        "end_s": 86.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kanz and Sobhan introduce themselves, ask for their investment, detail the problems with traditional fishing, and demonstrate their robotic lure."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "S2",
+        "start_s": 86.0,
+        "end_s": 89.0,
+        "function": "social",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin comments on how much one can learn on Shark Tank, finding the product amazing."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "S4",
+        "start_s": 90.0,
+        "end_s": 91.0,
+        "function": "social",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark agrees with Kevin's sentiment about learning new things."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "S1",
+        "start_s": 91.0,
+        "end_s": 94.0,
+        "function": "question",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks Daymond if the robotic lure is different from anything he has ever used for fishing."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "S3",
+        "start_s": 95.0,
+        "end_s": 98.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          4
+        ],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "customer_retention",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Daymond answers Lori, noting rust issues with older lures, and asks the founders how often the unit needs replacing."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "F2",
+        "start_s": 101.0,
+        "end_s": 106.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          5
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "customer_retention",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Sobhan states that the lure can currently be used about forty times while actively catching fish."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "S2",
+        "start_s": 107.0,
+        "end_s": 109.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks how long the robotic lure can hold a battery charge."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "F1",
+        "start_s": 109.0,
+        "end_s": 119.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          7
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kanz explains the charge times for the different sizes, ranging from forty-five minutes to two hours."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "S5",
+        "start_s": 120.0,
+        "end_s": 125.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks what makes the founders fish experts and why he should believe them."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "F2",
+        "start_s": 126.0,
+        "end_s": 129.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          9
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Sobhan states that he works as a project manager at manufacturing facilities."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "F1",
+        "start_s": 130.0,
+        "end_s": 133.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          9
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kanz adds that he is a licensed professional counselor working in community mental health."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "S5",
+        "start_s": 134.0,
+        "end_s": 135.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert jokes that their non-fishing backgrounds make perfect sense for a fishing company."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "F2",
+        "start_s": 136.0,
+        "end_s": 178.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          9
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "deflects",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Sobhan describes his childhood fishing with his dad, his dad's illness, and his immigrant parents' sacrifices to explain their motivation."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "S1",
+        "start_s": 179.0,
+        "end_s": 180.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks where the founders originally came from."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "F2",
+        "start_s": 180.0,
+        "end_s": 182.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          14
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Sobhan and Kanz reply that their family came from Iran."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "S4",
+        "start_s": 183.0,
+        "end_s": 186.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks about the manufacturing costs, the retail prices, and their total sales figures."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "F1",
+        "start_s": 186.0,
+        "end_s": 189.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          16
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "partial",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kanz provides the landed costs for the mini and classic sizes, addressing only the cost part of the question."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "S2",
+        "start_s": 190.0,
+        "end_s": 191.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks for the manufacturing cost of the new, larger saltwater lure."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "F1",
+        "start_s": 191.0,
+        "end_s": 199.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          18
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kanz states the cost of the large lure and then provides the retail prices for all three sizes."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "S1",
+        "start_s": 200.0,
+        "end_s": 203.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks whether their sales are entirely direct-to-consumer or if they are in retail stores."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "F1",
+        "start_s": 204.0,
+        "end_s": 211.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          20
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kanz explains that sales are mostly online, but they are in some small shops and have a Canadian distributor."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "S2",
+        "start_s": 212.0,
+        "end_s": 215.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks about their presence in major outdoor retail chains."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "F2",
+        "start_s": 216.0,
+        "end_s": 218.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          22
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "deflects",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Sobhan replies that getting into major retail chains is precisely why they are seeking an investor."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "F1",
+        "start_s": 219.0,
+        "end_s": 221.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          22
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kanz adds that the major chains would definitely answer a call from the investors."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "S2",
+        "start_s": 222.0,
+        "end_s": 233.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin points out that their valuation implies they must be selling a large volume of lures."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "F1",
+        "start_s": 234.0,
+        "end_s": 241.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          25
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kanz provides their year-to-date sales figures and shares their revenue projections for the current and following year."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "S4",
+        "start_s": 242.0,
+        "end_s": 244.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks if the company is currently profitable."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "F1",
+        "start_s": 245.0,
+        "end_s": 255.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          27
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kanz confirms they are making money, noting they both work full-time jobs, have no debt, and self-funded the start."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "S4",
+        "start_s": 256.0,
+        "end_s": 257.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          28
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark praises them for being serious and efficient with their startup capital."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "F1",
+        "start_s": 258.0,
+        "end_s": 262.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          27
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kanz adds that they reinvest every cent earned back into the company rather than paying themselves."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "S3",
+        "start_s": 263.0,
+        "end_s": 264.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Daymond asks if the two founders own the company in equal shares."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "F1",
+        "start_s": 264.0,
+        "end_s": 265.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          31
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kanz confirms that they are equal partners in the business."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "S2",
+        "start_s": 266.0,
+        "end_s": 270.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin suggests they could market the lures as an aquarium display rather than for fishing."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "S1",
+        "start_s": 271.0,
+        "end_s": 272.0,
+        "function": "social",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori jokes that an aquarium display would not require feeding."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "S4",
+        "start_s": 272.0,
+        "end_s": 275.0,
+        "function": "accepts",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          33
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark agrees that it would be a good idea for a restaurant setting."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "S5",
+        "start_s": 276.0,
+        "end_s": 277.0,
+        "function": "accepts",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          33
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert also agrees that it is a good idea."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "S3",
+        "start_s": 278.0,
+        "end_s": 279.0,
+        "function": "accepts",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          33
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond adds his agreement, calling it a great idea."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "F2",
+        "start_s": 280.0,
+        "end_s": 281.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          33
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Sobhan concedes that the aquarium suggestion is indeed a clever and good idea."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "S4",
+        "start_s": 282.0,
+        "end_s": 289.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark explains he is not a fisherman and lacks a feel for the product, so he exits."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "F2",
+        "start_s": 290.0,
+        "end_s": 291.0,
+        "function": "social",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Sobhan thanks Mark for his time and understanding."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "S1",
+        "start_s": 291.0,
+        "end_s": 298.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori states she is also not a fisherman and considers the investment too early for her, exiting."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "S2",
+        "start_s": 299.0,
+        "end_s": 309.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin argues they are essentially a product rather than a company, asking how he would recoup his investment."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "F1",
+        "start_s": 310.0,
+        "end_s": 317.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          42
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kanz replies that business relies heavily on connections, and they value Kevin's extensive network to secure distribution."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "S2",
+        "start_s": 318.0,
+        "end_s": 345.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin explains the work required to get retail distribution, demanding either a large equity share or a royalty to compensate."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "S1",
+        "start_s": 346.0,
+        "end_s": 347.0,
+        "function": "social",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori points out to the founders that Kevin is clearly looking for a royalty deal."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "S2",
+        "start_s": 348.0,
+        "end_s": 349.0,
+        "function": "social",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin playfully asks Lori if she just mentioned a royalty deal."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "S4",
+        "start_s": 349.0,
+        "end_s": 350.0,
+        "function": "social",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark laughs at Kevin's predictable move toward a royalty structure."
+      },
+      {
+        "turn_id": 48,
+        "speaker": "S3",
+        "start_s": 351.0,
+        "end_s": 352.0,
+        "function": "social",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond also reacts humorously to Kevin's royalty hint."
+      },
+      {
+        "turn_id": 49,
+        "speaker": "F2",
+        "start_s": 352.0,
+        "end_s": 353.0,
+        "function": "negotiates",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Sobhan begins to suggest a counter to Kevin's demands."
+      },
+      {
+        "turn_id": 50,
+        "speaker": "S2",
+        "start_s": 354.0,
+        "end_s": 361.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin interrupts to make a formal offer: the requested cash for equity, plus a per-unit royalty until a cap."
+      },
+      {
+        "turn_id": 51,
+        "speaker": "S5",
+        "start_s": 362.0,
+        "end_s": 363.0,
+        "function": "accepts",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          50
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert tells the founders that Kevin's proposition is a great offer."
+      },
+      {
+        "turn_id": 52,
+        "speaker": "F2",
+        "start_s": 363.0,
+        "end_s": 364.0,
+        "function": "accepts",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          51
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Sobhan agrees with Robert that the offer is indeed a good one."
+      },
+      {
+        "turn_id": 53,
+        "speaker": "S5",
+        "start_s": 364.0,
+        "end_s": 392.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert disagrees with their philosophy about connections, emphasizing hard work instead, and exits because he feels they aren't ready."
+      },
+      {
+        "turn_id": 54,
+        "speaker": "F2",
+        "start_s": 393.0,
+        "end_s": 394.0,
+        "function": "social",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Sobhan thanks Robert for his feedback and time."
+      },
+      {
+        "turn_id": 55,
+        "speaker": "S3",
+        "start_s": 394.0,
+        "end_s": 421.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond praises the product but exits due to the high valuation, noting the massive sales needed to recoup the investment."
+      },
+      {
+        "turn_id": 56,
+        "speaker": "S2",
+        "start_s": 422.0,
+        "end_s": 427.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin points out he is the only remaining investor and asks for their decision on his offer."
+      },
+      {
+        "turn_id": 57,
+        "speaker": "F1",
+        "start_s": 428.0,
+        "end_s": 433.0,
+        "function": "decides",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kanz counters Kevin's offer by proposing a higher investment amount for a larger equity stake."
+      },
+      {
+        "turn_id": 58,
+        "speaker": "S1",
+        "start_s": 434.0,
+        "end_s": 437.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori interrupts to clarify if their counter-offer includes any royalty component."
+      },
+      {
+        "turn_id": 59,
+        "speaker": "F2",
+        "start_s": 438.0,
+        "end_s": 439.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          58
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Sobhan confirms that their counter-offer removes the royalty entirely."
+      },
+      {
+        "turn_id": 60,
+        "speaker": "S2",
+        "start_s": 440.0,
+        "end_s": 469.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          57
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin rejects the counter-offer, scolds them for making a poor counter when an investor is interested, and demands better negotiation."
+      },
+      {
+        "turn_id": 61,
+        "speaker": "S1",
+        "start_s": 470.0,
+        "end_s": 473.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks the founders directly if they are willing to accept a royalty deal structure."
+      },
+      {
+        "turn_id": 62,
+        "speaker": "F1",
+        "start_s": 474.0,
+        "end_s": 475.0,
+        "function": "negotiates",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          61
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kanz checks with his partner if they should discuss a royalty arrangement."
+      },
+      {
+        "turn_id": 63,
+        "speaker": "F2",
+        "start_s": 476.0,
+        "end_s": 480.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          62
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Sobhan agrees they should discuss the possibility of a royalty."
+      },
+      {
+        "turn_id": 64,
+        "speaker": "F1",
+        "start_s": 481.0,
+        "end_s": 486.0,
+        "function": "decides",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kanz offers a new counter, keeping the original equity but reducing both the royalty amount and the recoup cap."
+      },
+      {
+        "turn_id": 65,
+        "speaker": "S2",
+        "start_s": 487.0,
+        "end_s": 497.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin finds the new counter unattractive, feels they cannot reach an agreement, and exits."
+      },
+      {
+        "turn_id": 66,
+        "speaker": "S2",
+        "start_s": 498.0,
+        "end_s": 520.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin re-enters the negotiation, criticizing their previous counter-offer, and issues an ultimatum to accept his original terms immediately."
+      },
+      {
+        "turn_id": 67,
+        "speaker": "F1",
+        "start_s": 521.0,
+        "end_s": 524.0,
+        "function": "negotiates",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          66
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The founders whisper to quickly confer on Kevin's ultimatum."
+      },
+      {
+        "turn_id": 68,
+        "speaker": "F2",
+        "start_s": 525.0,
+        "end_s": 526.0,
+        "function": "decides",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Sobhan formally accepts Kevin's offer."
+      },
+      {
+        "turn_id": 69,
+        "speaker": "S2",
+        "start_s": 527.0,
+        "end_s": 529.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin celebrates successfully closing the deal."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "substantive",
+        "topic": "assets",
+        "label": "Difference from traditional lures"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "Battery charge time"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "team_capabilities",
+        "label": "Founders' background and expertise"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "Cost and retail price"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "go_to_market",
+        "label": "Sales channels and retail presence"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "Sales history and projections"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "substantive",
+        "topic": "team_capabilities",
+        "label": "Equity ownership split"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "substantive",
+        "topic": "usage",
+        "label": "Alternative use as aquarium display"
+      },
+      {
+        "exchange_id": 9,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "Investor role and return on capital"
+      },
+      {
+        "exchange_id": 10,
+        "kind": "negotiation",
+        "topic": "NONE",
+        "label": "Negotiation of terms"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S4",
+        "kind": "exit",
+        "time_s": 282.0,
+        "turn_id": 39,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Not a fisherman, doesn't have a feel for the product."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S1",
+        "kind": "exit",
+        "time_s": 291.0,
+        "turn_id": 41,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Not a fisherman, considers it too early for her to invest."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S2",
+        "kind": "offer",
+        "time_s": 354.0,
+        "turn_id": 50,
+        "offer_id": "O1",
+        "terms": "$325,000 for 10% equity, plus a royalty of $3 per unit until $1,000,000 is recouped.",
+        "note": "Wants a creative way to get his capital back since they are mostly a product."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S5",
+        "kind": "exit",
+        "time_s": 364.0,
+        "turn_id": 53,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Disagrees with their philosophy that success is about who you know, thinks they have a long way to go."
+      },
+      {
+        "decision_id": 5,
+        "actor": "S3",
+        "kind": "exit",
+        "time_s": 394.0,
+        "turn_id": 55,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Struggles with the high valuation, requiring massive sales to make a return."
+      },
+      {
+        "decision_id": 6,
+        "actor": "F1",
+        "kind": "founder_counters",
+        "time_s": 428.0,
+        "turn_id": 57,
+        "offer_id": "O2",
+        "terms": "$500,000 for 20% equity, with no royalty.",
+        "note": "Counters Kevin's royalty offer with a straight equity deal."
+      },
+      {
+        "decision_id": 7,
+        "actor": "F1",
+        "kind": "founder_counters",
+        "time_s": 481.0,
+        "turn_id": 64,
+        "offer_id": "O3",
+        "terms": "$325,000 for 10% equity, plus a royalty of $1.50 per unit until $500,000 is recouped.",
+        "note": "Reduces the royalty amount and the recoup cap from Kevin's original offer."
+      },
+      {
+        "decision_id": 8,
+        "actor": "S2",
+        "kind": "exit",
+        "time_s": 487.0,
+        "turn_id": 65,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Finds the counter-offer unattractive, feels there is no meeting of the minds."
+      },
+      {
+        "decision_id": 9,
+        "actor": "S2",
+        "kind": "re_entry",
+        "time_s": 498.0,
+        "turn_id": 66,
+        "offer_id": "O1",
+        "terms": "$325,000 for 10% equity, plus a royalty of $3 per unit until $1,000,000 is recouped.",
+        "note": "Offers one last chance to accept his exact original terms."
+      },
+      {
+        "decision_id": 10,
+        "actor": "F2",
+        "kind": "founder_accepts",
+        "time_s": 525.0,
+        "turn_id": 68,
+        "offer_id": "O1",
+        "terms": "Kevin you got a deal.",
+        "note": "Accepts Kevin's ultimatum offer."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": "An edit at 8:18 hides the transition where Kevin decides to re-enter the negotiation after having formally exited."
+  }
+}

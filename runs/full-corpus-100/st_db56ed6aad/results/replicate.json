@@ -1,0 +1,2544 @@
+{
+  "pass": "replicate",
+  "unit_key": "panel__st_db56ed6aad__replicate",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:15-1:24"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "none",
+      "3": "qa",
+      "4": "qa",
+      "5": "qa",
+      "6": "qa",
+      "7": "qa",
+      "8": "qa",
+      "9": "none",
+      "10": "qa",
+      "11": "qa",
+      "12": "qa",
+      "13": "qa",
+      "14": "qa",
+      "15": "qa",
+      "16": "qa",
+      "17": "qa",
+      "18": "qa",
+      "19": "qa",
+      "20": "qa",
+      "21": "qa",
+      "22": "qa",
+      "23": "qa",
+      "24": "qa",
+      "25": "qa",
+      "26": "qa",
+      "27": "qa",
+      "28": "qa",
+      "29": "qa",
+      "30": "qa",
+      "31": "qa",
+      "32": "qa",
+      "33": "qa",
+      "34": "qa",
+      "35": "qa",
+      "36": "qa",
+      "37": "qa",
+      "38": "none",
+      "39": "qa",
+      "40": "qa",
+      "41": "qa",
+      "42": "none",
+      "43": "qa",
+      "44": "qa",
+      "45": "qa",
+      "46": "qa",
+      "47": "none",
+      "48": "qa",
+      "49": "none",
+      "50": "none",
+      "51": "negotiation",
+      "52": "none",
+      "53": "negotiation",
+      "54": "negotiation",
+      "55": "negotiation",
+      "56": "negotiation",
+      "57": "negotiation",
+      "58": "negotiation",
+      "59": "negotiation",
+      "60": "none",
+      "61": "none",
+      "62": "none",
+      "63": "negotiation",
+      "64": "none",
+      "65": "negotiation",
+      "66": "negotiation",
+      "67": "negotiation",
+      "68": "negotiation",
+      "69": "negotiation",
+      "70": "negotiation",
+      "71": "negotiation",
+      "72": "negotiation",
+      "73": "negotiation",
+      "74": "negotiation",
+      "75": "negotiation",
+      "76": "negotiation",
+      "77": "negotiation",
+      "78": "negotiation",
+      "79": "negotiation",
+      "80": "negotiation",
+      "81": "negotiation",
+      "82": "negotiation",
+      "83": "negotiation",
+      "84": "negotiation"
+    },
+    "segment_seconds": {
+      "presentation": 69.0,
+      "qa": 239.0,
+      "social": 0.0,
+      "demonstration": 0.0,
+      "negotiation": 190.0,
+      "none": 56.0
+    },
+    "exchange_counts": {
+      "substantive": 8,
+      "social": 0,
+      "demonstration": 0,
+      "negotiation": 1
+    },
+    "turn_frame": {
+      "3": "promotion",
+      "5": "promotion",
+      "7": "promotion",
+      "11": "prevention",
+      "12": "promotion",
+      "13": "promotion",
+      "15": "promotion",
+      "16": "promotion",
+      "17": "promotion",
+      "19": "promotion",
+      "20": "promotion",
+      "21": "promotion",
+      "22": "promotion",
+      "23": "promotion",
+      "25": "prevention",
+      "26": "prevention",
+      "27": "prevention",
+      "28": "prevention",
+      "29": "prevention",
+      "30": "prevention",
+      "31": "prevention",
+      "32": "prevention",
+      "33": "promotion",
+      "34": "promotion",
+      "35": "prevention",
+      "36": "prevention",
+      "39": "promotion",
+      "40": "promotion",
+      "44": "promotion",
+      "46": "promotion"
+    },
+    "frame_match": {
+      "5": "match",
+      "13": "match",
+      "15": "match",
+      "17": "match",
+      "19": "match",
+      "21": "match",
+      "23": "match",
+      "26": "match",
+      "28": "match",
+      "30": "match",
+      "32": "match",
+      "34": "match",
+      "36": "match",
+      "40": "match"
+    },
+    "other_concepts": []
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Jason Richardson"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Robert Herjavec"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Lori Greiner"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Mark Cuban"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Daymond John"
+      },
+      {
+        "actor_id": "H1",
+        "role": "host",
+        "label": "Narrator"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 15.0,
+        "end_s": 84.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 15.0,
+        "kind": "teaser"
+      },
+      {
+        "start_s": 458.0,
+        "end_s": 470.0,
+        "kind": "other"
+      },
+      {
+        "start_s": 470.0,
+        "end_s": 485.0,
+        "kind": "recap"
+      },
+      {
+        "start_s": 639.0,
+        "end_s": 659.0,
+        "kind": "other"
+      }
+    ],
+    "gaps": [
+      {
+        "at_s": 458.0,
+        "note": "commercial break edit hides time taken to consider the offers"
+      }
+    ],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 5,
+        "uncodable": false,
+        "moment_s": 82.0,
+        "note": "Very strong positive expression, smiling, energetic delivery, 'Let's go baby!'"
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 5,
+        "uncodable": false,
+        "moment_s": 82.0,
+        "note": "Pronounced, sustained engagement and excitement throughout the pitch."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 37.0,
+        "note": "Friendly, approachable, uses inclusive gestures and an inviting tone."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "0",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "Performance golf polo shirts with bold, fun patterns aimed at a younger generation of golfers.",
+      "primary_industry": "apparel_accessories",
+      "secondary_industries": [
+        "sports_leisure"
+      ],
+      "product_form": "physical_good",
+      "customer_type": "consumer",
+      "founder_gender": "all_men",
+      "product_category": "golf apparel",
+      "earliest_s": 21.0,
+      "note": "The two models present do not speak or pitch.",
+      "ask_amount_usd": 300000,
+      "ask_equity_pct": 10.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 15.0,
+        "end_s": 84.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Presents Bad Birdie, highlighting the boring nature of traditional golf apparel and offering performance polos with bold, fresh patterns."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "S4",
+        "start_s": 84.0,
+        "end_s": 89.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The panel opens the boxes and looks at the sample shirts provided."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "S5",
+        "start_s": 89.0,
+        "end_s": 93.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Jokes about why anyone would play golf, stating that he hates the sport."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "F1",
+        "start_s": 93.0,
+        "end_s": 97.0,
+        "function": "social",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Laughs and acknowledges that he has heard that sentiment from many people."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "F1",
+        "start_s": 98.0,
+        "end_s": 106.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          3
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Explains that golf has a history of being boring, but is becoming more popular with a younger generation."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "S1",
+        "start_s": 106.0,
+        "end_s": 108.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          5
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Points out that a person does not actually need to play golf to wear the shirts."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "F1",
+        "start_s": 108.0,
+        "end_s": 115.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          6
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Agrees but emphasizes that they are specifically made as performance apparel for use on the golf course."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "S4",
+        "start_s": 115.0,
+        "end_s": 116.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          7
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Compliments the shirts, noting that they are cool looking."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "F1",
+        "start_s": 116.0,
+        "end_s": 117.0,
+        "function": "NONE",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Thanks Mark for the compliment."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "S2",
+        "start_s": 117.0,
+        "end_s": 122.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "States that he loves golf but notes there is already a lot of similar apparel in the market."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "F1",
+        "start_s": 122.0,
+        "end_s": 126.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          10
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Counters that existing golf companies have primarily targeted older golfers over the age of forty."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "S1",
+        "start_s": 126.0,
+        "end_s": 131.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks for the plan to gain market share in the industry."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "F1",
+        "start_s": 131.0,
+        "end_s": 156.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          12
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Shares his background, explaining he invested his own money and achieved seventy-two thousand dollars in sales the first year."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "S1",
+        "start_s": 157.0,
+        "end_s": 158.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          13
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Congratulates him on the initial sales achievement."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "F1",
+        "start_s": 158.0,
+        "end_s": 159.0,
+        "function": "answer",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          12
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Adds that in the second year he sold four hundred and twelve thousand dollars."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "S5",
+        "start_s": 160.0,
+        "end_s": 162.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks to confirm the four hundred and twelve thousand dollar sales figure."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "F1",
+        "start_s": 162.0,
+        "end_s": 165.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          16
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Confirms the number and states he is currently at seven hundred and sixty thousand, projecting over a million."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "S3",
+        "start_s": 166.0,
+        "end_s": 169.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          17
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Expresses being impressed, calling him a hustler."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "F1",
+        "start_s": 169.0,
+        "end_s": 171.0,
+        "function": "answer",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          16
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Explains that sales have been entirely online until the most recent year."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "S1",
+        "start_s": 171.0,
+        "end_s": 173.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks to confirm if the business has been exclusively online."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "F1",
+        "start_s": 173.0,
+        "end_s": 185.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          20
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Confirms it was all online, detailing how he releases shirts that sell out rapidly, forcing him to reinvest cash flow."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "S4",
+        "start_s": 185.0,
+        "end_s": 187.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks if customers wait for a specific drop date to buy."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "F1",
+        "start_s": 187.0,
+        "end_s": 199.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          22
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Agrees, explaining he does drops every two months, and notes that highly popular designs move into a best sellers category."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "S3",
+        "start_s": 199.0,
+        "end_s": 200.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          23
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mentions that the wildlife design he just highlighted is her favorite."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "S1",
+        "start_s": 200.0,
+        "end_s": 201.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks how many new designs are dropped per year."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "F1",
+        "start_s": 201.0,
+        "end_s": 205.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          25
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "States he does about thirty designs per season, alongside limited edition runs."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "S2",
+        "start_s": 205.0,
+        "end_s": 207.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks who is responsible for the design work."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "F1",
+        "start_s": 207.0,
+        "end_s": 212.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          27
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Explains he started doing them himself but has since built a team of about ten designers."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "S1",
+        "start_s": 213.0,
+        "end_s": 216.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks for the manufacturing cost and the retail selling price."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "F1",
+        "start_s": 216.0,
+        "end_s": 228.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          29
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "5",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Details the selling price and how manufacturing costs have decreased over time, projecting further reductions with overseas production."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "S2",
+        "start_s": 228.0,
+        "end_s": 230.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks where the shirts are currently being manufactured."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "F1",
+        "start_s": 230.0,
+        "end_s": 239.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          31
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Confirms they are made in Los Angeles and pivots to mention his growing wholesale figures."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "S5",
+        "start_s": 240.0,
+        "end_s": 244.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Questions the need to expand into retail given the strong online sales."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "F1",
+        "start_s": 245.0,
+        "end_s": 248.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          33
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Replies that retail presents an opportunity and helps grow the overall brand."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "S4",
+        "start_s": 248.0,
+        "end_s": 250.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks how many units will be produced in each run next year."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "F1",
+        "start_s": 250.0,
+        "end_s": 253.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          35
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Estimates that next year's runs will be between one thousand and two thousand per shirt."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "S4",
+        "start_s": 253.0,
+        "end_s": 266.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          23
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Praises the limited drop model, noting it perfectly connects with younger consumers trained by sneaker culture."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "F1",
+        "start_s": 266.0,
+        "end_s": 267.0,
+        "function": "NONE",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Agrees with the assessment."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "S4",
+        "start_s": 267.0,
+        "end_s": 282.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Challenges the retail strategy, asking if he sees how retail presence kills the urgency of the drop model."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "F1",
+        "start_s": 283.0,
+        "end_s": 284.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          39
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Concedes the point, acknowledging that he fully sees the difference."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "S1",
+        "start_s": 285.0,
+        "end_s": 290.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          40
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Commends the online momentum and full margin cash flow they currently enjoy."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "F1",
+        "start_s": 291.0,
+        "end_s": 292.0,
+        "function": "NONE",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Agrees."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "S1",
+        "start_s": 292.0,
+        "end_s": 300.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          34
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Warns about the dangers of retail apparel deals, stating that many get buried."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "F1",
+        "start_s": 301.0,
+        "end_s": 306.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          43
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Clarifies that he only projects keeping retail at twenty-five percent or less of the business."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "S4",
+        "start_s": 306.0,
+        "end_s": 309.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          44
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Argues that the percentage is irrelevant; the problem is the dynamic with retail buyers."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "F1",
+        "start_s": 309.0,
+        "end_s": 318.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          45
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Pivots to pricing power, arguing that limited drops allow them to raise prices significantly."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "S3",
+        "start_s": 319.0,
+        "end_s": 321.0,
+        "function": "NONE",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Interrupts to share her thoughts."
+      },
+      {
+        "turn_id": 48,
+        "speaker": "S3",
+        "start_s": 322.0,
+        "end_s": 346.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          1
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Validates the core premise, noting that the shirts effectively stand out amidst the dull competition."
+      },
+      {
+        "turn_id": 49,
+        "speaker": "S3",
+        "start_s": 346.0,
+        "end_s": 359.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Declares she is out because it is not the right investment for her, despite the good product."
+      },
+      {
+        "turn_id": 50,
+        "speaker": "F1",
+        "start_s": 360.0,
+        "end_s": 361.0,
+        "function": "NONE",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Thanks Lori."
+      },
+      {
+        "turn_id": 51,
+        "speaker": "S1",
+        "start_s": 361.0,
+        "end_s": 371.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Makes an offer based on the strong sales, but explicitly forbids retail expansion."
+      },
+      {
+        "turn_id": 52,
+        "speaker": "F1",
+        "start_s": 381.0,
+        "end_s": 382.0,
+        "function": "NONE",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Repeats the terms of the offer."
+      },
+      {
+        "turn_id": 53,
+        "speaker": "S1",
+        "start_s": 382.0,
+        "end_s": 388.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Reiterates his belief in the drop model, insisting customers should have to beg for the shirts."
+      },
+      {
+        "turn_id": 54,
+        "speaker": "F1",
+        "start_s": 388.0,
+        "end_s": 393.0,
+        "function": "negotiates",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Pushes back on the anti-retail sentiment, arguing that they need to capitalize on their momentum."
+      },
+      {
+        "turn_id": 55,
+        "speaker": "S1",
+        "start_s": 394.0,
+        "end_s": 396.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Defends his stance, noting he is just riding the current wave."
+      },
+      {
+        "turn_id": 56,
+        "speaker": "S2",
+        "start_s": 396.0,
+        "end_s": 400.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jumps in to suggest that if momentum fades, they can always pull back."
+      },
+      {
+        "turn_id": 57,
+        "speaker": "S2",
+        "start_s": 400.0,
+        "end_s": 408.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Compares the business to another successful online apparel investment and praises the targeted approach."
+      },
+      {
+        "turn_id": 58,
+        "speaker": "S2",
+        "start_s": 409.0,
+        "end_s": 418.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Makes an offer for twenty-five percent equity, explicitly allowing the founder to decide on retail."
+      },
+      {
+        "turn_id": 59,
+        "speaker": "S4",
+        "start_s": 421.0,
+        "end_s": 424.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Expresses his fear of the retail market."
+      },
+      {
+        "turn_id": 60,
+        "speaker": "S4",
+        "start_s": 424.0,
+        "end_s": 435.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Advises him to raise prices but declares he is out because it is not a fit."
+      },
+      {
+        "turn_id": 61,
+        "speaker": "F1",
+        "start_s": 435.0,
+        "end_s": 436.0,
+        "function": "NONE",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Thanks Mark."
+      },
+      {
+        "turn_id": 62,
+        "speaker": "S5",
+        "start_s": 436.0,
+        "end_s": 452.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Explains the harsh realities of retail fees and returns, declaring he is out to avoid putting that pressure on him."
+      },
+      {
+        "turn_id": 63,
+        "speaker": "S1",
+        "start_s": 452.0,
+        "end_s": 454.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Prompts the founder to make a decision between the two standing offers."
+      },
+      {
+        "turn_id": 64,
+        "speaker": "F1",
+        "start_s": 455.0,
+        "end_s": 458.0,
+        "function": "NONE",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Thinks silently before the edit."
+      },
+      {
+        "turn_id": 65,
+        "speaker": "S1",
+        "start_s": 486.0,
+        "end_s": 512.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Summarizes the offers and pitches his own discipline and experience to win the deal."
+      },
+      {
+        "turn_id": 66,
+        "speaker": "F1",
+        "start_s": 513.0,
+        "end_s": 518.0,
+        "function": "decides",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Counters Robert's offer, asking if he will drop to twenty percent equity."
+      },
+      {
+        "turn_id": 67,
+        "speaker": "S2",
+        "start_s": 518.0,
+        "end_s": 526.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Refuses the counter, insisting that twenty-five percent is necessary for the partnership."
+      },
+      {
+        "turn_id": 68,
+        "speaker": "F1",
+        "start_s": 527.0,
+        "end_s": 531.0,
+        "function": "negotiates",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Hesitates, pointing out that twenty-five percent is more than double what he originally asked for."
+      },
+      {
+        "turn_id": 69,
+        "speaker": "S1",
+        "start_s": 531.0,
+        "end_s": 534.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Reminds him that this is the Shark Tank and tough terms are expected."
+      },
+      {
+        "turn_id": 70,
+        "speaker": "F1",
+        "start_s": 534.0,
+        "end_s": 536.0,
+        "function": "negotiates",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Acknowledges the environment and asks for a second to think."
+      },
+      {
+        "turn_id": 71,
+        "speaker": "F1",
+        "start_s": 540.0,
+        "end_s": 551.0,
+        "function": "decides",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Proposes a putting bet to Robert: if Robert makes the putt, he gets twenty-five percent, if he misses, twenty percent."
+      },
+      {
+        "turn_id": 72,
+        "speaker": "S1",
+        "start_s": 552.0,
+        "end_s": 554.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Reacts excitedly to the proposed bet."
+      },
+      {
+        "turn_id": 73,
+        "speaker": "S2",
+        "start_s": 554.0,
+        "end_s": 555.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Enthusiastically agrees to the terms of the putting bet."
+      },
+      {
+        "turn_id": 74,
+        "speaker": "F1",
+        "start_s": 555.0,
+        "end_s": 560.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Sets up the putting green for the challenge."
+      },
+      {
+        "turn_id": 75,
+        "speaker": "F1",
+        "start_s": 561.0,
+        "end_s": 564.0,
+        "function": "negotiates",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Clarifies the rules, establishing that Robert gets only one attempt."
+      },
+      {
+        "turn_id": 76,
+        "speaker": "S1",
+        "start_s": 564.0,
+        "end_s": 566.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Expresses how much he is enjoying the situation."
+      },
+      {
+        "turn_id": 77,
+        "speaker": "S2",
+        "start_s": 566.0,
+        "end_s": 571.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Boasts about his past golf handicap while preparing for the putt."
+      },
+      {
+        "turn_id": 78,
+        "speaker": "S1",
+        "start_s": 572.0,
+        "end_s": 574.0,
+        "function": "social",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Tells Robert not to miss."
+      },
+      {
+        "turn_id": 79,
+        "speaker": "S2",
+        "start_s": 574.0,
+        "end_s": 578.0,
+        "function": "social",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Tells Kevin to be quiet so he can focus."
+      },
+      {
+        "turn_id": 80,
+        "speaker": "S5",
+        "start_s": 578.0,
+        "end_s": 583.0,
+        "function": "social",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Playfully tries to distract Robert by chanting for him to miss."
+      },
+      {
+        "turn_id": 81,
+        "speaker": "S2",
+        "start_s": 584.0,
+        "end_s": 590.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Takes the putt and misses the hole."
+      },
+      {
+        "turn_id": 82,
+        "speaker": "F1",
+        "start_s": 591.0,
+        "end_s": 600.0,
+        "function": "decides",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Celebrates the miss, securing the deal for twenty percent equity."
+      },
+      {
+        "turn_id": 83,
+        "speaker": "S1",
+        "start_s": 600.0,
+        "end_s": 604.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Laughs and calls the outcome fantastic."
+      },
+      {
+        "turn_id": 84,
+        "speaker": "S2",
+        "start_s": 604.0,
+        "end_s": 638.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Continues bantering and making bets on putting after the deal is closed."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "substantive",
+        "topic": "usage",
+        "label": "why play golf"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "substantive",
+        "topic": "competition",
+        "label": "competition in market"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "go_to_market",
+        "label": "plan to gain market share"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "number of designs"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "team_capabilities",
+        "label": "who designs"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "substantive",
+        "topic": "operating_efficiency",
+        "label": "cost and price"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "manufacturing location"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "substantive",
+        "topic": "go_to_market",
+        "label": "retail expansion"
+      },
+      {
+        "exchange_id": 9,
+        "kind": "negotiation",
+        "topic": "NONE",
+        "label": "deal negotiation"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S3",
+        "kind": "exit",
+        "time_s": 346.0,
+        "turn_id": 49,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Feels it is not the right investment for her."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S1",
+        "kind": "offer",
+        "time_s": 361.0,
+        "turn_id": 51,
+        "offer_id": "O1",
+        "terms": "$300,000 for 30%. But zero retail.",
+        "note": "Impressed by sales but hates retail apparel deals; forbids retail expansion."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S2",
+        "kind": "offer",
+        "time_s": 409.0,
+        "turn_id": 58,
+        "offer_id": "O2",
+        "terms": "$300,000 for 25%.",
+        "note": "Likes the targeted customer approach and explicitly allows the founder to decide on retail."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S4",
+        "kind": "exit",
+        "time_s": 424.0,
+        "turn_id": 60,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Retail scares him and it is not a fit right now."
+      },
+      {
+        "decision_id": 5,
+        "actor": "S5",
+        "kind": "exit",
+        "time_s": 436.0,
+        "turn_id": 62,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Does not want to put the pressure of retail fees and returns on the founder."
+      },
+      {
+        "decision_id": 6,
+        "actor": "F1",
+        "kind": "founder_counters",
+        "time_s": 513.0,
+        "turn_id": 66,
+        "offer_id": "O2",
+        "terms": "Are you willing to go down to 20% on this?",
+        "note": "Feels 25% is too much equity to give up."
+      },
+      {
+        "decision_id": 7,
+        "actor": "F1",
+        "kind": "founder_counters",
+        "time_s": 540.0,
+        "turn_id": 71,
+        "offer_id": "O2",
+        "terms": "If you make a putt, I'll give you 25%. But if you miss the putt, it's 20%.",
+        "note": "Proposes a golf bet to settle the equity difference."
+      },
+      {
+        "decision_id": 8,
+        "actor": "S2",
+        "kind": "revises_offer",
+        "time_s": 554.0,
+        "turn_id": 73,
+        "offer_id": "O2",
+        "terms": "I'll do it!",
+        "note": "Agrees to the terms of the putting bet for either 20% or 25%."
+      },
+      {
+        "decision_id": 9,
+        "actor": "F1",
+        "kind": "founder_accepts",
+        "time_s": 591.0,
+        "turn_id": 82,
+        "offer_id": "O2",
+        "terms": "Let's go baby! Two losers!",
+        "note": "Accepts the 20% deal after Robert misses the putt."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": "The deal is concluded through a putting bet between the founder and investor."
+  }
+}

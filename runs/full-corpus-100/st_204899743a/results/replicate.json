@@ -1,0 +1,1943 @@
+{
+  "pass": "replicate",
+  "unit_key": "panel__st_204899743a__replicate",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:15-1:26",
+    "1:31-2:03"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "none",
+      "3": "presentation",
+      "4": "none",
+      "5": "presentation",
+      "6": "qa",
+      "7": "qa",
+      "8": "qa",
+      "9": "qa",
+      "10": "qa",
+      "11": "qa",
+      "12": "qa",
+      "13": "qa",
+      "14": "qa",
+      "15": "qa",
+      "16": "qa",
+      "17": "qa",
+      "18": "qa",
+      "19": "qa",
+      "20": "qa",
+      "21": "qa",
+      "22": "qa",
+      "23": "qa",
+      "24": "qa",
+      "25": "qa",
+      "26": "qa",
+      "27": "qa",
+      "28": "qa",
+      "29": "qa",
+      "30": "qa",
+      "31": "qa",
+      "32": "qa",
+      "33": "qa",
+      "34": "qa",
+      "35": "qa",
+      "36": "qa",
+      "37": "qa",
+      "38": "qa",
+      "39": "negotiation",
+      "40": "negotiation",
+      "41": "negotiation",
+      "42": "negotiation",
+      "43": "negotiation",
+      "44": "none",
+      "45": "negotiation",
+      "46": "none",
+      "47": "negotiation",
+      "48": "negotiation",
+      "49": "negotiation",
+      "50": "negotiation",
+      "51": "negotiation",
+      "52": "negotiation",
+      "53": "negotiation"
+    },
+    "segment_seconds": {
+      "presentation": 106.0,
+      "qa": 178.0,
+      "social": 0.0,
+      "demonstration": 0.0,
+      "negotiation": 192.0,
+      "none": 5.0
+    },
+    "exchange_counts": {
+      "substantive": 7,
+      "social": 0,
+      "demonstration": 0,
+      "negotiation": 1
+    },
+    "turn_frame": {
+      "6": "prevention",
+      "7": "prevention",
+      "8": "prevention",
+      "9": "prevention",
+      "10": "promotion",
+      "11": "promotion",
+      "12": "promotion",
+      "13": "promotion",
+      "14": "promotion",
+      "15": "promotion",
+      "17": "promotion",
+      "18": "promotion",
+      "19": "promotion",
+      "20": "promotion",
+      "21": "promotion",
+      "22": "promotion",
+      "23": "promotion",
+      "24": "NEUTRAL",
+      "25": "promotion",
+      "26": "promotion",
+      "27": "prevention",
+      "28": "prevention",
+      "29": "prevention",
+      "30": "prevention",
+      "31": "prevention",
+      "32": "prevention",
+      "33": "prevention",
+      "34": "prevention",
+      "35": "promotion",
+      "36": "promotion",
+      "37": "prevention",
+      "38": "prevention"
+    },
+    "frame_match": {
+      "7": "match",
+      "9": "match",
+      "11": "match",
+      "13": "match",
+      "15": "match",
+      "18": "match",
+      "20": "match",
+      "22": "match",
+      "24": "neutral",
+      "26": "match",
+      "28": "match",
+      "30": "match",
+      "32": "match",
+      "34": "match",
+      "36": "match",
+      "38": "match"
+    },
+    "other_concepts": []
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "H1",
+        "role": "host",
+        "label": "Narrator"
+      },
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Manuel"
+      },
+      {
+        "actor_id": "F2",
+        "role": "founder",
+        "label": "Geiszel"
+      },
+      {
+        "actor_id": "F3",
+        "role": "founder",
+        "label": "Teunis"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Mark Cuban"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Kevin Hart"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Barbara Corcoran"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Lori Greiner"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 15.0,
+        "end_s": 86.0
+      },
+      {
+        "start_s": 91.0,
+        "end_s": 123.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 14.0,
+        "kind": "teaser"
+      },
+      {
+        "start_s": 560.0,
+        "end_s": 590.0,
+        "kind": "other"
+      }
+    ],
+    "gaps": [],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 73.0,
+        "note": "The founders speak with strong energy, smiles, and confident engagement throughout the pitch."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 5,
+        "uncodable": false,
+        "moment_s": 56.0,
+        "note": "Geiszel's delivery is extremely animated and passionate when announcing their sales milestone."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 15.0,
+        "note": "The team smiles warmly and introduces themselves in a friendly, approachable manner."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "2",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "A Black-owned entertainment company publishing comic books and producing animation focused on Black history before slavery.",
+      "primary_industry": "other",
+      "secondary_industries": [],
+      "product_form": "combined",
+      "customer_type": "consumer",
+      "founder_gender": "mixed",
+      "product_category": "Comic books and animated series",
+      "earliest_s": 24.0,
+      "note": "The primary industry is entertainment and publishing, which falls under other.",
+      "ask_amount_usd": 500000,
+      "ask_equity_pct": 5.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 15.0,
+        "end_s": 86.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The founders introduce themselves, state their ask, and describe their mission and initial sales success."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "S2",
+        "start_s": 86.0,
+        "end_s": 87.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin reacts positively to the founders' opening pitch."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "F3",
+        "start_s": 87.0,
+        "end_s": 90.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Teunis invites the panel to sit back and watch a sample of their animated content."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "S5",
+        "start_s": 89.0,
+        "end_s": 90.0,
+        "function": "accepts",
+        "addressed": [
+          "UNKNOWN"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori expresses being impressed by the animation."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "F1",
+        "start_s": 91.0,
+        "end_s": 123.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The animated pilot plays, and Manuel concludes the prepared presentation."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "S2",
+        "start_s": 124.0,
+        "end_s": 134.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks how much money the founders have spent on the project so far."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "F1",
+        "start_s": 135.0,
+        "end_s": 140.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          6
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Manuel explains that the animated property cost them a specific amount and introduces Teunis as the expert."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "S2",
+        "start_s": 143.0,
+        "end_s": 144.0,
+        "function": "question",
+        "addressed": [
+          "F3"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks if the animation was self-engineered and self-developed."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "F3",
+        "start_s": 145.0,
+        "end_s": 158.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          8
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Teunis outlines his extensive background working with major animation studios and explains why he joined the venture."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "S1",
+        "start_s": 158.0,
+        "end_s": 160.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks how the company is currently creating a revenue stream."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "F1",
+        "start_s": 160.0,
+        "end_s": 167.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          10
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Manuel states that their primary revenue stream is physical books and shares their projected unit sales for the year."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "S4",
+        "start_s": 167.0,
+        "end_s": 168.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin O'Leary asks if their sales are direct to consumer."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "F1",
+        "start_s": 168.0,
+        "end_s": 169.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          12
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "too_short"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Manuel confirms that their sales are direct to consumer."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "S1",
+        "start_s": 169.0,
+        "end_s": 170.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks for the selling price of the books."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "F2",
+        "start_s": 170.0,
+        "end_s": 177.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          14
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Geiszel provides the landing cost, retail price, and wholesale price for the books."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "S1",
+        "start_s": 178.0,
+        "end_s": 179.0,
+        "function": "accepts",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          15
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark commends Geiszel on the numbers she shared."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "S3",
+        "start_s": 179.0,
+        "end_s": 182.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Barbara asks if the retail price mentioned is typical for their products."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "F1",
+        "start_s": 182.0,
+        "end_s": 183.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          17
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "too_short"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Manuel confirms that it is a typical retail price."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "S3",
+        "start_s": 183.0,
+        "end_s": 185.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Barbara asks about the comic books that were mentioned earlier."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "F1",
+        "start_s": 185.0,
+        "end_s": 193.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          19
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Manuel explains they have many comic books, highlighting their flagship title among the twelve titles signed."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "S2",
+        "start_s": 194.0,
+        "end_s": 198.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks about the progression of sales from their first comic book to their current numbers."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "F1",
+        "start_s": 199.0,
+        "end_s": 217.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          21
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Manuel details their sales growth year over year, showing significant increases up to the current year."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "S1",
+        "start_s": 218.0,
+        "end_s": 218.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks if the current year's sales figure is year to date."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "F1",
+        "start_s": 219.0,
+        "end_s": 219.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          23
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "NONE",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "too_short"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Manuel confirms that the figure is year to date."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "S5",
+        "start_s": 220.0,
+        "end_s": 222.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks Manuel and Geiszel about their professional backgrounds."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "F2",
+        "start_s": 222.0,
+        "end_s": 231.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          25
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Geiszel shares that she is a military veteran and that she and her husband serve together."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "S5",
+        "start_s": 232.0,
+        "end_s": 235.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks if they had any prior knowledge about animation or comic books."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "F2",
+        "start_s": 235.0,
+        "end_s": 241.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          27
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Geiszel admits they knew nothing about it but used their military background to execute and manage the business."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "S5",
+        "start_s": 242.0,
+        "end_s": 244.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks who is responsible for creating the stories."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "F1",
+        "start_s": 244.0,
+        "end_s": 267.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          29
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Manuel explains that he created the stories, motivated by seeing similar historical narratives fail in the industry."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "S1",
+        "start_s": 268.0,
+        "end_s": 270.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks about their profitability and cash burn."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "F1",
+        "start_s": 271.0,
+        "end_s": 273.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          31
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Manuel states that they are profitable by a specific amount this year."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "S1",
+        "start_s": 273.0,
+        "end_s": 274.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks how much cash they currently have in the bank."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "F1",
+        "start_s": 275.0,
+        "end_s": 276.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          33
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "too_short"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Manuel provides the exact cash amount they have in the bank."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "S1",
+        "start_s": 276.0,
+        "end_s": 285.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "vision",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks where they envision the series going and what their ultimate goal is."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "F1",
+        "start_s": 285.0,
+        "end_s": 287.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          35
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "vision",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Manuel states that their eventual plan is to find a distributor."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "S2",
+        "start_s": 288.0,
+        "end_s": 297.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin interrupts to point out he is a distributor and asks what the investment funds will be used for."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "F1",
+        "start_s": 298.0,
+        "end_s": 320.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          37
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Manuel explains the funds will go toward hiring artists and massively expanding their production output for a full season."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "S2",
+        "start_s": 321.0,
+        "end_s": 385.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin discusses the significant value his distribution and production ecosystem would bring, dismissing their original equity ask."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "S1",
+        "start_s": 386.0,
+        "end_s": 387.0,
+        "function": "negotiates",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark interrupts Kevin to ask if he can join in on the impending offer."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "S2",
+        "start_s": 388.0,
+        "end_s": 428.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin agrees to partner with Mark and presents their joint offer, asking for a higher equity stake."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "S1",
+        "start_s": 430.0,
+        "end_s": 431.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark confirms his participation in the offer, adding that he believes the terms are more than fair."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "F1",
+        "start_s": 432.0,
+        "end_s": 434.0,
+        "function": "negotiates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Manuel asks the panel if he is allowed to make a counter-offer."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "S5",
+        "start_s": 434.0,
+        "end_s": 435.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori jokingly tells Manuel that he is nuts for wanting to counter."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "F1",
+        "start_s": 436.0,
+        "end_s": 442.0,
+        "function": "decides",
+        "addressed": [
+          "S1",
+          "S2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Manuel proposes a counter-offer with lower equity but adds a royalty on hardcover books."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "S4",
+        "start_s": 445.0,
+        "end_s": 447.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin O'Leary jokes about the royalty structure, playfully claiming credit for the idea."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "S2",
+        "start_s": 448.0,
+        "end_s": 478.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin rejects the royalty, explaining that the real value comes from turning the property into a larger franchise."
+      },
+      {
+        "turn_id": 48,
+        "speaker": "F1",
+        "start_s": 480.0,
+        "end_s": 484.0,
+        "function": "negotiates",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Manuel points out that his previous fundraising was done at a much higher valuation."
+      },
+      {
+        "turn_id": 49,
+        "speaker": "S1",
+        "start_s": 484.0,
+        "end_s": 486.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark argues that the previous valuation is not the main point of their offer."
+      },
+      {
+        "turn_id": 50,
+        "speaker": "S4",
+        "start_s": 486.0,
+        "end_s": 492.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin O'Leary points out that not all partners are equal, implying that Mark and Kevin bring unique value."
+      },
+      {
+        "turn_id": 51,
+        "speaker": "S1",
+        "start_s": 493.0,
+        "end_s": 502.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark explains that bringing them in validates the future value of the company for the other investors."
+      },
+      {
+        "turn_id": 52,
+        "speaker": "S2",
+        "start_s": 504.0,
+        "end_s": 526.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin reiterates that his ask is based on the real resources and existing engine he is providing."
+      },
+      {
+        "turn_id": 53,
+        "speaker": "F1",
+        "start_s": 527.0,
+        "end_s": 532.0,
+        "function": "decides",
+        "addressed": [
+          "S1",
+          "S2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Manuel accepts the offer, noting that his fans want to see the project succeed."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "substantive",
+        "topic": "operating_efficiency",
+        "label": "Cost of pilot"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "substantive",
+        "topic": "team_capabilities",
+        "label": "Self-developed animation"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "Revenue stream and unit sales"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "substantive",
+        "topic": "self_promotion",
+        "label": "Founders' backgrounds"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "operating_efficiency",
+        "label": "Profitability and cash"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "substantive",
+        "topic": "vision",
+        "label": "Future distribution plans"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "Use of investment funds"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "negotiation",
+        "topic": "NONE",
+        "label": "Deal negotiation"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S2",
+        "kind": "offer",
+        "time_s": 421.0,
+        "turn_id": 41,
+        "offer_id": "O1",
+        "terms": "$500,000 for 30% between S1 and S2",
+        "note": "S2 argues his distribution and production ecosystem justifies the higher equity."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S1",
+        "kind": "joins_offer",
+        "time_s": 430.0,
+        "turn_id": 42,
+        "offer_id": "O1",
+        "terms": "$500,000 for 30% between S1 and S2",
+        "note": "S1 confirms he is joining S2's offer and that he finds the terms fair."
+      },
+      {
+        "decision_id": 3,
+        "actor": "F1",
+        "kind": "founder_counters",
+        "time_s": 437.0,
+        "turn_id": 45,
+        "offer_id": "O1",
+        "terms": "$500,000 for 10% plus a 25 cent royalty per hardcover",
+        "note": "Manuel counters with lower equity and a royalty to compensate."
+      },
+      {
+        "decision_id": 4,
+        "actor": "F1",
+        "kind": "founder_accepts",
+        "time_s": 530.0,
+        "turn_id": 53,
+        "offer_id": "O1",
+        "terms": "$500,000 for 30% between S1 and S2",
+        "note": "Manuel accepts the offer, noting that his fans want the deal done."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": "S3, S4, and S5 do not formally exit the negotiation but watch the deal conclude between the founders, S1, and S2."
+  }
+}

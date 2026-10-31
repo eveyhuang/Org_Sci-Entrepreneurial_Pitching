@@ -1,0 +1,449 @@
+{
+  "videos": {
+    "st_e142973a9c": {
+      "video_id": "st_e142973a9c",
+      "sheet": "st_e142973a9c__review.csv",
+      "release_id": "v3-dev9",
+      "annotation_context": "descriptive_full_context",
+      "seed": 20261013,
+      "sample_unflagged": null,
+      "max_flagged": null,
+      "preset": "exchange",
+      "field_classes": null,
+      "blind": true,
+      "pass": "primary",
+      "primary_sha256": "39af871f75133e4a20fcb9e5ca3db16c4802cb626c074b6743ec703b5e78779a",
+      "replicate_sha256": "e602c1d0c9013af6a950d6970e40c6ba11776b7a4a71ef4f3371011a0cb1abfa",
+      "counts": {
+        "by_field_class": {
+          "turn_code": 24,
+          "cut": 1
+        },
+        "by_selection": {
+          "flagged": 0,
+          "sampled": 25
+        },
+        "by_priority": {
+          "1": 25,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "by_reason": {
+          "passes_differ": 1
+        }
+      },
+      "flagged": null,
+      "sample": {
+        "seed": 20261013,
+        "key": "st_e142973a9c",
+        "requested": {
+          "stage_a": 0,
+          "exchanges": 0,
+          "qa": 4,
+          "venture": 0,
+          "qa_codes": [
+            [
+              "question",
+              "PR-CONCEPT"
+            ],
+            [
+              "question",
+              "PR-SEV"
+            ],
+            [
+              "answer",
+              "RS-RESP"
+            ],
+            [
+              "answer",
+              "RS-EVID"
+            ],
+            [
+              "answer",
+              "PREP-SUBS"
+            ],
+            [
+              "answer",
+              "PREP-COH"
+            ]
+          ]
+        },
+        "drawn": {
+          "pitch": [
+            "first_decision"
+          ],
+          "venture": [],
+          "stage_a": [],
+          "exchanges": [],
+          "qa": [
+            [
+              15,
+              16
+            ],
+            [
+              19,
+              20
+            ],
+            [
+              29,
+              30
+            ],
+            [
+              33,
+              34
+            ]
+          ]
+        },
+        "available": {
+          "venture": 4,
+          "stage_a": 3,
+          "exchanges": 8,
+          "qa": 12
+        },
+        "qa_before_cut": true,
+        "on_sheet": {
+          "turn_code": 24,
+          "cut": 1
+        },
+        "population": {
+          "turn_code": 72,
+          "exchange_topic": 8,
+          "stage_a": 3,
+          "venture": 4,
+          "cut": 1
+        }
+      },
+      "unflagged": null,
+      "rows": [
+        {
+          "path": "pitch:first_decision",
+          "field_class": "cut",
+          "clock_start": null,
+          "clock_end": null,
+          "context": "the pitch: S1 exit@5:18, S2 exit@5:26, S5 exit@6:03, S4 exit@6:29, S3 offer@8:55, S2 joins_offer@9:05, S2 withdraws_offer@9:23, S3 revises_offer@9:32",
+          "blind_context": "the pitch: When is the first decision spoken?",
+          "primary": "5:18",
+          "replicate": "5:17",
+          "reasons": [],
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:15/code:PR-CONCEPT",
+          "field_class": "turn_code",
+          "clock_start": "2:48",
+          "clock_end": "2:49",
+          "context": "question turn 15 (2:48-2:49) S4 (Lori Greiner): Asks the founder to tell them about himself. -> answer turn 16 (2:50-3:01) F1 (Juan Ignacio Stewart): Shares his background from Guatemala, moving 22 years ago, and making the drinks at home for his son.",
+          "primary": "self_promotion",
+          "replicate": "self_promotion",
+          "reasons": [],
+          "blind_context": "question turn 15 (2:48-2:49) S4 (Lori Greiner): Asks the founder to tell them about himself. -> answer turn 16 (2:50-3:01) F1 (Juan Ignacio Stewart): Shares his background from Guatemala, moving 22 years ago, and making the drinks at home for his son.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:15/code:PR-SEV",
+          "field_class": "turn_code",
+          "clock_start": "2:48",
+          "clock_end": "2:49",
+          "context": "question turn 15 (2:48-2:49) S4 (Lori Greiner): Asks the founder to tell them about himself. -> answer turn 16 (2:50-3:01) F1 (Juan Ignacio Stewart): Shares his background from Guatemala, moving 22 years ago, and making the drinks at home for his son.",
+          "primary": "1",
+          "replicate": "1",
+          "reasons": [],
+          "blind_context": "question turn 15 (2:48-2:49) S4 (Lori Greiner): Asks the founder to tell them about himself. -> answer turn 16 (2:50-3:01) F1 (Juan Ignacio Stewart): Shares his background from Guatemala, moving 22 years ago, and making the drinks at home for his son.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:16/code:PREP-COH",
+          "field_class": "turn_code",
+          "clock_start": "2:50",
+          "clock_end": "3:01",
+          "context": "question turn 15 (2:48-2:49) S4 (Lori Greiner): Asks the founder to tell them about himself. -> answer turn 16 (2:50-3:01) F1 (Juan Ignacio Stewart): Shares his background from Guatemala, moving 22 years ago, and making the drinks at home for his son.",
+          "primary": "4",
+          "replicate": "4",
+          "reasons": [],
+          "blind_context": "question turn 15 (2:48-2:49) S4 (Lori Greiner): Asks the founder to tell them about himself. -> answer turn 16 (2:50-3:01) F1 (Juan Ignacio Stewart): Shares his background from Guatemala, moving 22 years ago, and making the drinks at home for his son.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:16/code:PREP-SUBS",
+          "field_class": "turn_code",
+          "clock_start": "2:50",
+          "clock_end": "3:01",
+          "context": "question turn 15 (2:48-2:49) S4 (Lori Greiner): Asks the founder to tell them about himself. -> answer turn 16 (2:50-3:01) F1 (Juan Ignacio Stewart): Shares his background from Guatemala, moving 22 years ago, and making the drinks at home for his son.",
+          "primary": "4",
+          "replicate": "4",
+          "reasons": [],
+          "blind_context": "question turn 15 (2:48-2:49) S4 (Lori Greiner): Asks the founder to tell them about himself. -> answer turn 16 (2:50-3:01) F1 (Juan Ignacio Stewart): Shares his background from Guatemala, moving 22 years ago, and making the drinks at home for his son.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:16/code:RS-EVID",
+          "field_class": "turn_code",
+          "clock_start": "2:50",
+          "clock_end": "3:01",
+          "context": "question turn 15 (2:48-2:49) S4 (Lori Greiner): Asks the founder to tell them about himself. -> answer turn 16 (2:50-3:01) F1 (Juan Ignacio Stewart): Shares his background from Guatemala, moving 22 years ago, and making the drinks at home for his son.",
+          "primary": "true",
+          "replicate": "true",
+          "reasons": [],
+          "blind_context": "question turn 15 (2:48-2:49) S4 (Lori Greiner): Asks the founder to tell them about himself. -> answer turn 16 (2:50-3:01) F1 (Juan Ignacio Stewart): Shares his background from Guatemala, moving 22 years ago, and making the drinks at home for his son.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:16/code:RS-RESP",
+          "field_class": "turn_code",
+          "clock_start": "2:50",
+          "clock_end": "3:01",
+          "context": "question turn 15 (2:48-2:49) S4 (Lori Greiner): Asks the founder to tell them about himself. -> answer turn 16 (2:50-3:01) F1 (Juan Ignacio Stewart): Shares his background from Guatemala, moving 22 years ago, and making the drinks at home for his son.",
+          "primary": "addresses",
+          "replicate": "addresses",
+          "reasons": [],
+          "blind_context": "question turn 15 (2:48-2:49) S4 (Lori Greiner): Asks the founder to tell them about himself. -> answer turn 16 (2:50-3:01) F1 (Juan Ignacio Stewart): Shares his background from Guatemala, moving 22 years ago, and making the drinks at home for his son.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:19/code:PR-CONCEPT",
+          "field_class": "turn_code",
+          "clock_start": "3:37",
+          "clock_end": "3:39",
+          "context": "question turn 19 (3:37-3:39) S2 (Kevin O'Leary): Asks about the game plan, co-packing, and how he intends to get distribution. -> answer turn 20 (3:40-3:51) F1 (Juan Ignacio Stewart): Reveals they are accepted into Kroger, detailing 130 stores in Colorado and 230 in Southern California.",
+          "primary": "go_to_market",
+          "replicate": "go_to_market",
+          "reasons": [],
+          "blind_context": "question turn 19 (3:37-3:39) S2 (Kevin O'Leary): Asks about the game plan, co-packing, and how he intends to get distribution. -> answer turn 20 (3:40-3:51) F1 (Juan Ignacio Stewart): Reveals they are accepted into Kroger, detailing 130 stores in Colorado and 230 in Southern California.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:19/code:PR-SEV",
+          "field_class": "turn_code",
+          "clock_start": "3:37",
+          "clock_end": "3:39",
+          "context": "question turn 19 (3:37-3:39) S2 (Kevin O'Leary): Asks about the game plan, co-packing, and how he intends to get distribution. -> answer turn 20 (3:40-3:51) F1 (Juan Ignacio Stewart): Reveals they are accepted into Kroger, detailing 130 stores in Colorado and 230 in Southern California.",
+          "primary": "1",
+          "replicate": "1",
+          "reasons": [],
+          "blind_context": "question turn 19 (3:37-3:39) S2 (Kevin O'Leary): Asks about the game plan, co-packing, and how he intends to get distribution. -> answer turn 20 (3:40-3:51) F1 (Juan Ignacio Stewart): Reveals they are accepted into Kroger, detailing 130 stores in Colorado and 230 in Southern California.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:20/code:PREP-COH",
+          "field_class": "turn_code",
+          "clock_start": "3:40",
+          "clock_end": "3:51",
+          "context": "question turn 19 (3:37-3:39) S2 (Kevin O'Leary): Asks about the game plan, co-packing, and how he intends to get distribution. -> answer turn 20 (3:40-3:51) F1 (Juan Ignacio Stewart): Reveals they are accepted into Kroger, detailing 130 stores in Colorado and 230 in Southern California.",
+          "primary": "4",
+          "replicate": "4",
+          "reasons": [],
+          "blind_context": "question turn 19 (3:37-3:39) S2 (Kevin O'Leary): Asks about the game plan, co-packing, and how he intends to get distribution. -> answer turn 20 (3:40-3:51) F1 (Juan Ignacio Stewart): Reveals they are accepted into Kroger, detailing 130 stores in Colorado and 230 in Southern California.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:20/code:PREP-SUBS",
+          "field_class": "turn_code",
+          "clock_start": "3:40",
+          "clock_end": "3:51",
+          "context": "question turn 19 (3:37-3:39) S2 (Kevin O'Leary): Asks about the game plan, co-packing, and how he intends to get distribution. -> answer turn 20 (3:40-3:51) F1 (Juan Ignacio Stewart): Reveals they are accepted into Kroger, detailing 130 stores in Colorado and 230 in Southern California.",
+          "primary": "4",
+          "replicate": "4",
+          "reasons": [],
+          "blind_context": "question turn 19 (3:37-3:39) S2 (Kevin O'Leary): Asks about the game plan, co-packing, and how he intends to get distribution. -> answer turn 20 (3:40-3:51) F1 (Juan Ignacio Stewart): Reveals they are accepted into Kroger, detailing 130 stores in Colorado and 230 in Southern California.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:20/code:RS-EVID",
+          "field_class": "turn_code",
+          "clock_start": "3:40",
+          "clock_end": "3:51",
+          "context": "question turn 19 (3:37-3:39) S2 (Kevin O'Leary): Asks about the game plan, co-packing, and how he intends to get distribution. -> answer turn 20 (3:40-3:51) F1 (Juan Ignacio Stewart): Reveals they are accepted into Kroger, detailing 130 stores in Colorado and 230 in Southern California.",
+          "primary": "true",
+          "replicate": "true",
+          "reasons": [],
+          "blind_context": "question turn 19 (3:37-3:39) S2 (Kevin O'Leary): Asks about the game plan, co-packing, and how he intends to get distribution. -> answer turn 20 (3:40-3:51) F1 (Juan Ignacio Stewart): Reveals they are accepted into Kroger, detailing 130 stores in Colorado and 230 in Southern California.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:20/code:RS-RESP",
+          "field_class": "turn_code",
+          "clock_start": "3:40",
+          "clock_end": "3:51",
+          "context": "question turn 19 (3:37-3:39) S2 (Kevin O'Leary): Asks about the game plan, co-packing, and how he intends to get distribution. -> answer turn 20 (3:40-3:51) F1 (Juan Ignacio Stewart): Reveals they are accepted into Kroger, detailing 130 stores in Colorado and 230 in Southern California.",
+          "primary": "addresses",
+          "replicate": "addresses",
+          "reasons": [],
+          "blind_context": "question turn 19 (3:37-3:39) S2 (Kevin O'Leary): Asks about the game plan, co-packing, and how he intends to get distribution. -> answer turn 20 (3:40-3:51) F1 (Juan Ignacio Stewart): Reveals they are accepted into Kroger, detailing 130 stores in Colorado and 230 in Southern California.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:29/code:PR-CONCEPT",
+          "field_class": "turn_code",
+          "clock_start": "4:44",
+          "clock_end": "4:46",
+          "context": "question turn 29 (4:44-4:46) S1 (Daymond John): Asks for the cost to make the product and the selling price. -> answer turn 30 (4:47-4:51) F1 (Juan Ignacio Stewart): States it costs 88 cents to make and he sells it for $2.10 wholesale.",
+          "primary": "operating_efficiency",
+          "replicate": "operating_efficiency",
+          "reasons": [],
+          "blind_context": "question turn 29 (4:44-4:46) S1 (Daymond John): Asks for the cost to make the product and the selling price. -> answer turn 30 (4:47-4:51) F1 (Juan Ignacio Stewart): States it costs 88 cents to make and he sells it for $2.10 wholesale.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:29/code:PR-SEV",
+          "field_class": "turn_code",
+          "clock_start": "4:44",
+          "clock_end": "4:46",
+          "context": "question turn 29 (4:44-4:46) S1 (Daymond John): Asks for the cost to make the product and the selling price. -> answer turn 30 (4:47-4:51) F1 (Juan Ignacio Stewart): States it costs 88 cents to make and he sells it for $2.10 wholesale.",
+          "primary": "1",
+          "replicate": "1",
+          "reasons": [],
+          "blind_context": "question turn 29 (4:44-4:46) S1 (Daymond John): Asks for the cost to make the product and the selling price. -> answer turn 30 (4:47-4:51) F1 (Juan Ignacio Stewart): States it costs 88 cents to make and he sells it for $2.10 wholesale.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:30/code:PREP-COH",
+          "field_class": "turn_code",
+          "clock_start": "4:47",
+          "clock_end": "4:51",
+          "context": "question turn 29 (4:44-4:46) S1 (Daymond John): Asks for the cost to make the product and the selling price. -> answer turn 30 (4:47-4:51) F1 (Juan Ignacio Stewart): States it costs 88 cents to make and he sells it for $2.10 wholesale.",
+          "primary": "4",
+          "replicate": "4",
+          "reasons": [],
+          "blind_context": "question turn 29 (4:44-4:46) S1 (Daymond John): Asks for the cost to make the product and the selling price. -> answer turn 30 (4:47-4:51) F1 (Juan Ignacio Stewart): States it costs 88 cents to make and he sells it for $2.10 wholesale.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:30/code:PREP-SUBS",
+          "field_class": "turn_code",
+          "clock_start": "4:47",
+          "clock_end": "4:51",
+          "context": "question turn 29 (4:44-4:46) S1 (Daymond John): Asks for the cost to make the product and the selling price. -> answer turn 30 (4:47-4:51) F1 (Juan Ignacio Stewart): States it costs 88 cents to make and he sells it for $2.10 wholesale.",
+          "primary": "3",
+          "replicate": "3",
+          "reasons": [],
+          "blind_context": "question turn 29 (4:44-4:46) S1 (Daymond John): Asks for the cost to make the product and the selling price. -> answer turn 30 (4:47-4:51) F1 (Juan Ignacio Stewart): States it costs 88 cents to make and he sells it for $2.10 wholesale.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:30/code:RS-EVID",
+          "field_class": "turn_code",
+          "clock_start": "4:47",
+          "clock_end": "4:51",
+          "context": "question turn 29 (4:44-4:46) S1 (Daymond John): Asks for the cost to make the product and the selling price. -> answer turn 30 (4:47-4:51) F1 (Juan Ignacio Stewart): States it costs 88 cents to make and he sells it for $2.10 wholesale.",
+          "primary": "true",
+          "replicate": "true",
+          "reasons": [],
+          "blind_context": "question turn 29 (4:44-4:46) S1 (Daymond John): Asks for the cost to make the product and the selling price. -> answer turn 30 (4:47-4:51) F1 (Juan Ignacio Stewart): States it costs 88 cents to make and he sells it for $2.10 wholesale.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:30/code:RS-RESP",
+          "field_class": "turn_code",
+          "clock_start": "4:47",
+          "clock_end": "4:51",
+          "context": "question turn 29 (4:44-4:46) S1 (Daymond John): Asks for the cost to make the product and the selling price. -> answer turn 30 (4:47-4:51) F1 (Juan Ignacio Stewart): States it costs 88 cents to make and he sells it for $2.10 wholesale.",
+          "primary": "addresses",
+          "replicate": "addresses",
+          "reasons": [],
+          "blind_context": "question turn 29 (4:44-4:46) S1 (Daymond John): Asks for the cost to make the product and the selling price. -> answer turn 30 (4:47-4:51) F1 (Juan Ignacio Stewart): States it costs 88 cents to make and he sells it for $2.10 wholesale.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:33/code:PR-CONCEPT",
+          "field_class": "turn_code",
+          "clock_start": "5:02",
+          "clock_end": "5:03",
+          "context": "question turn 33 (5:02-5:03) S1 (Daymond John): Asks for the average cost of a competitor. -> answer turn 34 (5:05-5:09) F1 (Juan Ignacio Stewart): Confirms competitors like kombucha and sparkling water are at $3.99.",
+          "primary": "competition",
+          "replicate": "sales",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 33 (5:02-5:03) S1 (Daymond John): Asks for the average cost of a competitor. -> answer turn 34 (5:05-5:09) F1 (Juan Ignacio Stewart): Confirms competitors like kombucha and sparkling water are at $3.99.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:33/code:PR-SEV",
+          "field_class": "turn_code",
+          "clock_start": "5:02",
+          "clock_end": "5:03",
+          "context": "question turn 33 (5:02-5:03) S1 (Daymond John): Asks for the average cost of a competitor. -> answer turn 34 (5:05-5:09) F1 (Juan Ignacio Stewart): Confirms competitors like kombucha and sparkling water are at $3.99.",
+          "primary": "1",
+          "replicate": "1",
+          "reasons": [],
+          "blind_context": "question turn 33 (5:02-5:03) S1 (Daymond John): Asks for the average cost of a competitor. -> answer turn 34 (5:05-5:09) F1 (Juan Ignacio Stewart): Confirms competitors like kombucha and sparkling water are at $3.99.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:34/code:PREP-COH",
+          "field_class": "turn_code",
+          "clock_start": "5:05",
+          "clock_end": "5:09",
+          "context": "question turn 33 (5:02-5:03) S1 (Daymond John): Asks for the average cost of a competitor. -> answer turn 34 (5:05-5:09) F1 (Juan Ignacio Stewart): Confirms competitors like kombucha and sparkling water are at $3.99.",
+          "primary": "4",
+          "replicate": "4",
+          "reasons": [],
+          "blind_context": "question turn 33 (5:02-5:03) S1 (Daymond John): Asks for the average cost of a competitor. -> answer turn 34 (5:05-5:09) F1 (Juan Ignacio Stewart): Confirms competitors like kombucha and sparkling water are at $3.99.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:34/code:PREP-SUBS",
+          "field_class": "turn_code",
+          "clock_start": "5:05",
+          "clock_end": "5:09",
+          "context": "question turn 33 (5:02-5:03) S1 (Daymond John): Asks for the average cost of a competitor. -> answer turn 34 (5:05-5:09) F1 (Juan Ignacio Stewart): Confirms competitors like kombucha and sparkling water are at $3.99.",
+          "primary": "3",
+          "replicate": "3",
+          "reasons": [],
+          "blind_context": "question turn 33 (5:02-5:03) S1 (Daymond John): Asks for the average cost of a competitor. -> answer turn 34 (5:05-5:09) F1 (Juan Ignacio Stewart): Confirms competitors like kombucha and sparkling water are at $3.99.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:34/code:RS-EVID",
+          "field_class": "turn_code",
+          "clock_start": "5:05",
+          "clock_end": "5:09",
+          "context": "question turn 33 (5:02-5:03) S1 (Daymond John): Asks for the average cost of a competitor. -> answer turn 34 (5:05-5:09) F1 (Juan Ignacio Stewart): Confirms competitors like kombucha and sparkling water are at $3.99.",
+          "primary": "true",
+          "replicate": "true",
+          "reasons": [],
+          "blind_context": "question turn 33 (5:02-5:03) S1 (Daymond John): Asks for the average cost of a competitor. -> answer turn 34 (5:05-5:09) F1 (Juan Ignacio Stewart): Confirms competitors like kombucha and sparkling water are at $3.99.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:34/code:RS-RESP",
+          "field_class": "turn_code",
+          "clock_start": "5:05",
+          "clock_end": "5:09",
+          "context": "question turn 33 (5:02-5:03) S1 (Daymond John): Asks for the average cost of a competitor. -> answer turn 34 (5:05-5:09) F1 (Juan Ignacio Stewart): Confirms competitors like kombucha and sparkling water are at $3.99.",
+          "primary": "addresses",
+          "replicate": "addresses",
+          "reasons": [],
+          "blind_context": "question turn 33 (5:02-5:03) S1 (Daymond John): Asks for the average cost of a competitor. -> answer turn 34 (5:05-5:09) F1 (Juan Ignacio Stewart): Confirms competitors like kombucha and sparkling water are at $3.99.",
+          "selected_as": "sampled",
+          "priority": 1
+        }
+      ]
+    }
+  }
+}

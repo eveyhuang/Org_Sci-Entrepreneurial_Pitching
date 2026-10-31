@@ -1,0 +1,2581 @@
+{
+  "pass": "primary",
+  "unit_key": "panel__st_fb39374b09__primary",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:16-1:13"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "presentation",
+      "3": "presentation",
+      "4": "none",
+      "5": "presentation",
+      "6": "none",
+      "7": "demonstration",
+      "8": "demonstration",
+      "9": "demonstration",
+      "10": "demonstration",
+      "11": "social",
+      "12": "social",
+      "13": "demonstration",
+      "14": "demonstration",
+      "15": "demonstration",
+      "16": "demonstration",
+      "17": "demonstration",
+      "18": "demonstration",
+      "19": "qa",
+      "20": "qa",
+      "21": "qa",
+      "22": "qa",
+      "23": "demonstration",
+      "24": "qa",
+      "25": "qa",
+      "26": "social",
+      "27": "demonstration",
+      "28": "demonstration",
+      "29": "demonstration",
+      "30": "social",
+      "31": "demonstration",
+      "32": "social",
+      "33": "social",
+      "34": "demonstration",
+      "35": "demonstration",
+      "36": "social",
+      "37": "social",
+      "38": "social",
+      "39": "qa",
+      "40": "qa",
+      "41": "qa",
+      "42": "qa",
+      "43": "qa",
+      "44": "qa",
+      "45": "qa",
+      "46": "qa",
+      "47": "qa",
+      "48": "qa",
+      "49": "qa",
+      "50": "qa",
+      "51": "qa",
+      "52": "qa",
+      "53": "qa",
+      "54": "qa",
+      "55": "qa",
+      "56": "qa",
+      "57": "qa",
+      "58": "qa",
+      "59": "qa",
+      "60": "qa",
+      "61": "social",
+      "62": "qa",
+      "63": "qa",
+      "64": "qa",
+      "65": "qa",
+      "66": "qa",
+      "67": "qa",
+      "68": "qa",
+      "69": "qa",
+      "70": "qa",
+      "71": "qa",
+      "72": "qa",
+      "73": "qa",
+      "74": "qa",
+      "75": "qa",
+      "76": "none",
+      "77": "none",
+      "78": "qa",
+      "79": "qa",
+      "80": "none",
+      "81": "none",
+      "82": "none",
+      "83": "qa",
+      "84": "qa",
+      "85": "none",
+      "86": "none"
+    },
+    "segment_seconds": {
+      "presentation": 55.0,
+      "qa": 281.0,
+      "social": 15.0,
+      "demonstration": 42.0,
+      "negotiation": 0.0,
+      "none": 93.0
+    },
+    "exchange_counts": {
+      "substantive": 10,
+      "social": 4,
+      "demonstration": 1,
+      "negotiation": 0
+    },
+    "turn_frame": {
+      "19": "promotion",
+      "20": "promotion",
+      "22": "promotion",
+      "24": "promotion",
+      "25": "promotion",
+      "40": "prevention",
+      "44": "promotion",
+      "45": "promotion",
+      "46": "promotion",
+      "47": "promotion",
+      "49": "promotion",
+      "50": "promotion",
+      "51": "promotion",
+      "52": "promotion",
+      "53": "prevention",
+      "54": "prevention",
+      "55": "prevention",
+      "56": "prevention",
+      "57": "prevention",
+      "59": "promotion",
+      "60": "promotion",
+      "62": "promotion",
+      "63": "promotion",
+      "64": "promotion",
+      "67": "promotion",
+      "68": "promotion",
+      "69": "promotion",
+      "70": "promotion",
+      "71": "promotion",
+      "74": "prevention",
+      "75": "prevention",
+      "78": "promotion",
+      "79": "promotion"
+    },
+    "frame_match": {
+      "20": "match",
+      "22": "match",
+      "25": "match",
+      "45": "match",
+      "47": "match",
+      "50": "match",
+      "52": "match",
+      "54": "match",
+      "56": "match",
+      "60": "match",
+      "62": "match",
+      "64": "match",
+      "69": "match",
+      "71": "match",
+      "75": "match",
+      "79": "match"
+    },
+    "other_concepts": []
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "H1",
+        "role": "host",
+        "label": "Narrator"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Barbara Corcoran"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Robert Herjavec"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Lori Greiner"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Mark Cuban"
+      },
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Dale Lewis"
+      },
+      {
+        "actor_id": "F2",
+        "role": "founder",
+        "label": "Skyler"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 16.0,
+        "end_s": 73.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 15.0,
+        "kind": "teaser"
+      },
+      {
+        "start_s": 585.0,
+        "end_s": 595.0,
+        "kind": "interview"
+      },
+      {
+        "start_s": 595.0,
+        "end_s": 626.0,
+        "kind": "other"
+      }
+    ],
+    "gaps": [
+      {
+        "at_s": 291.0,
+        "note": "Edit hides pause while founder gets emotional about past failures."
+      },
+      {
+        "at_s": 323.0,
+        "note": "Edit hides transition back to business success after emotional moment."
+      },
+      {
+        "at_s": 510.0,
+        "note": "Edit between Kevin's exit and Robert speaking."
+      }
+    ],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 58.0,
+        "note": "Strong positive expression. Enthusiastic delivery with confident gestures and an energetic tone throughout the pitch."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 39.0,
+        "note": "Sustained engagement, taking off layers to demonstrate the product energetically and speaking with conviction."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 3,
+        "uncodable": false,
+        "moment_s": 30.0,
+        "note": "Friendly and approachable demeanor, smiling while presenting the solution, though mostly focused on the product."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "1",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "1",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "Cold weather clothing designed to keep the wearer warm even when wet, using proprietary insulation technology.",
+      "primary_industry": "apparel_accessories",
+      "secondary_industries": [
+        "sports_leisure",
+        "business_industrial_services"
+      ],
+      "product_form": "physical_good",
+      "customer_type": "both",
+      "founder_gender": "all_men",
+      "product_category": "extreme cold weather apparel",
+      "earliest_s": 20.0,
+      "note": "The product is designed for extreme cold and wet conditions, targeting both outdoor enthusiasts and industrial workers.",
+      "ask_amount_usd": 600000,
+      "ask_equity_pct": 15.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 16.0,
+        "end_s": 65.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Dale introduces himself, states his ask, explains the problem with cold weather clothing, and demonstrates how his product solves it."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "F1",
+        "start_s": 66.0,
+        "end_s": 68.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Dale asks Skyler what the temperature is inside the cryo tank."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "F2",
+        "start_s": 68.0,
+        "end_s": 70.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Skyler answers that the tank is negative 112 degrees Fahrenheit."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "S5",
+        "start_s": 70.0,
+        "end_s": 71.0,
+        "function": "social",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark laughs at the extreme temperature stated."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "F2",
+        "start_s": 71.0,
+        "end_s": 73.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Skyler adds that the tank will prove how amazing the product is."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "S4",
+        "start_s": 74.0,
+        "end_s": 75.0,
+        "function": "social",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori laughs at the demonstration setup."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "F1",
+        "start_s": 75.0,
+        "end_s": 81.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Dale invites Robert to try the cryo tank since he has been in one before."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "S3",
+        "start_s": 81.0,
+        "end_s": 82.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert expresses eagerness to try the tank."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "S4",
+        "start_s": 82.0,
+        "end_s": 83.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori encourages Robert to get into the tank."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "F1",
+        "start_s": 83.0,
+        "end_s": 86.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Dale directs Robert to come back to the samples to get geared up."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "S1",
+        "start_s": 87.0,
+        "end_s": 88.0,
+        "function": "social",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin jokingly tells Skyler to crank the temperature down to 250 below."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "F2",
+        "start_s": 88.0,
+        "end_s": 90.0,
+        "function": "social",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Skyler plays along, agreeing to lower the temperature."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "F1",
+        "start_s": 91.0,
+        "end_s": 94.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Dale hands Lori a prototype vest and winter gloves to examine."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "S4",
+        "start_s": 95.0,
+        "end_s": 98.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori reacts positively to feeling the prototype vest."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "F1",
+        "start_s": 98.0,
+        "end_s": 104.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Dale hands Kevin a vest and all-purpose gloves to check out."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "S4",
+        "start_s": 105.0,
+        "end_s": 107.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori asks Dale if the garment she is holding is a hoodie."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "F1",
+        "start_s": 108.0,
+        "end_s": 109.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Dale confirms it is a hoodie funded through a Kickstarter campaign."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "F1",
+        "start_s": 109.0,
+        "end_s": 115.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Dale hands Mark a parka and snowmobile gloves."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "S3",
+        "start_s": 116.0,
+        "end_s": 116.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks Dale what specific garment he is currently wearing."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "F1",
+        "start_s": 117.0,
+        "end_s": 119.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          19
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Dale answers that he is wearing their base layer garment."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "S4",
+        "start_s": 119.0,
+        "end_s": 123.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori compliments the look of the base layer but notes its sleekness makes its warmth surprising."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "F1",
+        "start_s": 124.0,
+        "end_s": 128.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          19
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Dale explains the base layer is comfortable from 70 degrees down to minus 10 degrees."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "S3",
+        "start_s": 129.0,
+        "end_s": 130.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert announces he is ready to enter the cryo tank."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "S2",
+        "start_s": 130.0,
+        "end_s": 132.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Barbara asks if Robert is wearing the base layer."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "F1",
+        "start_s": 132.0,
+        "end_s": 134.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          24
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Dale confirms Robert is wearing the base layer, typically worn next to the skin."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "S4",
+        "start_s": 134.0,
+        "end_s": 136.0,
+        "function": "social",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori jokingly tells Robert to flex his muscles."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "S1",
+        "start_s": 137.0,
+        "end_s": 138.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin tells Robert to go into the tank."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "F2",
+        "start_s": 139.0,
+        "end_s": 142.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Skyler readies the machine as Robert steps inside."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "S4",
+        "start_s": 143.0,
+        "end_s": 144.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori tells them to lock Robert inside the tank."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "S1",
+        "start_s": 146.0,
+        "end_s": 148.0,
+        "function": "social",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin jokingly suggests bringing the temperature down to 300 below."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "F1",
+        "start_s": 148.0,
+        "end_s": 150.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Dale explains that the longer the door is shut, the colder the tank gets."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "S4",
+        "start_s": 150.0,
+        "end_s": 151.0,
+        "function": "social",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori expresses mock worry for Robert."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "S1",
+        "start_s": 152.0,
+        "end_s": 153.0,
+        "function": "social",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin urges them to hit Robert with more cold."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "F2",
+        "start_s": 153.0,
+        "end_s": 154.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Skyler asks the panel if they are worried for Robert."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "F1",
+        "start_s": 155.0,
+        "end_s": 156.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Dale checks if Robert is breathing okay in the tank."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "S5",
+        "start_s": 156.0,
+        "end_s": 157.0,
+        "function": "social",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark laughs at Robert inside the tank."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "S1",
+        "start_s": 160.0,
+        "end_s": 162.0,
+        "function": "social",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin laughs as Robert peers out from the cold smoke."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "S4",
+        "start_s": 162.0,
+        "end_s": 164.0,
+        "function": "social",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori laughs at Robert's experience in the tank."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "F1",
+        "start_s": 172.0,
+        "end_s": 179.0,
+        "function": "NONE",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Dale asks a rhetorical question about his target market and extreme temperatures."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "S4",
+        "start_s": 180.0,
+        "end_s": 180.0,
+        "function": "question",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks Robert how the temperature felt inside the tank."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "S3",
+        "start_s": 181.0,
+        "end_s": 187.0,
+        "function": "challenges",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          40
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert says it is freezing and his toes feel like they will fall off."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "S3",
+        "start_s": 187.0,
+        "end_s": 190.0,
+        "function": "accepts",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          40
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert admits the top part of his body felt nothing and was warm."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "F1",
+        "start_s": 191.0,
+        "end_s": 201.0,
+        "function": "NONE",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Dale continues explaining the proprietary insulation technology."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "S1",
+        "start_s": 202.0,
+        "end_s": 204.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "market_opportunity",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks Dale to define the target market they are going after."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "F1",
+        "start_s": 204.0,
+        "end_s": 207.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          44
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "deflects",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Dale deflects the direct market question to explain he needs an influencer and distribution channels."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "S1",
+        "start_s": 208.0,
+        "end_s": 209.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks what the company has sold so far."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "F1",
+        "start_s": 209.0,
+        "end_s": 214.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          46
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Dale states they have sold 3.5 million dollars to date since 2012."
+      },
+      {
+        "turn_id": 48,
+        "speaker": "S1",
+        "start_s": 215.0,
+        "end_s": 216.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin points out that 2012 means it has been seven years of sales."
+      },
+      {
+        "turn_id": 49,
+        "speaker": "S3",
+        "start_s": 216.0,
+        "end_s": 218.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks what the sales were over the last twelve months."
+      },
+      {
+        "turn_id": 50,
+        "speaker": "F1",
+        "start_s": 219.0,
+        "end_s": 230.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          49
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Dale states they did 407,000 dollars in 2018 and explains the drop was due to the oil industry bust."
+      },
+      {
+        "turn_id": 51,
+        "speaker": "S1",
+        "start_s": 231.0,
+        "end_s": 233.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "market_opportunity",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks if the oil industry was their primary market."
+      },
+      {
+        "turn_id": 52,
+        "speaker": "F1",
+        "start_s": 234.0,
+        "end_s": 240.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          51
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "market_opportunity",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Dale confirms they were highly focused on oil, which hurt them when the industry busted."
+      },
+      {
+        "turn_id": 53,
+        "speaker": "S4",
+        "start_s": 241.0,
+        "end_s": 246.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks what Dale wants to do now and how his product differs from competitors."
+      },
+      {
+        "turn_id": 54,
+        "speaker": "F1",
+        "start_s": 246.0,
+        "end_s": 252.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          53
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Dale explains their value proposition is keeping the wearer warm even when soaking wet."
+      },
+      {
+        "turn_id": 55,
+        "speaker": "S1",
+        "start_s": 253.0,
+        "end_s": 255.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks why the clothing allows wetness to get in at all."
+      },
+      {
+        "turn_id": 56,
+        "speaker": "F1",
+        "start_s": 256.0,
+        "end_s": 257.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          55
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Dale gives the example of falling into the water while ice fishing."
+      },
+      {
+        "turn_id": 57,
+        "speaker": "S4",
+        "start_s": 258.0,
+        "end_s": 260.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks what happens when someone falls into freezing water."
+      },
+      {
+        "turn_id": 58,
+        "speaker": "F1",
+        "start_s": 261.0,
+        "end_s": 286.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Dale plays a video showing himself falling through three and a half feet of ice and staying warm."
+      },
+      {
+        "turn_id": 59,
+        "speaker": "S4",
+        "start_s": 287.0,
+        "end_s": 289.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks Dale if he is a scientist and what his background is."
+      },
+      {
+        "turn_id": 60,
+        "speaker": "F1",
+        "start_s": 289.0,
+        "end_s": 321.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          59
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Dale explains he is a serial entrepreneur who had three colossal failures and seven years of famine."
+      },
+      {
+        "turn_id": 61,
+        "speaker": "S5",
+        "start_s": 321.0,
+        "end_s": 322.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark sympathetically jokes that the story would make him cry too."
+      },
+      {
+        "turn_id": 62,
+        "speaker": "F1",
+        "start_s": 323.0,
+        "end_s": 330.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          59
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Dale recovers and notes that his fourth venture was an awesome success."
+      },
+      {
+        "turn_id": 63,
+        "speaker": "S1",
+        "start_s": 331.0,
+        "end_s": 332.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks Dale to clarify how he blew up three times and then succeeded on the fourth."
+      },
+      {
+        "turn_id": 64,
+        "speaker": "F1",
+        "start_s": 333.0,
+        "end_s": 345.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          63
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Dale explains he built a telecommunications company to 33 million dollars over nine years and retired at forty."
+      },
+      {
+        "turn_id": 65,
+        "speaker": "S5",
+        "start_s": 346.0,
+        "end_s": 347.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark congratulates Dale, calling his success the American dream."
+      },
+      {
+        "turn_id": 66,
+        "speaker": "S1",
+        "start_s": 347.0,
+        "end_s": 369.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin challenges Dale's lack of focus, pointing out he hasn't decided whether to pursue fashion or oil workers."
+      },
+      {
+        "turn_id": 67,
+        "speaker": "F1",
+        "start_s": 370.0,
+        "end_s": 374.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          66
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Dale answers that he is looking for the low hanging fruit to target next."
+      },
+      {
+        "turn_id": 68,
+        "speaker": "S3",
+        "start_s": 375.0,
+        "end_s": 377.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "market_opportunity",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks Dale to confirm that he doesn't currently have a defined market."
+      },
+      {
+        "turn_id": 69,
+        "speaker": "F1",
+        "start_s": 378.0,
+        "end_s": 383.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          68
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "market_opportunity",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Dale states that right now they are continuing with industrial workwear and the outdoorsmen market."
+      },
+      {
+        "turn_id": 70,
+        "speaker": "S4",
+        "start_s": 384.0,
+        "end_s": 390.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks why Dale didn't just sell his patented technology to existing clothing manufacturers."
+      },
+      {
+        "turn_id": 71,
+        "speaker": "F1",
+        "start_s": 391.0,
+        "end_s": 398.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 12,
+        "responds_to": [
+          70
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Dale explains they tried, but manufacturers wanted market validation first, prompting him to create Fortress."
+      },
+      {
+        "turn_id": 72,
+        "speaker": "S1",
+        "start_s": 399.0,
+        "end_s": 416.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin praises the look of the base layer, saying he would look great wearing just that on the mountain."
+      },
+      {
+        "turn_id": 73,
+        "speaker": "F1",
+        "start_s": 417.0,
+        "end_s": 420.0,
+        "function": "repair",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 13,
+        "responds_to": [
+          72
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Dale corrects Kevin, noting that he would actually wear his outer shell of choice over the base layer."
+      },
+      {
+        "turn_id": 74,
+        "speaker": "S3",
+        "start_s": 421.0,
+        "end_s": 424.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks why Kevin couldn't just wear the base layer by itself to go skiing."
+      },
+      {
+        "turn_id": 75,
+        "speaker": "F1",
+        "start_s": 425.0,
+        "end_s": 433.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 13,
+        "responds_to": [
+          74
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Dale explains it doesn't have a wind stopper, so normally one throws a shell over the insulated thermal underwear."
+      },
+      {
+        "turn_id": 76,
+        "speaker": "S4",
+        "start_s": 434.0,
+        "end_s": 452.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori states she is confused by the positioning and needing an outer shell, leading her to drop out."
+      },
+      {
+        "turn_id": 77,
+        "speaker": "F1",
+        "start_s": 453.0,
+        "end_s": 456.0,
+        "function": "NONE",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Dale tells Lori he thinks she might come back in later."
+      },
+      {
+        "turn_id": 78,
+        "speaker": "S2",
+        "start_s": 458.0,
+        "end_s": 480.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 14,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Barbara asks what is wrong with simply positioning the business as an underwear company."
+      },
+      {
+        "turn_id": 79,
+        "speaker": "F1",
+        "start_s": 481.0,
+        "end_s": 481.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 14,
+        "responds_to": [
+          78
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "too_short"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Dale briefly answers that they are open to that positioning."
+      },
+      {
+        "turn_id": 80,
+        "speaker": "S2",
+        "start_s": 482.0,
+        "end_s": 484.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara exits, stating that positioning as an underwear company came too late and would require building a new business."
+      },
+      {
+        "turn_id": 81,
+        "speaker": "F1",
+        "start_s": 491.0,
+        "end_s": 496.0,
+        "function": "NONE",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Dale remarks that he wishes he had the energy and enthusiasm for that route."
+      },
+      {
+        "turn_id": 82,
+        "speaker": "S1",
+        "start_s": 497.0,
+        "end_s": 509.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin exits, citing missing marketing focus and an unwillingness to part with money to test different ideas."
+      },
+      {
+        "turn_id": 83,
+        "speaker": "S3",
+        "start_s": 511.0,
+        "end_s": 523.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 15,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert challenges Dale, stating the message is confusing because he jumps from oil workers to water to the Arctic."
+      },
+      {
+        "turn_id": 84,
+        "speaker": "F1",
+        "start_s": 524.0,
+        "end_s": 525.0,
+        "function": "NONE",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 15,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Dale tries to interject and clarify."
+      },
+      {
+        "turn_id": 85,
+        "speaker": "S3",
+        "start_s": 526.0,
+        "end_s": 546.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert exits, explaining Dale is drowning in opportunity and lacks focus on a single successful category."
+      },
+      {
+        "turn_id": 86,
+        "speaker": "S5",
+        "start_s": 548.0,
+        "end_s": 579.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark exits, stating the message isn't clean or simple and Dale bounces around too much."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "demonstration",
+        "topic": "NONE",
+        "label": "Handing out products and cryo tank"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "Joking about the cold"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "assets",
+        "label": "Base layer and what Dale is wearing"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "Joking about Robert flexing"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "Joking while Robert is in the tank"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "How the cryo tank felt"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "substantive",
+        "topic": "market_opportunity",
+        "label": "Target market and past sales"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "substantive",
+        "topic": "competition",
+        "label": "Differentiation and wet performance"
+      },
+      {
+        "exchange_id": 9,
+        "kind": "substantive",
+        "topic": "self_promotion",
+        "label": "Founder's background and past failures"
+      },
+      {
+        "exchange_id": 10,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "Joking about crying"
+      },
+      {
+        "exchange_id": 11,
+        "kind": "substantive",
+        "topic": "go_to_market",
+        "label": "Lack of marketing focus"
+      },
+      {
+        "exchange_id": 12,
+        "kind": "substantive",
+        "topic": "go_to_market",
+        "label": "Selling tech to manufacturers"
+      },
+      {
+        "exchange_id": 13,
+        "kind": "substantive",
+        "topic": "usage",
+        "label": "Wearing the base layer as a shell"
+      },
+      {
+        "exchange_id": 14,
+        "kind": "substantive",
+        "topic": "go_to_market",
+        "label": "Positioning as an underwear company"
+      },
+      {
+        "exchange_id": 15,
+        "kind": "substantive",
+        "topic": "go_to_market",
+        "label": "Confusing message and too many options"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S4",
+        "kind": "exit",
+        "time_s": 434.0,
+        "turn_id": 76,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Confused by the positioning and the disconnect between the look and needing an outer shell."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S2",
+        "kind": "exit",
+        "time_s": 482.0,
+        "turn_id": 80,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Feels positioning as an underwear company came too late and would require building a new business."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S1",
+        "kind": "exit",
+        "time_s": 497.0,
+        "turn_id": 82,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Missing marketing focus, no clear strategy, and unwilling to fund testing different ideas."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S3",
+        "kind": "exit",
+        "time_s": 526.0,
+        "turn_id": 85,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Message is confusing, drowning in opportunity without focus on a single category."
+      },
+      {
+        "decision_id": 5,
+        "actor": "S5",
+        "kind": "exit",
+        "time_s": 548.0,
+        "turn_id": 86,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Message is not clean or simple, bounces around too much without conveying a single clear use case."
+      }
+    ],
+    "claim_conflicts": [
+      {
+        "turn_a": 1,
+        "turn_b": 75,
+        "metric": "Need for an outer shell or windbreaker",
+        "note": "Pitch claims no windbreaker needed; later states it doesn't have a wind stopper and needs a shell.",
+        "reconciled": false,
+        "reconciled_turn": null
+      }
+    ],
+    "notes": "Edit around 4:51 hides a pause where the founder gets emotional about his past failures. Another edit at 8:30 cuts directly from Kevin's exit to Robert."
+  }
+}

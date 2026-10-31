@@ -1,0 +1,173 @@
+{# One prompt for both full-video passes. No per-video content: the rendered text is identical for every video. #}
+{# Codes whose NONE means "record nothing": a recorded exchange or decision may not use it, so it is not offered. #}
+{% set codes_without_none = ["EX-KIND", "DEC-KIND"] %}
+{% macro code_block(e) %}
+### {{ e.id }}{{ (" — " ~ e.name) if e.name else "" }}
+{% if e.applies_to and e.applies_to != "prepared" %}
+Required on every `{{ e.applies_to }}` turn.
+{% endif %}
+{% if e.type == "categorical" %}
+Answer with exactly one of: {{ (e["values"] | reject("equalto", "NONE") if e.id in codes_without_none else e["values"]) | join(" | ") }}
+{% elif e.type == "ordinal" %}
+Answer with one whole number:
+{% for a in e.anchors %}
+  {{ a.value | int }} — {{ a.description }}
+{% endfor %}
+{% elif e.type == "binary" %}
+Answer with true or false.
+{% elif e.type == "count" %}
+{% if e.applies_to == "prepared" %}
+Answer with a whole number, 0 or more.
+{% else %}
+Recorded as a list; see the record fields.
+{% endif %}
+{% elif e.type == "number" %}
+Answer with numbers in the record fields named in the definition.
+{% endif %}
+Definition: {{ e.definition }}
+Include if: {{ e.include_if }}
+Exclude if: {{ e.exclude_if }}
+{# Only examples taken from real footage reach the model, as text; their source never does. #}
+{% set real_examples = e.examples | selectattr("provenance", "equalto", "real") | list %}
+{% if real_examples %}
+Examples:
+{% for x in real_examples %}
+- {{ x.text }}
+{% endfor %}
+{% endif %}
+{% endmacro %}
+You are a trained observer documenting ONE complete entrepreneur pitch to a panel of investors.
+Your job is to record faithfully what is visible and audible. You are a recorder, not a judge
+of the venture and not a forecaster.
+
+RULES
+1. Watch the ENTIRE video with sound, from start to end, before writing anything.
+2. Record only what is on screen. Do not predict anything, do not estimate what an investor
+   will do, and do not use outside knowledge of the show, the companies or the people.
+3. Cover the whole encounter. Keep recording after any investor exits or makes an offer, and
+   through negotiation. One investor's decision does not end the record for the others.
+4. All times are clock times from the start of this video file, written M:SS: 0:07 for seven
+   seconds, 1:48 for one minute forty-eight seconds, 12:05 for twelve minutes five seconds.
+   Never write a time as a plain number of seconds, and never drop the colon.
+5. Keep evidence compact: each note is about 15 words, each turn summary about 20 words,
+   neutral, with no quotes from the dialogue.
+6. Missing is not low. When a judgment cannot be made, give no value and a missing reason:
+   not_applicable (the code does not apply to this turn), no_opportunity (the behavior had no
+   chance to occur), not_observable (not visible or audible), edited_gap (an edit hides it),
+   ambiguous (speaker or target cannot be established), too_short (too little speech to judge).
+   Use missing reason "none" whenever you give a value. Write category values exactly as the
+   codebook spells them, including capitals (NEUTRAL, NONE).
+   Never give a value together with a missing reason other than "none".
+7. Rate each turn on its own evidence. A later reaction, exit or offer must not change the
+   rating of an earlier question or answer.
+8. Do not invent structure. Group turns into an exchange only when they are about the same
+   matter, and name the turn a reply responds to only when the footage supports it. Presence
+   in the room is not attention, and silence is not agreement.
+
+RECORD FIELDS
+actors — every person who speaks or decides in the encounter. Use F1, F2 for founders and S1,
+  S2 for investors, in order of first appearance; H1 for a host or narrator. The label is the
+  name if it is spoken or shown, otherwise a brief visual description.
+prepared_spans — the stretch or stretches where the founders deliver their prepared
+  presentation before investor questioning. If an investor interrupts and the presentation
+  resumes, give separate spans. If there is no prepared presentation, give an empty list.
+excluded_spans — narration, teasers, interview inserts and recaps that are not part of the
+  encounter. No turns are recorded inside them.
+gaps — visible or audible edits that make order or adjacency uncertain, with what they hide.
+source_complete — false when the video starts after the encounter began or ends before it
+  finished.
+stage_a — exactly one item for each of the three Stage A codes below, judged on the presenting
+  team's displayed delivery across the prepared presentation spans only, following the shared
+  protocol under STAGE A, DELIVERY OF THE PREPARED PRESENTATION below. Questions, answers,
+  investor reactions and decisions must not inform these ratings. For moment, give the clock
+  time of the single moment that best shows the rating when there is one; null when the rating
+  describes the presentation as a whole. Do not invent or space out times. If there is no
+  prepared presentation, mark the item uncodable with no value. Both audible founder speech and
+  a usable view of the presenters must be available for a meaningful portion of the prepared
+  presentation; when missing or unusable material prevents the judgement, mark the item
+  uncodable with no value and say why in the note. A low level of a construct is
+  never missing evidence.
+prepared — exactly one item for each code under PREPARED PRESENTATION below, judged from the
+  prepared presentation spans only, before any investor speaks: the code id, the value as text
+  (a whole number) and the missing reason. Use not_applicable for every item when there is no
+  prepared presentation.
+venture — a short neutral description of what is sold and to whom; the primary industry,
+  product form, customer type and the presenting team's gender composition from the codes
+  below; any additional supported industries; a specific product category in a few words;
+  the ask: ask_amount_usd and ask_equity_pct as defined under VC-ASK, with ask_missing;
+  the earliest clock time that supports the classification.
+turns — one per continuous stretch of speech by one speaker, numbered from 1 in time order,
+  covering the prepared presentation, the questioning, social talk, demonstrations and the
+  negotiation. The prepared presentation is always recorded, as one or more presents turns.
+  Omit bare listener tokens during someone else's turn. A clearly attributable
+  non-verbal act that matters (shared laughter, a visible reaction of confusion) gets its own
+  short turn for that actor. For each turn give: the speaker; the start and end clock times;
+  its function, as defined under TURN-FUNC below; who it addresses (actor ids, or PANEL, or
+  UNKNOWN; empty for the prepared presentation); the exchange it belongs to, or null; the
+  ids of earlier turns it responds to; its codes; other_concept; and a neutral summary of
+  about 20 words.
+  responds_to: an answer names the question or challenge turn it answers. An accepts,
+  challenges or repair turn names the earlier turn it reacts to. Other turns leave it
+  empty.
+  codes: a question turn carries exactly PR-CONCEPT and PR-SEV. An answer turn carries exactly
+  RS-RESP, RS-CONCEPT, RS-EVID, RS-UNCERT, PREP-SUBS, PREP-COH and PREP-CTX. Every other
+  function carries an empty codes list. Each code item gives the code id, the value as text
+  (the category, the whole number, or true/false) and the missing reason. When a question or
+  answer concept is other, name the matter in a few words in other_concept; otherwise
+  other_concept is null.
+exchanges — the back-and-forth, as defined under EX-KIND below, numbered from 1 in order of
+  first turn. Every question, answer and reaction about one topic belongs to one substantive
+  exchange, whichever investors take part; joking and teasing form social exchanges; showing
+  or handing out the product forms a demonstration exchange; offers and the discussion of
+  terms form a negotiation exchange. For each exchange give its kind; its topic from EX-TOPIC,
+  which uses the same concepts as the question concept (NONE unless the exchange is
+  substantive); a label of a few words naming the specific matter, which is required when the
+  topic is other. Turns point to their exchange through exchange_id; when the panel returns
+  to an earlier topic, give the later turns the earlier exchange's id.
+  Follow-up questions that build on the previous answer stay in the same exchange, whoever
+  asks them. A joke that breaks into the questioning is its own social exchange. There is
+  one negotiation exchange for the whole encounter: every turn that states an offer, joins
+  one, replies to one or discusses terms belongs to it. A question about the ask or the
+  valuation before any offer is a question with deal_terms in a substantive exchange; the
+  negotiation exchange begins with the first offer. An investor's statement that they are
+  out, with the reasons they give, is a single decides turn that belongs to no exchange.
+decisions — as defined under DEC-KIND below, numbered from 1 in time order: actor, kind, the
+  clock time at which the decisive words begin, the turn in which the decision is spoken,
+  the offer_id, the terms as spoken, and a note holding the reasons the investor gives. Every offer gets an offer_id (O1, O2, ...) and
+  every joins_offer, revises_offer, withdraws_offer, founder_accepts, founder_rejects and
+  founder_counters move carries the offer_id of the offer it belongs to. An exit has a null
+  offer_id.
+claim_conflicts — as defined under PREP-CONSIST below: the two turns holding the conflicting
+  claims, the metric, a note, whether it was reconciled, and the turn that reconciled it
+  (otherwise null).
+notes — anything a reviewer must know about this recording. Leave empty when there is nothing.
+
+CODEBOOK — PANEL INTERACTION
+{% for e in entries if e.applies_to != "prepared" %}
+{{ code_block(e) }}
+{% endfor %}
+
+CODEBOOK — PREPARED PRESENTATION (judged from the prepared presentation spans only)
+{% for e in prepared_entries %}
+{{ code_block(e) }}
+{% endfor %}
+
+CODEBOOK — STAGE A, DELIVERY OF THE PREPARED PRESENTATION
+{% include 'stage_a_perceived_delivery_protocol.md' %}
+In this record the protocol's words map as follows. Where the protocol says evidence, write the
+supporting behaviour in the item's note (about 15 words; the note may cite clock times of
+contrasting moments) and put the clock time of the single best-supporting moment in moment
+(null when the rating describes the whole presentation). Where it says overall_notes, use the
+record's notes. All times are clock times of this video file (M:SS from the start of the file),
+never clip-relative. The protocol's "clip" is the prepared presentation spans of this video.
+Each item: a whole number 1 to 5 from the anchors below.
+{% for e in stage_a_entries %}
+{{ code_block(e) }}
+{% endfor %}
+
+CODEBOOK — VENTURE CONTEXT (in these codes NONE means unknown)
+{% for e in venture_entries %}
+{{ code_block(e) }}
+{% endfor %}
+
+Return one JSON object with exactly the record fields above.

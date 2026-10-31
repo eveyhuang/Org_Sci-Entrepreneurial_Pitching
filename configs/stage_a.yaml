@@ -1,0 +1,29 @@
+# Stage A — three perceived-delivery ratings of the prepared presentation (pitch_positivity,
+# expressed_enthusiasm, interpersonal_warmth), one holistic call per video, under the shared
+# human–model protocol in pipeline/prompts/stage_a_perceived_delivery_protocol.md. k=5 gives the
+# test-retest variance the design requires.
+# Restored as the current default on 2026-10-20 (release v3-dev9, refocus plan §3.5); the ten-item
+# book it replaces reproduces from configs/archived_stage_a_pitch_factor.yaml.
+run_name: stage_a_perceived_delivery
+corpus:
+  name: hu-ma
+  video_dir: ../data/hu-ma/downloads/youtube
+  metadata_csv: ../data/hu-ma/clean_videos.csv
+model:
+  name: gemini-3.1-pro-preview      # pinned; recorded verbatim in the manifest
+  temperature: 0.0
+  max_output_tokens: 16384
+limits:
+  requests_per_minute: 8
+  max_concurrency: 4
+  max_attempts: 6
+  backoff_base_s: 5.0
+  backoff_cap_s: 120.0
+passes:
+  - name: holistic
+    unit: PITCH
+    prompt: stage_a_perceived_delivery.j2
+    schema: pipeline.schemas.stage_a_perceived_delivery.StageADeliveryRecord
+    k: 5
+    media: full
+codebook: ../pipeline/codebooks/stage_a_perceived_delivery.yaml

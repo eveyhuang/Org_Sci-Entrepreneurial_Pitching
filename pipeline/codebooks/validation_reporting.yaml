@@ -1,0 +1,97 @@
+# How human validation is reported, per kind of code (the researcher's design of 2026-10-30, plan D). Read by
+# `review_panel.py summary --paper-table` through review_report.load_reporting, which refuses a kind it does not know,
+# a code the instrument lacks, an ordinal code without its ordered `values` and a binary code without its `positive`
+# value. No figure here is a target: each row's raw agreement and alpha are reported with their 95% intervals, alpha
+# with its Landis & Koch (1977) band, and nothing is passed or failed. validation_thresholds.yaml is the record of the October 8 gates it replaces.
+#
+# `kinds`: the statistics each kind of code is reported with (fixed by kind, not per code) and the reason the methods
+# note prints for them. `codes`: the kind of each reported code, keyed as the instrument names it (a Stage A item and a
+# prepared presentation code by their bare id; the venture field, the first decision and the pair judgements by their
+# sheet names). `derived`: a row computed from another code's values on both sides. `not_reported`: codes coded on the
+# sheet whose own row is not reported, with the reason. `flags`: the levels at which a row carries a flag in words.
+kinds:
+  categorical:
+    statistics: [exact, alpha, ac1, modal_share, confusion]
+    reason: >-
+      Krippendorff's alpha (nominal; Krippendorff 2004) follows the raw share in parentheses. When one value
+      dominates, alpha, like kappa, falls even where the raters mostly agree (the prevalence problem: Feinstein &
+      Cicchetti 1990); the row's prevalence flag then points to Gwet's AC1 (Gwet 2008), which the appendix gives with
+      the agreement on each value.
+  binary:
+    statistics: [counts, exact, alpha, positive_agreement, negative_agreement, ac1, modal_share, prevalence_index,
+                 bias_index]
+    reason: >-
+      Krippendorff's alpha (nominal; Krippendorff 2004) follows the raw share in parentheses, and when one value
+      dominates the row's prevalence flag points to Gwet's AC1 (Gwet 2008). The appendix gives AC1, the positive and
+      negative agreement (Cicchetti & Feinstein 1990), which show whether the raters disagree on the yeses or on the
+      noes, and the prevalence and bias indices (Byrt, Bishop & Carlin 1993), which show how uneven the split is and
+      which rater says yes more often.
+  ordinal:
+    statistics: [exact, chance_exact, within_one, chance_within_one, alpha, ac2, modal_share, mean_difference,
+                 spearman]
+    reason: >-
+      Exact and within-one agreement lead the row; the appendix gives each beside the value two raters with these
+      same distributions would reach by chance, since on a short scale within-one agreement is high by chance alone.
+      Ordinal alpha (Krippendorff 2004) follows in parentheses and, with Gwet's AC2 with quadratic weights (Gwet 2014)
+      in the appendix, credits near misses. The appendix also gives the mean difference, which shows whether one rater
+      sits higher on the scale, and Spearman's rho, which shows whether the two raters order the units alike.
+  clock:
+    statistics: [same_turn, share_within_5, share_within_30, median_abs, mean_signed, loa_low, loa_high]
+    reason: >-
+      The first decision agrees when both timestamps fall in the same turn of the reference pass pinned by the
+      coding sheet. A turn includes its start but excludes its end. Missing reference context, times in gaps,
+      and overlapping turns are undetermined and excluded from the same-turn denominator. This rule distinguishes
+      marking the turn onset from marking the decision sentence within it; it was adopted after inspecting the
+      Firefighter1 example. The shares within 5 s and 30 s, median absolute difference, and Bland & Altman (1986)
+      limits of agreement remain timing diagnostics, not the agreement criterion. No alpha is reported. This
+      comparison uses the model's segmentation; it does not independently validate turn boundaries.
+  exact:
+    statistics: [exact]
+    reason: >-
+      The ask is a fact stated in the pitch, so the share of identical answers is reported under the ask's rule
+      (amounts within 1% and the same equity), with no chance correction.
+  comparison:
+    statistics: [agreement, binomial_interval, p_vs_half, by_gap_tercile, close]
+    # {against} is replaced by `comparisons.against` below, so the note cannot print another level than the one tested
+    reason: >-
+      A comparison asks which of two clips ranks higher, so agreement with the model's ranking is reported against
+      {against} (a coin flip is 0.5) as k of n judgements, with a 95% interval that resamples videos, because pairs
+      share clips (and two coders judge the same pairs), and the exact two-sided binomial p. The appendix gives the
+      exact (Clopper–Pearson) interval beside the resampled one: it treats the judgements as independent, so it is
+      usually narrower, and the p shares that assumption, so it is optimistic.
+      The same figure in thirds of the pairs, ordered by the gap between the two clips' rank scores from the model,
+      shows whether agreement rises where the model sees a larger difference.
+codes:
+  RS-RESP: categorical
+  RS-EVID: {kind: binary, positive: "true"}
+  PR-SEV: {kind: ordinal, values: ["1", "2", "3"]}
+  PREP-SUBS: {kind: ordinal, values: ["1", "2", "3", "4", "5"]}
+  PREP-COH: {kind: ordinal, values: ["1", "2", "3", "4", "5"]}
+  PRES-SUBS: {kind: ordinal, values: ["1", "2", "3", "4", "5"]}
+  PRES-COH: {kind: ordinal, values: ["1", "2", "3", "4", "5"]}
+  # judged in the bands a coder's sheet takes (review_items.EVID_BANDS); the model's count is banded the same way
+  PRES-EVID: {kind: ordinal, values: ["0", "1-2", "3-5", "6+"]}
+  pitch_positivity: {kind: ordinal, values: ["1", "2", "3", "4", "5"]}
+  expressed_enthusiasm: {kind: ordinal, values: ["1", "2", "3", "4", "5"]}
+  interpersonal_warmth: {kind: ordinal, values: ["1", "2", "3", "4", "5"]}
+  cut: clock
+  # the outcome (pitch:any_offer: yes, no, unknown): the full-video sheet no longer draws its card (since 2026-10-21),
+  # but an old sheet, or one exported with --field-classes outcome, still carries it and still gets a row
+  outcome: categorical
+  "venture:ask": exact
+  pair: comparison
+derived:
+  # the question's frame (panel_books.frame_of): promotion, prevention, unclassified for deal_terms and other,
+  # NEUTRAL for NONE
+  PR-FRAME: {from: PR-CONCEPT, via: frame_of, kind: categorical, values: [promotion, prevention, unclassified, NEUTRAL]}
+not_reported:
+  PR-CONCEPT: >-
+    The exact question concept is not reported: the analysis reads a question's concept only through its frame, so
+    the frame (PR-FRAME) is the concept's row.
+flags:
+  prevalence: 0.75   # the modal value's share over both raters at or above which the row says to read AC1/AC2
+  small_n: 20        # fewer distinct units (pitches, question-answer pairs, pairs of clips; a unit two coders judged
+                     # counts once) than this: the row says a chance-corrected statistic is unstable
+bands: landis_koch
+comparisons:
+  against: 0.5       # only 0.5 is accepted: the comparison's p is the exact binomial p against a coin flip

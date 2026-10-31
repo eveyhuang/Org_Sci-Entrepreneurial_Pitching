@@ -1,0 +1,453 @@
+{
+  "videos": {
+    "st_026c012f68": {
+      "video_id": "st_026c012f68",
+      "sheet": "st_026c012f68__review.csv",
+      "release_id": "v3-dev9",
+      "annotation_context": "descriptive_full_context",
+      "seed": 20261013,
+      "sample_unflagged": null,
+      "max_flagged": null,
+      "preset": "exchange",
+      "field_classes": null,
+      "blind": true,
+      "pass": "primary",
+      "primary_sha256": "6fbf132e2c34145a3247518ec9d6996f2a21904e70a5b332f1145fedf05b4c9b",
+      "replicate_sha256": "3915566c905a1576884afc354377c28a8c1182dc7d2f09f9c20a0df12f8f68b6",
+      "counts": {
+        "by_field_class": {
+          "turn_code": 24,
+          "cut": 1
+        },
+        "by_selection": {
+          "flagged": 0,
+          "sampled": 25
+        },
+        "by_priority": {
+          "1": 25,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "by_reason": {
+          "passes_differ": 3
+        }
+      },
+      "flagged": null,
+      "sample": {
+        "seed": 20261013,
+        "key": "st_026c012f68",
+        "requested": {
+          "stage_a": 0,
+          "exchanges": 0,
+          "qa": 4,
+          "venture": 0,
+          "qa_codes": [
+            [
+              "question",
+              "PR-CONCEPT"
+            ],
+            [
+              "question",
+              "PR-SEV"
+            ],
+            [
+              "answer",
+              "RS-RESP"
+            ],
+            [
+              "answer",
+              "RS-EVID"
+            ],
+            [
+              "answer",
+              "PREP-SUBS"
+            ],
+            [
+              "answer",
+              "PREP-COH"
+            ]
+          ]
+        },
+        "drawn": {
+          "pitch": [
+            "first_decision"
+          ],
+          "venture": [],
+          "stage_a": [],
+          "exchanges": [],
+          "qa": [
+            [
+              20,
+              21
+            ],
+            [
+              35,
+              36
+            ],
+            [
+              44,
+              56
+            ],
+            [
+              58,
+              59
+            ]
+          ]
+        },
+        "available": {
+          "venture": 4,
+          "stage_a": 3,
+          "exchanges": 8,
+          "qa": 22
+        },
+        "qa_before_cut": true,
+        "on_sheet": {
+          "turn_code": 24,
+          "cut": 1
+        },
+        "population": {
+          "turn_code": 120,
+          "exchange_topic": 8,
+          "stage_a": 3,
+          "venture": 4,
+          "cut": 1
+        }
+      },
+      "unflagged": null,
+      "rows": [
+        {
+          "path": "pitch:first_decision",
+          "field_class": "cut",
+          "clock_start": null,
+          "clock_end": null,
+          "context": "the pitch: S3 exit@6:30, S5 exit@6:50, S2 exit@8:26, S4 exit@8:43, S1 exit@8:54",
+          "blind_context": "the pitch: When is the first decision spoken?",
+          "primary": "6:30",
+          "replicate": "6:34",
+          "reasons": [],
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:20/code:PR-CONCEPT",
+          "field_class": "turn_code",
+          "clock_start": "2:22",
+          "clock_end": "2:24",
+          "context": "question turn 20 (2:22-2:24) S3 (Kevin O'Leary): S3 asks how he is supposed to take a whole case of beer with him. -> answer turn 21 (2:25-2:28) F1 (Chase Mitchell): F1 explains that users can swap a cold can out and put a new one in to chill.",
+          "primary": "usage",
+          "replicate": null,
+          "reasons": [],
+          "blind_context": "question turn 20 (2:22-2:24) S3 (Kevin O'Leary): S3 asks how he is supposed to take a whole case of beer with him. -> answer turn 21 (2:25-2:28) F1 (Chase Mitchell): F1 explains that users can swap a cold can out and put a new one in to chill.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:20/code:PR-SEV",
+          "field_class": "turn_code",
+          "clock_start": "2:22",
+          "clock_end": "2:24",
+          "context": "question turn 20 (2:22-2:24) S3 (Kevin O'Leary): S3 asks how he is supposed to take a whole case of beer with him. -> answer turn 21 (2:25-2:28) F1 (Chase Mitchell): F1 explains that users can swap a cold can out and put a new one in to chill.",
+          "primary": "3",
+          "replicate": null,
+          "reasons": [],
+          "blind_context": "question turn 20 (2:22-2:24) S3 (Kevin O'Leary): S3 asks how he is supposed to take a whole case of beer with him. -> answer turn 21 (2:25-2:28) F1 (Chase Mitchell): F1 explains that users can swap a cold can out and put a new one in to chill.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:21/code:PREP-COH",
+          "field_class": "turn_code",
+          "clock_start": "2:25",
+          "clock_end": "2:28",
+          "context": "question turn 20 (2:22-2:24) S3 (Kevin O'Leary): S3 asks how he is supposed to take a whole case of beer with him. -> answer turn 21 (2:25-2:28) F1 (Chase Mitchell): F1 explains that users can swap a cold can out and put a new one in to chill.",
+          "primary": "3",
+          "replicate": "4",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 20 (2:22-2:24) S3 (Kevin O'Leary): S3 asks how he is supposed to take a whole case of beer with him. -> answer turn 21 (2:25-2:28) F1 (Chase Mitchell): F1 explains that users can swap a cold can out and put a new one in to chill.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:21/code:PREP-SUBS",
+          "field_class": "turn_code",
+          "clock_start": "2:25",
+          "clock_end": "2:28",
+          "context": "question turn 20 (2:22-2:24) S3 (Kevin O'Leary): S3 asks how he is supposed to take a whole case of beer with him. -> answer turn 21 (2:25-2:28) F1 (Chase Mitchell): F1 explains that users can swap a cold can out and put a new one in to chill.",
+          "primary": "3",
+          "replicate": "3",
+          "reasons": [],
+          "blind_context": "question turn 20 (2:22-2:24) S3 (Kevin O'Leary): S3 asks how he is supposed to take a whole case of beer with him. -> answer turn 21 (2:25-2:28) F1 (Chase Mitchell): F1 explains that users can swap a cold can out and put a new one in to chill.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:21/code:RS-EVID",
+          "field_class": "turn_code",
+          "clock_start": "2:25",
+          "clock_end": "2:28",
+          "context": "question turn 20 (2:22-2:24) S3 (Kevin O'Leary): S3 asks how he is supposed to take a whole case of beer with him. -> answer turn 21 (2:25-2:28) F1 (Chase Mitchell): F1 explains that users can swap a cold can out and put a new one in to chill.",
+          "primary": "false",
+          "replicate": "false",
+          "reasons": [],
+          "blind_context": "question turn 20 (2:22-2:24) S3 (Kevin O'Leary): S3 asks how he is supposed to take a whole case of beer with him. -> answer turn 21 (2:25-2:28) F1 (Chase Mitchell): F1 explains that users can swap a cold can out and put a new one in to chill.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:21/code:RS-RESP",
+          "field_class": "turn_code",
+          "clock_start": "2:25",
+          "clock_end": "2:28",
+          "context": "question turn 20 (2:22-2:24) S3 (Kevin O'Leary): S3 asks how he is supposed to take a whole case of beer with him. -> answer turn 21 (2:25-2:28) F1 (Chase Mitchell): F1 explains that users can swap a cold can out and put a new one in to chill.",
+          "primary": "addresses",
+          "replicate": "addresses",
+          "reasons": [],
+          "blind_context": "question turn 20 (2:22-2:24) S3 (Kevin O'Leary): S3 asks how he is supposed to take a whole case of beer with him. -> answer turn 21 (2:25-2:28) F1 (Chase Mitchell): F1 explains that users can swap a cold can out and put a new one in to chill.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:35/code:PR-CONCEPT",
+          "field_class": "turn_code",
+          "clock_start": "3:09",
+          "clock_end": "3:10",
+          "context": "question turn 35 (3:09-3:10) S2 (Robert Herjavec): S2 expresses shock that the product costs 37 dollars to make. -> answer turn 36 (3:11-3:15) F2 (Brian Bloch): F2 clarifies that was only for the first run and they have since brought the cost down to 18 dollars.",
+          "primary": "operating_efficiency",
+          "replicate": null,
+          "reasons": [],
+          "blind_context": "question turn 35 (3:09-3:10) S2 (Robert Herjavec): S2 expresses shock that the product costs 37 dollars to make. -> answer turn 36 (3:11-3:15) F2 (Brian Bloch): F2 clarifies that was only for the first run and they have since brought the cost down to 18 dollars.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:35/code:PR-SEV",
+          "field_class": "turn_code",
+          "clock_start": "3:09",
+          "clock_end": "3:10",
+          "context": "question turn 35 (3:09-3:10) S2 (Robert Herjavec): S2 expresses shock that the product costs 37 dollars to make. -> answer turn 36 (3:11-3:15) F2 (Brian Bloch): F2 clarifies that was only for the first run and they have since brought the cost down to 18 dollars.",
+          "primary": "3",
+          "replicate": null,
+          "reasons": [],
+          "blind_context": "question turn 35 (3:09-3:10) S2 (Robert Herjavec): S2 expresses shock that the product costs 37 dollars to make. -> answer turn 36 (3:11-3:15) F2 (Brian Bloch): F2 clarifies that was only for the first run and they have since brought the cost down to 18 dollars.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:36/code:PREP-COH",
+          "field_class": "turn_code",
+          "clock_start": "3:11",
+          "clock_end": "3:15",
+          "context": "question turn 35 (3:09-3:10) S2 (Robert Herjavec): S2 expresses shock that the product costs 37 dollars to make. -> answer turn 36 (3:11-3:15) F2 (Brian Bloch): F2 clarifies that was only for the first run and they have since brought the cost down to 18 dollars.",
+          "primary": "4",
+          "replicate": "4",
+          "reasons": [],
+          "blind_context": "question turn 35 (3:09-3:10) S2 (Robert Herjavec): S2 expresses shock that the product costs 37 dollars to make. -> answer turn 36 (3:11-3:15) F2 (Brian Bloch): F2 clarifies that was only for the first run and they have since brought the cost down to 18 dollars.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:36/code:PREP-SUBS",
+          "field_class": "turn_code",
+          "clock_start": "3:11",
+          "clock_end": "3:15",
+          "context": "question turn 35 (3:09-3:10) S2 (Robert Herjavec): S2 expresses shock that the product costs 37 dollars to make. -> answer turn 36 (3:11-3:15) F2 (Brian Bloch): F2 clarifies that was only for the first run and they have since brought the cost down to 18 dollars.",
+          "primary": "4",
+          "replicate": "4",
+          "reasons": [],
+          "blind_context": "question turn 35 (3:09-3:10) S2 (Robert Herjavec): S2 expresses shock that the product costs 37 dollars to make. -> answer turn 36 (3:11-3:15) F2 (Brian Bloch): F2 clarifies that was only for the first run and they have since brought the cost down to 18 dollars.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:36/code:RS-EVID",
+          "field_class": "turn_code",
+          "clock_start": "3:11",
+          "clock_end": "3:15",
+          "context": "question turn 35 (3:09-3:10) S2 (Robert Herjavec): S2 expresses shock that the product costs 37 dollars to make. -> answer turn 36 (3:11-3:15) F2 (Brian Bloch): F2 clarifies that was only for the first run and they have since brought the cost down to 18 dollars.",
+          "primary": "true",
+          "replicate": "true",
+          "reasons": [],
+          "blind_context": "question turn 35 (3:09-3:10) S2 (Robert Herjavec): S2 expresses shock that the product costs 37 dollars to make. -> answer turn 36 (3:11-3:15) F2 (Brian Bloch): F2 clarifies that was only for the first run and they have since brought the cost down to 18 dollars.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:36/code:RS-RESP",
+          "field_class": "turn_code",
+          "clock_start": "3:11",
+          "clock_end": "3:15",
+          "context": "question turn 35 (3:09-3:10) S2 (Robert Herjavec): S2 expresses shock that the product costs 37 dollars to make. -> answer turn 36 (3:11-3:15) F2 (Brian Bloch): F2 clarifies that was only for the first run and they have since brought the cost down to 18 dollars.",
+          "primary": "addresses",
+          "replicate": "addresses",
+          "reasons": [],
+          "blind_context": "question turn 35 (3:09-3:10) S2 (Robert Herjavec): S2 expresses shock that the product costs 37 dollars to make. -> answer turn 36 (3:11-3:15) F2 (Brian Bloch): F2 clarifies that was only for the first run and they have since brought the cost down to 18 dollars.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:44/code:PR-CONCEPT",
+          "field_class": "turn_code",
+          "clock_start": "3:46",
+          "clock_end": "3:56",
+          "context": "question turn 44 (3:46-3:56) S1 (Daniel Lubetzky): S1 asks the founders why they decided to enter the cooler market given their backgrounds. -> answer turn 56 (4:30-4:32) F1 (Chase Mitchell): F1 explains their mission is to address the massive amount of plastic waste.",
+          "primary": "self_promotion",
+          "replicate": "self_promotion",
+          "reasons": [],
+          "blind_context": "question turn 44 (3:46-3:56) S1 (Daniel Lubetzky): S1 asks the founders why they decided to enter the cooler market given their backgrounds. -> answer turn 56 (4:30-4:32) F1 (Chase Mitchell): F1 explains their mission is to address the massive amount of plastic waste.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:44/code:PR-SEV",
+          "field_class": "turn_code",
+          "clock_start": "3:46",
+          "clock_end": "3:56",
+          "context": "question turn 44 (3:46-3:56) S1 (Daniel Lubetzky): S1 asks the founders why they decided to enter the cooler market given their backgrounds. -> answer turn 56 (4:30-4:32) F1 (Chase Mitchell): F1 explains their mission is to address the massive amount of plastic waste.",
+          "primary": "1",
+          "replicate": "1",
+          "reasons": [],
+          "blind_context": "question turn 44 (3:46-3:56) S1 (Daniel Lubetzky): S1 asks the founders why they decided to enter the cooler market given their backgrounds. -> answer turn 56 (4:30-4:32) F1 (Chase Mitchell): F1 explains their mission is to address the massive amount of plastic waste.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:56/code:PREP-COH",
+          "field_class": "turn_code",
+          "clock_start": "4:30",
+          "clock_end": "4:32",
+          "context": "question turn 44 (3:46-3:56) S1 (Daniel Lubetzky): S1 asks the founders why they decided to enter the cooler market given their backgrounds. -> answer turn 56 (4:30-4:32) F1 (Chase Mitchell): F1 explains their mission is to address the massive amount of plastic waste.",
+          "primary": "3",
+          "replicate": "2",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 44 (3:46-3:56) S1 (Daniel Lubetzky): S1 asks the founders why they decided to enter the cooler market given their backgrounds. -> answer turn 56 (4:30-4:32) F1 (Chase Mitchell): F1 explains their mission is to address the massive amount of plastic waste.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:56/code:PREP-SUBS",
+          "field_class": "turn_code",
+          "clock_start": "4:30",
+          "clock_end": "4:32",
+          "context": "question turn 44 (3:46-3:56) S1 (Daniel Lubetzky): S1 asks the founders why they decided to enter the cooler market given their backgrounds. -> answer turn 56 (4:30-4:32) F1 (Chase Mitchell): F1 explains their mission is to address the massive amount of plastic waste.",
+          "primary": "3",
+          "replicate": "1",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 44 (3:46-3:56) S1 (Daniel Lubetzky): S1 asks the founders why they decided to enter the cooler market given their backgrounds. -> answer turn 56 (4:30-4:32) F1 (Chase Mitchell): F1 explains their mission is to address the massive amount of plastic waste.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:56/code:RS-EVID",
+          "field_class": "turn_code",
+          "clock_start": "4:30",
+          "clock_end": "4:32",
+          "context": "question turn 44 (3:46-3:56) S1 (Daniel Lubetzky): S1 asks the founders why they decided to enter the cooler market given their backgrounds. -> answer turn 56 (4:30-4:32) F1 (Chase Mitchell): F1 explains their mission is to address the massive amount of plastic waste.",
+          "primary": "false",
+          "replicate": "false",
+          "reasons": [],
+          "blind_context": "question turn 44 (3:46-3:56) S1 (Daniel Lubetzky): S1 asks the founders why they decided to enter the cooler market given their backgrounds. -> answer turn 56 (4:30-4:32) F1 (Chase Mitchell): F1 explains their mission is to address the massive amount of plastic waste.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:56/code:RS-RESP",
+          "field_class": "turn_code",
+          "clock_start": "4:30",
+          "clock_end": "4:32",
+          "context": "question turn 44 (3:46-3:56) S1 (Daniel Lubetzky): S1 asks the founders why they decided to enter the cooler market given their backgrounds. -> answer turn 56 (4:30-4:32) F1 (Chase Mitchell): F1 explains their mission is to address the massive amount of plastic waste.",
+          "primary": "addresses",
+          "replicate": "addresses",
+          "reasons": [],
+          "blind_context": "question turn 44 (3:46-3:56) S1 (Daniel Lubetzky): S1 asks the founders why they decided to enter the cooler market given their backgrounds. -> answer turn 56 (4:30-4:32) F1 (Chase Mitchell): F1 explains their mission is to address the massive amount of plastic waste.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:58/code:PR-CONCEPT",
+          "field_class": "turn_code",
+          "clock_start": "5:01",
+          "clock_end": "5:02",
+          "context": "question turn 58 (5:01-5:02) S4 (Lori Greiner): S4 asks the founders who their number one competitor is. -> answer turn 59 (5:03-5:04) F1 (Chase Mitchell): F1 answers that their main competitor is ice.",
+          "primary": "competition",
+          "replicate": "competition",
+          "reasons": [],
+          "blind_context": "question turn 58 (5:01-5:02) S4 (Lori Greiner): S4 asks the founders who their number one competitor is. -> answer turn 59 (5:03-5:04) F1 (Chase Mitchell): F1 answers that their main competitor is ice.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:58/code:PR-SEV",
+          "field_class": "turn_code",
+          "clock_start": "5:01",
+          "clock_end": "5:02",
+          "context": "question turn 58 (5:01-5:02) S4 (Lori Greiner): S4 asks the founders who their number one competitor is. -> answer turn 59 (5:03-5:04) F1 (Chase Mitchell): F1 answers that their main competitor is ice.",
+          "primary": "1",
+          "replicate": "1",
+          "reasons": [],
+          "blind_context": "question turn 58 (5:01-5:02) S4 (Lori Greiner): S4 asks the founders who their number one competitor is. -> answer turn 59 (5:03-5:04) F1 (Chase Mitchell): F1 answers that their main competitor is ice.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:59/code:PREP-COH",
+          "field_class": "turn_code",
+          "clock_start": "5:03",
+          "clock_end": "5:04",
+          "context": "question turn 58 (5:01-5:02) S4 (Lori Greiner): S4 asks the founders who their number one competitor is. -> answer turn 59 (5:03-5:04) F1 (Chase Mitchell): F1 answers that their main competitor is ice.",
+          "primary": "3",
+          "replicate": null,
+          "reasons": [],
+          "blind_context": "question turn 58 (5:01-5:02) S4 (Lori Greiner): S4 asks the founders who their number one competitor is. -> answer turn 59 (5:03-5:04) F1 (Chase Mitchell): F1 answers that their main competitor is ice.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:59/code:PREP-SUBS",
+          "field_class": "turn_code",
+          "clock_start": "5:03",
+          "clock_end": "5:04",
+          "context": "question turn 58 (5:01-5:02) S4 (Lori Greiner): S4 asks the founders who their number one competitor is. -> answer turn 59 (5:03-5:04) F1 (Chase Mitchell): F1 answers that their main competitor is ice.",
+          "primary": "1",
+          "replicate": null,
+          "reasons": [],
+          "blind_context": "question turn 58 (5:01-5:02) S4 (Lori Greiner): S4 asks the founders who their number one competitor is. -> answer turn 59 (5:03-5:04) F1 (Chase Mitchell): F1 answers that their main competitor is ice.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:59/code:RS-EVID",
+          "field_class": "turn_code",
+          "clock_start": "5:03",
+          "clock_end": "5:04",
+          "context": "question turn 58 (5:01-5:02) S4 (Lori Greiner): S4 asks the founders who their number one competitor is. -> answer turn 59 (5:03-5:04) F1 (Chase Mitchell): F1 answers that their main competitor is ice.",
+          "primary": "false",
+          "replicate": null,
+          "reasons": [],
+          "blind_context": "question turn 58 (5:01-5:02) S4 (Lori Greiner): S4 asks the founders who their number one competitor is. -> answer turn 59 (5:03-5:04) F1 (Chase Mitchell): F1 answers that their main competitor is ice.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:59/code:RS-RESP",
+          "field_class": "turn_code",
+          "clock_start": "5:03",
+          "clock_end": "5:04",
+          "context": "question turn 58 (5:01-5:02) S4 (Lori Greiner): S4 asks the founders who their number one competitor is. -> answer turn 59 (5:03-5:04) F1 (Chase Mitchell): F1 answers that their main competitor is ice.",
+          "primary": "addresses",
+          "replicate": null,
+          "reasons": [],
+          "blind_context": "question turn 58 (5:01-5:02) S4 (Lori Greiner): S4 asks the founders who their number one competitor is. -> answer turn 59 (5:03-5:04) F1 (Chase Mitchell): F1 answers that their main competitor is ice.",
+          "selected_as": "sampled",
+          "priority": 1
+        }
+      ]
+    }
+  }
+}

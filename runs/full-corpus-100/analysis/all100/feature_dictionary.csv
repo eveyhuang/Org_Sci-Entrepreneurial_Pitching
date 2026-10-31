@@ -1,0 +1,119 @@
+name,family,label,unit,kind,status,description
+video_id,,pitch,both,key,,Video id of the pitch; the unit all rows of a pitch share.
+source,,record source,both,key,,"reviewed when the features come from the human-reviewed record, primary when model-coded."
+cut_pos,,history cut,both,key,,Turn position at which this row's history stops; never a predictor.
+founder_gender,control,founder gender,both,control,primary,Venture control: founder gender (categorical).
+primary_industry,control,primary industry,both,control,primary,Venture control: primary industry (categorical).
+product_form,control,product form,both,control,primary,Venture control: product form (categorical).
+customer_type,control,customer type,both,control,primary,Venture control: customer type (categorical).
+ask_log_amount,control,ask amount (log10 USD),o1,exposure,primary,Base-10 logarithm of the amount in US dollars the founders asked for; missing when the ask is not recorded or is 0.
+ask_equity_pct,control,ask equity (%),o1,exposure,primary,Equity in percent the founders offered for the amount asked; missing when the ask is not recorded.
+ask_missing,control,ask not recorded,o1,indicator,primary,"1 when the record gives no ask (the venture's ask_missing is not 'none'), else 0."
+hist_turns,exposure,turns in the history,both,exposure,primary,Eligible turns before the cut.
+hist_seconds,exposure,seconds in the history,both,exposure,primary,Summed duration of the eligible turns before the cut.
+hist_questions,exposure,questions in the history,o1,exposure,primary,Question turns by investors before the cut (the questions family adds no second count of them).
+demo_seconds,exposure,demonstration seconds,both,exposure,descriptive,"Summed duration of the eligible `demonstrates` turns before the cut, whoever speaks them (read from the turn function, not the exchange kind)."
+prepared_seconds,exposure,prepared presentation seconds,both,exposure,descriptive,Length of the prepared presentation.
+sa_pitch_positivity,stage_a,Stage A pitch_positivity,both,concept,primary,Stage A rating of the prepared presentation on pitch_positivity (1-5); missing when uncodable.
+sa_pitch_positivity_missing,stage_a,Stage A pitch_positivity: not rated,both,indicator,exploratory,"1 when sa_pitch_positivity is missing, else 0."
+sa_expressed_enthusiasm,stage_a,Stage A expressed_enthusiasm,both,concept,exploratory,Stage A rating of the prepared presentation on expressed_enthusiasm (1-5); missing when uncodable.
+sa_expressed_enthusiasm_missing,stage_a,Stage A expressed_enthusiasm: not rated,both,indicator,exploratory,"1 when sa_expressed_enthusiasm is missing, else 0."
+sa_interpersonal_warmth,stage_a,Stage A interpersonal_warmth,both,concept,exploratory,Stage A rating of the prepared presentation on interpersonal_warmth (1-5); missing when uncodable.
+sa_interpersonal_warmth_missing,stage_a,Stage A interpersonal_warmth: not rated,both,indicator,exploratory,"1 when sa_interpersonal_warmth is missing, else 0."
+sa_rank_pitch_positivity,stage_a,Stage A rank score pitch_positivity,both,concept,primary,Plackett-Luce score of the pitch on pitch_positivity from the batch ranking; present only when the run has rank scores.
+sa_rank_expressed_enthusiasm,stage_a,Stage A rank score expressed_enthusiasm,both,concept,exploratory,Plackett-Luce score of the pitch on expressed_enthusiasm from the batch ranking; present only when the run has rank scores.
+sa_rank_interpersonal_warmth,stage_a,Stage A rank score interpersonal_warmth,both,concept,exploratory,Plackett-Luce score of the pitch on interpersonal_warmth from the batch ranking; present only when the run has rank scores.
+pres_subs,prepared,prepared presentation PRES-SUBS,o1,concept,primary,"The prepared presentation's PRES-SUBS rating, rated once per pitch; missing when not rated."
+pres_subs_missing,prepared,prepared presentation PRES-SUBS: not rated,o1,indicator,primary,"1 when pres_subs is missing, else 0."
+pres_coh,prepared,prepared presentation PRES-COH,o1,concept,primary,"The prepared presentation's PRES-COH rating, rated once per pitch; missing when not rated."
+pres_coh_missing,prepared,prepared presentation PRES-COH: not rated,o1,indicator,primary,"1 when pres_coh is missing, else 0."
+pres_ctx,prepared,prepared presentation PRES-CTX,o1,concept,primary,"The prepared presentation's PRES-CTX rating, rated once per pitch; missing when not rated."
+pres_ctx_missing,prepared,prepared presentation PRES-CTX: not rated,o1,indicator,primary,"1 when pres_ctx is missing, else 0."
+pres_evid,prepared,prepared presentation PRES-EVID,o1,concept,primary,"The prepared presentation's PRES-EVID rating, rated once per pitch; missing when not rated."
+pres_evid_missing,prepared,prepared presentation PRES-EVID: not rated,o1,indicator,primary,"1 when pres_evid is missing, else 0."
+q_askers,questions,questioners,o1,exposure,primary,Distinct investors who asked a question.
+q_sev_mean,questions,severity of questions,o1,concept,primary,Mean severity of investor questions.
+q_sev_mean_n,questions,severity of questions: observations,o1,exposure,descriptive,Number of rated observations behind q_sev_mean.
+q_sev_mean_missing,questions,severity of questions: none observed,o1,indicator,primary,"1 when q_sev_mean has no observation and is missing, else 0."
+q_hard_share,questions,hard questions (share),o1,concept,primary,Share of the investor questions with a severity rating that ask for substantiation or contest a claim (severity 2 or 3); a question without a severity rating is left out of the denominator.
+q_hard_share_n,questions,hard questions (share): observations,o1,exposure,descriptive,Number of rated observations behind q_hard_share.
+q_hard_share_missing,questions,hard questions (share): none observed,o1,indicator,primary,"1 when q_hard_share has no observation and is missing, else 0."
+q_frame_promotion_share,questions,promotion-framed questions (share),o1,concept,primary,"Share of investor questions whose concept is promotion-framed. The denominator is every investor question before the cut, whatever its concept or frame, so the four question shares need not sum to 1 (a question with no concept counts only in the denominator)."
+q_frame_promotion_share_n,questions,promotion-framed questions (share): observations,o1,exposure,descriptive,Number of rated observations behind q_frame_promotion_share.
+q_frame_promotion_share_missing,questions,promotion-framed questions (share): none observed,o1,indicator,primary,"1 when q_frame_promotion_share has no observation and is missing, else 0."
+q_frame_prevention_share,questions,prevention-framed questions (share),o1,concept,primary,"Share of investor questions whose concept is prevention-framed. The denominator is every investor question before the cut, whatever its concept or frame, so the four question shares need not sum to 1 (a question with no concept counts only in the denominator)."
+q_frame_prevention_share_n,questions,prevention-framed questions (share): observations,o1,exposure,descriptive,Number of rated observations behind q_frame_prevention_share.
+q_frame_prevention_share_missing,questions,prevention-framed questions (share): none observed,o1,indicator,primary,"1 when q_frame_prevention_share has no observation and is missing, else 0."
+q_deal_terms_share,questions,questions about the deal terms (share),o1,concept,primary,"Share of investor questions whose concept is deal_terms. The denominator is every investor question before the cut, whatever its concept or frame, so the four question shares need not sum to 1 (a question with no concept counts only in the denominator)."
+q_deal_terms_share_n,questions,questions about the deal terms (share): observations,o1,exposure,descriptive,Number of rated observations behind q_deal_terms_share.
+q_deal_terms_share_missing,questions,questions about the deal terms (share): none observed,o1,indicator,primary,"1 when q_deal_terms_share has no observation and is missing, else 0."
+q_other_share,questions,questions about a matter outside the sixteen concepts (other) (share),o1,concept,primary,"Share of investor questions whose concept is other. The denominator is every investor question before the cut, whatever its concept or frame, so the four question shares need not sum to 1 (a question with no concept counts only in the denominator)."
+q_other_share_n,questions,questions about a matter outside the sixteen concepts (other) (share): observations,o1,exposure,descriptive,Number of rated observations behind q_other_share.
+q_other_share_missing,questions,questions about a matter outside the sixteen concepts (other) (share): none observed,o1,indicator,primary,"1 when q_other_share has no observation and is missing, else 0."
+q_sev_trend,questions,severity trend of questions,o1,concept,primary,"Mean severity of the later half of the investor questions before the cut, in turn order, minus the mean of the earlier half (with an odd number the middle question is in neither half); questions without a severity rating are left out. 0.0 with fewer than two rated questions; `_n` counts the rated questions and `_missing` is 1 when there is none (the value is then 0.0, not missing)."
+q_sev_trend_n,questions,severity trend of questions: observations,o1,exposure,descriptive,Number of investor questions with a severity rating behind q_sev_trend.
+q_sev_trend_missing,questions,severity trend of questions: none observed,o1,indicator,primary,"1 when no investor question before the cut has a severity rating (q_sev_trend is then 0.0, not missing), else 0."
+q_pursuit_share,questions,same-asker pursuit (share),o1,concept,primary,"Share of consecutive pairs of investor questions before the cut, in turn order, in which the same investor asks both and the second has a strictly higher severity; pairs where either question has no severity rating are left out. Missing with no such pair (one question or none)."
+q_pursuit_share_n,questions,same-asker pursuit (share): observations,o1,exposure,descriptive,"Number of consecutive question pairs, both with a severity rating, behind q_pursuit_share."
+q_pursuit_share_missing,questions,same-asker pursuit (share): none observed,o1,indicator,primary,"1 when q_pursuit_share has no observation and is missing, else 0."
+q_frame_switch_share,questions,frame switches (share),o1,concept,primary,"Share of consecutive pairs of investor questions before the cut, in turn order, whose frames differ, among the pairs where both frames are promotion or prevention (a question about deal terms, about another matter or with no concept is never counted as a switch, and its pairs are left out). Missing with no such pair."
+q_frame_switch_share_n,questions,frame switches (share): observations,o1,exposure,descriptive,"Number of consecutive question pairs, both promotion or prevention, behind q_frame_switch_share."
+q_frame_switch_share_missing,questions,frame switches (share): none observed,o1,indicator,primary,"1 when q_frame_switch_share has no observation and is missing, else 0."
+q_concept_entropy,questions,"concept diversity (entropy, bits)",o1,concept,primary,"Shannon entropy, in bits, of the concepts of the investor questions before the cut, over the questions with a concept (deal_terms and other count as concepts; a question with no concept, NONE, is left out). 0.0 when every such question has the same concept; missing with none."
+q_concept_entropy_n,questions,"concept diversity (entropy, bits): observations",o1,exposure,descriptive,Number of investor questions with a concept behind q_concept_entropy.
+q_concept_entropy_missing,questions,"concept diversity (entropy, bits): none observed",o1,indicator,primary,"1 when q_concept_entropy has no observation and is missing, else 0."
+a_resp_mean,answers,answer directness (mean),o1,concept,primary,"Mean responsiveness of the answers (addresses 1, partial 0.5, deflects 0), before the cut."
+a_resp_mean_n,answers,answer directness (mean): observations,o1,exposure,descriptive,Number of rated observations behind a_resp_mean.
+a_resp_mean_missing,answers,answer directness (mean): none observed,o1,indicator,primary,"1 when a_resp_mean has no observation and is missing, else 0."
+a_evid_share,answers,answers with checkable support (share),o1,concept,primary,"Share of the answers that give evidence, before the cut."
+a_evid_share_n,answers,answers with checkable support (share): observations,o1,exposure,descriptive,Number of rated observations behind a_evid_share.
+a_evid_share_missing,answers,answers with checkable support (share): none observed,o1,indicator,primary,"1 when a_evid_share has no observation and is missing, else 0."
+a_uncert_share,answers,answers admitting uncertainty (share),o1,concept,primary,"Share of the answers that voice uncertainty, before the cut."
+a_uncert_share_n,answers,answers admitting uncertainty (share): observations,o1,exposure,descriptive,Number of rated observations behind a_uncert_share.
+a_uncert_share_missing,answers,answers admitting uncertainty (share): none observed,o1,indicator,primary,"1 when a_uncert_share has no observation and is missing, else 0."
+a_subs_mean,answers,answer substance (mean),o1,concept,primary,"Mean substance rating of the answers, before the cut."
+a_subs_mean_n,answers,answer substance (mean): observations,o1,exposure,descriptive,Number of rated observations behind a_subs_mean.
+a_subs_mean_missing,answers,answer substance (mean): none observed,o1,indicator,primary,"1 when a_subs_mean has no observation and is missing, else 0."
+a_coh_mean,answers,answer coherence (mean),o1,concept,primary,"Mean coherence rating of the answers, before the cut."
+a_coh_mean_n,answers,answer coherence (mean): observations,o1,exposure,descriptive,Number of rated observations behind a_coh_mean.
+a_coh_mean_missing,answers,answer coherence (mean): none observed,o1,indicator,primary,"1 when a_coh_mean has no observation and is missing, else 0."
+a_ctx_mean,answers,answer contextualisation (mean),o1,concept,primary,"Mean context rating of the answers, before the cut."
+a_ctx_mean_n,answers,answer contextualisation (mean): observations,o1,exposure,descriptive,Number of rated observations behind a_ctx_mean.
+a_ctx_mean_missing,answers,answer contextualisation (mean): none observed,o1,indicator,primary,"1 when a_ctx_mean has no observation and is missing, else 0."
+a_subs_hard_mean,answers,"answer substance (mean), hard questions",o1,concept,primary,"Mean substance rating of the answers to investor hard questions (severity 2 or 3), before the cut."
+a_subs_hard_mean_n,answers,"answer substance (mean), hard questions: observations",o1,exposure,descriptive,Number of rated observations behind a_subs_hard_mean.
+a_subs_hard_mean_missing,answers,"answer substance (mean), hard questions: none observed",o1,indicator,primary,"1 when a_subs_hard_mean has no observation and is missing, else 0."
+a_evid_hard_share,answers,"answers with checkable support (share), hard questions",o1,concept,primary,"Share of the answers to investor hard questions (severity 2 or 3) that give evidence, before the cut."
+a_evid_hard_share_n,answers,"answers with checkable support (share), hard questions: observations",o1,exposure,descriptive,Number of rated observations behind a_evid_hard_share.
+a_evid_hard_share_missing,answers,"answers with checkable support (share), hard questions: none observed",o1,indicator,primary,"1 when a_evid_hard_share has no observation and is missing, else 0."
+a_frame_match_share,answers,frame match of answers,o1,concept,descriptive,"Share of answers whose frame matches the question's, among answers where both frames are promotion or prevention."
+a_frame_match_share_n,answers,frame match of answers: observations,o1,exposure,descriptive,Number of rated observations behind a_frame_match_share.
+a_frame_match_share_missing,answers,frame match of answers: none observed,o1,indicator,descriptive,"1 when a_frame_match_share has no observation and is missing, else 0."
+rx_answers,reactions,answers (reaction windows),o1,exposure,descriptive,"Answers to an investor question, answer and question before the cut, whoever asked."
+rx_reaction_rate,reactions,reactions per answer,o1,concept,primary,"Mean number of reactions per answer by any investor, in the answer's window and before the cut."
+rx_reaction_rate_n,reactions,reactions per answer: observations,o1,exposure,descriptive,Number of rated observations behind rx_reaction_rate.
+rx_reaction_rate_missing,reactions,reactions per answer: none observed,o1,indicator,primary,"1 when rx_reaction_rate has no observation and is missing, else 0."
+rx_receipt_share,reactions,answers drawing receipt (accepts) (share),o1,concept,primary,"Share of the answers with at least one reaction that is receipt (accepts), by any investor, in the answer's window and before the cut. Each kind is its own column."
+rx_receipt_share_n,reactions,answers drawing receipt (accepts) (share): observations,o1,exposure,descriptive,Number of rated observations behind rx_receipt_share.
+rx_receipt_share_missing,reactions,answers drawing receipt (accepts) (share): none observed,o1,indicator,primary,"1 when rx_receipt_share has no observation and is missing, else 0."
+rx_followup_share,reactions,answers drawing another question (share),o1,concept,primary,"Share of the answers with at least one reaction that is another question, by any investor, in the answer's window and before the cut. Each kind is its own column."
+rx_followup_share_n,reactions,answers drawing another question (share): observations,o1,exposure,descriptive,Number of rated observations behind rx_followup_share.
+rx_followup_share_missing,reactions,answers drawing another question (share): none observed,o1,indicator,primary,"1 when rx_followup_share has no observation and is missing, else 0."
+rx_challenge_share,reactions,answers drawing challenge (share),o1,concept,primary,"Share of the answers with at least one reaction that is challenge, by any investor, in the answer's window and before the cut. Each kind is its own column."
+rx_challenge_share_n,reactions,answers drawing challenge (share): observations,o1,exposure,descriptive,Number of rated observations behind rx_challenge_share.
+rx_challenge_share_missing,reactions,answers drawing challenge (share): none observed,o1,indicator,primary,"1 when rx_challenge_share has no observation and is missing, else 0."
+nm_receipt_share,reactions,answers the questioner then accepts (share),o1,concept,primary,"Share of answers to any question after which, as the next investor turn in turn order and before the cut, the questioner accepts."
+nm_receipt_share_n,reactions,answers the questioner then accepts (share): observations,o1,exposure,descriptive,Number of rated observations behind nm_receipt_share.
+nm_receipt_share_missing,reactions,answers the questioner then accepts (share): none observed,o1,indicator,primary,"1 when nm_receipt_share has no observation and is missing, else 0."
+nm_followup_share,reactions,answers the questioner follows with another question (share),o1,concept,primary,"Share of answers to any question after which, as the next investor turn in turn order and before the cut, the questioner asks again."
+nm_followup_share_n,reactions,answers the questioner follows with another question (share): observations,o1,exposure,descriptive,Number of rated observations behind nm_followup_share.
+nm_followup_share_missing,reactions,answers the questioner follows with another question (share): none observed,o1,indicator,primary,"1 when nm_followup_share has no observation and is missing, else 0."
+nm_challenge_share,reactions,answers the questioner then challenges (share),o1,concept,primary,"Share of answers to any question after which, as the next investor turn in turn order and before the cut, the questioner challenges."
+nm_challenge_share_n,reactions,answers the questioner then challenges (share): observations,o1,exposure,descriptive,Number of rated observations behind nm_challenge_share.
+nm_challenge_share_missing,reactions,answers the questioner then challenges (share): none observed,o1,indicator,primary,"1 when nm_challenge_share has no observation and is missing, else 0."
+accepts_turns,reactions,accepts turns,o1,concept,primary,Accepts turns by investors.
+challenge_turns,reactions,challenges,o1,concept,primary,Challenge turns by investors.
+social_turns,rapport_repair,investor social turns,o1,concept,primary,Social turns by investors.
+founder_social,rapport_repair,founder social turns,o1,concept,primary,Founder social turns.
+hostile_at_founder,rapport_repair,hostile turns,both,concept,primary,Hostile turns by any investor.
+founder_repairs,rapport_repair,founder repairs,both,concept,primary,Founder repair turns.

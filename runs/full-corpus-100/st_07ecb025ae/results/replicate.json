@@ -1,0 +1,2252 @@
+{
+  "pass": "replicate",
+  "unit_key": "panel__st_07ecb025ae__replicate",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:16-1:19"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "qa",
+      "3": "qa",
+      "4": "qa",
+      "5": "qa",
+      "6": "qa",
+      "7": "qa",
+      "8": "none",
+      "9": "qa",
+      "10": "qa",
+      "11": "demonstration",
+      "12": "demonstration",
+      "13": "qa",
+      "14": "qa",
+      "15": "demonstration",
+      "16": "qa",
+      "17": "qa",
+      "18": "qa",
+      "19": "qa",
+      "20": "qa",
+      "21": "qa",
+      "22": "qa",
+      "23": "qa",
+      "24": "qa",
+      "25": "qa",
+      "26": "qa",
+      "27": "qa",
+      "28": "qa",
+      "29": "qa",
+      "30": "qa",
+      "31": "qa",
+      "32": "qa",
+      "33": "qa",
+      "34": "qa",
+      "35": "qa",
+      "36": "qa",
+      "37": "qa",
+      "38": "none",
+      "39": "qa",
+      "40": "qa",
+      "41": "none",
+      "42": "none",
+      "43": "qa",
+      "44": "qa",
+      "45": "qa",
+      "46": "qa",
+      "47": "qa",
+      "48": "qa",
+      "49": "qa",
+      "50": "qa",
+      "51": "qa",
+      "52": "none",
+      "53": "none",
+      "54": "none",
+      "55": "none",
+      "56": "none",
+      "57": "social",
+      "58": "social",
+      "59": "social",
+      "60": "social",
+      "61": "social",
+      "62": "social"
+    },
+    "segment_seconds": {
+      "presentation": 63.0,
+      "qa": 250.0,
+      "social": 19.0,
+      "demonstration": 12.0,
+      "negotiation": 0.0,
+      "none": 105.0
+    },
+    "exchange_counts": {
+      "substantive": 10,
+      "social": 1,
+      "demonstration": 1,
+      "negotiation": 0
+    },
+    "turn_frame": {
+      "2": "promotion",
+      "3": "promotion",
+      "4": "unclassified",
+      "5": "unclassified",
+      "6": "promotion",
+      "7": "promotion",
+      "9": "promotion",
+      "10": "promotion",
+      "13": "promotion",
+      "14": "promotion",
+      "16": "promotion",
+      "17": "promotion",
+      "18": "promotion",
+      "19": "promotion",
+      "20": "promotion",
+      "21": "promotion",
+      "22": "promotion",
+      "23": "promotion",
+      "25": "promotion",
+      "27": "promotion",
+      "29": "prevention",
+      "30": "prevention",
+      "31": "prevention",
+      "32": "prevention",
+      "33": "prevention",
+      "34": "promotion",
+      "35": "promotion",
+      "36": "promotion",
+      "37": "promotion",
+      "39": "unclassified",
+      "40": "unclassified",
+      "45": "promotion",
+      "48": "unclassified",
+      "50": "unclassified"
+    },
+    "frame_match": {
+      "3": "match",
+      "5": "unclassified",
+      "7": "match",
+      "10": "match",
+      "14": "match",
+      "17": "match",
+      "19": "match",
+      "21": "match",
+      "23": "match",
+      "27": "match",
+      "31": "match",
+      "33": "match",
+      "35": "match",
+      "37": "match",
+      "40": "unclassified"
+    },
+    "other_concepts": [
+      {
+        "where": "turn",
+        "id": 4,
+        "code": "PR-CONCEPT",
+        "name": "influencer followers",
+        "clock": "1:31"
+      },
+      {
+        "where": "turn",
+        "id": 5,
+        "code": "RS-CONCEPT",
+        "name": "influencer followers",
+        "clock": "1:36"
+      }
+    ]
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "H1",
+        "role": "host",
+        "label": "Narrator"
+      },
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Tank Sinatra"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Daymond John"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Mark Cuban"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Lori Greiner"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Barbara Corcoran"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 16.0,
+        "end_s": 79.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 16.0,
+        "kind": "teaser"
+      },
+      {
+        "start_s": 509.0,
+        "end_s": 553.0,
+        "kind": "recap"
+      }
+    ],
+    "gaps": [
+      {
+        "at_s": 90.0,
+        "note": "Edit after the model leaves the stage."
+      },
+      {
+        "at_s": 166.0,
+        "note": "Edit before Barbara asks about the founder's background."
+      },
+      {
+        "at_s": 439.0,
+        "note": "Edit before Daymond begins his exit."
+      }
+    ],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 53.0,
+        "note": "The founder delivers the pitch with strong, confident energy and clear positive engagement."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 62.0,
+        "note": "Sustained excitement about internet culture and the game's mechanics is evident throughout."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 3,
+        "uncodable": false,
+        "moment_s": 30.0,
+        "note": "Friendly and approachable demeanor, though primarily focused on delivering the pitch material."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "0",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "A board game parodying internet influencer culture where players compete to gain the most followers.",
+      "primary_industry": "sports_leisure",
+      "secondary_industries": [],
+      "product_form": "physical_good",
+      "customer_type": "consumer",
+      "founder_gender": "all_men",
+      "product_category": "board game",
+      "earliest_s": 50.0,
+      "note": "The founder is seeking $500,000 for a 10% equity stake.",
+      "ask_amount_usd": 500000,
+      "ask_equity_pct": 10.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 16.0,
+        "end_s": 79.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 delivers the prepared presentation, introducing the board game, its rules, and the initial investment ask."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "S3",
+        "start_s": 79.0,
+        "end_s": 80.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S3 asks if F1 is going to demonstrate how the game works."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "F1",
+        "start_s": 80.0,
+        "end_s": 90.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          2
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 agrees to show how to play and playfully dismisses the model from the stage."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "S4",
+        "start_s": 91.0,
+        "end_s": 95.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "other",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": "influencer followers",
+        "summary": "S4 asks how many followers the model has on social media."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "F1",
+        "start_s": 96.0,
+        "end_s": 99.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          4
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "other",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": "influencer followers",
+        "summary": "F1 deflects the question about the model and explains his own large following on social media."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "S3",
+        "start_s": 100.0,
+        "end_s": 102.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S3 asks F1 to explain his own social media presence since she does not follow him."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "F1",
+        "start_s": 102.0,
+        "end_s": 113.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          6
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 describes his social media accounts and the type of good news content he posts online."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "F1",
+        "start_s": 113.0,
+        "end_s": 118.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 expresses his appreciation for the show and the investors, noting he has been a long-time viewer."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "S4",
+        "start_s": 119.0,
+        "end_s": 122.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S4 asks to return to the business at hand and explain the game mechanics."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "F1",
+        "start_s": 123.0,
+        "end_s": 146.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          9
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 explains the board layout, the playing pieces, and how players move around and interact with spaces."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "S5",
+        "start_s": 147.0,
+        "end_s": 149.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S5 reads a game card she drew from the box."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "S4",
+        "start_s": 149.0,
+        "end_s": 156.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S4 reads a game card he drew, detailing a scenario."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "S4",
+        "start_s": 157.0,
+        "end_s": 162.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S4 asks to confirm that the player with the most followers at the end of the game wins."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "F1",
+        "start_s": 162.0,
+        "end_s": 163.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          13
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 confirms that having the most followers is how the game is won."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "S3",
+        "start_s": 163.0,
+        "end_s": 166.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S3 reads a game card she drew from the deck."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "S5",
+        "start_s": 167.0,
+        "end_s": 168.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S5 asks F1 how he got involved in creating the board game."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "F1",
+        "start_s": 169.0,
+        "end_s": 186.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          16
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 explains his background in comedy and sales, and his desire to create a physical product outside of algorithms."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "S2",
+        "start_s": 187.0,
+        "end_s": 190.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S2 asks to hear about the business side of the venture."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "F1",
+        "start_s": 191.0,
+        "end_s": 197.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          18
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 mentions they signed an exclusive deal with a major big box retailer."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "S1",
+        "start_s": 197.0,
+        "end_s": 202.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "customer_acquisition",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S1 asks how retail customers will know what the game is and be motivated to buy it."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "F1",
+        "start_s": 203.0,
+        "end_s": 241.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          20
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "customer_acquisition",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "4",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 discusses their strategy, comparing it to another popular game and explaining their target demographic shift."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "S4",
+        "start_s": 242.0,
+        "end_s": 243.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S4 asks for the total number of units sold."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "F1",
+        "start_s": 243.0,
+        "end_s": 244.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          22
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 states they have sold fifteen hundred units so far."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "S4",
+        "start_s": 245.0,
+        "end_s": 246.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          23
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S4 states that the sales numbers are very poor."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "S1",
+        "start_s": 246.0,
+        "end_s": 248.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S1 asks how many retail locations the game is currently in."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "S2",
+        "start_s": 248.0,
+        "end_s": 248.0,
+        "function": "NONE",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S2 asks to confirm the number of retail locations."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "F1",
+        "start_s": 248.0,
+        "end_s": 250.0,
+        "function": "answer",
+        "addressed": [
+          "S1",
+          "S2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          25
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 confirms the number of retail locations."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "S4",
+        "start_s": 250.0,
+        "end_s": 261.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          27
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S4 argues the sales are too low for the number of locations and they will be delisted."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "F1",
+        "start_s": 261.0,
+        "end_s": 263.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          28
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "deflects",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 defends the business, stating it has only been two months and the margins are good."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "S4",
+        "start_s": 264.0,
+        "end_s": 265.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S4 asks for the specific financial numbers and costs."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "F1",
+        "start_s": 265.0,
+        "end_s": 269.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          30
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 provides the manufacturing cost per unit."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "S4",
+        "start_s": 270.0,
+        "end_s": 271.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S4 asks for the wholesale price."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "F1",
+        "start_s": 271.0,
+        "end_s": 280.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          32
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 provides the retail, wholesale, and broker pricing details."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "S1",
+        "start_s": 280.0,
+        "end_s": 283.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S1 asks for the direct to consumer sales figures."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "F1",
+        "start_s": 284.0,
+        "end_s": 286.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          34
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 states they have not made any direct to consumer sales."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "S4",
+        "start_s": 287.0,
+        "end_s": 289.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S4 asks for the total dollar amount of product sold."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "F1",
+        "start_s": 290.0,
+        "end_s": 294.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          36
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 provides the total dollar amount sold by the broker."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "F1",
+        "start_s": 294.0,
+        "end_s": 300.0,
+        "function": "NONE",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 expresses confidence that the games will eventually sell."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "S1",
+        "start_s": 301.0,
+        "end_s": 307.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S1 asks if there is any other information to justify the high valuation."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "F1",
+        "start_s": 308.0,
+        "end_s": 314.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          39
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 admits that the valuation number was made up and is not based on current financials."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "S2",
+        "start_s": 315.0,
+        "end_s": 326.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S2 exits, stating the valuation is insane given the current sales numbers."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "S4",
+        "start_s": 327.0,
+        "end_s": 351.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S4 exits, citing the difficulty of the toy industry and the excessive valuation."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "F1",
+        "start_s": 352.0,
+        "end_s": 354.0,
+        "function": "NONE",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 asks the remaining investors why they do not believe the company is worth the valuation."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "S3",
+        "start_s": 355.0,
+        "end_s": 356.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S3 states it is because the company is not currently making money."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "F1",
+        "start_s": 357.0,
+        "end_s": 358.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          44
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "partial",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 concedes that they are not making money yet."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "S5",
+        "start_s": 358.0,
+        "end_s": 364.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          45
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S5 points out that F1 is asking them to invest based only on future potential."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "S3",
+        "start_s": 365.0,
+        "end_s": 373.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S3 notes the uncertainty of sales and says a smaller ask might have worked."
+      },
+      {
+        "turn_id": 48,
+        "speaker": "F1",
+        "start_s": 374.0,
+        "end_s": 379.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          47
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 explains he needed a larger amount to fulfill potential purchase orders from major retailers."
+      },
+      {
+        "turn_id": 49,
+        "speaker": "S2",
+        "start_s": 380.0,
+        "end_s": 401.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          48
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S2 explains the financial returns required to justify a five hundred thousand dollar investment."
+      },
+      {
+        "turn_id": 50,
+        "speaker": "F1",
+        "start_s": 402.0,
+        "end_s": 406.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          49
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "partial",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 acknowledges the reality of their money and their desire to get it back."
+      },
+      {
+        "turn_id": 51,
+        "speaker": "S4",
+        "start_s": 407.0,
+        "end_s": 418.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          50
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S4 clarifies that investors expect a ten times return, reiterating the valuation was too high."
+      },
+      {
+        "turn_id": 52,
+        "speaker": "S3",
+        "start_s": 419.0,
+        "end_s": 439.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S3 exits, stating she likes social media but the investment is too risky."
+      },
+      {
+        "turn_id": 53,
+        "speaker": "S1",
+        "start_s": 440.0,
+        "end_s": 460.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S1 exits, noting the valuation is too rich compared to what game developers would charge."
+      },
+      {
+        "turn_id": 54,
+        "speaker": "F1",
+        "start_s": 461.0,
+        "end_s": 462.0,
+        "function": "social",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 thanks the investor for their time."
+      },
+      {
+        "turn_id": 55,
+        "speaker": "S5",
+        "start_s": 463.0,
+        "end_s": 480.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S5 exits, praising F1's quick wit but stating the financial risk is too high."
+      },
+      {
+        "turn_id": 56,
+        "speaker": "F1",
+        "start_s": 481.0,
+        "end_s": 482.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 thanks the panel."
+      },
+      {
+        "turn_id": 57,
+        "speaker": "S3",
+        "start_s": 483.0,
+        "end_s": 488.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S3 suggests F1 use his social media handle on the game box."
+      },
+      {
+        "turn_id": 58,
+        "speaker": "F1",
+        "start_s": 489.0,
+        "end_s": 494.0,
+        "function": "social",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 12,
+        "responds_to": [
+          57
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 jokes about making a deal based on that advice."
+      },
+      {
+        "turn_id": 59,
+        "speaker": "S2",
+        "start_s": 495.0,
+        "end_s": 500.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S2 agrees the advice is good."
+      },
+      {
+        "turn_id": 60,
+        "speaker": "F1",
+        "start_s": 501.0,
+        "end_s": 503.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 jokingly asks if they have a deal."
+      },
+      {
+        "turn_id": 61,
+        "speaker": "S3",
+        "start_s": 504.0,
+        "end_s": 505.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [
+          60
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S3 laughs and says he has a better chance with that strategy."
+      },
+      {
+        "turn_id": 62,
+        "speaker": "S2",
+        "start_s": 505.0,
+        "end_s": 506.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S2 wishes F1 good luck."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "substantive",
+        "topic": "usage",
+        "label": "how to play the game"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "substantive",
+        "topic": "self_promotion",
+        "label": "founder social media following"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "usage",
+        "label": "game mechanics and winning"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "demonstration",
+        "topic": "NONE",
+        "label": "reading game cards"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "self_promotion",
+        "label": "founder background and inspiration"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "retail partnership"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "substantive",
+        "topic": "customer_acquisition",
+        "label": "retail customer awareness"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "units sold and retail doors"
+      },
+      {
+        "exchange_id": 9,
+        "kind": "substantive",
+        "topic": "operating_efficiency",
+        "label": "product costs and margins"
+      },
+      {
+        "exchange_id": 10,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "direct to consumer and revenue"
+      },
+      {
+        "exchange_id": 11,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "valuation justification"
+      },
+      {
+        "exchange_id": 12,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "parting advice and jokes"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S2",
+        "kind": "exit",
+        "time_s": 315.0,
+        "turn_id": 41,
+        "offer_id": null,
+        "terms": "out",
+        "note": "Numbers are insane, valuation is too high based on sales."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S4",
+        "kind": "exit",
+        "time_s": 327.0,
+        "turn_id": 42,
+        "offer_id": null,
+        "terms": "out",
+        "note": "Toy industry is too hard, asked for too much money."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S3",
+        "kind": "exit",
+        "time_s": 419.0,
+        "turn_id": 52,
+        "offer_id": null,
+        "terms": "out",
+        "note": "No idea if people will enjoy the game, too much money to risk."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S1",
+        "kind": "exit",
+        "time_s": 440.0,
+        "turn_id": 53,
+        "offer_id": null,
+        "terms": "out",
+        "note": "Valuation is too rich, game developers could acquire a majority for that amount."
+      },
+      {
+        "decision_id": 5,
+        "actor": "S5",
+        "kind": "exit",
+        "time_s": 463.0,
+        "turn_id": 55,
+        "offer_id": null,
+        "terms": "out",
+        "note": "Asking too much money to risk on a chance."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": "The model Chloe appears early on to pose but does not speak."
+  }
+}

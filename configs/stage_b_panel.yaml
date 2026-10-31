@@ -1,0 +1,17 @@
+# Stage B v3 — panel pipeline: two identical full-video passes per video (primary, replicate).
+# Design: docs/plans/design docs/2026-10-05-panel-interaction-redesign.md §8.
+run_name: full-corpus-100
+model:
+  name: gemini-3.1-pro-preview      # pinned; recorded verbatim in each experiment.json
+  temperature: 0.7                  # sampling on, so the two passes are exchangeable replicates
+  max_output_tokens: 65536
+limits:
+  requests_per_minute: 4
+  max_concurrency: 2
+  max_attempts: 4                   # transport retries (429/5xx) per call
+  backoff_base_s: 5.0
+  backoff_cap_s: 120.0
+invalid_output_retries: 1           # one more attempt after an unparseable or truncated response
+alignment:
+  event_tolerance_s: 10.0
+  decision_tolerance_s: 30.0

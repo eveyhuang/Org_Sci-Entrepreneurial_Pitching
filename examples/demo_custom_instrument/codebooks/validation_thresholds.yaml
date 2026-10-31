@@ -1,0 +1,34 @@
+# Acceptance thresholds for human validation, per field class or code id. `review_panel.py summary --paper-table`
+# reads this file each time it writes the table and refuses keys or values it cannot apply.
+# `statistic`: alpha | within_one | share | agreement. `feeds_feature`: whether the field builds an analysed feature.
+# Extras: `within_one` and `share` add a floor on that figure; `within_seconds` (with `share`) says the share counts
+# clocks within that many seconds of each other; `gap` caps how far the human–model figure may fall below the
+# human–human one (for `agreement`, and for `alpha` in place of the convention's max_gap_below_human_human).
+# `agreement` is the pair judgements' statistic: coder–model agreement on which clip ranks higher.
+convention:
+  feeds_feature: 0.80
+  descriptive: 0.67
+  max_gap_below_human_human: 0.15
+fields:
+  # no `exchange_topic` rule: since 2026-10-21 the full-video sheet draws no exchange-topic cards by default (no reported
+  # analysis reads the model's exchange grouping). A sheet exported with `--exchanges-per-video N` still imports, and
+  # the paper table then shows an exchange_topic row with no threshold, so no verdict.
+  PR-CONCEPT: {statistic: alpha, threshold: 0.67, feeds_feature: false, on_failure: "report the derived frame only"}
+  PR-SEV: {statistic: alpha, threshold: 0.67, feeds_feature: true, on_failure: "collapse to two levels and re-test"}
+  RS-RESP: {statistic: alpha, threshold: 0.67, feeds_feature: false, on_failure: "report descriptively"}
+  PREP-SUBS: {statistic: alpha, threshold: 0.80, feeds_feature: true, on_failure: "drop substance features"}
+  RS-EVID: {statistic: alpha, threshold: 0.80, feeds_feature: true, on_failure: "drop checkable-support features"}
+  # answer coherence: a sixth question-answer code since 2026-10-21 (the strongest single feature on v3-dev9)
+  PREP-COH: {statistic: alpha, threshold: 0.80, feeds_feature: true, within_one: 0.90, on_failure: "drop answer-coherence features"}
+  stage_a: {statistic: alpha, threshold: 0.67, feeds_feature: true, on_failure: "report the item and its rank score as unvalidated", within_one: 0.90}
+  # prep_pres: PRES-CTX has no human row since 2026-10-21 (coders cannot judge "wider context"; the model's code stays
+  # in C2′). PRES-EVID is judged on bands (0, 1-2, 3-5, 6+): the coder chooses a band, the model's count is banded the
+  # same way, alpha is ordinal over the four bands and within_one is one band; C2′ keeps the model's count.
+  prep_pres: {statistic: alpha, threshold: 0.80, feeds_feature: true, within_one: 0.90, on_failure: "drop presentation-preparedness features"}
+  # outcome: no card on the full-video sheet since 2026-10-21 (the two passes agree on any_offer for 100 of 100 pitches,
+  # and the outcome is a public fact of the show); the rule stays for a sheet that carries pitch:any_offer rows (an old
+  # sheet, or one exported with --field-classes outcome), and the paper table shows a row only when such rows exist.
+  outcome: {statistic: alpha, threshold: 0.90, feeds_feature: true, on_failure: "run the outcome census before any further analysis", share: 0.98}
+  cut: {statistic: share, threshold: 0.90, within_seconds: 5, feeds_feature: true, on_failure: "re-derive the cut from the reviewed decisions"}
+  venture:ask: {statistic: share, threshold: 0.98, feeds_feature: true, on_failure: "treat the ask as unvalidated"}
+  pair: {statistic: agreement, threshold: 0.75, gap: 0.15, feeds_feature: true, on_failure: "report the dimension's rank score as unvalidated and drop it from C2"}

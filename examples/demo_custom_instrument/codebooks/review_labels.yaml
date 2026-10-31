@@ -1,0 +1,115 @@
+# Optional wording for the human coding page (scripts/review_panel.py page). Keys are code ids, field classes
+# or `outcome`; placeholders {who}, {turn}, {unit}. Anything missing falls back to the codebook entry's name.
+# The sections are questions, structural, sections, glosses, hints, missing_reasons and anchors; any other key is
+# refused.
+# `missing_reasons` (not used here) words the "cannot be rated" answers of a turn code's card, by reason id, e.g.
+# `too_short: "the turn is too short to rate"`; without it a reason reads as its id with blanks for underscores.
+# `anchors` words a code for the coders, by code id: `gloss` is a line under the card's question and `values` gives,
+# per value, what it means (text) or a mapping of `label` (what its pill reads; the sheet still takes the value) and
+# `text`. On the card it replaces the codebook's scale text; the codebook view keeps the codebook's (the model's)
+# wording. A code the books lack or a value the code does not take is refused. Added 2026-10-21 from the
+# researcher's pilot coding of one pitch; Gemini's codebook and prompt are unchanged.
+questions:
+  outcome: "Did any investor make or join an offer at any point?"
+  PR-CONCEPT: "What is the question in turn {turn} mainly about?"
+  PR-SEV: "How hard does the question in turn {turn} push on what the founder has said?"
+  RS-RESP: "Does the answer in turn {turn} supply what was asked?"
+  PREP-SUBS: "How much does the answer in turn {turn} explain about how the business works?"
+  # answer coherence, a sixth question-answer code since 2026-10-21
+  PREP-COH: "Does the answer in turn {turn} hang together?"
+  exchange_topic: "What is this line of questioning mainly about?"
+  RS-EVID: "Does the answer in turn {turn} give at least one checkable specific?"
+  PRES-SUBS: "How much does the presentation explain about how the business works?"
+  PRES-COH: "Does the presentation’s story hang together?"
+  # PRES-CTX is not on a coder's cards since 2026-10-21 (coders cannot judge "wider context"); kept for the model's code
+  PRES-CTX: "How well does the prepared presentation relate the venture to its wider context?"
+  PRES-EVID: "Roughly how many claims in the prepared presentation are backed by a checkable specific (a figure with its unit, a named customer or partner, a dated event, a described test)?"
+  cut: "When does the first shark say they are out or make an offer?"
+  venture:ask: "What did the founders ask for, and for what share? (dollars;per cent)"
+  pair: "Which presentation shows more {dimension}?"
+  # a comparison task asks each Stage A item in its own words (plan C Task 7e, 2026-10-21); `pair:<item>` is read
+  # before `pair`, and only on a pair's row
+  "pair:pitch_positivity": "Which pitch comes across as more positive?"
+  "pair:expressed_enthusiasm": "Which pitch comes across as more enthusiastic?"
+  "pair:interpersonal_warmth": "Which pitch comes across as warmer?"
+  prepared_window: "Does the button below cover the prepared presentation, from its first words to where the questioning begins?"
+structural:
+  turn: "the video at these times is not what this question assumes (wrong speaker, not a question or answer, or cut mid-way)"
+  exchange: "these turns are not one line of questioning (several unrelated questions, or one remark with no back-and-forth)"
+  pitch: "the prepared presentation is not where the page says it is"
+  actor: "the list of people is wrong (this is not a separate investor, or an investor is missing)"
+sections:
+  pitch: "Prepared presentation"
+  conversation: "Lines of questioning"
+  outcomes: "Outcomes"
+  # the heading of the outcomes section when it holds only the first-decision card (no outcome card since 2026-10-21)
+  first_decision: "The first decision"
+  # the task page (one page per coder, 2026-10-21): a video task's two sections, and a comparison task's block
+  prepared: "The prepared presentation"
+  qa: "The questions and answers"
+  compare: "Compare the two prepared presentations"
+glosses:
+  outcome:
+    "yes": "made an offer or joined one at any point"
+    "no": "no offer in the footage, including an investor who is never seen deciding"
+    unknown: "the footage is cut before the panel decides"
+  # what a pair's left/right means on hover, under "Which pitch comes across as more …?" (2026-10-21)
+  pair:
+    left: "the pitch on the left"
+    right: "the pitch on the right"
+hints:
+  pitch_intro: "Watch the entire supplied clip with sound before assigning ratings. Human coders and Gemini receive the same clip and substantive instructions, without investment outcomes or the other coders' ratings. The clip is the prepared presentation, not investor Q&A."
+  pitch_card: "The prepared pitch only; hover a number to read what it means."
+  outcome_card: "Watch to the end; decisions come after the questions."
+  prep_pres_card: "The content of the prepared pitch only; what the investors later ask is not evidence."
+  # the first-decision card's line under its question (2026-10-21)
+  cut_card: "The first time any shark states a decision — ‘I’m out’, or an offer — even if others keep asking questions afterwards. Press ‘mark now’ at its first words."
+  pairs_intro: "You have rated all ten prepared presentations. For each pair, play each video's prepared presentation from its ▶ button (between the times shown; the player pauses where it ends): which presentation shows more? Choose even when close, and tick ‘close’."
+  # shown only on a full-video sheet whose pitch section rates nothing (an old sheet's window card, or venture rows
+  # asked for); the window card is no longer drawn by default (2026-10-21), so the hint says "if"
+  clip_session_intro: "Delivery and the content of the prepared presentation are coded on the presentation cards of your task page, which play this same full video at its prepared window; not on this sheet. If this sheet asks where the prepared presentation is, tick the box on that card when the ▶ button does not cover it."
+  # the coders' version of the protocol's first paragraph (pitch_intro stays the model's verbatim): above each video of
+  # the clip session, which plays the full video at its prepared window (since 2026-10-21)
+  protocol_for_coders: "Play the prepared presentation with sound, from the ▶ button to the end of the times shown on it, before assigning ratings; this page plays the full video, and the player pauses once where the prepared presentation ends. Rate only the prepared presentation, between the times shown, not the investors' questions that follow or anything after it. Human coders and Gemini rate the prepared presentation with the same substantive instructions, without investment outcomes or the other coders' ratings."
+  # above a comparison task of the task page (2026-10-21)
+  compare_intro: "Play each video's prepared presentation from its ▶ button (between the times shown; the player pauses where it ends), then answer each row: left or right. Choose even when close, and tick ‘close’. Tick “can't judge” only when the two cannot be compared at all, and say why in the note."
+# the coders' wording of these codes (2026-10-21, from the researcher's pilot coding of one pitch); the card shows it in
+# place of the codebook's scale text, and the codebook view on the page still shows Gemini's definitions
+anchors:
+  RS-EVID:
+    gloss: "A checkable specific is a detail someone could look up or verify: a number with its unit ($35, 1,500 shirts, 18 months), a named customer or partner (the US Naval Academy), a dated event, or a described test. Not checkable: ‘lots of people love it’, ‘we’ll be huge’, ‘the best on the market’, or a target or projection (‘you should be making $500,000’)."
+    values:
+      "true": {label: "yes"}
+      "false": {label: "no"}
+  PR-SEV:
+    gloss: "‘What the founder has said’ is anything said before this question — in the pitch or in an earlier answer — that the question is about. Judge what the question does, not its tone."
+    values:
+      1: "Asks for information or clarification; does not doubt anything said."
+      2: "Asks the founder to back up something they said — a number, a customer, proof — without saying it is wrong."
+      3: "Pushes back: says something they said is wrong, points out a contradiction, or is built so that agreeing means conceding."
+  PREP-SUBS: &substance
+    gloss: "Judge what they say, not how they say it. Specifics are a mechanism (how it works), a number with its unit, or a concrete example."
+    values:
+      1: "Slogan only: nothing about how it works."
+      2: "General: claims with no how or why (‘people love it’)."
+      3: "One concrete piece: one mechanism, number or example, not developed."
+      4: "Several connected specifics: how it works and why it will sell, linked together."
+      5: "In-depth: states its assumptions and what would change them (rare)."
+  PRES-SUBS: *substance
+  # answer coherence (2026-10-21, plan C Task 7e)
+  PREP-COH:
+    gloss: "Do its points follow from one another, with no step missing and nothing that contradicts itself? Do not count nerves, accents or stumbles."
+    values:
+      1: "Doesn't connect: points jump around or contradict each other."
+      2: "Missing steps: a conclusion with the reasons missing."
+      3: "Mostly clear: one step skipped or unsupported."
+      4: "Clear throughout: each point follows."
+      5: "Clear and answers the obvious doubt before it is raised."
+  PRES-COH:
+    gloss: "A coherent pitch goes from a problem to the product to why it will sell, with no missing step and nothing that contradicts itself. Do not count nerves, accents or stumbles."
+    values:
+      1: "Doesn’t connect: points jump around, or one part contradicts another."
+      2: "Missing steps: a conclusion with the reasons missing."
+      3: "Mostly clear: one step skipped or unsupported."
+      4: "Clear throughout: problem → product → why it sells; most pitches on the show are here."
+      5: "Clear and answers the obvious doubt before a shark raises it (‘you might think phones replaced remotes, but…’)."

@@ -1,0 +1,3386 @@
+{
+  "pass": "primary",
+  "unit_key": "panel__st_e51a985d9d__primary",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:15-1:45"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "presentation",
+      "3": "presentation",
+      "4": "presentation",
+      "5": "presentation",
+      "6": "presentation",
+      "7": "presentation",
+      "8": "presentation",
+      "9": "presentation",
+      "10": "presentation",
+      "11": "presentation",
+      "12": "presentation",
+      "13": "qa",
+      "14": "qa",
+      "15": "qa",
+      "16": "qa",
+      "17": "qa",
+      "18": "qa",
+      "19": "qa",
+      "20": "qa",
+      "21": "qa",
+      "22": "qa",
+      "23": "qa",
+      "24": "qa",
+      "25": "social",
+      "26": "social",
+      "27": "social",
+      "28": "qa",
+      "29": "qa",
+      "30": "qa",
+      "31": "qa",
+      "32": "qa",
+      "33": "qa",
+      "34": "qa",
+      "35": "qa",
+      "36": "qa",
+      "37": "qa",
+      "38": "qa",
+      "39": "qa",
+      "40": "social",
+      "41": "qa",
+      "42": "social",
+      "43": "qa",
+      "44": "social",
+      "45": "qa",
+      "46": "social",
+      "47": "qa",
+      "48": "qa",
+      "49": "qa",
+      "50": "social",
+      "51": "qa",
+      "52": "qa",
+      "53": "qa",
+      "54": "qa",
+      "55": "qa",
+      "56": "qa",
+      "57": "qa",
+      "58": "qa",
+      "59": "qa",
+      "60": "qa",
+      "61": "qa",
+      "62": "qa",
+      "63": "qa",
+      "64": "qa",
+      "65": "qa",
+      "66": "qa",
+      "67": "qa",
+      "68": "qa",
+      "69": "qa",
+      "70": "qa",
+      "71": "qa",
+      "72": "qa",
+      "73": "qa",
+      "74": "qa",
+      "75": "qa",
+      "76": "qa",
+      "77": "qa",
+      "78": "qa",
+      "79": "social",
+      "80": "social",
+      "81": "none",
+      "82": "none",
+      "83": "social",
+      "84": "social",
+      "85": "qa",
+      "86": "negotiation",
+      "87": "negotiation",
+      "88": "negotiation",
+      "89": "negotiation",
+      "90": "negotiation",
+      "91": "negotiation",
+      "92": "negotiation",
+      "93": "negotiation",
+      "94": "none",
+      "95": "negotiation",
+      "96": "negotiation",
+      "97": "negotiation",
+      "98": "none"
+    },
+    "segment_seconds": {
+      "presentation": 82.0,
+      "qa": 290.0,
+      "social": 32.0,
+      "demonstration": 0.0,
+      "negotiation": 52.0,
+      "none": 56.0
+    },
+    "exchange_counts": {
+      "substantive": 8,
+      "social": 5,
+      "demonstration": 0,
+      "negotiation": 1
+    },
+    "turn_frame": {
+      "13": "promotion",
+      "14": "promotion",
+      "16": "promotion",
+      "18": "promotion",
+      "19": "prevention",
+      "20": "prevention",
+      "21": "prevention",
+      "22": "prevention",
+      "23": "prevention",
+      "24": "promotion",
+      "29": "promotion",
+      "30": "promotion",
+      "31": "promotion",
+      "32": "prevention",
+      "33": "promotion",
+      "34": "promotion",
+      "35": "promotion",
+      "36": "promotion",
+      "37": "promotion",
+      "38": "promotion",
+      "39": "promotion",
+      "41": "promotion",
+      "43": "promotion",
+      "45": "promotion",
+      "47": "promotion",
+      "51": "promotion",
+      "52": "promotion",
+      "53": "promotion",
+      "54": "promotion",
+      "55": "prevention",
+      "56": "prevention",
+      "57": "promotion",
+      "58": "promotion",
+      "59": "promotion",
+      "60": "promotion",
+      "61": "promotion",
+      "62": "promotion",
+      "63": "promotion",
+      "64": "promotion",
+      "65": "promotion",
+      "66": "promotion",
+      "67": "promotion",
+      "68": "promotion",
+      "69": "promotion",
+      "70": "promotion",
+      "71": "promotion",
+      "72": "promotion",
+      "73": "promotion",
+      "74": "promotion",
+      "75": "promotion",
+      "76": "promotion",
+      "78": "prevention"
+    },
+    "frame_match": {
+      "14": "match",
+      "16": "match",
+      "18": "match",
+      "20": "match",
+      "21": "match",
+      "23": "match",
+      "24": "match",
+      "30": "match",
+      "32": "switch_to_prevention",
+      "34": "match",
+      "36": "match",
+      "37": "match",
+      "38": "match",
+      "43": "match",
+      "45": "match",
+      "47": "match",
+      "52": "match",
+      "54": "match",
+      "56": "match",
+      "58": "match",
+      "60": "match",
+      "62": "match",
+      "64": "match",
+      "66": "match",
+      "68": "match",
+      "70": "match",
+      "72": "match",
+      "74": "match",
+      "76": "match"
+    },
+    "other_concepts": []
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Gene"
+      },
+      {
+        "actor_id": "F2",
+        "role": "founder",
+        "label": "Keidy"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Kevin"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Lori"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Mark"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Robert"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Daymond"
+      },
+      {
+        "actor_id": "H1",
+        "role": "host",
+        "label": "Narrator"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 15.0,
+        "end_s": 105.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 15.0,
+        "kind": "teaser"
+      },
+      {
+        "start_s": 570.0,
+        "end_s": 582.0,
+        "kind": "recap"
+      },
+      {
+        "start_s": 706.0,
+        "end_s": 727.0,
+        "kind": "other"
+      }
+    ],
+    "gaps": [
+      {
+        "at_s": 570.0,
+        "note": "commercial break edit hides transition after Robert's offer to buy the company"
+      }
+    ],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 38.0,
+        "note": "strong positive engagement, smiling while dramatically smashing ice with a bat"
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 68.0,
+        "note": "sustained engaged excitement, especially when animatedly explaining the product's many features"
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 15.0,
+        "note": "friendly, smiling, and approachable orientation toward the panel from the opening greeting"
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "1",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "2",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "A rugged, solar-powered, rechargeable flashlight, lantern, and cell phone charger.",
+      "primary_industry": "home_household",
+      "secondary_industries": [
+        "sports_leisure",
+        "business_industrial_services"
+      ],
+      "product_form": "physical_good",
+      "customer_type": "both",
+      "founder_gender": "mixed",
+      "product_category": "flashlight and power bank",
+      "earliest_s": 18.0,
+      "note": "Designed for power outages and rugged conditions.",
+      "ask_amount_usd": 150000,
+      "ask_equity_pct": 10.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F2",
+        "start_s": 15.0,
+        "end_s": 16.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Keidy introduces herself to the panel."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "F1",
+        "start_s": 17.0,
+        "end_s": 19.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Gene introduces himself and the name of their product."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "F2",
+        "start_s": 20.0,
+        "end_s": 24.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Keidy states their ask of one hundred fifty thousand dollars for ten percent."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "F1",
+        "start_s": 25.0,
+        "end_s": 32.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Gene describes the problem of power going out at home or while camping."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "F2",
+        "start_s": 32.0,
+        "end_s": 37.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Keidy transitions to demonstrating the product by breaking a block of ice."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "F1",
+        "start_s": 38.0,
+        "end_s": 43.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Gene smashes the ice with a bat to reveal the working device inside."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "F1",
+        "start_s": 43.0,
+        "end_s": 63.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Gene explains the device is super tough, solar-powered, rechargeable, and has three functions."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "F2",
+        "start_s": 64.0,
+        "end_s": 70.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Keidy states that their device is much more than just another solar flashlight."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "F1",
+        "start_s": 71.0,
+        "end_s": 80.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Gene highlights its three-year charge hold, forty-eight hours of light, and floating ability."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "F2",
+        "start_s": 80.0,
+        "end_s": 86.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Keidy mentions they donate at least twenty-five percent of profits to global partners."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "F1",
+        "start_s": 87.0,
+        "end_s": 97.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Gene expresses their vision to see the device in every home, workplace, and campsite."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "F2",
+        "start_s": 98.0,
+        "end_s": 105.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Keidy concludes the pitch by asking who wants to partner with them."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "S2",
+        "start_s": 106.0,
+        "end_s": 108.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks how to turn the device on."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "F1",
+        "start_s": 108.0,
+        "end_s": 116.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          13
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Gene demonstrates the button to turn on the flashlight and the room lantern."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "S2",
+        "start_s": 117.0,
+        "end_s": 119.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          14
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori acknowledges the demonstration."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "F1",
+        "start_s": 121.0,
+        "end_s": 124.0,
+        "function": "answer",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          13
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Gene explains how to activate the table lantern mode."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "S4",
+        "start_s": 125.0,
+        "end_s": 127.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert shows the device being used as a reading lantern."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "F1",
+        "start_s": 127.0,
+        "end_s": 133.0,
+        "function": "answer",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          13
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Gene points out the green lights that indicate battery level."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "S4",
+        "start_s": 134.0,
+        "end_s": 137.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks about the solar charging time."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "F1",
+        "start_s": 138.0,
+        "end_s": 139.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          19
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Gene states it takes twenty-two hours to charge via solar."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "F2",
+        "start_s": 141.0,
+        "end_s": 144.0,
+        "function": "answer",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          19
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Keidy adds that it can be charged with electricity."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "S3",
+        "start_s": 144.0,
+        "end_s": 146.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks how long an electrical charge takes."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "F2",
+        "start_s": 146.0,
+        "end_s": 147.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          22
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Keidy says it takes one hour."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "F2",
+        "start_s": 148.0,
+        "end_s": 154.0,
+        "function": "answer",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          13
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Keidy explains it can also charge a cell phone via a USB cable."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "S3",
+        "start_s": 155.0,
+        "end_s": 158.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark makes playful alien noises with the light."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "F1",
+        "start_s": 161.0,
+        "end_s": 162.0,
+        "function": "social",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          25
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Gene reacts to Mark's joke."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "S1",
+        "start_s": 165.0,
+        "end_s": 167.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin holds the light under his chin playfully."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "S4",
+        "start_s": 170.0,
+        "end_s": 171.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert comments on the table lantern function."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "S4",
+        "start_s": 172.0,
+        "end_s": 174.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks for the cost of the device."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "F1",
+        "start_s": 175.0,
+        "end_s": 178.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          29
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Gene states the retail price is fifty-five dollars and ninety-five cents."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "S1",
+        "start_s": 178.0,
+        "end_s": 180.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks Gene to repeat the price, surprised."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "F1",
+        "start_s": 180.0,
+        "end_s": 190.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          31
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Gene repeats the price and details the current and future manufacturing costs."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "S5",
+        "start_s": 191.0,
+        "end_s": 198.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Daymond asks Keidy where she is from."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "F2",
+        "start_s": 199.0,
+        "end_s": 210.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          33
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Keidy says she grew up in the Dominican Republic where power outages are common."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "S2",
+        "start_s": 211.0,
+        "end_s": 212.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks how they came up with the idea."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "F2",
+        "start_s": 212.0,
+        "end_s": 229.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          35
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Keidy explains she got very sick while living in Equatorial Guinea."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "F1",
+        "start_s": 230.0,
+        "end_s": 264.0,
+        "function": "answer",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          35
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Gene describes using a small flashlight to read medication instructions when Keidy was dying."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "F1",
+        "start_s": 268.0,
+        "end_s": 277.0,
+        "function": "answer",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          35
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Gene says the flashlight died and he threw it away, but Keidy survived."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "S1",
+        "start_s": 280.0,
+        "end_s": 282.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks if that experience motivated them to create the product."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "S5",
+        "start_s": 282.0,
+        "end_s": 286.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond remarks on the dramatic origin story."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "S2",
+        "start_s": 287.0,
+        "end_s": 290.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks how their product differs from other flashlights."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "F2",
+        "start_s": 290.0,
+        "end_s": 295.0,
+        "function": "social",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Keidy jokes about Gene's passion for the product."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "F1",
+        "start_s": 296.0,
+        "end_s": 303.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          41
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Gene insists it is a solar-powered rechargeable light and power device, not a flashlight."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "S3",
+        "start_s": 304.0,
+        "end_s": 305.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark jokes that it's still just a flashlight."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "F1",
+        "start_s": 308.0,
+        "end_s": 310.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          41
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Gene reiterates it is a power device to keep families safe."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "S3",
+        "start_s": 311.0,
+        "end_s": 314.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark makes another joke about the naming."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "F1",
+        "start_s": 316.0,
+        "end_s": 324.0,
+        "function": "answer",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          41
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Gene argues a cheap flashlight won't work as a lantern or charge a phone."
+      },
+      {
+        "turn_id": 48,
+        "speaker": "S3",
+        "start_s": 325.0,
+        "end_s": 326.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          47
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark points out that a fifty-five dollar device is expected to do more."
+      },
+      {
+        "turn_id": 49,
+        "speaker": "S2",
+        "start_s": 329.0,
+        "end_s": 331.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          47
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori agrees that she still sees it primarily as a flashlight."
+      },
+      {
+        "turn_id": 50,
+        "speaker": "S1",
+        "start_s": 337.0,
+        "end_s": 339.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin jokes about consulting the flashlight community."
+      },
+      {
+        "turn_id": 51,
+        "speaker": "S3",
+        "start_s": 341.0,
+        "end_s": 350.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks what their marketing strategy is given the competition."
+      },
+      {
+        "turn_id": 52,
+        "speaker": "F1",
+        "start_s": 351.0,
+        "end_s": 358.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          51
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Gene says they are in thirty countries working with non-profit organizations."
+      },
+      {
+        "turn_id": 53,
+        "speaker": "S1",
+        "start_s": 362.0,
+        "end_s": 363.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks if they sell or donate to the NGOs."
+      },
+      {
+        "turn_id": 54,
+        "speaker": "F2",
+        "start_s": 364.0,
+        "end_s": 368.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          53
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Keidy says they used to sell it but changed their business model."
+      },
+      {
+        "turn_id": 55,
+        "speaker": "S1",
+        "start_s": 369.0,
+        "end_s": 370.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks if they operate as a charity or a business."
+      },
+      {
+        "turn_id": 56,
+        "speaker": "F2",
+        "start_s": 371.0,
+        "end_s": 372.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          55
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Keidy states they are both."
+      },
+      {
+        "turn_id": 57,
+        "speaker": "S3",
+        "start_s": 372.0,
+        "end_s": 378.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks to confirm they are shifting from NGO sales to commercial sales."
+      },
+      {
+        "turn_id": 58,
+        "speaker": "F1",
+        "start_s": 379.0,
+        "end_s": 384.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          57
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Gene confirms they want to go direct to consumer and retail now that costs are lower."
+      },
+      {
+        "turn_id": 59,
+        "speaker": "S1",
+        "start_s": 385.0,
+        "end_s": 387.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks for last year's sales figures."
+      },
+      {
+        "turn_id": 60,
+        "speaker": "F1",
+        "start_s": 388.0,
+        "end_s": 390.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          59
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Gene says they sold fifty-three thousand dollars last year."
+      },
+      {
+        "turn_id": 61,
+        "speaker": "S1",
+        "start_s": 393.0,
+        "end_s": 395.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "forecast",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks for their sales projection for this year."
+      },
+      {
+        "turn_id": 62,
+        "speaker": "F1",
+        "start_s": 395.0,
+        "end_s": 395.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          61
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "forecast",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Gene projects ninety thousand dollars."
+      },
+      {
+        "turn_id": 63,
+        "speaker": "S3",
+        "start_s": 396.0,
+        "end_s": 398.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks for their year-to-date sales."
+      },
+      {
+        "turn_id": 64,
+        "speaker": "F1",
+        "start_s": 398.0,
+        "end_s": 398.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          63
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Gene states they have sold thirty-six thousand dollars year to date."
+      },
+      {
+        "turn_id": 65,
+        "speaker": "S4",
+        "start_s": 402.0,
+        "end_s": 408.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks what their sales were when selling to NGOs."
+      },
+      {
+        "turn_id": 66,
+        "speaker": "F1",
+        "start_s": 409.0,
+        "end_s": 410.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          65
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Gene says about thirty thousand dollars for the year."
+      },
+      {
+        "turn_id": 67,
+        "speaker": "S4",
+        "start_s": 413.0,
+        "end_s": 415.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks if they have any proprietary technology."
+      },
+      {
+        "turn_id": 68,
+        "speaker": "F1",
+        "start_s": 416.0,
+        "end_s": 428.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          67
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "deflects",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Gene explains they reverse-engineered competitors to keep the best features."
+      },
+      {
+        "turn_id": 69,
+        "speaker": "S3",
+        "start_s": 429.0,
+        "end_s": 436.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark presses Gene to answer if anything is proprietary."
+      },
+      {
+        "turn_id": 70,
+        "speaker": "F1",
+        "start_s": 437.0,
+        "end_s": 446.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          69
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "partial",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Gene points to the lenses they designed as proprietary."
+      },
+      {
+        "turn_id": 71,
+        "speaker": "S4",
+        "start_s": 447.0,
+        "end_s": 448.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert seeks to confirm if the lenses are truly proprietary."
+      },
+      {
+        "turn_id": 72,
+        "speaker": "F1",
+        "start_s": 449.0,
+        "end_s": 451.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          71
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Gene admits it's not proprietary but says they designed the firmware."
+      },
+      {
+        "turn_id": 73,
+        "speaker": "S4",
+        "start_s": 452.0,
+        "end_s": 458.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks again directly if it is proprietary or not."
+      },
+      {
+        "turn_id": 74,
+        "speaker": "F1",
+        "start_s": 459.0,
+        "end_s": 460.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          73
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "deflects",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Gene asks for clarification on what proprietary means."
+      },
+      {
+        "turn_id": 75,
+        "speaker": "S3",
+        "start_s": 461.0,
+        "end_s": 462.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark clarifies by asking if they have a patent."
+      },
+      {
+        "turn_id": 76,
+        "speaker": "F1",
+        "start_s": 465.0,
+        "end_s": 466.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          75
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Gene confirms they do not have a patent."
+      },
+      {
+        "turn_id": 77,
+        "speaker": "S1",
+        "start_s": 467.0,
+        "end_s": 484.0,
+        "function": "challenges",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin argues the product is too expensive for the competitive consumer market."
+      },
+      {
+        "turn_id": 78,
+        "speaker": "F2",
+        "start_s": 485.0,
+        "end_s": 489.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          77
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Keidy agrees the price might need to drop to nineteen dollars after testing."
+      },
+      {
+        "turn_id": 79,
+        "speaker": "S1",
+        "start_s": 490.0,
+        "end_s": 496.0,
+        "function": "social",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin playfully demands they repeat his mantra to make money."
+      },
+      {
+        "turn_id": 80,
+        "speaker": "F1",
+        "start_s": 497.0,
+        "end_s": 499.0,
+        "function": "social",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          79
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Gene repeats the phrase."
+      },
+      {
+        "turn_id": 81,
+        "speaker": "S3",
+        "start_s": 504.0,
+        "end_s": 519.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark exits because they haven't shown a clear path to scale sales."
+      },
+      {
+        "turn_id": 82,
+        "speaker": "S5",
+        "start_s": 521.0,
+        "end_s": 528.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond exits, feeling the sixty dollar price point is too high."
+      },
+      {
+        "turn_id": 83,
+        "speaker": "F2",
+        "start_s": 529.0,
+        "end_s": 531.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Keidy playfully begs for an offer in Spanish."
+      },
+      {
+        "turn_id": 84,
+        "speaker": "S5",
+        "start_s": 535.0,
+        "end_s": 536.0,
+        "function": "social",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond jokes that Robert should make a good offer."
+      },
+      {
+        "turn_id": 85,
+        "speaker": "S4",
+        "start_s": 539.0,
+        "end_s": 556.0,
+        "function": "challenges",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert criticizes their poor sales and lack of a clear market strategy."
+      },
+      {
+        "turn_id": 86,
+        "speaker": "S4",
+        "start_s": 559.0,
+        "end_s": 564.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 14,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert states he wants to buy the whole company rather than partner."
+      },
+      {
+        "turn_id": 87,
+        "speaker": "S4",
+        "start_s": 591.0,
+        "end_s": 594.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 14,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert repeats his desire to acquire the entire business."
+      },
+      {
+        "turn_id": 88,
+        "speaker": "S4",
+        "start_s": 598.0,
+        "end_s": 602.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 14,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert offers four hundred thousand dollars to buy the company completely."
+      },
+      {
+        "turn_id": 89,
+        "speaker": "F1",
+        "start_s": 604.0,
+        "end_s": 606.0,
+        "function": "decides",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 14,
+        "responds_to": [
+          88
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Gene counters Robert's offer with one million dollars."
+      },
+      {
+        "turn_id": 90,
+        "speaker": "F1",
+        "start_s": 608.0,
+        "end_s": 611.0,
+        "function": "negotiates",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 14,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Gene defends the valuation by citing their strong NGO connections."
+      },
+      {
+        "turn_id": 91,
+        "speaker": "S4",
+        "start_s": 612.0,
+        "end_s": 613.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 14,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert points out their lack of sales to justify his lower offer."
+      },
+      {
+        "turn_id": 92,
+        "speaker": "F1",
+        "start_s": 614.0,
+        "end_s": 619.0,
+        "function": "negotiates",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 14,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Gene admits they have been timid in pursuing sales on their own."
+      },
+      {
+        "turn_id": 93,
+        "speaker": "S4",
+        "start_s": 620.0,
+        "end_s": 631.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 14,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert revises his offer to buy the company for five hundred thousand dollars."
+      },
+      {
+        "turn_id": 94,
+        "speaker": "S2",
+        "start_s": 636.0,
+        "end_s": 666.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori exits, citing the heavy competition and lack of investability for her."
+      },
+      {
+        "turn_id": 95,
+        "speaker": "S4",
+        "start_s": 667.0,
+        "end_s": 681.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 14,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert presses Gene for an answer on his revised acquisition offer."
+      },
+      {
+        "turn_id": 96,
+        "speaker": "F1",
+        "start_s": 682.0,
+        "end_s": 684.0,
+        "function": "decides",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 14,
+        "responds_to": [
+          93
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Gene counters Robert's revised offer with seven hundred fifty thousand dollars."
+      },
+      {
+        "turn_id": 97,
+        "speaker": "F1",
+        "start_s": 686.0,
+        "end_s": 688.0,
+        "function": "negotiates",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 14,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Gene states that is their absolute lowest acceptable price."
+      },
+      {
+        "turn_id": 98,
+        "speaker": "S4",
+        "start_s": 694.0,
+        "end_s": 698.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [
+          96
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert refuses the counter and exits the negotiation."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "substantive",
+        "topic": "usage",
+        "label": "how to operate the device"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "making alien noises with light"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "price and cost to manufacture"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "substantive",
+        "topic": "self_promotion",
+        "label": "origin story in Africa"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "dramatic reason for flashlight"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "substantive",
+        "topic": "assets",
+        "label": "differentiation from a normal flashlight"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "formerly known as a flashlight"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "substantive",
+        "topic": "go_to_market",
+        "label": "NGO sales versus direct to consumer"
+      },
+      {
+        "exchange_id": 9,
+        "kind": "substantive",
+        "topic": "assets",
+        "label": "proprietary technology and patents"
+      },
+      {
+        "exchange_id": 10,
+        "kind": "substantive",
+        "topic": "operating_efficiency",
+        "label": "price needs to be lower"
+      },
+      {
+        "exchange_id": 11,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "make money mantra"
+      },
+      {
+        "exchange_id": 12,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "begging for an offer in Spanish"
+      },
+      {
+        "exchange_id": 13,
+        "kind": "substantive",
+        "topic": "go_to_market",
+        "label": "stuck in the middle of the market"
+      },
+      {
+        "exchange_id": 14,
+        "kind": "negotiation",
+        "topic": "deal_terms",
+        "label": "buying the whole company"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S3",
+        "kind": "exit",
+        "time_s": 516.0,
+        "turn_id": 81,
+        "offer_id": null,
+        "terms": "out",
+        "note": "hasn't demonstrated a path to blow these things out"
+      },
+      {
+        "decision_id": 2,
+        "actor": "S5",
+        "kind": "exit",
+        "time_s": 526.0,
+        "turn_id": 82,
+        "offer_id": null,
+        "terms": "out",
+        "note": "wouldn't pay $60 for it"
+      },
+      {
+        "decision_id": 3,
+        "actor": "S4",
+        "kind": "offer",
+        "time_s": 598.0,
+        "turn_id": 88,
+        "offer_id": "O1",
+        "terms": "$400,000 for 100% of the business",
+        "note": "wants to buy the entire company"
+      },
+      {
+        "decision_id": 4,
+        "actor": "F1",
+        "kind": "founder_counters",
+        "time_s": 604.0,
+        "turn_id": 89,
+        "offer_id": "O1",
+        "terms": "$1,000,000 for 100%",
+        "note": "we would take a million"
+      },
+      {
+        "decision_id": 5,
+        "actor": "S4",
+        "kind": "revises_offer",
+        "time_s": 630.0,
+        "turn_id": 93,
+        "offer_id": "O1",
+        "terms": "$500,000 for 100%",
+        "note": "can't get to a million because they have no sales"
+      },
+      {
+        "decision_id": 6,
+        "actor": "S2",
+        "kind": "exit",
+        "time_s": 665.0,
+        "turn_id": 94,
+        "offer_id": null,
+        "terms": "out",
+        "note": "too much competition, not investable for her"
+      },
+      {
+        "decision_id": 7,
+        "actor": "F1",
+        "kind": "founder_counters",
+        "time_s": 682.0,
+        "turn_id": 96,
+        "offer_id": "O1",
+        "terms": "$750,000 for 100%",
+        "note": "that's as low as we would go"
+      },
+      {
+        "decision_id": 8,
+        "actor": "S4",
+        "kind": "exit",
+        "time_s": 694.0,
+        "turn_id": 98,
+        "offer_id": null,
+        "terms": "out",
+        "note": "won't go up to $750k"
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": "Kevin O'Leary's graphic incorrectly showed a counter offer of $750k, but the dialogue clearly shows F1 making the $750k counter offer to Robert, which Robert declines."
+  }
+}

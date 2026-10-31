@@ -1,0 +1,2101 @@
+{
+  "pass": "primary",
+  "unit_key": "panel__st_c14a7f16bc__primary",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:15-1:40"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "qa",
+      "3": "qa",
+      "4": "social",
+      "5": "demonstration",
+      "6": "demonstration",
+      "7": "demonstration",
+      "8": "demonstration",
+      "9": "qa",
+      "10": "qa",
+      "11": "qa",
+      "12": "qa",
+      "13": "qa",
+      "14": "social",
+      "15": "social",
+      "16": "qa",
+      "17": "qa",
+      "18": "qa",
+      "19": "qa",
+      "20": "qa",
+      "21": "qa",
+      "22": "qa",
+      "23": "qa",
+      "24": "qa",
+      "25": "qa",
+      "26": "qa",
+      "27": "qa",
+      "28": "qa",
+      "29": "qa",
+      "30": "qa",
+      "31": "none",
+      "32": "qa",
+      "33": "qa",
+      "34": "none",
+      "35": "negotiation",
+      "36": "negotiation",
+      "37": "negotiation",
+      "38": "negotiation",
+      "39": "negotiation",
+      "40": "negotiation",
+      "41": "negotiation",
+      "42": "negotiation",
+      "43": "negotiation",
+      "44": "negotiation",
+      "45": "negotiation",
+      "46": "negotiation",
+      "47": "negotiation",
+      "48": "negotiation",
+      "49": "negotiation",
+      "50": "negotiation",
+      "51": "negotiation",
+      "52": "negotiation",
+      "53": "negotiation",
+      "54": "negotiation",
+      "55": "negotiation",
+      "56": "negotiation",
+      "57": "negotiation",
+      "58": "negotiation",
+      "59": "negotiation",
+      "60": "negotiation",
+      "61": "negotiation",
+      "62": "negotiation"
+    },
+    "segment_seconds": {
+      "presentation": 85.0,
+      "qa": 222.0,
+      "social": 7.0,
+      "demonstration": 14.0,
+      "negotiation": 256.0,
+      "none": 47.0
+    },
+    "exchange_counts": {
+      "substantive": 11,
+      "social": 2,
+      "demonstration": 1,
+      "negotiation": 1
+    },
+    "turn_frame": {
+      "2": "unclassified",
+      "3": "unclassified",
+      "5": "unclassified",
+      "6": "unclassified",
+      "9": "promotion",
+      "10": "promotion",
+      "11": "promotion",
+      "12": "promotion",
+      "13": "prevention",
+      "16": "prevention",
+      "17": "prevention",
+      "18": "unclassified",
+      "19": "unclassified",
+      "20": "promotion",
+      "21": "promotion",
+      "22": "prevention",
+      "23": "prevention",
+      "24": "prevention",
+      "25": "prevention",
+      "26": "prevention",
+      "27": "prevention",
+      "29": "promotion",
+      "30": "promotion",
+      "32": "unclassified",
+      "33": "unclassified",
+      "38": "prevention"
+    },
+    "frame_match": {
+      "3": "unclassified",
+      "6": "unclassified",
+      "10": "match",
+      "12": "match",
+      "17": "match",
+      "19": "unclassified",
+      "21": "match",
+      "23": "match",
+      "25": "match",
+      "27": "match",
+      "30": "match",
+      "33": "unclassified"
+    },
+    "other_concepts": [
+      {
+        "where": "turn",
+        "id": 5,
+        "code": "PR-CONCEPT",
+        "name": "golden eggs",
+        "clock": "2:09"
+      },
+      {
+        "where": "turn",
+        "id": 6,
+        "code": "RS-CONCEPT",
+        "name": "golden eggs",
+        "clock": "2:12"
+      },
+      {
+        "where": "turn",
+        "id": 32,
+        "code": "PR-CONCEPT",
+        "name": "lifespan of chicken",
+        "clock": "6:38"
+      },
+      {
+        "where": "turn",
+        "id": 33,
+        "code": "RS-CONCEPT",
+        "name": "lifespan of chicken",
+        "clock": "6:40"
+      },
+      {
+        "where": "exchange",
+        "id": 14,
+        "code": "EX-TOPIC",
+        "name": "Lifespan of a chicken",
+        "clock": "6:38"
+      }
+    ]
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "H1",
+        "role": "host",
+        "label": "Narrator"
+      },
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Chet Beiler"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Mark Cuban"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Lori Greiner"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Robert Herjavec"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Daymond John"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 15.0,
+        "end_s": 100.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 12.0,
+        "kind": "teaser"
+      },
+      {
+        "start_s": 754.0,
+        "end_s": 814.0,
+        "kind": "recap"
+      }
+    ],
+    "gaps": [
+      {
+        "at_s": 138.0,
+        "note": "Edit while Lori opens the golden egg."
+      },
+      {
+        "at_s": 207.0,
+        "note": "Edit cuts to the founder looking at his notes."
+      },
+      {
+        "at_s": 397.0,
+        "note": "Edit before Robert asks about the lifespan of a chicken."
+      },
+      {
+        "at_s": 557.0,
+        "note": "Edit during negotiation cross-talk."
+      }
+    ],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 30.0,
+        "note": "The founder maintains an upbeat, smiling delivery throughout most of the presentation."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 5,
+        "uncodable": false,
+        "moment_s": 72.0,
+        "note": "He shows pronounced excitement about the backyard chicken trend and his product's growth."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 23.0,
+        "note": "He is friendly and approachable, introducing his chicken and smiling warmly at the panel."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "3",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "Modular, easy-to-assemble backyard chicken coops.",
+      "primary_industry": "pets",
+      "secondary_industries": [
+        "home_household"
+      ],
+      "product_form": "physical_good",
+      "customer_type": "consumer",
+      "founder_gender": "all_men",
+      "product_category": "chicken coops",
+      "earliest_s": 19.0,
+      "note": "The product is a backyard structure for keeping chickens.",
+      "ask_amount_usd": 1000000,
+      "ask_equity_pct": 4.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 15.0,
+        "end_s": 100.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Presents modular chicken coops, highlighting easy assembly, high demand, and asks for one million dollars for four percent."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "S2",
+        "start_s": 100.0,
+        "end_s": 105.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          1
+        ],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks why the company is worth twenty-five million dollars when he is only offering four percent equity."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "F1",
+        "start_s": 105.0,
+        "end_s": 128.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          2
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Explains IP is locked down, sales are strong, and they plan to become the category king and expand to Europe."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "S4",
+        "start_s": 128.0,
+        "end_s": 129.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jokes that the founder is one crazy chicken."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "S5",
+        "start_s": 129.0,
+        "end_s": 131.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "other",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": "golden eggs",
+        "summary": "Asks what the golden eggs are that were handed out to the panel."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "F1",
+        "start_s": 132.0,
+        "end_s": 133.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          5
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "other",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "1",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "1",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": "golden eggs",
+        "summary": "Tells the investors to open the golden eggs."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "S3",
+        "start_s": 133.0,
+        "end_s": 142.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Expresses disappointment that the golden egg only contains a small brochure with business facts."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "F1",
+        "start_s": 143.0,
+        "end_s": 145.0,
+        "function": "social",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jokes that there is golden information inside the brochure."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "S1",
+        "start_s": 146.0,
+        "end_s": 147.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks how much product they have sold."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "F1",
+        "start_s": 148.0,
+        "end_s": 176.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          9
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "States they surpassed twenty-one million dollars in lifetime sales, with nine million year-to-date and fifteen percent EBITDA."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "S4",
+        "start_s": 177.0,
+        "end_s": 181.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          10
+        ],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Expresses surprise at the numbers and asks how they are selling nine million dollars worth."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "F1",
+        "start_s": 182.0,
+        "end_s": 202.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          11
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "partial",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Explains they were not ready for COVID and missed sales, but still did six point eight million last year."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "S1",
+        "start_s": 203.0,
+        "end_s": 206.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          12
+        ],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks what they are doing to achieve such a big step in sales growth."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "S4",
+        "start_s": 210.0,
+        "end_s": 211.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Teases the founder about what he is looking at."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "F1",
+        "start_s": 212.0,
+        "end_s": 217.0,
+        "function": "social",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Explains he is checking his notes to make sure he covers everything."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "S1",
+        "start_s": 223.0,
+        "end_s": 225.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks how they are paying for all the inventory needed for their growth."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "F1",
+        "start_s": 225.0,
+        "end_s": 228.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          16
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "States he is there to raise money specifically for more inventory."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "S3",
+        "start_s": 228.0,
+        "end_s": 233.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks if he has raised money before, who his partners are, and how much of the company he owns."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "F1",
+        "start_s": 234.0,
+        "end_s": 252.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          18
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Clarifies he owns one hundred percent, having bought the rest of the company recently."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "S2",
+        "start_s": 253.0,
+        "end_s": 255.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks for the revenue numbers for the last three years."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "F1",
+        "start_s": 256.0,
+        "end_s": 265.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          20
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Provides revenue figures: two point two million in 2019, six point eight million in 2020, projecting twenty million."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "S2",
+        "start_s": 265.0,
+        "end_s": 272.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          21
+        ],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Notes the big ramp requires capital and asks how he raised the money to fund it."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "F1",
+        "start_s": 273.0,
+        "end_s": 290.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          22
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Explains he used creative finance, borrowing against purchase orders and receivables, and paid everyone back."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "S3",
+        "start_s": 291.0,
+        "end_s": 295.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "States she does not know what the product costs."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "F1",
+        "start_s": 296.0,
+        "end_s": 306.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          24
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Provides the retail prices for the three sizes and states the gross profit margin is about thirty-six percent."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "S3",
+        "start_s": 307.0,
+        "end_s": 312.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Points out that COVID had a heavy price and challenges his consistency about missing out on sales."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "F1",
+        "start_s": 313.0,
+        "end_s": 317.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 12,
+        "responds_to": [
+          26
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "1",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "1",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Agrees that they missed out on some sales."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "F1",
+        "start_s": 320.0,
+        "end_s": 343.0,
+        "function": "repair",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 12,
+        "responds_to": [
+          26
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Clarifies that while they missed the COVID bump, they still grew and now have factories to meet demand."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "S3",
+        "start_s": 344.0,
+        "end_s": 350.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "market_opportunity",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks why European consumers would want his coop more than the ones already available there."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "F1",
+        "start_s": 354.0,
+        "end_s": 375.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 13,
+        "responds_to": [
+          29
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "market_opportunity",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Argues that most available coops are cheap imports, while his is a high-quality coop in a box."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "S3",
+        "start_s": 376.0,
+        "end_s": 396.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "States the quality is great but it is not a strong enough differentiator, so she is out."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "S4",
+        "start_s": 398.0,
+        "end_s": 399.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 14,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "other",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": "lifespan of chicken",
+        "summary": "Asks what the lifespan of a chicken is."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "F1",
+        "start_s": 400.0,
+        "end_s": 401.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 14,
+        "responds_to": [
+          32
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "other",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "1",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "1",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": "lifespan of chicken",
+        "summary": "Answers that a chicken lives for five to ten years."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "S4",
+        "start_s": 402.0,
+        "end_s": 429.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jokes that finding business details takes longer than a chicken's lifespan, values his time, and exits."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "S2",
+        "start_s": 430.0,
+        "end_s": 462.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 15,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Offers one million dollars as a loan at eleven and a half percent interest for four percent equity."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "S1",
+        "start_s": 477.0,
+        "end_s": 501.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 15,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Notes the company is cash constrained and views European expansion as a costly distraction, so he is out."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "S5",
+        "start_s": 502.0,
+        "end_s": 512.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 15,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Challenges the valuation, noting that material costs have been brutal and margins will likely shrink."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "F1",
+        "start_s": 513.0,
+        "end_s": 515.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 15,
+        "responds_to": [
+          37
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Counters that material costs have come down and settled."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "S5",
+        "start_s": 516.0,
+        "end_s": 540.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 15,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Disagrees that costs have settled, dislikes the valuation, and offers one million dollars for twenty-five percent equity."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "F1",
+        "start_s": 540.0,
+        "end_s": 552.0,
+        "function": "negotiates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 15,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Notes he has two offers but asks for two minutes to explain something to Robert."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "S5",
+        "start_s": 552.0,
+        "end_s": 554.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 15,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Tells the founder not to speak to Robert."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "S2",
+        "start_s": 554.0,
+        "end_s": 556.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 15,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Reminds the founder that Robert has already exited the deal."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "S3",
+        "start_s": 561.0,
+        "end_s": 564.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 15,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Advises the founder that he should be talking to the investors who made offers."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "F1",
+        "start_s": 565.0,
+        "end_s": 586.0,
+        "function": "negotiates",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 15,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Explains his upcoming trip to Prague and his passion for expanding the business into Eastern Europe."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "S2",
+        "start_s": 587.0,
+        "end_s": 599.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 15,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Tells the founder to focus on the two standing offers instead of his European plans."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "F1",
+        "start_s": 600.0,
+        "end_s": 617.0,
+        "function": "decides",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 15,
+        "responds_to": [
+          35
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Counters Kevin's offer, accepting the debt but asking for an additional one to two million in purchase order support."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "S2",
+        "start_s": 621.0,
+        "end_s": 633.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 15,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "States he supports all his companies if the business needs make sense."
+      },
+      {
+        "turn_id": 48,
+        "speaker": "F1",
+        "start_s": 634.0,
+        "end_s": 636.0,
+        "function": "negotiates",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 15,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Asks Kevin if he is not in love with the European expansion strategy."
+      },
+      {
+        "turn_id": 49,
+        "speaker": "S2",
+        "start_s": 637.0,
+        "end_s": 644.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 15,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Confirms he dislikes the European strategy and wants the cash focused on stateside purchase orders."
+      },
+      {
+        "turn_id": 50,
+        "speaker": "F1",
+        "start_s": 645.0,
+        "end_s": 650.0,
+        "function": "negotiates",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 15,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Asks Daymond if he is distracted."
+      },
+      {
+        "turn_id": 51,
+        "speaker": "S5",
+        "start_s": 651.0,
+        "end_s": 657.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 15,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "States the founder keeps getting distracted, withdraws his offer, and exits."
+      },
+      {
+        "turn_id": 52,
+        "speaker": "F1",
+        "start_s": 658.0,
+        "end_s": 659.0,
+        "function": "negotiates",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 15,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Notes that it is now just the two of them left."
+      },
+      {
+        "turn_id": 53,
+        "speaker": "S2",
+        "start_s": 660.0,
+        "end_s": 662.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 15,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Agrees that it is just the two of them."
+      },
+      {
+        "turn_id": 54,
+        "speaker": "F1",
+        "start_s": 666.0,
+        "end_s": 671.0,
+        "function": "decides",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 15,
+        "responds_to": [
+          35
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Conditionally accepts Kevin's offer, provided Kevin supports other purchase orders."
+      },
+      {
+        "turn_id": 55,
+        "speaker": "S2",
+        "start_s": 672.0,
+        "end_s": 680.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 15,
+        "responds_to": [
+          54
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Refuses to guarantee purchase order support and restates his original offer terms clearly."
+      },
+      {
+        "turn_id": 56,
+        "speaker": "F1",
+        "start_s": 681.0,
+        "end_s": 682.0,
+        "function": "decides",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 15,
+        "responds_to": [
+          55
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Accepts Kevin's revised offer, stating they have a deal."
+      },
+      {
+        "turn_id": 57,
+        "speaker": "S2",
+        "start_s": 683.0,
+        "end_s": 685.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 15,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Tells the founder to forget the rest of the noise and asks if they are done."
+      },
+      {
+        "turn_id": 58,
+        "speaker": "F1",
+        "start_s": 688.0,
+        "end_s": 694.0,
+        "function": "negotiates",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 15,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Explains he still wanted to talk to Robert about his plans for Eastern Europe."
+      },
+      {
+        "turn_id": 59,
+        "speaker": "S4",
+        "start_s": 696.0,
+        "end_s": 698.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 15,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jokes that Robert is not from Europe."
+      },
+      {
+        "turn_id": 60,
+        "speaker": "S3",
+        "start_s": 699.0,
+        "end_s": 702.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 15,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Adds that Robert has been in North America for a very long time."
+      },
+      {
+        "turn_id": 61,
+        "speaker": "F1",
+        "start_s": 706.0,
+        "end_s": 712.0,
+        "function": "negotiates",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 15,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Pleads with Robert to do special things in Europe together."
+      },
+      {
+        "turn_id": 62,
+        "speaker": "S2",
+        "start_s": 713.0,
+        "end_s": 740.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 15,
+        "responds_to": [
+          61
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Expresses frustration that the founder will not stop talking after making a deal, withdraws his offer, and exits."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "Valuation of 25M"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "Crazy chicken"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "demonstration",
+        "topic": "NONE",
+        "label": "Golden eggs"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "Sales and profit numbers"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "Growth and COVID impact"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "Looking at notes"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "Paying for inventory"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "Ownership and partners"
+      },
+      {
+        "exchange_id": 9,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "Revenue last 3 years"
+      },
+      {
+        "exchange_id": 10,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "Raising capital for POs"
+      },
+      {
+        "exchange_id": 11,
+        "kind": "substantive",
+        "topic": "operating_efficiency",
+        "label": "Product costs and margins"
+      },
+      {
+        "exchange_id": 12,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "COVID bump inconsistency"
+      },
+      {
+        "exchange_id": 13,
+        "kind": "substantive",
+        "topic": "market_opportunity",
+        "label": "European market differentiation"
+      },
+      {
+        "exchange_id": 14,
+        "kind": "substantive",
+        "topic": "other",
+        "label": "Lifespan of a chicken"
+      },
+      {
+        "exchange_id": 15,
+        "kind": "negotiation",
+        "topic": "NONE",
+        "label": "Offers and European distraction"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S3",
+        "kind": "exit",
+        "time_s": 376.0,
+        "turn_id": 31,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "States the quality is great but it is not a strong enough differentiator."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S4",
+        "kind": "exit",
+        "time_s": 402.0,
+        "turn_id": 34,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Fears it takes too long to get details of the business and values his time."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S2",
+        "kind": "offer",
+        "time_s": 430.0,
+        "turn_id": 35,
+        "offer_id": "O1",
+        "terms": "$1M debt, 11.5% interest, 4% equity, paid over 3 years.",
+        "note": "Loves the revenue but feels the presentation was wandering."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S1",
+        "kind": "exit",
+        "time_s": 477.0,
+        "turn_id": 36,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Believes the company is cash constrained and European expansion is a capital expense distraction."
+      },
+      {
+        "decision_id": 5,
+        "actor": "S5",
+        "kind": "offer",
+        "time_s": 516.0,
+        "turn_id": 39,
+        "offer_id": "O2",
+        "terms": "$1M for 25%.",
+        "note": "Believes material costs are brutal and does not like the current valuation."
+      },
+      {
+        "decision_id": 6,
+        "actor": "F1",
+        "kind": "founder_counters",
+        "time_s": 600.0,
+        "turn_id": 46,
+        "offer_id": "O1",
+        "terms": "Yes to debt, need $1-2M in PO support.",
+        "note": "Wants additional financing for purchase orders that banks will not provide."
+      },
+      {
+        "decision_id": 7,
+        "actor": "S5",
+        "kind": "withdraws_offer",
+        "time_s": 651.0,
+        "turn_id": 51,
+        "offer_id": "O2",
+        "terms": "I'm out.",
+        "note": "Withdraws his offer because the founder keeps getting distracted."
+      },
+      {
+        "decision_id": 8,
+        "actor": "F1",
+        "kind": "founder_accepts",
+        "time_s": 666.0,
+        "turn_id": 54,
+        "offer_id": "O1",
+        "terms": "Yes, as long as you support other POs.",
+        "note": "Accepts the offer conditionally, requiring ongoing purchase order support."
+      },
+      {
+        "decision_id": 9,
+        "actor": "S2",
+        "kind": "revises_offer",
+        "time_s": 672.0,
+        "turn_id": 55,
+        "offer_id": "O1",
+        "terms": "$1M debt, 11.5% interest, 4% equity.",
+        "note": "Refuses to guarantee purchase order support and explicitly clarifies the original terms."
+      },
+      {
+        "decision_id": 10,
+        "actor": "F1",
+        "kind": "founder_accepts",
+        "time_s": 681.0,
+        "turn_id": 56,
+        "offer_id": "O1",
+        "terms": "I accept. We have a deal.",
+        "note": "Accepts the revised offer unconditionally."
+      },
+      {
+        "decision_id": 11,
+        "actor": "S2",
+        "kind": "withdraws_offer",
+        "time_s": 713.0,
+        "turn_id": 62,
+        "offer_id": "O1",
+        "terms": "I'm out. You gotta go.",
+        "note": "Withdraws the accepted offer and exits because the founder continued to pitch another investor after closing the deal."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": "The founder frequently references his notes during questioning, which the investors point out. The final deal falls apart after the founder accepts it because he continues trying to engage an exited investor."
+  }
+}

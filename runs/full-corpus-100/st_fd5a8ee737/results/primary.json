@@ -1,0 +1,1542 @@
+{
+  "pass": "primary",
+  "unit_key": "panel__st_fd5a8ee737__primary",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:17-1:32"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "qa",
+      "3": "qa",
+      "4": "qa",
+      "5": "demonstration",
+      "6": "demonstration",
+      "7": "demonstration",
+      "8": "qa",
+      "9": "qa",
+      "10": "qa",
+      "11": "qa",
+      "12": "demonstration",
+      "13": "social",
+      "14": "social",
+      "15": "none",
+      "16": "qa",
+      "17": "qa",
+      "18": "qa",
+      "19": "qa",
+      "20": "qa",
+      "21": "qa",
+      "22": "qa",
+      "23": "qa",
+      "24": "qa",
+      "25": "qa",
+      "26": "qa",
+      "27": "qa",
+      "28": "qa",
+      "29": "qa",
+      "30": "qa",
+      "31": "qa",
+      "32": "qa",
+      "33": "qa",
+      "34": "qa",
+      "35": "qa",
+      "36": "none",
+      "37": "none",
+      "38": "none",
+      "39": "none",
+      "40": "social",
+      "41": "qa",
+      "42": "qa",
+      "43": "qa",
+      "44": "qa",
+      "45": "qa",
+      "46": "none"
+    },
+    "segment_seconds": {
+      "presentation": 75.0,
+      "qa": 190.0,
+      "social": 23.0,
+      "demonstration": 20.0,
+      "negotiation": 0.0,
+      "none": 52.0
+    },
+    "exchange_counts": {
+      "substantive": 8,
+      "social": 2,
+      "demonstration": 2,
+      "negotiation": 0
+    },
+    "turn_frame": {
+      "2": "prevention",
+      "3": "prevention",
+      "4": "prevention",
+      "8": "promotion",
+      "9": "promotion",
+      "10": "promotion",
+      "11": "promotion",
+      "16": "promotion",
+      "17": "promotion",
+      "18": "promotion",
+      "19": "promotion",
+      "20": "promotion",
+      "21": "prevention",
+      "23": "unclassified",
+      "24": "promotion",
+      "25": "promotion",
+      "29": "promotion",
+      "30": "promotion",
+      "31": "promotion",
+      "32": "prevention",
+      "43": "promotion"
+    },
+    "frame_match": {
+      "4": "match",
+      "9": "match",
+      "11": "match",
+      "17": "match",
+      "19": "match",
+      "21": "switch_to_prevention",
+      "24": "unclassified",
+      "25": "unclassified",
+      "30": "match"
+    },
+    "other_concepts": []
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Tyler Jay"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Barbara Corcoran"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Mark Cuban"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Rohan Oza"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Lori Greiner"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 17.0,
+        "end_s": 92.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 451.0,
+        "end_s": 480.0,
+        "kind": "teaser"
+      }
+    ],
+    "gaps": [],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 43.0,
+        "note": "Tyler maintains a clearly positive, enthusiastic demeanor with smiles and expansive gestures."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 55.0,
+        "note": "He shows sustained engaged animation and excitement about his invention."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 26.0,
+        "note": "He is friendly, considerate, and highly approachable as he addresses the panel."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "1",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "Discreet, portable, dissolvable tablets that block bathroom odors before they begin.",
+      "primary_industry": "home_household",
+      "secondary_industries": [
+        "health_personal_care"
+      ],
+      "product_form": "physical_good",
+      "customer_type": "consumer",
+      "founder_gender": "all_men",
+      "product_category": "toilet deodorizer tablets",
+      "earliest_s": 35.0,
+      "note": "The founder asks for $150,000 for 10% of Plop Star.",
+      "ask_amount_usd": 150000,
+      "ask_equity_pct": 10.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 17.0,
+        "end_s": 92.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Tyler pitches Plop Star, a discreet, portable tablet that blocks bathroom odors before they begin, asking for $150k."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "S4",
+        "start_s": 92.0,
+        "end_s": 96.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Rohan asks for clarification on the advanced technology and how the tablet actually works in the bowl."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "S1",
+        "start_s": 96.0,
+        "end_s": 104.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks if the idea is that odorous gases are trapped underneath an oil film surface."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "F1",
+        "start_s": 104.0,
+        "end_s": 105.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          3
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "too_short"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Tyler confirms that Kevin's understanding of the odor-trapping mechanism is correct."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "F1",
+        "start_s": 105.0,
+        "end_s": 107.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Tyler asks the panel if he can pass out some samples of the product."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "S2",
+        "start_s": 107.0,
+        "end_s": 108.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara agrees and asks to see the samples."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "F1",
+        "start_s": 108.0,
+        "end_s": 115.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Tyler hands out glasses of water and the individually wrapped tablets to the investors."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "S4",
+        "start_s": 115.0,
+        "end_s": 117.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Rohan asks if there are different flavors or just one version of the tablet."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "F1",
+        "start_s": 117.0,
+        "end_s": 118.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          8
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "too_short"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Tyler states that there is currently only one version of the product available."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "S4",
+        "start_s": 119.0,
+        "end_s": 120.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Rohan asks for confirmation on how to use it, checking if they just drop it in."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "F1",
+        "start_s": 120.0,
+        "end_s": 122.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          10
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "too_short"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Tyler confirms they should just drop the tablet into the water."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "S5",
+        "start_s": 122.0,
+        "end_s": 132.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori, Barbara, and Kevin smell the dissolving tablet, noting it smells good and refreshing like vitamin C."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "S3",
+        "start_s": 133.0,
+        "end_s": 138.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark jokes that he is a man who likes to leave his mark."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "UNKNOWN",
+        "start_s": 138.0,
+        "end_s": 142.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The panel laughs at Mark's joke."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "S3",
+        "start_s": 142.0,
+        "end_s": 148.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark states he is out with prejudice, declaring it the greatest out he has ever seen."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "S2",
+        "start_s": 148.0,
+        "end_s": 151.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Barbara asks what the six-pack of tablets sells for."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "F1",
+        "start_s": 151.0,
+        "end_s": 160.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          16
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Tyler explains they have two units, selling the six-pack for $4.99 and the thirty-pack for $12.99."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "S5",
+        "start_s": 160.0,
+        "end_s": 161.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks what their current sales figures are."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "F1",
+        "start_s": 161.0,
+        "end_s": 164.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          18
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Tyler states that they currently have $12,000 in sales."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "S4",
+        "start_s": 167.0,
+        "end_s": 170.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Rohan suggests that consumers do not seem to be loving the product or seeing the need for it."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "F1",
+        "start_s": 170.0,
+        "end_s": 183.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          20
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "partial",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Tyler explains he focused on building the backend and manufacturing before heavily promoting the product to consumers."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "S1",
+        "start_s": 184.0,
+        "end_s": 187.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin challenges Tyler, stating that proving demand should happen before building the backend."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "S1",
+        "start_s": 187.0,
+        "end_s": 198.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin questions the $1.5 million valuation given the low sales, doubting if anyone really wants the product."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "F1",
+        "start_s": 199.0,
+        "end_s": 235.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          23
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "deflects",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Tyler deflects the valuation concern, instead detailing his successful background in advertising and production to explain his product creation."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "F1",
+        "start_s": 236.0,
+        "end_s": 245.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          23
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "deflects",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "market_opportunity",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Tyler continues, noting the $300 million market size and mentioning Poo-Pourri as the major competitor."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "S2",
+        "start_s": 246.0,
+        "end_s": 247.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara acknowledges that the convenience of not carrying a bottle is innovative."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "S5",
+        "start_s": 251.0,
+        "end_s": 262.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori expresses her belief in the category, noting the massive success of her investment in Squatty Potty."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "S5",
+        "start_s": 265.0,
+        "end_s": 274.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori adds that the product is interesting, convenient, and could potentially fit within her family of entrepreneurs."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "S4",
+        "start_s": 280.0,
+        "end_s": 290.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Rohan argues the target audience should be businesses, not consumers, because people lack respect for public bathrooms."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "F1",
+        "start_s": 290.0,
+        "end_s": 292.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          29
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "too_short"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Tyler briefly agrees that targeting businesses is a necessary approach."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "S4",
+        "start_s": 295.0,
+        "end_s": 304.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Rohan continues, explaining that workers in hotels or public restrooms would use it to combat bad odors."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "S5",
+        "start_s": 304.0,
+        "end_s": 307.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks if the product is too expensive to sell effectively to businesses."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "S4",
+        "start_s": 308.0,
+        "end_s": 309.0,
+        "function": "accepts",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Rohan agrees with Lori that the cost is a problem for the business-to-business model."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "S5",
+        "start_s": 309.0,
+        "end_s": 318.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori points out that businesses buy cheap industrial gallons because they do not care about the experience."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "S2",
+        "start_s": 319.0,
+        "end_s": 321.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara states she does not believe the business-to-business model will work at all."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "S2",
+        "start_s": 322.0,
+        "end_s": 344.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara exits, citing her concern that Tyler failed to test market demand before building the business."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "S1",
+        "start_s": 345.0,
+        "end_s": 348.0,
+        "function": "hostile",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin tells Tyler he should flush the product down the toilet, stating he is not kidding."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "S1",
+        "start_s": 350.0,
+        "end_s": 356.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin exits, declaring the business is going nowhere and that the product sucks."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "S5",
+        "start_s": 358.0,
+        "end_s": 365.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori exits, explaining that the heavy competition in the area makes it uninvestable for her."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "F1",
+        "start_s": 371.0,
+        "end_s": 385.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Tyler shares a personal story about his children supporting his hard work in bringing a tangible product to market."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "S4",
+        "start_s": 385.0,
+        "end_s": 387.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Rohan tells Tyler that he actually quite likes the idea."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "S4",
+        "start_s": 388.0,
+        "end_s": 401.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Rohan expresses his struggle, stating Tyler lacks a game plan and would likely flush the investment money."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "F1",
+        "start_s": 402.0,
+        "end_s": 407.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 12,
+        "responds_to": [
+          42
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Tyler counters that he does have a plan, mentioning B2B, omnichannel, and getting into retail."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "S4",
+        "start_s": 407.0,
+        "end_s": 408.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Rohan interrupts, arguing that listing those channels does not constitute an actual plan."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "F1",
+        "start_s": 409.0,
+        "end_s": 411.0,
+        "function": "repair",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 12,
+        "responds_to": [
+          44
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Tyler tries to clarify his previous statement about his strategy."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "S4",
+        "start_s": 411.0,
+        "end_s": 419.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Rohan exits, stating Tyler has too many disjointed ideas and lacks a focused plan."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "odor trapping mechanism"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "demonstration",
+        "topic": "NONE",
+        "label": "passing out samples"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "product flavors"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "substantive",
+        "topic": "usage",
+        "label": "how to use the tablet"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "demonstration",
+        "topic": "NONE",
+        "label": "smelling the tablet"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "leaving a mark joke"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "price and current sales"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "low sales and valuation"
+      },
+      {
+        "exchange_id": 9,
+        "kind": "substantive",
+        "topic": "market_opportunity",
+        "label": "Squatty Potty comparison"
+      },
+      {
+        "exchange_id": 10,
+        "kind": "substantive",
+        "topic": "go_to_market",
+        "label": "targeting B2B customers"
+      },
+      {
+        "exchange_id": 11,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "founder's children"
+      },
+      {
+        "exchange_id": 12,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "lacking a game plan"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S3",
+        "kind": "exit",
+        "time_s": 142.0,
+        "turn_id": 15,
+        "offer_id": null,
+        "terms": "I'm out with prejudice.",
+        "note": "Exits as a joke after saying he likes to leave his mark."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S2",
+        "kind": "exit",
+        "time_s": 322.0,
+        "turn_id": 36,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Believes he failed to test market demand before building the backend."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S1",
+        "kind": "exit",
+        "time_s": 350.0,
+        "turn_id": 38,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Calls the business a zero and says the product sucks."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S5",
+        "kind": "exit",
+        "time_s": 358.0,
+        "turn_id": 39,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Feels the space has too much competition to be investable."
+      },
+      {
+        "decision_id": 5,
+        "actor": "S4",
+        "kind": "exit",
+        "time_s": 411.0,
+        "turn_id": 46,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Believes the founder has too many disjointed ideas and no focused game plan."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": ""
+  }
+}

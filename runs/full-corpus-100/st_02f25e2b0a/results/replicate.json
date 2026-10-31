@@ -1,0 +1,1845 @@
+{
+  "pass": "replicate",
+  "unit_key": "panel__st_02f25e2b0a__replicate",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "1:10-1:29",
+    "1:33-2:06"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "qa",
+      "3": "qa",
+      "4": "presentation",
+      "5": "demonstration",
+      "6": "demonstration",
+      "7": "demonstration",
+      "8": "none",
+      "9": "none",
+      "10": "none",
+      "11": "qa",
+      "12": "qa",
+      "13": "qa",
+      "14": "qa",
+      "15": "qa",
+      "16": "qa",
+      "17": "qa",
+      "18": "qa",
+      "19": "qa",
+      "20": "qa",
+      "21": "social",
+      "22": "qa",
+      "23": "qa",
+      "24": "qa",
+      "25": "qa",
+      "26": "qa",
+      "27": "qa",
+      "28": "qa",
+      "29": "qa",
+      "30": "qa",
+      "31": "qa",
+      "32": "qa",
+      "33": "qa",
+      "34": "qa",
+      "35": "qa",
+      "36": "qa",
+      "37": "qa",
+      "38": "none",
+      "39": "none",
+      "40": "none",
+      "41": "none",
+      "42": "none",
+      "43": "social",
+      "44": "none",
+      "45": "none",
+      "46": "none",
+      "47": "none",
+      "48": "none",
+      "49": "none",
+      "50": "none",
+      "51": "social",
+      "52": "social"
+    },
+    "segment_seconds": {
+      "presentation": 52.0,
+      "qa": 168.0,
+      "social": 20.0,
+      "demonstration": 38.0,
+      "negotiation": 0.0,
+      "none": 149.0
+    },
+    "exchange_counts": {
+      "substantive": 7,
+      "social": 3,
+      "demonstration": 1,
+      "negotiation": 0
+    },
+    "turn_frame": {
+      "2": "unclassified",
+      "3": "unclassified",
+      "11": "unclassified",
+      "12": "NEUTRAL",
+      "13": "unclassified",
+      "14": "promotion",
+      "15": "prevention",
+      "16": "prevention",
+      "17": "promotion",
+      "18": "promotion",
+      "19": "prevention",
+      "20": "prevention",
+      "22": "prevention",
+      "23": "prevention",
+      "24": "prevention",
+      "25": "prevention",
+      "26": "prevention",
+      "27": "prevention",
+      "29": "promotion",
+      "30": "prevention",
+      "31": "NEUTRAL",
+      "32": "prevention",
+      "33": "prevention",
+      "34": "unclassified",
+      "35": "promotion",
+      "36": "promotion",
+      "37": "promotion"
+    },
+    "frame_match": {
+      "3": "unclassified",
+      "12": "unclassified",
+      "14": "unclassified",
+      "16": "match",
+      "18": "match",
+      "20": "match",
+      "23": "match",
+      "25": "match",
+      "27": "match",
+      "31": "neutral",
+      "33": "match",
+      "35": "unclassified",
+      "37": "match"
+    },
+    "other_concepts": []
+  },
+  "normalizations": [
+    "turns[2].codes PREP-COH: value 'null' dropped because missing is 'not_applicable'",
+    "turns[2].codes PREP-CTX: value 'null' dropped because missing is 'not_applicable'",
+    "turns[11].codes PREP-SUBS: value 'null' dropped because missing is 'too_short'",
+    "turns[11].codes PREP-COH: value 'null' dropped because missing is 'not_applicable'",
+    "turns[11].codes PREP-CTX: value 'null' dropped because missing is 'not_applicable'",
+    "turns[22].codes PREP-COH: value 'null' dropped because missing is 'not_applicable'",
+    "turns[22].codes PREP-CTX: value 'null' dropped because missing is 'not_applicable'",
+    "turns[24].codes PREP-COH: value 'null' dropped because missing is 'not_applicable'",
+    "turns[24].codes PREP-CTX: value 'null' dropped because missing is 'not_applicable'",
+    "turns[26].codes PREP-COH: value 'null' dropped because missing is 'not_applicable'",
+    "turns[26].codes PREP-CTX: value 'null' dropped because missing is 'not_applicable'",
+    "turns[30].codes PREP-SUBS: value 'null' dropped because missing is 'too_short'",
+    "turns[30].codes PREP-COH: value 'null' dropped because missing is 'not_applicable'",
+    "turns[30].codes PREP-CTX: value 'null' dropped because missing is 'not_applicable'",
+    "turns[32].codes PREP-COH: value 'null' dropped because missing is 'not_applicable'",
+    "turns[32].codes PREP-CTX: value 'null' dropped because missing is 'not_applicable'"
+  ],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Brenda Coffman"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Robert Herjavec"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Mark Cuban"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Barbara Corcoran"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Daymond John"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 70.0,
+        "end_s": 89.0
+      },
+      {
+        "start_s": 93.0,
+        "end_s": 126.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 52.0,
+        "kind": "interview"
+      }
+    ],
+    "gaps": [],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 5,
+        "uncodable": false,
+        "moment_s": 111.0,
+        "note": "Very strong positive expression, constant smiling and upbeat vocal tone throughout."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 5,
+        "uncodable": false,
+        "moment_s": 111.0,
+        "note": "Pronounced, sustained engagement and excitement, very animated gestures."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 5,
+        "uncodable": false,
+        "moment_s": 73.0,
+        "note": "Very strong communicated warmth, friendly and approachable demeanor."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "2",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "2",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "Retail stores selling handcrafted cookies and brownies.",
+      "primary_industry": "food_beverage",
+      "secondary_industries": [],
+      "product_form": "physical_good",
+      "customer_type": "consumer",
+      "founder_gender": "all_women",
+      "product_category": "cookies and brownies",
+      "earliest_s": 77.0,
+      "note": "The founder states they craft over 25 varieties of cookies and brownies.",
+      "ask_amount_usd": 200000,
+      "ask_equity_pct": 3.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 70.0,
+        "end_s": 89.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Introduces herself, her cookie business, and states the ask of $200k for 3% equity."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "S2",
+        "start_s": 90.0,
+        "end_s": 91.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Clarifies the equity percentage asked."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "F1",
+        "start_s": 92.0,
+        "end_s": 92.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          2
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Confirms the 3% equity ask."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "F1",
+        "start_s": 93.0,
+        "end_s": 126.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Shares her backstory of starting baking at 15 and growing the business to 12 retail locations."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "PANEL",
+        "start_s": 128.0,
+        "end_s": 140.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Sharks take plates of cookies from the founder."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "F1",
+        "start_s": 140.0,
+        "end_s": 164.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Describes the top five selling cookies she handed out to the sharks."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "S2",
+        "start_s": 164.0,
+        "end_s": 166.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Compliments the taste of the cookies."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "F1",
+        "start_s": 168.0,
+        "end_s": 171.0,
+        "function": "NONE",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Asks rhetorically when they last had something that tasted so good for under two dollars."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "S1",
+        "start_s": 172.0,
+        "end_s": 173.0,
+        "function": "NONE",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Calls the founder by her brand name to get her attention."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "F1",
+        "start_s": 173.0,
+        "end_s": 173.0,
+        "function": "NONE",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Acknowledges Kevin's call."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "S5",
+        "start_s": 173.0,
+        "end_s": 180.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks to confirm the ask of $200k for 3%."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "F1",
+        "start_s": 180.0,
+        "end_s": 181.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          11
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "NONE",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Confirms the ask amount and equity."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "S1",
+        "start_s": 181.0,
+        "end_s": 186.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Points out that the ask values the company at over $5 million."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "F1",
+        "start_s": 186.0,
+        "end_s": 194.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          13
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "partial",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Defends the valuation by stating last year's sales were $2.3 million."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "S1",
+        "start_s": 194.0,
+        "end_s": 196.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks how much profit the business made on those sales."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "F1",
+        "start_s": 196.0,
+        "end_s": 207.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          15
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Explains it was a flat year with no profit because they opened four stores in Florida."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "S4",
+        "start_s": 208.0,
+        "end_s": 210.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks why she opened so many stores at once, calling it aggressive."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "F1",
+        "start_s": 211.0,
+        "end_s": 221.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          17
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Explains the rapid expansion was necessary for logistics and branding purposes."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "S2",
+        "start_s": 222.0,
+        "end_s": 230.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks if the Florida stores are a positive or still a drag on the business."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "F1",
+        "start_s": 230.0,
+        "end_s": 242.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          19
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "partial",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Explains the Florida stores are new and they underestimated how popular they were in Indiana."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "S3",
+        "start_s": 242.0,
+        "end_s": 244.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jokes that her explanation was a nice spin."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "S2",
+        "start_s": 245.0,
+        "end_s": 248.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks to clarify if the Florida stores are losing a lot of money."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "F1",
+        "start_s": 248.0,
+        "end_s": 251.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          22
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Confirms the Florida stores are losing money in their first year."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "S2",
+        "start_s": 251.0,
+        "end_s": 252.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks for the specific amount of money the Florida stores are losing."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "F1",
+        "start_s": 252.0,
+        "end_s": 258.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          24
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "States the Florida stores are losing about $175,000."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "S3",
+        "start_s": 258.0,
+        "end_s": 260.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks if expanding to Florida was a mistake."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "F1",
+        "start_s": 260.0,
+        "end_s": 262.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          26
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "partial",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Denies it was a mistake and states she is not a quitter."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "S3",
+        "start_s": 263.0,
+        "end_s": 266.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          27
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Challenges her, saying sometimes it is bad to put good money after bad."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "F1",
+        "start_s": 266.0,
+        "end_s": 275.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          28
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "market_opportunity",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Argues the markets are wide open and they haven't captured corporate clients there yet."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "S1",
+        "start_s": 275.0,
+        "end_s": 278.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks if the business has any bank loans."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "F1",
+        "start_s": 278.0,
+        "end_s": 279.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          30
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "NONE",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Confirms that they do have bank loans."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "S1",
+        "start_s": 279.0,
+        "end_s": 280.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks for the total amount of debt the business has."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "F1",
+        "start_s": 280.0,
+        "end_s": 283.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          32
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "States the business has about $800,000 in debt."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "S1",
+        "start_s": 284.0,
+        "end_s": 296.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Challenges the valuation, saying adding debt makes the multiple astronomically high for a bakery."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "F1",
+        "start_s": 296.0,
+        "end_s": 302.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          34
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "partial",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Counters by highlighting that her bakery has done $2.5 million in sales."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "S1",
+        "start_s": 302.0,
+        "end_s": 314.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Questions the valuation again, arguing there is nothing proprietary and anyone could bake the cookies."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "F1",
+        "start_s": 315.0,
+        "end_s": 349.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          36
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Defends her business, citing the brand name, unique taste, 26 years of systems, and her hard work."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "S1",
+        "start_s": 349.0,
+        "end_s": 351.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Exits, citing the crazy valuation and lack of proprietary assets."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "F1",
+        "start_s": 352.0,
+        "end_s": 355.0,
+        "function": "accepts",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": null,
+        "responds_to": [
+          38
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Accepts Kevin's decision to exit."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "S2",
+        "start_s": 355.0,
+        "end_s": 368.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Exits, advising her to focus on her core locations instead of remote expansions."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "F1",
+        "start_s": 368.0,
+        "end_s": 371.0,
+        "function": "accepts",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": null,
+        "responds_to": [
+          40
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Accepts Robert's decision to exit."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "F1",
+        "start_s": 372.0,
+        "end_s": 396.0,
+        "function": "NONE",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Pitches to the remaining sharks, comparing herself to Mrs. Fields and emphasizing her proven operation."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "S3",
+        "start_s": 396.0,
+        "end_s": 407.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jokes that he dislikes her because the good cookies will force him to work out."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "S3",
+        "start_s": 409.0,
+        "end_s": 442.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Exits, stating her aggressive expansion has created a significant problem for an investor."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "F1",
+        "start_s": 443.0,
+        "end_s": 447.0,
+        "function": "accepts",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": null,
+        "responds_to": [
+          44
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Accepts Mark's decision to exit."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "F1",
+        "start_s": 448.0,
+        "end_s": 451.0,
+        "function": "NONE",
+        "addressed": [
+          "S4",
+          "S5"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Addresses Barbara and Daymond to see if they are interested."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "S5",
+        "start_s": 453.0,
+        "end_s": 474.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Exits, praising the cookies but finding the $9 million valuation with debt too high."
+      },
+      {
+        "turn_id": 48,
+        "speaker": "F1",
+        "start_s": 474.0,
+        "end_s": 477.0,
+        "function": "accepts",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": null,
+        "responds_to": [
+          47
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Accepts Daymond's decision and thanks him."
+      },
+      {
+        "turn_id": 49,
+        "speaker": "S4",
+        "start_s": 478.0,
+        "end_s": 512.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Exits, stating her refusal to quit the Florida mistake makes her uninvestable."
+      },
+      {
+        "turn_id": 50,
+        "speaker": "F1",
+        "start_s": 513.0,
+        "end_s": 515.0,
+        "function": "accepts",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": null,
+        "responds_to": [
+          49
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Accepts Barbara's decision to exit."
+      },
+      {
+        "turn_id": 51,
+        "speaker": "S5",
+        "start_s": 515.0,
+        "end_s": 520.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jokes that he will eat all the remaining cookies."
+      },
+      {
+        "turn_id": 52,
+        "speaker": "F1",
+        "start_s": 520.0,
+        "end_s": 522.0,
+        "function": "social",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Tells the sharks they can have all the cookies and thanks them."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "clarify the equity ask"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "demonstration",
+        "topic": "NONE",
+        "label": "handing out and eating cookies"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "valuation and sales"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "substantive",
+        "topic": "operating_efficiency",
+        "label": "profitability"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "go_to_market",
+        "label": "rapid Florida expansion"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "Florida expansion performance"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "nice spin joke"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "substantive",
+        "topic": "operating_efficiency",
+        "label": "bank debt"
+      },
+      {
+        "exchange_id": 9,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "valuation multiple and defensibility"
+      },
+      {
+        "exchange_id": 10,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "gym workout joke"
+      },
+      {
+        "exchange_id": 11,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "eating remaining cookies"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S1",
+        "kind": "exit",
+        "time_s": 349.0,
+        "turn_id": 38,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Valuation is crazy and there is nothing proprietary about the cookies."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S2",
+        "kind": "exit",
+        "time_s": 355.0,
+        "turn_id": 40,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Needs to pull in the horses and focus on the core, not remote locations."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S3",
+        "kind": "exit",
+        "time_s": 409.0,
+        "turn_id": 44,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Aggressive expansion created a significant problem, she is all in."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S5",
+        "kind": "exit",
+        "time_s": 453.0,
+        "turn_id": 47,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Valuation is too high, effectively $9 million with the debt."
+      },
+      {
+        "decision_id": 5,
+        "actor": "S4",
+        "kind": "exit",
+        "time_s": 478.0,
+        "turn_id": 49,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Big mistake opening Florida stores, her refusal to quit will work against her."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": ""
+  }
+}

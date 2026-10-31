@@ -1,0 +1,2252 @@
+{
+  "pass": "primary",
+  "unit_key": "panel__st_59772b6ee2__primary",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "1:05-2:32"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "qa",
+      "3": "qa",
+      "4": "demonstration",
+      "5": "qa",
+      "6": "qa",
+      "7": "demonstration",
+      "8": "demonstration",
+      "9": "demonstration",
+      "10": "qa",
+      "11": "qa",
+      "12": "qa",
+      "13": "qa",
+      "14": "qa",
+      "15": "qa",
+      "16": "qa",
+      "17": "qa",
+      "18": "qa",
+      "19": "qa",
+      "20": "social",
+      "21": "qa",
+      "22": "qa",
+      "23": "qa",
+      "24": "qa",
+      "25": "qa",
+      "26": "qa",
+      "27": "qa",
+      "28": "qa",
+      "29": "qa",
+      "30": "qa",
+      "31": "qa",
+      "32": "qa",
+      "33": "qa",
+      "34": "none",
+      "35": "qa",
+      "36": "qa",
+      "37": "qa",
+      "38": "none",
+      "39": "qa",
+      "40": "qa",
+      "41": "qa",
+      "42": "qa",
+      "43": "qa",
+      "44": "none",
+      "45": "none",
+      "46": "qa",
+      "47": "none",
+      "48": "qa",
+      "49": "qa",
+      "50": "qa",
+      "51": "qa",
+      "52": "negotiation",
+      "53": "negotiation",
+      "54": "none",
+      "55": "negotiation",
+      "56": "social",
+      "57": "social",
+      "58": "negotiation",
+      "59": "social",
+      "60": "none",
+      "61": "negotiation",
+      "62": "none",
+      "63": "none",
+      "64": "social",
+      "65": "social",
+      "66": "social"
+    },
+    "segment_seconds": {
+      "presentation": 87.0,
+      "qa": 287.0,
+      "social": 24.0,
+      "demonstration": 22.0,
+      "negotiation": 88.0,
+      "none": 95.0
+    },
+    "exchange_counts": {
+      "substantive": 9,
+      "social": 3,
+      "demonstration": 1,
+      "negotiation": 1
+    },
+    "turn_frame": {
+      "2": "promotion",
+      "3": "promotion",
+      "5": "prevention",
+      "6": "prevention",
+      "10": "promotion",
+      "11": "promotion",
+      "12": "promotion",
+      "13": "promotion",
+      "14": "promotion",
+      "15": "promotion",
+      "17": "promotion",
+      "18": "promotion",
+      "22": "prevention",
+      "23": "prevention",
+      "24": "promotion",
+      "25": "promotion",
+      "26": "promotion",
+      "27": "promotion",
+      "28": "promotion",
+      "29": "promotion",
+      "30": "promotion",
+      "31": "promotion",
+      "32": "promotion",
+      "33": "promotion",
+      "35": "unclassified",
+      "36": "unclassified",
+      "37": "unclassified",
+      "40": "unclassified",
+      "41": "unclassified",
+      "43": "unclassified",
+      "48": "unclassified",
+      "49": "unclassified",
+      "50": "promotion"
+    },
+    "frame_match": {
+      "3": "match",
+      "6": "match",
+      "11": "match",
+      "13": "match",
+      "15": "match",
+      "18": "match",
+      "23": "match",
+      "25": "match",
+      "27": "match",
+      "29": "match",
+      "31": "match",
+      "33": "match",
+      "37": "unclassified",
+      "41": "unclassified",
+      "49": "unclassified",
+      "50": "unclassified"
+    },
+    "other_concepts": []
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "James Martin"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Daymond John"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Mark Cuban"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Robert Herjavec"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Barbara Corcoran"
+      },
+      {
+        "actor_id": "H1",
+        "role": "host",
+        "label": "Narrator"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 65.0,
+        "end_s": 152.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 64.0,
+        "kind": "teaser"
+      },
+      {
+        "start_s": 684.0,
+        "end_s": 732.0,
+        "kind": "recap"
+      }
+    ],
+    "gaps": [],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 77.0,
+        "note": "Founder speaks with a warm smile, open gestures, and clear enthusiasm about his wine."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 104.0,
+        "note": "Sustained engagement and excitement as he describes the revolutionary packaging and stadium potential."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 3,
+        "uncodable": false,
+        "moment_s": 118.0,
+        "note": "He is friendly and approachable, smiling while he toasts the panel, but mostly professional."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "0",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "A premium wine packaged in a single-serve, ready-to-drink glass designed for stadiums, events, and retail.",
+      "primary_industry": "food_beverage",
+      "secondary_industries": [],
+      "product_form": "physical_good",
+      "customer_type": "both",
+      "founder_gender": "all_men",
+      "product_category": "single-serve wine",
+      "earliest_s": 65.0,
+      "note": "",
+      "ask_amount_usd": 600000,
+      "ask_equity_pct": 20.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 65.0,
+        "end_s": 152.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The founder introduces Copa Di Vino, a premium wine by the glass, seeking investment to expand inventory for retailers and stadiums."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "S2",
+        "start_s": 152.0,
+        "end_s": 159.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks if the founder is selling a packaging system or entering the competitive wine business."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "F1",
+        "start_s": 159.0,
+        "end_s": 171.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          2
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder confirms he has a winery, producing cases annually, and has sold into numerous states through large distributors."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "F1",
+        "start_s": 171.0,
+        "end_s": 179.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The founder hands out samples of the packaged wine to the investors."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "S3",
+        "start_s": 179.0,
+        "end_s": 183.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks if the founder grows his own grapes for the wine."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "F1",
+        "start_s": 183.0,
+        "end_s": 186.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          5
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder clarifies that he buys fruit from friends who own vineyards."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "PANEL",
+        "start_s": 186.0,
+        "end_s": 193.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The panel and founder toast and taste the wine samples."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "F1",
+        "start_s": 193.0,
+        "end_s": 197.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The founder asks if it was the easiest glass of wine they have ever served themselves."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "S4",
+        "start_s": 197.0,
+        "end_s": 200.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert notes that the seal is a little hard to take off."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "S4",
+        "start_s": 201.0,
+        "end_s": 206.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks whether he would be buying into a wine label or a packaging system."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "F1",
+        "start_s": 206.0,
+        "end_s": 219.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          10
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder explains there are three revenue streams: licensing, industry bottling, and their own consumer brand."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "S4",
+        "start_s": 219.0,
+        "end_s": 222.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks which of the three revenue streams are currently bringing in sales."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "F1",
+        "start_s": 222.0,
+        "end_s": 225.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          12
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder states that their own consumer brand is currently generating the sales."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "S4",
+        "start_s": 225.0,
+        "end_s": 227.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks what the current sales figures are for the consumer brand."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "F1",
+        "start_s": 227.0,
+        "end_s": 234.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          14
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder shares they have half a million in sales and significant pending orders in five months."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "S5",
+        "start_s": 234.0,
+        "end_s": 236.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara expresses positive surprise at the quick sales growth."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "S4",
+        "start_s": 236.0,
+        "end_s": 239.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert seeks to confirm that customers buy the wine primarily because it is easy to carry."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "F1",
+        "start_s": 239.0,
+        "end_s": 244.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          17
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder agrees but adds that customers are also getting a good quality product."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "S2",
+        "start_s": 244.0,
+        "end_s": 248.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin argues the product is not premium wine but rather industrial wine."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "S5",
+        "start_s": 248.0,
+        "end_s": 251.0,
+        "function": "social",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara teases Kevin, calling him a wine snob."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "S2",
+        "start_s": 251.0,
+        "end_s": 257.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin reiterates he wouldn't buy the wine, asserting the true value is in the mass-market packaging play."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "S1",
+        "start_s": 257.0,
+        "end_s": 260.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Daymond asks how long the wine stays fresh while sitting on a shelf."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "F1",
+        "start_s": 260.0,
+        "end_s": 271.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          22
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder explains the packaging extends the typically short shelf life of small amounts to a full year."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "S2",
+        "start_s": 271.0,
+        "end_s": 273.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks if the founder has patented the packaging system."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "F1",
+        "start_s": 273.0,
+        "end_s": 288.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          24
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder confirms the patent, describing the atmospheric packaging technology developed with top laboratories."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "S1",
+        "start_s": 288.0,
+        "end_s": 289.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Daymond asks where the product is currently being sold."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "F1",
+        "start_s": 289.0,
+        "end_s": 294.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          26
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder lists major retail chains they are selling to or in discussions with."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "S4",
+        "start_s": 294.0,
+        "end_s": 302.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks why they don't just license the packaging to major wineries instead of being in the wine business."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "F1",
+        "start_s": 302.0,
+        "end_s": 306.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          28
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder states they are already working on projects with two of the largest global wine companies."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "S4",
+        "start_s": 306.0,
+        "end_s": 309.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "forecast",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks how much money the founder expects to make from those licensing deals."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "F1",
+        "start_s": 309.0,
+        "end_s": 313.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          30
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "forecast",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder estimates three to five million dollars in sales for the following year."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "S2",
+        "start_s": 313.0,
+        "end_s": 325.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks why they aren't marketing the patent asset directly to large packaging companies instead of bottling."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "F1",
+        "start_s": 325.0,
+        "end_s": 344.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          32
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "4",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder explains the wine industry needs proof of concept and prefers to outsource this specialized packaging process."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "S1",
+        "start_s": 344.0,
+        "end_s": 354.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond states the venture is too early for him and exits the deal."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "S4",
+        "start_s": 354.0,
+        "end_s": 361.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks if it is possible to separate the patent from the rest of the business."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "S2",
+        "start_s": 361.0,
+        "end_s": 374.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin also asks if they can pull the licensing IP apart from the wine company."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "F1",
+        "start_s": 374.0,
+        "end_s": 394.0,
+        "function": "answer",
+        "addressed": [
+          "S2",
+          "S4"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          35,
+          36
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder agrees they can be separated and invites the investors to propose a valuation and structure."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "F1",
+        "start_s": 394.0,
+        "end_s": 400.0,
+        "function": "NONE",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The founder attempts to pivot the conversation to Mark's stadium attendance."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "S3",
+        "start_s": 400.0,
+        "end_s": 410.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark acknowledges he could be a customer but states he does not want to be in commission sales."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "S2",
+        "start_s": 410.0,
+        "end_s": 420.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks how much of the IP company and bottler he could own for the requested investment amount."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "F1",
+        "start_s": 420.0,
+        "end_s": 423.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          40
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "1",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder offers the original twenty percent equity stake."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "S2",
+        "start_s": 423.0,
+        "end_s": 426.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin immediately states that twenty percent is not enough equity."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "F1",
+        "start_s": 426.0,
+        "end_s": 434.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          42
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "deflects",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder argues that Kevin has already devalued the brand portion to zero."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "S4",
+        "start_s": 434.0,
+        "end_s": 454.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert explains he doesn't want to build a wine brand or split the company, so he exits."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "S5",
+        "start_s": 454.0,
+        "end_s": 463.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara states she cannot bring any additional value to the table and exits."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "S2",
+        "start_s": 464.0,
+        "end_s": 474.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin asserts that the real value and business opportunity lies entirely in the packaging IP."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "F1",
+        "start_s": 474.0,
+        "end_s": 476.0,
+        "function": "NONE",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The founder briefly acknowledges Kevin's point."
+      },
+      {
+        "turn_id": 48,
+        "speaker": "S2",
+        "start_s": 476.0,
+        "end_s": 486.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin presses the founder to focus on selling the IP and asks how much he can buy for the requested amount."
+      },
+      {
+        "turn_id": 49,
+        "speaker": "F1",
+        "start_s": 486.0,
+        "end_s": 498.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          48
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder states he is not ready to give away his competitive advantages to another entity."
+      },
+      {
+        "turn_id": 50,
+        "speaker": "F1",
+        "start_s": 500.0,
+        "end_s": 513.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          48
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "partial",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "forecast",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder elaborates that the financial opportunity lies more in the bottling side than just the IP."
+      },
+      {
+        "turn_id": 51,
+        "speaker": "S4",
+        "start_s": 513.0,
+        "end_s": 515.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert briefly acknowledges the founder's point."
+      },
+      {
+        "turn_id": 52,
+        "speaker": "S2",
+        "start_s": 515.0,
+        "end_s": 544.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin offers for a majority stake in just the IP, planning to license it while the founder runs the brand."
+      },
+      {
+        "turn_id": 53,
+        "speaker": "F1",
+        "start_s": 544.0,
+        "end_s": 549.0,
+        "function": "negotiates",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The founder argues the overall opportunity is much greater than Kevin's offer suggests."
+      },
+      {
+        "turn_id": 54,
+        "speaker": "S3",
+        "start_s": 549.0,
+        "end_s": 565.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark states Kevin's deal is better than what he would offer and exits."
+      },
+      {
+        "turn_id": 55,
+        "speaker": "F1",
+        "start_s": 565.0,
+        "end_s": 576.0,
+        "function": "negotiates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The founder attempts to further explain his vision and the value of keeping the business integrated."
+      },
+      {
+        "turn_id": 56,
+        "speaker": "S4",
+        "start_s": 576.0,
+        "end_s": 580.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert advises the founder to stop selling since he already has an offer."
+      },
+      {
+        "turn_id": 57,
+        "speaker": "S2",
+        "start_s": 580.0,
+        "end_s": 585.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin jokes that he is a dream come true for the founder."
+      },
+      {
+        "turn_id": 58,
+        "speaker": "F1",
+        "start_s": 585.0,
+        "end_s": 622.0,
+        "function": "negotiates",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The founder defends keeping the special sauce integrated, citing significant personal investment and large pending contracts."
+      },
+      {
+        "turn_id": 59,
+        "speaker": "S1",
+        "start_s": 622.0,
+        "end_s": 624.0,
+        "function": "social",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond jokingly asks if Kevin will ever get a direct answer to his offer."
+      },
+      {
+        "turn_id": 60,
+        "speaker": "F1",
+        "start_s": 624.0,
+        "end_s": 626.0,
+        "function": "decides",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The founder explicitly rejects Kevin's offer."
+      },
+      {
+        "turn_id": 61,
+        "speaker": "S2",
+        "start_s": 626.0,
+        "end_s": 632.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin asks the founder to counter his offer for the majority stake."
+      },
+      {
+        "turn_id": 62,
+        "speaker": "F1",
+        "start_s": 632.0,
+        "end_s": 634.0,
+        "function": "decides",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The founder counters with a significantly higher valuation for the requested equity."
+      },
+      {
+        "turn_id": 63,
+        "speaker": "S2",
+        "start_s": 634.0,
+        "end_s": 662.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin withdraws his offer and exits, criticizing the founder for walking away from the opportunity."
+      },
+      {
+        "turn_id": 64,
+        "speaker": "S3",
+        "start_s": 662.0,
+        "end_s": 664.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 14,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark comments critically on the founder's handling of the negotiation."
+      },
+      {
+        "turn_id": 65,
+        "speaker": "S2",
+        "start_s": 664.0,
+        "end_s": 666.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 14,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin agrees with Mark's critical assessment."
+      },
+      {
+        "turn_id": 66,
+        "speaker": "F1",
+        "start_s": 666.0,
+        "end_s": 672.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 14,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The founder toasts the panel and thanks them before leaving."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "substantive",
+        "topic": "go_to_market",
+        "label": "selling packaging vs wine"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "demonstration",
+        "topic": "NONE",
+        "label": "tasting and handling"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "grape sourcing"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "revenue streams and sales"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "usage",
+        "label": "reason for buying"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "wine quality and shelf life"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "wine snob tease"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "substantive",
+        "topic": "assets",
+        "label": "packaging patents"
+      },
+      {
+        "exchange_id": 9,
+        "kind": "substantive",
+        "topic": "go_to_market",
+        "label": "licensing to major brands"
+      },
+      {
+        "exchange_id": 10,
+        "kind": "substantive",
+        "topic": "forecast",
+        "label": "licensing revenue estimates"
+      },
+      {
+        "exchange_id": 11,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "separating IP from wine"
+      },
+      {
+        "exchange_id": 12,
+        "kind": "negotiation",
+        "topic": "NONE",
+        "label": "negotiating IP buyout"
+      },
+      {
+        "exchange_id": 13,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "stop selling advice"
+      },
+      {
+        "exchange_id": 14,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "closing remarks"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S1",
+        "kind": "exit",
+        "time_s": 344.0,
+        "turn_id": 34,
+        "offer_id": null,
+        "terms": "out",
+        "note": "Too early for him; pioneers get slaughtered."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S4",
+        "kind": "exit",
+        "time_s": 434.0,
+        "turn_id": 44,
+        "offer_id": null,
+        "terms": "out",
+        "note": "Does not want to build a wine brand or split the company."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S5",
+        "kind": "exit",
+        "time_s": 454.0,
+        "turn_id": 45,
+        "offer_id": null,
+        "terms": "out",
+        "note": "Feels she cannot bring anything to the table."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S2",
+        "kind": "offer",
+        "time_s": 515.0,
+        "turn_id": 52,
+        "offer_id": "O1",
+        "terms": "$600,000 for 51% of the IP",
+        "note": "Wants majority control of the IP to license it, leaving the brand to the founder."
+      },
+      {
+        "decision_id": 5,
+        "actor": "S3",
+        "kind": "exit",
+        "time_s": 549.0,
+        "turn_id": 54,
+        "offer_id": null,
+        "terms": "out",
+        "note": "Believes Kevin's deal is far better than anything he would offer."
+      },
+      {
+        "decision_id": 6,
+        "actor": "F1",
+        "kind": "founder_rejects",
+        "time_s": 624.0,
+        "turn_id": 60,
+        "offer_id": "O1",
+        "terms": "no",
+        "note": "Refuses to give up control of the special sauce."
+      },
+      {
+        "decision_id": 7,
+        "actor": "F1",
+        "kind": "founder_counters",
+        "time_s": 632.0,
+        "turn_id": 62,
+        "offer_id": "O1",
+        "terms": "$3,000,000 for 51%",
+        "note": "Significantly increases the valuation for the requested equity."
+      },
+      {
+        "decision_id": 8,
+        "actor": "S2",
+        "kind": "exit",
+        "time_s": 634.0,
+        "turn_id": 63,
+        "offer_id": null,
+        "terms": "out",
+        "note": "Rejects the counter and criticizes the founder for losing the opportunity."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": "The pitch includes an extended negotiation about separating the IP from the wine brand."
+  }
+}

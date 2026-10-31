@@ -1,0 +1,47 @@
+# Python dependencies for entrepreneurship-pitch-interaction
+#
+# Install with:
+#   pip install -r requirements.txt
+#
+# Everything else data/hu-ma/video_downloader.py uses (argparse, csv,
+# subprocess, sys, pathlib) ships with Python 3 — no install needed.
+
+# Video downloader CLI invoked as a subprocess by data/hu-ma/video_downloader.py.
+# Left unpinned on purpose: YouTube/Vimeo break older releases constantly, and the
+# --js-runtimes / --remote-components flags used by the script need a recent
+# (2025.11 or newer) build. Re-run `pip install -U yt-dlp` when downloads start failing.
+yt-dlp
+
+# --- Non-pip prerequisites -------------------------------------------------
+# These cannot be installed by pip; install them separately:
+#
+#   Node.js   required by `--js-runtimes node` (solves YouTube's JS challenges).
+#             macOS: brew install node
+#
+#   ffmpeg    required by the default format selector `bv*+ba/b`, which downloads
+#             video and audio streams separately and merges them.
+#             macOS: brew install ffmpeg
+
+# --- Annotation pipeline ---------------------------------------------------
+pydantic>=2.7
+PyYAML>=6.0
+Jinja2>=3.1
+google-genai>=1.0
+python-dotenv>=1.0
+pandas>=2.2
+pyarrow>=16.0
+tqdm>=4.66
+
+# Dev / test
+pytest>=8.0
+jupytext>=1.16
+
+# Notebooks (notebooks/, analysis/) — not needed to run the pipeline itself
+matplotlib>=3.8
+scipy>=1.13          # analysis/hu_ma_funding.py: rank correlations, Mann-Whitney, normal tail
+statsmodels>=0.14    # analysis/hu_ma_funding.py: logit with average marginal effects
+ipykernel>=6.29
+
+# Execute and browse saved notebooks
+nbclient>=0.10
+ipywidgets>=8.1

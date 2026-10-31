@@ -1,0 +1,48 @@
+{
+  "batch_id": "b26",
+  "video_ids": [
+    "st_ae6818450d",
+    "st_a96ea0efc1",
+    "st_05bb42aa6d",
+    "st_66a79fb6e4",
+    "st_651ceffedb"
+  ],
+  "labels": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "rankings": {
+    "pitch_positivity": [
+      "st_ae6818450d",
+      "st_66a79fb6e4",
+      "st_651ceffedb",
+      "st_a96ea0efc1",
+      "st_05bb42aa6d"
+    ],
+    "expressed_enthusiasm": [
+      "st_ae6818450d",
+      "st_651ceffedb",
+      "st_66a79fb6e4",
+      "st_a96ea0efc1",
+      "st_05bb42aa6d"
+    ],
+    "interpersonal_warmth": [
+      "st_66a79fb6e4",
+      "st_a96ea0efc1",
+      "st_ae6818450d",
+      "st_05bb42aa6d",
+      "st_651ceffedb"
+    ]
+  },
+  "notes": {
+    "pitch_positivity": "A and D were close, but A's boisterous, high-energy delivery shows slightly more overall positivity than D's cheerful pitch, while C is the most stiff.",
+    "expressed_enthusiasm": "A and E were close in high energy, but A maintains a slightly more continuous excitement about the product, whereas C is the most subdued.",
+    "interpersonal_warmth": "D and B were close, but D's sweet family dynamic conveys slightly more warmth than B's puppy presentation, while E's aggressive tricks show the least."
+  },
+  "batch_notes": "",
+  "model_version": "gemini-3.1-pro-preview",
+  "prompt_hash": "83d1721df059bb52"
+}

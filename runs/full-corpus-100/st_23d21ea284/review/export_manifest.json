@@ -1,0 +1,455 @@
+{
+  "videos": {
+    "st_23d21ea284": {
+      "video_id": "st_23d21ea284",
+      "sheet": "st_23d21ea284__review.csv",
+      "release_id": "v3-dev9",
+      "annotation_context": "descriptive_full_context",
+      "seed": 20261013,
+      "sample_unflagged": null,
+      "max_flagged": null,
+      "preset": "exchange",
+      "field_classes": null,
+      "blind": true,
+      "pass": "primary",
+      "primary_sha256": "62391aca7ed1e9f72c64c564400d7a3cff5e5ef665e11d8f6985403adfff0cf2",
+      "replicate_sha256": "be3dc39a26cc87d882000c6435fa83de057feaecca9089d728065cae3a01a7ca",
+      "counts": {
+        "by_field_class": {
+          "turn_code": 24,
+          "cut": 1
+        },
+        "by_selection": {
+          "flagged": 0,
+          "sampled": 25
+        },
+        "by_priority": {
+          "1": 25,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "by_reason": {
+          "passes_differ": 4
+        }
+      },
+      "flagged": null,
+      "sample": {
+        "seed": 20261013,
+        "key": "st_23d21ea284",
+        "requested": {
+          "stage_a": 0,
+          "exchanges": 0,
+          "qa": 4,
+          "venture": 0,
+          "qa_codes": [
+            [
+              "question",
+              "PR-CONCEPT"
+            ],
+            [
+              "question",
+              "PR-SEV"
+            ],
+            [
+              "answer",
+              "RS-RESP"
+            ],
+            [
+              "answer",
+              "RS-EVID"
+            ],
+            [
+              "answer",
+              "PREP-SUBS"
+            ],
+            [
+              "answer",
+              "PREP-COH"
+            ]
+          ]
+        },
+        "drawn": {
+          "pitch": [
+            "first_decision"
+          ],
+          "venture": [],
+          "stage_a": [],
+          "exchanges": [],
+          "qa": [
+            [
+              4,
+              5
+            ],
+            [
+              14,
+              15
+            ],
+            [
+              17,
+              18
+            ],
+            [
+              29,
+              30
+            ]
+          ]
+        },
+        "available": {
+          "venture": 4,
+          "stage_a": 3,
+          "exchanges": 10,
+          "qa": 12
+        },
+        "qa_before_cut": true,
+        "on_sheet": {
+          "turn_code": 24,
+          "cut": 1
+        },
+        "population": {
+          "turn_code": 72,
+          "exchange_topic": 10,
+          "stage_a": 3,
+          "venture": 4,
+          "cut": 1
+        }
+      },
+      "unflagged": null,
+      "rows": [
+        {
+          "path": "pitch:first_decision",
+          "field_class": "cut",
+          "clock_start": null,
+          "clock_end": null,
+          "context": "the pitch: S1 exit@6:19, S5 exit@6:31, S2 exit@7:06, S3 exit@7:20, S4 exit@7:48",
+          "blind_context": "the pitch: When is the first decision spoken?",
+          "primary": "6:19",
+          "replicate": "6:19",
+          "reasons": [],
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:4/code:PR-CONCEPT",
+          "field_class": "turn_code",
+          "clock_start": "2:38",
+          "clock_end": "2:39",
+          "context": "question turn 4 (2:38-2:39) S3 (Daymond John): S3 asks how the founder came up with the idea for the product. -> answer turn 5 (2:39-3:33) F1 (Dr. Staci Whitman): F1 explains she saw plastic waste at a dental conference and wanted a better option for her patients.",
+          "primary": "self_promotion",
+          "replicate": "self_promotion",
+          "reasons": [],
+          "blind_context": "question turn 4 (2:38-2:39) S3 (Daymond John): S3 asks how the founder came up with the idea for the product. -> answer turn 5 (2:39-3:33) F1 (Dr. Staci Whitman): F1 explains she saw plastic waste at a dental conference and wanted a better option for her patients.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:4/code:PR-SEV",
+          "field_class": "turn_code",
+          "clock_start": "2:38",
+          "clock_end": "2:39",
+          "context": "question turn 4 (2:38-2:39) S3 (Daymond John): S3 asks how the founder came up with the idea for the product. -> answer turn 5 (2:39-3:33) F1 (Dr. Staci Whitman): F1 explains she saw plastic waste at a dental conference and wanted a better option for her patients.",
+          "primary": "1",
+          "replicate": "1",
+          "reasons": [],
+          "blind_context": "question turn 4 (2:38-2:39) S3 (Daymond John): S3 asks how the founder came up with the idea for the product. -> answer turn 5 (2:39-3:33) F1 (Dr. Staci Whitman): F1 explains she saw plastic waste at a dental conference and wanted a better option for her patients.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:5/code:PREP-COH",
+          "field_class": "turn_code",
+          "clock_start": "2:39",
+          "clock_end": "3:33",
+          "context": "question turn 4 (2:38-2:39) S3 (Daymond John): S3 asks how the founder came up with the idea for the product. -> answer turn 5 (2:39-3:33) F1 (Dr. Staci Whitman): F1 explains she saw plastic waste at a dental conference and wanted a better option for her patients.",
+          "primary": "4",
+          "replicate": null,
+          "reasons": [],
+          "blind_context": "question turn 4 (2:38-2:39) S3 (Daymond John): S3 asks how the founder came up with the idea for the product. -> answer turn 5 (2:39-3:33) F1 (Dr. Staci Whitman): F1 explains she saw plastic waste at a dental conference and wanted a better option for her patients.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:5/code:PREP-SUBS",
+          "field_class": "turn_code",
+          "clock_start": "2:39",
+          "clock_end": "3:33",
+          "context": "question turn 4 (2:38-2:39) S3 (Daymond John): S3 asks how the founder came up with the idea for the product. -> answer turn 5 (2:39-3:33) F1 (Dr. Staci Whitman): F1 explains she saw plastic waste at a dental conference and wanted a better option for her patients.",
+          "primary": "4",
+          "replicate": null,
+          "reasons": [],
+          "blind_context": "question turn 4 (2:38-2:39) S3 (Daymond John): S3 asks how the founder came up with the idea for the product. -> answer turn 5 (2:39-3:33) F1 (Dr. Staci Whitman): F1 explains she saw plastic waste at a dental conference and wanted a better option for her patients.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:5/code:RS-EVID",
+          "field_class": "turn_code",
+          "clock_start": "2:39",
+          "clock_end": "3:33",
+          "context": "question turn 4 (2:38-2:39) S3 (Daymond John): S3 asks how the founder came up with the idea for the product. -> answer turn 5 (2:39-3:33) F1 (Dr. Staci Whitman): F1 explains she saw plastic waste at a dental conference and wanted a better option for her patients.",
+          "primary": "true",
+          "replicate": null,
+          "reasons": [],
+          "blind_context": "question turn 4 (2:38-2:39) S3 (Daymond John): S3 asks how the founder came up with the idea for the product. -> answer turn 5 (2:39-3:33) F1 (Dr. Staci Whitman): F1 explains she saw plastic waste at a dental conference and wanted a better option for her patients.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:5/code:RS-RESP",
+          "field_class": "turn_code",
+          "clock_start": "2:39",
+          "clock_end": "3:33",
+          "context": "question turn 4 (2:38-2:39) S3 (Daymond John): S3 asks how the founder came up with the idea for the product. -> answer turn 5 (2:39-3:33) F1 (Dr. Staci Whitman): F1 explains she saw plastic waste at a dental conference and wanted a better option for her patients.",
+          "primary": "addresses",
+          "replicate": null,
+          "reasons": [],
+          "blind_context": "question turn 4 (2:38-2:39) S3 (Daymond John): S3 asks how the founder came up with the idea for the product. -> answer turn 5 (2:39-3:33) F1 (Dr. Staci Whitman): F1 explains she saw plastic waste at a dental conference and wanted a better option for her patients.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:14/code:PR-CONCEPT",
+          "field_class": "turn_code",
+          "clock_start": "4:44",
+          "clock_end": "4:46",
+          "context": "question turn 14 (4:44-4:46) S4 (Mark Cuban): S4 asks where she is currently selling the product or if she is selling it yet. -> answer turn 15 (4:46-4:52) F1 (Dr. Staci Whitman): F1 confirms she is not selling yet and needs manufacturing to get the product on shelves.",
+          "primary": "sales",
+          "replicate": null,
+          "reasons": [],
+          "blind_context": "question turn 14 (4:44-4:46) S4 (Mark Cuban): S4 asks where she is currently selling the product or if she is selling it yet. -> answer turn 15 (4:46-4:52) F1 (Dr. Staci Whitman): F1 confirms she is not selling yet and needs manufacturing to get the product on shelves.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:14/code:PR-SEV",
+          "field_class": "turn_code",
+          "clock_start": "4:44",
+          "clock_end": "4:46",
+          "context": "question turn 14 (4:44-4:46) S4 (Mark Cuban): S4 asks where she is currently selling the product or if she is selling it yet. -> answer turn 15 (4:46-4:52) F1 (Dr. Staci Whitman): F1 confirms she is not selling yet and needs manufacturing to get the product on shelves.",
+          "primary": "1",
+          "replicate": null,
+          "reasons": [],
+          "blind_context": "question turn 14 (4:44-4:46) S4 (Mark Cuban): S4 asks where she is currently selling the product or if she is selling it yet. -> answer turn 15 (4:46-4:52) F1 (Dr. Staci Whitman): F1 confirms she is not selling yet and needs manufacturing to get the product on shelves.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:15/code:PREP-COH",
+          "field_class": "turn_code",
+          "clock_start": "4:46",
+          "clock_end": "4:52",
+          "context": "question turn 14 (4:44-4:46) S4 (Mark Cuban): S4 asks where she is currently selling the product or if she is selling it yet. -> answer turn 15 (4:46-4:52) F1 (Dr. Staci Whitman): F1 confirms she is not selling yet and needs manufacturing to get the product on shelves.",
+          "primary": "4",
+          "replicate": "4",
+          "reasons": [],
+          "blind_context": "question turn 14 (4:44-4:46) S4 (Mark Cuban): S4 asks where she is currently selling the product or if she is selling it yet. -> answer turn 15 (4:46-4:52) F1 (Dr. Staci Whitman): F1 confirms she is not selling yet and needs manufacturing to get the product on shelves.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:15/code:PREP-SUBS",
+          "field_class": "turn_code",
+          "clock_start": "4:46",
+          "clock_end": "4:52",
+          "context": "question turn 14 (4:44-4:46) S4 (Mark Cuban): S4 asks where she is currently selling the product or if she is selling it yet. -> answer turn 15 (4:46-4:52) F1 (Dr. Staci Whitman): F1 confirms she is not selling yet and needs manufacturing to get the product on shelves.",
+          "primary": "2",
+          "replicate": "3",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 14 (4:44-4:46) S4 (Mark Cuban): S4 asks where she is currently selling the product or if she is selling it yet. -> answer turn 15 (4:46-4:52) F1 (Dr. Staci Whitman): F1 confirms she is not selling yet and needs manufacturing to get the product on shelves.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:15/code:RS-EVID",
+          "field_class": "turn_code",
+          "clock_start": "4:46",
+          "clock_end": "4:52",
+          "context": "question turn 14 (4:44-4:46) S4 (Mark Cuban): S4 asks where she is currently selling the product or if she is selling it yet. -> answer turn 15 (4:46-4:52) F1 (Dr. Staci Whitman): F1 confirms she is not selling yet and needs manufacturing to get the product on shelves.",
+          "primary": "false",
+          "replicate": "false",
+          "reasons": [],
+          "blind_context": "question turn 14 (4:44-4:46) S4 (Mark Cuban): S4 asks where she is currently selling the product or if she is selling it yet. -> answer turn 15 (4:46-4:52) F1 (Dr. Staci Whitman): F1 confirms she is not selling yet and needs manufacturing to get the product on shelves.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:15/code:RS-RESP",
+          "field_class": "turn_code",
+          "clock_start": "4:46",
+          "clock_end": "4:52",
+          "context": "question turn 14 (4:44-4:46) S4 (Mark Cuban): S4 asks where she is currently selling the product or if she is selling it yet. -> answer turn 15 (4:46-4:52) F1 (Dr. Staci Whitman): F1 confirms she is not selling yet and needs manufacturing to get the product on shelves.",
+          "primary": "addresses",
+          "replicate": "addresses",
+          "reasons": [],
+          "blind_context": "question turn 14 (4:44-4:46) S4 (Mark Cuban): S4 asks where she is currently selling the product or if she is selling it yet. -> answer turn 15 (4:46-4:52) F1 (Dr. Staci Whitman): F1 confirms she is not selling yet and needs manufacturing to get the product on shelves.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:17/code:PR-CONCEPT",
+          "field_class": "turn_code",
+          "clock_start": "4:56",
+          "clock_end": "4:58",
+          "context": "question turn 17 (4:56-4:58) S5 (Lori Greiner): S5 notes S1's point and asks if F1 has a patent for the product. -> answer turn 18 (4:58-5:02) F1 (Dr. Staci Whitman): F1 answers that she has utility patents pending in the US, Europe, and Canada.",
+          "primary": "assets",
+          "replicate": "assets",
+          "reasons": [],
+          "blind_context": "question turn 17 (4:56-4:58) S5 (Lori Greiner): S5 notes S1's point and asks if F1 has a patent for the product. -> answer turn 18 (4:58-5:02) F1 (Dr. Staci Whitman): F1 answers that she has utility patents pending in the US, Europe, and Canada.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:17/code:PR-SEV",
+          "field_class": "turn_code",
+          "clock_start": "4:56",
+          "clock_end": "4:58",
+          "context": "question turn 17 (4:56-4:58) S5 (Lori Greiner): S5 notes S1's point and asks if F1 has a patent for the product. -> answer turn 18 (4:58-5:02) F1 (Dr. Staci Whitman): F1 answers that she has utility patents pending in the US, Europe, and Canada.",
+          "primary": "1",
+          "replicate": "1",
+          "reasons": [],
+          "blind_context": "question turn 17 (4:56-4:58) S5 (Lori Greiner): S5 notes S1's point and asks if F1 has a patent for the product. -> answer turn 18 (4:58-5:02) F1 (Dr. Staci Whitman): F1 answers that she has utility patents pending in the US, Europe, and Canada.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:18/code:PREP-COH",
+          "field_class": "turn_code",
+          "clock_start": "4:58",
+          "clock_end": "5:02",
+          "context": "question turn 17 (4:56-4:58) S5 (Lori Greiner): S5 notes S1's point and asks if F1 has a patent for the product. -> answer turn 18 (4:58-5:02) F1 (Dr. Staci Whitman): F1 answers that she has utility patents pending in the US, Europe, and Canada.",
+          "primary": "4",
+          "replicate": "4",
+          "reasons": [],
+          "blind_context": "question turn 17 (4:56-4:58) S5 (Lori Greiner): S5 notes S1's point and asks if F1 has a patent for the product. -> answer turn 18 (4:58-5:02) F1 (Dr. Staci Whitman): F1 answers that she has utility patents pending in the US, Europe, and Canada.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:18/code:PREP-SUBS",
+          "field_class": "turn_code",
+          "clock_start": "4:58",
+          "clock_end": "5:02",
+          "context": "question turn 17 (4:56-4:58) S5 (Lori Greiner): S5 notes S1's point and asks if F1 has a patent for the product. -> answer turn 18 (4:58-5:02) F1 (Dr. Staci Whitman): F1 answers that she has utility patents pending in the US, Europe, and Canada.",
+          "primary": "2",
+          "replicate": "3",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 17 (4:56-4:58) S5 (Lori Greiner): S5 notes S1's point and asks if F1 has a patent for the product. -> answer turn 18 (4:58-5:02) F1 (Dr. Staci Whitman): F1 answers that she has utility patents pending in the US, Europe, and Canada.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:18/code:RS-EVID",
+          "field_class": "turn_code",
+          "clock_start": "4:58",
+          "clock_end": "5:02",
+          "context": "question turn 17 (4:56-4:58) S5 (Lori Greiner): S5 notes S1's point and asks if F1 has a patent for the product. -> answer turn 18 (4:58-5:02) F1 (Dr. Staci Whitman): F1 answers that she has utility patents pending in the US, Europe, and Canada.",
+          "primary": "true",
+          "replicate": "true",
+          "reasons": [],
+          "blind_context": "question turn 17 (4:56-4:58) S5 (Lori Greiner): S5 notes S1's point and asks if F1 has a patent for the product. -> answer turn 18 (4:58-5:02) F1 (Dr. Staci Whitman): F1 answers that she has utility patents pending in the US, Europe, and Canada.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:18/code:RS-RESP",
+          "field_class": "turn_code",
+          "clock_start": "4:58",
+          "clock_end": "5:02",
+          "context": "question turn 17 (4:56-4:58) S5 (Lori Greiner): S5 notes S1's point and asks if F1 has a patent for the product. -> answer turn 18 (4:58-5:02) F1 (Dr. Staci Whitman): F1 answers that she has utility patents pending in the US, Europe, and Canada.",
+          "primary": "addresses",
+          "replicate": "addresses",
+          "reasons": [],
+          "blind_context": "question turn 17 (4:56-4:58) S5 (Lori Greiner): S5 notes S1's point and asks if F1 has a patent for the product. -> answer turn 18 (4:58-5:02) F1 (Dr. Staci Whitman): F1 answers that she has utility patents pending in the US, Europe, and Canada.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:29/code:PR-CONCEPT",
+          "field_class": "turn_code",
+          "clock_start": "6:11",
+          "clock_end": "6:13",
+          "context": "question turn 29 (6:11-6:13) S1 (Kevin O'Leary): S1 expresses disbelief that a dentist would not know the three main suppliers. -> answer turn 30 (6:13-6:18) F1 (Dr. Staci Whitman): F1 explains that those suppliers are not interested in a direct-to-consumer product.",
+          "primary": "team_capabilities",
+          "replicate": "go_to_market",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 29 (6:11-6:13) S1 (Kevin O'Leary): S1 expresses disbelief that a dentist would not know the three main suppliers. -> answer turn 30 (6:13-6:18) F1 (Dr. Staci Whitman): F1 explains that those suppliers are not interested in a direct-to-consumer product.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:29/code:PR-SEV",
+          "field_class": "turn_code",
+          "clock_start": "6:11",
+          "clock_end": "6:13",
+          "context": "question turn 29 (6:11-6:13) S1 (Kevin O'Leary): S1 expresses disbelief that a dentist would not know the three main suppliers. -> answer turn 30 (6:13-6:18) F1 (Dr. Staci Whitman): F1 explains that those suppliers are not interested in a direct-to-consumer product.",
+          "primary": "3",
+          "replicate": "3",
+          "reasons": [],
+          "blind_context": "question turn 29 (6:11-6:13) S1 (Kevin O'Leary): S1 expresses disbelief that a dentist would not know the three main suppliers. -> answer turn 30 (6:13-6:18) F1 (Dr. Staci Whitman): F1 explains that those suppliers are not interested in a direct-to-consumer product.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:30/code:PREP-COH",
+          "field_class": "turn_code",
+          "clock_start": "6:13",
+          "clock_end": "6:18",
+          "context": "question turn 29 (6:11-6:13) S1 (Kevin O'Leary): S1 expresses disbelief that a dentist would not know the three main suppliers. -> answer turn 30 (6:13-6:18) F1 (Dr. Staci Whitman): F1 explains that those suppliers are not interested in a direct-to-consumer product.",
+          "primary": "3",
+          "replicate": "3",
+          "reasons": [],
+          "blind_context": "question turn 29 (6:11-6:13) S1 (Kevin O'Leary): S1 expresses disbelief that a dentist would not know the three main suppliers. -> answer turn 30 (6:13-6:18) F1 (Dr. Staci Whitman): F1 explains that those suppliers are not interested in a direct-to-consumer product.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:30/code:PREP-SUBS",
+          "field_class": "turn_code",
+          "clock_start": "6:13",
+          "clock_end": "6:18",
+          "context": "question turn 29 (6:11-6:13) S1 (Kevin O'Leary): S1 expresses disbelief that a dentist would not know the three main suppliers. -> answer turn 30 (6:13-6:18) F1 (Dr. Staci Whitman): F1 explains that those suppliers are not interested in a direct-to-consumer product.",
+          "primary": "2",
+          "replicate": "3",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 29 (6:11-6:13) S1 (Kevin O'Leary): S1 expresses disbelief that a dentist would not know the three main suppliers. -> answer turn 30 (6:13-6:18) F1 (Dr. Staci Whitman): F1 explains that those suppliers are not interested in a direct-to-consumer product.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:30/code:RS-EVID",
+          "field_class": "turn_code",
+          "clock_start": "6:13",
+          "clock_end": "6:18",
+          "context": "question turn 29 (6:11-6:13) S1 (Kevin O'Leary): S1 expresses disbelief that a dentist would not know the three main suppliers. -> answer turn 30 (6:13-6:18) F1 (Dr. Staci Whitman): F1 explains that those suppliers are not interested in a direct-to-consumer product.",
+          "primary": "false",
+          "replicate": "false",
+          "reasons": [],
+          "blind_context": "question turn 29 (6:11-6:13) S1 (Kevin O'Leary): S1 expresses disbelief that a dentist would not know the three main suppliers. -> answer turn 30 (6:13-6:18) F1 (Dr. Staci Whitman): F1 explains that those suppliers are not interested in a direct-to-consumer product.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:30/code:RS-RESP",
+          "field_class": "turn_code",
+          "clock_start": "6:13",
+          "clock_end": "6:18",
+          "context": "question turn 29 (6:11-6:13) S1 (Kevin O'Leary): S1 expresses disbelief that a dentist would not know the three main suppliers. -> answer turn 30 (6:13-6:18) F1 (Dr. Staci Whitman): F1 explains that those suppliers are not interested in a direct-to-consumer product.",
+          "primary": "addresses",
+          "replicate": "addresses",
+          "reasons": [],
+          "blind_context": "question turn 29 (6:11-6:13) S1 (Kevin O'Leary): S1 expresses disbelief that a dentist would not know the three main suppliers. -> answer turn 30 (6:13-6:18) F1 (Dr. Staci Whitman): F1 explains that those suppliers are not interested in a direct-to-consumer product.",
+          "selected_as": "sampled",
+          "priority": 1
+        }
+      ]
+    }
+  }
+}

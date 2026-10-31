@@ -1,0 +1,461 @@
+{
+  "videos": {
+    "st_04fd2fd01d": {
+      "video_id": "st_04fd2fd01d",
+      "sheet": "st_04fd2fd01d__review.csv",
+      "release_id": "v3-dev9",
+      "annotation_context": "descriptive_full_context",
+      "seed": 20261013,
+      "sample_unflagged": null,
+      "max_flagged": null,
+      "preset": "exchange",
+      "field_classes": null,
+      "blind": true,
+      "pass": "primary",
+      "primary_sha256": "fb39b264d40b0a55046b228f49ce2ebdaf3cc2ef54b4238c9d751840231c9276",
+      "replicate_sha256": "39e622b4f11fe6efd60af81df55d933a0425135b60df665afdaf9d2e52c48f18",
+      "counts": {
+        "by_field_class": {
+          "turn_code": 24,
+          "cut": 1
+        },
+        "by_selection": {
+          "flagged": 0,
+          "sampled": 25
+        },
+        "by_priority": {
+          "1": 25,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "by_reason": {
+          "passes_differ": 7
+        }
+      },
+      "flagged": null,
+      "sample": {
+        "seed": 20261013,
+        "key": "st_04fd2fd01d",
+        "requested": {
+          "stage_a": 0,
+          "exchanges": 0,
+          "qa": 4,
+          "venture": 0,
+          "qa_codes": [
+            [
+              "question",
+              "PR-CONCEPT"
+            ],
+            [
+              "question",
+              "PR-SEV"
+            ],
+            [
+              "answer",
+              "RS-RESP"
+            ],
+            [
+              "answer",
+              "RS-EVID"
+            ],
+            [
+              "answer",
+              "PREP-SUBS"
+            ],
+            [
+              "answer",
+              "PREP-COH"
+            ]
+          ]
+        },
+        "drawn": {
+          "pitch": [
+            "first_decision"
+          ],
+          "venture": [],
+          "stage_a": [],
+          "exchanges": [],
+          "qa": [
+            [
+              31,
+              32
+            ],
+            [
+              35,
+              36
+            ],
+            [
+              41,
+              42
+            ],
+            [
+              43,
+              44
+            ]
+          ]
+        },
+        "available": {
+          "venture": 4,
+          "stage_a": 3,
+          "exchanges": 3,
+          "qa": 11
+        },
+        "qa_before_cut": true,
+        "on_sheet": {
+          "turn_code": 24,
+          "cut": 1
+        },
+        "population": {
+          "turn_code": 66,
+          "exchange_topic": 3,
+          "stage_a": 3,
+          "venture": 4,
+          "cut": 1
+        }
+      },
+      "unflagged": null,
+      "rows": [
+        {
+          "path": "pitch:first_decision",
+          "field_class": "cut",
+          "clock_start": null,
+          "clock_end": null,
+          "context": "the pitch: S1 exit@5:02, S5 exit@5:26, S4 exit@6:05, S2 exit@6:23, S3 exit@7:32",
+          "blind_context": "the pitch: When is the first decision spoken?",
+          "primary": "5:02",
+          "replicate": "5:03",
+          "reasons": [],
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:31/code:PR-CONCEPT",
+          "field_class": "turn_code",
+          "clock_start": "2:42",
+          "clock_end": "2:46",
+          "context": "question turn 31 (2:42-2:46) S4 (Robert Herjavec): Robert notes that F1's cookies used to be distributed all over the world. -> answer turn 32 (2:46-2:58) F1 (Wally Amos): F1 admits he was a great promoter but not a good business guy, focusing on fun over money.",
+          "primary": "go_to_market",
+          "replicate": "sales",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 31 (2:42-2:46) S4 (Robert Herjavec): Robert notes that F1's cookies used to be distributed all over the world. -> answer turn 32 (2:46-2:58) F1 (Wally Amos): F1 admits he was a great promoter but not a good business guy, focusing on fun over money.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:31/code:PR-SEV",
+          "field_class": "turn_code",
+          "clock_start": "2:42",
+          "clock_end": "2:46",
+          "context": "question turn 31 (2:42-2:46) S4 (Robert Herjavec): Robert notes that F1's cookies used to be distributed all over the world. -> answer turn 32 (2:46-2:58) F1 (Wally Amos): F1 admits he was a great promoter but not a good business guy, focusing on fun over money.",
+          "primary": "3",
+          "replicate": "1",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 31 (2:42-2:46) S4 (Robert Herjavec): Robert notes that F1's cookies used to be distributed all over the world. -> answer turn 32 (2:46-2:58) F1 (Wally Amos): F1 admits he was a great promoter but not a good business guy, focusing on fun over money.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:32/code:PREP-COH",
+          "field_class": "turn_code",
+          "clock_start": "2:46",
+          "clock_end": "2:58",
+          "context": "question turn 31 (2:42-2:46) S4 (Robert Herjavec): Robert notes that F1's cookies used to be distributed all over the world. -> answer turn 32 (2:46-2:58) F1 (Wally Amos): F1 admits he was a great promoter but not a good business guy, focusing on fun over money.",
+          "primary": "4",
+          "replicate": "3",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 31 (2:42-2:46) S4 (Robert Herjavec): Robert notes that F1's cookies used to be distributed all over the world. -> answer turn 32 (2:46-2:58) F1 (Wally Amos): F1 admits he was a great promoter but not a good business guy, focusing on fun over money.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:32/code:PREP-SUBS",
+          "field_class": "turn_code",
+          "clock_start": "2:46",
+          "clock_end": "2:58",
+          "context": "question turn 31 (2:42-2:46) S4 (Robert Herjavec): Robert notes that F1's cookies used to be distributed all over the world. -> answer turn 32 (2:46-2:58) F1 (Wally Amos): F1 admits he was a great promoter but not a good business guy, focusing on fun over money.",
+          "primary": "3",
+          "replicate": "3",
+          "reasons": [],
+          "blind_context": "question turn 31 (2:42-2:46) S4 (Robert Herjavec): Robert notes that F1's cookies used to be distributed all over the world. -> answer turn 32 (2:46-2:58) F1 (Wally Amos): F1 admits he was a great promoter but not a good business guy, focusing on fun over money.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:32/code:RS-EVID",
+          "field_class": "turn_code",
+          "clock_start": "2:46",
+          "clock_end": "2:58",
+          "context": "question turn 31 (2:42-2:46) S4 (Robert Herjavec): Robert notes that F1's cookies used to be distributed all over the world. -> answer turn 32 (2:46-2:58) F1 (Wally Amos): F1 admits he was a great promoter but not a good business guy, focusing on fun over money.",
+          "primary": "false",
+          "replicate": "false",
+          "reasons": [],
+          "blind_context": "question turn 31 (2:42-2:46) S4 (Robert Herjavec): Robert notes that F1's cookies used to be distributed all over the world. -> answer turn 32 (2:46-2:58) F1 (Wally Amos): F1 admits he was a great promoter but not a good business guy, focusing on fun over money.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:32/code:RS-RESP",
+          "field_class": "turn_code",
+          "clock_start": "2:46",
+          "clock_end": "2:58",
+          "context": "question turn 31 (2:42-2:46) S4 (Robert Herjavec): Robert notes that F1's cookies used to be distributed all over the world. -> answer turn 32 (2:46-2:58) F1 (Wally Amos): F1 admits he was a great promoter but not a good business guy, focusing on fun over money.",
+          "primary": "addresses",
+          "replicate": "addresses",
+          "reasons": [],
+          "blind_context": "question turn 31 (2:42-2:46) S4 (Robert Herjavec): Robert notes that F1's cookies used to be distributed all over the world. -> answer turn 32 (2:46-2:58) F1 (Wally Amos): F1 admits he was a great promoter but not a good business guy, focusing on fun over money.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:35/code:PR-CONCEPT",
+          "field_class": "turn_code",
+          "clock_start": "3:11",
+          "clock_end": "3:19",
+          "context": "question turn 35 (3:11-3:19) S5 (Lori Greiner): Lori asks if the current owners license his name and picture for the boxes. -> answer turn 36 (3:19-3:23) F1 (Wally Amos): F1 clarifies that the current owners own the Famous Amos brand outright.",
+          "primary": "assets",
+          "replicate": "assets",
+          "reasons": [],
+          "blind_context": "question turn 35 (3:11-3:19) S5 (Lori Greiner): Lori asks if the current owners license his name and picture for the boxes. -> answer turn 36 (3:19-3:23) F1 (Wally Amos): F1 clarifies that the current owners own the Famous Amos brand outright.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:35/code:PR-SEV",
+          "field_class": "turn_code",
+          "clock_start": "3:11",
+          "clock_end": "3:19",
+          "context": "question turn 35 (3:11-3:19) S5 (Lori Greiner): Lori asks if the current owners license his name and picture for the boxes. -> answer turn 36 (3:19-3:23) F1 (Wally Amos): F1 clarifies that the current owners own the Famous Amos brand outright.",
+          "primary": "1",
+          "replicate": "1",
+          "reasons": [],
+          "blind_context": "question turn 35 (3:11-3:19) S5 (Lori Greiner): Lori asks if the current owners license his name and picture for the boxes. -> answer turn 36 (3:19-3:23) F1 (Wally Amos): F1 clarifies that the current owners own the Famous Amos brand outright.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:36/code:PREP-COH",
+          "field_class": "turn_code",
+          "clock_start": "3:19",
+          "clock_end": "3:23",
+          "context": "question turn 35 (3:11-3:19) S5 (Lori Greiner): Lori asks if the current owners license his name and picture for the boxes. -> answer turn 36 (3:19-3:23) F1 (Wally Amos): F1 clarifies that the current owners own the Famous Amos brand outright.",
+          "primary": "4",
+          "replicate": "3",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 35 (3:11-3:19) S5 (Lori Greiner): Lori asks if the current owners license his name and picture for the boxes. -> answer turn 36 (3:19-3:23) F1 (Wally Amos): F1 clarifies that the current owners own the Famous Amos brand outright.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:36/code:PREP-SUBS",
+          "field_class": "turn_code",
+          "clock_start": "3:19",
+          "clock_end": "3:23",
+          "context": "question turn 35 (3:11-3:19) S5 (Lori Greiner): Lori asks if the current owners license his name and picture for the boxes. -> answer turn 36 (3:19-3:23) F1 (Wally Amos): F1 clarifies that the current owners own the Famous Amos brand outright.",
+          "primary": "2",
+          "replicate": "2",
+          "reasons": [],
+          "blind_context": "question turn 35 (3:11-3:19) S5 (Lori Greiner): Lori asks if the current owners license his name and picture for the boxes. -> answer turn 36 (3:19-3:23) F1 (Wally Amos): F1 clarifies that the current owners own the Famous Amos brand outright.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:36/code:RS-EVID",
+          "field_class": "turn_code",
+          "clock_start": "3:19",
+          "clock_end": "3:23",
+          "context": "question turn 35 (3:11-3:19) S5 (Lori Greiner): Lori asks if the current owners license his name and picture for the boxes. -> answer turn 36 (3:19-3:23) F1 (Wally Amos): F1 clarifies that the current owners own the Famous Amos brand outright.",
+          "primary": "false",
+          "replicate": "false",
+          "reasons": [],
+          "blind_context": "question turn 35 (3:11-3:19) S5 (Lori Greiner): Lori asks if the current owners license his name and picture for the boxes. -> answer turn 36 (3:19-3:23) F1 (Wally Amos): F1 clarifies that the current owners own the Famous Amos brand outright.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:36/code:RS-RESP",
+          "field_class": "turn_code",
+          "clock_start": "3:19",
+          "clock_end": "3:23",
+          "context": "question turn 35 (3:11-3:19) S5 (Lori Greiner): Lori asks if the current owners license his name and picture for the boxes. -> answer turn 36 (3:19-3:23) F1 (Wally Amos): F1 clarifies that the current owners own the Famous Amos brand outright.",
+          "primary": "addresses",
+          "replicate": "addresses",
+          "reasons": [],
+          "blind_context": "question turn 35 (3:11-3:19) S5 (Lori Greiner): Lori asks if the current owners license his name and picture for the boxes. -> answer turn 36 (3:19-3:23) F1 (Wally Amos): F1 clarifies that the current owners own the Famous Amos brand outright.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:41/code:PR-CONCEPT",
+          "field_class": "turn_code",
+          "clock_start": "3:54",
+          "clock_end": "3:56",
+          "context": "question turn 41 (3:54-3:56) S4 (Robert Herjavec): Robert asks how much it costs F1 to make the cookies. -> answer turn 42 (3:56-4:00) F1 (Wally Amos): F1 states it costs 5.25 total, with 4.20 for ingredients.",
+          "primary": "operating_efficiency",
+          "replicate": null,
+          "reasons": [],
+          "blind_context": "question turn 41 (3:54-3:56) S4 (Robert Herjavec): Robert asks how much it costs F1 to make the cookies. -> answer turn 42 (3:56-4:00) F1 (Wally Amos): F1 states it costs 5.25 total, with 4.20 for ingredients.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:41/code:PR-SEV",
+          "field_class": "turn_code",
+          "clock_start": "3:54",
+          "clock_end": "3:56",
+          "context": "question turn 41 (3:54-3:56) S4 (Robert Herjavec): Robert asks how much it costs F1 to make the cookies. -> answer turn 42 (3:56-4:00) F1 (Wally Amos): F1 states it costs 5.25 total, with 4.20 for ingredients.",
+          "primary": "1",
+          "replicate": null,
+          "reasons": [],
+          "blind_context": "question turn 41 (3:54-3:56) S4 (Robert Herjavec): Robert asks how much it costs F1 to make the cookies. -> answer turn 42 (3:56-4:00) F1 (Wally Amos): F1 states it costs 5.25 total, with 4.20 for ingredients.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:42/code:PREP-COH",
+          "field_class": "turn_code",
+          "clock_start": "3:56",
+          "clock_end": "4:00",
+          "context": "question turn 41 (3:54-3:56) S4 (Robert Herjavec): Robert asks how much it costs F1 to make the cookies. -> answer turn 42 (3:56-4:00) F1 (Wally Amos): F1 states it costs 5.25 total, with 4.20 for ingredients.",
+          "primary": "4",
+          "replicate": "3",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 41 (3:54-3:56) S4 (Robert Herjavec): Robert asks how much it costs F1 to make the cookies. -> answer turn 42 (3:56-4:00) F1 (Wally Amos): F1 states it costs 5.25 total, with 4.20 for ingredients.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:42/code:PREP-SUBS",
+          "field_class": "turn_code",
+          "clock_start": "3:56",
+          "clock_end": "4:00",
+          "context": "question turn 41 (3:54-3:56) S4 (Robert Herjavec): Robert asks how much it costs F1 to make the cookies. -> answer turn 42 (3:56-4:00) F1 (Wally Amos): F1 states it costs 5.25 total, with 4.20 for ingredients.",
+          "primary": "3",
+          "replicate": "3",
+          "reasons": [],
+          "blind_context": "question turn 41 (3:54-3:56) S4 (Robert Herjavec): Robert asks how much it costs F1 to make the cookies. -> answer turn 42 (3:56-4:00) F1 (Wally Amos): F1 states it costs 5.25 total, with 4.20 for ingredients.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:42/code:RS-EVID",
+          "field_class": "turn_code",
+          "clock_start": "3:56",
+          "clock_end": "4:00",
+          "context": "question turn 41 (3:54-3:56) S4 (Robert Herjavec): Robert asks how much it costs F1 to make the cookies. -> answer turn 42 (3:56-4:00) F1 (Wally Amos): F1 states it costs 5.25 total, with 4.20 for ingredients.",
+          "primary": "true",
+          "replicate": "true",
+          "reasons": [],
+          "blind_context": "question turn 41 (3:54-3:56) S4 (Robert Herjavec): Robert asks how much it costs F1 to make the cookies. -> answer turn 42 (3:56-4:00) F1 (Wally Amos): F1 states it costs 5.25 total, with 4.20 for ingredients.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:42/code:RS-RESP",
+          "field_class": "turn_code",
+          "clock_start": "3:56",
+          "clock_end": "4:00",
+          "context": "question turn 41 (3:54-3:56) S4 (Robert Herjavec): Robert asks how much it costs F1 to make the cookies. -> answer turn 42 (3:56-4:00) F1 (Wally Amos): F1 states it costs 5.25 total, with 4.20 for ingredients.",
+          "primary": "addresses",
+          "replicate": "addresses",
+          "reasons": [],
+          "blind_context": "question turn 41 (3:54-3:56) S4 (Robert Herjavec): Robert asks how much it costs F1 to make the cookies. -> answer turn 42 (3:56-4:00) F1 (Wally Amos): F1 states it costs 5.25 total, with 4.20 for ingredients.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:43/code:PR-CONCEPT",
+          "field_class": "turn_code",
+          "clock_start": "4:00",
+          "clock_end": "4:02",
+          "context": "question turn 43 (4:00-4:02) S4 (Robert Herjavec): Robert asks what the sales were for the previous year. -> answer turn 44 (4:02-4:06) F1 (Wally Amos): F1 reports sales of 36,215.97 for the year so far.",
+          "primary": "sales",
+          "replicate": "sales",
+          "reasons": [],
+          "blind_context": "question turn 43 (4:00-4:02) S4 (Robert Herjavec): Robert asks what the sales were for the previous year. -> answer turn 44 (4:02-4:06) F1 (Wally Amos): F1 reports sales of 36,215.97 for the year so far.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:43/code:PR-SEV",
+          "field_class": "turn_code",
+          "clock_start": "4:00",
+          "clock_end": "4:02",
+          "context": "question turn 43 (4:00-4:02) S4 (Robert Herjavec): Robert asks what the sales were for the previous year. -> answer turn 44 (4:02-4:06) F1 (Wally Amos): F1 reports sales of 36,215.97 for the year so far.",
+          "primary": "1",
+          "replicate": "1",
+          "reasons": [],
+          "blind_context": "question turn 43 (4:00-4:02) S4 (Robert Herjavec): Robert asks what the sales were for the previous year. -> answer turn 44 (4:02-4:06) F1 (Wally Amos): F1 reports sales of 36,215.97 for the year so far.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:44/code:PREP-COH",
+          "field_class": "turn_code",
+          "clock_start": "4:02",
+          "clock_end": "4:06",
+          "context": "question turn 43 (4:00-4:02) S4 (Robert Herjavec): Robert asks what the sales were for the previous year. -> answer turn 44 (4:02-4:06) F1 (Wally Amos): F1 reports sales of 36,215.97 for the year so far.",
+          "primary": "4",
+          "replicate": "3",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 43 (4:00-4:02) S4 (Robert Herjavec): Robert asks what the sales were for the previous year. -> answer turn 44 (4:02-4:06) F1 (Wally Amos): F1 reports sales of 36,215.97 for the year so far.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:44/code:PREP-SUBS",
+          "field_class": "turn_code",
+          "clock_start": "4:02",
+          "clock_end": "4:06",
+          "context": "question turn 43 (4:00-4:02) S4 (Robert Herjavec): Robert asks what the sales were for the previous year. -> answer turn 44 (4:02-4:06) F1 (Wally Amos): F1 reports sales of 36,215.97 for the year so far.",
+          "primary": "2",
+          "replicate": "3",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 43 (4:00-4:02) S4 (Robert Herjavec): Robert asks what the sales were for the previous year. -> answer turn 44 (4:02-4:06) F1 (Wally Amos): F1 reports sales of 36,215.97 for the year so far.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:44/code:RS-EVID",
+          "field_class": "turn_code",
+          "clock_start": "4:02",
+          "clock_end": "4:06",
+          "context": "question turn 43 (4:00-4:02) S4 (Robert Herjavec): Robert asks what the sales were for the previous year. -> answer turn 44 (4:02-4:06) F1 (Wally Amos): F1 reports sales of 36,215.97 for the year so far.",
+          "primary": "true",
+          "replicate": "true",
+          "reasons": [],
+          "blind_context": "question turn 43 (4:00-4:02) S4 (Robert Herjavec): Robert asks what the sales were for the previous year. -> answer turn 44 (4:02-4:06) F1 (Wally Amos): F1 reports sales of 36,215.97 for the year so far.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:44/code:RS-RESP",
+          "field_class": "turn_code",
+          "clock_start": "4:02",
+          "clock_end": "4:06",
+          "context": "question turn 43 (4:00-4:02) S4 (Robert Herjavec): Robert asks what the sales were for the previous year. -> answer turn 44 (4:02-4:06) F1 (Wally Amos): F1 reports sales of 36,215.97 for the year so far.",
+          "primary": "addresses",
+          "replicate": "addresses",
+          "reasons": [],
+          "blind_context": "question turn 43 (4:00-4:02) S4 (Robert Herjavec): Robert asks what the sales were for the previous year. -> answer turn 44 (4:02-4:06) F1 (Wally Amos): F1 reports sales of 36,215.97 for the year so far.",
+          "selected_as": "sampled",
+          "priority": 1
+        }
+      ]
+    }
+  }
+}

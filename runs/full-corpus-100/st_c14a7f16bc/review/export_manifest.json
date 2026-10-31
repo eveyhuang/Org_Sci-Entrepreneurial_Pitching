@@ -1,0 +1,473 @@
+{
+  "videos": {
+    "st_c14a7f16bc": {
+      "video_id": "st_c14a7f16bc",
+      "sheet": "st_c14a7f16bc__review.csv",
+      "release_id": "v3-dev9",
+      "annotation_context": "descriptive_full_context",
+      "seed": 20261013,
+      "sample_unflagged": null,
+      "max_flagged": null,
+      "preset": "exchange",
+      "field_classes": null,
+      "blind": true,
+      "pass": "primary",
+      "primary_sha256": "6831975f91e97aebc147e5d5fcc163cefe20f0e518b9636efd30bd875a89c2c1",
+      "replicate_sha256": "0dc7300c23aaa4115fa33ecd9902f4f11443b1db90e75af14e42468f58f6e796",
+      "counts": {
+        "by_field_class": {
+          "turn_code": 24,
+          "cut": 1
+        },
+        "by_selection": {
+          "flagged": 0,
+          "sampled": 25
+        },
+        "by_priority": {
+          "1": 25,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "by_reason": {
+          "passes_differ": 13
+        }
+      },
+      "flagged": null,
+      "sample": {
+        "seed": 20261013,
+        "key": "st_c14a7f16bc",
+        "requested": {
+          "stage_a": 0,
+          "exchanges": 0,
+          "qa": 4,
+          "venture": 0,
+          "qa_codes": [
+            [
+              "question",
+              "PR-CONCEPT"
+            ],
+            [
+              "question",
+              "PR-SEV"
+            ],
+            [
+              "answer",
+              "RS-RESP"
+            ],
+            [
+              "answer",
+              "RS-EVID"
+            ],
+            [
+              "answer",
+              "PREP-SUBS"
+            ],
+            [
+              "answer",
+              "PREP-COH"
+            ]
+          ]
+        },
+        "drawn": {
+          "pitch": [
+            "first_decision"
+          ],
+          "venture": [],
+          "stage_a": [],
+          "exchanges": [],
+          "qa": [
+            [
+              11,
+              12
+            ],
+            [
+              16,
+              17
+            ],
+            [
+              22,
+              23
+            ],
+            [
+              29,
+              30
+            ]
+          ]
+        },
+        "available": {
+          "venture": 4,
+          "stage_a": 3,
+          "exchanges": 11,
+          "qa": 11
+        },
+        "qa_before_cut": true,
+        "on_sheet": {
+          "turn_code": 24,
+          "cut": 1
+        },
+        "population": {
+          "turn_code": 66,
+          "exchange_topic": 11,
+          "stage_a": 3,
+          "venture": 4,
+          "cut": 1
+        }
+      },
+      "unflagged": null,
+      "rows": [
+        {
+          "path": "pitch:first_decision",
+          "field_class": "cut",
+          "clock_start": null,
+          "clock_end": null,
+          "context": "the pitch: S3 exit@6:16, S4 exit@6:42, S2 offer@7:10, S1 exit@7:57, S5 offer@8:36, S5 withdraws_offer@10:51, S2 revises_offer@11:12, S2 withdraws_offer@11:53",
+          "blind_context": "the pitch: When is the first decision spoken?",
+          "primary": "6:16",
+          "replicate": "6:16",
+          "reasons": [],
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:11/code:PR-CONCEPT",
+          "field_class": "turn_code",
+          "clock_start": "2:57",
+          "clock_end": "3:01",
+          "context": "question turn 11 (2:57-3:01) S4 (Robert Herjavec): Expresses surprise at the numbers and asks how they are selling nine million dollars worth. -> answer turn 12 (3:02-3:22) F1 (Chet Beiler): Explains they were not ready for COVID and missed sales, but still did six point eight million last year.",
+          "primary": "sales",
+          "replicate": "go_to_market",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 11 (2:57-3:01) S4 (Robert Herjavec): Expresses surprise at the numbers and asks how they are selling nine million dollars worth. -> answer turn 12 (3:02-3:22) F1 (Chet Beiler): Explains they were not ready for COVID and missed sales, but still did six point eight million last year.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:11/code:PR-SEV",
+          "field_class": "turn_code",
+          "clock_start": "2:57",
+          "clock_end": "3:01",
+          "context": "question turn 11 (2:57-3:01) S4 (Robert Herjavec): Expresses surprise at the numbers and asks how they are selling nine million dollars worth. -> answer turn 12 (3:02-3:22) F1 (Chet Beiler): Explains they were not ready for COVID and missed sales, but still did six point eight million last year.",
+          "primary": "1",
+          "replicate": "1",
+          "reasons": [],
+          "blind_context": "question turn 11 (2:57-3:01) S4 (Robert Herjavec): Expresses surprise at the numbers and asks how they are selling nine million dollars worth. -> answer turn 12 (3:02-3:22) F1 (Chet Beiler): Explains they were not ready for COVID and missed sales, but still did six point eight million last year.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:12/code:PREP-COH",
+          "field_class": "turn_code",
+          "clock_start": "3:02",
+          "clock_end": "3:22",
+          "context": "question turn 11 (2:57-3:01) S4 (Robert Herjavec): Expresses surprise at the numbers and asks how they are selling nine million dollars worth. -> answer turn 12 (3:02-3:22) F1 (Chet Beiler): Explains they were not ready for COVID and missed sales, but still did six point eight million last year.",
+          "primary": "3",
+          "replicate": "4",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 11 (2:57-3:01) S4 (Robert Herjavec): Expresses surprise at the numbers and asks how they are selling nine million dollars worth. -> answer turn 12 (3:02-3:22) F1 (Chet Beiler): Explains they were not ready for COVID and missed sales, but still did six point eight million last year.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:12/code:PREP-SUBS",
+          "field_class": "turn_code",
+          "clock_start": "3:02",
+          "clock_end": "3:22",
+          "context": "question turn 11 (2:57-3:01) S4 (Robert Herjavec): Expresses surprise at the numbers and asks how they are selling nine million dollars worth. -> answer turn 12 (3:02-3:22) F1 (Chet Beiler): Explains they were not ready for COVID and missed sales, but still did six point eight million last year.",
+          "primary": "4",
+          "replicate": "3",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 11 (2:57-3:01) S4 (Robert Herjavec): Expresses surprise at the numbers and asks how they are selling nine million dollars worth. -> answer turn 12 (3:02-3:22) F1 (Chet Beiler): Explains they were not ready for COVID and missed sales, but still did six point eight million last year.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:12/code:RS-EVID",
+          "field_class": "turn_code",
+          "clock_start": "3:02",
+          "clock_end": "3:22",
+          "context": "question turn 11 (2:57-3:01) S4 (Robert Herjavec): Expresses surprise at the numbers and asks how they are selling nine million dollars worth. -> answer turn 12 (3:02-3:22) F1 (Chet Beiler): Explains they were not ready for COVID and missed sales, but still did six point eight million last year.",
+          "primary": "true",
+          "replicate": "true",
+          "reasons": [],
+          "blind_context": "question turn 11 (2:57-3:01) S4 (Robert Herjavec): Expresses surprise at the numbers and asks how they are selling nine million dollars worth. -> answer turn 12 (3:02-3:22) F1 (Chet Beiler): Explains they were not ready for COVID and missed sales, but still did six point eight million last year.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:12/code:RS-RESP",
+          "field_class": "turn_code",
+          "clock_start": "3:02",
+          "clock_end": "3:22",
+          "context": "question turn 11 (2:57-3:01) S4 (Robert Herjavec): Expresses surprise at the numbers and asks how they are selling nine million dollars worth. -> answer turn 12 (3:02-3:22) F1 (Chet Beiler): Explains they were not ready for COVID and missed sales, but still did six point eight million last year.",
+          "primary": "partial",
+          "replicate": "addresses",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 11 (2:57-3:01) S4 (Robert Herjavec): Expresses surprise at the numbers and asks how they are selling nine million dollars worth. -> answer turn 12 (3:02-3:22) F1 (Chet Beiler): Explains they were not ready for COVID and missed sales, but still did six point eight million last year.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:16/code:PR-CONCEPT",
+          "field_class": "turn_code",
+          "clock_start": "3:43",
+          "clock_end": "3:45",
+          "context": "question turn 16 (3:43-3:45) S1 (Mark Cuban): Asks how they are paying for all the inventory needed for their growth. -> answer turn 17 (3:45-3:48) F1 (Chet Beiler): States he is there to raise money specifically for more inventory.",
+          "primary": "execution",
+          "replicate": "operating_efficiency",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 16 (3:43-3:45) S1 (Mark Cuban): Asks how they are paying for all the inventory needed for their growth. -> answer turn 17 (3:45-3:48) F1 (Chet Beiler): States he is there to raise money specifically for more inventory.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:16/code:PR-SEV",
+          "field_class": "turn_code",
+          "clock_start": "3:43",
+          "clock_end": "3:45",
+          "context": "question turn 16 (3:43-3:45) S1 (Mark Cuban): Asks how they are paying for all the inventory needed for their growth. -> answer turn 17 (3:45-3:48) F1 (Chet Beiler): States he is there to raise money specifically for more inventory.",
+          "primary": "1",
+          "replicate": "1",
+          "reasons": [],
+          "blind_context": "question turn 16 (3:43-3:45) S1 (Mark Cuban): Asks how they are paying for all the inventory needed for their growth. -> answer turn 17 (3:45-3:48) F1 (Chet Beiler): States he is there to raise money specifically for more inventory.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:17/code:PREP-COH",
+          "field_class": "turn_code",
+          "clock_start": "3:45",
+          "clock_end": "3:48",
+          "context": "question turn 16 (3:43-3:45) S1 (Mark Cuban): Asks how they are paying for all the inventory needed for their growth. -> answer turn 17 (3:45-3:48) F1 (Chet Beiler): States he is there to raise money specifically for more inventory.",
+          "primary": "2",
+          "replicate": "4",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 16 (3:43-3:45) S1 (Mark Cuban): Asks how they are paying for all the inventory needed for their growth. -> answer turn 17 (3:45-3:48) F1 (Chet Beiler): States he is there to raise money specifically for more inventory.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:17/code:PREP-SUBS",
+          "field_class": "turn_code",
+          "clock_start": "3:45",
+          "clock_end": "3:48",
+          "context": "question turn 16 (3:43-3:45) S1 (Mark Cuban): Asks how they are paying for all the inventory needed for their growth. -> answer turn 17 (3:45-3:48) F1 (Chet Beiler): States he is there to raise money specifically for more inventory.",
+          "primary": "2",
+          "replicate": "2",
+          "reasons": [],
+          "blind_context": "question turn 16 (3:43-3:45) S1 (Mark Cuban): Asks how they are paying for all the inventory needed for their growth. -> answer turn 17 (3:45-3:48) F1 (Chet Beiler): States he is there to raise money specifically for more inventory.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:17/code:RS-EVID",
+          "field_class": "turn_code",
+          "clock_start": "3:45",
+          "clock_end": "3:48",
+          "context": "question turn 16 (3:43-3:45) S1 (Mark Cuban): Asks how they are paying for all the inventory needed for their growth. -> answer turn 17 (3:45-3:48) F1 (Chet Beiler): States he is there to raise money specifically for more inventory.",
+          "primary": "false",
+          "replicate": "false",
+          "reasons": [],
+          "blind_context": "question turn 16 (3:43-3:45) S1 (Mark Cuban): Asks how they are paying for all the inventory needed for their growth. -> answer turn 17 (3:45-3:48) F1 (Chet Beiler): States he is there to raise money specifically for more inventory.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:17/code:RS-RESP",
+          "field_class": "turn_code",
+          "clock_start": "3:45",
+          "clock_end": "3:48",
+          "context": "question turn 16 (3:43-3:45) S1 (Mark Cuban): Asks how they are paying for all the inventory needed for their growth. -> answer turn 17 (3:45-3:48) F1 (Chet Beiler): States he is there to raise money specifically for more inventory.",
+          "primary": "addresses",
+          "replicate": "deflects",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 16 (3:43-3:45) S1 (Mark Cuban): Asks how they are paying for all the inventory needed for their growth. -> answer turn 17 (3:45-3:48) F1 (Chet Beiler): States he is there to raise money specifically for more inventory.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:22/code:PR-CONCEPT",
+          "field_class": "turn_code",
+          "clock_start": "4:25",
+          "clock_end": "4:32",
+          "context": "question turn 22 (4:25-4:32) S2 (Kevin O'Leary): Notes the big ramp requires capital and asks how he raised the money to fund it. -> answer turn 23 (4:33-4:50) F1 (Chet Beiler): Explains he used creative finance, borrowing against purchase orders and receivables, and paid everyone back.",
+          "primary": "execution",
+          "replicate": "operating_efficiency",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 22 (4:25-4:32) S2 (Kevin O'Leary): Notes the big ramp requires capital and asks how he raised the money to fund it. -> answer turn 23 (4:33-4:50) F1 (Chet Beiler): Explains he used creative finance, borrowing against purchase orders and receivables, and paid everyone back.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:22/code:PR-SEV",
+          "field_class": "turn_code",
+          "clock_start": "4:25",
+          "clock_end": "4:32",
+          "context": "question turn 22 (4:25-4:32) S2 (Kevin O'Leary): Notes the big ramp requires capital and asks how he raised the money to fund it. -> answer turn 23 (4:33-4:50) F1 (Chet Beiler): Explains he used creative finance, borrowing against purchase orders and receivables, and paid everyone back.",
+          "primary": "1",
+          "replicate": "1",
+          "reasons": [],
+          "blind_context": "question turn 22 (4:25-4:32) S2 (Kevin O'Leary): Notes the big ramp requires capital and asks how he raised the money to fund it. -> answer turn 23 (4:33-4:50) F1 (Chet Beiler): Explains he used creative finance, borrowing against purchase orders and receivables, and paid everyone back.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:23/code:PREP-COH",
+          "field_class": "turn_code",
+          "clock_start": "4:33",
+          "clock_end": "4:50",
+          "context": "question turn 22 (4:25-4:32) S2 (Kevin O'Leary): Notes the big ramp requires capital and asks how he raised the money to fund it. -> answer turn 23 (4:33-4:50) F1 (Chet Beiler): Explains he used creative finance, borrowing against purchase orders and receivables, and paid everyone back.",
+          "primary": "4",
+          "replicate": "4",
+          "reasons": [],
+          "blind_context": "question turn 22 (4:25-4:32) S2 (Kevin O'Leary): Notes the big ramp requires capital and asks how he raised the money to fund it. -> answer turn 23 (4:33-4:50) F1 (Chet Beiler): Explains he used creative finance, borrowing against purchase orders and receivables, and paid everyone back.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:23/code:PREP-SUBS",
+          "field_class": "turn_code",
+          "clock_start": "4:33",
+          "clock_end": "4:50",
+          "context": "question turn 22 (4:25-4:32) S2 (Kevin O'Leary): Notes the big ramp requires capital and asks how he raised the money to fund it. -> answer turn 23 (4:33-4:50) F1 (Chet Beiler): Explains he used creative finance, borrowing against purchase orders and receivables, and paid everyone back.",
+          "primary": "4",
+          "replicate": "3",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 22 (4:25-4:32) S2 (Kevin O'Leary): Notes the big ramp requires capital and asks how he raised the money to fund it. -> answer turn 23 (4:33-4:50) F1 (Chet Beiler): Explains he used creative finance, borrowing against purchase orders and receivables, and paid everyone back.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:23/code:RS-EVID",
+          "field_class": "turn_code",
+          "clock_start": "4:33",
+          "clock_end": "4:50",
+          "context": "question turn 22 (4:25-4:32) S2 (Kevin O'Leary): Notes the big ramp requires capital and asks how he raised the money to fund it. -> answer turn 23 (4:33-4:50) F1 (Chet Beiler): Explains he used creative finance, borrowing against purchase orders and receivables, and paid everyone back.",
+          "primary": "true",
+          "replicate": "false",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 22 (4:25-4:32) S2 (Kevin O'Leary): Notes the big ramp requires capital and asks how he raised the money to fund it. -> answer turn 23 (4:33-4:50) F1 (Chet Beiler): Explains he used creative finance, borrowing against purchase orders and receivables, and paid everyone back.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:23/code:RS-RESP",
+          "field_class": "turn_code",
+          "clock_start": "4:33",
+          "clock_end": "4:50",
+          "context": "question turn 22 (4:25-4:32) S2 (Kevin O'Leary): Notes the big ramp requires capital and asks how he raised the money to fund it. -> answer turn 23 (4:33-4:50) F1 (Chet Beiler): Explains he used creative finance, borrowing against purchase orders and receivables, and paid everyone back.",
+          "primary": "addresses",
+          "replicate": "addresses",
+          "reasons": [],
+          "blind_context": "question turn 22 (4:25-4:32) S2 (Kevin O'Leary): Notes the big ramp requires capital and asks how he raised the money to fund it. -> answer turn 23 (4:33-4:50) F1 (Chet Beiler): Explains he used creative finance, borrowing against purchase orders and receivables, and paid everyone back.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:29/code:PR-CONCEPT",
+          "field_class": "turn_code",
+          "clock_start": "5:44",
+          "clock_end": "5:50",
+          "context": "question turn 29 (5:44-5:50) S3 (Lori Greiner): Asks why European consumers would want his coop more than the ones already available there. -> answer turn 30 (5:54-6:15) F1 (Chet Beiler): Argues that most available coops are cheap imports, while his is a high-quality coop in a box.",
+          "primary": "market_opportunity",
+          "replicate": "competition",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 29 (5:44-5:50) S3 (Lori Greiner): Asks why European consumers would want his coop more than the ones already available there. -> answer turn 30 (5:54-6:15) F1 (Chet Beiler): Argues that most available coops are cheap imports, while his is a high-quality coop in a box.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:29/code:PR-SEV",
+          "field_class": "turn_code",
+          "clock_start": "5:44",
+          "clock_end": "5:50",
+          "context": "question turn 29 (5:44-5:50) S3 (Lori Greiner): Asks why European consumers would want his coop more than the ones already available there. -> answer turn 30 (5:54-6:15) F1 (Chet Beiler): Argues that most available coops are cheap imports, while his is a high-quality coop in a box.",
+          "primary": "3",
+          "replicate": "2",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 29 (5:44-5:50) S3 (Lori Greiner): Asks why European consumers would want his coop more than the ones already available there. -> answer turn 30 (5:54-6:15) F1 (Chet Beiler): Argues that most available coops are cheap imports, while his is a high-quality coop in a box.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:30/code:PREP-COH",
+          "field_class": "turn_code",
+          "clock_start": "5:54",
+          "clock_end": "6:15",
+          "context": "question turn 29 (5:44-5:50) S3 (Lori Greiner): Asks why European consumers would want his coop more than the ones already available there. -> answer turn 30 (5:54-6:15) F1 (Chet Beiler): Argues that most available coops are cheap imports, while his is a high-quality coop in a box.",
+          "primary": "3",
+          "replicate": "4",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 29 (5:44-5:50) S3 (Lori Greiner): Asks why European consumers would want his coop more than the ones already available there. -> answer turn 30 (5:54-6:15) F1 (Chet Beiler): Argues that most available coops are cheap imports, while his is a high-quality coop in a box.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:30/code:PREP-SUBS",
+          "field_class": "turn_code",
+          "clock_start": "5:54",
+          "clock_end": "6:15",
+          "context": "question turn 29 (5:44-5:50) S3 (Lori Greiner): Asks why European consumers would want his coop more than the ones already available there. -> answer turn 30 (5:54-6:15) F1 (Chet Beiler): Argues that most available coops are cheap imports, while his is a high-quality coop in a box.",
+          "primary": "3",
+          "replicate": "3",
+          "reasons": [],
+          "blind_context": "question turn 29 (5:44-5:50) S3 (Lori Greiner): Asks why European consumers would want his coop more than the ones already available there. -> answer turn 30 (5:54-6:15) F1 (Chet Beiler): Argues that most available coops are cheap imports, while his is a high-quality coop in a box.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:30/code:RS-EVID",
+          "field_class": "turn_code",
+          "clock_start": "5:54",
+          "clock_end": "6:15",
+          "context": "question turn 29 (5:44-5:50) S3 (Lori Greiner): Asks why European consumers would want his coop more than the ones already available there. -> answer turn 30 (5:54-6:15) F1 (Chet Beiler): Argues that most available coops are cheap imports, while his is a high-quality coop in a box.",
+          "primary": "true",
+          "replicate": "true",
+          "reasons": [],
+          "blind_context": "question turn 29 (5:44-5:50) S3 (Lori Greiner): Asks why European consumers would want his coop more than the ones already available there. -> answer turn 30 (5:54-6:15) F1 (Chet Beiler): Argues that most available coops are cheap imports, while his is a high-quality coop in a box.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:30/code:RS-RESP",
+          "field_class": "turn_code",
+          "clock_start": "5:54",
+          "clock_end": "6:15",
+          "context": "question turn 29 (5:44-5:50) S3 (Lori Greiner): Asks why European consumers would want his coop more than the ones already available there. -> answer turn 30 (5:54-6:15) F1 (Chet Beiler): Argues that most available coops are cheap imports, while his is a high-quality coop in a box.",
+          "primary": "addresses",
+          "replicate": "addresses",
+          "reasons": [],
+          "blind_context": "question turn 29 (5:44-5:50) S3 (Lori Greiner): Asks why European consumers would want his coop more than the ones already available there. -> answer turn 30 (5:54-6:15) F1 (Chet Beiler): Argues that most available coops are cheap imports, while his is a high-quality coop in a box.",
+          "selected_as": "sampled",
+          "priority": 1
+        }
+      ]
+    }
+  }
+}

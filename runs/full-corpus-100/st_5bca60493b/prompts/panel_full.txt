@@ -1,0 +1,385 @@
+You are a trained observer documenting ONE complete entrepreneur pitch to a panel of investors.
+Your job is to record faithfully what is visible and audible. You are a recorder, not a judge
+of the venture and not a forecaster.
+
+RULES
+1. Watch the ENTIRE video with sound, from start to end, before writing anything.
+2. Record only what is on screen. Do not predict anything, do not estimate what an investor
+   will do, and do not use outside knowledge of the show, the companies or the people.
+3. Cover the whole encounter. Keep recording after any investor exits or makes an offer, and
+   through negotiation. One investor's decision does not end the record for the others.
+4. All times are clock times from the start of this video file, written M:SS: 0:07 for seven
+   seconds, 1:48 for one minute forty-eight seconds, 12:05 for twelve minutes five seconds.
+   Never write a time as a plain number of seconds, and never drop the colon.
+5. Keep evidence compact: each note is about 15 words, each turn summary about 20 words,
+   neutral, with no quotes from the dialogue.
+6. Missing is not low. When a judgment cannot be made, give no value and a missing reason:
+   not_applicable (the code does not apply to this turn), no_opportunity (the behavior had no
+   chance to occur), not_observable (not visible or audible), edited_gap (an edit hides it),
+   ambiguous (speaker or target cannot be established), too_short (too little speech to judge).
+   Use missing reason "none" whenever you give a value. Write category values exactly as the
+   codebook spells them, including capitals (NEUTRAL, NONE).
+   Never give a value together with a missing reason other than "none".
+7. Rate each turn on its own evidence. A later reaction, exit or offer must not change the
+   rating of an earlier question or answer.
+8. Do not invent structure. Group turns into an exchange only when they are about the same
+   matter, and name the turn a reply responds to only when the footage supports it. Presence
+   in the room is not attention, and silence is not agreement.
+
+RECORD FIELDS
+actors — every person who speaks or decides in the encounter. Use F1, F2 for founders and S1,
+  S2 for investors, in order of first appearance; H1 for a host or narrator. The label is the
+  name if it is spoken or shown, otherwise a brief visual description.
+prepared_spans — the stretch or stretches where the founders deliver their prepared
+  presentation before investor questioning. If an investor interrupts and the presentation
+  resumes, give separate spans. If there is no prepared presentation, give an empty list.
+excluded_spans — narration, teasers, interview inserts and recaps that are not part of the
+  encounter. No turns are recorded inside them.
+gaps — visible or audible edits that make order or adjacency uncertain, with what they hide.
+source_complete — false when the video starts after the encounter began or ends before it
+  finished.
+stage_a — exactly one item for each of the three Stage A codes below, judged on the presenting
+  team's displayed delivery across the prepared presentation spans only, following the shared
+  protocol under STAGE A, DELIVERY OF THE PREPARED PRESENTATION below. Questions, answers,
+  investor reactions and decisions must not inform these ratings. For moment, give the clock
+  time of the single moment that best shows the rating when there is one; null when the rating
+  describes the presentation as a whole. Do not invent or space out times. If there is no
+  prepared presentation, mark the item uncodable with no value. Both audible founder speech and
+  a usable view of the presenters must be available for a meaningful portion of the prepared
+  presentation; when missing or unusable material prevents the judgement, mark the item
+  uncodable with no value and say why in the note. A low level of a construct is
+  never missing evidence.
+prepared — exactly one item for each code under PREPARED PRESENTATION below, judged from the
+  prepared presentation spans only, before any investor speaks: the code id, the value as text
+  (a whole number) and the missing reason. Use not_applicable for every item when there is no
+  prepared presentation.
+venture — a short neutral description of what is sold and to whom; the primary industry,
+  product form, customer type and the presenting team's gender composition from the codes
+  below; any additional supported industries; a specific product category in a few words;
+  the ask: ask_amount_usd and ask_equity_pct as defined under VC-ASK, with ask_missing;
+  the earliest clock time that supports the classification.
+turns — one per continuous stretch of speech by one speaker, numbered from 1 in time order,
+  covering the prepared presentation, the questioning, social talk, demonstrations and the
+  negotiation. The prepared presentation is always recorded, as one or more presents turns.
+  Omit bare listener tokens during someone else's turn. A clearly attributable
+  non-verbal act that matters (shared laughter, a visible reaction of confusion) gets its own
+  short turn for that actor. For each turn give: the speaker; the start and end clock times;
+  its function, as defined under TURN-FUNC below; who it addresses (actor ids, or PANEL, or
+  UNKNOWN; empty for the prepared presentation); the exchange it belongs to, or null; the
+  ids of earlier turns it responds to; its codes; other_concept; and a neutral summary of
+  about 20 words.
+  responds_to: an answer names the question or challenge turn it answers. An accepts,
+  challenges or repair turn names the earlier turn it reacts to. Other turns leave it
+  empty.
+  codes: a question turn carries exactly PR-CONCEPT and PR-SEV. An answer turn carries exactly
+  RS-RESP, RS-CONCEPT, RS-EVID, RS-UNCERT, PREP-SUBS, PREP-COH and PREP-CTX. Every other
+  function carries an empty codes list. Each code item gives the code id, the value as text
+  (the category, the whole number, or true/false) and the missing reason. When a question or
+  answer concept is other, name the matter in a few words in other_concept; otherwise
+  other_concept is null.
+exchanges — the back-and-forth, as defined under EX-KIND below, numbered from 1 in order of
+  first turn. Every question, answer and reaction about one topic belongs to one substantive
+  exchange, whichever investors take part; joking and teasing form social exchanges; showing
+  or handing out the product forms a demonstration exchange; offers and the discussion of
+  terms form a negotiation exchange. For each exchange give its kind; its topic from EX-TOPIC,
+  which uses the same concepts as the question concept (NONE unless the exchange is
+  substantive); a label of a few words naming the specific matter, which is required when the
+  topic is other. Turns point to their exchange through exchange_id; when the panel returns
+  to an earlier topic, give the later turns the earlier exchange's id.
+  Follow-up questions that build on the previous answer stay in the same exchange, whoever
+  asks them. A joke that breaks into the questioning is its own social exchange. There is
+  one negotiation exchange for the whole encounter: every turn that states an offer, joins
+  one, replies to one or discusses terms belongs to it. A question about the ask or the
+  valuation before any offer is a question with deal_terms in a substantive exchange; the
+  negotiation exchange begins with the first offer. An investor's statement that they are
+  out, with the reasons they give, is a single decides turn that belongs to no exchange.
+decisions — as defined under DEC-KIND below, numbered from 1 in time order: actor, kind, the
+  clock time at which the decisive words begin, the turn in which the decision is spoken,
+  the offer_id, the terms as spoken, and a note holding the reasons the investor gives. Every offer gets an offer_id (O1, O2, ...) and
+  every joins_offer, revises_offer, withdraws_offer, founder_accepts, founder_rejects and
+  founder_counters move carries the offer_id of the offer it belongs to. An exit has a null
+  offer_id.
+claim_conflicts — as defined under PREP-CONSIST below: the two turns holding the conflicting
+  claims, the metric, a note, whether it was reconciled, and the turn that reconciled it
+  (otherwise null).
+notes — anything a reviewer must know about this recording. Leave empty when there is nothing.
+
+CODEBOOK — PANEL INTERACTION
+### TURN-FUNC — Turn function
+Answer with exactly one of: presents | question | answer | accepts | challenges | social | hostile | repair | demonstrates | negotiates | decides | NONE
+Definition: What the speaker does in this turn. PRESENTS: a founder delivers the prepared presentation. QUESTION: an investor requests information, explanation or substantiation about the product, the venture or the founders, or puts a claim to the founder in a way that calls for a reply. ANSWER: a founder responds to a question or to a challenge. ACCEPTS: an investor explicitly shows acceptance of what they heard — acknowledges understanding, endorses or positively assesses an answer or claim, says a concern is settled, or states liking, interest or intent short of a concrete offer. CHALLENGES: an investor asserts disagreement, doubt or a competing fact without inviting a reply. SOCIAL: a joke, compliment, tease or expression of goodwill directed at a person, or the return of one (shared laughter, a joined joke). HOSTILE: contempt, mockery, insult or dismissal of a person rather than a claim. REPAIR: a founder, after pushback or confusion, gives a materially different explanation or a revised claim; marks their own earlier statement as unclear, incomplete or wrong; hands the answer to a co-founder; steps in to fix a co-founder's answer; or contradicts a co-founder's earlier statement. DEMONSTRATES: talk that is part of showing, handing out, tasting or trying the product, by anyone. NEGOTIATES: talk about the terms of an offer that is not itself a decision. DECIDES: the turn in which a decision is spoken, together with the reasons the speaker gives for it in the same stretch of speech. NONE: a remark with none of these functions (logistics, an aside, a filler comment).
+Include if: Give every turn exactly one function: the main thing the speaker does. When a speaker clearly does two different things in one stretch of speech (answers, then makes an offer; reacts, then asks a new question), split it into two consecutive turns by the same speaker. The one exception is a decision: an investor's statement that they are out or are making an offer, with the reasons given alongside it, is one decides turn and is never split into a challenge or an accepts turn plus a decision. A remark is a question only when it asks for information about the product, the venture or the founders; a comment, an exclamation or a joke phrased as a question is not. A founder's reply is an answer only when it replies to a question or a challenge.
+Exclude if: Do not label hospitality or product-handling talk (which sample to taste, who has which item, how to open the package) as question or answer; it is demonstrates. Do not label a joke or a tease as question, answer or challenges; it is social. An investor's confusion is a question when it asks for clarification and NONE otherwise. Do not label private states: an investor who "seems unconvinced" has no function unless they say or visibly do something attributable. Silence is never agreement.
+
+### EX-KIND — Exchange kind
+Answer with exactly one of: substantive | social | demonstration | negotiation
+Definition: An exchange is the whole back-and-forth about one matter: all the turns, by however many investors and founders, that belong to it. SUBSTANTIVE: questioning about one topic of the product, the venture or the founders — the questions, the answers, the follow-ups by any investor, and the reactions to the answers. SOCIAL: joking, teasing, compliments or hostility between people, not about the business. DEMONSTRATION: showing, handing out, tasting or trying the product, and the talk around it. NEGOTIATION: offers, counters and the discussion of terms. NONE: not used for a recorded exchange.
+Include if: Start a substantive exchange when an investor opens a new topic and keep adding turns to it while the talk stays on that topic, whoever is speaking. A follow-up by a different investor on the same topic belongs to the same exchange. Follow-up questions that build on the previous answer stay in the same exchange, also when they move to a neighbouring detail of the same line of questioning (the price, then the cost to make it, then the margin). Open a new exchange only when a question starts a line of questioning that does not build on what was just said. If the panel later comes back to an earlier topic, add those later turns to the earlier exchange rather than opening a new one. Each turn belongs to at most one exchange; the prepared presentation, remarks with no function, and an investor's statement that they are out belong to none. A joke or tease that breaks into a substantive exchange is its own social exchange, and each separate stretch of showing or handling the product is its own demonstration exchange. There is one negotiation exchange per encounter, holding every offer, counter and discussion of terms; separate offers are told apart by their offer ids. A question about the ask or the valuation before any offer is a question with deal_terms in a substantive exchange; the negotiation exchange begins with the first offer.
+Exclude if: A change of speaker is not a change of exchange. A single question with no answer is still an exchange of one turn. Do not split one topic into several exchanges because several investors asked about it, and do not merge different topics because the same investor asked about them one after another.
+
+### EX-TOPIC — Exchange topic
+Answer with exactly one of: customer_acquisition | go_to_market | market_opportunity | assets | self_promotion | sales | usage | vision | forecast | execution | safety_security | liability | competition | operating_efficiency | customer_retention | team_capabilities | deal_terms | other | NONE
+Definition: What a substantive exchange is about, using the same sixteen concepts that are defined under the question concept (PR-CONCEPT), and deal_terms, for the ask, valuation, equity and deal structure. OTHER — a real business matter that none of the concepts above covers; the exchange's label names it. NONE — the exchange is social, demonstration or negotiation.
+Include if: Choose the one concept that the questions in the exchange are mainly after. When the questions in one exchange carry different concepts, choose the concept of the question that opened the line of questioning. Always give a short label in a few words naming the specific matter (for example: profit margin per unit).
+Exclude if: Do not choose the topic from where the answer wandered; choose it from what was asked. Do not use a value that is not in the list.
+
+### DEC-KIND — Decision kind
+Answer with exactly one of: offer | joins_offer | revises_offer | withdraws_offer | exit | re_entry | founder_accepts | founder_rejects | founder_counters
+Definition: One observable investment decision or negotiation move. OFFER: an investor states a concrete offer (an amount and terms, or an unambiguous acceptance of the founders' ask). JOINS_OFFER: an investor joins another investor's standing offer. REVISES_OFFER: an investor changes the terms of their own standing offer. WITHDRAWS_OFFER: an investor retracts a standing offer. EXIT: an investor declares they are out. RE_ENTRY: an investor who exited comes back in with or toward an offer. FOUNDER_ACCEPTS / FOUNDER_REJECTS / FOUNDER_COUNTERS: the founders accept, decline or counter a specific offer. NONE: no decision; record nothing.
+Include if: Record every decision by every investor in order, with the clock time at which the decisive words begin, the actor, and a shared `offer_id` for all moves that belong to the same offer (the original offer, joins, revisions, the founders' reply). Offers by different investors are separate offers unless one joins the other. Record decisions that occur after other investors have exited or offered. State the terms as spoken, and put the reasons the investor gives for the decision in the note.
+Exclude if: Interest and conditional remarks without a stated offer ("I'd do it if you had sales") are not offers; record them as `accepts` turns. A compliment is a `social` turn. Valuation discussion before any offer is a `question` turn carrying `deal_terms`, or a `negotiates` turn once an offer stands. Do not infer an exit from silence or from the video ending. Do not use outside knowledge of the show or the deal; record only what is on screen. Post-show closing is unobservable and is never recorded.
+
+### PR-CONCEPT — Question concept
+Required on every `question` turn.
+Answer with exactly one of: customer_acquisition | go_to_market | market_opportunity | assets | self_promotion | sales | usage | vision | forecast | execution | safety_security | liability | competition | operating_efficiency | customer_retention | team_capabilities | deal_terms | other | NONE
+Definition: Which one of the concepts below the question is about: the sixteen venture-funding concepts, or deal terms. The concept, not the tone or the wording, decides the answer. Promotion concepts (concern with gains): CUSTOMER_ACQUISITION — how customers are won, obtained or onboarded. GO_TO_MARKET — launch, roll-out, market entry, positioning, branding, advertising, marketing, partnerships, distribution plans, retail and wholesale channels. MARKET_OPPORTUNITY — market size, demand, who the target customers are, market potential, expansion, whether the market is growing. ASSETS — intellectual property as an advantage, what makes the product different or unique, tangible and intangible assets. SELF_PROMOTION — the founder's own experience, background, story and how the venture began, when the founder is invited to present themselves. SALES — sales and revenue, orders, buyers, the business model, monetisation, the price and pricing, licensing, scaling up selling. USAGE — who uses the product, what it is used for, use cases, the value to the user, product or feature extensions. VISION — the dream, aspiration, mission, ideal scenario, end goal. FORECAST — projections, growth trajectory, milestones targeted, what success would look like. Prevention concepts (concern with losses): EXECUTION — whether it works and can be delivered: testing, quality, logistics, process, progress to date, performance figures, feasibility, obstacles, validation. SAFETY_SECURITY — contingency plans, procedures in place, capacity, whether the infrastructure can be relied on. LIABILITY — legality, regulation, privacy, fraud, product liability. COMPETITION — competitors, competitive threat, copycats, lost or protected market share, defensibility. OPERATING_EFFICIENCY — cost, cost to make, cost to acquire a customer, overhead, margins, profit, the bottom line, break-even, saving money, cheaper alternatives, unit economics. CUSTOMER_RETENTION — whether customers come back, repeat purchase, retention, attrition, engagement. TEAM_CAPABILITIES — checking the team: who does what, what is done in-house or outsourced, the skills the team has or lacks, how many people there are. Deal terms (no frame): DEAL_TERMS — the ask, the valuation, equity, royalties, deal structure, what the investor would own or do, whether the founder needs an investor at all. OTHER — the question is about a real business matter that none of the concepts above covers; name that matter in a few words in the turn's other_concept field. NONE — the question only repeats or asks to confirm something that was just said, or has no business subject at all.
+Include if: Find the concept the question is mainly about by what it asks for, using the words listed for each concept. A plain factual question still has a concept: asking the price is sales, asking the cost to make it is operating_efficiency. When a question touches two concepts, choose the one it asks for first or mainly. Known close calls: the price of the product is sales, but the price of the company — the ask, the valuation, the equity — is deal_terms; how customers are won is customer_acquisition, but the cost of winning one is operating_efficiency; revenue or sales to date is sales, but profit and margins are operating_efficiency; projected sales are forecast; whether the market or trend will last or grow is market_opportunity, but a named rival or a copycat is competition; an invitation to the founder to tell their own background or story is self_promotion, but checking whether the team has the skills or people to do the work is team_capabilities.
+Exclude if: A question about a CONSUMER's problem that the product solves is usage or market_opportunity, not a prevention concept. A question about a safety or security PRODUCT is not safety_security, because the venture's own safety is not in doubt. Do not use other or NONE to avoid a close call: use other only when no concept's description fits, and NONE only for a repeat, a request to confirm, or a question with no business subject. The exchange topic uses this same list; there is no separate list of topics. Do not let the answer or any later decision inform the concept of the question.
+Examples:
+- Kevin questions the high valuation, asking why he is asking for $1M for 5%. → deal_terms
+- Daymond asks if he is investing in a piece of the original design firm. → deal_terms
+- Peter asks why they made the corporate structure so complicated. → deal_terms
+- Kevin asks what the current customer acquisition cost is. → operating_efficiency (a cost, not acquisition)
+
+### PR-SEV — Question severity
+Required on every `question` turn.
+Answer with one whole number:
+  1 — Understanding-seeking. Requests a fact or clarification without contesting a claim or demanding its substantiation.
+  2 — Verification-seeking. Asks the founder to substantiate a claim — a number, a named customer, a demonstration — without asserting that the claim is false.
+  3 — Problematising. Contests the claim: names a contradiction, asserts a competing fact, or is built so that agreeing means conceding.
+Definition: How strongly the question presses on the founder's claim — a property of what the question DOES, not of its tone.
+Include if: Code every question turn. Decide whether it requests information, requests support for a prior claim, or contests that claim.
+Exclude if: Tone does not set severity: a rude information request remains 1 and a polite challenge can be 3; hostility is a separate `hostile` turn. Do not use the founder's answer or any later decision to infer how severe the question was.
+
+### RS-RESP — Answer directness
+Required on every `answer` turn.
+Answer with exactly one of: addresses | partial | deflects | NONE
+Definition: Whether the answer supplies what the linked question(s) asked for. ADDRESSES: the requested information is given, favourable or not. PARTIAL: some components are answered and others are not, or the answer engages the topic while narrowing its terms; a genuine admission that the requested information is not known is partial. DEFLECTS: the requested information is absent and replaced by something else — a change of agenda, rehearsed pitch material, an attack on the question, or a refusal. NONE: the founder begins to respond but is cut off before supplying or withholding anything.
+Include if: List what the linked question requests and check what this answer turn supplies. Judge this answer only; a later answer to a follow-up is its own turn.
+Exclude if: Do not penalise unfavourable facts, brevity, accent or nervousness. If the question itself asks whether the founder has a fact, an explicit negative fully addresses it. An inaudible or edited-out answer is missing (`not_observable` or `edited_gap`), not NONE.
+Examples:
+- Asked about his own investment and any outside funding, the founder states only that he initially put in fifty thousand dollars. → partial
+- Asked whether the business currently has any retail presence, the founder confirms she is not currently in retail stores. → addresses
+
+### RS-CONCEPT — Answer concept
+Required on every `answer` turn.
+Answer with exactly one of: customer_acquisition | go_to_market | market_opportunity | assets | self_promotion | sales | usage | vision | forecast | execution | safety_security | liability | competition | operating_efficiency | customer_retention | team_capabilities | deal_terms | other | NONE
+Definition: Which one of the sixteen concepts listed under the question concept, or deal_terms (for the ask, valuation, equity and deal structure), the founder's answer is mainly about, judged from what the answer says. OTHER — a real business matter that none of the concepts above covers; name it in a few words in the turn's other_concept field. NONE — a bare acknowledgment (yes, no, right, a single word).
+Include if: Code the answer on its own content, with the same concept list and the same close-call rules as the question concept. A one-line factual answer takes the concept of the fact it gives: a price is sales, a cost is operating_efficiency. An answer may have a different concept from the question it replies to, for example when the founder is asked about costs and talks about growth.
+Exclude if: Do not copy the question's concept onto the answer without considering what the answer says. Do not use NONE for a short factual answer.
+
+### RS-EVID — Checkable support
+Required on every `answer` turn.
+Answer with true or false.
+Definition: The answer grounds at least one claim relevant to the question in a checkable specific — a stated figure with its unit, a named customer or partner, a dated event, a described test or observation — as opposed to assertion alone.
+Include if: A requested price or sales figure with unit and scope itself counts. Code the presence of stated support in this answer turn.
+Exclude if: Vague quantifiers, unsupported projections, self-awarded rankings and confident delivery alone. Code presence of support, not its truth or persuasiveness.
+
+### RS-UNCERT — Admitted uncertainty or concession
+Required on every `answer` turn.
+Answer with true or false.
+Definition: The founder explicitly claims no-knowledge or concedes the investor's point: says they do not know, do not have the figure, have not tested it, or that the investor is right.
+Include if: An explicit knowledge limit, an unperformed test or measurement, or acceptance of an investor's stated correction or counterclaim, within this answer turn.
+Exclude if: A known negative fact given in answer to an information request (no patent, no sales) is not uncertainty. Hedges that still assert, polite thanks, and a filler admission immediately followed by the requested answer do not count.
+
+### PREP-SUBS — Answer substance
+Required on every `answer` turn.
+Answer with one whole number:
+  1 — No substance. Restates the value proposition or a slogan; nothing new is said in answer.
+  2 — Thin. One relevant point at a general level, without mechanism or detail.
+  3 — Adequate. Relevant content with some detail — a mechanism, a number, or an example — but not developed further.
+  4 — Substantial. Several specific, connected points; the founder explains how or why, not only what.
+  5 — In-depth. Detailed and layered — unit-level specifics, named assumptions, and what would change them.
+Definition: Substance and depth of the answer, conditional on what was asked. Judge content, not delivery.
+Include if: The answer turn contains about ten founder words or more. A short answer can fully address a simple question; that is recorded by directness, not here.
+Exclude if: Fewer than about ten words: return no value with missing reason `too_short`, not a low score. Do not score fluency, confidence, charisma, investor reactions or outcomes.
+
+### PREP-COH — Answer coherence
+Required on every `answer` turn.
+Answer with one whole number:
+  1 — Incoherent. Points do not connect, or the answer contradicts itself.
+  2 — Loose. A conclusion is stated but the steps to it are missing or jump.
+  3 — Followable. The main line of reasoning is clear, with a gap or an unsupported step.
+  4 — Coherent. Each step follows; the answer reaches its conclusion without gaps.
+  5 — Tightly reasoned. Explicit structure — premise, implication, conclusion — and anticipates the obvious objection.
+Definition: How logically the answer hangs together: premises support conclusions and the parts do not conflict.
+Include if: The answer contains enough argument to assess how premises support conclusions.
+Exclude if: An isolated fact, a bare knowledge limit or an answer with no argument structure: return no value with missing reason `not_applicable`. Do not penalise accent, disfluency or nervousness, or infer coherence from investor agreement.
+
+### PREP-CTX — Answer contextualisation
+Required on every `answer` turn.
+Answer with one whole number:
+  1 — None. The answer stays entirely inside the venture's own operations although context was relevant.
+  2 — Name-drop. A competitor, market or trend is mentioned with no stated relationship.
+  3 — Located. One relationship is stated — how the venture differs from an alternative, or why a trend matters to it.
+  4 — Situated. Several contextual relationships, tied to the venture's strategy.
+  5 — Integrated. Context drives the reasoning: positioning against named alternatives and market dynamics, with consequences drawn.
+Definition: How well the answer relates the venture to its wider context — market, competitors, category, regulation, trends.
+Include if: The question or the answer makes an external relationship relevant (competition, positioning, regulation, a trend).
+Exclude if: A purely internal price, inventory or operations question: return no value with missing reason `not_applicable`. Do not require a named competitor for anchors 2–4.
+
+### PREP-CONSIST — Unresolved claim conflicts
+Recorded as a list; see the record fields.
+Definition: Pairs of founder statements anywhere in the encounter (prepared presentation or answers) that concern the same referent and metric with matching period, units and scope and cannot both be true. Each pair is listed once with both turns; the count is the length of the list. It measures stated consistency, not honesty or external accuracy.
+Include if: Both statements are locatable in recorded turns; the same referent, metric, period, units and scope are established before incompatibility is judged. Mark `reconciled` true when a founder later corrects or reconciles the pair on screen.
+Exclude if: Rounding or refinement, changes in period or scope, actual versus forecast, conditional statements, and a revised offer or counter-offer in negotiation. Missing comparability is not a contradiction.
+
+
+CODEBOOK — PREPARED PRESENTATION (judged from the prepared presentation spans only)
+### PRES-SUBS — Presentation substance
+Answer with one whole number:
+  1 — No substance. A slogan and an ask; nothing about how the business works.
+  2 — Thin. One or two general claims without mechanism or detail.
+  3 — Adequate. Relevant content with some detail — a mechanism, a number, an example — not developed further.
+  4 — Substantial. Several specific, connected points; how or why, not only what.
+  5 — In-depth. Detailed and layered — unit-level specifics, named assumptions, and what would change them.
+Definition: Substance and depth of the prepared presentation: what the founders say about how the business works, judged on content, not delivery.
+Include if: Judge from the prepared presentation spans only. The investors' later questions are not evidence about the presentation.
+Exclude if: Do not score fluency, confidence, charisma or the ask itself. No prepared presentation: return no value with missing reason not_applicable; a presentation cut by an edit: edited_gap.
+
+### PRES-COH — Presentation coherence
+Answer with one whole number:
+  1 — Incoherent. Points do not connect, or the presentation contradicts itself.
+  2 — Loose. A conclusion is stated but the steps to it are missing or jump.
+  3 — Followable. The main line of reasoning is clear, with a gap or an unsupported step.
+  4 — Coherent. Each step follows; the presentation reaches its conclusion without gaps.
+  5 — Tightly reasoned. Explicit structure — premise, implication, conclusion — and anticipates the obvious objection.
+Definition: How logically the presentation hangs together: premises support conclusions and the parts do not conflict.
+Include if: Judge from the prepared presentation spans only. The investors' later questions are not evidence about the presentation.
+Exclude if: Do not penalise accent, disfluency or nervousness, or infer coherence from investor agreement. No prepared presentation: return no value with missing reason not_applicable; a presentation cut by an edit: edited_gap.
+
+### PRES-CTX — Presentation contextualisation
+Answer with one whole number:
+  1 — None. The presentation stays entirely inside the venture's own operations although a market, a competitor or a trend was relevant.
+  2 — Name-drop. A competitor, market or trend is mentioned with no stated relationship.
+  3 — Located. One relationship is stated — how the venture differs from an alternative, or why a trend matters to it.
+  4 — Situated. Several contextual relationships, tied to the venture's strategy.
+  5 — Integrated. Context drives the reasoning: positioning against named alternatives and market dynamics, with consequences drawn.
+Definition: How well the presentation relates the venture to its wider context — market, competitors, category, regulation, trends.
+Include if: Judge from the prepared presentation spans only. The investors' later questions are not evidence about the presentation.
+Exclude if: Do not require a named competitor for anchors 2–4. No prepared presentation: return no value with missing reason not_applicable; a presentation cut by an edit: edited_gap.
+
+### PRES-EVID — Checkable specifics in the presentation
+Answer with a whole number, 0 or more.
+Definition: The number of distinct claims in the prepared presentation that are grounded in a checkable specific — a stated figure with its unit, a named customer or partner, a dated event, a described test or observation.
+Include if: Count each distinct supported claim once; the ask (amount and equity) is not counted. Zero is a value, not missing.
+Exclude if: Vague quantifiers, unsupported projections, self-awarded rankings and confident delivery alone. Count stated support, not its truth or persuasiveness. No prepared presentation: return no value with missing reason not_applicable; a presentation cut by an edit: edited_gap.
+
+
+CODEBOOK — STAGE A, DELIVERY OF THE PREPARED PRESENTATION
+# Shared coding protocol: Stage A perceived delivery
+
+Status: provisional research instrument; human validation has not yet been completed.
+Use this protocol together with the three-code Stage A perceived-delivery codebook.
+
+Watch the entire supplied clip with sound before assigning ratings. Human coders and
+Gemini receive the same clip and substantive instructions, without investment outcomes
+or the other coders' ratings. The clip is the prepared presentation, not investor Q&A.
+
+The target is the presenting team's displayed performance over this clip. A solo founder
+is a one-person team. For multiple presenters, judge the predominant impression over
+founder speaking time; do not let a brief striking contribution determine the score.
+Record substantial differences between presenters in overall_notes. These are team-level
+judgments, not individual founder scores. Hosts, investors and voiceovers are not targets.
+
+Consider facial expression, gesture, vocal delivery and the meaning of speech together
+when relevant to each construct. No channel has a fixed numerical weight, and the channels
+need not agree. Explain salient conflicting cues in the evidence. A quiet presenter may
+be warm; an energetic presenter may be cold. Do not count smiling or loudness mechanically.
+Do not infer genuine inner passion, sincerity, personality, competence or future success.
+Ignore attractiveness, accent prestige, production polish, background music, investor
+reactions and knowledge of the business or its outcome. Judge expressed presentation,
+not the attractiveness of the business idea or its financial prospects.
+
+Use each code's five anchors. Endpoints are allowed when supported, never forced to
+achieve a desired distribution. Rate the global positivity item directly, then enthusiasm
+and warmth on their own definitions. Do not compute a composite, enforce matching scores,
+or use one item's score as the evidence for another.
+
+Both founder speech and usable views of the presenter must be available for a meaningful
+portion of the clip. If missing or unusable material prevents the intended audiovisual
+judgment, mark the affected code uncodable and explain why. A low level of a construct is
+not missing evidence. If a code can still be judged despite partial missingness, describe
+the limitation. Insufficient interaction does not itself make a prepared pitch uncodable.
+
+For every scored item, provide a short explanation with at least one clip-relative M:SS
+or H:MM:SS timestamp identifying supporting behavior. Cite contrasting moments where
+needed to justify the whole-clip rating; do not judge only the most expressive moment.
+Evidence records what supports the perception, not a claim about the person's inner state.
+For uncodable items, return no score and explain the missing evidence; no timestamp is
+required when the whole recording is unusable. Record editing and presenter heterogeneity
+in overall_notes. Do not report self-assessed confidence.
+In this record the protocol's words map as follows. Where the protocol says evidence, write the
+supporting behaviour in the item's note (about 15 words; the note may cite clock times of
+contrasting moments) and put the clock time of the single best-supporting moment in moment
+(null when the rating describes the whole presentation). Where it says overall_notes, use the
+record's notes. All times are clock times of this video file (M:SS from the start of the file),
+never clip-relative. The protocol's "clip" is the prepared presentation spans of this video.
+Each item: a whole number 1 to 5 from the anchors below.
+### pitch_positivity
+Answer with one whole number:
+  1 — Little or no positive expression. Delivery is largely detached, flat or negatively toned; positive engagement is scarcely communicated. This does not imply a bad venture.
+  2 — Slight positive expression. Occasional positive engagement is apparent, but much of the presentation remains matter-of-fact or subdued.
+  3 — Moderate positive expression. Clear positive engagement recurs alongside substantial neutral stretches.
+  4 — Strong positive expression. Positive, enthusiastic engagement characterizes most of the presentation, with some neutral or mixed moments.
+  5 — Very strong positive expression. The presentation communicates pronounced, sustained positive engagement, while allowing brief neutral moments.
+Definition: The overall positive, enthusiastic impression communicated by the presenting team across the prepared presentation. This is a direct observer judgment of displayed delivery, not an average of other ratings or an assessment of the venture.
+Include if: Apply the shared Stage A perceived-delivery protocol: rate the presenting team's displayed performance in the supplied prepared-presentation clip using audiovisual evidence, with contributions considered over founder speaking time. Both audible founder speech and usable views must permit the intended judgment; otherwise mark uncodable.
+Exclude if: Venture quality, optimism of business forecasts alone, attractiveness, production quality or inferred funding success. Do not derive this score by averaging enthusiasm and warmth. A calm presentation is not automatically negative.
+
+### expressed_enthusiasm
+Answer with one whole number:
+  1 — Little or no expressed excitement. The founder delivery remains detached or purely matter-of-fact.
+  2 — Slight expressed excitement. Brief moments of interest or animation occur without a sustained sense of engaged excitement.
+  3 — Moderate expressed excitement. Engaged animation recurs at meaningful points but alternates with subdued delivery.
+  4 — Strong expressed excitement. Sustained engagement with the subject is evident across much of the presentation, even if expressed quietly.
+  5 — Very strong expressed excitement. Pronounced, sustained engagement and excitement characterize the presentation across its substantive content.
+Definition: The strength of engaged excitement about the venture communicated through the presentation. Integrate delivery, expression, gesture and meaningful engagement with the subject; judge expressed enthusiasm, not the founder's actual feelings.
+Include if: Apply the shared Stage A perceived-delivery protocol: rate the presenting team's displayed performance in the supplied prepared-presentation clip using audiovisual evidence, with contributions considered over founder speaking time. Both audible founder speech and usable views must permit the intended judgment; otherwise mark uncodable.
+Exclude if: Loudness, speed, smiling, positive adjectives or dramatic gestures alone. Warmth toward people without excitement about the venture. Nervous activation without engaged excitement. Do not infer genuine inner passion.
+
+### interpersonal_warmth
+Answer with one whole number:
+  1 — Little or no communicated warmth. Presentation comes across as impersonal, distant or dismissive rather than approachable.
+  2 — Slight communicated warmth. Brief courteous or friendly moments occur within mostly impersonal delivery.
+  3 — Moderate communicated warmth. An approachable, friendly orientation is apparent at several points alongside impersonal stretches.
+  4 — Strong communicated warmth. Friendly, approachable and considerate expression characterizes much of the presentation.
+  5 — Very strong communicated warmth. A pronounced and sustained approachable, considerate orientation toward others characterizes the presentation.
+Definition: How friendly, approachable and positively oriented toward other people the presenting team comes across in this presentation, integrating delivery and the contextual meaning of speech. This measures perceived interpersonal expression, not trustworthiness or moral character.
+Include if: Apply the shared Stage A perceived-delivery protocol: rate the presenting team's displayed performance in the supplied prepared-presentation clip using audiovisual evidence, with contributions considered over founder speaking time. Both audible founder speech and usable views must permit the intended judgment; otherwise mark uncodable.
+Exclude if: Excitement or high energy alone; attractiveness; merely mentioning community, customers or a charitable mission; inferred honesty or competence. A quiet or serious presenter can convey warmth. Reciprocity is not required here: dyadic rapport belongs to Stage B.
+
+
+CODEBOOK — VENTURE CONTEXT (in these codes NONE means unknown)
+### VC-INDUSTRY — Primary industry
+Answer with exactly one of: food_beverage | apparel_accessories | home_household | health_personal_care | children_education | pets | sports_leisure | business_industrial_services | general_technology | other | NONE
+Definition: The venture's primary industry, by the primary use and customer problem the product addresses.
+Include if: Classify from what the founders and investors say and show on screen. Software is a product form, not an industry: a scheduling app for medical clinics is health_personal_care or business_industrial_services by its use, not general_technology. Use general_technology only for genuinely general-purpose technology. Additional supported markets go in secondary industries.
+Exclude if: Do not classify from remembered company identity, online information, investor interest or eventual deal partners. If the primary market cannot be determined, use NONE.
+
+### VC-FORM — Product form
+Answer with exactly one of: physical_good | software_digital | service | combined | NONE
+Definition: What kind of thing is sold: a physical good, a software or digital product, a service, or a combination that is sold together.
+Include if: Classify what the customer pays for as described on screen.
+Exclude if: An ordinary website or app that only sells a physical good does not make the product combined. Use NONE when the footage does not establish the form.
+
+### VC-CUSTOMER — Customer type
+Answer with exactly one of: consumer | business_institution | both | NONE
+Definition: Who buys: individual consumers, businesses or institutions, or both as stated current customers.
+Include if: Classify from stated current sales channels and customers.
+Exclude if: A retailer that resells to consumers does not make the customer a business; the end buyer is the consumer. Aspirational future segments do not count. Use NONE when not established.
+
+### VC-GENDER — Presenting team gender composition
+Answer with exactly one of: all_women | all_men | mixed | NONE
+Definition: The gender composition of the founders who present the pitch, as they appear and are referred to on screen. ALL_WOMEN: every presenting founder presents as a woman. ALL_MEN: every presenting founder presents as a man. MIXED: the presenting founders include both. NONE: it cannot be established from the footage.
+Include if: Count only the founders who present or answer in the encounter. Use how each person presents and how they are addressed or referred to on screen (names, pronouns, titles used by the founders, the investors or the narration).
+Exclude if: Do not count helpers, models, family members or employees who appear but do not present or answer. Do not use outside knowledge of the people. This records presentation on screen for use as a statistical control; it is not a statement of anyone's gender identity. Use NONE when the footage leaves it unclear.
+
+### VC-ASK — The ask
+Answer with numbers in the record fields named in the definition.
+Definition: The investment the founders ask for in the opening and the share of the company offered for it, as said by the founders or shown on screen: ask_amount_usd (whole US dollars) and ask_equity_pct (per cent of equity).
+Include if: Take the first complete statement of the ask. Give ask_equity_pct in per cent: 10 for ten per cent, never 0.10. A royalty or loan structure in the opening is recorded with the amount as stated and equity 0, with the structure in the venture note. Record what is said, not what is later negotiated.
+Exclude if: Not the investors' counter-offers or the final deal. When neither spoken nor shown, give no values with ask_missing not_observable; when the footage starts after the ask, edited_gap.
+
+
+Return one JSON object with exactly the record fields above.

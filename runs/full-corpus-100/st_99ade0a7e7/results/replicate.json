@@ -1,0 +1,2704 @@
+{
+  "pass": "replicate",
+  "unit_key": "panel__st_99ade0a7e7__replicate",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:25-1:32"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "qa",
+      "3": "qa",
+      "4": "qa",
+      "5": "qa",
+      "6": "demonstration",
+      "7": "qa",
+      "8": "qa",
+      "9": "qa",
+      "10": "qa",
+      "11": "qa",
+      "12": "demonstration",
+      "13": "demonstration",
+      "14": "demonstration",
+      "15": "demonstration",
+      "16": "demonstration",
+      "17": "demonstration",
+      "18": "demonstration",
+      "19": "demonstration",
+      "20": "demonstration",
+      "21": "qa",
+      "22": "qa",
+      "23": "qa",
+      "24": "qa",
+      "25": "qa",
+      "26": "qa",
+      "27": "qa",
+      "28": "qa",
+      "29": "qa",
+      "30": "qa",
+      "31": "qa",
+      "32": "qa",
+      "33": "qa",
+      "34": "qa",
+      "35": "qa",
+      "36": "qa",
+      "37": "qa",
+      "38": "qa",
+      "39": "qa",
+      "40": "qa",
+      "41": "qa",
+      "42": "qa",
+      "43": "qa",
+      "44": "qa",
+      "45": "qa",
+      "46": "qa",
+      "47": "qa",
+      "48": "qa",
+      "49": "qa",
+      "50": "qa",
+      "51": "qa",
+      "52": "qa",
+      "53": "qa",
+      "54": "qa",
+      "55": "qa",
+      "56": "none",
+      "57": "none",
+      "58": "qa",
+      "59": "none",
+      "60": "none",
+      "61": "none",
+      "62": "negotiation",
+      "63": "none",
+      "64": "none",
+      "65": "negotiation",
+      "66": "negotiation",
+      "67": "negotiation",
+      "68": "none",
+      "69": "negotiation",
+      "70": "none",
+      "71": "none",
+      "72": "none",
+      "73": "none",
+      "74": "none"
+    },
+    "segment_seconds": {
+      "presentation": 67.0,
+      "qa": 197.0,
+      "social": 0.0,
+      "demonstration": 44.0,
+      "negotiation": 23.0,
+      "none": 200.0
+    },
+    "exchange_counts": {
+      "substantive": 10,
+      "social": 0,
+      "demonstration": 1,
+      "negotiation": 1
+    },
+    "turn_frame": {
+      "2": "promotion",
+      "3": "promotion",
+      "4": "promotion",
+      "5": "promotion",
+      "7": "promotion",
+      "8": "promotion",
+      "10": "promotion",
+      "11": "promotion",
+      "21": "promotion",
+      "22": "promotion",
+      "23": "promotion",
+      "24": "promotion",
+      "25": "unclassified",
+      "26": "unclassified",
+      "27": "promotion",
+      "28": "promotion",
+      "29": "prevention",
+      "30": "prevention",
+      "31": "prevention",
+      "32": "prevention",
+      "33": "unclassified",
+      "34": "unclassified",
+      "35": "unclassified",
+      "36": "unclassified",
+      "37": "unclassified",
+      "38": "unclassified",
+      "39": "prevention",
+      "40": "prevention",
+      "41": "promotion",
+      "42": "promotion",
+      "43": "promotion",
+      "44": "promotion",
+      "45": "prevention",
+      "46": "prevention",
+      "47": "prevention",
+      "48": "prevention",
+      "49": "prevention",
+      "50": "prevention",
+      "51": "prevention",
+      "52": "prevention",
+      "55": "promotion",
+      "58": "promotion",
+      "62": "unclassified",
+      "65": "unclassified",
+      "66": "unclassified"
+    },
+    "frame_match": {
+      "3": "match",
+      "5": "match",
+      "8": "match",
+      "11": "match",
+      "22": "match",
+      "24": "match",
+      "26": "unclassified",
+      "28": "match",
+      "30": "match",
+      "32": "match",
+      "34": "unclassified",
+      "36": "unclassified",
+      "38": "unclassified",
+      "40": "match",
+      "42": "match",
+      "44": "match",
+      "46": "match",
+      "48": "match",
+      "50": "match",
+      "52": "match",
+      "66": "unclassified"
+    },
+    "other_concepts": []
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "H1",
+        "role": "host",
+        "label": "Narrator"
+      },
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Monica Ferguson"
+      },
+      {
+        "actor_id": "F2",
+        "role": "founder",
+        "label": "Becca Brown"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Lori Greiner"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Mark Cuban"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Daymond John"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Robert Herjavec"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 25.0,
+        "end_s": 92.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 8.0,
+        "kind": "teaser"
+      },
+      {
+        "start_s": 619.0,
+        "end_s": 635.0,
+        "kind": "interview"
+      },
+      {
+        "start_s": 648.0,
+        "end_s": 678.0,
+        "kind": "other"
+      }
+    ],
+    "gaps": [],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 50.0,
+        "note": "The presentation communicates strong positive engagement with warm smiles and enthusiastic delivery."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 37.0,
+        "note": "Sustained engaged excitement is evident as they describe the problem and their solution."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 25.0,
+        "note": "Friendly and approachable orientation characterizes the presentation, with considerate smiles."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "1",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "0",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "Heel caps that increase surface area to prevent high heels from sinking into grass or getting stuck in cracks.",
+      "primary_industry": "apparel_accessories",
+      "secondary_industries": [],
+      "product_form": "physical_good",
+      "customer_type": "both",
+      "founder_gender": "all_women",
+      "product_category": "heel protectors",
+      "earliest_s": 35.0,
+      "note": "The founders ask for $500,000 for a 10% stake in their business.",
+      "ask_amount_usd": 500000,
+      "ask_equity_pct": 10.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 25.0,
+        "end_s": 92.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The founders introduce themselves and their product, explaining how it prevents high heels from sinking into grass or cracks."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "S5",
+        "start_s": 93.0,
+        "end_s": 94.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks Becca if she is currently wearing the product."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "F2",
+        "start_s": 94.0,
+        "end_s": 95.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          2
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Becca confirms that both founders are wearing the heel caps."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "S1",
+        "start_s": 98.0,
+        "end_s": 101.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks if the product comes in clear to match different shoe colors."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "F1",
+        "start_s": 102.0,
+        "end_s": 106.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          4
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Monica confirms they offer the product in clear, black, silver, and gold."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "S3",
+        "start_s": 107.0,
+        "end_s": 107.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin receives a sample box from the founders."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "S5",
+        "start_s": 108.0,
+        "end_s": 109.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks how much the product costs."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "F1",
+        "start_s": 109.0,
+        "end_s": 115.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          7
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Monica explains that each pair retails for $10, and a box of three pairs costs $30."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "S5",
+        "start_s": 116.0,
+        "end_s": 117.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          8
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert expresses surprise and interest at the retail price."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "S1",
+        "start_s": 118.0,
+        "end_s": 119.0,
+        "function": "question",
+        "addressed": [
+          "UNKNOWN"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks which samples are the silver and gold ones."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "F2",
+        "start_s": 120.0,
+        "end_s": 125.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          10
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "deflects",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Becca deflects the question to invite the investors to try the product firsthand."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "F2",
+        "start_s": 126.0,
+        "end_s": 129.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Becca invites Lori to come up and try a pair of heels."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "S5",
+        "start_s": 130.0,
+        "end_s": 132.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert asks why the gentlemen are excluded from trying the heels."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "F2",
+        "start_s": 133.0,
+        "end_s": 136.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Becca invites the men to try the product as well."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "S5",
+        "start_s": 137.0,
+        "end_s": 140.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert approaches the stage to try on the heels."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "S5",
+        "start_s": 141.0,
+        "end_s": 147.0,
+        "function": "demonstrates",
+        "addressed": [
+          "UNKNOWN"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert puts on the heels and expresses his surprise."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "S3",
+        "start_s": 148.0,
+        "end_s": 156.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin reacts with amusement as Robert walks in the heels."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "F2",
+        "start_s": 157.0,
+        "end_s": 161.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Becca explains to Robert that one heel has the cap and the other does not."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "S4",
+        "start_s": 162.0,
+        "end_s": 169.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond points out the difference, and Robert agrees he feels a huge difference."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "S3",
+        "start_s": 170.0,
+        "end_s": 178.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin jokes that wearing heels is not a good look for Robert."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "S2",
+        "start_s": 179.0,
+        "end_s": 180.0,
+        "function": "question",
+        "addressed": [
+          "UNKNOWN"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks the founders about their professional background."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "F1",
+        "start_s": 180.0,
+        "end_s": 185.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          21
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Monica explains that they met working at Goldman Sachs right out of college."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "S5",
+        "start_s": 186.0,
+        "end_s": 186.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks what happened after their time at Goldman Sachs."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "F1",
+        "start_s": 187.0,
+        "end_s": 199.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          23
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Monica notes they learned a lot there, especially the importance of knowing who to go to."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "S3",
+        "start_s": 200.0,
+        "end_s": 217.0,
+        "function": "question",
+        "addressed": [
+          "UNKNOWN"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin challenges their valuation, asking them to justify the five million dollar valuation."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "F2",
+        "start_s": 218.0,
+        "end_s": 227.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          25
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Becca provides their revenue figures, stating they did $1.1 million last year and are growing."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "S5",
+        "start_s": 228.0,
+        "end_s": 232.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks how they achieved that revenue and where they are selling the product."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "F1",
+        "start_s": 233.0,
+        "end_s": 261.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          27
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Monica lists retail partners like Nordstrom and explains that it is a highly correlated wedding purchase."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "S3",
+        "start_s": 262.0,
+        "end_s": 263.0,
+        "function": "question",
+        "addressed": [
+          "UNKNOWN"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks if they are generating any cash flow yet."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "F2",
+        "start_s": 264.0,
+        "end_s": 266.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          29
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Becca admits they are not generating cash flow because they are breaking even."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "S3",
+        "start_s": 267.0,
+        "end_s": 267.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks if they are paying themselves a salary."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "F1",
+        "start_s": 268.0,
+        "end_s": 270.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          31
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Monica confirms they are paying themselves and have 65% gross profit margins."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "S2",
+        "start_s": 271.0,
+        "end_s": 272.0,
+        "function": "question",
+        "addressed": [
+          "UNKNOWN"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks how much the founders have personally invested."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "F2",
+        "start_s": 273.0,
+        "end_s": 277.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          33
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Becca states they invested $100,000 together when they started."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "S2",
+        "start_s": 278.0,
+        "end_s": 278.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks how much outside funding they have raised."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "F2",
+        "start_s": 279.0,
+        "end_s": 281.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          35
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Becca replies they have raised just under a million dollars."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "S2",
+        "start_s": 282.0,
+        "end_s": 283.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks how they raised the outside funding."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "F1",
+        "start_s": 284.0,
+        "end_s": 284.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          37
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Monica explains they raised it from friends and angels."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "S1",
+        "start_s": 285.0,
+        "end_s": 286.0,
+        "function": "question",
+        "addressed": [
+          "UNKNOWN"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks how many partners are currently in the business."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "F2",
+        "start_s": 287.0,
+        "end_s": 289.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          39
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Becca clarifies that she and Monica together own 80%."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "S5",
+        "start_s": 290.0,
+        "end_s": 303.0,
+        "function": "question",
+        "addressed": [
+          "UNKNOWN"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert challenges them on their distribution strategy, asking who they are selling to directly."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "F1",
+        "start_s": 304.0,
+        "end_s": 306.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          41
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Monica confirms they sell to venues and hotels."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "S5",
+        "start_s": 307.0,
+        "end_s": 310.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks how they plan to expand their distribution network."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "F2",
+        "start_s": 311.0,
+        "end_s": 315.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          43
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Becca admits they have a bandwidth issue because it is just the two of them and one employee."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "S4",
+        "start_s": 316.0,
+        "end_s": 316.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Daymond asks what the full-time employee's role is."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "F2",
+        "start_s": 317.0,
+        "end_s": 318.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          45
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Becca states that the employee is their operations and office manager."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "S2",
+        "start_s": 319.0,
+        "end_s": 328.0,
+        "function": "question",
+        "addressed": [
+          "UNKNOWN"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark challenges their expenses, asking where the $650,000 in gross margins is going."
+      },
+      {
+        "turn_id": 48,
+        "speaker": "F1",
+        "start_s": 329.0,
+        "end_s": 334.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          47
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Monica explains they use third-party workers like graphic designers and web developers."
+      },
+      {
+        "turn_id": 49,
+        "speaker": "S5",
+        "start_s": 335.0,
+        "end_s": 336.0,
+        "function": "question",
+        "addressed": [
+          "UNKNOWN"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks what their net profit was."
+      },
+      {
+        "turn_id": 50,
+        "speaker": "F2",
+        "start_s": 337.0,
+        "end_s": 339.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          49
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Becca states their net profit was $30,000."
+      },
+      {
+        "turn_id": 51,
+        "speaker": "S4",
+        "start_s": 340.0,
+        "end_s": 340.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Daymond asks how much they paid themselves."
+      },
+      {
+        "turn_id": 52,
+        "speaker": "F2",
+        "start_s": 341.0,
+        "end_s": 342.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          51
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Becca replies they each took an $80,000 salary last year."
+      },
+      {
+        "turn_id": 53,
+        "speaker": "S3",
+        "start_s": 343.0,
+        "end_s": 344.0,
+        "function": "accepts",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          52
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin acknowledges the $160,000 salary expense makes the numbers add up."
+      },
+      {
+        "turn_id": 54,
+        "speaker": "S1",
+        "start_s": 345.0,
+        "end_s": 364.0,
+        "function": "challenges",
+        "addressed": [
+          "UNKNOWN"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori expresses doubt that the product is a strong necessity since many women wear more stable shoes."
+      },
+      {
+        "turn_id": 55,
+        "speaker": "F1",
+        "start_s": 365.0,
+        "end_s": 375.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          54
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "market_opportunity",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Monica counters that for the occasions when stilettos are worn, the product acts as insurance."
+      },
+      {
+        "turn_id": 56,
+        "speaker": "S1",
+        "start_s": 376.0,
+        "end_s": 385.0,
+        "function": "decides",
+        "addressed": [
+          "UNKNOWN"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori states she does not see it as a big enough problem and exits."
+      },
+      {
+        "turn_id": 57,
+        "speaker": "S2",
+        "start_s": 386.0,
+        "end_s": 408.0,
+        "function": "decides",
+        "addressed": [
+          "UNKNOWN"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark exits because he does not believe the business can reach the scale required to justify the valuation."
+      },
+      {
+        "turn_id": 58,
+        "speaker": "F2",
+        "start_s": 409.0,
+        "end_s": 420.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          57
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "forecast",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Becca responds to Mark's challenge, stating they are committed and believe they can scale significantly."
+      },
+      {
+        "turn_id": 59,
+        "speaker": "S3",
+        "start_s": 421.0,
+        "end_s": 446.0,
+        "function": "decides",
+        "addressed": [
+          "UNKNOWN"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin exits, arguing that scaling to fifty million in sales would require heavy reinvestment."
+      },
+      {
+        "turn_id": 60,
+        "speaker": "S5",
+        "start_s": 447.0,
+        "end_s": 502.0,
+        "function": "decides",
+        "addressed": [
+          "UNKNOWN"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert praises the product as a new category and offers five hundred thousand for twenty-five percent."
+      },
+      {
+        "turn_id": 61,
+        "speaker": "S1",
+        "start_s": 503.0,
+        "end_s": 504.0,
+        "function": "NONE",
+        "addressed": [
+          "UNKNOWN"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori makes a remark about there being only one person left."
+      },
+      {
+        "turn_id": 62,
+        "speaker": "S4",
+        "start_s": 505.0,
+        "end_s": 505.0,
+        "function": "question",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Daymond asks Kevin what he is doing."
+      },
+      {
+        "turn_id": 63,
+        "speaker": "S3",
+        "start_s": 506.0,
+        "end_s": 545.0,
+        "function": "decides",
+        "addressed": [
+          "UNKNOWN"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin re-enters and offers one hundred thousand for ten percent with a four hundred thousand dollar loan."
+      },
+      {
+        "turn_id": 64,
+        "speaker": "F1",
+        "start_s": 546.0,
+        "end_s": 555.0,
+        "function": "decides",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Monica rejects Kevin's offer and counters Robert, asking if he would accept twenty percent."
+      },
+      {
+        "turn_id": 65,
+        "speaker": "S5",
+        "start_s": 556.0,
+        "end_s": 557.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks why a five percent difference is meaningful to them."
+      },
+      {
+        "turn_id": 66,
+        "speaker": "F1",
+        "start_s": 558.0,
+        "end_s": 565.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 12,
+        "responds_to": [
+          65
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Monica explains that it allows them to maintain a slight cumulative majority."
+      },
+      {
+        "turn_id": 67,
+        "speaker": "S2",
+        "start_s": 566.0,
+        "end_s": 573.0,
+        "function": "accepts",
+        "addressed": [
+          "UNKNOWN"
+        ],
+        "exchange_id": 12,
+        "responds_to": [
+          66
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark acknowledges their reasoning regarding their eighty percent ownership."
+      },
+      {
+        "turn_id": 68,
+        "speaker": "S5",
+        "start_s": 574.0,
+        "end_s": 576.0,
+        "function": "decides",
+        "addressed": [
+          "UNKNOWN"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert agrees to the founders' counter offer."
+      },
+      {
+        "turn_id": 69,
+        "speaker": "S5",
+        "start_s": 577.0,
+        "end_s": 585.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert asks for final confirmation of the deal."
+      },
+      {
+        "turn_id": 70,
+        "speaker": "F2",
+        "start_s": 586.0,
+        "end_s": 587.0,
+        "function": "decides",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Becca accepts Robert's revised offer."
+      },
+      {
+        "turn_id": 71,
+        "speaker": "S5",
+        "start_s": 588.0,
+        "end_s": 618.0,
+        "function": "social",
+        "addressed": [
+          "UNKNOWN"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert thanks the founders and they share hugs and goodbyes."
+      },
+      {
+        "turn_id": 72,
+        "speaker": "S4",
+        "start_s": 636.0,
+        "end_s": 641.0,
+        "function": "social",
+        "addressed": [
+          "UNKNOWN"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond comments that the business is not worth more than a million dollars."
+      },
+      {
+        "turn_id": 73,
+        "speaker": "S5",
+        "start_s": 643.0,
+        "end_s": 644.0,
+        "function": "social",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert jokes that Kevin is turning green with envy."
+      },
+      {
+        "turn_id": 74,
+        "speaker": "S3",
+        "start_s": 645.0,
+        "end_s": 646.0,
+        "function": "social",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin replies that he would have preferred the debt deal."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "substantive",
+        "topic": "assets",
+        "label": "wearing them and colors"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "demonstration",
+        "topic": "NONE",
+        "label": "trying on heels"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "self_promotion",
+        "label": "founders background"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "valuation and sales"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "retail doors"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "substantive",
+        "topic": "operating_efficiency",
+        "label": "margins and cash flow"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "investment and equity"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "substantive",
+        "topic": "go_to_market",
+        "label": "distribution bandwidth"
+      },
+      {
+        "exchange_id": 9,
+        "kind": "substantive",
+        "topic": "operating_efficiency",
+        "label": "expenses and profit"
+      },
+      {
+        "exchange_id": 10,
+        "kind": "substantive",
+        "topic": "market_opportunity",
+        "label": "need for the product"
+      },
+      {
+        "exchange_id": 11,
+        "kind": "substantive",
+        "topic": "forecast",
+        "label": "scaling to fifty million"
+      },
+      {
+        "exchange_id": 12,
+        "kind": "negotiation",
+        "topic": "NONE",
+        "label": "offers and counter"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S1",
+        "kind": "exit",
+        "time_s": 376.0,
+        "turn_id": 56,
+        "offer_id": null,
+        "terms": "I'm out",
+        "note": "Lori does not think the product solves a big enough problem since many women wear more stable shoes."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S2",
+        "kind": "exit",
+        "time_s": 386.0,
+        "turn_id": 57,
+        "offer_id": null,
+        "terms": "I'm out",
+        "note": "Mark exits because he does not believe they can scale to the sales volume required to justify the valuation."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S3",
+        "kind": "exit",
+        "time_s": 421.0,
+        "turn_id": 59,
+        "offer_id": null,
+        "terms": "I'm out",
+        "note": "Kevin exits, arguing that scaling to fifty million in sales would require heavy reinvestment and lower net profit."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S5",
+        "kind": "offer",
+        "time_s": 447.0,
+        "turn_id": 60,
+        "offer_id": "O1",
+        "terms": "$500,000 for 25%",
+        "note": "Robert praises the product as a new category and wants more equity to help them scale."
+      },
+      {
+        "decision_id": 5,
+        "actor": "S3",
+        "kind": "re_entry",
+        "time_s": 506.0,
+        "turn_id": 63,
+        "offer_id": null,
+        "terms": "I sell a lot of products to women",
+        "note": "Kevin re-enters because he likes the product and sees potential in the celebration market."
+      },
+      {
+        "decision_id": 6,
+        "actor": "S3",
+        "kind": "offer",
+        "time_s": 526.0,
+        "turn_id": 63,
+        "offer_id": "O2",
+        "terms": "$100,000 for 10% and a $400,000 loan",
+        "note": "Kevin thinks the business is only worth one million dollars and prefers a debt structure."
+      },
+      {
+        "decision_id": 7,
+        "actor": "F1",
+        "kind": "founder_counters",
+        "time_s": 546.0,
+        "turn_id": 64,
+        "offer_id": "O1",
+        "terms": "$500,000 for 20%",
+        "note": "Monica rejects Kevin's offer and asks Robert if he would accept twenty percent."
+      },
+      {
+        "decision_id": 8,
+        "actor": "S5",
+        "kind": "revises_offer",
+        "time_s": 574.0,
+        "turn_id": 68,
+        "offer_id": "O1",
+        "terms": "$500,000 for 20%",
+        "note": "Robert agrees to the founders' counter offer."
+      },
+      {
+        "decision_id": 9,
+        "actor": "F2",
+        "kind": "founder_accepts",
+        "time_s": 586.0,
+        "turn_id": 70,
+        "offer_id": "O1",
+        "terms": "$500,000 for 20%",
+        "note": "Becca accepts Robert's revised offer."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": "The founders conduct a demonstration with the investors trying on the heel caps on grass."
+  }
+}

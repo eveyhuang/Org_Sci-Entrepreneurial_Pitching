@@ -1,0 +1,20 @@
+{
+  "errors": [
+    "[exchange.topic] exchange 10: topic is 'deal_terms' but the exchange is not substantive"
+  ],
+  "flags": [
+    "[flag.value_with_missing] turns[43].codes RS-CONCEPT: value 'NONE' dropped because missing is 'edited_gap'",
+    "[flag.value_with_missing] turns[43].codes RS-EVID: value 'null' dropped because missing is 'edited_gap'",
+    "[flag.value_with_missing] turns[43].codes RS-UNCERT: value 'null' dropped because missing is 'edited_gap'",
+    "[flag.value_with_missing] turns[43].codes PREP-SUBS: value 'null' dropped because missing is 'edited_gap'",
+    "[flag.value_with_missing] turns[43].codes PREP-COH: value 'null' dropped because missing is 'edited_gap'",
+    "[flag.value_with_missing] turns[43].codes PREP-CTX: value 'null' dropped because missing is 'edited_gap'",
+    "[flag.answer_link] turn 59: answer responds to no question or challenges turn",
+    "[flag.demonstration_without_exchange] turn 2: demonstrates belongs to no exchange",
+    "[flag.unknown_addressee] turn 4: addressee unknown",
+    "[flag.demonstration_without_exchange] turn 5: demonstrates belongs to no exchange",
+    "[flag.unanswered_question] turn 23: no answer responds to it",
+    "[flag.unlinked_response] turn 24: accepts responds to no recorded turn",
+    "[flag.gap] gap at 417.0s"
+  ]
+}

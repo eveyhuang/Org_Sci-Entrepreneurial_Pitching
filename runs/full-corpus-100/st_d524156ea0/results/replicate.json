@@ -1,0 +1,2024 @@
+{
+  "pass": "replicate",
+  "unit_key": "panel__st_d524156ea0__replicate",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:17-1:03",
+    "1:05-1:28",
+    "1:30-1:41"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "presentation",
+      "3": "presentation",
+      "4": "presentation",
+      "5": "presentation",
+      "6": "presentation",
+      "7": "presentation",
+      "8": "none",
+      "9": "presentation",
+      "10": "none",
+      "11": "presentation",
+      "12": "none",
+      "13": "none",
+      "14": "demonstration",
+      "15": "demonstration",
+      "16": "demonstration",
+      "17": "demonstration",
+      "18": "none",
+      "19": "none",
+      "20": "demonstration",
+      "21": "demonstration",
+      "22": "qa",
+      "23": "qa",
+      "24": "qa",
+      "25": "qa",
+      "26": "qa",
+      "27": "qa",
+      "28": "qa",
+      "29": "qa",
+      "30": "qa",
+      "31": "qa",
+      "32": "qa",
+      "33": "qa",
+      "34": "qa",
+      "35": "qa",
+      "36": "qa",
+      "37": "qa",
+      "38": "qa",
+      "39": "qa",
+      "40": "none",
+      "41": "qa",
+      "42": "qa",
+      "43": "qa",
+      "44": "none",
+      "45": "qa",
+      "46": "qa",
+      "47": "qa",
+      "48": "qa",
+      "49": "none",
+      "50": "qa",
+      "51": "qa",
+      "52": "none",
+      "53": "qa",
+      "54": "none",
+      "55": "qa",
+      "56": "qa",
+      "57": "none",
+      "58": "none",
+      "59": "qa",
+      "60": "qa",
+      "61": "qa"
+    },
+    "segment_seconds": {
+      "presentation": 79.0,
+      "qa": 120.0,
+      "social": 0.0,
+      "demonstration": 12.0,
+      "negotiation": 0.0,
+      "none": 105.0
+    },
+    "exchange_counts": {
+      "substantive": 8,
+      "social": 0,
+      "demonstration": 1,
+      "negotiation": 0
+    },
+    "turn_frame": {
+      "22": "prevention",
+      "23": "prevention",
+      "24": "prevention",
+      "25": "promotion",
+      "26": "promotion",
+      "27": "prevention",
+      "28": "prevention",
+      "29": "promotion",
+      "30": "promotion",
+      "31": "promotion",
+      "32": "promotion",
+      "33": "prevention",
+      "34": "prevention",
+      "35": "promotion",
+      "36": "prevention",
+      "37": "prevention",
+      "38": "promotion",
+      "39": "promotion",
+      "41": "promotion",
+      "42": "promotion",
+      "45": "prevention",
+      "46": "NEUTRAL",
+      "47": "prevention",
+      "50": "prevention",
+      "51": "prevention",
+      "53": "promotion",
+      "55": "promotion",
+      "56": "promotion"
+    },
+    "frame_match": {
+      "23": "match",
+      "24": "match",
+      "26": "match",
+      "28": "match",
+      "30": "match",
+      "32": "match",
+      "34": "match",
+      "35": "switch_to_promotion",
+      "37": "match",
+      "39": "match",
+      "42": "match",
+      "46": "neutral",
+      "47": "match",
+      "51": "match",
+      "56": "match"
+    },
+    "other_concepts": []
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "H1",
+        "role": "host",
+        "label": "Narrator"
+      },
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Chico Guerra"
+      },
+      {
+        "actor_id": "F2",
+        "role": "founder",
+        "label": "Mason Buechler"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Barbara Corcoran"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Lori Greiner"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Robert Herjavec"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Mark Cuban"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 17.0,
+        "end_s": 63.0
+      },
+      {
+        "start_s": 65.0,
+        "end_s": 88.0
+      },
+      {
+        "start_s": 90.0,
+        "end_s": 101.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 8.0,
+        "kind": "narration"
+      },
+      {
+        "start_s": 420.0,
+        "end_s": 451.0,
+        "kind": "interview"
+      }
+    ],
+    "gaps": [],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 47.0,
+        "note": "The founders deliver an upbeat, smiling presentation with energetic movements and a generally positive tone."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 50.0,
+        "note": "They show clear excitement about the product, especially when demonstrating its features and potential."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 19.0,
+        "note": "The founders are friendly and approachable, engaging well with the panel right from their introduction."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "4",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "Self-balancing electric skates that can reach 8 mph and run for an hour, targeting the personal electric vehicle trend.",
+      "primary_industry": "sports_leisure",
+      "secondary_industries": [
+        "general_technology"
+      ],
+      "product_form": "physical_good",
+      "customer_type": "consumer",
+      "founder_gender": "all_men",
+      "product_category": "electric skates",
+      "earliest_s": 53.0,
+      "note": "The product is essentially a pair of independent hoverboard shoes.",
+      "ask_amount_usd": 125000,
+      "ask_equity_pct": 20.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 17.0,
+        "end_s": 19.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 greets the panel and introduces himself."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "F2",
+        "start_s": 19.0,
+        "end_s": 20.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F2 introduces himself."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "F1",
+        "start_s": 20.0,
+        "end_s": 30.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 states their location, company name, and the investment ask."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "F2",
+        "start_s": 31.0,
+        "end_s": 47.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F2 discusses the growing trend of electric rideables and scooters in the US."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "F1",
+        "start_s": 47.0,
+        "end_s": 61.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 introduces the Zuum shoes and lists their speed and battery life specifications."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "F1",
+        "start_s": 61.0,
+        "end_s": 63.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 prompts F2 to demonstrate the product."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "F2",
+        "start_s": 63.0,
+        "end_s": 63.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F2 agrees to start the demonstration."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "S5",
+        "start_s": 64.0,
+        "end_s": 64.0,
+        "function": "accepts",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S5 enthusiastically encourages them to show the product."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "F2",
+        "start_s": 65.0,
+        "end_s": 88.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F2 rides the skates, explaining their maneuverability and showing off dance moves."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "S4",
+        "start_s": 89.0,
+        "end_s": 90.0,
+        "function": "social",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S4 makes a joking comment about the demonstration looking like heaven."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "F1",
+        "start_s": 90.0,
+        "end_s": 101.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 concludes the pitch by asking which Shark wants to join them."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "S4",
+        "start_s": 102.0,
+        "end_s": 103.0,
+        "function": "accepts",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S4 volunteers to try the skates."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "S1",
+        "start_s": 106.0,
+        "end_s": 107.0,
+        "function": "social",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S1 jokingly warns S4 to remember his children before he rides."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "F2",
+        "start_s": 107.0,
+        "end_s": 108.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F2 asks S5 if he also wants to try the product."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "S5",
+        "start_s": 108.0,
+        "end_s": 109.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S5 declines the offer to try the skates."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "F2",
+        "start_s": 110.0,
+        "end_s": 115.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F2 instructs S4 on how to move forward and backward on the skates."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "S4",
+        "start_s": 116.0,
+        "end_s": 117.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S4 asks if users generally feel like they are going to fall off."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "S4",
+        "start_s": 118.0,
+        "end_s": 119.0,
+        "function": "social",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S4 jokes with S3 while trying to balance on the skates."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "S5",
+        "start_s": 129.0,
+        "end_s": 130.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S5 comments positively on S4's ability to ride the skates."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "S4",
+        "start_s": 132.0,
+        "end_s": 135.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S4 struggles and asks how to stop."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "S4",
+        "start_s": 140.0,
+        "end_s": 141.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S4 notes that getting off the skates is a bit difficult."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "S3",
+        "start_s": 145.0,
+        "end_s": 150.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S3 questions how the skates handle city obstacles like potholes and uneven sidewalks."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "F1",
+        "start_s": 151.0,
+        "end_s": 154.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          22
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 answers that they do not see the skates as an alternative to walking in the city."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "F2",
+        "start_s": 156.0,
+        "end_s": 159.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          22
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F2 adds that the skates are portable and can easily be thrown into a backpack."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "S4",
+        "start_s": 159.0,
+        "end_s": 160.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S4 asks for the retail price of the product."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "F2",
+        "start_s": 160.0,
+        "end_s": 161.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          25
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F2 states that the retail price is 299 dollars."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "S2",
+        "start_s": 161.0,
+        "end_s": 163.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S2 asks for the landed cost of the product."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "F1",
+        "start_s": 163.0,
+        "end_s": 164.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          27
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 replies that the landed cost is 130 dollars."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "S3",
+        "start_s": 164.0,
+        "end_s": 166.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S3 asks who created the product."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "F1",
+        "start_s": 166.0,
+        "end_s": 173.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          29
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 explains that a manufacturer in China designs it and they introduced it to the US market."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "S5",
+        "start_s": 173.0,
+        "end_s": 174.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S5 clarifies that they are merely distributors and did not create the technology."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "F1",
+        "start_s": 174.0,
+        "end_s": 175.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          31
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 concedes that they did not create the product."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "S2",
+        "start_s": 176.0,
+        "end_s": 183.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S2 asks what stops him from going to the same manufacturer and launching a competing product."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "F1",
+        "start_s": 183.0,
+        "end_s": 184.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          33
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 admits that nothing stops S2 from doing that."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "F2",
+        "start_s": 184.0,
+        "end_s": 194.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          33
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "deflects",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F2 interjects to say they have traction, citing a Kickstarter campaign that raised 25,000 dollars."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "S1",
+        "start_s": 195.0,
+        "end_s": 196.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S1 asks if the Kickstarter money was just to get manufacturing done."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "F1",
+        "start_s": 197.0,
+        "end_s": 202.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          36
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 answers that they raised the money to test the market and prove the concept."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "S4",
+        "start_s": 203.0,
+        "end_s": 208.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S4 asks if they have exclusive rights on the contract with the manufacturer."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "F2",
+        "start_s": 209.0,
+        "end_s": 211.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          38
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F2 concedes that they do not have exclusive rights on the technology."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "S5",
+        "start_s": 212.0,
+        "end_s": 212.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S5 laughs in disbelief at the lack of exclusivity."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "S4",
+        "start_s": 213.0,
+        "end_s": 217.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S4 asks what they actually have if the technology is freely available for sale."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "F2",
+        "start_s": 218.0,
+        "end_s": 222.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          41
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "deflects",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "vision",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F2 deflects by stating they want to use the investment money to create custom designs."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "S5",
+        "start_s": 223.0,
+        "end_s": 224.0,
+        "function": "challenges",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          42
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S5 bluntly states that trying to create a custom design is a bad idea."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "S5",
+        "start_s": 227.0,
+        "end_s": 246.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S5 states that the founders do not know what business they are in and declares he is out."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "S1",
+        "start_s": 249.0,
+        "end_s": 250.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S1 asks the founders what their biggest obstacle is."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "F2",
+        "start_s": 251.0,
+        "end_s": 260.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          45
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "NONE",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "NONE",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F2 struggles to articulate an answer and fails to provide one."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "F1",
+        "start_s": 261.0,
+        "end_s": 266.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          45
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 steps in and answers that it is capital intensive and they need a Shark's connection."
+      },
+      {
+        "turn_id": 48,
+        "speaker": "S1",
+        "start_s": 267.0,
+        "end_s": 269.0,
+        "function": "challenges",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          47
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S1 tells the founders that they are not persuasive at all."
+      },
+      {
+        "turn_id": 49,
+        "speaker": "S1",
+        "start_s": 272.0,
+        "end_s": 311.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S1 explains that passion, not money, solves business problems, and since they lack it, she is out."
+      },
+      {
+        "turn_id": 50,
+        "speaker": "S3",
+        "start_s": 313.0,
+        "end_s": 316.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S3 asks about their competition and specifically if Segway makes a similar product."
+      },
+      {
+        "turn_id": 51,
+        "speaker": "F2",
+        "start_s": 316.0,
+        "end_s": 322.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          50
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F2 confirms that Segway has a similar pair but notes they are more expensive due to brand recognition."
+      },
+      {
+        "turn_id": 52,
+        "speaker": "S3",
+        "start_s": 324.0,
+        "end_s": 345.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S3 notes the difficulty of competing against established brand names and decides she is out."
+      },
+      {
+        "turn_id": 53,
+        "speaker": "S4",
+        "start_s": 348.0,
+        "end_s": 351.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "vision",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S4 starts to question their game plan given they own nothing in a competitive market."
+      },
+      {
+        "turn_id": 54,
+        "speaker": "S2",
+        "start_s": 352.0,
+        "end_s": 358.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S2 bluntly states that he hates the product and declares he is out."
+      },
+      {
+        "turn_id": 55,
+        "speaker": "S4",
+        "start_s": 362.0,
+        "end_s": 366.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "vision",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S4 asks again what their vision and game plan is."
+      },
+      {
+        "turn_id": 56,
+        "speaker": "F1",
+        "start_s": 373.0,
+        "end_s": 384.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          55
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "vision",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 explains their vision is to create a catalog of electric rideables by innovating with manufacturers."
+      },
+      {
+        "turn_id": 57,
+        "speaker": "S2",
+        "start_s": 388.0,
+        "end_s": 391.0,
+        "function": "social",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S2 jokes that he will go out again on behalf of S4."
+      },
+      {
+        "turn_id": 58,
+        "speaker": "S4",
+        "start_s": 392.0,
+        "end_s": 404.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S4 expresses that he does not trust the founders to be custodians of his money and is out."
+      },
+      {
+        "turn_id": 59,
+        "speaker": "F1",
+        "start_s": 406.0,
+        "end_s": 408.0,
+        "function": "NONE",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 asks the panel if they should hire a great salesperson as their next step."
+      },
+      {
+        "turn_id": 60,
+        "speaker": "S5",
+        "start_s": 409.0,
+        "end_s": 414.0,
+        "function": "challenges",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          59
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S5 challenges F1's idea, insisting that founders cannot outsource sales when starting out."
+      },
+      {
+        "turn_id": 61,
+        "speaker": "S2",
+        "start_s": 415.0,
+        "end_s": 417.0,
+        "function": "hostile",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S2 makes a hostile remark, telling S3 to let them go steep in their misery."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "demonstration",
+        "topic": "NONE",
+        "label": "Demonstrating the skates"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "City riding obstacles"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "Retail price"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "substantive",
+        "topic": "operating_efficiency",
+        "label": "Landed cost"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "assets",
+        "label": "Product origin and IP"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "Biggest obstacle"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "substantive",
+        "topic": "competition",
+        "label": "Competitors like Segway"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "substantive",
+        "topic": "vision",
+        "label": "Game plan and vision"
+      },
+      {
+        "exchange_id": 9,
+        "kind": "substantive",
+        "topic": "team_capabilities",
+        "label": "Sales strategy"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S5",
+        "kind": "exit",
+        "time_s": 227.0,
+        "turn_id": 44,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "They don't know what business they are in; they lack expertise in custom design."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S1",
+        "kind": "exit",
+        "time_s": 272.0,
+        "turn_id": 49,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "They lack passion, which is necessary to overcome obstacles like lack of capital."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S3",
+        "kind": "exit",
+        "time_s": 324.0,
+        "turn_id": 52,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "The brand name of competitors is too hard to go up against; too many issues."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S2",
+        "kind": "exit",
+        "time_s": 352.0,
+        "turn_id": 54,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "He hates the product and thinks it sucks."
+      },
+      {
+        "decision_id": 5,
+        "actor": "S4",
+        "kind": "exit",
+        "time_s": 392.0,
+        "turn_id": 58,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "He doesn't trust them to be custodians of his money and make more of it."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": ""
+  }
+}

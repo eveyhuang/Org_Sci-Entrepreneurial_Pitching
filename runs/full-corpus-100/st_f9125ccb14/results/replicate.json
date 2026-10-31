@@ -1,0 +1,2037 @@
+{
+  "pass": "replicate",
+  "unit_key": "panel__st_f9125ccb14__replicate",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:16-1:36"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "demonstration",
+      "3": "demonstration",
+      "4": "demonstration",
+      "5": "demonstration",
+      "6": "demonstration",
+      "7": "demonstration",
+      "8": "demonstration",
+      "9": "qa",
+      "10": "qa",
+      "11": "qa",
+      "12": "qa",
+      "13": "qa",
+      "14": "qa",
+      "15": "qa",
+      "16": "qa",
+      "17": "qa",
+      "18": "qa",
+      "19": "qa",
+      "20": "qa",
+      "21": "social",
+      "22": "social",
+      "23": "qa",
+      "24": "qa",
+      "25": "qa",
+      "26": "qa",
+      "27": "qa",
+      "28": "qa",
+      "29": "social",
+      "30": "qa",
+      "31": "qa",
+      "32": "qa",
+      "33": "qa",
+      "34": "qa",
+      "35": "qa",
+      "36": "qa",
+      "37": "qa",
+      "38": "none",
+      "39": "negotiation",
+      "40": "negotiation",
+      "41": "none",
+      "42": "negotiation",
+      "43": "none",
+      "44": "negotiation",
+      "45": "negotiation",
+      "46": "negotiation",
+      "47": "negotiation",
+      "48": "negotiation",
+      "49": "negotiation",
+      "50": "negotiation",
+      "51": "negotiation",
+      "52": "negotiation",
+      "53": "negotiation",
+      "54": "negotiation",
+      "55": "negotiation",
+      "56": "negotiation",
+      "57": "negotiation",
+      "58": "negotiation",
+      "59": "negotiation",
+      "60": "negotiation",
+      "61": "negotiation",
+      "62": "negotiation",
+      "63": "negotiation",
+      "64": "negotiation"
+    },
+    "segment_seconds": {
+      "presentation": 80.0,
+      "qa": 167.0,
+      "social": 11.0,
+      "demonstration": 34.0,
+      "negotiation": 226.0,
+      "none": 51.0
+    },
+    "exchange_counts": {
+      "substantive": 7,
+      "social": 2,
+      "demonstration": 1,
+      "negotiation": 1
+    },
+    "turn_frame": {
+      "9": "promotion",
+      "10": "promotion",
+      "11": "promotion",
+      "12": "promotion",
+      "13": "promotion",
+      "14": "promotion",
+      "15": "promotion",
+      "16": "promotion",
+      "18": "promotion",
+      "19": "unclassified",
+      "20": "unclassified",
+      "23": "promotion",
+      "24": "promotion",
+      "25": "promotion",
+      "26": "promotion",
+      "27": "promotion",
+      "28": "promotion",
+      "30": "promotion",
+      "31": "promotion",
+      "32": "promotion",
+      "33": "promotion",
+      "34": "promotion",
+      "35": "promotion",
+      "36": "promotion",
+      "37": "promotion"
+    },
+    "frame_match": {
+      "10": "match",
+      "12": "match",
+      "14": "match",
+      "16": "match",
+      "20": "unclassified",
+      "24": "match",
+      "26": "match",
+      "28": "match",
+      "30": "match",
+      "32": "match",
+      "33": "match",
+      "35": "match",
+      "37": "match"
+    },
+    "other_concepts": [
+      {
+        "where": "turn",
+        "id": 19,
+        "code": "PR-CONCEPT",
+        "name": "manufacturing process",
+        "clock": "3:24"
+      },
+      {
+        "where": "turn",
+        "id": 20,
+        "code": "RS-CONCEPT",
+        "name": "manufacturing process",
+        "clock": "3:25"
+      },
+      {
+        "where": "exchange",
+        "id": 5,
+        "code": "EX-TOPIC",
+        "name": "manufacturing process",
+        "clock": "3:24"
+      }
+    ]
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "H1",
+        "role": "host",
+        "label": "Narrator"
+      },
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Nadine Habayeb"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Mark Cuban"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Lori Greiner"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Barbara Corcoran"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Rohan Oza"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 16.0,
+        "end_s": 96.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 16.0,
+        "kind": "teaser"
+      },
+      {
+        "start_s": 641.0,
+        "end_s": 670.0,
+        "kind": "other"
+      }
+    ],
+    "gaps": [],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 5,
+        "uncodable": false,
+        "moment_s": 25.0,
+        "note": "F1 smiles broadly and speaks with high energy throughout the pitch."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 5,
+        "uncodable": false,
+        "moment_s": 64.0,
+        "note": "F1 uses expressive gestures and an excited tone to describe the product's benefits."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 5,
+        "uncodable": false,
+        "moment_s": 74.0,
+        "note": "F1 speaks warmly about her co-founder and the origins of the product."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "3",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "Popped water lily seeds as a healthy snack alternative to popcorn.",
+      "primary_industry": "food_beverage",
+      "secondary_industries": [],
+      "product_form": "physical_good",
+      "customer_type": "consumer",
+      "founder_gender": "all_women",
+      "product_category": "Snack foods",
+      "earliest_s": 21.0,
+      "note": "Co-founder Priyal is mentioned but does not present.",
+      "ask_amount_usd": 200000,
+      "ask_equity_pct": 10.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 16.0,
+        "end_s": 96.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 presents Bohana, popped water lily seeds as a healthy popcorn alternative, and asks for investment."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "S1",
+        "start_s": 97.0,
+        "end_s": 99.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S1 asks to try the product."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "S2",
+        "start_s": 99.0,
+        "end_s": 101.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S2 asks what they are about to taste."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "F1",
+        "start_s": 101.0,
+        "end_s": 120.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 explains the different flavors they have provided."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "S3",
+        "start_s": 120.0,
+        "end_s": 123.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S3 comments that the taste is similar to a puffed snack."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "F1",
+        "start_s": 123.0,
+        "end_s": 126.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 agrees with the comparison."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "S4",
+        "start_s": 126.0,
+        "end_s": 129.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S4 remarks that the product is lighter and tastier than popcorn."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "S3",
+        "start_s": 129.0,
+        "end_s": 131.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S3 adds that the snack is very good."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "S5",
+        "start_s": 131.0,
+        "end_s": 136.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S5 asks if the taste profile is strong enough to replace popcorn."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "F1",
+        "start_s": 136.0,
+        "end_s": 149.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          9
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 explains the seeds have a natural smokiness and highlights their amino acid content."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "S2",
+        "start_s": 149.0,
+        "end_s": 153.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "customer_acquisition",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S2 asks if consumer education will be a major hurdle."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "F1",
+        "start_s": 153.0,
+        "end_s": 177.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          11
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "customer_acquisition",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 acknowledges they are pioneering the product but notes high conversion rates during store demonstrations."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "S3",
+        "start_s": 177.0,
+        "end_s": 180.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S3 asks how the retail price compares to a bag of popcorn."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "F1",
+        "start_s": 180.0,
+        "end_s": 183.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          13
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 states that their product is more expensive than popcorn."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "S3",
+        "start_s": 183.0,
+        "end_s": 184.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S3 asks for the exact price difference."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "F1",
+        "start_s": 184.0,
+        "end_s": 187.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          15
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 reveals the price is almost twice as much, at nearly four dollars for a two-ounce bag."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "S1",
+        "start_s": 187.0,
+        "end_s": 190.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S1 reacts negatively to the high retail price."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "F1",
+        "start_s": 190.0,
+        "end_s": 204.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          17
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "4",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 defends the price, comparing it to other alternative snacks on the same shelf rather than popcorn."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "S5",
+        "start_s": 204.0,
+        "end_s": 205.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "other",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": "manufacturing process",
+        "summary": "S5 asks for the definition of the term extruded."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "F1",
+        "start_s": 205.0,
+        "end_s": 209.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          19
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "other",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": "manufacturing process",
+        "summary": "F1 explains that extrusion involves reconstituting flour into a specific shape."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "S2",
+        "start_s": 209.0,
+        "end_s": 213.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S2 compliments F1 on her ability to handle their tough questions."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "F1",
+        "start_s": 214.0,
+        "end_s": 220.0,
+        "function": "social",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 mentions she is the target consumer who buys high-protein, low-fat snacks."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "S3",
+        "start_s": 220.0,
+        "end_s": 229.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S3 asks if they have considered adding fiber to the product."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "F1",
+        "start_s": 229.0,
+        "end_s": 241.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          23
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 explains that while they can manipulate nutrient density when extruding, their current product is a whole seed."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "S4",
+        "start_s": 242.0,
+        "end_s": 246.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S4 asks F1 to share more about her personal and professional background."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "F1",
+        "start_s": 246.0,
+        "end_s": 251.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          25
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 shares her marketing background, noting she previously worked for a French fashion house."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "S2",
+        "start_s": 251.0,
+        "end_s": 253.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S2 asks which fashion house she worked for."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "F1",
+        "start_s": 253.0,
+        "end_s": 255.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          27
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 states she worked for Yves Saint Laurent."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "S2",
+        "start_s": 255.0,
+        "end_s": 256.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S2 reacts playfully to the prestigious brand name."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "F1",
+        "start_s": 256.0,
+        "end_s": 276.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          25
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 continues her background, mentioning she grew up in Dubai and is of Lebanese descent."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "S4",
+        "start_s": 277.0,
+        "end_s": 279.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S4 asks about her transition from the fashion industry."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "F1",
+        "start_s": 279.0,
+        "end_s": 284.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          31
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 explains she left to pursue her MBA at Babson College."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "F1",
+        "start_s": 284.0,
+        "end_s": 288.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          31
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 clarifies that the business launched in April of the previous year."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "S5",
+        "start_s": 288.0,
+        "end_s": 297.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S5 asks about their sales figures during their first full year to justify the valuation."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "F1",
+        "start_s": 297.0,
+        "end_s": 300.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          34
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 states they have generated over one hundred thousand dollars in revenue."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "S1",
+        "start_s": 300.0,
+        "end_s": 301.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S1 asks for the exact timeframe for those sales."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "F1",
+        "start_s": 301.0,
+        "end_s": 312.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          36
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 clarifies the sales occurred over sixteen months, with only nine months in retail stores."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "S1",
+        "start_s": 312.0,
+        "end_s": 331.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S1 exits, citing the high price, unique taste, and the difficult path ahead for the business."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "S4",
+        "start_s": 332.0,
+        "end_s": 379.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S4 offers two hundred thousand dollars for thirty percent equity, citing her previous success with a similar snack company."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "F1",
+        "start_s": 380.0,
+        "end_s": 387.0,
+        "function": "negotiates",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 calls the offer savage and asks S5 if he can provide a better deal."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "S5",
+        "start_s": 387.0,
+        "end_s": 410.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S5 exits, stating he does not see a clear path for the American palate to adopt the snack."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "F1",
+        "start_s": 411.0,
+        "end_s": 414.0,
+        "function": "negotiates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 asks if any of the remaining investors are interested in making an offer."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "S3",
+        "start_s": 414.0,
+        "end_s": 423.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S3 exits, stating she likes the product but cannot invest because it lacks fiber."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "S2",
+        "start_s": 423.0,
+        "end_s": 447.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1",
+          "S4"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S2 praises F1 but expresses concern over the low sales, noting he would normally criticize S4's offer."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "S4",
+        "start_s": 448.0,
+        "end_s": 457.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S4 acts offended, imitating F1 and stating she does not need her as a salesperson."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "F1",
+        "start_s": 457.0,
+        "end_s": 468.0,
+        "function": "repair",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          45
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 attempts to backtrack and repair the relationship with S4 after her earlier comment."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "S2",
+        "start_s": 468.0,
+        "end_s": 471.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S2 asks F1 if she is ready to hear his investment proposal."
+      },
+      {
+        "turn_id": 48,
+        "speaker": "S2",
+        "start_s": 471.0,
+        "end_s": 485.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S2 offers a two hundred thousand dollar loan for eight percent equity."
+      },
+      {
+        "turn_id": 49,
+        "speaker": "S3",
+        "start_s": 485.0,
+        "end_s": 488.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S3 points out that S2's offer requires significantly less equity than S4's offer."
+      },
+      {
+        "turn_id": 50,
+        "speaker": "S2",
+        "start_s": 488.0,
+        "end_s": 493.0,
+        "function": "negotiates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S2 claims he made the offer just to annoy S4."
+      },
+      {
+        "turn_id": 51,
+        "speaker": "S5",
+        "start_s": 494.0,
+        "end_s": 498.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S5 advises F1 to accept S2's offer immediately."
+      },
+      {
+        "turn_id": 52,
+        "speaker": "F1",
+        "start_s": 499.0,
+        "end_s": 509.0,
+        "function": "negotiates",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 clarifies the terms of the loan offer with S2."
+      },
+      {
+        "turn_id": 53,
+        "speaker": "F1",
+        "start_s": 509.0,
+        "end_s": 517.0,
+        "function": "negotiates",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 criticizes S4's offer, stating that asking for thirty percent equity is greedy."
+      },
+      {
+        "turn_id": 54,
+        "speaker": "S4",
+        "start_s": 517.0,
+        "end_s": 524.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S4 defends her offer, claiming no one else would loan F1 money at this stage."
+      },
+      {
+        "turn_id": 55,
+        "speaker": "S2",
+        "start_s": 524.0,
+        "end_s": 527.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S2 questions S4's assertion that F1 could not secure a loan elsewhere."
+      },
+      {
+        "turn_id": 56,
+        "speaker": "F1",
+        "start_s": 528.0,
+        "end_s": 534.0,
+        "function": "negotiates",
+        "addressed": [
+          "S4",
+          "S2"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 thanks both S4 and S2 for their respective offers."
+      },
+      {
+        "turn_id": 57,
+        "speaker": "S4",
+        "start_s": 534.0,
+        "end_s": 543.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S4 withdraws her offer, stating she did not appreciate F1's response and attitude."
+      },
+      {
+        "turn_id": 58,
+        "speaker": "F1",
+        "start_s": 544.0,
+        "end_s": 560.0,
+        "function": "negotiates",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 explains she values her equity highly and finds S2's eight percent offer attractive."
+      },
+      {
+        "turn_id": 59,
+        "speaker": "S4",
+        "start_s": 560.0,
+        "end_s": 562.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S4 reminds F1 that she is allowed to make a counteroffer."
+      },
+      {
+        "turn_id": 60,
+        "speaker": "S2",
+        "start_s": 562.0,
+        "end_s": 569.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S2 emphasizes the difference between a simple loan and having him as a partner."
+      },
+      {
+        "turn_id": 61,
+        "speaker": "F1",
+        "start_s": 569.0,
+        "end_s": 576.0,
+        "function": "negotiates",
+        "addressed": [
+          "S4",
+          "S2"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 asks if S4 and S2 would be willing to partner on a deal together."
+      },
+      {
+        "turn_id": 62,
+        "speaker": "S4",
+        "start_s": 576.0,
+        "end_s": 587.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S4 refuses to partner with S2, citing her dislike for him."
+      },
+      {
+        "turn_id": 63,
+        "speaker": "S2",
+        "start_s": 587.0,
+        "end_s": 588.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S2 urges F1 to make a final decision on his offer."
+      },
+      {
+        "turn_id": 64,
+        "speaker": "F1",
+        "start_s": 604.0,
+        "end_s": 613.0,
+        "function": "decides",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 accepts S2's loan offer, prioritizing the preservation of her equity."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "demonstration",
+        "topic": "NONE",
+        "label": "tasting the product"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "substantive",
+        "topic": "assets",
+        "label": "taste profile"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "customer_acquisition",
+        "label": "educational process"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "retail price"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "other",
+        "label": "manufacturing process"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "complimenting pitch style"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "substantive",
+        "topic": "assets",
+        "label": "product formulation"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "substantive",
+        "topic": "self_promotion",
+        "label": "founder background"
+      },
+      {
+        "exchange_id": 9,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "reacting to fashion house"
+      },
+      {
+        "exchange_id": 10,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "revenue"
+      },
+      {
+        "exchange_id": 11,
+        "kind": "negotiation",
+        "topic": "NONE",
+        "label": "negotiating offers"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S1",
+        "kind": "exit",
+        "time_s": 312.0,
+        "turn_id": 38,
+        "offer_id": null,
+        "terms": "out",
+        "note": "S1 exits due to the high price, unique taste, and difficult path to scale."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S4",
+        "kind": "offer",
+        "time_s": 332.0,
+        "turn_id": 39,
+        "offer_id": "O1",
+        "terms": "$200,000 for 30%",
+        "note": "S4 offers based on her previous success with a similar alternative snack company."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S5",
+        "kind": "exit",
+        "time_s": 387.0,
+        "turn_id": 41,
+        "offer_id": null,
+        "terms": "out",
+        "note": "S5 exits because he does not see a clear leap for the American palate."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S3",
+        "kind": "exit",
+        "time_s": 414.0,
+        "turn_id": 43,
+        "offer_id": null,
+        "terms": "out",
+        "note": "S3 exits because the product currently lacks fiber."
+      },
+      {
+        "decision_id": 5,
+        "actor": "S2",
+        "kind": "offer",
+        "time_s": 471.0,
+        "turn_id": 48,
+        "offer_id": "O2",
+        "terms": "$200,000 as a loan for 3 years at 9% interest, and 8% equity",
+        "note": "S2 offers a loan to mess with S4 and because he likes the founder."
+      },
+      {
+        "decision_id": 6,
+        "actor": "S4",
+        "kind": "withdraws_offer",
+        "time_s": 534.0,
+        "turn_id": 57,
+        "offer_id": "O1",
+        "terms": "out",
+        "note": "S4 withdraws her offer because she did not like F1's ungrateful response."
+      },
+      {
+        "decision_id": 7,
+        "actor": "F1",
+        "kind": "founder_accepts",
+        "time_s": 604.0,
+        "turn_id": 64,
+        "offer_id": "O2",
+        "terms": "$200,000 as a loan for 3 years at 9% interest, and 8% equity",
+        "note": "F1 accepts S2's offer to preserve the company's equity."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": "The negotiation becomes heated when the founder calls an investor's offer greedy, leading to the offer being withdrawn."
+  }
+}

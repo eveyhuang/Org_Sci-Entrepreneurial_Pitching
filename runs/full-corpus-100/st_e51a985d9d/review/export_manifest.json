@@ -1,0 +1,467 @@
+{
+  "videos": {
+    "st_e51a985d9d": {
+      "video_id": "st_e51a985d9d",
+      "sheet": "st_e51a985d9d__review.csv",
+      "release_id": "v3-dev9",
+      "annotation_context": "descriptive_full_context",
+      "seed": 20261013,
+      "sample_unflagged": null,
+      "max_flagged": null,
+      "preset": "exchange",
+      "field_classes": null,
+      "blind": true,
+      "pass": "replicate",
+      "primary_sha256": "9763a9e94092b2de456a92b962987262133f130ceb27f53bf0be2346c0c3862e",
+      "replicate_sha256": "338d6b878065adc8fb08d69747f581f5aaef8bf9892023a1c7a903c75a3a71f6",
+      "counts": {
+        "by_field_class": {
+          "turn_code": 24,
+          "cut": 1
+        },
+        "by_selection": {
+          "flagged": 0,
+          "sampled": 25
+        },
+        "by_priority": {
+          "1": 25,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "by_reason": {
+          "passes_differ": 10
+        }
+      },
+      "flagged": null,
+      "sample": {
+        "seed": 20261013,
+        "key": "st_e51a985d9d",
+        "requested": {
+          "stage_a": 0,
+          "exchanges": 0,
+          "qa": 4,
+          "venture": 0,
+          "qa_codes": [
+            [
+              "question",
+              "PR-CONCEPT"
+            ],
+            [
+              "question",
+              "PR-SEV"
+            ],
+            [
+              "answer",
+              "RS-RESP"
+            ],
+            [
+              "answer",
+              "RS-EVID"
+            ],
+            [
+              "answer",
+              "PREP-SUBS"
+            ],
+            [
+              "answer",
+              "PREP-COH"
+            ]
+          ]
+        },
+        "drawn": {
+          "pitch": [
+            "first_decision"
+          ],
+          "venture": [],
+          "stage_a": [],
+          "exchanges": [],
+          "qa": [
+            [
+              2,
+              3
+            ],
+            [
+              54,
+              55
+            ],
+            [
+              62,
+              63
+            ],
+            [
+              76,
+              77
+            ]
+          ]
+        },
+        "available": {
+          "venture": 4,
+          "stage_a": 3,
+          "exchanges": 14,
+          "qa": 26
+        },
+        "qa_before_cut": true,
+        "on_sheet": {
+          "turn_code": 24,
+          "cut": 1
+        },
+        "population": {
+          "turn_code": 150,
+          "exchange_topic": 14,
+          "stage_a": 3,
+          "venture": 4,
+          "cut": 1
+        }
+      },
+      "unflagged": null,
+      "rows": [
+        {
+          "path": "pitch:first_decision",
+          "field_class": "cut",
+          "clock_start": null,
+          "clock_end": null,
+          "context": "the pitch: S4 exit@8:23, S2 exit@8:40, S5 offer@9:51, S5 revises_offer@10:28, S3 exit@10:37, S5 withdraws_offer@11:29, S5 exit@11:36",
+          "blind_context": "the pitch: When is the first decision spoken?",
+          "primary": "8:23",
+          "replicate": "8:36",
+          "reasons": [],
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:2/code:PR-CONCEPT",
+          "field_class": "turn_code",
+          "clock_start": "1:46",
+          "clock_end": "1:47",
+          "context": "question turn 2 (1:46-1:47) S3 (Lori Greiner): Lori asks how to turn the device on. -> answer turn 3 (1:47-1:57) F2 (Gene Palusky): Gene demonstrates the button presses to activate the flashlight and room lantern functions.",
+          "primary": "execution",
+          "replicate": null,
+          "reasons": [],
+          "blind_context": "question turn 2 (1:46-1:47) S3 (Lori Greiner): Lori asks how to turn the device on. -> answer turn 3 (1:47-1:57) F2 (Gene Palusky): Gene demonstrates the button presses to activate the flashlight and room lantern functions.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:2/code:PR-SEV",
+          "field_class": "turn_code",
+          "clock_start": "1:46",
+          "clock_end": "1:47",
+          "context": "question turn 2 (1:46-1:47) S3 (Lori Greiner): Lori asks how to turn the device on. -> answer turn 3 (1:47-1:57) F2 (Gene Palusky): Gene demonstrates the button presses to activate the flashlight and room lantern functions.",
+          "primary": "1",
+          "replicate": null,
+          "reasons": [],
+          "blind_context": "question turn 2 (1:46-1:47) S3 (Lori Greiner): Lori asks how to turn the device on. -> answer turn 3 (1:47-1:57) F2 (Gene Palusky): Gene demonstrates the button presses to activate the flashlight and room lantern functions.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:3/code:PREP-COH",
+          "field_class": "turn_code",
+          "clock_start": "1:47",
+          "clock_end": "1:57",
+          "context": "question turn 2 (1:46-1:47) S3 (Lori Greiner): Lori asks how to turn the device on. -> answer turn 3 (1:47-1:57) F2 (Gene Palusky): Gene demonstrates the button presses to activate the flashlight and room lantern functions.",
+          "primary": "4",
+          "replicate": null,
+          "reasons": [],
+          "blind_context": "question turn 2 (1:46-1:47) S3 (Lori Greiner): Lori asks how to turn the device on. -> answer turn 3 (1:47-1:57) F2 (Gene Palusky): Gene demonstrates the button presses to activate the flashlight and room lantern functions.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:3/code:PREP-SUBS",
+          "field_class": "turn_code",
+          "clock_start": "1:47",
+          "clock_end": "1:57",
+          "context": "question turn 2 (1:46-1:47) S3 (Lori Greiner): Lori asks how to turn the device on. -> answer turn 3 (1:47-1:57) F2 (Gene Palusky): Gene demonstrates the button presses to activate the flashlight and room lantern functions.",
+          "primary": "3",
+          "replicate": null,
+          "reasons": [],
+          "blind_context": "question turn 2 (1:46-1:47) S3 (Lori Greiner): Lori asks how to turn the device on. -> answer turn 3 (1:47-1:57) F2 (Gene Palusky): Gene demonstrates the button presses to activate the flashlight and room lantern functions.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:3/code:RS-EVID",
+          "field_class": "turn_code",
+          "clock_start": "1:47",
+          "clock_end": "1:57",
+          "context": "question turn 2 (1:46-1:47) S3 (Lori Greiner): Lori asks how to turn the device on. -> answer turn 3 (1:47-1:57) F2 (Gene Palusky): Gene demonstrates the button presses to activate the flashlight and room lantern functions.",
+          "primary": "true",
+          "replicate": null,
+          "reasons": [],
+          "blind_context": "question turn 2 (1:46-1:47) S3 (Lori Greiner): Lori asks how to turn the device on. -> answer turn 3 (1:47-1:57) F2 (Gene Palusky): Gene demonstrates the button presses to activate the flashlight and room lantern functions.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:3/code:RS-RESP",
+          "field_class": "turn_code",
+          "clock_start": "1:47",
+          "clock_end": "1:57",
+          "context": "question turn 2 (1:46-1:47) S3 (Lori Greiner): Lori asks how to turn the device on. -> answer turn 3 (1:47-1:57) F2 (Gene Palusky): Gene demonstrates the button presses to activate the flashlight and room lantern functions.",
+          "primary": "addresses",
+          "replicate": null,
+          "reasons": [],
+          "blind_context": "question turn 2 (1:46-1:47) S3 (Lori Greiner): Lori asks how to turn the device on. -> answer turn 3 (1:47-1:57) F2 (Gene Palusky): Gene demonstrates the button presses to activate the flashlight and room lantern functions.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:54/code:PR-CONCEPT",
+          "field_class": "turn_code",
+          "clock_start": "6:09",
+          "clock_end": "6:10",
+          "context": "question turn 54 (6:09-6:10) S1 (Kevin O'Leary): Kevin asks directly if they are a charity or a business. -> answer turn 55 (6:11-6:13) F1 (Keidy Palusky): Keidy answers that they are both a charity and a business.",
+          "primary": "vision",
+          "replicate": "sales",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 54 (6:09-6:10) S1 (Kevin O'Leary): Kevin asks directly if they are a charity or a business. -> answer turn 55 (6:11-6:13) F1 (Keidy Palusky): Keidy answers that they are both a charity and a business.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:54/code:PR-SEV",
+          "field_class": "turn_code",
+          "clock_start": "6:09",
+          "clock_end": "6:10",
+          "context": "question turn 54 (6:09-6:10) S1 (Kevin O'Leary): Kevin asks directly if they are a charity or a business. -> answer turn 55 (6:11-6:13) F1 (Keidy Palusky): Keidy answers that they are both a charity and a business.",
+          "primary": "1",
+          "replicate": "1",
+          "reasons": [],
+          "blind_context": "question turn 54 (6:09-6:10) S1 (Kevin O'Leary): Kevin asks directly if they are a charity or a business. -> answer turn 55 (6:11-6:13) F1 (Keidy Palusky): Keidy answers that they are both a charity and a business.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:55/code:PREP-COH",
+          "field_class": "turn_code",
+          "clock_start": "6:11",
+          "clock_end": "6:13",
+          "context": "question turn 54 (6:09-6:10) S1 (Kevin O'Leary): Kevin asks directly if they are a charity or a business. -> answer turn 55 (6:11-6:13) F1 (Keidy Palusky): Keidy answers that they are both a charity and a business.",
+          "primary": "3",
+          "replicate": "4",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 54 (6:09-6:10) S1 (Kevin O'Leary): Kevin asks directly if they are a charity or a business. -> answer turn 55 (6:11-6:13) F1 (Keidy Palusky): Keidy answers that they are both a charity and a business.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:55/code:PREP-SUBS",
+          "field_class": "turn_code",
+          "clock_start": "6:11",
+          "clock_end": "6:13",
+          "context": "question turn 54 (6:09-6:10) S1 (Kevin O'Leary): Kevin asks directly if they are a charity or a business. -> answer turn 55 (6:11-6:13) F1 (Keidy Palusky): Keidy answers that they are both a charity and a business.",
+          "primary": "2",
+          "replicate": "3",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 54 (6:09-6:10) S1 (Kevin O'Leary): Kevin asks directly if they are a charity or a business. -> answer turn 55 (6:11-6:13) F1 (Keidy Palusky): Keidy answers that they are both a charity and a business.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:55/code:RS-EVID",
+          "field_class": "turn_code",
+          "clock_start": "6:11",
+          "clock_end": "6:13",
+          "context": "question turn 54 (6:09-6:10) S1 (Kevin O'Leary): Kevin asks directly if they are a charity or a business. -> answer turn 55 (6:11-6:13) F1 (Keidy Palusky): Keidy answers that they are both a charity and a business.",
+          "primary": "false",
+          "replicate": "false",
+          "reasons": [],
+          "blind_context": "question turn 54 (6:09-6:10) S1 (Kevin O'Leary): Kevin asks directly if they are a charity or a business. -> answer turn 55 (6:11-6:13) F1 (Keidy Palusky): Keidy answers that they are both a charity and a business.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:55/code:RS-RESP",
+          "field_class": "turn_code",
+          "clock_start": "6:11",
+          "clock_end": "6:13",
+          "context": "question turn 54 (6:09-6:10) S1 (Kevin O'Leary): Kevin asks directly if they are a charity or a business. -> answer turn 55 (6:11-6:13) F1 (Keidy Palusky): Keidy answers that they are both a charity and a business.",
+          "primary": "addresses",
+          "replicate": "addresses",
+          "reasons": [],
+          "blind_context": "question turn 54 (6:09-6:10) S1 (Kevin O'Leary): Kevin asks directly if they are a charity or a business. -> answer turn 55 (6:11-6:13) F1 (Keidy Palusky): Keidy answers that they are both a charity and a business.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:62/code:PR-CONCEPT",
+          "field_class": "turn_code",
+          "clock_start": "6:36",
+          "clock_end": "6:37",
+          "context": "question turn 62 (6:36-6:37) S4 (Mark Cuban): Mark asks if that figure is year-to-date or a projection. -> answer turn 63 (6:38-6:38) F2 (Gene Palusky): Gene confirms that $90,000 is what they think they will do.",
+          "primary": "forecast",
+          "replicate": "forecast",
+          "reasons": [],
+          "blind_context": "question turn 62 (6:36-6:37) S4 (Mark Cuban): Mark asks if that figure is year-to-date or a projection. -> answer turn 63 (6:38-6:38) F2 (Gene Palusky): Gene confirms that $90,000 is what they think they will do.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:62/code:PR-SEV",
+          "field_class": "turn_code",
+          "clock_start": "6:36",
+          "clock_end": "6:37",
+          "context": "question turn 62 (6:36-6:37) S4 (Mark Cuban): Mark asks if that figure is year-to-date or a projection. -> answer turn 63 (6:38-6:38) F2 (Gene Palusky): Gene confirms that $90,000 is what they think they will do.",
+          "primary": "1",
+          "replicate": "1",
+          "reasons": [],
+          "blind_context": "question turn 62 (6:36-6:37) S4 (Mark Cuban): Mark asks if that figure is year-to-date or a projection. -> answer turn 63 (6:38-6:38) F2 (Gene Palusky): Gene confirms that $90,000 is what they think they will do.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:63/code:PREP-COH",
+          "field_class": "turn_code",
+          "clock_start": "6:38",
+          "clock_end": "6:38",
+          "context": "question turn 62 (6:36-6:37) S4 (Mark Cuban): Mark asks if that figure is year-to-date or a projection. -> answer turn 63 (6:38-6:38) F2 (Gene Palusky): Gene confirms that $90,000 is what they think they will do.",
+          "primary": "4",
+          "replicate": "4",
+          "reasons": [],
+          "blind_context": "question turn 62 (6:36-6:37) S4 (Mark Cuban): Mark asks if that figure is year-to-date or a projection. -> answer turn 63 (6:38-6:38) F2 (Gene Palusky): Gene confirms that $90,000 is what they think they will do.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:63/code:PREP-SUBS",
+          "field_class": "turn_code",
+          "clock_start": "6:38",
+          "clock_end": "6:38",
+          "context": "question turn 62 (6:36-6:37) S4 (Mark Cuban): Mark asks if that figure is year-to-date or a projection. -> answer turn 63 (6:38-6:38) F2 (Gene Palusky): Gene confirms that $90,000 is what they think they will do.",
+          "primary": "2",
+          "replicate": "2",
+          "reasons": [],
+          "blind_context": "question turn 62 (6:36-6:37) S4 (Mark Cuban): Mark asks if that figure is year-to-date or a projection. -> answer turn 63 (6:38-6:38) F2 (Gene Palusky): Gene confirms that $90,000 is what they think they will do.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:63/code:RS-EVID",
+          "field_class": "turn_code",
+          "clock_start": "6:38",
+          "clock_end": "6:38",
+          "context": "question turn 62 (6:36-6:37) S4 (Mark Cuban): Mark asks if that figure is year-to-date or a projection. -> answer turn 63 (6:38-6:38) F2 (Gene Palusky): Gene confirms that $90,000 is what they think they will do.",
+          "primary": "false",
+          "replicate": "true",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 62 (6:36-6:37) S4 (Mark Cuban): Mark asks if that figure is year-to-date or a projection. -> answer turn 63 (6:38-6:38) F2 (Gene Palusky): Gene confirms that $90,000 is what they think they will do.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:63/code:RS-RESP",
+          "field_class": "turn_code",
+          "clock_start": "6:38",
+          "clock_end": "6:38",
+          "context": "question turn 62 (6:36-6:37) S4 (Mark Cuban): Mark asks if that figure is year-to-date or a projection. -> answer turn 63 (6:38-6:38) F2 (Gene Palusky): Gene confirms that $90,000 is what they think they will do.",
+          "primary": "addresses",
+          "replicate": "addresses",
+          "reasons": [],
+          "blind_context": "question turn 62 (6:36-6:37) S4 (Mark Cuban): Mark asks if that figure is year-to-date or a projection. -> answer turn 63 (6:38-6:38) F2 (Gene Palusky): Gene confirms that $90,000 is what they think they will do.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:76/code:PR-CONCEPT",
+          "field_class": "turn_code",
+          "clock_start": "7:32",
+          "clock_end": "7:37",
+          "context": "question turn 76 (7:32-7:37) S5 (Robert Herjavec): Robert presses Gene, stating he isn't answering whether it's proprietary or not. -> answer turn 77 (7:38-7:40) F2 (Gene Palusky): Gene deflects by asking Robert to explain what he means by proprietary.",
+          "primary": "assets",
+          "replicate": null,
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 76 (7:32-7:37) S5 (Robert Herjavec): Robert presses Gene, stating he isn't answering whether it's proprietary or not. -> answer turn 77 (7:38-7:40) F2 (Gene Palusky): Gene deflects by asking Robert to explain what he means by proprietary.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:76/code:PR-SEV",
+          "field_class": "turn_code",
+          "clock_start": "7:32",
+          "clock_end": "7:37",
+          "context": "question turn 76 (7:32-7:37) S5 (Robert Herjavec): Robert presses Gene, stating he isn't answering whether it's proprietary or not. -> answer turn 77 (7:38-7:40) F2 (Gene Palusky): Gene deflects by asking Robert to explain what he means by proprietary.",
+          "primary": "3",
+          "replicate": null,
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 76 (7:32-7:37) S5 (Robert Herjavec): Robert presses Gene, stating he isn't answering whether it's proprietary or not. -> answer turn 77 (7:38-7:40) F2 (Gene Palusky): Gene deflects by asking Robert to explain what he means by proprietary.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:77/code:PREP-COH",
+          "field_class": "turn_code",
+          "clock_start": "7:38",
+          "clock_end": "7:40",
+          "context": "question turn 76 (7:32-7:37) S5 (Robert Herjavec): Robert presses Gene, stating he isn't answering whether it's proprietary or not. -> answer turn 77 (7:38-7:40) F2 (Gene Palusky): Gene deflects by asking Robert to explain what he means by proprietary.",
+          "primary": "4",
+          "replicate": null,
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 76 (7:32-7:37) S5 (Robert Herjavec): Robert presses Gene, stating he isn't answering whether it's proprietary or not. -> answer turn 77 (7:38-7:40) F2 (Gene Palusky): Gene deflects by asking Robert to explain what he means by proprietary.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:77/code:PREP-SUBS",
+          "field_class": "turn_code",
+          "clock_start": "7:38",
+          "clock_end": "7:40",
+          "context": "question turn 76 (7:32-7:37) S5 (Robert Herjavec): Robert presses Gene, stating he isn't answering whether it's proprietary or not. -> answer turn 77 (7:38-7:40) F2 (Gene Palusky): Gene deflects by asking Robert to explain what he means by proprietary.",
+          "primary": "2",
+          "replicate": null,
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 76 (7:32-7:37) S5 (Robert Herjavec): Robert presses Gene, stating he isn't answering whether it's proprietary or not. -> answer turn 77 (7:38-7:40) F2 (Gene Palusky): Gene deflects by asking Robert to explain what he means by proprietary.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:77/code:RS-EVID",
+          "field_class": "turn_code",
+          "clock_start": "7:38",
+          "clock_end": "7:40",
+          "context": "question turn 76 (7:32-7:37) S5 (Robert Herjavec): Robert presses Gene, stating he isn't answering whether it's proprietary or not. -> answer turn 77 (7:38-7:40) F2 (Gene Palusky): Gene deflects by asking Robert to explain what he means by proprietary.",
+          "primary": "false",
+          "replicate": null,
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 76 (7:32-7:37) S5 (Robert Herjavec): Robert presses Gene, stating he isn't answering whether it's proprietary or not. -> answer turn 77 (7:38-7:40) F2 (Gene Palusky): Gene deflects by asking Robert to explain what he means by proprietary.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:77/code:RS-RESP",
+          "field_class": "turn_code",
+          "clock_start": "7:38",
+          "clock_end": "7:40",
+          "context": "question turn 76 (7:32-7:37) S5 (Robert Herjavec): Robert presses Gene, stating he isn't answering whether it's proprietary or not. -> answer turn 77 (7:38-7:40) F2 (Gene Palusky): Gene deflects by asking Robert to explain what he means by proprietary.",
+          "primary": "deflects",
+          "replicate": null,
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 76 (7:32-7:37) S5 (Robert Herjavec): Robert presses Gene, stating he isn't answering whether it's proprietary or not. -> answer turn 77 (7:38-7:40) F2 (Gene Palusky): Gene deflects by asking Robert to explain what he means by proprietary.",
+          "selected_as": "sampled",
+          "priority": 1
+        }
+      ]
+    }
+  }
+}

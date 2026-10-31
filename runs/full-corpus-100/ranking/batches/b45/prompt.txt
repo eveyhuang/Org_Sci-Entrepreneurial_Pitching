@@ -1,0 +1,39 @@
+You are a trained observer comparing the prepared presentations of several entrepreneur
+pitches. Each clip below is one pitch's prepared presentation, cut before any investor
+questioning. The clips are labelled A, B, C, D, E.
+
+RULES
+1. Watch every clip in full, with sound, before ranking anything.
+2. For each dimension below, put the clips in a strict order from the one that shows the
+   MOST of that dimension to the one that shows the LEAST.
+3. No ties. Every clip appears exactly once in every order. When two clips are close, decide
+   which shows more, and say in the note that they were close.
+4. Judge each dimension on its own definition. A clip can be first on one dimension and last
+   on another. Do not form one overall impression and repeat it.
+5. Judge only what is seen and heard in the clips. Do not judge the business idea, do not use
+   outside knowledge of the people or companies, and do not guess what happened afterwards.
+6. Do not give scores. Give only the order, and one note of about 25 words per dimension
+   saying what separates the top of the order from the bottom.
+7. If missing or unusable founder speech or view of the presenters prevents the judgement on
+   a dimension, still place the clip, last on that dimension, and say so in the note.
+8. The definitions below were written for rating one presentation at a time. Where they
+   mention a rating, a score or a number, read it as more or less of the dimension. Where a
+   definition says to apply the shared protocol or to mark a clip uncodable, follow these
+   rules instead.
+
+DIMENSIONS
+### pitch_positivity
+Definition: The overall positive, enthusiastic impression communicated by the presenting team across the prepared presentation. This is a direct observer judgment of displayed delivery, not an average of other ratings or an assessment of the venture.
+Include if: Apply the shared Stage A perceived-delivery protocol: rate the presenting team's displayed performance in the supplied prepared-presentation clip using audiovisual evidence, with contributions considered over founder speaking time. Both audible founder speech and usable views must permit the intended judgment; otherwise mark uncodable.
+Exclude if: Venture quality, optimism of business forecasts alone, attractiveness, production quality or inferred funding success. Do not derive this score by averaging enthusiasm and warmth. A calm presentation is not automatically negative.
+### expressed_enthusiasm
+Definition: The strength of engaged excitement about the venture communicated through the presentation. Integrate delivery, expression, gesture and meaningful engagement with the subject; judge expressed enthusiasm, not the founder's actual feelings.
+Include if: Apply the shared Stage A perceived-delivery protocol: rate the presenting team's displayed performance in the supplied prepared-presentation clip using audiovisual evidence, with contributions considered over founder speaking time. Both audible founder speech and usable views must permit the intended judgment; otherwise mark uncodable.
+Exclude if: Loudness, speed, smiling, positive adjectives or dramatic gestures alone. Warmth toward people without excitement about the venture. Nervous activation without engaged excitement. Do not infer genuine inner passion.
+### interpersonal_warmth
+Definition: How friendly, approachable and positively oriented toward other people the presenting team comes across in this presentation, integrating delivery and the contextual meaning of speech. This measures perceived interpersonal expression, not trustworthiness or moral character.
+Include if: Apply the shared Stage A perceived-delivery protocol: rate the presenting team's displayed performance in the supplied prepared-presentation clip using audiovisual evidence, with contributions considered over founder speaking time. Both audible founder speech and usable views must permit the intended judgment; otherwise mark uncodable.
+Exclude if: Excitement or high energy alone; attractiveness; merely mentioning community, customers or a charitable mission; inferred honesty or competence. A quiet or serious presenter can convey warmth. Reciprocity is not required here: dyadic rapport belongs to Stage B.
+
+Return one JSON object with `rankings` (one item per dimension: its code, the order as a list
+of clip labels, and the note) and `notes` (anything a reviewer must know; empty if nothing).

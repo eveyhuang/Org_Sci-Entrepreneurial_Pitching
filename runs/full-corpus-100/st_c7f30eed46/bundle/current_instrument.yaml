@@ -1,0 +1,29 @@
+# Release manifest for the live instrument. pipeline/codebooks/ may contain only the files
+# listed here plus this manifest; tests/test_instrument_release.py enforces that.
+# Superseded instruments live under docs/codebooks/archive/<release>/ with their run hashes.
+release_id: v3-dev9
+status: development            # development | frozen
+templates_dir: ../prompts      # relative to this file
+books:
+  stage_a:
+    markdown: stage_a_perceived_delivery.md
+    yaml: stage_a_perceived_delivery.yaml
+    template: stage_a_perceived_delivery.j2
+    schema: pipeline.schemas.stage_a_perceived_delivery.StageADeliveryRecord
+  stage_b_panel:
+    markdown: stage_b_panel.md
+    yaml: stage_b_panel.yaml
+    template: panel_full.j2
+    schema: pipeline.schemas.stage_b_panel.PanelRecord
+  venture_context:
+    markdown: venture_context.md
+    yaml: venture_context.yaml
+    template: panel_full.j2
+    schema: pipeline.schemas.stage_b_panel.PanelRecord
+archives:
+  - ../../docs/codebooks/archive/stage_a
+  - ../../docs/codebooks/archive/stage_a_perceived_delivery_v2
+  - ../../docs/codebooks/archive/stage_b
+  - ../../docs/codebooks/archive/stage_b_v1_episode
+  - ../../docs/codebooks/archive/stage_b_v2_structured_2026-09-27
+  - ../../docs/codebooks/archive/stage_b_panel_v3dev8

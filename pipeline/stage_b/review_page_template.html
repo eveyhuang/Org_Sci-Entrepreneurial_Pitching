@@ -1,0 +1,550 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>__TITLE__</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+:root{--bg:#f6f5f1;--card:#fff;--ink:#1d1d1b;--mute:#6b6a66;--line:#e2e0d9;--acc:#2a5db0;--ok:#2d7a3e;--warn:#b2541b;--sel:#e8effc}
+*{box-sizing:border-box}body{margin:0;font:15px/1.45 -apple-system,Inter,Segoe UI,sans-serif;color:var(--ink);background:var(--bg)}
+header{position:sticky;top:0;z-index:5;background:var(--card);border-bottom:1px solid var(--line);padding:10px 16px;display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+header h1{font-size:16px;margin:0;font-weight:600}.sp{flex:1}
+.prog{font-variant-numeric:tabular-nums;color:var(--mute)}.prog b{color:var(--ink)}
+button{font:inherit;border:1px solid var(--line);background:#fff;border-radius:6px;padding:6px 10px;cursor:pointer}
+button.primary{background:var(--acc);color:#fff;border-color:var(--acc)}button:hover{filter:brightness(.97)}button:disabled{opacity:.5;cursor:default}
+.wrap{display:grid;grid-template-columns:minmax(380px,44%) 1fr;height:calc(100vh - 54px)}
+.left{position:sticky;top:54px;height:calc(100vh - 54px);padding:12px 16px;border-right:1px solid var(--line);background:#fafaf7;display:flex;flex-direction:column;gap:10px;overflow:auto}
+video{width:100%;max-height:48vh;background:#000;border-radius:8px}
+.novideo{background:#000;color:#ddd;border-radius:8px;aspect-ratio:16/9;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:8px;padding:16px;text-align:center;font-size:14px}
+.vc{display:flex;gap:6px;align-items:center;flex-wrap:wrap}.clock{font-variant-numeric:tabular-nums;font-size:22px;font-weight:600;min-width:84px}
+.actors{font-size:13px;color:var(--mute);line-height:1.6}.actors b{color:var(--ink);font-weight:600}
+.vlist{border-top:1px solid var(--line);padding-top:8px}.vlist h3{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--mute);margin:4px 0 6px}
+.vitem{display:flex;gap:8px;align-items:center;padding:6px 8px;border-radius:6px;cursor:pointer;font-size:14px}.vitem:hover{background:#f0efe9}.vitem.cur{background:var(--sel)}
+.vitem .n{flex:1}.vitem .p{font-variant-numeric:tabular-nums;color:var(--mute);font-size:13px}.vitem .ok{color:var(--ok)}
+.right{overflow:auto;padding:14px 20px 90px}
+h2{font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--mute);margin:22px 0 8px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin-bottom:10px}
+.card.done{border-left:4px solid var(--ok)}.card.flag{border-left:4px solid var(--warn)}
+.card .q{font-weight:600;font-size:16px;margin:0 0 6px}
+.loc{display:flex;gap:8px;align-items:center;flex-wrap:wrap;color:var(--mute);font-size:13px;margin-bottom:8px}
+.seek{border-color:var(--acc);color:var(--acc);font-variant-numeric:tabular-nums;padding:3px 9px}
+.turns{margin:4px 0 8px;padding:0;list-style:none;font-size:13px}.turns li{display:flex;gap:8px;align-items:baseline;padding:2px 0}
+.turns .who{min-width:140px}.turns .sum{color:var(--mute);display:none}.turns.show .sum{display:inline}
+.opts{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0}
+.opt{border:1px solid var(--line);border-radius:999px;padding:5px 12px;cursor:pointer;background:#fff;user-select:none}
+.opt:hover{border-color:var(--acc)}.opt.on{background:var(--sel);border-color:var(--acc);color:var(--acc);font-weight:600}
+.anchor{font-size:13px;color:var(--mute);margin:2px 0 6px;min-height:1.3em}.miss{margin:2px 0 6px}.miss select{font-size:13px;color:var(--mute)}
+select{font:inherit;padding:6px 8px;border-radius:6px;border:1px solid var(--line);max-width:100%}
+details{font-size:13px;color:var(--mute);margin:4px 0}summary{cursor:pointer;color:var(--acc)}details p{margin:6px 0}details b{color:var(--ink)}
+.flags{display:flex;gap:14px;font-size:13px;margin-top:8px;flex-wrap:wrap}.flags label{display:flex;gap:5px;align-items:center}
+textarea{width:100%;font:inherit;font-size:13px;border:1px solid var(--line);border-radius:6px;padding:6px;margin-top:6px;min-height:34px;resize:vertical}
+.hint{font-size:12px;color:var(--mute)}
+.foot{position:fixed;bottom:0;right:0;left:44%;background:var(--card);border-top:1px solid var(--line);padding:10px 20px;display:flex;gap:10px;align-items:center;z-index:5}
+.banner{background:#fff4d6;border-bottom:1px solid #ecd9a0;color:#6b4e00;padding:8px 16px;font-size:13px}
+.cb{max-width:860px}.cb h2{margin-top:28px}.cb h3{font-size:16px;margin:22px 0 6px;color:var(--ink)}
+.cb .entry{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 16px;margin-bottom:10px}
+.cb .entry.mine{border-left:4px solid var(--acc)}.cb .entry h4{margin:0 0 4px;font-size:15px}.cb .entry h4 code{color:var(--mute);font-weight:400;font-size:12px;margin-left:6px}
+.cb .tag{display:inline-block;font-size:11px;color:var(--acc);border:1px solid var(--acc);border-radius:999px;padding:0 7px;margin-left:6px;vertical-align:1px}
+.cb .lbl{font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--mute);margin:10px 0 2px}
+.cb .entry p{margin:4px 0}.cb ul{margin:4px 0 4px 18px;padding:0}.cb li{margin:2px 0}
+.cb .toc{columns:2;font-size:13px}.cb .toc a{color:var(--acc);text-decoration:none}.cb input.search{width:100%;margin:8px 0 4px;font:inherit;padding:7px 9px;border:1px solid var(--line);border-radius:6px}
+.mans{margin:6px 0}.mans .opt.model{background:#e7f3ea;border-color:var(--ok);color:var(--ok);font-weight:600}
+.reason{background:#fbfaf6;border:1px solid var(--line);border-radius:8px;padding:8px 10px;margin:8px 0;font-size:14px}
+.reason .lbl{font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--mute);margin-bottom:2px}
+.differ{color:var(--warn);font-size:13px;margin:4px 0}
+button.cblink{font-size:12px;padding:1px 8px;color:var(--acc);border-color:var(--acc)}
+.card .gloss{font-size:13px;color:var(--mute);margin:-2px 0 8px}textarea.bad{border-color:var(--warn);background:#fff6f0}
+.card .q .num{color:var(--mute);font-weight:400;font-size:13px;font-variant-numeric:tabular-nums;margin-right:8px}
+.picker{margin:6px 0}.picker .chosen{font-size:14px;margin:2px 0 6px}.picker input.pick{width:100%;font:inherit;font-size:14px;padding:6px 8px;border:1px solid var(--line);border-radius:6px}
+.plist{max-height:260px;overflow:auto;border:1px solid var(--line);border-radius:6px;margin-top:4px;background:#fff}
+.prow{padding:5px 9px;cursor:pointer;font-size:13px;color:var(--mute);border-bottom:1px solid var(--line)}.prow:last-child{border-bottom:0}.prow:hover{background:#f0efe9}.prow b{color:var(--ink);font-weight:600}.prow.on{background:var(--sel)}
+.inp{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:6px 0}.inp label{display:flex;gap:5px;align-items:center}
+.inp input{font:inherit;padding:5px 8px;border:1px solid var(--line);border-radius:6px;width:9em}.inp input.bad{border-color:var(--warn);background:#fff6f0}
+.closetick{display:flex;gap:5px;align-items:center;font-size:13px;margin-left:10px}
+.pairblock{border-top:2px solid var(--line);padding-top:10px;margin-top:18px}.pairhead{font-size:15px;margin:0 0 8px}
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px}.duo .side .lbl{font-weight:600;font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--mute);margin-bottom:3px}
+.duo video{max-height:30vh}.pfile{margin-top:3px}.pfile.missingfile{color:var(--warn)}
+.vitem .tn{color:var(--mute);font-variant-numeric:tabular-nums;min-width:1.7em}.vitem.next{box-shadow:inset 3px 0 0 var(--acc);font-weight:600}
+.crow{border-top:1px solid var(--line);padding:8px 0 4px}.crow:first-child{border-top:0;padding-top:0}.crow .q{font-size:15px}
+.openhint{color:var(--warn);font-size:13px;margin:0 0 8px}
+.card.flagged{box-shadow:0 0 0 2px var(--warn)}.badge{display:inline-block;font-size:12px;color:#fff;background:var(--warn);border-radius:999px;padding:1px 9px;margin-bottom:6px}
+.disc{display:grid;gap:4px}.disc .who{font-weight:600;min-width:4.5em;display:inline-block}.disc .small{font-size:12px;color:var(--mute)}.after{font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--mute);margin:10px 0 2px}
+@media (max-width:900px){.wrap{grid-template-columns:1fr;height:auto}.left{position:static;height:auto;border-right:0}.foot{left:0}}
+</style></head><body>
+<header><h1 id="heading">Coding sheets</h1><span class="hint">coder <b id="coder"></b> · run <span id="run"></span></span><span class="sp"></span>
+<span class="prog" id="vprog">this video <b id="done">0</b>/<span id="total">0</span> · all videos <b id="adone">0</b>/<span id="atotal">0</span></span><span class="prog" id="taskprog" style="display:none"></span>
+<button id="savedir" title="Chrome and Edge: pick a folder once; the sheets are written there after every change">Save sheets to a folder…</button>
+<button id="cbbtn" style="display:none">Codebook</button>
+<button id="dl" class="primary" title="All your sheets in one zip file: hand in that file, or the folder Safari may unpack it into">Download all sheets</button></header>
+<div class="banner" id="banner" style="display:none"></div>
+<div class="wrap"><div class="left">
+<div id="vbox"></div>
+<div class="vc"><span class="clock" id="clk">0:00</span>
+<button data-d="-10">−10s</button><button data-d="-3">−3s</button><button data-d="3">+3s</button><button data-d="10">+10s</button>
+<button id="pp">play / pause</button></div>
+<div class="actors" id="actors"></div>
+<div class="vlist"><h3 id="listtitle">Videos in your sample</h3><div id="vlist"></div>
+<div class="hint" style="margin-top:8px">Videos are opened from your own computer; nothing is uploaded. In Chrome or Edge, pick the folder that directly holds the .mp4 files once and every video is found by name. In other browsers, choose each video's file when you open it.</div>
+<div style="margin-top:6px"><button id="pickdir">Choose the video folder…</button> <input type="file" id="pickfile" accept="video/mp4,video/*" style="display:none"><button id="pickfilebtn">Choose this video's file…</button></div></div>
+</div><div class="right" id="right"></div></div>
+<div class="foot"><span class="hint" id="savemsg">Answers are kept in this browser as you go.</span><span class="sp" style="flex:1"></span><button id="dlone">Download this video's sheet</button></div>
+<div id="err" style="display:none;background:#fde8e8;color:#8a1c1c;padding:8px 16px;font-size:13px"></div>
+<script>
+window.onerror = (m, src, line) => { const e=document.getElementById('err'); e.style.display='block'; e.textContent = `Something went wrong on this page: ${m} (line ${line}). Please tell the researcher which browser you used.`; };
+const PAGE = __PAGE__;
+// storage is optional: a browser may refuse it for a page opened from disk; the page still works, it just cannot remember
+const store = { get: k => { try { return localStorage.getItem(k); } catch(e) { return null; } }, set: (k,val) => { try { localStorage.setItem(k,val); return true; } catch(e) { return false; } } };
+store.keys = () => { try { return Object.keys(localStorage); } catch(e) { return []; } };
+// Research task answers outlive pair designs; an explicit namespace isolates a demo design.
+const KEY = (PAGE.storage_namespace ? PAGE.storage_namespace + ":" + PAGE.design_id + ":" : "") + (PAGE.mode && PAGE.mode !== 'validation' ? PAGE.mode : 'coding') + `:${PAGE.run}:${PAGE.coder}` + (PAGE.design_id && !/tasks$/.test(PAGE.mode || '') ? `:${PAGE.design_id}` : '');   // a training page never shares answers with a validation page
+// where the answers are kept in the browser: one record per page under KEY; on a task page each video's answers (both of
+// its sections) under KEY:video:<video id> and the comparisons under KEY:design:<design>, so a new pair design (another
+// seed, a coder added) leaves the videos' answers in place. Answers a task page kept under its first layout (the whole
+// page under KEY:<design>) are read too, where nothing newer is kept: this design's record first (comparisons too),
+// then any other design's (videos only)
+const slotOf = vd => vd.pair ? `${KEY}:design:${PAGE.design_id}` : `${KEY}:video:${vd.video_id}`;
+function loadState(){
+  const read = k => { try { return JSON.parse(store.get(k) || 'null'); } catch(e) { return null; } };
+  if(!/tasks$/.test(PAGE.mode || '')) return read(KEY) || {};
+  const out = {};
+  for(const vd of PAGE.videos){ const got = read(slotOf(vd)); const own = vd.pair ? (got || {})[vd.video_id] : got; if(own) out[vd.video_id] = own; }
+  if(PAGE.storage_namespace) return out;
+  const first = `${KEY}:${PAGE.design_id}`, others = store.keys().filter(k => k !== first && k.startsWith(KEY + ':') && /^[0-9a-f]{12}$/.test(k.slice(KEY.length + 1)));
+  for(const k of [first, ...others]){ const old = read(k) || {}; for(const vd of PAGE.videos) if(!out[vd.video_id] && old[vd.video_id] && (!vd.pair || k === first)) out[vd.video_id] = old[vd.video_id]; }
+  return out;
+}
+function saveState(){
+  if(PAGE.read_only) return true;
+  if(!/tasks$/.test(PAGE.mode || '')) return store.set(KEY, JSON.stringify(state));
+  let ok = true; const pairs = {};
+  for(const vd of PAGE.videos){ if(!state[vd.video_id]) continue; if(vd.pair) pairs[vd.video_id] = state[vd.video_id]; else ok = store.set(slotOf(vd), JSON.stringify(state[vd.video_id])) && ok; }
+  if(Object.keys(pairs).length) ok = store.set(`${KEY}:design:${PAGE.design_id}`, JSON.stringify(pairs)) && ok;
+  return ok;
+}
+let state = PAGE.read_only ? structuredClone(PAGE.completed_answers || {}) : loadState();
+// a stored answer the card no longer offers (a count on a card that now takes a band, say) is dropped, not kept unseen
+const offered = (c, val) => !val || String(val).startsWith('missing:') || c.input && c.input !== 'choice' || !c.values.length || c.values.includes(val);
+for(const vd of PAGE.videos) for(const sec of vd.sections) for(const c of sec.cards){ const x = (state[vd.video_id]||{})[c.path]; if(x && !offered(c, x.value)) x.value = ''; }
+let cur = (!PAGE.read_only && store.get(KEY+':cur')) || PAGE.videos[0].video_id;
+if(!PAGE.videos.some(x=>x.video_id===cur)) cur = PAGE.videos[0].video_id;      // an entry this page no longer has
+let memoryWarned = false;
+let dirHandle = null, saveHandle = null;
+const esc = s => String(s??'').replace(/[&<>"]/g, m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
+const cs = c => c ? String(c).split(':').reduce((t,p)=> t*60 + +p, 0) : 0;      // M:SS and H:MM:SS
+const clk = s => `${Math.floor(s/60)}:${String(Math.floor(s%60)).padStart(2,'0')}`;
+const video = () => PAGE.videos.find(x=>x.video_id===cur);
+// the names each video is looked up by in the coder's folder: its source's name first (as copy-videos writes it),
+// then <video_id>.mp4 (a folder whose files are named by video id still plays)
+const FILES = {};
+for(const vd of PAGE.videos){ if(vd.file_name) FILES[vd.video_id] = [vd.file_name, ...(vd.file_alts||[])];
+  for(const p of [...(vd.pairs||[]), ...(vd.pair ? [vd.pair] : [])]) for(const side of ['left','right'])
+    if(!FILES[p[side]]) FILES[p[side]] = [p[side+'_file'], ...(p[side+'_alts']||[])]; }
+async function fileIn(dir, names){ for(const n of names){ try { return await (await dir.getFileHandle(n)).getFile(); } catch(e){} } return await looseFileIn(dir, names); }
+// a copy that went through a download, a zip or a cloud drive often has ' | : and the like replaced (e.g. by _): match a file whose name agrees once punctuation and spacing are ignored
+const nameKey = n => String(n||'').normalize('NFKC').toLowerCase().replace(/[^\p{L}\p{N}]+/gu, '');
+async function looseFileIn(dir, names){ const want = new Set(names.map(nameKey)); for await (const [n, h] of dir.entries()){ if(h.kind === 'file' && want.has(nameKey(n))) return await h.getFile(); } throw new Error('not in the folder'); }
+const st = (vid,p) => { state[vid] = state[vid]||{}; return state[vid][p] || (state[vid][p] = {value:'', unclear:false, structural:false, note:'', summary_shown:false}); };
+const answered = x => !!(x.value||x.unclear||x.structural);
+// a card whose chosen value needs the matter named (`other`) is complete only once the note names it
+const needsName = (c, x) => !x.unclear && !x.structural && (c.name_values||[]).includes(x.value) && !String(x.note||'').trim();
+const complete = (c, x) => answered(x) && !needsName(c, x);
+document.getElementById('coder').textContent = PAGE.coder; document.getElementById('run').textContent = PAGE.run;
+
+// ---------- video element, fed from the coder's disk ----------
+let v = null;
+const urls = {};      // video id -> the blob URL of the file the coder chose (or the folder gave), kept while the page is open
+function showVideo(url, name){
+  const box = document.getElementById('vbox');
+  if(!url && video().pairs){ box.innerHTML = `<div class="novideo"><div><b>${esc(video().title)}</b></div><div>The two videos of each pair play beside its questions, on the right, each from its ▶ window button. Choose the video folder (Chrome, Edge) to load them; in other browsers, open each video from the list first.</div></div>`; v=null; return; }
+  if(!url){ box.innerHTML = `<div class="novideo"><div><b>${esc(video().title)}</b></div><div>file: ${esc(video().file_name)}</div><div>Choose the video folder (Chrome, Edge) or this video's file to play it here.</div></div>`; v=null; return; }
+  box.innerHTML = `<video id="v" controls preload="metadata"></video>`; v = document.getElementById('v'); v.src = url;
+  const player = v; player.addEventListener('timeupdate', ()=> { if(player === v) document.getElementById('clk').textContent = clk(player.currentTime); });   // a removed player's last event is ignored
+  if((SESSION || TASKS) && video().window) pauseOnce(v, 'main:' + cur, video().window);      // the session's video: its window
+}
+// the clip session plays full videos: a player pauses itself the first time playback reaches the end of a span of the
+// prepared window (each span once per page visit); the coder can play on. A seek past an end is no reaching it.
+const pausedAt = new Set();
+function pauseOnce(pv, key, span){
+  const ends = String(span||'').split(',').map(part => part.split('-')[1]).filter(Boolean).map(cs);
+  let last = pv.currentTime || 0, jumped = false;
+  pv.addEventListener('seeking', ()=> { jumped = true; });
+  pv.addEventListener('seeked', ()=> { jumped = false; last = pv.currentTime; });
+  pv.addEventListener('timeupdate', ()=> { const now = pv.currentTime;
+    if(!jumped && !pv.paused && now >= last && now - last < 2) for(const end of ends){ const k = key + '@' + end;
+      if(last < end && now >= end && !pausedAt.has(k)){ pausedAt.add(k); pv.pause(); break; } }
+    last = now; });
+}
+document.querySelectorAll('[data-d]').forEach(b=> b.onclick = ()=> { if(v) v.currentTime = Math.max(0, v.currentTime + +b.dataset.d); });
+document.getElementById('pp').onclick = ()=> { if(v) v.paused ? v.play() : v.pause(); };
+function seek(c){ if(!v){ alert('Open the video first (choose the folder or the file on the left).'); return; } v.currentTime = cs(c); v.play(); }
+// IndexedDB keeps the folder handle so the coder picks it once
+const idb = () => new Promise((res,rej)=>{ let r; try { r=indexedDB.open('coding-sheets',1); } catch(e) { return rej(e); } r.onupgradeneeded=()=>r.result.createObjectStore('h'); r.onsuccess=()=>res(r.result); r.onerror=()=>rej(r.error); });
+async function putH(k,h){ let db; try { db=await idb(); } catch(e){ return; } await new Promise((res,rej)=>{ const t=db.transaction('h','readwrite'); t.objectStore('h').put(h,k); t.oncomplete=res; t.onerror=()=>rej(t.error); }); }
+async function getH(k){ let db; try { db=await idb(); } catch(e){ return null; } return new Promise((res)=>{ const t=db.transaction('h'); const q=t.objectStore('h').get(k); q.onsuccess=()=>res(q.result||null); q.onerror=()=>res(null); }); }
+async function loadFromDir(){
+  if(!dirHandle) return false; const vid = cur;
+  try { if((await dirHandle.queryPermission({mode:'read'}))!=='granted' && (await dirHandle.requestPermission({mode:'read'}))!=='granted') return false;
+    const f = await fileIn(dirHandle, FILES[vid] || [video().file_name]); urls[vid] = URL.createObjectURL(f); if(vid === cur) showVideo(urls[vid], f.name); return true; } catch(e){ return false; }
+}
+document.getElementById('pickdir').onclick = async ()=>{ if(!window.showDirectoryPicker){ alert('This browser cannot open a folder; choose the file instead.'); return; } dirHandle = await showDirectoryPicker(); await putH(KEY+':dir', dirHandle);
+  if(video().pairs || video().pair){ showCards(video(), document.getElementById('right').scrollTop); return; }      // the pairs' players look again
+  if(!(await loadFromDir())) alert(NOT_IN_FOLDER(video().file_name)); };
+// a folder without the file: which folder to pick, and the other way to open the video
+const NOT_IN_FOLDER = name => `No file named\n${name}\nin that folder. Pick the folder that directly holds the .mp4 files (not a folder above it), or use “Choose this video's file…” on the left to open this one file.`;
+document.getElementById('pickfilebtn').onclick = ()=> document.getElementById('pickfile').click();
+document.getElementById('pickfile').onchange = e=>{ const f=e.target.files[0]; if(!f) return; if(urls[cur]) URL.revokeObjectURL(urls[cur]); urls[cur] = URL.createObjectURL(f); showVideo(urls[cur], f.name); e.target.value = ''; };
+
+// ---------- saving: browser storage always; a folder when the browser allows it ----------
+const cols = PAGE.columns;
+// a card that takes a value (pills, a picker, a number, a clock, the ask) has a "not sure" tick beside its answer; a pair
+// row has its "close" tick instead, and the prepared window's card takes no value
+const valueCard = c => c.input !== 'choice' && ((c.values||[]).length > 0 || ['number','clock','ask'].includes(c.input));
+// a best guess ticked "not sure" is written at the start of the note as [unsure] (review_apply.UNSURE); a card ticked
+// "I can't tell from the footage" or "the unit is wrong" has no value to be unsure of
+const unsureOf = (c, x) => !!x.unsure && !x.unclear && !x.structural && valueCard(c);
+const askOf = x => { const usd = String(x.usd ?? '').trim(), pct = String(x.pct ?? '').trim(); return usd && pct ? `${usd};${pct}` : ''; };
+const csvRow = a => a.map(x=>{ x=String(x??''); return /[",\n]/.test(x) ? '"'+x.replace(/"/g,'""')+'"' : x; }).join(',');
+// the value cell of a card: empty when a box is ticked; a "cannot be rated" reason as chosen; the ask as <usd>;<pct>
+// from its two numbers (half an ask is no answer); a number, a clock, a pick or left/right as entered
+function valueOf(c, x){
+  if(x.structural || x.unclear) return '';
+  const val = String(x.value ?? '').trim();
+  if(val.startsWith('missing:')) return val;
+  return c.input === 'ask' ? askOf(x) : val;
+}
+// a task page (one page per coder) writes each section's cards to its own sheet: `sheet` picks them (none: every card)
+const TASKS = /tasks$/.test(PAGE.mode || '');
+// the discussion page (review_panel.py discuss): the task page's interface, one sheet of its own that no import reads
+const DISCUSS = PAGE.mode === 'discussion';
+function rowsFor(vd, ctx='', sheet=null){
+  const lines=[];
+  for(const s of vd.sections) if(!sheet || s.sheet === sheet) for(const c of s.cards){ const x=st(vd.video_id,c.path);
+    const res = x.structural?'structural': x.unclear?'unclear':'';
+    // a note without an answer is no review and the import refuses it: the note cell is written for an answered card only
+    const note = answered(x) ? [unsureOf(c, x) ? '[unsure]' : '', x.note, x.summary_shown?'[summary shown]':''].filter(Boolean).join(' ') : '';
+    // a pair choice ticked "close" says so in the note cell
+    const said = c.input === 'choice' && x.close && answered(x) ? [note, '[close]'].filter(Boolean).join(' ') : note;
+    lines.push(csvRow(['',c.row,c.path,c.field_class,c.start,c.end,ctx,'','','','',c.values.join(' | '),valueOf(c, x),res,said])); }
+  return lines;
+}
+function sheetFor(vd){ return '﻿'+[csvRow(cols), ...rowsFor(vd, PAGE.sheet_design ? `design ${PAGE.sheet_design}` : '', TASKS ? 'video' : null)].join('\n'); }
+// the clip session's one sheet: every clip's cards and every pair's, in the page's order (an unanswered pair is a blank row)
+// each row names the session's design, which the import checks against the live export
+// a task page writes it in the clip-session page's order: the videos' cards in the coder's order, then the pairs by row
+const sessionParts = () => !TASKS ? PAGE.videos : [...PAGE.videos.filter(vd => !vd.pair),
+  ...PAGE.videos.filter(vd => vd.pair).sort((a, b) => a.sections[0].cards[0].row - b.sections[0].cards[0].row)];
+function sessionSheet(){ return '﻿'+[csvRow(cols), ...sessionParts().flatMap(vd => rowsFor(vd, `design ${PAGE.design_id}`, TASKS ? 'session' : null))].join('\n'); }
+const SESSION = PAGE.mode === 'clips';
+const sessionName = () => `clips__${PAGE.coder}.csv`;
+// the discussion page's one sheet: every card of every task, the coder's sheet's columns (the context cell names the
+// video or the pair), the answer after discussion where one is given, the reason even without one, then the coder's
+// imported answer and Gemini's two passes
+function discussionSheet(){ return '\ufeff'+[csvRow(cols), ...PAGE.videos.flatMap(vd => vd.sections.flatMap(s => s.cards.map(c => { const x = st(vd.video_id, c.path), d = c.discuss || {};
+  const res = x.structural?'structural': x.unclear?'unclear':'';
+  const note = [unsureOf(c, x) ? '[unsure]' : '', x.note, c.input === 'choice' && x.close && answered(x) ? '[close]' : ''].filter(Boolean).join(' ');
+  return csvRow(['',c.row,c.path,c.field_class,c.start,c.end,d.context||'','','','','',c.values.join(' | '),valueOf(c, x),res,note,(d.coder||{}).cell||'',d.gemini_value??'',d.gemini_other??'']); })))].join('\n'); }
+const AGAIN = "Answers are kept in this browser. Click 'Save sheets to a folder' again to keep saving to it.";
+async function writeSheets(){
+  if(PAGE.read_only || !saveHandle) return;
+  try { if(saveHandle.queryPermission && (await saveHandle.queryPermission({mode:'readwrite'}))!=='granted'){ document.getElementById('savemsg').textContent = AGAIN; return; }
+    for(const [name, text] of sheets()){
+      const fh = await saveHandle.getFileHandle(name, {create:true}); const w = await fh.createWritable(); await w.write(text); await w.close(); }
+    document.getElementById('savemsg').textContent = `Sheets written to your folder at ${new Date().toLocaleTimeString()}.`; } catch(e){ document.getElementById('savemsg').textContent = (e.name==='NotAllowedError'||e.name==='SecurityError') ? AGAIN : 'Could not write to the folder: ' + e.message; }
+}
+document.getElementById('savedir').onclick = async ()=>{ if(!window.showDirectoryPicker){ alert('This browser cannot write to a folder; use “Download all sheets” instead (one zip file of every sheet).'); return; }
+  // a remembered folder the browser no longer lets the page write to: ask for it again before offering another
+  try { if(saveHandle && (await saveHandle.queryPermission({mode:'readwrite'}))!=='granted' && (await saveHandle.requestPermission({mode:'readwrite'}))==='granted'){ writeSheets(); return; } } catch(e){}
+  saveHandle = await showDirectoryPicker({mode:'readwrite'}); await putH(KEY+':save', saveHandle); writeSheets(); };
+function save(){ if(PAGE.read_only) return; if(!saveState() && !memoryWarned){ memoryWarned = true; document.getElementById('savemsg').textContent = 'This browser will not remember answers between visits: download the sheet before you close the page.'; } progress(); writeSheets(); }
+// [file name, text] of every sheet with an answer: one per video, or the clip session's one sheet, or on a task page
+// both: the session's sheet and each video's own
+function sheets(){ const any = vd => Object.values(state[vd.video_id]||{}).some(answered);
+  if(PAGE.mode === 'discussion') return PAGE.videos.some(vd => Object.values(state[vd.video_id]||{}).some(x => answered(x) || String(x.note||'').trim())) ? [[PAGE.sheet_name, discussionSheet()]] : [];
+  const has = (vd, sheet) => vd.sections.some(s => s.sheet === sheet && s.cards.some(c => { const x = (state[vd.video_id]||{})[c.path]; return !!x && answered(x); }));
+  if(TASKS) return [...(PAGE.videos.some(vd => has(vd, 'session')) ? [[sessionName(), sessionSheet()]] : []),
+    ...PAGE.videos.filter(vd => !vd.pair && has(vd, 'video')).map(vd => [`${vd.video_id}__${PAGE.coder}.csv`, sheetFor(vd)])];
+  if(SESSION) return PAGE.videos.some(any) ? [[sessionName(), sessionSheet()]] : [];
+  return PAGE.videos.filter(any).map(vd => [`${vd.video_id}__${PAGE.coder}.csv`, sheetFor(vd)]);
+}
+function download(data, name, type='text/csv;charset=utf-8'){ const a=document.createElement('a'); a.href=URL.createObjectURL(new Blob([data],{type})); a.download=name; a.click(); }
+// every sheet goes in one zip file: Safari keeps only the first of several downloads started by one click. A plain ZIP
+// written here (the page is one offline file): each sheet stored as is (no compression), with its CRC-32, its name in UTF-8
+const CRC_TABLE = Array.from({length:256}, (_, n)=> { let c = n; for(let k=0; k<8; k++) c = c & 1 ? 0xEDB88320 ^ (c >>> 1) : c >>> 1; return c >>> 0; });
+const crc32 = bytes => { let c = 0xFFFFFFFF; for(const b of bytes) c = CRC_TABLE[(c ^ b) & 0xFF] ^ (c >>> 8); return (c ^ 0xFFFFFFFF) >>> 0; };
+// [[value, width in bytes]] little-endian, as a ZIP record's fields
+const zipRecord = fields => { const out = new Uint8Array(fields.reduce((n, [, w])=> n + w, 0)), dv = new DataView(out.buffer); let i = 0; for(const [val, w] of fields){ if(w === 2) dv.setUint16(i, val, true); else dv.setUint32(i, val, true); i += w; } return out; };
+function zipOf(files, when=new Date()){
+  const enc = new TextEncoder(), local = [], central = []; let at = 0;
+  const time = (when.getHours() << 11) | (when.getMinutes() << 5) | (when.getSeconds() >> 1);
+  const date = ((Math.max(when.getFullYear(), 1980) - 1980) << 9) | ((when.getMonth() + 1) << 5) | when.getDate();
+  for(const [name, text] of files){
+    const nm = enc.encode(name), data = enc.encode(text), crc = crc32(data);
+    // version 2.0, flag bit 11 (the name is UTF-8), method 0 (stored), time, date, CRC-32, sizes, name length, no extra field
+    const common = [[20,2],[0x0800,2],[0,2],[time,2],[date,2],[crc,4],[data.length,4],[data.length,4],[nm.length,2],[0,2]];
+    local.push(zipRecord([[0x04034b50,4], ...common]), nm, data);
+    central.push(zipRecord([[0x02014b50,4],[20,2], ...common, [0,2],[0,2],[0,2],[0,4],[at,4]]), nm);
+    at += 30 + nm.length + data.length;
+  }
+  const size = central.reduce((n, b)=> n + b.length, 0);
+  const parts = [...local, ...central, zipRecord([[0x06054b50,4],[0,2],[0,2],[files.length,2],[files.length,2],[size,4],[at,4],[0,2]])];
+  const out = new Uint8Array(parts.reduce((n, b)=> n + b.length, 0)); let i = 0; for(const b of parts){ out.set(b, i); i += b.length; }
+  return out;
+}
+const zipName = () => `${PAGE.coder}__${/^training/.test(PAGE.mode || '') ? 'training_' : ''}sheets.zip`;
+document.getElementById('dlone').onclick = ()=> SESSION ? download(sessionSheet(), sessionName()) : download(sheetFor(video()), `${cur}__${PAGE.coder}.csv`);
+document.getElementById('dl').onclick = ()=>{ const all = sheets(); if(!all.length){ alert('Nothing is answered yet: there is no sheet to download.'); return; } download(zipOf(all), zipName(), 'application/zip'); };
+document.getElementById('dl').title = `All your sheets in one zip file, ${zipName()}: hand in that file (Safari may unpack it into a folder of the same name: then hand in that folder)`;
+
+// ---------- progress and the video list ----------
+const tickOnly = c => c.field_class === 'prepared_window' && !c.values.length;
+function counts(vd){ let d=0,t=0; for(const s of vd.sections) for(const c of s.cards){ const x = st(vd.video_id,c.path), a = answered(x); if(tickOnly(c) && !a) continue; t++; if(complete(c, x)) d++; } return [d,t]; }
+// the task page's counter and list: "Task i of N · answered of total cards"; a tick on each finished task, the first
+// unfinished one marked; any task opens when clicked
+function counterText(){ let ad=0,at=0; for(const vd of PAGE.videos){ const [x,y]=counts(vd); ad+=x; at+=y; } return `Task ${PAGE.videos.findIndex(vd=>vd.video_id===cur)+1} of ${PAGE.videos.length} · ${ad} of ${at} cards`; }
+function taskListHtml(){ const next = PAGE.videos.find(vd => { const [x,y]=counts(vd); return x<y; }); return PAGE.videos.map((vd, n)=>{ const [x,y]=counts(vd); return `<div class="vitem ${vd.video_id===cur?'cur':''} ${vd===next?'next':''}" data-v="${esc(vd.video_id)}"><span class="tn">${n+1}.</span><span class="n">${esc(vd.title)}</span><span class="p ${x===y?'ok':''}">${x===y?'✓':x+'/'+y}</span></div>`; }).join(''); }
+function progress(){ const [d,t]=counts(video()); document.getElementById('done').textContent=d; document.getElementById('total').textContent=t;
+  let ad=0,at=0; for(const vd of PAGE.videos){ const [x,y]=counts(vd); ad+=x; at+=y; } document.getElementById('adone').textContent=ad; document.getElementById('atotal').textContent=at;
+  if(TASKS || DISCUSS){ document.getElementById('taskprog').textContent = counterText(); document.getElementById('vlist').innerHTML = taskListHtml(); }
+  else document.getElementById('vlist').innerHTML = PAGE.videos.map(vd=>{ const [x,y]=counts(vd); return `<div class="vitem ${vd.video_id===cur?'cur':''}" data-v="${vd.video_id}"><span class="n">${esc(vd.title)}</span><span class="p ${x===y&&PAGE.mode!=='walkthrough'?'ok':''}">${PAGE.mode==='walkthrough' ? y+' cards' : x===y?'✓ done':x+'/'+y}</span></div>`; }).join('');
+  document.querySelectorAll('.vitem').forEach(el=> el.onclick = ()=> open(el.dataset.v)); }
+
+// ---------- the pairs of the clip session ----------
+const pairHtml = (p, i) => `<h3 class="pairhead">Pair ${i+1}</h3><div class="duo">${['left','right'].map(side=>`<div class="side"><div class="lbl">${side}</div><video class="pv" data-vid="${esc(p[side])}" data-window="${esc(p[side+'_window']||'')}" data-key="${esc(p.batch_id)}:${side}" controls preload="metadata"></video><div class="vc">${p[side+'_window'] ? `<button class="seek pseek" data-c="${esc(p[side+'_window'].split('-')[0])}">▶ ${esc(p[side+'_window'])}</button>` : ''}</div><div class="hint pfile" data-file="${esc(p[side+'_file'])}">file: ${esc(p[side+'_file'])}</div></div>`).join('')}</div>`;
+async function clipUrl(vid, file){
+  if(urls[vid]) return urls[vid];
+  if(!dirHandle) return null;
+  try { if((await dirHandle.queryPermission({mode:'read'}))!=='granted') return null;
+    const f = await fileIn(dirHandle, FILES[vid] || [file]); urls[vid] = URL.createObjectURL(f); return urls[vid]; } catch(e){ return null; }
+}
+async function loadPair(el){
+  for(const box of el.querySelectorAll('.side')){ const pv = box.querySelector('video'), pf = box.querySelector('.pfile');
+    const url = await clipUrl(pv.dataset.vid, pf.dataset.file);
+    if(url){ if(pv.src !== url){ pv.src = url; if(pv.dataset.window) pauseOnce(pv, pv.dataset.key, pv.dataset.window); } pf.classList.remove('missingfile'); pf.textContent = 'file: ' + pf.dataset.file; }
+    else { pf.classList.add('missingfile'); pf.textContent = `${pf.dataset.file} not found in the folder: choose the folder that directly holds the .mp4 files on the left, or open this video's own file (its button here, or the video in the list). The pair can be answered later; until then it stays blank on the sheet.`; } }
+}
+// a comparison task of the task page: its two videos side by side at the top, each with its window button, then one
+// block: a row per item (left or right, and close), one "can't judge" tick and one note for the pair, written to each
+// of its rows
+const duoHtml = p => `<div class="duo">${['left','right'].map(side=>`<div class="side"><div class="lbl">${side} · ${esc(p[side+'_title']||'')}</div><video class="pv" data-vid="${esc(p[side])}" data-window="${esc(p[side+'_window']||'')}" data-key="${esc(p.batch_id)}:${side}" controls preload="metadata"></video><div class="vc">${p[side+'_window'] ? `<button class="seek pseek" data-c="${esc(p[side+'_window'].split('-')[0])}">▶ ${esc(p[side+'_window'])}</button>` : ''}</div><div class="hint pfile" data-file="${esc(p[side+'_file'])}">file: ${esc(p[side+'_file'])}</div><button class="sidefile" data-vid="${esc(p[side])}">Choose this video's file…</button></div>`).join('')}</div><input type="file" class="sidepick" accept="video/mp4,video/*" style="display:none">`;
+const PAIR_NOTE = "one note for the pair (required when you tick can't judge)";
+const compareHtml = (s, xs) => s.cards.map((c, i)=>`<div class="crow" data-i="${i}"><p class="q"><span class="num">#${c.number}</span>${esc(c.q)}</p>${c.gloss ? `<p class="gloss">${esc(c.gloss)}</p>` : ''}${c.discuss ? discussHtml(c) : ''}${controlHtml(c, xs[i])}</div>`).join('')
+  + `<div class="flags"><label><input type="checkbox" class="cantjudge" ${xs.length && xs.every(x=>x.unclear)?'checked':''}> can't judge this pair</label></div><textarea class="note" placeholder="${PAGE.mode === 'discussion' ? REASON_NOTE : PAIR_NOTE}">${esc((xs.find(x=>x.note)||{}).note||'')}</textarea>`;
+// the pair's one "can't judge" tick and one note go to each of its rows
+const pairTick = (xs, on) => xs.forEach(x=> x.unclear = on);
+const pairNote = (xs, text) => xs.forEach(x=> x.note = text);
+function compareCard(vd, s){
+  const xs = s.cards.map(c => st(vd.video_id, c.path)); const el = document.createElement('div'); el.className = 'card'; el.innerHTML = compareHtml(s, xs);
+  const paint = ()=>{ el.querySelectorAll('.crow').forEach(row=>{ const i = +row.dataset.i, c = s.cards[i], x = xs[i];
+      row.querySelectorAll('.opt').forEach(o=> o.classList.toggle('on', o.dataset.v===x.value)); const a = row.querySelector('.anchor'); if(a) a.textContent = c.defs[x.value]||''; });
+    el.classList.toggle('done', s.cards.every((c, i)=> complete(c, xs[i]))); el.classList.toggle('flag', xs.some(x=> x.unclear)); };
+  el.querySelectorAll('.crow').forEach(row=>{ const i = +row.dataset.i, c = s.cards[i], x = xs[i];
+    row.querySelectorAll('.opt').forEach(o=> o.onclick = ()=>{ x.value = (x.value===o.dataset.v)?'':o.dataset.v; paint(); save(); });
+    hoverDefs(row, c, x);
+    const closeBox = row.querySelector('.close'); if(closeBox) closeBox.onchange = e=>{ x.close = e.target.checked; save(); }; });
+  el.querySelector('.cantjudge').onchange = e=>{ pairTick(xs, e.target.checked); paint(); save(); };
+  el.querySelector('.note').oninput = e=>{ pairNote(xs, e.target.value); paint(); save(); };
+  paint(); return el;
+}
+// how many cards of a comparison's two video tasks are still open (a hint, not a gate)
+const stillOpen = vd => DISCUSS ? 0 : PAGE.videos.filter(x=> !x.pair && (vd.videos||[]).includes(x.video_id)).reduce((n, x)=> { const [d,t]=counts(x); return n + t - d; }, 0);
+// a pair player's ▶ button seeks that player (not the one on the left) to the start of its window
+function seekPair(b){ const pv = b.closest('.side').querySelector('video'); if(!pv.src){ alert('Choose the video folder on the left first.'); return; } pv.currentTime = cs(b.dataset.c); pv.play(); }
+
+// ---------- cards ----------
+const vname = (c, val) => (c.value_labels||{})[val] || String(val ?? '').replace(/_/g,' ');
+const chosenHtml = (c, val) => c.values.includes(val) ? `chosen: <b>${esc(vname(c, val))}</b>${c.defs[val]?' — '+esc(c.defs[val]):''}` : '<span class="hint">nothing chosen yet</span>';
+const pickerHtml = (c, x) => `<div class="picker"><div class="chosen">${chosenHtml(c, x.value)}</div><input type="search" class="pick" placeholder="Type to narrow the list: a value or a word of its meaning"><div class="plist">${c.values.map(val=>`<div class="prow ${x.value===val?'on':''}" data-v="${esc(val)}" data-text="${esc((vname(c, val)+' '+(c.defs[val]||'')).toLowerCase())}"><b>${esc(vname(c, val))}</b>${c.defs[val]?' — '+esc(c.defs[val]):''}</div>`).join('')}</div></div>`;
+// a card's answer: a whole number, a clock, the ask, or one of its values (pills up to six, a searchable list with
+// each value's meaning beyond six); nothing for a card its structural tick answers (the prepared window)
+function controlHtml(c, x){
+  const own = String(x.value ?? '').startsWith('missing:') ? '' : String(x.value ?? '');
+  if(c.input === 'number') return `<div class="inp"><input type="number" class="numin" min="0" step="1" value="${esc(own)}"><span class="hint">a whole number, 0 or more</span></div>`;
+  if(c.input === 'clock') return `<div class="inp"><input type="text" class="clockin" placeholder="M:SS" value="${esc(own)}"><button class="mark">mark now</button><span class="hint clockmsg">minutes:seconds on the player's clock; “mark now” writes where the video is</span></div>`;
+  if(c.input === 'ask') return `<div class="inp"><label>$ <input type="number" class="usd" min="0" step="1" placeholder="dollars" value="${esc(x.usd ?? '')}"></label><label>for <input type="number" class="pct" min="0" max="100" step="any" placeholder="per cent" value="${esc(x.pct ?? '')}"> %</label></div>`;
+  if(c.values.length > 6) return pickerHtml(c, x);
+  if(!c.values.length) return '';
+  const close = c.input === 'choice' ? `<label class="closetick"><input type="checkbox" class="close" ${x.close?'checked':''}> close</label>` : '';
+  return `<div class="opts">${c.values.map(val=>`<span class="opt ${x.value===val?'on':''}" data-v="${esc(val)}" title="${esc(c.defs[val]||'')}">${esc(vname(c, val))}</span>`).join('')}${close}</div><div class="anchor">${esc(c.defs[x.value]||'')}</div>`;
+}
+// hovering a value pill shows its meaning at once in the card's definition line (a native title tooltip is slow and
+// easy to miss); leaving the pill shows the chosen value's meaning again
+function hoverDefs(el, c, x){
+  const line = el.querySelector('.anchor'); if(!line) return;
+  el.querySelectorAll('.opt').forEach(o=>{ o.onmouseenter = ()=>{ line.textContent = c.defs[o.dataset.v]||''; }; o.onmouseleave = ()=>{ line.textContent = c.defs[x.value]||''; }; });
+}
+const CLOCK = /^\d+:[0-5]\d(:[0-5]\d)?$/;
+const winBtn = vd => vd.window ? `<button class="seek" data-c="${vd.window.split('-')[0]}">▶ ${vd.window}</button>` : '';
+const PLAIN_NOTE = 'note (required when you tick a box)';
+const NAME_NOTE = 'note (required when you tick a box, or when you choose other: name the matter in a few words)';
+const REASON_NOTE = 'Reason: why the answer after discussion is what it is (or why the answer stands)';
+const notePlaceholder = c => c.discuss ? REASON_NOTE : (c.name_values||[]).length ? NAME_NOTE : PLAIN_NOTE;
+// the "not sure" tick under a value card's answer: the coder still gives a best guess, and the sheet says it was one
+const unsureHtml = (c, x) => valueCard(c) ? `<div class="flags"><label><input type="checkbox" class="unsure" ${x.unsure?'checked':''}> not sure: this is my best guess</label></div>` : '';
+function card(vd, c){
+  const x = st(vd.video_id, c.path); const el = document.createElement('div'); el.className='card'; el.dataset.path=c.path;
+  const loc = [];
+  if(c.unit_label) loc.push(`<span>${esc(c.unit_label)}</span>`);
+  if(c.start) loc.push(`<button class="seek" data-c="${c.start}">▶ ${c.start}${c.end?'–'+c.end:''}</button>`);
+  if(c.kind==='outcome') loc.push(`<span>${esc(PAGE.hints.outcome_card)}</span>`);
+  if(c.kind==='cut') loc.push(`<span>${esc(PAGE.hints.cut_card)}</span>`);
+  if(c.kind==='stage_a') loc.push(`${winBtn(vd)}<span>${esc(PAGE.hints.pitch_card)}</span>`);
+  if(c.kind==='prep_pres') loc.push(`${winBtn(vd)}<span>${esc(PAGE.hints.prep_pres_card)}</span>`);
+  if(c.kind==='prepared_window') loc.push(winBtn(vd));
+  let turns = '';
+  if(c.turns.length){ turns = `<ul class="turns ${x.summary_shown?'show':''}">` + c.turns.map(t=>`<li><button class="seek" data-c="${t.clock.split('-')[0]}">▶ ${t.clock}</button><span class="who">turn ${t.turn} · ${esc(t.who)}</span><span class="sum">${esc(t.summary)}</span></li>`).join('') + `</ul><details ${x.summary_shown?'open':''} class="sumtog"><summary>show the one-line turn summaries</summary><span class="hint">Only to help you find the turn. Opening this is recorded.</span></details>`; }
+  const control = controlHtml(c, x);
+  const miss = (c.missing||[]).length ? `<div class="miss"><select class="missing"><option value="">cannot be rated…</option>${c.missing.map(m=>`<option ${x.value===m.value?'selected':''} value="${esc(m.value)}">cannot be rated: ${esc(m.label)}</option>`).join('')}</select></div>` : '';
+  // a card with no codebook entry (the outcome) shows what its values mean instead
+  const meanings = c.values.filter(val=>c.defs[val]);
+  const def = (c.html_def ? `<details><summary>codebook definition</summary>${c.html_def}</details>`
+      : meanings.length && c.values.length <= 6 ? `<details><summary>what the values mean</summary><ul>${meanings.map(val=>`<li><b>${esc(vname(c, val))}</b> — ${esc(c.defs[val])}</li>`).join('')}</ul></details>` : '')
+    + (c.entry && hasCodebook ? `<button class="cblink" data-e="${esc(c.entry)}">open in the codebook</button>` : '');
+  el.innerHTML = `<p class="q"><span class="num">#${c.number}</span>${esc(c.q)}</p>${c.gloss ? `<p class="gloss">${esc(c.gloss)}</p>` : ''}<div class="loc">${loc.join('')}</div>${turns}${c.discuss ? discussHtml(c) : ''}${control}${unsureHtml(c, x)}${miss}${def}
+    <div class="flags"><label><input type="checkbox" class="unclear" ${x.unclear?'checked':''}> I can't tell from the footage</label>
+    <label><input type="checkbox" class="structural" ${x.structural?'checked':''}> ${esc(c.structural)}</label></div>
+    <textarea class="note" placeholder="${notePlaceholder(c)}">${esc(x.note)}</textarea>`;
+  const mark = ()=>{ const unnamed = needsName(c, x); el.classList.toggle('done', complete(c, x)); el.classList.toggle('flag', !!(x.unclear||x.structural||unnamed)); el.querySelector('.note').classList.toggle('bad', unnamed); };
+  el.querySelectorAll('.seek').forEach(b=> b.onclick = ()=> seek(b.dataset.c));
+  el.querySelectorAll('.cblink').forEach(b=> b.onclick = ()=> showCodebook(b.dataset.e));
+  // one answer per card: a value, or one "cannot be rated" reason (written as missing:<reason>)
+  const missSel = el.querySelector('select.missing'), pick = el.querySelector('.pick');
+  const numIn = el.querySelector('.numin'), clockIn = el.querySelector('.clockin'), usdIn = el.querySelector('.usd'), pctIn = el.querySelector('.pct');
+  const show = ()=>{ el.querySelectorAll('.opt').forEach(p=>p.classList.toggle('on', p.dataset.v===x.value)); const a=el.querySelector('.anchor'); if(a) a.textContent = c.defs[x.value]||'';
+    el.querySelectorAll('.prow').forEach(r=>r.classList.toggle('on', r.dataset.v===x.value)); const ch=el.querySelector('.chosen'); if(ch) ch.innerHTML = chosenHtml(c, x.value);
+    const typed = String(x.value ?? '').startsWith('missing:') ? '' : String(x.value ?? '');
+    for(const box of [numIn, clockIn]) if(box && document.activeElement !== box) box.value = typed;
+    if(clockIn){ const bad = !!typed.trim() && !CLOCK.test(typed.trim()); clockIn.classList.toggle('bad', bad); el.querySelector('.clockmsg').textContent = bad ? 'Write minutes:seconds, e.g. 4:05.' : 'minutes:seconds on the player\'s clock; “mark now” writes where the video is'; }
+    if(numIn) numIn.classList.toggle('bad', !numIn.validity.valid);
+    if(usdIn && document.activeElement !== usdIn) usdIn.value = x.usd ?? ''; if(pctIn && document.activeElement !== pctIn) pctIn.value = x.pct ?? '';
+    if(missSel) missSel.value = c.missing.some(m=>m.value===x.value) ? x.value : ''; mark(); save(); };
+  el.querySelectorAll('.opt').forEach(o=> o.onclick = ()=>{ x.value = (x.value===o.dataset.v)?'':o.dataset.v; show(); });
+  hoverDefs(el, c, x);
+  el.querySelectorAll('.prow').forEach(r=> r.onclick = ()=>{ x.value = (x.value===r.dataset.v)?'':r.dataset.v; show(); });
+  if(pick) pick.oninput = ()=>{ const q = pick.value.trim().toLowerCase(); el.querySelectorAll('.prow').forEach(r=> r.style.display = !q || r.dataset.text.includes(q) ? '' : 'none'); };
+  if(numIn) numIn.oninput = ()=>{ x.value = numIn.value; show(); };
+  if(clockIn) clockIn.oninput = ()=>{ x.value = clockIn.value.trim(); show(); };
+  const markBtn = el.querySelector('.mark'); if(markBtn) markBtn.onclick = ()=>{ if(!v){ alert('Open the video first (choose the folder or the file on the left).'); return; } x.value = clk(v.currentTime); clockIn.value = x.value; show(); };
+  for(const box of [usdIn, pctIn]) if(box) box.oninput = ()=>{ x.usd = usdIn.value; x.pct = pctIn.value; x.value = askOf(x); show(); };
+  const closeBox = el.querySelector('.close'); if(closeBox) closeBox.onchange = e=>{ x.close = e.target.checked; save(); };
+  if(missSel) missSel.onchange = ()=>{ x.value = missSel.value; if(x.value && c.input === 'ask'){ x.usd = ''; x.pct = ''; } show(); };
+  const unsureBox = el.querySelector('.unsure'); if(unsureBox) unsureBox.onchange = e=>{ x.unsure = e.target.checked; save(); };
+  el.querySelector('.unclear').onchange = e=>{ x.unclear = e.target.checked; mark(); save(); };
+  el.querySelector('.structural').onchange = e=>{ x.structural = e.target.checked; mark(); save(); };
+  el.querySelector('.note').oninput = e=>{ x.note = e.target.value; mark(); save(); };
+  const tog = el.querySelector('.sumtog'); if(tog) tog.ontoggle = ()=>{ if(tog.open){ x.summary_shown = true; el.querySelector('.turns').classList.add('show'); save(); } else el.querySelector('.turns').classList.remove('show'); };
+
+  if(PAGE.read_only){
+    el.querySelectorAll('input,select,textarea').forEach(e=>{ e.disabled = true; });
+    el.querySelectorAll('.opt,.prow,.mark').forEach(e=>{ e.onclick = null; if(e.tagName === 'BUTTON') e.disabled = true; });
+    if(tog) tog.ontoggle = ()=>el.querySelector('.turns').classList.toggle('show', tog.open);
+    const note = el.querySelector('.note'); if(note) note.style.height = Math.max(70, note.scrollHeight) + 'px';
+  }
+
+  if(c.discuss && (c.discuss.reasons || []).length) el.classList.add('flagged');
+
+  mark(); return el;
+}
+// ---------- a read-only card: what the model answered and what it recorded in support ----------
+const shown = v => v == null || v === '' ? '(empty)' : String(v).startsWith('missing:') ? 'cannot be rated: ' + String(v).slice(8).replace(/_/g,' ') : String(v).replace(/_/g,' ');
+// the discussion page's read-only lines on a card, before its inputs: the coder's imported answer (with its ticks and note) and Gemini's (the pass the analysis reads; the other pass in small text; a comparison's rank scores and gap), then the inputs' label
+const discussHtml = c => { const d = c.discuss || {}, me = d.coder || {}, fr = d.frames || {}, val = v => esc(c.values.includes(v) ? vname(c, v) : shown(v)), inFrame = f => f ? ` (${esc(f)})` : ''; const ticks = [me.unsure ? 'ticked: not sure, a best guess' : '', me.resolution === 'unclear' ? 'ticked: I can\'t tell from the footage' : '', me.resolution === 'structural' ? `ticked: structurally wrong (${esc(c.structural)})` : '', me.close ? 'ticked: close' : '', me.summary_shown ? 'opened the turn summaries' : ''].filter(Boolean); const badges = (d.reasons || []).map(r => `<span class="badge">${r === 'structural flag' ? `flagged by ${esc(PAGE.coder)}: structurally wrong` : r === 'frame disagreement' ? 'frames differ' : esc(r)}</span>`).join(' '); return `<div class="reason disc">${badges ? `<div>${badges}</div>` : ''}<div><span class="who">${esc(PAGE.coder)}:</span> <b>${!me.answered ? 'not answered' : me.value ? val(me.value) + inFrame(fr.coder) : 'no value'}</b>${ticks.length ? ` <span class="small">· ${ticks.join(' · ')}</span>` : ''}${me.note ? `<div class="small">note: “${esc(me.note)}”</div>` : ''}</div><div><span class="who">Gemini:</span> <b>${val(d.gemini_value)}${inFrame(fr.gemini)}</b>${d.gemini_detail ? ` <span class="small">(${esc(d.gemini_detail)})</span>` : ''}${d.gemini_other != null && d.gemini_other !== '' ? ` <span class="small">· other pass: ${val(d.gemini_other)}${inFrame(fr.gemini_other)}</span>` : ''}</div></div><div class="after">After discussion (optional)</div>`; };
+function modelCard(vd, c){
+  const m = c.model || {}; const el = document.createElement('div'); el.className = 'card'; el.dataset.path = c.path;
+  const loc = [];
+  if(c.unit_label) loc.push(`<span>${esc(c.unit_label)}</span>`);
+  if(c.start) loc.push(`<button class="seek" data-c="${c.start}">▶ ${c.start}${c.end?'–'+c.end:''}</button>`);
+  if(['stage_a', 'prep_pres', 'prepared_window'].includes(c.kind)) loc.push(winBtn(vd));
+  const turnList = ts => ts.length ? `<ul class="turns show">${ts.map(t=>`<li><button class="seek" data-c="${t.clock.split('-')[0]}">▶ ${t.clock}</button><span class="who">turn ${t.turn} · ${esc(t.who)}</span><span class="sum">${esc(t.summary)}</span></li>`).join('')}</ul>` : '';
+  const pills = c.values.length && c.values.length <= 6
+    ? `<div class="opts">${c.values.map(v=>`<span class="opt ${v===m.answer?'model':''}" data-v="${esc(v)}" title="${esc(c.defs[v]||'')}">${esc(vname(c, v))}</span>`).join('')}</div><div class="anchor"></div>` : '';
+  const differ = m.second != null && m.second !== '' && String(m.second) !== String(m.answer ?? '')
+    ? `<div class="differ">The model's second pass answered: <b>${esc(c.values.includes(m.second) ? vname(c, m.second) : shown(m.second))}</b></div>` : '';
+  el.innerHTML = `<p class="q"><span class="num">#${c.number}</span>${esc(c.q)}</p>${c.gloss ? `<p class="gloss">${esc(c.gloss)}</p>` : ''}<div class="loc">${loc.join('')}</div>${turnList(c.turns)}
+    <div class="mans"><div class="hint">The model's answer</div>${pills}<div><b>${esc(c.values.includes(m.answer) ? vname(c, m.answer) : shown(m.answer))}</b>${c.defs[m.answer] ? ' — ' + esc(c.defs[m.answer]) : ''}</div>${differ}</div>
+    ${m.reason || (m.turns||[]).length ? `<div class="reason"><div class="lbl">What the model recorded</div>${esc(m.reason||'')}${turnList(m.turns||[])}</div>` : ''}
+    ${c.html_def ? `<details><summary>codebook definition</summary>${c.html_def}</details>` : ''}${c.entry && hasCodebook ? `<button class="cblink" data-e="${esc(c.entry)}">open in the codebook</button>` : ''}`;
+  el.querySelectorAll('.seek').forEach(b=> b.onclick = ()=> seek(b.dataset.c));
+  el.querySelectorAll('.cblink').forEach(b=> b.onclick = ()=> showCodebook(b.dataset.e));
+  hoverDefs(el, c, {value: ''});      // at rest the line is empty: the model's answer and its meaning are printed below
+  return el;
+}
+async function open(vid){
+  cur = vid; if(!PAGE.read_only) store.set(KEY+':cur', vid); const vd = video();
+  document.getElementById('actors').innerHTML = !Object.keys(vd.actors).length ? '' : '<div class="hint" style="margin-bottom:4px">Who is who: each ▶ jumps to that person\'s first words, so you can match names to faces.</div>' + Object.entries(vd.actors).map(([k,n])=>`<div><b>${k}</b> ${esc(n)} ${vd.actors_first[k]?`<button class="seek" data-c="${vd.actors_first[k]}" style="padding:1px 7px;font-size:12px">▶ ${vd.actors_first[k]}</button>`:''}</div>`).join('');
+  document.querySelectorAll('#actors .seek').forEach(b=> b.onclick = ()=> seek(b.dataset.c));
+  showCards(vd, 0);
+  // a video already chosen is shown again (and one playing now keeps its place); else the folder is tried
+  // a comparison task has no big player on the left: its two videos play at the top of the task
+  document.getElementById('pickfilebtn').style.display = vd.pairs || vd.pair ? 'none' : '';
+  document.getElementById('vbox').style.display = document.querySelector('.left .vc').style.display = vd.pair ? 'none' : '';
+  if(vd.pairs || vd.pair) showVideo(null);
+  else if(urls[vid]){ if(!(v && v.src === urls[vid])) showVideo(urls[vid]); }
+  else { showVideo(null); await loadFromDir(); }
+}
+// a section's intro card: the window button (where the video has one) beside the section's intro text
+const introHtml = (vd, s, open_) => `<p class="q" style="font-size:15px">${esc(s.title)}</p><div class="loc">${s.key === 'prepared' ? '' : winBtn(vd)}<span>${esc(s.intro || PAGE.hints.pitch_intro)}</span></div>` + (open_ ? `<div class="hint" style="color:var(--warn)">${open_} cards of the videos are still open: rate every video before you judge the pairs.</div>` : '');
+let cardsTop = 0;      // where the cards were scrolled to when the codebook was opened
+function showCards(vd, top){
+  const right = document.getElementById('right'); right.innerHTML = `<h2 style="margin-top:4px;color:var(--ink);text-transform:none;letter-spacing:0;font-size:18px">${esc(vd.title)}</h2>`;
+  if(PAGE.source_url){ const a = document.createElement('a'); a.href = PAGE.source_url; a.target = '_blank'; a.rel = 'noopener'; a.textContent = 'Open the video on YouTube'; right.appendChild(a); }
+  for(const f of PAGE.answer_files || []){ const p = document.createElement('p'), a = document.createElement('a'); a.href = f.href; a.textContent = f.name; p.appendChild(a); right.appendChild(p); }
+  if(vd.pair){ const top = document.createElement('div'); top.innerHTML = duoHtml(vd.pair); top.querySelectorAll('.pseek').forEach(b=> b.onclick = ()=> seekPair(b)); right.appendChild(top); loadPair(top);
+    // a browser without a folder picker: each side's own file (kept for the page visit, as a video task's is)
+    const pickSide = top.querySelector('.sidepick'); let side = null;
+    top.querySelectorAll('.sidefile').forEach(b=> b.onclick = ()=>{ side = b.dataset.vid; pickSide.click(); });
+    pickSide.onchange = e=>{ const f = e.target.files[0]; if(!f || !side) return; if(urls[side]) URL.revokeObjectURL(urls[side]); urls[side] = URL.createObjectURL(f); e.target.value = ''; loadPair(top); };
+    const n = stillOpen(vd); if(n){ const w = document.createElement('p'); w.className = 'openhint'; w.textContent = `${n} cards of these two videos' tasks are still open: finish both before you compare them.`; right.appendChild(w); } }
+  for(const s of vd.sections){ const h=document.createElement('h2'); h.textContent=s.title; if(s.key !== 'compare') right.appendChild(h);      // a comparison's intro card carries its title
+    // the prepared presentation's heading carries its window: (▶ start-end)
+    if(s.key==='prepared' && vd.window){ h.innerHTML = `${esc(s.title)} (${winBtn(vd)})`; h.querySelectorAll('.seek').forEach(b=> b.onclick = ()=> seek(b.dataset.c)); }
+    if(s.key==='pitch' || s.key==='clips' || s.key==='pairs' || s.key==='prepared' || s.key==='compare' || s.key==='flagged'){ const i=document.createElement('div'); i.className='card'; i.style.background='#fbfaf6';
+      // the videos are rated before the pairs: the pairs say how many of the videos' cards are still open
+      const open_ = s.key==='pairs' && PAGE.mode !== 'walkthrough' ? PAGE.videos.filter(x=> !x.pairs).reduce((n, x)=> { const [d,t]=counts(x); return n + t - d; }, 0) : 0;
+      i.innerHTML = introHtml(vd, s, open_);
+      i.querySelectorAll('.seek').forEach(b=> b.onclick = ()=> seek(b.dataset.c)); right.appendChild(i); }
+    if(s.key==='compare'){ right.appendChild(compareCard(vd, s)); continue; }
+    if(s.key==='pairs' && vd.pairs){
+      vd.pairs.forEach((p, n)=>{ const block = document.createElement('div'); block.className = 'pairblock'; block.innerHTML = pairHtml(p, n);
+        block.querySelectorAll('.pseek').forEach(b=> b.onclick = ()=> seekPair(b));
+        for(const c of s.cards.filter(c=> c.path.startsWith(`pair:${p.batch_id}/`))) block.appendChild(PAGE.mode === 'walkthrough' ? modelCard(vd, c) : card(vd, c));
+        right.appendChild(block); loadPair(block); });
+      continue; }
+    for(const c of s.cards) right.appendChild(PAGE.mode === 'walkthrough' ? modelCard(vd, c) : card(vd, c)); }
+  right.scrollTop = top; progress();
+}
+// ---------- the codebook (when the page carries it) ----------
+const hasCodebook = Array.isArray(PAGE.codebook) && PAGE.codebook.length > 0;
+function entryHtml(e){
+  const vals = e.values.length ? `<div class="lbl">Values</div><ul>${e.values.map(v=>`<li><b>${esc(v.value.replace(/_/g,' '))}</b>${v.gloss?' — '+esc(v.gloss):''}</li>`).join('')}</ul>` : '';
+  const ex = e.examples.length ? `<div class="lbl">Examples</div><ul>${e.examples.map(x=>`<li>${x}</li>`).join('')}</ul>` : '';
+  return `<div class="entry ${e.on_sheet?'mine':''}" id="cb-${esc(e.id)}" data-text="${esc(e.search || (e.name+' '+e.id).toLowerCase())}">
+    <h4>${esc(e.name)}<code>${esc(e.id)}</code>${e.on_sheet?'<span class="tag">on your sheet</span>':''}</h4>
+    ${e.definition_html}${vals}
+    ${e.include_html?`<div class="lbl">Include if</div>${e.include_html}`:''}${e.exclude_html?`<div class="lbl">Exclude if</div>${e.exclude_html}`:''}${ex}</div>`; }
+function showCodebook(id){
+  const right = document.getElementById('right'); if(!right.querySelector('.cb')) cardsTop = right.scrollTop;
+  const toc = PAGE.codebook.map(b=>`<div><b>${esc(b.title)}</b>${b.groups.map(g=>g.entries.map(e=>`<div><a href="#cb-${esc(e.id)}" data-e="${esc(e.id)}">${esc(e.name)}</a>${e.on_sheet?' •':''}</div>`).join('')).join('')}</div>`).join('');
+  right.innerHTML = `<div class="cb"><button id="cbback">← Back to the cards</button>
+    <h2 style="margin-top:12px;color:var(--ink);text-transform:none;letter-spacing:0;font-size:18px">Codebook</h2>
+    <div class="hint">Every code of the instrument. Codes marked “on your sheet” are the ones your cards ask about; the rest explain the terms the cards use.</div>
+    <input class="search" id="cbsearch" placeholder="Search the codebook (a name, a word of a definition, a value)">
+    <div class="toc">${toc}</div>
+    ${PAGE.codebook.map(b=>`<h2>${esc(b.title)}</h2>${b.groups.map(g=>`<h3>${esc(g.title)}</h3>${g.entries.map(entryHtml).join('')}`).join('')}`).join('')}</div>`;
+  document.getElementById('cbback').onclick = ()=> showCards(video(), cardsTop);      // the video on the left is left as it is
+  right.querySelectorAll('.toc a').forEach(a=> a.onclick = ev=>{ ev.preventDefault(); const t=document.getElementById('cb-'+a.dataset.e); if(t) t.scrollIntoView(); });
+  const search = document.getElementById('cbsearch');
+  search.oninput = ()=>{ const q = search.value.trim().toLowerCase(); right.querySelectorAll('.entry').forEach(e=> e.style.display = !q || e.dataset.text.includes(q) ? '' : 'none'); };
+  const target = id ? document.getElementById('cb-'+id) : null;
+  if(target) target.scrollIntoView(); else right.scrollTop = 0;
+}
+document.getElementById('heading').textContent = PAGE.heading || 'Coding sheets';
+if(PAGE.list_title) document.getElementById('listtitle').textContent = PAGE.list_title;
+if(PAGE.mode === 'walkthrough' || PAGE.read_only){ for(const id of ['savedir','dl','dlone']) document.getElementById(id).style.display = 'none';
+  document.querySelector('.prog').style.display = 'none'; document.getElementById('savemsg').textContent = PAGE.read_only ? 'Completed human annotation. Answers are built into this page; nothing is changed or saved.' : 'Read-only: nothing is answered or saved on this page.'; }
+if(SESSION){ document.getElementById('dlone').textContent = "Download the session's sheet"; document.getElementById('dl').style.display = 'none'; }
+if(TASKS){ document.getElementById('dlone').style.display = document.getElementById('vprog').style.display = 'none'; document.getElementById('taskprog').style.display = ''; }
+if(DISCUSS){ document.getElementById('dlone').style.display = document.getElementById('vprog').style.display = 'none'; document.getElementById('taskprog').style.display = '';
+  const dl = document.getElementById('dl'); dl.textContent = 'Download the discussion sheet'; dl.title = `${PAGE.sheet_name}: the answers after discussion and the reasons, beside the coder's and Gemini's (never imported)`;
+  dl.onclick = ()=>{ const all = sheets(); if(!all.length){ alert('Nothing is answered yet: there is no sheet to download.'); return; } download(all[0][1], all[0][0]); }; }
+if(PAGE.banner){ const b = document.getElementById('banner'); b.textContent = PAGE.banner; b.style.display = 'block'; }
+if(hasCodebook){ const b = document.getElementById('cbbtn'); b.style.display = ''; b.onclick = ()=> showCodebook(null); }
+(async ()=>{ try { dirHandle = await getH(KEY+':dir'); saveHandle = PAGE.read_only ? null : await getH(KEY+':save');
+    // a task page's folders as its first layout kept them (under the design)
+    if(/tasks$/.test(PAGE.mode || '') && PAGE.design_id){ dirHandle = dirHandle || await getH(`${KEY}:${PAGE.design_id}:dir`); if(!PAGE.read_only) saveHandle = saveHandle || await getH(`${KEY}:${PAGE.design_id}:save`); } } catch(e){} try { await open(cur); } catch(e){ window.onerror(e.message, '', ''); } })();
+</script></body></html>

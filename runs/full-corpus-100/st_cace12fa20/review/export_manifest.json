@@ -1,0 +1,465 @@
+{
+  "videos": {
+    "st_cace12fa20": {
+      "video_id": "st_cace12fa20",
+      "sheet": "st_cace12fa20__review.csv",
+      "release_id": "v3-dev9",
+      "annotation_context": "descriptive_full_context",
+      "seed": 20261013,
+      "sample_unflagged": null,
+      "max_flagged": null,
+      "preset": "exchange",
+      "field_classes": null,
+      "blind": true,
+      "pass": "primary",
+      "primary_sha256": "9a3956a6d2cc82a4d9af8f368ca450b99ec250c44b06510b45642b435253871b",
+      "replicate_sha256": "cb6c9d78d9ef647936417b04e47732cec2d66781dcb295715bb2dd8852341ae1",
+      "counts": {
+        "by_field_class": {
+          "turn_code": 24,
+          "cut": 1
+        },
+        "by_selection": {
+          "flagged": 0,
+          "sampled": 25
+        },
+        "by_priority": {
+          "1": 25,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "by_reason": {
+          "passes_differ": 9
+        }
+      },
+      "flagged": null,
+      "sample": {
+        "seed": 20261013,
+        "key": "st_cace12fa20",
+        "requested": {
+          "stage_a": 0,
+          "exchanges": 0,
+          "qa": 4,
+          "venture": 0,
+          "qa_codes": [
+            [
+              "question",
+              "PR-CONCEPT"
+            ],
+            [
+              "question",
+              "PR-SEV"
+            ],
+            [
+              "answer",
+              "RS-RESP"
+            ],
+            [
+              "answer",
+              "RS-EVID"
+            ],
+            [
+              "answer",
+              "PREP-SUBS"
+            ],
+            [
+              "answer",
+              "PREP-COH"
+            ]
+          ]
+        },
+        "drawn": {
+          "pitch": [
+            "first_decision"
+          ],
+          "venture": [],
+          "stage_a": [],
+          "exchanges": [],
+          "qa": [
+            [
+              22,
+              23
+            ],
+            [
+              24,
+              25
+            ],
+            [
+              30,
+              31
+            ],
+            [
+              45,
+              46
+            ]
+          ]
+        },
+        "available": {
+          "venture": 4,
+          "stage_a": 3,
+          "exchanges": 7,
+          "qa": 15
+        },
+        "qa_before_cut": true,
+        "on_sheet": {
+          "turn_code": 24,
+          "cut": 1
+        },
+        "population": {
+          "turn_code": 86,
+          "exchange_topic": 7,
+          "stage_a": 3,
+          "venture": 4,
+          "cut": 1
+        }
+      },
+      "unflagged": null,
+      "rows": [
+        {
+          "path": "pitch:first_decision",
+          "field_class": "cut",
+          "clock_start": null,
+          "clock_end": null,
+          "context": "the pitch: S4 exit@4:48, S1 exit@5:10, S5 exit@5:39, S2 exit@5:52, S3 exit@6:51",
+          "blind_context": "the pitch: When is the first decision spoken?",
+          "primary": "4:48",
+          "replicate": "4:48",
+          "reasons": [],
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:22/code:PR-CONCEPT",
+          "field_class": "turn_code",
+          "clock_start": "2:38",
+          "clock_end": "2:48",
+          "context": "question turn 22 (2:38-2:48) S3 (Blake Mycoskie): Blake remarks that the product works and asks if it is effective on shoes. -> answer turn 23 (2:49-2:50) F1 (Pete Badawy): Pete briefly confirms that the product leaves no odor behind.",
+          "primary": "usage",
+          "replicate": null,
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 22 (2:38-2:48) S3 (Blake Mycoskie): Blake remarks that the product works and asks if it is effective on shoes. -> answer turn 23 (2:49-2:50) F1 (Pete Badawy): Pete briefly confirms that the product leaves no odor behind.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:22/code:PR-SEV",
+          "field_class": "turn_code",
+          "clock_start": "2:38",
+          "clock_end": "2:48",
+          "context": "question turn 22 (2:38-2:48) S3 (Blake Mycoskie): Blake remarks that the product works and asks if it is effective on shoes. -> answer turn 23 (2:49-2:50) F1 (Pete Badawy): Pete briefly confirms that the product leaves no odor behind.",
+          "primary": "1",
+          "replicate": null,
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 22 (2:38-2:48) S3 (Blake Mycoskie): Blake remarks that the product works and asks if it is effective on shoes. -> answer turn 23 (2:49-2:50) F1 (Pete Badawy): Pete briefly confirms that the product leaves no odor behind.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:23/code:PREP-COH",
+          "field_class": "turn_code",
+          "clock_start": "2:49",
+          "clock_end": "2:50",
+          "context": "question turn 22 (2:38-2:48) S3 (Blake Mycoskie): Blake remarks that the product works and asks if it is effective on shoes. -> answer turn 23 (2:49-2:50) F1 (Pete Badawy): Pete briefly confirms that the product leaves no odor behind.",
+          "primary": "missing:too_short",
+          "replicate": null,
+          "reasons": [],
+          "blind_context": "question turn 22 (2:38-2:48) S3 (Blake Mycoskie): Blake remarks that the product works and asks if it is effective on shoes. -> answer turn 23 (2:49-2:50) F1 (Pete Badawy): Pete briefly confirms that the product leaves no odor behind.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:23/code:PREP-SUBS",
+          "field_class": "turn_code",
+          "clock_start": "2:49",
+          "clock_end": "2:50",
+          "context": "question turn 22 (2:38-2:48) S3 (Blake Mycoskie): Blake remarks that the product works and asks if it is effective on shoes. -> answer turn 23 (2:49-2:50) F1 (Pete Badawy): Pete briefly confirms that the product leaves no odor behind.",
+          "primary": "missing:too_short",
+          "replicate": null,
+          "reasons": [],
+          "blind_context": "question turn 22 (2:38-2:48) S3 (Blake Mycoskie): Blake remarks that the product works and asks if it is effective on shoes. -> answer turn 23 (2:49-2:50) F1 (Pete Badawy): Pete briefly confirms that the product leaves no odor behind.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:23/code:RS-EVID",
+          "field_class": "turn_code",
+          "clock_start": "2:49",
+          "clock_end": "2:50",
+          "context": "question turn 22 (2:38-2:48) S3 (Blake Mycoskie): Blake remarks that the product works and asks if it is effective on shoes. -> answer turn 23 (2:49-2:50) F1 (Pete Badawy): Pete briefly confirms that the product leaves no odor behind.",
+          "primary": "false",
+          "replicate": null,
+          "reasons": [],
+          "blind_context": "question turn 22 (2:38-2:48) S3 (Blake Mycoskie): Blake remarks that the product works and asks if it is effective on shoes. -> answer turn 23 (2:49-2:50) F1 (Pete Badawy): Pete briefly confirms that the product leaves no odor behind.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:23/code:RS-RESP",
+          "field_class": "turn_code",
+          "clock_start": "2:49",
+          "clock_end": "2:50",
+          "context": "question turn 22 (2:38-2:48) S3 (Blake Mycoskie): Blake remarks that the product works and asks if it is effective on shoes. -> answer turn 23 (2:49-2:50) F1 (Pete Badawy): Pete briefly confirms that the product leaves no odor behind.",
+          "primary": "addresses",
+          "replicate": null,
+          "reasons": [],
+          "blind_context": "question turn 22 (2:38-2:48) S3 (Blake Mycoskie): Blake remarks that the product works and asks if it is effective on shoes. -> answer turn 23 (2:49-2:50) F1 (Pete Badawy): Pete briefly confirms that the product leaves no odor behind.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:24/code:PR-CONCEPT",
+          "field_class": "turn_code",
+          "clock_start": "2:50",
+          "clock_end": "2:52",
+          "context": "question turn 24 (2:50-2:52) S1 (Kevin O'Leary): Kevin asks about the mechanism the product uses to extract odors from fabric. -> answer turn 25 (2:52-2:54) F1 (Pete Badawy): Pete explains that the spray eliminates the bacteria that cause the odors.",
+          "primary": "execution",
+          "replicate": "execution",
+          "reasons": [],
+          "blind_context": "question turn 24 (2:50-2:52) S1 (Kevin O'Leary): Kevin asks about the mechanism the product uses to extract odors from fabric. -> answer turn 25 (2:52-2:54) F1 (Pete Badawy): Pete explains that the spray eliminates the bacteria that cause the odors.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:24/code:PR-SEV",
+          "field_class": "turn_code",
+          "clock_start": "2:50",
+          "clock_end": "2:52",
+          "context": "question turn 24 (2:50-2:52) S1 (Kevin O'Leary): Kevin asks about the mechanism the product uses to extract odors from fabric. -> answer turn 25 (2:52-2:54) F1 (Pete Badawy): Pete explains that the spray eliminates the bacteria that cause the odors.",
+          "primary": "1",
+          "replicate": "1",
+          "reasons": [],
+          "blind_context": "question turn 24 (2:50-2:52) S1 (Kevin O'Leary): Kevin asks about the mechanism the product uses to extract odors from fabric. -> answer turn 25 (2:52-2:54) F1 (Pete Badawy): Pete explains that the spray eliminates the bacteria that cause the odors.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:25/code:PREP-COH",
+          "field_class": "turn_code",
+          "clock_start": "2:52",
+          "clock_end": "2:54",
+          "context": "question turn 24 (2:50-2:52) S1 (Kevin O'Leary): Kevin asks about the mechanism the product uses to extract odors from fabric. -> answer turn 25 (2:52-2:54) F1 (Pete Badawy): Pete explains that the spray eliminates the bacteria that cause the odors.",
+          "primary": "missing:too_short",
+          "replicate": "3",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 24 (2:50-2:52) S1 (Kevin O'Leary): Kevin asks about the mechanism the product uses to extract odors from fabric. -> answer turn 25 (2:52-2:54) F1 (Pete Badawy): Pete explains that the spray eliminates the bacteria that cause the odors.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:25/code:PREP-SUBS",
+          "field_class": "turn_code",
+          "clock_start": "2:52",
+          "clock_end": "2:54",
+          "context": "question turn 24 (2:50-2:52) S1 (Kevin O'Leary): Kevin asks about the mechanism the product uses to extract odors from fabric. -> answer turn 25 (2:52-2:54) F1 (Pete Badawy): Pete explains that the spray eliminates the bacteria that cause the odors.",
+          "primary": "missing:too_short",
+          "replicate": "2",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 24 (2:50-2:52) S1 (Kevin O'Leary): Kevin asks about the mechanism the product uses to extract odors from fabric. -> answer turn 25 (2:52-2:54) F1 (Pete Badawy): Pete explains that the spray eliminates the bacteria that cause the odors.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:25/code:RS-EVID",
+          "field_class": "turn_code",
+          "clock_start": "2:52",
+          "clock_end": "2:54",
+          "context": "question turn 24 (2:50-2:52) S1 (Kevin O'Leary): Kevin asks about the mechanism the product uses to extract odors from fabric. -> answer turn 25 (2:52-2:54) F1 (Pete Badawy): Pete explains that the spray eliminates the bacteria that cause the odors.",
+          "primary": "false",
+          "replicate": "false",
+          "reasons": [],
+          "blind_context": "question turn 24 (2:50-2:52) S1 (Kevin O'Leary): Kevin asks about the mechanism the product uses to extract odors from fabric. -> answer turn 25 (2:52-2:54) F1 (Pete Badawy): Pete explains that the spray eliminates the bacteria that cause the odors.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:25/code:RS-RESP",
+          "field_class": "turn_code",
+          "clock_start": "2:52",
+          "clock_end": "2:54",
+          "context": "question turn 24 (2:50-2:52) S1 (Kevin O'Leary): Kevin asks about the mechanism the product uses to extract odors from fabric. -> answer turn 25 (2:52-2:54) F1 (Pete Badawy): Pete explains that the spray eliminates the bacteria that cause the odors.",
+          "primary": "addresses",
+          "replicate": "addresses",
+          "reasons": [],
+          "blind_context": "question turn 24 (2:50-2:52) S1 (Kevin O'Leary): Kevin asks about the mechanism the product uses to extract odors from fabric. -> answer turn 25 (2:52-2:54) F1 (Pete Badawy): Pete explains that the spray eliminates the bacteria that cause the odors.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:30/code:PR-CONCEPT",
+          "field_class": "turn_code",
+          "clock_start": "3:08",
+          "clock_end": "3:09",
+          "context": "question turn 30 (3:08-3:09) S3 (Blake Mycoskie): Blake specifically asks if the product can kill the COVID virus. -> answer turn 31 (3:09-3:12) F1 (Pete Badawy): Pete admits they do not yet have the official claim for killing COVID.",
+          "primary": "execution",
+          "replicate": null,
+          "reasons": [],
+          "blind_context": "question turn 30 (3:08-3:09) S3 (Blake Mycoskie): Blake specifically asks if the product can kill the COVID virus. -> answer turn 31 (3:09-3:12) F1 (Pete Badawy): Pete admits they do not yet have the official claim for killing COVID.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:30/code:PR-SEV",
+          "field_class": "turn_code",
+          "clock_start": "3:08",
+          "clock_end": "3:09",
+          "context": "question turn 30 (3:08-3:09) S3 (Blake Mycoskie): Blake specifically asks if the product can kill the COVID virus. -> answer turn 31 (3:09-3:12) F1 (Pete Badawy): Pete admits they do not yet have the official claim for killing COVID.",
+          "primary": "1",
+          "replicate": null,
+          "reasons": [],
+          "blind_context": "question turn 30 (3:08-3:09) S3 (Blake Mycoskie): Blake specifically asks if the product can kill the COVID virus. -> answer turn 31 (3:09-3:12) F1 (Pete Badawy): Pete admits they do not yet have the official claim for killing COVID.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:31/code:PREP-COH",
+          "field_class": "turn_code",
+          "clock_start": "3:09",
+          "clock_end": "3:12",
+          "context": "question turn 30 (3:08-3:09) S3 (Blake Mycoskie): Blake specifically asks if the product can kill the COVID virus. -> answer turn 31 (3:09-3:12) F1 (Pete Badawy): Pete admits they do not yet have the official claim for killing COVID.",
+          "primary": "missing:too_short",
+          "replicate": "3",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 30 (3:08-3:09) S3 (Blake Mycoskie): Blake specifically asks if the product can kill the COVID virus. -> answer turn 31 (3:09-3:12) F1 (Pete Badawy): Pete admits they do not yet have the official claim for killing COVID.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:31/code:PREP-SUBS",
+          "field_class": "turn_code",
+          "clock_start": "3:09",
+          "clock_end": "3:12",
+          "context": "question turn 30 (3:08-3:09) S3 (Blake Mycoskie): Blake specifically asks if the product can kill the COVID virus. -> answer turn 31 (3:09-3:12) F1 (Pete Badawy): Pete admits they do not yet have the official claim for killing COVID.",
+          "primary": "missing:too_short",
+          "replicate": "2",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 30 (3:08-3:09) S3 (Blake Mycoskie): Blake specifically asks if the product can kill the COVID virus. -> answer turn 31 (3:09-3:12) F1 (Pete Badawy): Pete admits they do not yet have the official claim for killing COVID.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:31/code:RS-EVID",
+          "field_class": "turn_code",
+          "clock_start": "3:09",
+          "clock_end": "3:12",
+          "context": "question turn 30 (3:08-3:09) S3 (Blake Mycoskie): Blake specifically asks if the product can kill the COVID virus. -> answer turn 31 (3:09-3:12) F1 (Pete Badawy): Pete admits they do not yet have the official claim for killing COVID.",
+          "primary": "false",
+          "replicate": "false",
+          "reasons": [],
+          "blind_context": "question turn 30 (3:08-3:09) S3 (Blake Mycoskie): Blake specifically asks if the product can kill the COVID virus. -> answer turn 31 (3:09-3:12) F1 (Pete Badawy): Pete admits they do not yet have the official claim for killing COVID.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:31/code:RS-RESP",
+          "field_class": "turn_code",
+          "clock_start": "3:09",
+          "clock_end": "3:12",
+          "context": "question turn 30 (3:08-3:09) S3 (Blake Mycoskie): Blake specifically asks if the product can kill the COVID virus. -> answer turn 31 (3:09-3:12) F1 (Pete Badawy): Pete admits they do not yet have the official claim for killing COVID.",
+          "primary": "partial",
+          "replicate": "addresses",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 30 (3:08-3:09) S3 (Blake Mycoskie): Blake specifically asks if the product can kill the COVID virus. -> answer turn 31 (3:09-3:12) F1 (Pete Badawy): Pete admits they do not yet have the official claim for killing COVID.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:45/code:PR-CONCEPT",
+          "field_class": "turn_code",
+          "clock_start": "4:10",
+          "clock_end": "4:12",
+          "context": "question turn 45 (4:10-4:12) S4 (Mark Cuban): Mark asks for the retail price and the manufacturing cost of the product. -> answer turn 46 (4:13-4:15) F2 (Bianca Badawy): Bianca provides the selling price and the cost to produce each unit.",
+          "primary": "operating_efficiency",
+          "replicate": "operating_efficiency",
+          "reasons": [],
+          "blind_context": "question turn 45 (4:10-4:12) S4 (Mark Cuban): Mark asks for the retail price and the manufacturing cost of the product. -> answer turn 46 (4:13-4:15) F2 (Bianca Badawy): Bianca provides the selling price and the cost to produce each unit.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:45/code:PR-SEV",
+          "field_class": "turn_code",
+          "clock_start": "4:10",
+          "clock_end": "4:12",
+          "context": "question turn 45 (4:10-4:12) S4 (Mark Cuban): Mark asks for the retail price and the manufacturing cost of the product. -> answer turn 46 (4:13-4:15) F2 (Bianca Badawy): Bianca provides the selling price and the cost to produce each unit.",
+          "primary": "1",
+          "replicate": "1",
+          "reasons": [],
+          "blind_context": "question turn 45 (4:10-4:12) S4 (Mark Cuban): Mark asks for the retail price and the manufacturing cost of the product. -> answer turn 46 (4:13-4:15) F2 (Bianca Badawy): Bianca provides the selling price and the cost to produce each unit.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:46/code:PREP-COH",
+          "field_class": "turn_code",
+          "clock_start": "4:13",
+          "clock_end": "4:15",
+          "context": "question turn 45 (4:10-4:12) S4 (Mark Cuban): Mark asks for the retail price and the manufacturing cost of the product. -> answer turn 46 (4:13-4:15) F2 (Bianca Badawy): Bianca provides the selling price and the cost to produce each unit.",
+          "primary": "3",
+          "replicate": "4",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 45 (4:10-4:12) S4 (Mark Cuban): Mark asks for the retail price and the manufacturing cost of the product. -> answer turn 46 (4:13-4:15) F2 (Bianca Badawy): Bianca provides the selling price and the cost to produce each unit.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:46/code:PREP-SUBS",
+          "field_class": "turn_code",
+          "clock_start": "4:13",
+          "clock_end": "4:15",
+          "context": "question turn 45 (4:10-4:12) S4 (Mark Cuban): Mark asks for the retail price and the manufacturing cost of the product. -> answer turn 46 (4:13-4:15) F2 (Bianca Badawy): Bianca provides the selling price and the cost to produce each unit.",
+          "primary": "2",
+          "replicate": "3",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 45 (4:10-4:12) S4 (Mark Cuban): Mark asks for the retail price and the manufacturing cost of the product. -> answer turn 46 (4:13-4:15) F2 (Bianca Badawy): Bianca provides the selling price and the cost to produce each unit.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:46/code:RS-EVID",
+          "field_class": "turn_code",
+          "clock_start": "4:13",
+          "clock_end": "4:15",
+          "context": "question turn 45 (4:10-4:12) S4 (Mark Cuban): Mark asks for the retail price and the manufacturing cost of the product. -> answer turn 46 (4:13-4:15) F2 (Bianca Badawy): Bianca provides the selling price and the cost to produce each unit.",
+          "primary": "true",
+          "replicate": "true",
+          "reasons": [],
+          "blind_context": "question turn 45 (4:10-4:12) S4 (Mark Cuban): Mark asks for the retail price and the manufacturing cost of the product. -> answer turn 46 (4:13-4:15) F2 (Bianca Badawy): Bianca provides the selling price and the cost to produce each unit.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:46/code:RS-RESP",
+          "field_class": "turn_code",
+          "clock_start": "4:13",
+          "clock_end": "4:15",
+          "context": "question turn 45 (4:10-4:12) S4 (Mark Cuban): Mark asks for the retail price and the manufacturing cost of the product. -> answer turn 46 (4:13-4:15) F2 (Bianca Badawy): Bianca provides the selling price and the cost to produce each unit.",
+          "primary": "addresses",
+          "replicate": "addresses",
+          "reasons": [],
+          "blind_context": "question turn 45 (4:10-4:12) S4 (Mark Cuban): Mark asks for the retail price and the manufacturing cost of the product. -> answer turn 46 (4:13-4:15) F2 (Bianca Badawy): Bianca provides the selling price and the cost to produce each unit.",
+          "selected_as": "sampled",
+          "priority": 1
+        }
+      ]
+    }
+  }
+}

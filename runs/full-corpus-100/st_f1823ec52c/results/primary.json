@@ -1,0 +1,2560 @@
+{
+  "pass": "primary",
+  "unit_key": "panel__st_f1823ec52c__primary",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:15-1:46"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "presentation",
+      "3": "presentation",
+      "4": "presentation",
+      "5": "presentation",
+      "6": "presentation",
+      "7": "presentation",
+      "8": "presentation",
+      "9": "presentation",
+      "10": "presentation",
+      "11": "presentation",
+      "12": "presentation",
+      "13": "presentation",
+      "14": "presentation",
+      "15": "presentation",
+      "16": "presentation",
+      "17": "presentation",
+      "18": "presentation",
+      "19": "demonstration",
+      "20": "demonstration",
+      "21": "demonstration",
+      "22": "demonstration",
+      "23": "demonstration",
+      "24": "qa",
+      "25": "qa",
+      "26": "qa",
+      "27": "qa",
+      "28": "qa",
+      "29": "qa",
+      "30": "qa",
+      "31": "qa",
+      "32": "qa",
+      "33": "qa",
+      "34": "qa",
+      "35": "none",
+      "36": "social",
+      "37": "social",
+      "38": "social",
+      "39": "qa",
+      "40": "qa",
+      "41": "qa",
+      "42": "qa",
+      "43": "qa",
+      "44": "qa",
+      "45": "qa",
+      "46": "qa",
+      "47": "qa",
+      "48": "qa",
+      "49": "qa",
+      "50": "qa",
+      "51": "qa",
+      "52": "qa",
+      "53": "qa",
+      "54": "qa",
+      "55": "qa",
+      "56": "qa",
+      "57": "qa",
+      "58": "qa",
+      "59": "qa",
+      "60": "qa",
+      "61": "qa",
+      "62": "qa",
+      "63": "qa",
+      "64": "qa",
+      "65": "none",
+      "66": "none",
+      "67": "none",
+      "68": "qa",
+      "69": "qa",
+      "70": "qa",
+      "71": "qa",
+      "72": "none",
+      "73": "none",
+      "74": "qa",
+      "75": "qa",
+      "76": "qa",
+      "77": "social",
+      "78": "none"
+    },
+    "segment_seconds": {
+      "presentation": 87.0,
+      "qa": 193.0,
+      "social": 7.0,
+      "demonstration": 10.0,
+      "negotiation": 0.0,
+      "none": 90.0
+    },
+    "exchange_counts": {
+      "substantive": 9,
+      "social": 2,
+      "demonstration": 1,
+      "negotiation": 0
+    },
+    "turn_frame": {
+      "24": "promotion",
+      "25": "promotion",
+      "26": "promotion",
+      "27": "promotion",
+      "28": "promotion",
+      "30": "promotion",
+      "31": "promotion",
+      "32": "promotion",
+      "33": "promotion",
+      "34": "promotion",
+      "39": "promotion",
+      "40": "promotion",
+      "42": "promotion",
+      "43": "promotion",
+      "44": "promotion",
+      "45": "promotion",
+      "46": "promotion",
+      "47": "prevention",
+      "48": "prevention",
+      "50": "unclassified",
+      "51": "unclassified",
+      "52": "unclassified",
+      "53": "unclassified",
+      "54": "unclassified",
+      "55": "unclassified",
+      "57": "promotion",
+      "58": "promotion",
+      "59": "prevention",
+      "60": "prevention",
+      "61": "prevention",
+      "62": "prevention",
+      "63": "unclassified",
+      "64": "unclassified",
+      "69": "promotion",
+      "70": "promotion",
+      "75": "promotion"
+    },
+    "frame_match": {
+      "25": "match",
+      "26": "match",
+      "28": "match",
+      "30": "match",
+      "32": "match",
+      "34": "match",
+      "40": "match",
+      "43": "match",
+      "45": "match",
+      "46": "match",
+      "48": "match",
+      "51": "unclassified",
+      "53": "unclassified",
+      "55": "unclassified",
+      "58": "match",
+      "60": "match",
+      "62": "match",
+      "64": "unclassified",
+      "70": "match"
+    },
+    "other_concepts": [
+      {
+        "where": "turn",
+        "id": 50,
+        "code": "PR-CONCEPT",
+        "name": "funding",
+        "clock": "4:37"
+      },
+      {
+        "where": "turn",
+        "id": 51,
+        "code": "RS-CONCEPT",
+        "name": "funding",
+        "clock": "4:38"
+      },
+      {
+        "where": "turn",
+        "id": 52,
+        "code": "PR-CONCEPT",
+        "name": "funding",
+        "clock": "4:42"
+      },
+      {
+        "where": "turn",
+        "id": 53,
+        "code": "RS-CONCEPT",
+        "name": "funding",
+        "clock": "4:43"
+      },
+      {
+        "where": "turn",
+        "id": 54,
+        "code": "PR-CONCEPT",
+        "name": "funding",
+        "clock": "4:44"
+      },
+      {
+        "where": "turn",
+        "id": 55,
+        "code": "RS-CONCEPT",
+        "name": "funding",
+        "clock": "4:46"
+      },
+      {
+        "where": "exchange",
+        "id": 7,
+        "code": "EX-TOPIC",
+        "name": "Company funding sources",
+        "clock": "4:37"
+      }
+    ]
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Linda Truong"
+      },
+      {
+        "actor_id": "F2",
+        "role": "founder",
+        "label": "Paul Tran"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Guest Shark"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Barbara Corcoran"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Lori Greiner"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Mark Cuban"
+      },
+      {
+        "actor_id": "H1",
+        "role": "host",
+        "label": "Narrator"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 15.0,
+        "end_s": 106.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 14.0,
+        "kind": "teaser"
+      },
+      {
+        "start_s": 465.0,
+        "end_s": 478.0,
+        "kind": "interview"
+      },
+      {
+        "start_s": 478.0,
+        "end_s": 507.0,
+        "kind": "other"
+      }
+    ],
+    "gaps": [],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 34.0,
+        "note": "Founders maintain strong positive engagement and enthusiasm throughout the pitch."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 95.0,
+        "note": "High energy and animated delivery when demonstrating the product."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 15.0,
+        "note": "Both founders display a warm, approachable orientation toward the panel."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "2",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "1",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "A DIY cryotherapy facial mask kit that combines a skin-icing tool with a superfood powder.",
+      "primary_industry": "health_personal_care",
+      "secondary_industries": [],
+      "product_form": "physical_good",
+      "customer_type": "consumer",
+      "founder_gender": "mixed",
+      "product_category": "skincare",
+      "earliest_s": 26.0,
+      "note": "Seeking 150k for 10%",
+      "ask_amount_usd": 150000,
+      "ask_equity_pct": 10.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 15.0,
+        "end_s": 18.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Linda introduces herself."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "F2",
+        "start_s": 18.0,
+        "end_s": 20.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Paul introduces himself."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "F1",
+        "start_s": 20.0,
+        "end_s": 28.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Linda states their ask of 150k for 10 percent equity."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "F2",
+        "start_s": 29.0,
+        "end_s": 32.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Paul teasers a game changer in the beauty industry."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "F1",
+        "start_s": 32.0,
+        "end_s": 34.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Linda asks if they are ready for a skincare hack."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "F2",
+        "start_s": 34.0,
+        "end_s": 37.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Paul jokes with Kevin about their secret."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "F1",
+        "start_s": 37.0,
+        "end_s": 41.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Linda reveals the product name, the Beauty Pop."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "F2",
+        "start_s": 43.0,
+        "end_s": 44.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Paul compares the product's appearance to a lollipop."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "F1",
+        "start_s": 44.0,
+        "end_s": 51.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Linda explains it is an ancient skin icing remedy."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "F2",
+        "start_s": 51.0,
+        "end_s": 58.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Paul details combining cryotherapy with a face mask."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "F1",
+        "start_s": 58.0,
+        "end_s": 65.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Linda describes the benefits for the skin."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "F2",
+        "start_s": 65.0,
+        "end_s": 76.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Paul lists the natural superfood ingredients."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "F1",
+        "start_s": 76.0,
+        "end_s": 88.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Linda explains how to mix and freeze the mask."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "F2",
+        "start_s": 89.0,
+        "end_s": 96.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Paul shows taking the pops out of the freezer."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "F1",
+        "start_s": 96.0,
+        "end_s": 99.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Linda demonstrates peeling back the silicone molds."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "F2",
+        "start_s": 99.0,
+        "end_s": 101.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Paul highlights the glowing skin result."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "F1",
+        "start_s": 101.0,
+        "end_s": 103.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Linda asks who wants to join them."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "F2",
+        "start_s": 103.0,
+        "end_s": 106.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Paul concludes the presentation by mentioning making money."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "S1",
+        "start_s": 107.0,
+        "end_s": 108.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Guest Shark asks what happens if he eats the product."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "F2",
+        "start_s": 109.0,
+        "end_s": 110.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Paul confirms that the product is edible."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "S5",
+        "start_s": 111.0,
+        "end_s": 113.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark jokes that this is his kind of deal."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "S4",
+        "start_s": 114.0,
+        "end_s": 118.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori lists the natural ingredients in the product."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "S2",
+        "start_s": 118.0,
+        "end_s": 120.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin decides not to eat it after all."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "S2",
+        "start_s": 122.0,
+        "end_s": 131.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks if the benefit is just coldness."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "F1",
+        "start_s": 132.0,
+        "end_s": 139.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          24
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Linda explains the dual benefits of cryotherapy and nourishment."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "F2",
+        "start_s": 139.0,
+        "end_s": 146.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          24
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Paul adds that they are the first to combine them."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "S4",
+        "start_s": 147.0,
+        "end_s": 148.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks how they came up with the idea."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "F2",
+        "start_s": 148.0,
+        "end_s": 174.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          27
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Paul explains his pharmacist background and Linda's DIY habits."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "S4",
+        "start_s": 175.0,
+        "end_s": 177.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori compliments Linda on her beautiful skin."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "F1",
+        "start_s": 177.0,
+        "end_s": 198.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          27
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Linda shares her teenage acne struggles and DIY remedies."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "S3",
+        "start_s": 198.0,
+        "end_s": 200.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Barbara asks if she made a profession of it."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "F1",
+        "start_s": 201.0,
+        "end_s": 206.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          31
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Linda says she started a clothing boutique and met Paul."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "S4",
+        "start_s": 207.0,
+        "end_s": 208.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks if they are married."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "F1",
+        "start_s": 208.0,
+        "end_s": 210.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          33
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Linda confirms that they are now married."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "F2",
+        "start_s": 210.0,
+        "end_s": 226.0,
+        "function": "NONE",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Paul shares the penguin-inspired story behind the company name."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "S4",
+        "start_s": 226.0,
+        "end_s": 228.0,
+        "function": "social",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori finds the penguin story very sweet."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "S5",
+        "start_s": 228.0,
+        "end_s": 229.0,
+        "function": "social",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark jokes that their cuteness is killing him."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "F2",
+        "start_s": 229.0,
+        "end_s": 231.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Paul concludes the story by presenting themselves."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "S2",
+        "start_s": 232.0,
+        "end_s": 239.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks about their lifetime sales figures."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "F2",
+        "start_s": 240.0,
+        "end_s": 242.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          39
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Paul states their lifetime sales are 890,000 dollars."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "S4",
+        "start_s": 243.0,
+        "end_s": 244.0,
+        "function": "accepts",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori reacts positively to the sales numbers."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "S2",
+        "start_s": 244.0,
+        "end_s": 245.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks over how many years the sales occurred."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "F2",
+        "start_s": 245.0,
+        "end_s": 250.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          42
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Paul explains they launched in March and had a viral month."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "S5",
+        "start_s": 251.0,
+        "end_s": 252.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "customer_acquisition",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks what caused the sudden spike in sales."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "F2",
+        "start_s": 252.0,
+        "end_s": 253.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          44
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "customer_acquisition",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Paul says they went viral on TikTok."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "F1",
+        "start_s": 255.0,
+        "end_s": 267.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          44
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "customer_acquisition",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Linda explains her mom's transformation video got millions of views."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "S4",
+        "start_s": 268.0,
+        "end_s": 270.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks about the product's cost and retail price."
+      },
+      {
+        "turn_id": 48,
+        "speaker": "F1",
+        "start_s": 270.0,
+        "end_s": 274.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          47
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Linda provides the landed cost and the retail price."
+      },
+      {
+        "turn_id": 49,
+        "speaker": "S4",
+        "start_s": 274.0,
+        "end_s": 275.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori praises the good profit margin."
+      },
+      {
+        "turn_id": 50,
+        "speaker": "S1",
+        "start_s": 277.0,
+        "end_s": 278.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "other",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": "funding",
+        "summary": "Guest Shark asks how they financed the company."
+      },
+      {
+        "turn_id": 51,
+        "speaker": "F2",
+        "start_s": 278.0,
+        "end_s": 281.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          50
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "other",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": "funding",
+        "summary": "Paul explains they self-funded and Linda sold her house."
+      },
+      {
+        "turn_id": 52,
+        "speaker": "S5",
+        "start_s": 282.0,
+        "end_s": 283.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "other",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": "funding",
+        "summary": "Mark asks to confirm she sold her house."
+      },
+      {
+        "turn_id": 53,
+        "speaker": "F1",
+        "start_s": 283.0,
+        "end_s": 284.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          52
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "other",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": "funding",
+        "summary": "Linda confirms she went all in on the business."
+      },
+      {
+        "turn_id": 54,
+        "speaker": "S2",
+        "start_s": 284.0,
+        "end_s": 285.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "other",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": "funding",
+        "summary": "Kevin asks how much money she got for the house."
+      },
+      {
+        "turn_id": 55,
+        "speaker": "F1",
+        "start_s": 286.0,
+        "end_s": 287.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          54
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "other",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": "funding",
+        "summary": "Linda states it was 100,000 dollars."
+      },
+      {
+        "turn_id": 56,
+        "speaker": "S5",
+        "start_s": 287.0,
+        "end_s": 289.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark acknowledges her total commitment to the business."
+      },
+      {
+        "turn_id": 57,
+        "speaker": "S2",
+        "start_s": 289.0,
+        "end_s": 301.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "customer_acquisition",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks if they have spent money on digital marketing."
+      },
+      {
+        "turn_id": 58,
+        "speaker": "F2",
+        "start_s": 301.0,
+        "end_s": 303.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          57
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "customer_acquisition",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Paul confirms they do paid marketing."
+      },
+      {
+        "turn_id": 59,
+        "speaker": "S2",
+        "start_s": 303.0,
+        "end_s": 305.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks for their customer acquisition cost."
+      },
+      {
+        "turn_id": 60,
+        "speaker": "F2",
+        "start_s": 305.0,
+        "end_s": 307.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          59
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Paul states their blended customer acquisition cost is 7 dollars."
+      },
+      {
+        "turn_id": 61,
+        "speaker": "S2",
+        "start_s": 307.0,
+        "end_s": 309.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks for the margin on the base kit."
+      },
+      {
+        "turn_id": 62,
+        "speaker": "F2",
+        "start_s": 309.0,
+        "end_s": 310.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          61
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Paul states the margin is 80 percent."
+      },
+      {
+        "turn_id": 63,
+        "speaker": "S3",
+        "start_s": 310.0,
+        "end_s": 313.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Barbara asks what they want from an investor."
+      },
+      {
+        "turn_id": 64,
+        "speaker": "F1",
+        "start_s": 313.0,
+        "end_s": 317.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          63
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Linda explains they need help navigating the retail space."
+      },
+      {
+        "turn_id": 65,
+        "speaker": "S5",
+        "start_s": 317.0,
+        "end_s": 339.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark warns against retail, says it's not a fit, exits."
+      },
+      {
+        "turn_id": 66,
+        "speaker": "S2",
+        "start_s": 341.0,
+        "end_s": 344.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin says the product isn't for him and exits."
+      },
+      {
+        "turn_id": 67,
+        "speaker": "S1",
+        "start_s": 347.0,
+        "end_s": 357.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Guest Shark says he lacks expertise in the space, exits."
+      },
+      {
+        "turn_id": 68,
+        "speaker": "F1",
+        "start_s": 358.0,
+        "end_s": 364.0,
+        "function": "NONE",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Linda mentions they are currently working on a patent."
+      },
+      {
+        "turn_id": 69,
+        "speaker": "S4",
+        "start_s": 364.0,
+        "end_s": 366.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks what the pending patent covers."
+      },
+      {
+        "turn_id": 70,
+        "speaker": "F2",
+        "start_s": 367.0,
+        "end_s": 368.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          69
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Paul explains it covers freezing and melting into a mask."
+      },
+      {
+        "turn_id": 71,
+        "speaker": "F1",
+        "start_s": 369.0,
+        "end_s": 371.0,
+        "function": "NONE",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Linda adds it's a growing market and invites them."
+      },
+      {
+        "turn_id": 72,
+        "speaker": "S4",
+        "start_s": 373.0,
+        "end_s": 401.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori advises slow growth, says it's not for her, exits."
+      },
+      {
+        "turn_id": 73,
+        "speaker": "S2",
+        "start_s": 404.0,
+        "end_s": 406.0,
+        "function": "NONE",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin notes that it is not all over yet."
+      },
+      {
+        "turn_id": 74,
+        "speaker": "S3",
+        "start_s": 408.0,
+        "end_s": 428.0,
+        "function": "challenges",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara expresses concern about their retail strategy and one-hit success."
+      },
+      {
+        "turn_id": 75,
+        "speaker": "F2",
+        "start_s": 429.0,
+        "end_s": 431.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          74
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "deflects",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Paul responds that they need guidance for those challenges."
+      },
+      {
+        "turn_id": 76,
+        "speaker": "S3",
+        "start_s": 432.0,
+        "end_s": 434.0,
+        "function": "NONE",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara deliberates on her decision."
+      },
+      {
+        "turn_id": 77,
+        "speaker": "S2",
+        "start_s": 435.0,
+        "end_s": 437.0,
+        "function": "social",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin jokes that his beauty pop is melting."
+      },
+      {
+        "turn_id": 78,
+        "speaker": "S3",
+        "start_s": 438.0,
+        "end_s": 447.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara says it's not an investable business and exits."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "demonstration",
+        "topic": "NONE",
+        "label": "Tasting the product"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "substantive",
+        "topic": "assets",
+        "label": "Product differentiation and ingredients"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "self_promotion",
+        "label": "Founder background and origin story"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "Penguin pebble story"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "Lifetime and recent sales"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "substantive",
+        "topic": "operating_efficiency",
+        "label": "Product cost and retail price"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "substantive",
+        "topic": "other",
+        "label": "Company funding sources"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "substantive",
+        "topic": "customer_acquisition",
+        "label": "Paid marketing and CAC"
+      },
+      {
+        "exchange_id": 9,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "Reasons for seeking an investor"
+      },
+      {
+        "exchange_id": 10,
+        "kind": "substantive",
+        "topic": "assets",
+        "label": "Patent pending details"
+      },
+      {
+        "exchange_id": 11,
+        "kind": "substantive",
+        "topic": "go_to_market",
+        "label": "Retail strategy and challenges"
+      },
+      {
+        "exchange_id": 12,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "Melting beauty pop joke"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S5",
+        "kind": "exit",
+        "time_s": 337.0,
+        "turn_id": 65,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Does not need a lot of skin products, not a fit for him."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S2",
+        "kind": "exit",
+        "time_s": 343.0,
+        "turn_id": 66,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Product is just not for him."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S1",
+        "kind": "exit",
+        "time_s": 356.0,
+        "turn_id": 67,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Lacks expertise in the beauty and skincare space."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S4",
+        "kind": "exit",
+        "time_s": 400.0,
+        "turn_id": 72,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Advises them to grow slow, not the right product for her."
+      },
+      {
+        "decision_id": 5,
+        "actor": "S3",
+        "kind": "exit",
+        "time_s": 446.0,
+        "turn_id": 78,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Mistrusts retail space, fears they are a one-hit wonder, not a business for an investor."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": "Guest Shark is named as S1 but his actual name is not clearly provided in the visible lower thirds, so he is recorded as Guest Shark."
+  }
+}

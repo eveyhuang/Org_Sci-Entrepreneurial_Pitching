@@ -1,0 +1,26 @@
+﻿priority,row,path,field_class,clock_start,clock_end,context,primary,replicate,reasons,selected_as,allowed_values,human_value,resolution,note
+,2,turn:36/code:PR-CONCEPT,turn_code,4:58,5:00,,,,,,customer_acquisition | go_to_market | market_opportunity | assets | self_promotion | sales | usage | vision | forecast | execution | safety_security | liability | competition | operating_efficiency | customer_retention | team_capabilities | deal_terms | other | NONE,sales,,
+,3,turn:36/code:PR-SEV,turn_code,4:58,5:00,,,,,,1 | 2 | 3,1,,
+,7,turn:37/code:RS-RESP,turn_code,5:00,5:02,,,,,,addresses | partial | deflects | NONE,addresses,,
+,6,turn:37/code:RS-EVID,turn_code,5:00,5:02,,,,,,true | false,false,,turn 37 says they are projected to be making $1M (answer stays the same). It is not checkable to say they are projected to make $1M. This is hypothetical.
+,5,turn:37/code:PREP-SUBS,turn_code,5:00,5:02,,,,,,1 | 2 | 3 | 4 | 5,3,,"they say they are projected $1M in sales this year, no further detail given. [summary shown]"
+,4,turn:37/code:PREP-COH,turn_code,5:00,5:02,,,,,,1 | 2 | 3 | 4 | 5,4,,"they clearly say their projected sales are $1M, which is what the question they were asked about (how much are they projected to make this year)"
+,8,turn:38/code:PR-CONCEPT,turn_code,5:02,5:04,,,,,,customer_acquisition | go_to_market | market_opportunity | assets | self_promotion | sales | usage | vision | forecast | execution | safety_security | liability | competition | operating_efficiency | customer_retention | team_capabilities | deal_terms | other | NONE,operating_efficiency,,Mark asks on the profit margin on the $1M they are projected to make [summary shown]
+,9,turn:38/code:PR-SEV,turn_code,5:02,5:04,,,,,,1 | 2 | 3,1,,
+,13,turn:39/code:RS-RESP,turn_code,5:04,5:05,,,,,,addresses | partial | deflects | NONE,addresses,,
+,12,turn:39/code:RS-EVID,turn_code,5:04,5:05,,,,,,true | false,false,,[unsure] you cannot check that they will make the 25% projected profit? [summary shown]
+,11,turn:39/code:PREP-SUBS,turn_code,5:04,5:05,,,,,,1 | 2 | 3 | 4 | 5,2,,
+,10,turn:39/code:PREP-COH,turn_code,5:04,5:05,,,,,,1 | 2 | 3 | 4 | 5,4,,[unsure]
+,14,turn:44/code:PR-CONCEPT,turn_code,5:32,5:38,,,,,,customer_acquisition | go_to_market | market_opportunity | assets | self_promotion | sales | usage | vision | forecast | execution | safety_security | liability | competition | operating_efficiency | customer_retention | team_capabilities | deal_terms | other | NONE,execution,,"what is stopping them from being a $2M, $3M, $5M company... this is part in execution. [summary shown]"
+,15,turn:44/code:PR-SEV,turn_code,5:32,5:38,,,,,,1 | 2 | 3,2,,[unsure]
+,19,turn:45/code:RS-RESP,turn_code,5:38,5:46,,,,,,addresses | partial | deflects | NONE,partial,,
+,18,turn:45/code:RS-EVID,turn_code,5:38,5:46,,,,,,true | false,false,,
+,17,turn:45/code:PREP-SUBS,turn_code,5:38,5:46,,,,,,1 | 2 | 3 | 4 | 5,3,,Kheedim talks about how he thought how businesses hired. [summary shown]
+,16,turn:45/code:PREP-COH,turn_code,5:38,5:46,,,,,,1 | 2 | 3 | 4 | 5,4,,[unsure] he says he thought business work by you make money and then you use that money to hire more people.
+,20,turn:48/code:PR-CONCEPT,turn_code,5:56,6:02,,,,,,customer_acquisition | go_to_market | market_opportunity | assets | self_promotion | sales | usage | vision | forecast | execution | safety_security | liability | competition | operating_efficiency | customer_retention | team_capabilities | deal_terms | other | NONE,self_promotion,,[summary shown]
+,21,turn:48/code:PR-SEV,turn_code,5:56,6:02,,,,,,1 | 2 | 3,1,,
+,25,turn:49/code:RS-RESP,turn_code,6:06,6:45,,,,,,addresses | partial | deflects | NONE,addresses,,[summary shown]
+,24,turn:49/code:RS-EVID,turn_code,6:06,6:45,,,,,,true | false,false,,[summary shown]
+,23,turn:49/code:PREP-SUBS,turn_code,6:06,6:45,,,,,,1 | 2 | 3 | 4 | 5,4,,[unsure] Mama O just saying how proud she is of her son. And how the family team works together with the two of them and her daughter-in-law. [summary shown]
+,22,turn:49/code:PREP-COH,turn_code,6:06,6:45,,,,,,1 | 2 | 3 | 4 | 5,4,,[summary shown]
+,1,pitch:first_decision,cut,,,,,,,,,7:08,,

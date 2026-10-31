@@ -1,0 +1,2343 @@
+{
+  "pass": "primary",
+  "unit_key": "panel__st_03c7703a04__primary",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:16-1:19"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "none",
+      "3": "none",
+      "4": "demonstration",
+      "5": "demonstration",
+      "6": "demonstration",
+      "7": "demonstration",
+      "8": "demonstration",
+      "9": "qa",
+      "10": "qa",
+      "11": "qa",
+      "12": "qa",
+      "13": "qa",
+      "14": "qa",
+      "15": "qa",
+      "16": "qa",
+      "17": "qa",
+      "18": "qa",
+      "19": "qa",
+      "20": "qa",
+      "21": "qa",
+      "22": "qa",
+      "23": "qa",
+      "24": "qa",
+      "25": "qa",
+      "26": "demonstration",
+      "27": "demonstration",
+      "28": "demonstration",
+      "29": "demonstration",
+      "30": "qa",
+      "31": "qa",
+      "32": "qa",
+      "33": "qa",
+      "34": "qa",
+      "35": "qa",
+      "36": "qa",
+      "37": "qa",
+      "38": "qa",
+      "39": "qa",
+      "40": "qa",
+      "41": "qa",
+      "42": "qa",
+      "43": "qa",
+      "44": "qa",
+      "45": "qa",
+      "46": "social",
+      "47": "social",
+      "48": "none",
+      "49": "qa",
+      "50": "qa",
+      "51": "qa",
+      "52": "none",
+      "53": "none",
+      "54": "none",
+      "55": "qa",
+      "56": "qa",
+      "57": "social",
+      "58": "social",
+      "59": "negotiation",
+      "60": "negotiation",
+      "61": "negotiation",
+      "62": "negotiation",
+      "63": "negotiation"
+    },
+    "segment_seconds": {
+      "presentation": 63.0,
+      "qa": 177.0,
+      "social": 9.0,
+      "demonstration": 29.0,
+      "negotiation": 56.0,
+      "none": 60.0
+    },
+    "exchange_counts": {
+      "substantive": 11,
+      "social": 2,
+      "demonstration": 2,
+      "negotiation": 1
+    },
+    "turn_frame": {
+      "9": "prevention",
+      "10": "prevention",
+      "11": "promotion",
+      "12": "promotion",
+      "14": "prevention",
+      "15": "prevention",
+      "16": "prevention",
+      "17": "prevention",
+      "18": "prevention",
+      "19": "prevention",
+      "20": "prevention",
+      "21": "prevention",
+      "22": "prevention",
+      "23": "NEUTRAL",
+      "24": "prevention",
+      "25": "prevention",
+      "30": "promotion",
+      "31": "promotion",
+      "32": "promotion",
+      "33": "promotion",
+      "34": "prevention",
+      "35": "prevention",
+      "36": "promotion",
+      "37": "promotion",
+      "38": "prevention",
+      "39": "prevention",
+      "40": "promotion",
+      "41": "NEUTRAL",
+      "42": "promotion",
+      "43": "promotion",
+      "44": "promotion",
+      "45": "promotion",
+      "49": "prevention",
+      "50": "NEUTRAL",
+      "55": "prevention",
+      "56": "prevention"
+    },
+    "frame_match": {
+      "10": "match",
+      "12": "match",
+      "16": "match",
+      "18": "match",
+      "20": "match",
+      "21": "match",
+      "23": "neutral",
+      "25": "match",
+      "31": "match",
+      "33": "match",
+      "35": "match",
+      "37": "match",
+      "39": "match",
+      "41": "neutral",
+      "43": "match",
+      "45": "match",
+      "50": "neutral",
+      "56": "match"
+    },
+    "other_concepts": []
+  },
+  "normalizations": [
+    "turns[19].codes PREP-SUBS: value 'null' dropped because missing is 'too_short'",
+    "turns[19].codes PREP-COH: value 'null' dropped because missing is 'not_applicable'",
+    "turns[19].codes PREP-CTX: value 'null' dropped because missing is 'not_applicable'",
+    "turns[22].codes PREP-SUBS: value 'null' dropped because missing is 'too_short'",
+    "turns[22].codes PREP-COH: value 'null' dropped because missing is 'not_applicable'",
+    "turns[22].codes PREP-CTX: value 'null' dropped because missing is 'not_applicable'",
+    "turns[32].codes PREP-SUBS: value 'null' dropped because missing is 'too_short'",
+    "turns[32].codes PREP-COH: value 'null' dropped because missing is 'not_applicable'",
+    "turns[32].codes PREP-CTX: value 'null' dropped because missing is 'not_applicable'",
+    "turns[36].codes PREP-SUBS: value 'null' dropped because missing is 'too_short'",
+    "turns[36].codes PREP-COH: value 'null' dropped because missing is 'not_applicable'",
+    "turns[36].codes PREP-CTX: value 'null' dropped because missing is 'not_applicable'",
+    "turns[40].codes PREP-SUBS: value 'null' dropped because missing is 'too_short'",
+    "turns[40].codes PREP-COH: value 'null' dropped because missing is 'not_applicable'",
+    "turns[40].codes PREP-CTX: value 'null' dropped because missing is 'not_applicable'",
+    "turns[49].codes PREP-SUBS: value 'null' dropped because missing is 'too_short'",
+    "turns[49].codes PREP-COH: value 'null' dropped because missing is 'not_applicable'",
+    "turns[49].codes PREP-CTX: value 'null' dropped because missing is 'not_applicable'",
+    "turns[55].codes PREP-SUBS: value 'null' dropped because missing is 'too_short'",
+    "turns[55].codes PREP-COH: value 'null' dropped because missing is 'not_applicable'",
+    "turns[55].codes PREP-CTX: value 'null' dropped because missing is 'not_applicable'"
+  ],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "H1",
+        "role": "host",
+        "label": "Narrator"
+      },
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Tim Loucks"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Daymond John"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Lori Greiner"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Mark Cuban"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Peter Jones"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 16.0,
+        "end_s": 79.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 15.0,
+        "kind": "teaser"
+      },
+      {
+        "start_s": 515.0,
+        "end_s": 528.0,
+        "kind": "interview"
+      },
+      {
+        "start_s": 528.0,
+        "end_s": 558.0,
+        "kind": "other"
+      }
+    ],
+    "gaps": [],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 61.0,
+        "note": "Tim maintains a bright, smiling expression and positive tone while revealing the product."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 50.0,
+        "note": "Tim speaks with clear excitement and energetic gestures when dismissing the old round keg."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 3,
+        "uncodable": false,
+        "moment_s": 17.0,
+        "note": "Tim opens with a friendly, approachable greeting to the panel."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "0",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "A portable, square-shaped mini-keg system designed to fit efficiently in refrigerators and dispense draft beverages.",
+      "primary_industry": "home_household",
+      "secondary_industries": [
+        "food_beverage",
+        "sports_leisure"
+      ],
+      "product_form": "physical_good",
+      "customer_type": "consumer",
+      "founder_gender": "all_men",
+      "product_category": "portable mini-keg",
+      "earliest_s": 19.0,
+      "note": "The founder asks for $300,000 for 10% equity in the company.",
+      "ask_amount_usd": 300000,
+      "ask_equity_pct": 10.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 16.0,
+        "end_s": 79.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Tim presents SquareKeg, a portable mini-keg that fits in a fridge, and pours drinks for the panel."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "S1",
+        "start_s": 80.0,
+        "end_s": 81.0,
+        "function": "NONE",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond expresses amazement at the product demonstration."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "S5",
+        "start_s": 81.0,
+        "end_s": 83.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Peter jokes that he likes Tim even without knowing him."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "F1",
+        "start_s": 84.0,
+        "end_s": 97.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Tim names the investors and identifies the specific drinks he has poured for each of them."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "S3",
+        "start_s": 98.0,
+        "end_s": 99.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark suggests that the panel should do a toast with their drinks."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "S4",
+        "start_s": 100.0,
+        "end_s": 103.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          5
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin agrees to the toast and the panel cheers."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "F1",
+        "start_s": 104.0,
+        "end_s": 105.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Tim asks Kevin what he thinks of his specific drink."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "S4",
+        "start_s": 106.0,
+        "end_s": 107.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          7
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin accepts the drink, stating that it is really good."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "S4",
+        "start_s": 108.0,
+        "end_s": 110.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks if the cartridge uses carbon dioxide gas."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "F1",
+        "start_s": 110.0,
+        "end_s": 114.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          9
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Tim clarifies that Kevin's drink is running on a new nitrogen product release."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "S1",
+        "start_s": 115.0,
+        "end_s": 122.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Daymond asks what the value is in putting mixed drinks into the keg."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "F1",
+        "start_s": 123.0,
+        "end_s": 132.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          11
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Tim explains the value for home use, allowing users to batch a gallon of cocktails for easy transport."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "S1",
+        "start_s": 132.0,
+        "end_s": 134.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          12
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond acknowledges that the product allows anyone to serve themselves."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "S2",
+        "start_s": 137.0,
+        "end_s": 142.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori points out that the current product does not accommodate wine."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "S4",
+        "start_s": 143.0,
+        "end_s": 144.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks if it is possible to put wine in the keg."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "F1",
+        "start_s": 144.0,
+        "end_s": 151.0,
+        "function": "answer",
+        "addressed": [
+          "S4",
+          "S2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          14,
+          15
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Tim confirms they have a wine product in development that will run on argon gas."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "S3",
+        "start_s": 152.0,
+        "end_s": 153.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks Tim to explain how all the pieces of the keg fit together."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "F1",
+        "start_s": 154.0,
+        "end_s": 159.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          17
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Tim explains that the keg holds 128 ounces of beverage."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "S3",
+        "start_s": 160.0,
+        "end_s": 161.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          18
+        ],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark notes that the capacity is almost equivalent to a twelve pack."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "F1",
+        "start_s": 161.0,
+        "end_s": 162.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          19
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Tim confirms that it holds just about a twelve pack."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "F1",
+        "start_s": 163.0,
+        "end_s": 170.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          17
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Tim continues explaining that users fill it, assemble the tap, and pressurize it with gas."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "S4",
+        "start_s": 171.0,
+        "end_s": 172.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          21
+        ],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks if the drink stays good until it is completely finished."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "F1",
+        "start_s": 172.0,
+        "end_s": 172.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          22
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "NONE",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Tim confirms that the beverage remains good until finished."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "S4",
+        "start_s": 173.0,
+        "end_s": 175.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks how to disassemble the keg to put in a different drink."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "F1",
+        "start_s": 176.0,
+        "end_s": 186.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          24
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Tim explains the threaded parts and the pressure release valve that must be turned before disassembly."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "S2",
+        "start_s": 188.0,
+        "end_s": 189.0,
+        "function": "social",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori jokingly asks Mark if he is sure he wants to try disassembling it."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "S3",
+        "start_s": 192.0,
+        "end_s": 196.0,
+        "function": "demonstrates",
+        "addressed": [
+          "UNKNOWN"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark pulls the pressure release valve, causing a loud spray of gas."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "F1",
+        "start_s": 197.0,
+        "end_s": 200.0,
+        "function": "social",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          27
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Tim jokes that he was trying to help Mark with the valve."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "S3",
+        "start_s": 202.0,
+        "end_s": 204.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          28
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark laughs and remarks that he expected the gas to spray out."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "S4",
+        "start_s": 206.0,
+        "end_s": 215.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin notes the high valuation and asks about their sales figures so far."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "F1",
+        "start_s": 216.0,
+        "end_s": 220.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          30
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Tim shares that they have sold over 4,000 units with lifetime sales over 1.4 million dollars."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "S4",
+        "start_s": 221.0,
+        "end_s": 222.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          31
+        ],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks over what period of time those sales were achieved."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "F1",
+        "start_s": 223.0,
+        "end_s": 223.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          32
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Tim clarifies that the sales occurred over the course of a year."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "S3",
+        "start_s": 224.0,
+        "end_s": 225.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          31
+        ],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks how much profit Tim has made from those sales."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "F1",
+        "start_s": 226.0,
+        "end_s": 235.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          34
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "5",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Tim admits a loss last year but projects profitability and strong net margins for the current year."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "S5",
+        "start_s": 237.0,
+        "end_s": 238.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Peter asks for the retail price of the kegs."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "F1",
+        "start_s": 239.0,
+        "end_s": 241.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          36
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Tim states that the retail price is 259 dollars."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "S5",
+        "start_s": 242.0,
+        "end_s": 243.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          37
+        ],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Peter asks how much it costs to manufacture the product."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "F1",
+        "start_s": 244.0,
+        "end_s": 254.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          38
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Tim explains the cost is 130 dollars and details their new manufacturing facility designed to lower costs."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "S5",
+        "start_s": 256.0,
+        "end_s": 258.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "customer_acquisition",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Peter clarifies that he would buy this as a consumer for his home, not for a business."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "F1",
+        "start_s": 259.0,
+        "end_s": 259.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          40
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "NONE",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Tim confirms that Peter's understanding is correct."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "S4",
+        "start_s": 260.0,
+        "end_s": 261.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          40
+        ],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "market_opportunity",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks if the product could potentially be used for a business."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "F1",
+        "start_s": 263.0,
+        "end_s": 276.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          42
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "market_opportunity",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Tim explains their direct-to-consumer focus but mentions the original vision was commercial before the pandemic shifted plans."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "S5",
+        "start_s": 277.0,
+        "end_s": 279.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Peter asks Tim how he came up with the idea for the product."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "F1",
+        "start_s": 280.0,
+        "end_s": 301.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          44
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Tim shares his background as an idea guy and how he realized the inefficiencies of traditional round kegs."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "S1",
+        "start_s": 305.0,
+        "end_s": 309.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [
+          45
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond jokes about how often Tim wakes up early thinking of efficient ways to drink."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "F1",
+        "start_s": 310.0,
+        "end_s": 312.0,
+        "function": "social",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [
+          46
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Tim plays along with the joke, noting he was just lucky with the idea."
+      },
+      {
+        "turn_id": 48,
+        "speaker": "S1",
+        "start_s": 314.0,
+        "end_s": 328.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond decides to exit, stating he does not comprehend the value of the product despite it being cool."
+      },
+      {
+        "turn_id": 49,
+        "speaker": "S4",
+        "start_s": 331.0,
+        "end_s": 357.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks if he could put three bottles of wine in the keg with argon gas for two weeks."
+      },
+      {
+        "turn_id": 50,
+        "speaker": "F1",
+        "start_s": 358.0,
+        "end_s": 359.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 13,
+        "responds_to": [
+          49
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "NONE",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Tim confidently confirms that the scenario Kevin described is entirely possible."
+      },
+      {
+        "turn_id": 51,
+        "speaker": "S4",
+        "start_s": 360.0,
+        "end_s": 361.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 13,
+        "responds_to": [
+          50
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin accepts the answer, calling it a cool idea."
+      },
+      {
+        "turn_id": 52,
+        "speaker": "S2",
+        "start_s": 364.0,
+        "end_s": 381.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori decides to exit, expressing interest in the future wine product but declining to invest now."
+      },
+      {
+        "turn_id": 53,
+        "speaker": "S5",
+        "start_s": 383.0,
+        "end_s": 395.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Peter decides to exit, stating he cannot see how he could help scale it into a great business."
+      },
+      {
+        "turn_id": 54,
+        "speaker": "S3",
+        "start_s": 396.0,
+        "end_s": 410.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark decides to exit, loving the product but feeling too clumsy with it to find a strategic fit."
+      },
+      {
+        "turn_id": 55,
+        "speaker": "S4",
+        "start_s": 412.0,
+        "end_s": 418.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 14,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks when the new wine product will be available."
+      },
+      {
+        "turn_id": 56,
+        "speaker": "F1",
+        "start_s": 419.0,
+        "end_s": 420.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 14,
+        "responds_to": [
+          55
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "not_applicable"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "not_applicable"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Tim answers that the wine product is coming in less than three months."
+      },
+      {
+        "turn_id": 57,
+        "speaker": "S2",
+        "start_s": 421.0,
+        "end_s": 422.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 15,
+        "responds_to": [
+          56
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori jokingly asks why Tim did not share that timeline with her before she exited."
+      },
+      {
+        "turn_id": 58,
+        "speaker": "F1",
+        "start_s": 423.0,
+        "end_s": 425.0,
+        "function": "social",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 15,
+        "responds_to": [
+          57
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Tim humorously admits that he simply failed to mention it."
+      },
+      {
+        "turn_id": 59,
+        "speaker": "S4",
+        "start_s": 428.0,
+        "end_s": 447.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 16,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin makes an offer of 300,000 dollars for 20 percent equity, intrigued by the wine application."
+      },
+      {
+        "turn_id": 60,
+        "speaker": "S4",
+        "start_s": 451.0,
+        "end_s": 457.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 16,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin negotiates his offer, explaining that Tim needs his help to blow the product up online."
+      },
+      {
+        "turn_id": 61,
+        "speaker": "F1",
+        "start_s": 461.0,
+        "end_s": 470.0,
+        "function": "decides",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 16,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Tim counters Kevin's offer, asking if he would consider meeting in the middle at 15 percent equity."
+      },
+      {
+        "turn_id": 62,
+        "speaker": "S4",
+        "start_s": 471.0,
+        "end_s": 492.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 16,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin refuses the counter and maintains his offer of 20 percent, citing the work required."
+      },
+      {
+        "turn_id": 63,
+        "speaker": "F1",
+        "start_s": 495.0,
+        "end_s": 496.0,
+        "function": "decides",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 16,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Tim accepts Kevin's standing offer."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "demonstration",
+        "topic": "NONE",
+        "label": "Tasting and handing out drinks"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "Gas cartridges used"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "usage",
+        "label": "Value of mixed drinks"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "Wine compatibility"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "Assembly and capacity"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "Disassembly process"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "demonstration",
+        "topic": "NONE",
+        "label": "Accidental gas spray"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "Sales and profitability"
+      },
+      {
+        "exchange_id": 9,
+        "kind": "substantive",
+        "topic": "operating_efficiency",
+        "label": "Retail price and cost"
+      },
+      {
+        "exchange_id": 10,
+        "kind": "substantive",
+        "topic": "market_opportunity",
+        "label": "Consumer vs commercial focus"
+      },
+      {
+        "exchange_id": 11,
+        "kind": "substantive",
+        "topic": "self_promotion",
+        "label": "Origin of the idea"
+      },
+      {
+        "exchange_id": 12,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "Joking about getting hammered"
+      },
+      {
+        "exchange_id": 13,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "Using argon for wine"
+      },
+      {
+        "exchange_id": 14,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "Timeline for wine product"
+      },
+      {
+        "exchange_id": 15,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "Teasing about not mentioning timeline"
+      },
+      {
+        "exchange_id": 16,
+        "kind": "negotiation",
+        "topic": "NONE",
+        "label": "Negotiating an investment offer"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S1",
+        "kind": "exit",
+        "time_s": 314.0,
+        "turn_id": 48,
+        "offer_id": null,
+        "terms": "I'm out",
+        "note": "Thinks the product is cool but does not comprehend the value of it."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S2",
+        "kind": "exit",
+        "time_s": 364.0,
+        "turn_id": 52,
+        "offer_id": null,
+        "terms": "I'm out",
+        "note": "Thinks it's cool but wants to wait until the wine product is figured out."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S5",
+        "kind": "exit",
+        "time_s": 383.0,
+        "turn_id": 53,
+        "offer_id": null,
+        "terms": "I'm out",
+        "note": "Cannot see how he could help scale it into a great business."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S3",
+        "kind": "exit",
+        "time_s": 396.0,
+        "turn_id": 54,
+        "offer_id": null,
+        "terms": "I'm out",
+        "note": "Loves the product and sees value but is clumsy with it and doesn't see a fit."
+      },
+      {
+        "decision_id": 5,
+        "actor": "S4",
+        "kind": "offer",
+        "time_s": 428.0,
+        "turn_id": 59,
+        "offer_id": "O1",
+        "terms": "$300k for 20%",
+        "note": "Intrigued by the wine application and wants to take a flyer on it."
+      },
+      {
+        "decision_id": 6,
+        "actor": "F1",
+        "kind": "founder_counters",
+        "time_s": 461.0,
+        "turn_id": 61,
+        "offer_id": "O1",
+        "terms": "$300k for 15%",
+        "note": "Asks Kevin to meet him in the middle at 15% equity."
+      },
+      {
+        "decision_id": 7,
+        "actor": "S4",
+        "kind": "revises_offer",
+        "time_s": 471.0,
+        "turn_id": 62,
+        "offer_id": "O1",
+        "terms": "$300k for 20%",
+        "note": "Refuses the counter, stating it's a simple product that will require work to blow up online."
+      },
+      {
+        "decision_id": 8,
+        "actor": "F1",
+        "kind": "founder_accepts",
+        "time_s": 495.0,
+        "turn_id": 63,
+        "offer_id": "O1",
+        "terms": "$300k for 20%",
+        "note": "Accepts Kevin's standing offer."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": ""
+  }
+}

@@ -1,0 +1,1987 @@
+{
+  "pass": "primary",
+  "unit_key": "panel__st_e142973a9c__primary",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:15-2:00"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "none",
+      "3": "demonstration",
+      "4": "demonstration",
+      "5": "demonstration",
+      "6": "demonstration",
+      "7": "demonstration",
+      "8": "qa",
+      "9": "qa",
+      "10": "qa",
+      "11": "qa",
+      "12": "demonstration",
+      "13": "demonstration",
+      "14": "demonstration",
+      "15": "qa",
+      "16": "qa",
+      "17": "qa",
+      "18": "qa",
+      "19": "qa",
+      "20": "qa",
+      "21": "qa",
+      "22": "qa",
+      "23": "qa",
+      "24": "qa",
+      "25": "qa",
+      "26": "qa",
+      "27": "qa",
+      "28": "qa",
+      "29": "qa",
+      "30": "qa",
+      "31": "qa",
+      "32": "qa",
+      "33": "qa",
+      "34": "qa",
+      "35": "qa",
+      "36": "qa",
+      "37": "none",
+      "38": "none",
+      "39": "none",
+      "40": "none",
+      "41": "none",
+      "42": "none",
+      "43": "none",
+      "44": "none",
+      "45": "none",
+      "46": "negotiation",
+      "47": "negotiation",
+      "48": "negotiation",
+      "49": "negotiation",
+      "50": "negotiation",
+      "51": "negotiation",
+      "52": "negotiation",
+      "53": "negotiation",
+      "54": "negotiation",
+      "55": "negotiation",
+      "56": "negotiation",
+      "57": "negotiation",
+      "58": "negotiation",
+      "59": "negotiation"
+    },
+    "segment_seconds": {
+      "presentation": 105.0,
+      "qa": 133.0,
+      "social": 0.0,
+      "demonstration": 27.0,
+      "negotiation": 100.0,
+      "none": 200.0
+    },
+    "exchange_counts": {
+      "substantive": 8,
+      "social": 0,
+      "demonstration": 1,
+      "negotiation": 1
+    },
+    "turn_frame": {
+      "8": "unclassified",
+      "9": "unclassified",
+      "10": "unclassified",
+      "11": "unclassified",
+      "15": "promotion",
+      "16": "promotion",
+      "17": "prevention",
+      "18": "prevention",
+      "19": "promotion",
+      "20": "promotion",
+      "21": "prevention",
+      "22": "prevention",
+      "23": "prevention",
+      "25": "promotion",
+      "26": "promotion",
+      "27": "unclassified",
+      "28": "promotion",
+      "29": "prevention",
+      "30": "prevention",
+      "31": "promotion",
+      "32": "promotion",
+      "33": "prevention",
+      "34": "prevention",
+      "35": "prevention",
+      "36": "prevention",
+      "53": "unclassified",
+      "54": "unclassified"
+    },
+    "frame_match": {
+      "9": "unclassified",
+      "11": "unclassified",
+      "16": "match",
+      "18": "match",
+      "20": "match",
+      "23": "match",
+      "26": "match",
+      "28": "unclassified",
+      "30": "match",
+      "32": "match",
+      "34": "match",
+      "36": "match",
+      "54": "unclassified"
+    },
+    "other_concepts": [
+      {
+        "where": "turn",
+        "id": 8,
+        "code": "PR-CONCEPT",
+        "name": "product specs",
+        "clock": "2:26"
+      },
+      {
+        "where": "turn",
+        "id": 9,
+        "code": "RS-CONCEPT",
+        "name": "product specs",
+        "clock": "2:28"
+      },
+      {
+        "where": "turn",
+        "id": 10,
+        "code": "PR-CONCEPT",
+        "name": "product specs",
+        "clock": "2:32"
+      },
+      {
+        "where": "turn",
+        "id": 11,
+        "code": "RS-CONCEPT",
+        "name": "product specs",
+        "clock": "2:33"
+      },
+      {
+        "where": "exchange",
+        "id": 2,
+        "code": "EX-TOPIC",
+        "name": "Calories and sugar content",
+        "clock": "2:26"
+      }
+    ]
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "H1",
+        "role": "host",
+        "label": "Narrator"
+      },
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Juan Ignacio Stewart"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Daymond John"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Daniel Lubetzky"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Lori Greiner"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Mark Cuban"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 15.0,
+        "end_s": 120.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 15.0,
+        "kind": "narration"
+      },
+      {
+        "start_s": 689.0,
+        "end_s": 753.0,
+        "kind": "interview"
+      }
+    ],
+    "gaps": [],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 5,
+        "uncodable": false,
+        "moment_s": 106.0,
+        "note": "Sustained, vibrant enthusiasm with wide smiles and energetic, welcoming gestures throughout the pitch."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 5,
+        "uncodable": false,
+        "moment_s": 52.0,
+        "note": "Highly animated delivery, moving around the stage and using expressive hand gestures to convey passion."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 5,
+        "uncodable": false,
+        "moment_s": 15.0,
+        "note": "Approaches the panel with deep cultural warmth, using terms of endearment and a highly friendly demeanor."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "0",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "A line of better-for-you, sparkling Latin American aguas frescas made with real fruit, water, and low sugar.",
+      "primary_industry": "food_beverage",
+      "secondary_industries": [],
+      "product_form": "physical_good",
+      "customer_type": "consumer",
+      "founder_gender": "all_men",
+      "product_category": "sparkling agua fresca",
+      "earliest_s": 28.0,
+      "note": "Spoken ask at 0:28.",
+      "ask_amount_usd": 130000,
+      "ask_equity_pct": 8.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 15.0,
+        "end_s": 120.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Introduces Frescos Naturales, a line of better-for-you sparkling aguas frescas based on traditional Latin American recipes."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "S3",
+        "start_s": 120.0,
+        "end_s": 122.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Enthusiastically cheers in Spanish."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "S1",
+        "start_s": 123.0,
+        "end_s": 125.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Suggests trying the drinks."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "F1",
+        "start_s": 126.0,
+        "end_s": 139.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Explains the specific flavors placed in front of the investors."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "S4",
+        "start_s": 139.0,
+        "end_s": 140.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Compliments the taste of the drink."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "S2",
+        "start_s": 141.0,
+        "end_s": 142.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Notes that the drink is light."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "F1",
+        "start_s": 143.0,
+        "end_s": 145.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Agrees and points out the smell of the fruit."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "S2",
+        "start_s": 146.0,
+        "end_s": 147.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "other",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": "product specs",
+        "summary": "Asks how many calories are in a can."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "F1",
+        "start_s": 148.0,
+        "end_s": 151.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          8
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "other",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": "product specs",
+        "summary": "States that there are 60 calories in the hibiscus can."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "S2",
+        "start_s": 152.0,
+        "end_s": 153.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "other",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": "product specs",
+        "summary": "Asks if some flavors have more sugar than others."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "F1",
+        "start_s": 153.0,
+        "end_s": 158.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          10
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "other",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": "product specs",
+        "summary": "Explains that he adds 5 to 10 grams of added sugar depending on the recipe."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "S5",
+        "start_s": 159.0,
+        "end_s": 161.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Sips the drink and calls it very good."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "S1",
+        "start_s": 161.0,
+        "end_s": 166.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Describes the drink as fruit juicy with a bit of carbonation."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "F1",
+        "start_s": 167.0,
+        "end_s": 168.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Points out that one specific flavor is not as carbonated."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "S4",
+        "start_s": 168.0,
+        "end_s": 169.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks the founder to tell them about himself."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "F1",
+        "start_s": 170.0,
+        "end_s": 181.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          15
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Shares his background from Guatemala, moving 22 years ago, and making the drinks at home for his son."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "S2",
+        "start_s": 182.0,
+        "end_s": 187.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks if his son is also working in the juice business."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "F1",
+        "start_s": 188.0,
+        "end_s": 216.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          17
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Explains his son is in college, notes this is his second food company, and details how the idea originated."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "S2",
+        "start_s": 217.0,
+        "end_s": 219.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks about the game plan, co-packing, and how he intends to get distribution."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "F1",
+        "start_s": 220.0,
+        "end_s": 231.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          19
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Reveals they are accepted into Kroger, detailing 130 stores in Colorado and 230 in Southern California."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "S2",
+        "start_s": 233.0,
+        "end_s": 234.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks when he will get the distribution."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "S5",
+        "start_s": 235.0,
+        "end_s": 237.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks if he has started shipping yet."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "F1",
+        "start_s": 237.0,
+        "end_s": 245.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          22
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Confirms he started last year and did $182,000 in sales in the first year."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "S2",
+        "start_s": 246.0,
+        "end_s": 247.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Repeats the sales figure approvingly."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "S5",
+        "start_s": 250.0,
+        "end_s": 251.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "forecast",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks for the projected numbers for 2022."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "F1",
+        "start_s": 252.0,
+        "end_s": 258.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          25
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "forecast",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "States they are at $100,000 now, expects to end the year at $350,000, and hit $850,000 next year."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "S3",
+        "start_s": 260.0,
+        "end_s": 273.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Challenges the $1.6 million valuation given the current sales, asking how he values the company."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "F1",
+        "start_s": 274.0,
+        "end_s": 283.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          27
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "partial",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "forecast",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Justifies the valuation by pointing to the projected end-of-year and next-year sales figures."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "S1",
+        "start_s": 284.0,
+        "end_s": 286.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks for the cost to make the product and the selling price."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "F1",
+        "start_s": 287.0,
+        "end_s": 291.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          29
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "States it costs 88 cents to make and he sells it for $2.10 wholesale."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "S1",
+        "start_s": 292.0,
+        "end_s": 293.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks for the retail cost to the end consumer."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "F1",
+        "start_s": 294.0,
+        "end_s": 301.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          31
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Explains retail varies by store from $4.50 to his preferred price of $2.99."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "S1",
+        "start_s": 302.0,
+        "end_s": 303.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks for the average cost of a competitor."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "F1",
+        "start_s": 305.0,
+        "end_s": 309.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          33
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Confirms competitors like kombucha and sparkling water are at $3.99."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "S4",
+        "start_s": 310.0,
+        "end_s": 311.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks what a can of normal sparkling water costs."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "F1",
+        "start_s": 312.0,
+        "end_s": 316.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          35
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Admits it's cheaper but argues it lacks the flavor people actually want."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "S1",
+        "start_s": 318.0,
+        "end_s": 325.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "States he would have to be taught too much to be helpful, so he is out."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "S2",
+        "start_s": 326.0,
+        "end_s": 362.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Praises the pitch but exits because the beverage space is too hard to gain market share in."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "S5",
+        "start_s": 363.0,
+        "end_s": 387.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Exits because the business model requires constant capital investment for slotting fees, which he dislikes."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "S4",
+        "start_s": 389.0,
+        "end_s": 400.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Exits because she finds the beverage industry too expensive and competitive."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "S2",
+        "start_s": 401.0,
+        "end_s": 403.0,
+        "function": "social",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Reminds the founder that one shark is still left."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "F1",
+        "start_s": 404.0,
+        "end_s": 417.0,
+        "function": "NONE",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Appeals directly to Daniel, expressing his desire to expand across the US and Latin America."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "S3",
+        "start_s": 418.0,
+        "end_s": 441.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Praises his energy and acknowledges the extreme difficulty of his entrepreneurial journey and personal hardships."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "F1",
+        "start_s": 447.0,
+        "end_s": 505.0,
+        "function": "NONE",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Elaborates on his resilience, launching during his son's cancer diagnosis and navigating supply chain shortages."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "S3",
+        "start_s": 506.0,
+        "end_s": 530.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Expresses confidence in him as an entrepreneur but hesitates on the investability of the business."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "S3",
+        "start_s": 535.0,
+        "end_s": 538.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Offers $130,000 for a 30% stake in the company."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "F1",
+        "start_s": 538.0,
+        "end_s": 542.0,
+        "function": "social",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jokes with Kevin about splitting the equity."
+      },
+      {
+        "turn_id": 48,
+        "speaker": "S2",
+        "start_s": 545.0,
+        "end_s": 554.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Re-enters the negotiation to join Daniel's offer of $130,000 for 30%."
+      },
+      {
+        "turn_id": 49,
+        "speaker": "F1",
+        "start_s": 556.0,
+        "end_s": 562.0,
+        "function": "decides",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Counters the sharks with an offer of 20%."
+      },
+      {
+        "turn_id": 50,
+        "speaker": "S2",
+        "start_s": 563.0,
+        "end_s": 566.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Refuses the counter-offer and drops out again."
+      },
+      {
+        "turn_id": 51,
+        "speaker": "S3",
+        "start_s": 572.0,
+        "end_s": 574.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Revises his offer to $130,000 for 25%."
+      },
+      {
+        "turn_id": 52,
+        "speaker": "F1",
+        "start_s": 575.0,
+        "end_s": 586.0,
+        "function": "negotiates",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Asks if the 25% offer can also include help with financing for production."
+      },
+      {
+        "turn_id": 53,
+        "speaker": "S4",
+        "start_s": 589.0,
+        "end_s": 596.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Clarifies if he accepted the 25% offer."
+      },
+      {
+        "turn_id": 54,
+        "speaker": "F1",
+        "start_s": 597.0,
+        "end_s": 599.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          53
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "partial",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Replies that he accepts if it comes with financing."
+      },
+      {
+        "turn_id": 55,
+        "speaker": "S3",
+        "start_s": 604.0,
+        "end_s": 625.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Explains the value of his team and says he is open to exploring financing but won't guarantee it."
+      },
+      {
+        "turn_id": 56,
+        "speaker": "S5",
+        "start_s": 626.0,
+        "end_s": 628.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jokingly tells the founder not to do the deal."
+      },
+      {
+        "turn_id": 57,
+        "speaker": "S3",
+        "start_s": 634.0,
+        "end_s": 646.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Reiterates that he does not want him to take the deal expecting guaranteed financing."
+      },
+      {
+        "turn_id": 58,
+        "speaker": "S3",
+        "start_s": 647.0,
+        "end_s": 663.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Stands firm on the 25% equity ask, citing the value of his team's time."
+      },
+      {
+        "turn_id": 59,
+        "speaker": "F1",
+        "start_s": 674.0,
+        "end_s": 676.0,
+        "function": "decides",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Accepts the final offer of $130,000 for 25%."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "demonstration",
+        "topic": "NONE",
+        "label": "Tasting the product"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "substantive",
+        "topic": "other",
+        "label": "Calories and sugar content"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "self_promotion",
+        "label": "Founder's background and story"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "substantive",
+        "topic": "go_to_market",
+        "label": "Retail distribution and co-packing"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "Initial sales and shipping"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "substantive",
+        "topic": "forecast",
+        "label": "Sales projections for the year"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "Justifying the valuation"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "substantive",
+        "topic": "operating_efficiency",
+        "label": "Cost to make and wholesale price"
+      },
+      {
+        "exchange_id": 9,
+        "kind": "substantive",
+        "topic": "competition",
+        "label": "Competitor pricing"
+      },
+      {
+        "exchange_id": 10,
+        "kind": "negotiation",
+        "topic": "NONE",
+        "label": "Negotiating equity and financing"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S1",
+        "kind": "exit",
+        "time_s": 318.0,
+        "turn_id": 37,
+        "offer_id": null,
+        "terms": "out",
+        "note": "Would have to be taught too much to help."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S2",
+        "kind": "exit",
+        "time_s": 326.0,
+        "turn_id": 38,
+        "offer_id": null,
+        "terms": "out",
+        "note": "Beverage space is too hard to get market share in."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S5",
+        "kind": "exit",
+        "time_s": 363.0,
+        "turn_id": 39,
+        "offer_id": null,
+        "terms": "out",
+        "note": "Hates the beverage business because it requires constant ramp up of investment."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S4",
+        "kind": "exit",
+        "time_s": 389.0,
+        "turn_id": 40,
+        "offer_id": null,
+        "terms": "out",
+        "note": "Thinks it's too challenging, expensive, and competitive."
+      },
+      {
+        "decision_id": 5,
+        "actor": "S3",
+        "kind": "offer",
+        "time_s": 535.0,
+        "turn_id": 46,
+        "offer_id": "O1",
+        "terms": "$130,000 for 30%",
+        "note": "Believes in the entrepreneur and wants a larger stake for the work involved."
+      },
+      {
+        "decision_id": 6,
+        "actor": "S2",
+        "kind": "joins_offer",
+        "time_s": 545.0,
+        "turn_id": 48,
+        "offer_id": "O1",
+        "terms": "$130,000 for 30%",
+        "note": "Loves the founder and will do the deal if they get 30% together."
+      },
+      {
+        "decision_id": 7,
+        "actor": "F1",
+        "kind": "founder_counters",
+        "time_s": 556.0,
+        "turn_id": 49,
+        "offer_id": "O1",
+        "terms": "$130,000 for 20%",
+        "note": "Counters the 30% offer."
+      },
+      {
+        "decision_id": 8,
+        "actor": "S2",
+        "kind": "withdraws_offer",
+        "time_s": 563.0,
+        "turn_id": 50,
+        "offer_id": "O1",
+        "terms": "not doing that",
+        "note": "Refuses the 20% counter."
+      },
+      {
+        "decision_id": 9,
+        "actor": "S3",
+        "kind": "revises_offer",
+        "time_s": 572.0,
+        "turn_id": 51,
+        "offer_id": "O1",
+        "terms": "$130,000 for 25%",
+        "note": "Meets halfway between 20% and 30%."
+      },
+      {
+        "decision_id": 10,
+        "actor": "F1",
+        "kind": "founder_accepts",
+        "time_s": 674.0,
+        "turn_id": 59,
+        "offer_id": "O1",
+        "terms": "$130,000 for 25%",
+        "note": "Accepts the revised 25% offer after discussing financing."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": "F1 speaks Spanish phrases throughout, translated in context. Daniel S3 is a guest Shark."
+  }
+}

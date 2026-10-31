@@ -1,0 +1,48 @@
+{
+  "batch_id": "b20",
+  "video_ids": [
+    "st_651ceffedb",
+    "st_0796c41d00",
+    "st_a093ef49bd",
+    "st_fd5a8ee737",
+    "st_94939e7e90"
+  ],
+  "labels": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "rankings": {
+    "pitch_positivity": [
+      "st_94939e7e90",
+      "st_a093ef49bd",
+      "st_651ceffedb",
+      "st_0796c41d00",
+      "st_fd5a8ee737"
+    ],
+    "expressed_enthusiasm": [
+      "st_a093ef49bd",
+      "st_94939e7e90",
+      "st_651ceffedb",
+      "st_0796c41d00",
+      "st_fd5a8ee737"
+    ],
+    "interpersonal_warmth": [
+      "st_651ceffedb",
+      "st_94939e7e90",
+      "st_a093ef49bd",
+      "st_0796c41d00",
+      "st_fd5a8ee737"
+    ]
+  },
+  "notes": {
+    "pitch_positivity": "E and C are close, but E's constant cheering and party atmosphere create a slightly more positive overall impression. D is the most subdued and stiff.",
+    "expressed_enthusiasm": "C and E are close, but C's intense excitement about his rapid sales shows slightly more engaged excitement about the venture than E. D is least.",
+    "interpersonal_warmth": "A and E are very friendly, but A's polite, playful, and direct interactions with the sharks convey slightly more interpersonal warmth. D is the most distant."
+  },
+  "batch_notes": "",
+  "model_version": "gemini-3.1-pro-preview",
+  "prompt_hash": "83d1721df059bb52"
+}

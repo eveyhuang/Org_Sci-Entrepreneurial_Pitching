@@ -1,0 +1,48 @@
+{
+  "batch_id": "b43",
+  "video_ids": [
+    "st_4fd31afc01",
+    "st_d524156ea0",
+    "st_94939e7e90",
+    "st_f377476d7a",
+    "st_6022b2d5ae"
+  ],
+  "labels": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "rankings": {
+    "pitch_positivity": [
+      "st_94939e7e90",
+      "st_d524156ea0",
+      "st_6022b2d5ae",
+      "st_4fd31afc01",
+      "st_f377476d7a"
+    ],
+    "expressed_enthusiasm": [
+      "st_d524156ea0",
+      "st_94939e7e90",
+      "st_6022b2d5ae",
+      "st_4fd31afc01",
+      "st_f377476d7a"
+    ],
+    "interpersonal_warmth": [
+      "st_f377476d7a",
+      "st_4fd31afc01",
+      "st_6022b2d5ae",
+      "st_d524156ea0",
+      "st_94939e7e90"
+    ]
+  },
+  "notes": {
+    "pitch_positivity": "C features a celebratory presentation, placing it at the top above B's dancing (they were close), while D's calm, composed elegance shows the least overall positivity.",
+    "expressed_enthusiasm": "B's continuous physical dancing and high-energy delivery show the most excited engagement, separating it from D's subdued, composed presentation at the bottom. B and C were close.",
+    "interpersonal_warmth": "D's inviting tone and personal story convey the most friendly approachability, separating it from C's intense, loud party vibe at the bottom. D and A were close."
+  },
+  "batch_notes": "",
+  "model_version": "gemini-3.1-pro-preview",
+  "prompt_hash": "83d1721df059bb52"
+}

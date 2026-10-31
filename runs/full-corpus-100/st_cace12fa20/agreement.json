@@ -1,0 +1,1063 @@
+{
+  "video_id": "st_cace12fa20",
+  "release_id": "v3-dev9",
+  "annotation_context": "descriptive_full_context",
+  "settings": {
+    "event_tolerance_s": 10.0,
+    "decision_tolerance_s": 30.0
+  },
+  "label": "model self-consistency under sampling; not validity",
+  "settings_note": "event_tolerance_s (applied to the starts of matched turns) and decision_tolerance_s are diagnostic thresholds for the time block and the time_drift and time_outlier flags; they are not conditions for pairing turns or decisions.",
+  "actors": {
+    "mapping": {
+      "F1": "F1",
+      "F2": "F2",
+      "H1": "H1",
+      "S1": "S5",
+      "S2": "S2",
+      "S3": "S1",
+      "S4": "S4",
+      "S5": "S3"
+    },
+    "mapped_by": {
+      "F1": "label",
+      "F2": "label",
+      "H1": "label",
+      "S1": "label",
+      "S2": "label",
+      "S3": "label",
+      "S4": "label",
+      "S5": "label"
+    },
+    "unmapped_primary": [],
+    "unmapped_replicate": []
+  },
+  "turns": {
+    "n_primary": 60,
+    "n_replicate": 49,
+    "matched": [
+      [
+        9,
+        1
+      ],
+      [
+        17,
+        2
+      ],
+      [
+        18,
+        3
+      ],
+      [
+        20,
+        5
+      ],
+      [
+        21,
+        6
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        25,
+        10
+      ],
+      [
+        27,
+        12
+      ],
+      [
+        29,
+        14
+      ],
+      [
+        31,
+        16
+      ],
+      [
+        32,
+        17
+      ],
+      [
+        34,
+        19
+      ],
+      [
+        37,
+        21
+      ],
+      [
+        39,
+        23
+      ],
+      [
+        40,
+        24
+      ],
+      [
+        41,
+        25
+      ],
+      [
+        42,
+        26
+      ],
+      [
+        43,
+        27
+      ],
+      [
+        44,
+        28
+      ],
+      [
+        45,
+        29
+      ],
+      [
+        46,
+        30
+      ],
+      [
+        47,
+        31
+      ],
+      [
+        48,
+        32
+      ],
+      [
+        49,
+        33
+      ],
+      [
+        50,
+        34
+      ],
+      [
+        51,
+        35
+      ],
+      [
+        52,
+        36
+      ],
+      [
+        53,
+        38
+      ],
+      [
+        54,
+        40
+      ],
+      [
+        55,
+        42
+      ],
+      [
+        56,
+        44
+      ],
+      [
+        57,
+        45
+      ],
+      [
+        58,
+        46
+      ]
+    ],
+    "function_mismatched": [
+      [
+        19,
+        4
+      ],
+      [
+        22,
+        7
+      ],
+      [
+        59,
+        48
+      ]
+    ],
+    "function_confusion": {
+      "NONE|social": 1,
+      "demonstrates|social": 1,
+      "question|demonstrates": 1
+    },
+    "unmatched_primary": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      23,
+      26,
+      28,
+      30,
+      33,
+      35,
+      36,
+      38,
+      60
+    ],
+    "unmatched_replicate": [
+      8,
+      11,
+      13,
+      15,
+      18,
+      20,
+      22,
+      37,
+      39,
+      41,
+      43,
+      47,
+      49
+    ],
+    "recall": 0.55,
+    "precision": 0.673469387755102,
+    "recall_any_function": 0.6,
+    "precision_any_function": 0.7346938775510204,
+    "by_function": {
+      "NONE": {
+        "primary": 2,
+        "replicate": 0,
+        "matched": 0
+      },
+      "accepts": {
+        "primary": 3,
+        "replicate": 7,
+        "matched": 2
+      },
+      "answer": {
+        "primary": 16,
+        "replicate": 15,
+        "matched": 15
+      },
+      "decides": {
+        "primary": 5,
+        "replicate": 5,
+        "matched": 5
+      },
+      "demonstrates": {
+        "primary": 2,
+        "replicate": 2,
+        "matched": 0
+      },
+      "presents": {
+        "primary": 15,
+        "replicate": 1,
+        "matched": 1
+      },
+      "question": {
+        "primary": 14,
+        "replicate": 13,
+        "matched": 8
+      },
+      "social": {
+        "primary": 3,
+        "replicate": 6,
+        "matched": 2
+      }
+    },
+    "speaker_time_agreement": 0.7237687366167024,
+    "sequence_agreement": 0.6,
+    "note": "turns are paired by speaker, order and wording, not by time; recall and precision count pairs of the same function and are sensitive to segmentation; speaker_time_agreement compares who speaks second by second and so depends on the times"
+  },
+  "exchanges": {
+    "n_primary": 9,
+    "n_replicate": 11,
+    "by_kind": {
+      "demonstration": {
+        "primary": 1,
+        "replicate": 1
+      },
+      "social": {
+        "primary": 1,
+        "replicate": 3
+      },
+      "substantive": {
+        "primary": 7,
+        "replicate": 7
+      }
+    },
+    "matched": [
+      [
+        1,
+        1,
+        1.0
+      ],
+      [
+        2,
+        2,
+        0.6666666666666666
+      ],
+      [
+        3,
+        4,
+        0.6
+      ],
+      [
+        4,
+        5,
+        1.0
+      ],
+      [
+        5,
+        6,
+        1.0
+      ],
+      [
+        7,
+        8,
+        0.5714285714285714
+      ],
+      [
+        9,
+        10,
+        1.0
+      ]
+    ],
+    "matched_at_half": 7,
+    "mean_jaccard": 0.8340136054421768,
+    "unmatched_primary": [
+      6,
+      8
+    ],
+    "unmatched_replicate": [
+      3,
+      7,
+      9,
+      11
+    ],
+    "kind_agree": 6,
+    "topic_agree": 6,
+    "topic_n": 6,
+    "kind_confusion": {
+      "demonstration|social": 1,
+      "substantive|substantive": 6
+    },
+    "topic_confusion": {
+      "execution|execution": 1,
+      "forecast|forecast": 1,
+      "go_to_market|go_to_market": 1,
+      "sales|sales": 1,
+      "self_promotion|self_promotion": 1,
+      "usage|usage": 1
+    },
+    "co_membership_agreement": 0.9396825396825397,
+    "adjusted_co_membership": 0.6340568633445429
+  },
+  "codes": {
+    "PR-CONCEPT": {
+      "n": 8,
+      "both_valued": 8,
+      "exact": 8,
+      "within_one": null,
+      "missing_agree": 8,
+      "confusion": {
+        "execution|execution": 3,
+        "forecast|forecast": 1,
+        "go_to_market|go_to_market": 2,
+        "operating_efficiency|operating_efficiency": 1,
+        "usage|usage": 1
+      },
+      "missing_confusion": {}
+    },
+    "PR-FRAME(derived)": {
+      "n": 8,
+      "both_valued": 8,
+      "exact": 8,
+      "within_one": null,
+      "missing_agree": 8,
+      "confusion": {
+        "prevention|prevention": 4,
+        "promotion|promotion": 4
+      },
+      "missing_confusion": {}
+    },
+    "PR-SEV": {
+      "n": 8,
+      "both_valued": 8,
+      "exact": 8,
+      "within_one": 8,
+      "missing_agree": 8,
+      "confusion": {
+        "1|1": 8
+      },
+      "missing_confusion": {}
+    },
+    "PREP-COH": {
+      "n": 15,
+      "both_valued": 10,
+      "exact": 9,
+      "within_one": 10,
+      "missing_agree": 10,
+      "confusion": {
+        "3|3": 2,
+        "3|4": 1,
+        "4|4": 7,
+        "∅|3": 2,
+        "∅|∅": 3
+      },
+      "missing_confusion": {
+        "too_short|not_applicable": 3
+      }
+    },
+    "PREP-CTX": {
+      "n": 15,
+      "both_valued": 10,
+      "exact": 9,
+      "within_one": 9,
+      "missing_agree": 10,
+      "confusion": {
+        "1|1": 9,
+        "3|1": 1,
+        "∅|1": 2,
+        "∅|∅": 3
+      },
+      "missing_confusion": {
+        "too_short|not_applicable": 3
+      }
+    },
+    "PREP-SUBS": {
+      "n": 15,
+      "both_valued": 10,
+      "exact": 8,
+      "within_one": 10,
+      "missing_agree": 10,
+      "confusion": {
+        "2|2": 2,
+        "2|3": 1,
+        "3|3": 5,
+        "4|3": 1,
+        "4|4": 1,
+        "∅|1": 3,
+        "∅|2": 2
+      },
+      "missing_confusion": {}
+    },
+    "RS-CONCEPT": {
+      "n": 15,
+      "both_valued": 15,
+      "exact": 13,
+      "within_one": null,
+      "missing_agree": 15,
+      "confusion": {
+        "NONE|execution": 1,
+        "NONE|go_to_market": 1,
+        "execution|execution": 5,
+        "forecast|forecast": 1,
+        "go_to_market|go_to_market": 1,
+        "operating_efficiency|operating_efficiency": 1,
+        "sales|sales": 1,
+        "self_promotion|self_promotion": 3,
+        "usage|usage": 1
+      },
+      "missing_confusion": {}
+    },
+    "RS-EVID": {
+      "n": 15,
+      "both_valued": 15,
+      "exact": 14,
+      "within_one": null,
+      "missing_agree": 15,
+      "confusion": {
+        "false|false": 8,
+        "true|false": 1,
+        "true|true": 6
+      },
+      "missing_confusion": {}
+    },
+    "RS-FRAME(derived)": {
+      "n": 15,
+      "both_valued": 15,
+      "exact": 13,
+      "within_one": null,
+      "missing_agree": 15,
+      "confusion": {
+        "NEUTRAL|prevention": 1,
+        "NEUTRAL|promotion": 1,
+        "prevention|prevention": 6,
+        "promotion|promotion": 7
+      },
+      "missing_confusion": {}
+    },
+    "RS-RESP": {
+      "n": 15,
+      "both_valued": 15,
+      "exact": 14,
+      "within_one": null,
+      "missing_agree": 15,
+      "confusion": {
+        "addresses|addresses": 14,
+        "partial|addresses": 1
+      },
+      "missing_confusion": {}
+    },
+    "RS-UNCERT": {
+      "n": 15,
+      "both_valued": 15,
+      "exact": 14,
+      "within_one": null,
+      "missing_agree": 15,
+      "confusion": {
+        "false|false": 12,
+        "false|true": 1,
+        "true|true": 2
+      },
+      "missing_confusion": {}
+    },
+    "other_concept_names": []
+  },
+  "links": {
+    "primary_links": 8,
+    "replicate_links": 8,
+    "shared": 8,
+    "recall": 1.0,
+    "precision": 1.0,
+    "dropped_unmatched_targets": 14,
+    "note": "computed over links whose both endpoints are matched turns"
+  },
+  "decisions": {
+    "matched": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ]
+    ],
+    "unmatched_primary": [],
+    "unmatched_replicate": [],
+    "offers": [],
+    "offer_membership_agreement": null,
+    "ever_offer": {
+      "S1": {
+        "primary": false,
+        "replicate": false
+      },
+      "S2": {
+        "primary": false,
+        "replicate": false
+      },
+      "S3": {
+        "primary": false,
+        "replicate": false
+      },
+      "S4": {
+        "primary": false,
+        "replicate": false
+      },
+      "S5": {
+        "primary": false,
+        "replicate": false
+      }
+    },
+    "ever_offer_agreement": 1.0,
+    "any_offer": {
+      "primary": false,
+      "replicate": false
+    }
+  },
+  "stage_a": {
+    "pitch_positivity": {
+      "primary": 4,
+      "replicate": 4,
+      "abs_diff": 0
+    },
+    "expressed_enthusiasm": {
+      "primary": 4,
+      "replicate": 4,
+      "abs_diff": 0
+    },
+    "interpersonal_warmth": {
+      "primary": 4,
+      "replicate": 4,
+      "abs_diff": 0
+    },
+    "_summary": {
+      "both_rated": 3,
+      "exact": 3,
+      "within_one": 3,
+      "mean_abs_diff": 0.0
+    }
+  },
+  "venture": {
+    "primary_industry": {
+      "primary": "home_household",
+      "replicate": "home_household",
+      "agree": true
+    },
+    "product_form": {
+      "primary": "physical_good",
+      "replicate": "physical_good",
+      "agree": true
+    },
+    "customer_type": {
+      "primary": "consumer",
+      "replicate": "consumer",
+      "agree": true
+    },
+    "founder_gender": {
+      "primary": "mixed",
+      "replicate": "mixed",
+      "agree": true
+    },
+    "ask": {
+      "amount_agree": true,
+      "equity_agree": true
+    }
+  },
+  "prepared": {
+    "primary_s": 99.0,
+    "replicate_s": 105.0,
+    "iou": 0.9428571428571428,
+    "n": 4,
+    "agree": 4,
+    "within_one": 3
+  },
+  "time": {
+    "matched_turn_pairs": 33,
+    "median_start_diff_s": 0.0,
+    "median_abs_start_diff_s": 0.0,
+    "max_abs_start_diff_s": 62.0,
+    "turn_pairs_beyond_tolerance": 1,
+    "decision_pairs_beyond_tolerance": 0
+  },
+  "not_compared": [
+    "excluded_spans",
+    "source_complete",
+    "claim_conflicts",
+    "addressed",
+    "exchange label",
+    "stage_a moment"
+  ],
+  "flags": [
+    {
+      "kind": "function_disagreement",
+      "pass": "both",
+      "ref": 19,
+      "detail": "turns 19|4: same speaker and place in the sequence, primary demonstrates vs replicate social"
+    },
+    {
+      "kind": "function_disagreement",
+      "pass": "both",
+      "ref": 22,
+      "detail": "turns 22|7: same speaker and place in the sequence, primary question vs replicate demonstrates"
+    },
+    {
+      "kind": "function_disagreement",
+      "pass": "both",
+      "ref": 59,
+      "detail": "turns 59|48: same speaker and place in the sequence, primary NONE vs replicate social"
+    },
+    {
+      "kind": "unmatched_turn",
+      "pass": "primary",
+      "ref": 1,
+      "detail": "no replicate turn by the same speaker at this place in the sequence"
+    },
+    {
+      "kind": "unmatched_turn",
+      "pass": "primary",
+      "ref": 2,
+      "detail": "no replicate turn by the same speaker at this place in the sequence"
+    },
+    {
+      "kind": "unmatched_turn",
+      "pass": "primary",
+      "ref": 3,
+      "detail": "no replicate turn by the same speaker at this place in the sequence"
+    },
+    {
+      "kind": "unmatched_turn",
+      "pass": "primary",
+      "ref": 4,
+      "detail": "no replicate turn by the same speaker at this place in the sequence"
+    },
+    {
+      "kind": "unmatched_turn",
+      "pass": "primary",
+      "ref": 5,
+      "detail": "no replicate turn by the same speaker at this place in the sequence"
+    },
+    {
+      "kind": "unmatched_turn",
+      "pass": "primary",
+      "ref": 6,
+      "detail": "no replicate turn by the same speaker at this place in the sequence"
+    },
+    {
+      "kind": "unmatched_turn",
+      "pass": "primary",
+      "ref": 7,
+      "detail": "no replicate turn by the same speaker at this place in the sequence"
+    },
+    {
+      "kind": "unmatched_turn",
+      "pass": "primary",
+      "ref": 8,
+      "detail": "no replicate turn by the same speaker at this place in the sequence"
+    },
+    {
+      "kind": "unmatched_turn",
+      "pass": "primary",
+      "ref": 10,
+      "detail": "no replicate turn by the same speaker at this place in the sequence"
+    },
+    {
+      "kind": "unmatched_turn",
+      "pass": "primary",
+      "ref": 11,
+      "detail": "no replicate turn by the same speaker at this place in the sequence"
+    },
+    {
+      "kind": "unmatched_turn",
+      "pass": "primary",
+      "ref": 12,
+      "detail": "no replicate turn by the same speaker at this place in the sequence"
+    },
+    {
+      "kind": "unmatched_turn",
+      "pass": "primary",
+      "ref": 13,
+      "detail": "no replicate turn by the same speaker at this place in the sequence"
+    },
+    {
+      "kind": "unmatched_turn",
+      "pass": "primary",
+      "ref": 14,
+      "detail": "no replicate turn by the same speaker at this place in the sequence"
+    },
+    {
+      "kind": "unmatched_turn",
+      "pass": "primary",
+      "ref": 15,
+      "detail": "no replicate turn by the same speaker at this place in the sequence"
+    },
+    {
+      "kind": "unmatched_turn",
+      "pass": "primary",
+      "ref": 16,
+      "detail": "no replicate turn by the same speaker at this place in the sequence"
+    },
+    {
+      "kind": "unmatched_turn",
+      "pass": "primary",
+      "ref": 23,
+      "detail": "no replicate turn by the same speaker at this place in the sequence"
+    },
+    {
+      "kind": "unmatched_turn",
+      "pass": "primary",
+      "ref": 26,
+      "detail": "no replicate turn by the same speaker at this place in the sequence"
+    },
+    {
+      "kind": "unmatched_turn",
+      "pass": "primary",
+      "ref": 28,
+      "detail": "no replicate turn by the same speaker at this place in the sequence"
+    },
+    {
+      "kind": "unmatched_turn",
+      "pass": "primary",
+      "ref": 30,
+      "detail": "no replicate turn by the same speaker at this place in the sequence"
+    },
+    {
+      "kind": "unmatched_turn",
+      "pass": "primary",
+      "ref": 33,
+      "detail": "no replicate turn by the same speaker at this place in the sequence"
+    },
+    {
+      "kind": "unmatched_turn",
+      "pass": "primary",
+      "ref": 35,
+      "detail": "no replicate turn by the same speaker at this place in the sequence"
+    },
+    {
+      "kind": "unmatched_turn",
+      "pass": "primary",
+      "ref": 36,
+      "detail": "no replicate turn by the same speaker at this place in the sequence"
+    },
+    {
+      "kind": "unmatched_turn",
+      "pass": "primary",
+      "ref": 38,
+      "detail": "no replicate turn by the same speaker at this place in the sequence"
+    },
+    {
+      "kind": "unmatched_turn",
+      "pass": "primary",
+      "ref": 60,
+      "detail": "no replicate turn by the same speaker at this place in the sequence"
+    },
+    {
+      "kind": "unmatched_turn",
+      "pass": "replicate",
+      "ref": 8,
+      "detail": "no primary turn by the same speaker at this place in the sequence"
+    },
+    {
+      "kind": "unmatched_turn",
+      "pass": "replicate",
+      "ref": 11,
+      "detail": "no primary turn by the same speaker at this place in the sequence"
+    },
+    {
+      "kind": "unmatched_turn",
+      "pass": "replicate",
+      "ref": 13,
+      "detail": "no primary turn by the same speaker at this place in the sequence"
+    },
+    {
+      "kind": "unmatched_turn",
+      "pass": "replicate",
+      "ref": 15,
+      "detail": "no primary turn by the same speaker at this place in the sequence"
+    },
+    {
+      "kind": "unmatched_turn",
+      "pass": "replicate",
+      "ref": 18,
+      "detail": "no primary turn by the same speaker at this place in the sequence"
+    },
+    {
+      "kind": "unmatched_turn",
+      "pass": "replicate",
+      "ref": 20,
+      "detail": "no primary turn by the same speaker at this place in the sequence"
+    },
+    {
+      "kind": "unmatched_turn",
+      "pass": "replicate",
+      "ref": 22,
+      "detail": "no primary turn by the same speaker at this place in the sequence"
+    },
+    {
+      "kind": "unmatched_turn",
+      "pass": "replicate",
+      "ref": 37,
+      "detail": "no primary turn by the same speaker at this place in the sequence"
+    },
+    {
+      "kind": "unmatched_turn",
+      "pass": "replicate",
+      "ref": 39,
+      "detail": "no primary turn by the same speaker at this place in the sequence"
+    },
+    {
+      "kind": "unmatched_turn",
+      "pass": "replicate",
+      "ref": 41,
+      "detail": "no primary turn by the same speaker at this place in the sequence"
+    },
+    {
+      "kind": "unmatched_turn",
+      "pass": "replicate",
+      "ref": 43,
+      "detail": "no primary turn by the same speaker at this place in the sequence"
+    },
+    {
+      "kind": "unmatched_turn",
+      "pass": "replicate",
+      "ref": 47,
+      "detail": "no primary turn by the same speaker at this place in the sequence"
+    },
+    {
+      "kind": "unmatched_turn",
+      "pass": "replicate",
+      "ref": 49,
+      "detail": "no primary turn by the same speaker at this place in the sequence"
+    },
+    {
+      "kind": "unmatched_exchange",
+      "pass": "primary",
+      "ref": 6,
+      "detail": "social exchange shares turns with no free replicate exchange"
+    },
+    {
+      "kind": "unmatched_exchange",
+      "pass": "primary",
+      "ref": 8,
+      "detail": "substantive exchange shares turns with no free replicate exchange"
+    },
+    {
+      "kind": "unmatched_exchange",
+      "pass": "replicate",
+      "ref": 3,
+      "detail": "demonstration exchange shares turns with no free primary exchange"
+    },
+    {
+      "kind": "unmatched_exchange",
+      "pass": "replicate",
+      "ref": 7,
+      "detail": "social exchange shares turns with no free primary exchange"
+    },
+    {
+      "kind": "unmatched_exchange",
+      "pass": "replicate",
+      "ref": 9,
+      "detail": "substantive exchange shares turns with no free primary exchange"
+    },
+    {
+      "kind": "unmatched_exchange",
+      "pass": "replicate",
+      "ref": 11,
+      "detail": "social exchange shares turns with no free primary exchange"
+    },
+    {
+      "kind": "exchange_kind_disagreement",
+      "pass": "both",
+      "ref": 1,
+      "detail": "exchanges 1|1: primary demonstration vs replicate social"
+    },
+    {
+      "kind": "code_disagreement",
+      "pass": "both",
+      "ref": "RS-EVID",
+      "detail": "turns 21|6: true vs false"
+    },
+    {
+      "kind": "code_disagreement",
+      "pass": "both",
+      "ref": "PREP-COH",
+      "detail": "turns 25|10: ∅ vs 3"
+    },
+    {
+      "kind": "code_disagreement",
+      "pass": "both",
+      "ref": "PREP-CTX",
+      "detail": "turns 25|10: ∅ vs 1"
+    },
+    {
+      "kind": "code_disagreement",
+      "pass": "both",
+      "ref": "PREP-SUBS",
+      "detail": "turns 25|10: ∅ vs 2"
+    },
+    {
+      "kind": "code_disagreement",
+      "pass": "both",
+      "ref": "PREP-CTX",
+      "detail": "turns 27|12: 3 vs 1"
+    },
+    {
+      "kind": "code_disagreement",
+      "pass": "both",
+      "ref": "PREP-SUBS",
+      "detail": "turns 29|14: ∅ vs 1"
+    },
+    {
+      "kind": "code_disagreement",
+      "pass": "both",
+      "ref": "RS-CONCEPT",
+      "detail": "turns 29|14: NONE vs execution"
+    },
+    {
+      "kind": "code_disagreement",
+      "pass": "both",
+      "ref": "PREP-COH",
+      "detail": "turns 31|16: ∅ vs 3"
+    },
+    {
+      "kind": "code_disagreement",
+      "pass": "both",
+      "ref": "PREP-CTX",
+      "detail": "turns 31|16: ∅ vs 1"
+    },
+    {
+      "kind": "code_disagreement",
+      "pass": "both",
+      "ref": "PREP-SUBS",
+      "detail": "turns 31|16: ∅ vs 2"
+    },
+    {
+      "kind": "code_disagreement",
+      "pass": "both",
+      "ref": "RS-RESP",
+      "detail": "turns 31|16: partial vs addresses"
+    },
+    {
+      "kind": "code_disagreement",
+      "pass": "both",
+      "ref": "PREP-SUBS",
+      "detail": "turns 39|23: 4 vs 3"
+    },
+    {
+      "kind": "code_disagreement",
+      "pass": "both",
+      "ref": "PREP-SUBS",
+      "detail": "turns 44|28: ∅ vs 1"
+    },
+    {
+      "kind": "code_disagreement",
+      "pass": "both",
+      "ref": "RS-CONCEPT",
+      "detail": "turns 44|28: NONE vs go_to_market"
+    },
+    {
+      "kind": "code_disagreement",
+      "pass": "both",
+      "ref": "PREP-COH",
+      "detail": "turns 46|30: 3 vs 4"
+    },
+    {
+      "kind": "code_disagreement",
+      "pass": "both",
+      "ref": "PREP-SUBS",
+      "detail": "turns 46|30: 2 vs 3"
+    },
+    {
+      "kind": "code_disagreement",
+      "pass": "both",
+      "ref": "PREP-SUBS",
+      "detail": "turns 49|33: ∅ vs 1"
+    },
+    {
+      "kind": "code_disagreement",
+      "pass": "both",
+      "ref": "RS-UNCERT",
+      "detail": "turns 51|35: false vs true"
+    },
+    {
+      "kind": "time_outlier",
+      "pass": "both",
+      "ref": 9,
+      "detail": "turn starts differ by -62.0s"
+    }
+  ]
+}

@@ -1,0 +1,2083 @@
+{
+  "pass": "primary",
+  "unit_key": "panel__st_b76e8a6734__primary",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:17-1:39"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "none",
+      "3": "none",
+      "4": "none",
+      "5": "none",
+      "6": "none",
+      "7": "none",
+      "8": "none",
+      "9": "qa",
+      "10": "qa",
+      "11": "qa",
+      "12": "qa",
+      "13": "qa",
+      "14": "qa",
+      "15": "qa",
+      "16": "none",
+      "17": "qa",
+      "18": "qa",
+      "19": "qa",
+      "20": "qa",
+      "21": "qa",
+      "22": "none",
+      "23": "qa",
+      "24": "qa",
+      "25": "qa",
+      "26": "qa",
+      "27": "qa",
+      "28": "qa",
+      "29": "none",
+      "30": "qa",
+      "31": "qa",
+      "32": "qa",
+      "33": "qa",
+      "34": "qa",
+      "35": "qa",
+      "36": "none",
+      "37": "negotiation",
+      "38": "none",
+      "39": "negotiation",
+      "40": "negotiation",
+      "41": "negotiation",
+      "42": "negotiation",
+      "43": "none",
+      "44": "negotiation",
+      "45": "none",
+      "46": "none",
+      "47": "none",
+      "48": "none",
+      "49": "none",
+      "50": "qa",
+      "51": "qa",
+      "52": "qa",
+      "53": "qa",
+      "54": "none",
+      "55": "none",
+      "56": "negotiation",
+      "57": "negotiation",
+      "58": "negotiation",
+      "59": "qa",
+      "60": "qa",
+      "61": "negotiation",
+      "62": "negotiation",
+      "63": "negotiation",
+      "64": "negotiation",
+      "65": "none"
+    },
+    "segment_seconds": {
+      "presentation": 82.0,
+      "qa": 170.0,
+      "social": 0.0,
+      "demonstration": 0.0,
+      "negotiation": 105.0,
+      "none": 167.0
+    },
+    "exchange_counts": {
+      "substantive": 9,
+      "social": 0,
+      "demonstration": 0,
+      "negotiation": 1
+    },
+    "turn_frame": {
+      "9": "promotion",
+      "10": "promotion",
+      "11": "promotion",
+      "12": "promotion",
+      "13": "promotion",
+      "14": "promotion",
+      "15": "prevention",
+      "17": "prevention",
+      "18": "prevention",
+      "20": "prevention",
+      "21": "prevention",
+      "23": "prevention",
+      "24": "prevention",
+      "25": "prevention",
+      "26": "prevention",
+      "27": "unclassified",
+      "28": "unclassified",
+      "30": "prevention",
+      "31": "prevention",
+      "32": "promotion",
+      "33": "promotion",
+      "34": "promotion",
+      "35": "promotion",
+      "50": "promotion",
+      "51": "promotion",
+      "52": "promotion",
+      "53": "promotion",
+      "59": "unclassified",
+      "60": "unclassified"
+    },
+    "frame_match": {
+      "10": "match",
+      "12": "match",
+      "14": "match",
+      "18": "match",
+      "21": "match",
+      "24": "match",
+      "26": "match",
+      "28": "unclassified",
+      "31": "match",
+      "33": "match",
+      "35": "match",
+      "51": "match",
+      "53": "match",
+      "60": "unclassified"
+    },
+    "other_concepts": []
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "H1",
+        "role": "host",
+        "label": "Narrator"
+      },
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Loria Stern"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Barbara Corcoran"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Robert Herjavec"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Lori Greiner"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Mark Cuban"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 17.0,
+        "end_s": 99.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 17.0,
+        "kind": "teaser"
+      },
+      {
+        "start_s": 577.0,
+        "end_s": 609.0,
+        "kind": "other"
+      }
+    ],
+    "gaps": [],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 23.0,
+        "note": "Smiling, energetic, uses words like gorgeous and beautiful to describe her creations."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 47.0,
+        "note": "Animated gestures and upbeat tone when describing how she combines baked goods with flowers."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 17.0,
+        "note": "Friendly greeting, welcoming smile, very approachable demeanor throughout the pitch."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "2",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "1",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "0",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "Edible flowers baked into artisanal cookies, cakes, and other sweet treats.",
+      "primary_industry": "food_beverage",
+      "secondary_industries": [],
+      "product_form": "physical_good",
+      "customer_type": "consumer",
+      "founder_gender": "all_women",
+      "product_category": "Botanical baked goods",
+      "earliest_s": 27.0,
+      "note": "",
+      "ask_amount_usd": 250000,
+      "ask_equity_pct": 12.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 17.0,
+        "end_s": 99.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Loria delivers her prepared pitch, introducing her edible flower baked goods and asking for investment."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "S1",
+        "start_s": 99.0,
+        "end_s": 100.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara laughs in response to Loria's opening question."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "F1",
+        "start_s": 100.0,
+        "end_s": 103.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Loria invites the panel to look at and taste the samples provided to them."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "S4",
+        "start_s": 107.0,
+        "end_s": 122.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori tastes the cookie and comments that it is very good."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "S1",
+        "start_s": 124.0,
+        "end_s": 125.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara describes the cookie as a rich buttery shortbread."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "S2",
+        "start_s": 126.0,
+        "end_s": 127.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert states that the product is incredible."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "S5",
+        "start_s": 128.0,
+        "end_s": 128.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark expresses amazement at the product."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "F1",
+        "start_s": 128.0,
+        "end_s": 130.0,
+        "function": "social",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Loria thanks Robert for his compliment."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "S1",
+        "start_s": 131.0,
+        "end_s": 132.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Barbara asks Loria how she came up with the idea for the business."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "F1",
+        "start_s": 133.0,
+        "end_s": 171.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          9
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Loria explains her background as a tennis player and private chef, which led to her baking for clients."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "S3",
+        "start_s": 172.0,
+        "end_s": 179.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks Loria to walk them through her sales figures."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "F1",
+        "start_s": 180.0,
+        "end_s": 200.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          11
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Loria details her lifetime sales and revenue breakdown over the past three years."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "S3",
+        "start_s": 200.0,
+        "end_s": 202.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks if she is selling direct to consumer."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "F1",
+        "start_s": 202.0,
+        "end_s": 203.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          13
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Loria confirms that her sales are direct to consumer."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "S3",
+        "start_s": 203.0,
+        "end_s": 205.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks if the business is profitable."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "F1",
+        "start_s": 205.0,
+        "end_s": 206.0,
+        "function": "NONE",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Loria repeats the question about profitability."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "S5",
+        "start_s": 206.0,
+        "end_s": 208.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark reiterates the question, stating he wants to know if she is profitable."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "F1",
+        "start_s": 208.0,
+        "end_s": 219.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          17
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Loria confirms she is very profitable, detailing the cost and retail price of a box of cookies."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "S4",
+        "start_s": 219.0,
+        "end_s": 221.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          18
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori expresses surprise at the high retail price of the cookies."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "S3",
+        "start_s": 224.0,
+        "end_s": 225.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks how much money she expects to make this year."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "F1",
+        "start_s": 225.0,
+        "end_s": 231.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          20
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Loria states her profit from the previous year."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "F1",
+        "start_s": 232.0,
+        "end_s": 258.0,
+        "function": "NONE",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Loria elaborates on how her business gained traction through viral photos and features in major publications."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "S3",
+        "start_s": 259.0,
+        "end_s": 261.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks who handles her social media."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "F1",
+        "start_s": 261.0,
+        "end_s": 262.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          23
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Loria states that she does everything herself."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "S3",
+        "start_s": 262.0,
+        "end_s": 264.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks if she works extremely long hours given her workload."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "F1",
+        "start_s": 264.0,
+        "end_s": 266.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          25
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Loria confirms that she works very hard."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "S5",
+        "start_s": 266.0,
+        "end_s": 269.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks what she is looking for in an investor."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "F1",
+        "start_s": 269.0,
+        "end_s": 277.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          27
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Loria explains she wants a mentor and a partner to give her advice."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "S2",
+        "start_s": 278.0,
+        "end_s": 285.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert compliments the product as a beautiful, artisanal, high-end item."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "S2",
+        "start_s": 285.0,
+        "end_s": 293.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks if she worries that the product's unique beauty might be lost if the business scales."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "F1",
+        "start_s": 293.0,
+        "end_s": 306.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          30
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Loria acknowledges the concern but sees opportunity to scale, mentioning a potential partnership with a major coffee chain."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "S2",
+        "start_s": 307.0,
+        "end_s": 308.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks if she would maintain the high price point in a mass-market setting."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "F1",
+        "start_s": 308.0,
+        "end_s": 310.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          32
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Loria clarifies she would offer a smaller package at a lower price point."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "S2",
+        "start_s": 311.0,
+        "end_s": 314.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks if she intends to package it differently rather than lowering the overall price point."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "F1",
+        "start_s": 314.0,
+        "end_s": 323.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          34
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Loria confirms she wants to offer a more accessible price point for a mass market."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "S3",
+        "start_s": 324.0,
+        "end_s": 331.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [
+          35
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin notes that many competitors exist at lower price points and praises her premium model."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "S3",
+        "start_s": 331.0,
+        "end_s": 335.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin states he is ready to make an offer."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "F1",
+        "start_s": 335.0,
+        "end_s": 336.0,
+        "function": "social",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Loria reacts with excitement to Kevin's statement."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "S3",
+        "start_s": 336.0,
+        "end_s": 342.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin reiterates that he is making an offer and frames it positively."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "S3",
+        "start_s": 342.0,
+        "end_s": 349.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin offers the requested amount for a larger equity stake."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "F1",
+        "start_s": 350.0,
+        "end_s": 358.0,
+        "function": "negotiates",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          40
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Loria asks Kevin to explain his vision for the company if they partner."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "S3",
+        "start_s": 358.0,
+        "end_s": 378.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          41
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin explains he wants to keep the brand premium and help her manage the workload, justifying his equity ask."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "S2",
+        "start_s": 378.0,
+        "end_s": 381.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert makes a lighthearted comment comparing Loria to a flower girl."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "F1",
+        "start_s": 382.0,
+        "end_s": 387.0,
+        "function": "negotiates",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Loria asks Lori for her thoughts and if she will make an offer."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "S4",
+        "start_s": 388.0,
+        "end_s": 403.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [
+          44
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori praises the product but decides the business is not the right fit for her and exits."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "F1",
+        "start_s": 404.0,
+        "end_s": 405.0,
+        "function": "social",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Loria thanks Lori for her time."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "S2",
+        "start_s": 406.0,
+        "end_s": 418.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert praises Loria's branding efforts but states he does not see the business as investable and exits."
+      },
+      {
+        "turn_id": 48,
+        "speaker": "F1",
+        "start_s": 418.0,
+        "end_s": 419.0,
+        "function": "social",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Loria thanks Robert."
+      },
+      {
+        "turn_id": 49,
+        "speaker": "S5",
+        "start_s": 420.0,
+        "end_s": 449.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark advises Loria to focus on her premium brand rather than going mainstream, and exits the negotiation."
+      },
+      {
+        "turn_id": 50,
+        "speaker": "S1",
+        "start_s": 450.0,
+        "end_s": 454.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "vision",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Barbara asks for clarification on whether Loria intends to take the product out of the premium space."
+      },
+      {
+        "turn_id": 51,
+        "speaker": "F1",
+        "start_s": 454.0,
+        "end_s": 462.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          50
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "vision",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Loria explains her desire to create a separate line of products for retail grocery stores."
+      },
+      {
+        "turn_id": 52,
+        "speaker": "S3",
+        "start_s": 462.0,
+        "end_s": 464.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks if she is currently selling in retail stores."
+      },
+      {
+        "turn_id": 53,
+        "speaker": "F1",
+        "start_s": 464.0,
+        "end_s": 465.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          52
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Loria confirms she is not currently in retail."
+      },
+      {
+        "turn_id": 54,
+        "speaker": "S5",
+        "start_s": 466.0,
+        "end_s": 472.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [
+          53
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark warns that the retail space is highly competitive and difficult."
+      },
+      {
+        "turn_id": 55,
+        "speaker": "S1",
+        "start_s": 472.0,
+        "end_s": 477.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [
+          54
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara notes that while retail is scary, Loria does not seem easily frightened."
+      },
+      {
+        "turn_id": 56,
+        "speaker": "F1",
+        "start_s": 478.0,
+        "end_s": 480.0,
+        "function": "negotiates",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Loria asks Barbara if she will make an offer."
+      },
+      {
+        "turn_id": 57,
+        "speaker": "S1",
+        "start_s": 480.0,
+        "end_s": 502.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          56
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara considers making an offer but questions why Loria needs a partner, wanting to ensure she can add value."
+      },
+      {
+        "turn_id": 58,
+        "speaker": "F1",
+        "start_s": 503.0,
+        "end_s": 517.0,
+        "function": "negotiates",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          57
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Loria explains she needs help hiring an operations manager to handle the workload so she can focus on growth."
+      },
+      {
+        "turn_id": 59,
+        "speaker": "S1",
+        "start_s": 518.0,
+        "end_s": 519.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Barbara asks if the investment money is intended for hiring and operations."
+      },
+      {
+        "turn_id": 60,
+        "speaker": "F1",
+        "start_s": 519.0,
+        "end_s": 526.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          59
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Loria confirms the funds are for operations and developing a consumer packaged goods product."
+      },
+      {
+        "turn_id": 61,
+        "speaker": "S1",
+        "start_s": 526.0,
+        "end_s": 535.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          60
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara states she can help with finding the right people and signals she will make an offer."
+      },
+      {
+        "turn_id": 62,
+        "speaker": "S1",
+        "start_s": 536.0,
+        "end_s": 540.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara offers the requested amount for a slightly higher equity stake than asked."
+      },
+      {
+        "turn_id": 63,
+        "speaker": "S5",
+        "start_s": 540.0,
+        "end_s": 542.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          62
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark encourages Loria to accept Barbara's offer immediately."
+      },
+      {
+        "turn_id": 64,
+        "speaker": "F1",
+        "start_s": 543.0,
+        "end_s": 545.0,
+        "function": "decides",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          62
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Loria accepts Barbara's offer."
+      },
+      {
+        "turn_id": 65,
+        "speaker": "S1",
+        "start_s": 546.0,
+        "end_s": 576.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Loria and Barbara celebrate the deal with the rest of the panel."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "substantive",
+        "topic": "self_promotion",
+        "label": "How she came up with the idea"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "Sales and revenue figures"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "go_to_market",
+        "label": "Sales channels"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "substantive",
+        "topic": "operating_efficiency",
+        "label": "Profitability and margins"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "team_capabilities",
+        "label": "Who does social media and workload"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "What she wants in a shark"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "Scaling the product and price points"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "negotiation",
+        "topic": "NONE",
+        "label": "Negotiating offers and terms"
+      },
+      {
+        "exchange_id": 9,
+        "kind": "substantive",
+        "topic": "vision",
+        "label": "Taking product out of premium space"
+      },
+      {
+        "exchange_id": 10,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "Use of the $250k investment"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S3",
+        "kind": "offer",
+        "time_s": 342.0,
+        "turn_id": 40,
+        "offer_id": "O1",
+        "terms": "$250,000 for 25%.",
+        "note": "Wants to keep it premium and help build the brand."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S4",
+        "kind": "exit",
+        "time_s": 388.0,
+        "turn_id": 45,
+        "offer_id": null,
+        "terms": "",
+        "note": "Thinks it's a beautiful luxury item but not the right business for her."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S2",
+        "kind": "exit",
+        "time_s": 406.0,
+        "turn_id": 47,
+        "offer_id": null,
+        "terms": "",
+        "note": "Thinks she has done a remarkable job but doesn't see the investable side."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S5",
+        "kind": "exit",
+        "time_s": 420.0,
+        "turn_id": 49,
+        "offer_id": null,
+        "terms": "",
+        "note": "Believes the company is her and trying to be mainstream will backfire; not a fit."
+      },
+      {
+        "decision_id": 5,
+        "actor": "S1",
+        "kind": "offer",
+        "time_s": 536.0,
+        "turn_id": 62,
+        "offer_id": "O2",
+        "terms": "$250,000 for 15%.",
+        "note": "Wants to be a valuable partner and help with operations and CPG development."
+      },
+      {
+        "decision_id": 6,
+        "actor": "F1",
+        "kind": "founder_accepts",
+        "time_s": 543.0,
+        "turn_id": 64,
+        "offer_id": "O2",
+        "terms": "Barbara, you have a deal.",
+        "note": "Accepts Barbara's offer."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": ""
+  }
+}

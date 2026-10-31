@@ -1,0 +1,2000 @@
+{
+  "pass": "primary",
+  "unit_key": "panel__st_fb94ba9b86__primary",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:17-1:42"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "qa",
+      "3": "qa",
+      "4": "demonstration",
+      "5": "demonstration",
+      "6": "demonstration",
+      "7": "social",
+      "8": "social",
+      "9": "social",
+      "10": "social",
+      "11": "qa",
+      "12": "qa",
+      "13": "qa",
+      "14": "qa",
+      "15": "qa",
+      "16": "qa",
+      "17": "qa",
+      "18": "qa",
+      "19": "qa",
+      "20": "qa",
+      "21": "qa",
+      "22": "qa",
+      "23": "qa",
+      "24": "qa",
+      "25": "qa",
+      "26": "qa",
+      "27": "social",
+      "28": "qa",
+      "29": "qa",
+      "30": "qa",
+      "31": "qa",
+      "32": "qa",
+      "33": "qa",
+      "34": "none",
+      "35": "qa",
+      "36": "qa",
+      "37": "qa",
+      "38": "qa",
+      "39": "qa",
+      "40": "qa",
+      "41": "qa",
+      "42": "qa",
+      "43": "social",
+      "44": "social",
+      "45": "qa",
+      "46": "qa",
+      "47": "none",
+      "48": "none",
+      "49": "none",
+      "50": "none",
+      "51": "none",
+      "52": "none",
+      "53": "none"
+    },
+    "segment_seconds": {
+      "presentation": 85.0,
+      "qa": 135.0,
+      "social": 17.0,
+      "demonstration": 6.0,
+      "negotiation": 0.0,
+      "none": 97.0
+    },
+    "exchange_counts": {
+      "substantive": 9,
+      "social": 3,
+      "demonstration": 1,
+      "negotiation": 0
+    },
+    "turn_frame": {
+      "2": "prevention",
+      "3": "prevention",
+      "11": "promotion",
+      "12": "promotion",
+      "14": "promotion",
+      "15": "promotion",
+      "16": "promotion",
+      "17": "promotion",
+      "18": "promotion",
+      "19": "promotion",
+      "20": "promotion",
+      "21": "prevention",
+      "22": "prevention",
+      "23": "prevention",
+      "24": "prevention",
+      "25": "unclassified",
+      "26": "unclassified",
+      "28": "prevention",
+      "29": "prevention",
+      "30": "promotion",
+      "31": "promotion",
+      "32": "prevention",
+      "33": "prevention",
+      "35": "prevention",
+      "36": "prevention",
+      "37": "prevention",
+      "38": "prevention",
+      "39": "prevention",
+      "40": "prevention",
+      "41": "prevention",
+      "45": "unclassified",
+      "46": "promotion"
+    },
+    "frame_match": {
+      "3": "match",
+      "12": "match",
+      "14": "match",
+      "16": "match",
+      "18": "match",
+      "20": "match",
+      "22": "match",
+      "24": "match",
+      "26": "unclassified",
+      "29": "match",
+      "31": "match",
+      "33": "match",
+      "36": "match",
+      "38": "match",
+      "41": "match",
+      "46": "unclassified"
+    },
+    "other_concepts": []
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Lerin Lockwood"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Emma Grede"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Barbara Corcoran"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Mark Cuban"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Lori Greiner"
+      },
+      {
+        "actor_id": "O1",
+        "role": "other",
+        "label": "Maggie (helper in dumpster)"
+      },
+      {
+        "actor_id": "O2",
+        "role": "other",
+        "label": "Male helper"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 17.0,
+        "end_s": 102.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 17.0,
+        "kind": "teaser"
+      },
+      {
+        "start_s": 396.0,
+        "end_s": 434.0,
+        "kind": "recap"
+      }
+    ],
+    "gaps": [
+      {
+        "at_s": 192.0,
+        "note": "edited gap before Kevin asks about the last 12 months"
+      },
+      {
+        "at_s": 228.0,
+        "note": "edited gap before Lerin explains her manufacturing struggles"
+      },
+      {
+        "at_s": 250.0,
+        "note": "edited gap before Kevin questions her packing process"
+      },
+      {
+        "at_s": 273.0,
+        "note": "edited gap before Kevin summarizes her hiring needs"
+      },
+      {
+        "at_s": 318.0,
+        "note": "edited gap before Emma's decision"
+      },
+      {
+        "at_s": 331.0,
+        "note": "edited gap before Lori's decision"
+      }
+    ],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 59.0,
+        "note": "Lerin maintains a very cheerful, upbeat tone with frequent smiles throughout the presentation."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 59.0,
+        "note": "She uses energetic gestures and vocal inflection to show excitement about solving the lost ring problem."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 59.0,
+        "note": "Her friendly demeanor and playful interaction with her helpers convey strong interpersonal warmth."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "1",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "0",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "A small, secure, lockable container that attaches to a bag or keyring to store small valuables like rings or hearing aids.",
+      "primary_industry": "apparel_accessories",
+      "secondary_industries": [],
+      "product_form": "physical_good",
+      "customer_type": "consumer",
+      "founder_gender": "all_women",
+      "product_category": "small lockable container",
+      "earliest_s": 26.0,
+      "note": "",
+      "ask_amount_usd": 150000,
+      "ask_equity_pct": 15.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 17.0,
+        "end_s": 102.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lerin introduces herself, asks for funding, and demonstrates the Lion Latch as a solution for keeping small valuables secure."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "S3",
+        "start_s": 103.0,
+        "end_s": 106.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Barbara asks what prevents someone from simply losing the Lion Latch container itself."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "F1",
+        "start_s": 106.0,
+        "end_s": 119.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          2
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lerin explains that the container is designed to attach to keys, purses, or gym bags so it won't float around."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "S4",
+        "start_s": 119.0,
+        "end_s": 122.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark asks Kevin what he found inside his sample container."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "S1",
+        "start_s": 122.0,
+        "end_s": 123.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin opens his container and asks if the items inside are hearing aids."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "F1",
+        "start_s": 123.0,
+        "end_s": 125.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lerin confirms they are hearing aids and jokes she has waited seasons to give them to him."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "S1",
+        "start_s": 126.0,
+        "end_s": 128.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin jokes that he needs the hearing aids."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "F1",
+        "start_s": 128.0,
+        "end_s": 129.0,
+        "function": "social",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lerin teasingly adds that they are for his listening skills."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "S1",
+        "start_s": 129.0,
+        "end_s": 131.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin sarcastically thanks her."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "S4",
+        "start_s": 132.0,
+        "end_s": 138.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark laughs and says her joke endears her to him."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "S2",
+        "start_s": 138.0,
+        "end_s": 140.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Emma asks Lerin how she came up with the idea for the product."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "F1",
+        "start_s": 140.0,
+        "end_s": 170.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          11
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lerin shares the story of flattening her engagement ring while catching a softball, which knocked out a diamond."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "S5",
+        "start_s": 170.0,
+        "end_s": 171.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori reacts with sympathy to the story of the lost diamond."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "F1",
+        "start_s": 171.0,
+        "end_s": 183.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          11
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lerin continues, explaining she initially 3D printed the product for herself before realizing others wanted it too."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "S1",
+        "start_s": 184.0,
+        "end_s": 185.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks if she has sold any units."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "F1",
+        "start_s": 185.0,
+        "end_s": 187.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          15
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lerin states she has done $530,000 in sales to date."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "S1",
+        "start_s": 188.0,
+        "end_s": 189.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks over what period of time she achieved those sales."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "F1",
+        "start_s": 189.0,
+        "end_s": 190.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          17
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lerin replies that the sales were over a five-year period."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "S1",
+        "start_s": 191.0,
+        "end_s": 192.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks for her sales figures from the last twelve months."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "F1",
+        "start_s": 193.0,
+        "end_s": 199.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          19
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lerin states that last year she did $230,000 in sales and grossed $54,000."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "S4",
+        "start_s": 199.0,
+        "end_s": 200.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark corrects her terminology, clarifying that she netted $54,000, not grossed."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "F1",
+        "start_s": 200.0,
+        "end_s": 202.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          21
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lerin concedes the correction, confirming her net profit was $54,000."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "S3",
+        "start_s": 203.0,
+        "end_s": 204.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Barbara asks how much money Lerin initially put into the business."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "F1",
+        "start_s": 204.0,
+        "end_s": 206.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          23
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lerin answers that she did not put any of her own money into the business."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "S1",
+        "start_s": 207.0,
+        "end_s": 209.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks if she owns one hundred percent of the product."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "F1",
+        "start_s": 209.0,
+        "end_s": 210.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          25
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lerin confirms that she owns the entire business."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "S4",
+        "start_s": 211.0,
+        "end_s": 213.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark compliments her achievement, calling it Texas proud."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "S5",
+        "start_s": 213.0,
+        "end_s": 216.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks if Lerin is still working her teaching job or focusing solely on the business."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "F1",
+        "start_s": 216.0,
+        "end_s": 220.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          28
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "team_capabilities",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lerin explains that she made the decision to resign from teaching this year."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "S2",
+        "start_s": 220.0,
+        "end_s": 222.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Emma asks what the product sells for."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "F1",
+        "start_s": 222.0,
+        "end_s": 224.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          30
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lerin states it wholesales for five dollars and retails for ten dollars."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "S4",
+        "start_s": 224.0,
+        "end_s": 225.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks how much it costs her to manufacture one unit."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "F1",
+        "start_s": 225.0,
+        "end_s": 227.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          32
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lerin answers that it costs about a dollar and fifty cents to make."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "F1",
+        "start_s": 228.0,
+        "end_s": 242.0,
+        "function": "NONE",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lerin unpromptedly explains her struggles with manufacturers and how her family has to drive to pick up the product."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "S5",
+        "start_s": 242.0,
+        "end_s": 243.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks why she doesn't have the manufacturer ship the product directly."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "F1",
+        "start_s": 243.0,
+        "end_s": 250.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          35
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lerin explains she needs the product to come to her first so she can perform a second round of quality control."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "S1",
+        "start_s": 250.0,
+        "end_s": 254.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin expresses disbelief and asks if she is personally packing each product one at a time."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "F1",
+        "start_s": 254.0,
+        "end_s": 256.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          37
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lerin confirms that she is still personally packing the orders."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "S2",
+        "start_s": 256.0,
+        "end_s": 257.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Emma begins to ask how Lerin can possibly scale the business with this process."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "S1",
+        "start_s": 257.0,
+        "end_s": 259.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin finishes the thought, asking how she can scale if she also needs to sleep."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "F1",
+        "start_s": 260.0,
+        "end_s": 264.0,
+        "function": "answer",
+        "addressed": [
+          "S1",
+          "S2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          39,
+          40
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lerin reminds Kevin that she just quit her full-time teaching job to dedicate all her time to the business."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "S1",
+        "start_s": 264.0,
+        "end_s": 265.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin acknowledges that he heard she quit teaching."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "S5",
+        "start_s": 265.0,
+        "end_s": 266.0,
+        "function": "social",
+        "addressed": [
+          "F1",
+          "S1"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori jokes that Kevin needs to use his hearing aids."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "F1",
+        "start_s": 266.0,
+        "end_s": 269.0,
+        "function": "social",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lerin playfully agrees and tells Kevin to put the hearing aids in."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "S1",
+        "start_s": 273.0,
+        "end_s": 284.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin suggests she just wants an investor to give money while she does the work, rather than solving her problems."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "F1",
+        "start_s": 284.0,
+        "end_s": 290.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          45
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "deflects",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lerin deflects the critique by pivoting back to the product's use cases, noting it can also hold money."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "F1",
+        "start_s": 293.0,
+        "end_s": 300.0,
+        "function": "NONE",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lerin continues pitching the various uses for the product, urging the investors not to leave their valuables unsecured."
+      },
+      {
+        "turn_id": 48,
+        "speaker": "S1",
+        "start_s": 300.0,
+        "end_s": 306.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin emphatically declares that he is out."
+      },
+      {
+        "turn_id": 49,
+        "speaker": "S4",
+        "start_s": 308.0,
+        "end_s": 317.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark praises her accomplishments but exits because he does not see the business reaching massive scale."
+      },
+      {
+        "turn_id": 50,
+        "speaker": "S2",
+        "start_s": 320.0,
+        "end_s": 331.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Emma commends her tenacity but exits because she is not interested in the product on its own."
+      },
+      {
+        "turn_id": 51,
+        "speaker": "S5",
+        "start_s": 334.0,
+        "end_s": 358.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori notes the manufacturing issues make it uninvestable for her, despite being a good small business, and exits."
+      },
+      {
+        "turn_id": 52,
+        "speaker": "F1",
+        "start_s": 361.0,
+        "end_s": 374.0,
+        "function": "NONE",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lerin makes an emotional appeal, expressing how hard she has worked and her hope for their help."
+      },
+      {
+        "turn_id": 53,
+        "speaker": "S3",
+        "start_s": 375.0,
+        "end_s": 388.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara praises Lerin's entrepreneurial spirit but exits because she feels the business is too small."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "losing the container"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "substantive",
+        "topic": "self_promotion",
+        "label": "origin story"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "sales history"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "substantive",
+        "topic": "operating_efficiency",
+        "label": "initial investment"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "ownership"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "substantive",
+        "topic": "team_capabilities",
+        "label": "time commitment"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "pricing and cost"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "manufacturing and scaling"
+      },
+      {
+        "exchange_id": 9,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "investor role"
+      },
+      {
+        "exchange_id": 10,
+        "kind": "demonstration",
+        "topic": "NONE",
+        "label": "hearing aids"
+      },
+      {
+        "exchange_id": 11,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "listening skills joke"
+      },
+      {
+        "exchange_id": 12,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "Texas compliment"
+      },
+      {
+        "exchange_id": 13,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "hearing aids joke"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S1",
+        "kind": "exit",
+        "time_s": 300.0,
+        "turn_id": 48,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "He wants to just invest money and have her do the work, not solve her manufacturing problems."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S4",
+        "kind": "exit",
+        "time_s": 308.0,
+        "turn_id": 49,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "He doesn't believe the business can scale to 10 to 50 million dollars in sales."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S2",
+        "kind": "exit",
+        "time_s": 320.0,
+        "turn_id": 50,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "She admires her tenacity but is not interested in the product on its own."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S5",
+        "kind": "exit",
+        "time_s": 334.0,
+        "turn_id": 51,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "The manufacturing issues make it uninvestable for her, though it's a good small business."
+      },
+      {
+        "decision_id": 5,
+        "actor": "S3",
+        "kind": "exit",
+        "time_s": 375.0,
+        "turn_id": 53,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "She thinks Lerin is a great entrepreneur, but the business is too small."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": "Emma Grede is the guest shark."
+  }
+}

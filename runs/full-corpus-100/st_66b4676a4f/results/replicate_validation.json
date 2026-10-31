@@ -1,0 +1,19 @@
+{
+  "errors": [
+    "[turn.function] turn 31: 'challenge' is not a TURN-FUNC value",
+    "[turn.function] turn 41: 'challenge' is not a TURN-FUNC value"
+  ],
+  "flags": [
+    "[flag.turn_role] turn 1: presents is expected from a founder, got other 'O1'",
+    "[flag.answer_link] turn 15: answer responds to no question or challenges turn",
+    "[flag.answer_link] turn 32: answer responds to no question or challenges turn",
+    "[flag.turn_role] turn 37: accepts is expected from an investor, got founder 'F1'",
+    "[flag.demonstration_without_exchange] turn 4: demonstrates belongs to no exchange",
+    "[flag.unlinked_response] turn 14: accepts responds to no recorded turn",
+    "[flag.unlinked_response] turn 26: accepts responds to no recorded turn",
+    "[flag.unlinked_response] turn 37: accepts responds to no recorded turn",
+    "[flag.gap] gap at 183.0s",
+    "[flag.gap] gap at 445.0s",
+    "[flag.gap] gap at 502.0s"
+  ]
+}

@@ -1,0 +1,1945 @@
+{
+  "pass": "primary",
+  "unit_key": "panel__st_e6c1077283__primary",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "1:34-3:26"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "qa",
+      "3": "qa",
+      "4": "qa",
+      "5": "qa",
+      "6": "qa",
+      "7": "qa",
+      "8": "social",
+      "9": "social",
+      "10": "social",
+      "11": "social",
+      "12": "qa",
+      "13": "social",
+      "14": "demonstration",
+      "15": "qa",
+      "16": "qa",
+      "17": "negotiation",
+      "18": "demonstration",
+      "19": "demonstration",
+      "20": "none",
+      "21": "negotiation",
+      "22": "negotiation",
+      "23": "negotiation",
+      "24": "none",
+      "25": "negotiation",
+      "26": "negotiation",
+      "27": "negotiation",
+      "28": "negotiation",
+      "29": "negotiation",
+      "30": "negotiation",
+      "31": "negotiation",
+      "32": "negotiation",
+      "33": "negotiation",
+      "34": "qa",
+      "35": "qa",
+      "36": "qa",
+      "37": "qa",
+      "38": "qa",
+      "39": "qa",
+      "40": "qa",
+      "41": "qa",
+      "42": "negotiation",
+      "43": "negotiation",
+      "44": "negotiation",
+      "45": "negotiation",
+      "46": "negotiation",
+      "47": "negotiation",
+      "48": "negotiation",
+      "49": "negotiation",
+      "50": "negotiation",
+      "51": "negotiation",
+      "52": "negotiation",
+      "53": "negotiation",
+      "54": "negotiation",
+      "55": "negotiation",
+      "56": "negotiation",
+      "57": "negotiation",
+      "58": "negotiation",
+      "59": "negotiation",
+      "60": "negotiation",
+      "61": "negotiation",
+      "62": "demonstration",
+      "63": "negotiation",
+      "64": "negotiation",
+      "65": "negotiation",
+      "66": "negotiation",
+      "67": "negotiation",
+      "68": "negotiation",
+      "69": "negotiation",
+      "70": "negotiation",
+      "71": "none",
+      "72": "negotiation",
+      "73": "negotiation",
+      "74": "negotiation",
+      "75": "negotiation",
+      "76": "none"
+    },
+    "segment_seconds": {
+      "presentation": 112.0,
+      "qa": 135.0,
+      "social": 26.0,
+      "demonstration": 43.0,
+      "negotiation": 482.0,
+      "none": 57.0
+    },
+    "exchange_counts": {
+      "substantive": 5,
+      "social": 1,
+      "demonstration": 3,
+      "negotiation": 1
+    },
+    "turn_frame": {
+      "2": "promotion",
+      "3": "promotion",
+      "4": "unclassified",
+      "5": "unclassified",
+      "12": "prevention",
+      "15": "promotion",
+      "16": "unclassified",
+      "34": "unclassified",
+      "35": "unclassified",
+      "36": "unclassified",
+      "37": "unclassified",
+      "38": "unclassified",
+      "39": "unclassified",
+      "40": "unclassified",
+      "41": "unclassified"
+    },
+    "frame_match": {
+      "3": "match",
+      "5": "unclassified",
+      "35": "unclassified",
+      "37": "unclassified",
+      "39": "unclassified",
+      "41": "unclassified"
+    },
+    "other_concepts": [
+      {
+        "where": "turn",
+        "id": 34,
+        "code": "PR-CONCEPT",
+        "name": "phone call",
+        "clock": "10:26"
+      },
+      {
+        "where": "turn",
+        "id": 35,
+        "code": "RS-CONCEPT",
+        "name": "phone call",
+        "clock": "10:28"
+      },
+      {
+        "where": "turn",
+        "id": 36,
+        "code": "PR-CONCEPT",
+        "name": "phone call",
+        "clock": "10:37"
+      },
+      {
+        "where": "turn",
+        "id": 37,
+        "code": "RS-CONCEPT",
+        "name": "phone call",
+        "clock": "10:38"
+      },
+      {
+        "where": "exchange",
+        "id": 9,
+        "code": "EX-TOPIC",
+        "name": "jim koch phone call",
+        "clock": "10:26"
+      }
+    ]
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "James Martin"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Mark Cuban"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Daymond John"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Barbara Corcoran"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Robert Herjavec"
+      },
+      {
+        "actor_id": "H1",
+        "role": "host",
+        "label": "Narrator"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 94.0,
+        "end_s": 206.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 75.0,
+        "kind": "recap"
+      },
+      {
+        "start_s": 602.0,
+        "end_s": 618.0,
+        "kind": "interview"
+      },
+      {
+        "start_s": 1001.0,
+        "end_s": 1043.0,
+        "kind": "interview"
+      }
+    ],
+    "gaps": [],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 168.0,
+        "note": "Enthusiastic engagement characterizes most of the presentation alongside some mixed interactions."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 5,
+        "uncodable": false,
+        "moment_s": 127.0,
+        "note": "Pronounced, sustained engagement and excitement characterize the presentation across its substantive content."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 3,
+        "uncodable": false,
+        "moment_s": 94.0,
+        "note": "An approachable, friendly orientation is apparent at several points alongside more impersonal, serious delivery."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "2",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "3",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "Premium wine served in a patented single-serve sealed glass.",
+      "primary_industry": "food_beverage",
+      "secondary_industries": [],
+      "product_form": "physical_good",
+      "customer_type": "consumer",
+      "founder_gender": "all_men",
+      "product_category": "single-serve wine",
+      "earliest_s": 97.0,
+      "note": "The founder is seeking investment to build a second bottling line to keep up with demand.",
+      "ask_amount_usd": 300000,
+      "ask_equity_pct": 5.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 94.0,
+        "end_s": 206.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "James delivers his prepared presentation, detailing his explosive sales growth and the need for capital to build a second line."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "S1",
+        "start_s": 206.0,
+        "end_s": 214.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks James if he has reconsidered his refusal to license the single-serve wine technology to the broader industry."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "F1",
+        "start_s": 214.0,
+        "end_s": 242.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          2
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "deflects",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "1",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "James deflects the licensing question by presenting a custom-labeled wine bottle he created specifically to mock Kevin."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "S1",
+        "start_s": 242.0,
+        "end_s": 245.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks James to confirm the exact terms of the offer he walked away from during his previous appearance."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "F1",
+        "start_s": 245.0,
+        "end_s": 251.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          4
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "James confirms that Kevin had previously offered him six hundred thousand dollars for a fifty-one percent stake in the patents."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "S1",
+        "start_s": 251.0,
+        "end_s": 254.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          5
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin states that he still believes his previous offer was a great deal for the business."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "S2",
+        "start_s": 254.0,
+        "end_s": 256.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark asserts that James made a mistake by walking away from the previous offer."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "F1",
+        "start_s": 256.0,
+        "end_s": 258.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "James jokes about the investors having good memories of his previous pitch."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "S3",
+        "start_s": 258.0,
+        "end_s": 264.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond jokes with James, warning him that the panel will not be as gentle as they were last time."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "F1",
+        "start_s": 265.0,
+        "end_s": 272.0,
+        "function": "social",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "James jokes back that he does not remember the panel being gentle during his first appearance."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "S3",
+        "start_s": 272.0,
+        "end_s": 274.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond insists that their previous treatment of James was indeed gentle."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "F1",
+        "start_s": 274.0,
+        "end_s": 287.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          7
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "James defends his previous decision, stating he has now proven the brand's value and increased the worth of his patents."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "S1",
+        "start_s": 287.0,
+        "end_s": 296.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin jokes about his previous comment calling James a dead man walking, asking if he is now a ghost."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "F1",
+        "start_s": 296.0,
+        "end_s": 316.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "James shows the panel a custom wine bottle featuring a label that reads dead man walking."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "S1",
+        "start_s": 316.0,
+        "end_s": 346.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin proposes a strategy to license the technology to the top three wine players, claiming it would quadruple James's wealth."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "S2",
+        "start_s": 346.0,
+        "end_s": 348.0,
+        "function": "question",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks Kevin to clarify if he is proposing the exact same offer he made during James's first appearance."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "S1",
+        "start_s": 348.0,
+        "end_s": 351.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin confirms he is making the same offer of six hundred thousand dollars for fifty-one percent."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "S3",
+        "start_s": 351.0,
+        "end_s": 357.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond recalls James passing out wine during his first pitch and asks him to do so again."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "F1",
+        "start_s": 357.0,
+        "end_s": 367.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "James hands out samples of his single-serve wine to the panel to demonstrate the ease of the product."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "S3",
+        "start_s": 367.0,
+        "end_s": 376.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond states he was not interested in the business last time and is exiting the deal."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "S1",
+        "start_s": 376.0,
+        "end_s": 404.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin expresses a desire to stop fighting and find a way to partner with James on the valuable technology."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "S2",
+        "start_s": 404.0,
+        "end_s": 420.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark states he is uncomfortable with the six million dollar valuation and asks James to be flexible on the equity."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "F1",
+        "start_s": 420.0,
+        "end_s": 458.0,
+        "function": "negotiates",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "James agrees to negotiate and attempts to justify his valuation by comparing his business to other national brands."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "S4",
+        "start_s": 458.0,
+        "end_s": 488.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara states she still has a negative visceral reaction to James and exits the negotiation."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "S2",
+        "start_s": 488.0,
+        "end_s": 516.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark reiterates that the panel values the company lower than James does and asks him to adjust his valuation."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "F1",
+        "start_s": 516.0,
+        "end_s": 527.0,
+        "function": "negotiates",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "James acknowledges their interest and expresses a willingness to work on the valuation to reach a deal."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "S1",
+        "start_s": 527.0,
+        "end_s": 536.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin offers three hundred thousand dollars for twelve percent equity, valuing the company at exactly two and a half million."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "S5",
+        "start_s": 536.0,
+        "end_s": 539.0,
+        "function": "negotiates",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert clarifies with Kevin that his offer implies a two and a half million dollar valuation for the company."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "S1",
+        "start_s": 539.0,
+        "end_s": 544.0,
+        "function": "negotiates",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin confirms that he believes the company is worth exactly two and a half million dollars."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "S1",
+        "start_s": 544.0,
+        "end_s": 565.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin urges James to accept the offer, emphasizing the tremendous global potential of the business with his involvement."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "S2",
+        "start_s": 565.0,
+        "end_s": 578.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark advises James to make a phone call before deciding, suggesting he might be able to improve the offer."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "S2",
+        "start_s": 582.0,
+        "end_s": 601.0,
+        "function": "negotiates",
+        "addressed": [
+          "S1",
+          "S5"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark proposes to Kevin and Robert that they team up to offer more money for a thirty percent stake."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "S4",
+        "start_s": 619.0,
+        "end_s": 624.0,
+        "function": "negotiates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara comments to the other investors, anticipating James's reaction when he returns to the room."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "S5",
+        "start_s": 626.0,
+        "end_s": 628.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "other",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": "phone call",
+        "summary": "Robert asks James who he spoke with on the phone during his break from the pitch."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "F1",
+        "start_s": 628.0,
+        "end_s": 637.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          34
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "other",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": "phone call",
+        "summary": "James answers that he called Jim Koch, the founder of a major beer company."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "S5",
+        "start_s": 637.0,
+        "end_s": 638.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "other",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": "phone call",
+        "summary": "Robert asks James what advice Jim Koch gave him regarding the negotiation."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "F1",
+        "start_s": 638.0,
+        "end_s": 647.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          36
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "other",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": "phone call",
+        "summary": "James explains that Jim advised him to ensure any new partner shares his vision for the company."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "S2",
+        "start_s": 647.0,
+        "end_s": 650.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks if Jim Koch is an investor or equity owner in the business."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "F1",
+        "start_s": 650.0,
+        "end_s": 653.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          38
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "James clarifies that Jim is an advisor and does not hold any equity in the company."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "S2",
+        "start_s": 653.0,
+        "end_s": 656.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark challenges James, asking why Jim did not simply provide the capital if the business is so promising."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "F1",
+        "start_s": 656.0,
+        "end_s": 666.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          40
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "James defends Jim's role, stating that the best advice comes from an unbiased party without a financial stake."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "S5",
+        "start_s": 666.0,
+        "end_s": 671.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert asks James what Jim advised him to do regarding Kevin's offer of three hundred thousand for twelve percent."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "F1",
+        "start_s": 671.0,
+        "end_s": 698.0,
+        "function": "decides",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "James counters Kevin's offer, proposing three hundred thousand dollars for an eight percent stake based on Jim's advice."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "S5",
+        "start_s": 698.0,
+        "end_s": 699.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert asks James to confirm if that is his final counter-offer."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "F1",
+        "start_s": 699.0,
+        "end_s": 702.0,
+        "function": "negotiates",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "James confirms that eight percent is his counter-offer."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "S2",
+        "start_s": 702.0,
+        "end_s": 706.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark informs James that he is not interested in the counter-offer."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "F1",
+        "start_s": 706.0,
+        "end_s": 708.0,
+        "function": "negotiates",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "James asks Mark to explain why he is not interested in the eight percent equity stake."
+      },
+      {
+        "turn_id": 48,
+        "speaker": "S2",
+        "start_s": 708.0,
+        "end_s": 716.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark explains that eight percent does not provide enough equity for the investors to be fully committed."
+      },
+      {
+        "turn_id": 49,
+        "speaker": "F1",
+        "start_s": 716.0,
+        "end_s": 731.0,
+        "function": "negotiates",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "James argues that he has his own valuation for the company, just as the investors have theirs."
+      },
+      {
+        "turn_id": 50,
+        "speaker": "S2",
+        "start_s": 731.0,
+        "end_s": 753.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark presents a joint offer with Robert and Kevin for six hundred thousand dollars in exchange for thirty percent equity."
+      },
+      {
+        "turn_id": 51,
+        "speaker": "S5",
+        "start_s": 753.0,
+        "end_s": 757.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert points out that the joint offer provides twice the capital James originally requested."
+      },
+      {
+        "turn_id": 52,
+        "speaker": "F1",
+        "start_s": 757.0,
+        "end_s": 771.0,
+        "function": "negotiates",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "James asks if partnering with Mark would guarantee his product placement in Mark's sports stadium."
+      },
+      {
+        "turn_id": 53,
+        "speaker": "S2",
+        "start_s": 771.0,
+        "end_s": 791.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark states he cannot guarantee stadium placement just because they have a service organization."
+      },
+      {
+        "turn_id": 54,
+        "speaker": "S2",
+        "start_s": 791.0,
+        "end_s": 794.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark warns James that he is overthinking the deal and needs to make a decision immediately."
+      },
+      {
+        "turn_id": 55,
+        "speaker": "S3",
+        "start_s": 794.0,
+        "end_s": 798.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond advises James not to make the same mistake he made during his first pitch."
+      },
+      {
+        "turn_id": 56,
+        "speaker": "S5",
+        "start_s": 798.0,
+        "end_s": 816.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert emphasizes the unique opportunity James has with three investors willing to partner with him."
+      },
+      {
+        "turn_id": 57,
+        "speaker": "F1",
+        "start_s": 816.0,
+        "end_s": 822.0,
+        "function": "negotiates",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "James expresses concern about Kevin constantly pressuring him to split or sell the company."
+      },
+      {
+        "turn_id": 58,
+        "speaker": "S5",
+        "start_s": 822.0,
+        "end_s": 837.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert reassures James that he and Mark will manage Kevin and urges James to make a decision."
+      },
+      {
+        "turn_id": 59,
+        "speaker": "F1",
+        "start_s": 837.0,
+        "end_s": 859.0,
+        "function": "negotiates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "James states he wants to partner but is hesitant to give up thirty percent without guaranteed stadium placement."
+      },
+      {
+        "turn_id": 60,
+        "speaker": "S2",
+        "start_s": 859.0,
+        "end_s": 862.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark reiterates that James simply needs to make a decision on the offer presented."
+      },
+      {
+        "turn_id": 61,
+        "speaker": "S5",
+        "start_s": 862.0,
+        "end_s": 881.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert states they have made a fair offer and pressures James to give them an answer."
+      },
+      {
+        "turn_id": 62,
+        "speaker": "F1",
+        "start_s": 881.0,
+        "end_s": 888.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "James opens a bottle of wine, calling it a million-dollar bottle."
+      },
+      {
+        "turn_id": 63,
+        "speaker": "S1",
+        "start_s": 888.0,
+        "end_s": 893.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin reminds James that the offer requires giving up thirty percent of the company."
+      },
+      {
+        "turn_id": 64,
+        "speaker": "F1",
+        "start_s": 893.0,
+        "end_s": 900.0,
+        "function": "negotiates",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "James argues that giving up thirty percent means selling a large portion of his company at a significant discount."
+      },
+      {
+        "turn_id": 65,
+        "speaker": "S1",
+        "start_s": 900.0,
+        "end_s": 902.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin tells James he is not thinking clearly about the value the investors bring to the business."
+      },
+      {
+        "turn_id": 66,
+        "speaker": "S5",
+        "start_s": 902.0,
+        "end_s": 906.0,
+        "function": "negotiates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert interprets James's actions as a sign that he is going to accept the offer."
+      },
+      {
+        "turn_id": 67,
+        "speaker": "S5",
+        "start_s": 906.0,
+        "end_s": 910.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert asks James to clearly state his decision."
+      },
+      {
+        "turn_id": 68,
+        "speaker": "S1",
+        "start_s": 910.0,
+        "end_s": 914.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin suggests they drink the wine together to celebrate the deal."
+      },
+      {
+        "turn_id": 69,
+        "speaker": "S5",
+        "start_s": 914.0,
+        "end_s": 924.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert again asks James to explicitly state what he is deciding."
+      },
+      {
+        "turn_id": 70,
+        "speaker": "F1",
+        "start_s": 924.0,
+        "end_s": 928.0,
+        "function": "decides",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "James rejects the joint offer and decides to walk away from the deal."
+      },
+      {
+        "turn_id": 71,
+        "speaker": "S2",
+        "start_s": 928.0,
+        "end_s": 940.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark expresses frustration with James's behavior, accusing him of playing games, and exits the negotiation."
+      },
+      {
+        "turn_id": 72,
+        "speaker": "F1",
+        "start_s": 940.0,
+        "end_s": 957.0,
+        "function": "negotiates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "James defends his actions, stating he came seeking a partnership at a reasonable valuation determined by experts."
+      },
+      {
+        "turn_id": 73,
+        "speaker": "S3",
+        "start_s": 957.0,
+        "end_s": 960.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond challenges James by pointing out that none of those experts actually invested money in his company."
+      },
+      {
+        "turn_id": 74,
+        "speaker": "S2",
+        "start_s": 960.0,
+        "end_s": 965.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark reiterates that a company is only worth what someone is willing to pay and confirms his exit."
+      },
+      {
+        "turn_id": 75,
+        "speaker": "S3",
+        "start_s": 975.0,
+        "end_s": 978.0,
+        "function": "negotiates",
+        "addressed": [
+          "S1",
+          "S5"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond asks Robert and Kevin if they plan to split the deal without Mark."
+      },
+      {
+        "turn_id": 76,
+        "speaker": "S5",
+        "start_s": 978.0,
+        "end_s": 984.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert states that James wasted their time and exits the negotiation."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "substantive",
+        "topic": "go_to_market",
+        "label": "licensing the technology"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "previous offer details"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "joking about gentle treatment"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "demonstration",
+        "topic": "NONE",
+        "label": "dead man walking bottle"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "go_to_market",
+        "label": "licensing to top players"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "confirming original offer"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "negotiation",
+        "topic": "NONE",
+        "label": "offers and terms"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "demonstration",
+        "topic": "NONE",
+        "label": "passing out wine"
+      },
+      {
+        "exchange_id": 9,
+        "kind": "substantive",
+        "topic": "other",
+        "label": "jim koch phone call"
+      },
+      {
+        "exchange_id": 10,
+        "kind": "demonstration",
+        "topic": "NONE",
+        "label": "opening wine to celebrate"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S1",
+        "kind": "offer",
+        "time_s": 348.0,
+        "turn_id": 17,
+        "offer_id": "O1",
+        "terms": "600k for 51%",
+        "note": "Reiterates his previous offer of $600k for 51% to license the technology to major players."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S3",
+        "kind": "exit",
+        "time_s": 367.0,
+        "turn_id": 20,
+        "offer_id": null,
+        "terms": "I'm out",
+        "note": "Was not interested last time and is just watching the interaction for entertainment."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S4",
+        "kind": "exit",
+        "time_s": 458.0,
+        "turn_id": 24,
+        "offer_id": null,
+        "terms": "I'm out",
+        "note": "Has a negative visceral reaction to the founder and does not like him."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S1",
+        "kind": "offer",
+        "time_s": 527.0,
+        "turn_id": 27,
+        "offer_id": "O2",
+        "terms": "300k for 12%",
+        "note": "Believes the company is worth exactly $2.5 million and offers accordingly."
+      },
+      {
+        "decision_id": 5,
+        "actor": "F1",
+        "kind": "founder_counters",
+        "time_s": 671.0,
+        "turn_id": 43,
+        "offer_id": "O2",
+        "terms": "300k for 8%",
+        "note": "Advised by Jim Koch that the company is worth more than the offer presented."
+      },
+      {
+        "decision_id": 6,
+        "actor": "S2",
+        "kind": "offer",
+        "time_s": 731.0,
+        "turn_id": 50,
+        "offer_id": "O3",
+        "terms": "600k for 30%",
+        "note": "Mark, Robert, and Kevin team up to offer $600k for 10% equity each."
+      },
+      {
+        "decision_id": 7,
+        "actor": "F1",
+        "kind": "founder_rejects",
+        "time_s": 924.0,
+        "turn_id": 70,
+        "offer_id": "O3",
+        "terms": "I'm out",
+        "note": "Wants a guarantee of stadium entry and feels 30% is too much equity to give up."
+      },
+      {
+        "decision_id": 8,
+        "actor": "S2",
+        "kind": "exit",
+        "time_s": 928.0,
+        "turn_id": 71,
+        "offer_id": null,
+        "terms": "I'm out",
+        "note": "Thinks the founder is playing games and creating unnecessary drama."
+      },
+      {
+        "decision_id": 9,
+        "actor": "S5",
+        "kind": "exit",
+        "time_s": 978.0,
+        "turn_id": 76,
+        "offer_id": null,
+        "terms": "I'm out",
+        "note": "Feels the founder just came to waste their time without serious intent to deal."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": "A phone call insert with Jim Koch is shown during the pitch; it is recorded as an excluded span since he is not present in the room."
+  }
+}

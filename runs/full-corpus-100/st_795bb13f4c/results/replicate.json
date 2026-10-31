@@ -1,0 +1,1825 @@
+{
+  "pass": "replicate",
+  "unit_key": "panel__st_795bb13f4c__replicate",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:16-2:23"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "presentation",
+      "3": "presentation",
+      "4": "presentation",
+      "5": "social",
+      "6": "social",
+      "7": "demonstration",
+      "8": "qa",
+      "9": "qa",
+      "10": "qa",
+      "11": "qa",
+      "12": "qa",
+      "13": "qa",
+      "14": "qa",
+      "15": "qa",
+      "16": "qa",
+      "17": "qa",
+      "18": "qa",
+      "19": "qa",
+      "20": "social",
+      "21": "social",
+      "22": "qa",
+      "23": "qa",
+      "24": "qa",
+      "25": "qa",
+      "26": "qa",
+      "27": "qa",
+      "28": "qa",
+      "29": "qa",
+      "30": "qa",
+      "31": "qa",
+      "32": "qa",
+      "33": "qa",
+      "34": "qa",
+      "35": "qa",
+      "36": "qa",
+      "37": "qa",
+      "38": "qa",
+      "39": "qa",
+      "40": "qa",
+      "41": "qa",
+      "42": "none",
+      "43": "none",
+      "44": "none",
+      "45": "none",
+      "46": "presentation",
+      "47": "none",
+      "48": "none",
+      "49": "social",
+      "50": "social",
+      "51": "negotiation",
+      "52": "social",
+      "53": "social",
+      "54": "negotiation",
+      "55": "negotiation",
+      "56": "negotiation",
+      "57": "negotiation",
+      "58": "negotiation",
+      "59": "social",
+      "60": "negotiation",
+      "61": "negotiation",
+      "62": "negotiation",
+      "63": "social"
+    },
+    "segment_seconds": {
+      "presentation": 136.0,
+      "qa": 184.0,
+      "social": 21.0,
+      "demonstration": 6.0,
+      "negotiation": 40.0,
+      "none": 86.0
+    },
+    "exchange_counts": {
+      "substantive": 7,
+      "social": 6,
+      "demonstration": 1,
+      "negotiation": 1
+    },
+    "turn_frame": {
+      "8": "promotion",
+      "9": "promotion",
+      "16": "promotion",
+      "23": "promotion",
+      "24": "promotion",
+      "25": "promotion",
+      "26": "promotion",
+      "27": "promotion",
+      "28": "promotion",
+      "29": "promotion",
+      "30": "promotion",
+      "31": "promotion",
+      "32": "promotion",
+      "33": "prevention",
+      "34": "prevention",
+      "37": "prevention",
+      "38": "promotion",
+      "43": "prevention"
+    },
+    "frame_match": {
+      "9": "match",
+      "24": "match",
+      "26": "match",
+      "28": "match",
+      "30": "match",
+      "32": "match",
+      "34": "match",
+      "38": "switch_to_promotion"
+    },
+    "other_concepts": []
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "H1",
+        "role": "host",
+        "label": "Narrator"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Daymond John"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Bethenny Frankel"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Mark Cuban"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Robert Herjavec"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Lori Greiner"
+      },
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Alfonso Tejada"
+      },
+      {
+        "actor_id": "F2",
+        "role": "founder",
+        "label": "Helper in Palmini suit"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 16.0,
+        "end_s": 143.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 549.0,
+        "end_s": 579.0,
+        "kind": "teaser"
+      }
+    ],
+    "gaps": [],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 68.0,
+        "note": "Smiling and energetic presentation with enthusiastic gestures."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 5,
+        "uncodable": false,
+        "moment_s": 74.0,
+        "note": "Highly animated, punching the calories monster prop."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 17.0,
+        "note": "Friendly greeting and warm, approachable demeanor throughout."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "1",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "2",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "A pasta substitute made from hearts of palm that is low in calories and carbohydrates.",
+      "primary_industry": "food_beverage",
+      "secondary_industries": [],
+      "product_form": "physical_good",
+      "customer_type": "consumer",
+      "founder_gender": "all_men",
+      "product_category": "pasta alternative",
+      "earliest_s": 29.0,
+      "note": "Seeking $300k for 10% of OA Foods.",
+      "ask_amount_usd": 300000,
+      "ask_equity_pct": 10.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 16.0,
+        "end_s": 56.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Introduces himself, his background, and the ask for OA Foods."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "F2",
+        "start_s": 56.0,
+        "end_s": 58.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Exclaims linguine while wearing a Palmini suit."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "F1",
+        "start_s": 61.0,
+        "end_s": 62.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Affirms the helper's statement."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "F1",
+        "start_s": 63.0,
+        "end_s": 143.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Explains the nutritional benefits of Palmini and demonstrates how to prepare it."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "S2",
+        "start_s": 145.0,
+        "end_s": 147.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jokes about whether the founder brought a vacuum cleaner for the mess."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "S3",
+        "start_s": 147.0,
+        "end_s": 148.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Tells the founder to feed him."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "F1",
+        "start_s": 149.0,
+        "end_s": 155.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Offers three different sets of Palmini dishes for the panel to try."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "S4",
+        "start_s": 156.0,
+        "end_s": 158.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks what dishes they are eating."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "F1",
+        "start_s": 158.0,
+        "end_s": 168.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          8
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Explains that the first dish is a spicy salad with shrimp."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "S4",
+        "start_s": 168.0,
+        "end_s": 169.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "States he does not like the first dish."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "F1",
+        "start_s": 169.0,
+        "end_s": 177.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Describes the second and third dishes."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "S5",
+        "start_s": 177.0,
+        "end_s": 179.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Compliments the taste and mentions she loves hearts of palm."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "S2",
+        "start_s": 180.0,
+        "end_s": 191.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Agrees and notes her realization about how the product is cut."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "F1",
+        "start_s": 191.0,
+        "end_s": 201.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Confirms it is a vegetable and mentions the two years spent developing the machine."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "S4",
+        "start_s": 202.0,
+        "end_s": 204.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Points out that the product does not taste like pasta."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "F1",
+        "start_s": 204.0,
+        "end_s": 219.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          15
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Agrees it doesn't taste like pasta but notes its benefits for avoiding bloating."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "S2",
+        "start_s": 220.0,
+        "end_s": 226.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Argues that consumers could just open a regular can of hearts of palm."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "S5",
+        "start_s": 228.0,
+        "end_s": 233.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Praises the product despite the criticisms."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "S4",
+        "start_s": 234.0,
+        "end_s": 235.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Reiterates that the product is just a vegetable."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "S2",
+        "start_s": 235.0,
+        "end_s": 236.0,
+        "function": "social",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Playfully asks what is wrong with eating a vegetable."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "F1",
+        "start_s": 237.0,
+        "end_s": 239.0,
+        "function": "social",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Agrees playfully that there is nothing wrong with it."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "S3",
+        "start_s": 240.0,
+        "end_s": 242.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Agrees there are good reasons to eat the product instead of pasta."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "S5",
+        "start_s": 243.0,
+        "end_s": 245.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks about his background and knowledge of food service."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "F1",
+        "start_s": 245.0,
+        "end_s": 272.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          23
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Shares his educational background and experience importing quinoa."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "S2",
+        "start_s": 272.0,
+        "end_s": 273.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks how big the quinoa business is."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "F1",
+        "start_s": 273.0,
+        "end_s": 278.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          25
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "States they have sold four hundred thousand dollars in bulk quinoa."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "S1",
+        "start_s": 279.0,
+        "end_s": 281.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks about the size of the Palmini business."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "F1",
+        "start_s": 282.0,
+        "end_s": 287.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          27
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Explains he sold two thousand units in three months and ran out of stock."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "S4",
+        "start_s": 288.0,
+        "end_s": 289.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks for the dollar amount of those sales."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "F1",
+        "start_s": 289.0,
+        "end_s": 292.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          29
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "States it was fifty thousand dollars in three months."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "S4",
+        "start_s": 293.0,
+        "end_s": 295.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Asks what the current selling price is."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "F1",
+        "start_s": 296.0,
+        "end_s": 299.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          31
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Answers that it is currently ten dollars on Amazon, which is too expensive."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "S2",
+        "start_s": 299.0,
+        "end_s": 312.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Questions what prevents large companies from replicating the machine and process."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "F1",
+        "start_s": 312.0,
+        "end_s": 324.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          33
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Explains the machine took two years to build and has a patent pending."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "S2",
+        "start_s": 324.0,
+        "end_s": 328.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Argues that big companies can still easily cut vegetables into any shape."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "S5",
+        "start_s": 328.0,
+        "end_s": 339.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Defends the process, noting that hearts of palm are difficult to handle uniformly."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "S2",
+        "start_s": 339.0,
+        "end_s": 342.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Presses again on how to stop supermarkets from selling it like spiraled zucchini."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "F1",
+        "start_s": 342.0,
+        "end_s": 344.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          37
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "partial",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Claims that partnering with a Shark will help them run with the elephants."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "S2",
+        "start_s": 344.0,
+        "end_s": 347.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Dismisses his answer as an inadequate plan."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "S3",
+        "start_s": 348.0,
+        "end_s": 354.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Supports the founder's point about staying ahead by being quick."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "S2",
+        "start_s": 354.0,
+        "end_s": 358.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Insists that one cannot own the method of chopping a vegetable."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "S2",
+        "start_s": 361.0,
+        "end_s": 380.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Exits because she believes the product is easily copied by big companies."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "F1",
+        "start_s": 380.0,
+        "end_s": 385.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": null,
+        "responds_to": [
+          42
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "deflects",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Pushes back, saying she does not understand how hard it is to make."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "S1",
+        "start_s": 385.0,
+        "end_s": 406.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Exits because he agrees large companies will copy it and disputes the valuation."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "S4",
+        "start_s": 407.0,
+        "end_s": 419.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Exits because he does not believe in a sliced vegetable substitute for pasta."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "F1",
+        "start_s": 420.0,
+        "end_s": 433.0,
+        "function": "presents",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "States his conviction that the product will be a massive success like Splenda."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "S5",
+        "start_s": 434.0,
+        "end_s": 463.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Expresses strong love for the product and intent to partner with him."
+      },
+      {
+        "turn_id": 48,
+        "speaker": "F1",
+        "start_s": 464.0,
+        "end_s": 464.0,
+        "function": "NONE",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Asks to say one more thing."
+      },
+      {
+        "turn_id": 49,
+        "speaker": "S4",
+        "start_s": 465.0,
+        "end_s": 466.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Tells the founder to be quiet because an offer is coming."
+      },
+      {
+        "turn_id": 50,
+        "speaker": "F1",
+        "start_s": 466.0,
+        "end_s": 467.0,
+        "function": "social",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Apologizes quickly."
+      },
+      {
+        "turn_id": 51,
+        "speaker": "S5",
+        "start_s": 468.0,
+        "end_s": 474.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Offers three hundred thousand dollars for thirty percent, jointly with Mark."
+      },
+      {
+        "turn_id": 52,
+        "speaker": "F1",
+        "start_s": 475.0,
+        "end_s": 476.0,
+        "function": "social",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Expresses amazement at the offer."
+      },
+      {
+        "turn_id": 53,
+        "speaker": "S4",
+        "start_s": 476.0,
+        "end_s": 481.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 13,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Encourages the founder to take the deal and run."
+      },
+      {
+        "turn_id": 54,
+        "speaker": "S3",
+        "start_s": 482.0,
+        "end_s": 484.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Reminds the founder of the amount of work required."
+      },
+      {
+        "turn_id": 55,
+        "speaker": "S5",
+        "start_s": 484.0,
+        "end_s": 497.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Pitches the value of having two Sharks to accelerate the business."
+      },
+      {
+        "turn_id": 56,
+        "speaker": "F1",
+        "start_s": 498.0,
+        "end_s": 500.0,
+        "function": "decides",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Counters the offer with eighteen percent equity."
+      },
+      {
+        "turn_id": 57,
+        "speaker": "S5",
+        "start_s": 501.0,
+        "end_s": 503.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Expresses skepticism at the eighteen percent counter."
+      },
+      {
+        "turn_id": 58,
+        "speaker": "F1",
+        "start_s": 504.0,
+        "end_s": 506.0,
+        "function": "decides",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Counters again with twenty percent equity."
+      },
+      {
+        "turn_id": 59,
+        "speaker": "S4",
+        "start_s": 507.0,
+        "end_s": 509.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 14,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Tells the founder he has to love the situation."
+      },
+      {
+        "turn_id": 60,
+        "speaker": "F1",
+        "start_s": 510.0,
+        "end_s": 514.0,
+        "function": "negotiates",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Promises that the business will be worth the investment."
+      },
+      {
+        "turn_id": 61,
+        "speaker": "S5",
+        "start_s": 515.0,
+        "end_s": 520.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Revises the offer to twenty-five percent equity."
+      },
+      {
+        "turn_id": 62,
+        "speaker": "F1",
+        "start_s": 526.0,
+        "end_s": 530.0,
+        "function": "decides",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Accepts the revised offer."
+      },
+      {
+        "turn_id": 63,
+        "speaker": "S2",
+        "start_s": 530.0,
+        "end_s": 535.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 15,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Cheers and applauds the deal."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "vacuum cleaner joke"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "demonstration",
+        "topic": "NONE",
+        "label": "handing out dishes"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "usage",
+        "label": "what the dishes are"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "taste and texture"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "vegetable joke"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "substantive",
+        "topic": "self_promotion",
+        "label": "founder background"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "quinoa sales"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "Palmini sales"
+      },
+      {
+        "exchange_id": 9,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "unit price"
+      },
+      {
+        "exchange_id": 10,
+        "kind": "substantive",
+        "topic": "competition",
+        "label": "preventing copycats"
+      },
+      {
+        "exchange_id": 11,
+        "kind": "negotiation",
+        "topic": "NONE",
+        "label": "discussing equity and offers"
+      },
+      {
+        "exchange_id": 12,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "telling founder to be quiet"
+      },
+      {
+        "exchange_id": 13,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "run Alfonso"
+      },
+      {
+        "exchange_id": 14,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "gotta love that"
+      },
+      {
+        "exchange_id": 15,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "cheering the deal"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S2",
+        "kind": "exit",
+        "time_s": 361.0,
+        "turn_id": 42,
+        "offer_id": null,
+        "terms": "I'm out",
+        "note": "Believes the product is easily copied by large companies."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S1",
+        "kind": "exit",
+        "time_s": 385.0,
+        "turn_id": 44,
+        "offer_id": null,
+        "terms": "I'm out",
+        "note": "Agrees large companies will copy it and disputes the three million dollar valuation."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S4",
+        "kind": "exit",
+        "time_s": 407.0,
+        "turn_id": 45,
+        "offer_id": null,
+        "terms": "I'm out",
+        "note": "Does not believe in a sliced vegetable substitute for pasta."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S5",
+        "kind": "offer",
+        "time_s": 468.0,
+        "turn_id": 51,
+        "offer_id": "O1",
+        "terms": "300,000 for 30%",
+        "note": "Offers jointly with Mark to help accelerate the business."
+      },
+      {
+        "decision_id": 5,
+        "actor": "F1",
+        "kind": "founder_counters",
+        "time_s": 498.0,
+        "turn_id": 56,
+        "offer_id": "O1",
+        "terms": "300,000 for 18%",
+        "note": "Asks to lower the equity to eighteen percent."
+      },
+      {
+        "decision_id": 6,
+        "actor": "F1",
+        "kind": "founder_counters",
+        "time_s": 504.0,
+        "turn_id": 58,
+        "offer_id": "O1",
+        "terms": "let's do 20%",
+        "note": "Counters again with twenty percent equity."
+      },
+      {
+        "decision_id": 7,
+        "actor": "S5",
+        "kind": "revises_offer",
+        "time_s": 515.0,
+        "turn_id": 61,
+        "offer_id": "O1",
+        "terms": "300,000, 25%",
+        "note": "Meets him in the middle at twenty-five percent."
+      },
+      {
+        "decision_id": 8,
+        "actor": "F1",
+        "kind": "founder_accepts",
+        "time_s": 526.0,
+        "turn_id": 62,
+        "offer_id": "O1",
+        "terms": "Let's do it",
+        "note": "Accepts the revised offer."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": "Lori's offer is explicitly made jointly with Mark, but Lori speaks the terms."
+  }
+}

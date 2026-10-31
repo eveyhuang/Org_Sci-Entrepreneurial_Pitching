@@ -1,0 +1,2459 @@
+{
+  "pass": "replicate",
+  "unit_key": "panel__st_e7d722110d__replicate",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:16-1:38"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "presentation",
+      "3": "presentation",
+      "4": "presentation",
+      "5": "presentation",
+      "6": "presentation",
+      "7": "presentation",
+      "8": "presentation",
+      "9": "presentation",
+      "10": "presentation",
+      "11": "none",
+      "12": "none",
+      "13": "none",
+      "14": "none",
+      "15": "none",
+      "16": "none",
+      "17": "none",
+      "18": "none",
+      "19": "none",
+      "20": "qa",
+      "21": "qa",
+      "22": "qa",
+      "23": "qa",
+      "24": "qa",
+      "25": "qa",
+      "26": "qa",
+      "27": "qa",
+      "28": "qa",
+      "29": "qa",
+      "30": "qa",
+      "31": "none",
+      "32": "qa",
+      "33": "qa",
+      "34": "qa",
+      "35": "qa",
+      "36": "qa",
+      "37": "qa",
+      "38": "qa",
+      "39": "qa",
+      "40": "qa",
+      "41": "qa",
+      "42": "qa",
+      "43": "qa",
+      "44": "qa",
+      "45": "qa",
+      "46": "qa",
+      "47": "qa",
+      "48": "qa",
+      "49": "qa",
+      "50": "none",
+      "51": "qa",
+      "52": "qa",
+      "53": "qa",
+      "54": "qa",
+      "55": "qa",
+      "56": "none",
+      "57": "none",
+      "58": "none",
+      "59": "qa",
+      "60": "qa",
+      "61": "none",
+      "62": "none",
+      "63": "none",
+      "64": "qa",
+      "65": "qa",
+      "66": "social",
+      "67": "social",
+      "68": "social",
+      "69": "social",
+      "70": "social",
+      "71": "social",
+      "72": "social",
+      "73": "none",
+      "74": "social",
+      "75": "negotiation",
+      "76": "negotiation",
+      "77": "negotiation",
+      "78": "negotiation",
+      "79": "negotiation"
+    },
+    "segment_seconds": {
+      "presentation": 81.0,
+      "qa": 147.0,
+      "social": 32.0,
+      "demonstration": 0.0,
+      "negotiation": 8.0,
+      "none": 143.0
+    },
+    "exchange_counts": {
+      "substantive": 9,
+      "social": 1,
+      "demonstration": 0,
+      "negotiation": 1
+    },
+    "turn_frame": {
+      "20": "promotion",
+      "21": "promotion",
+      "22": "promotion",
+      "23": "promotion",
+      "24": "promotion",
+      "25": "promotion",
+      "26": "promotion",
+      "27": "promotion",
+      "28": "promotion",
+      "29": "promotion",
+      "32": "promotion",
+      "33": "promotion",
+      "34": "promotion",
+      "35": "promotion",
+      "36": "prevention",
+      "37": "prevention",
+      "38": "prevention",
+      "39": "prevention",
+      "40": "prevention",
+      "41": "promotion",
+      "42": "promotion",
+      "43": "promotion",
+      "44": "promotion",
+      "45": "promotion",
+      "46": "promotion",
+      "47": "promotion",
+      "48": "promotion",
+      "51": "promotion",
+      "52": "promotion",
+      "54": "unclassified",
+      "55": "unclassified",
+      "59": "unclassified",
+      "60": "unclassified",
+      "64": "unclassified",
+      "65": "unclassified"
+    },
+    "frame_match": {
+      "21": "match",
+      "23": "match",
+      "25": "match",
+      "27": "match",
+      "29": "match",
+      "33": "match",
+      "35": "match",
+      "37": "match",
+      "39": "match",
+      "42": "match",
+      "44": "match",
+      "46": "match",
+      "48": "match",
+      "52": "match",
+      "55": "unclassified",
+      "60": "unclassified",
+      "65": "unclassified"
+    },
+    "other_concepts": []
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Jason McOmber"
+      },
+      {
+        "actor_id": "F2",
+        "role": "founder",
+        "label": "Cooper the Elf"
+      },
+      {
+        "actor_id": "F3",
+        "role": "founder",
+        "label": "Santa"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Lori Greiner"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Robert Herjavec"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Mark Cuban"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Barbara Corcoran"
+      },
+      {
+        "actor_id": "H1",
+        "role": "host",
+        "label": "Narrator"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 16.0,
+        "end_s": 98.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 16.0,
+        "kind": "teaser"
+      },
+      {
+        "start_s": 513.0,
+        "end_s": 544.0,
+        "kind": "recap"
+      }
+    ],
+    "gaps": [],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 61.0,
+        "note": "Jason delivers the rhyming story with a smile and upbeat, festive tone throughout."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 95.0,
+        "note": "Jason and Cooper actively perform the pitch with theatrical energy and clear excitement."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 16.0,
+        "note": "Jason greets the panel warmly with a smile and maintains a very friendly demeanor."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "1",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "1",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "0",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "Clip-on ornaments and lights for decorating facial hair.",
+      "primary_industry": "apparel_accessories",
+      "secondary_industries": [],
+      "product_form": "physical_good",
+      "customer_type": "consumer",
+      "founder_gender": "all_men",
+      "product_category": "novelty beard ornaments",
+      "earliest_s": 28.0,
+      "note": "A fun holiday accessory for men with beards.",
+      "ask_amount_usd": 150000,
+      "ask_equity_pct": 10.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 16.0,
+        "end_s": 33.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jason introduces himself, Cooper, and Santa, asking for 150k for 10 percent of his company."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "F1",
+        "start_s": 33.0,
+        "end_s": 48.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jason tells a story about Santa growing bored of his usual outfit and trying ugly sweaters."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "F2",
+        "start_s": 48.0,
+        "end_s": 50.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Cooper suggests putting stuff in Santa's beard."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "F1",
+        "start_s": 50.0,
+        "end_s": 60.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jason explains Santa clipped bright ornaments into his beard, showing holiday spirit."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "F3",
+        "start_s": 60.0,
+        "end_s": 61.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Santa excitedly names the product Beardaments."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "F1",
+        "start_s": 61.0,
+        "end_s": 74.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jason says they can be clipped anywhere, even chest hair, but Santa wanted more ways to decorate."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "F2",
+        "start_s": 74.0,
+        "end_s": 77.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Cooper says the elves made beard oil, glitter, and lights."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "F1",
+        "start_s": 78.0,
+        "end_s": 93.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jason explains the lights allow seeing through the night, making Santa look great."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "F2",
+        "start_s": 93.0,
+        "end_s": 95.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Cooper asks the sharks to make his Christmas wish come true."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "F1",
+        "start_s": 95.0,
+        "end_s": 98.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jason asks the sharks to watch their money grow."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "F1",
+        "start_s": 99.0,
+        "end_s": 103.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jason says they will pass out some samples to the sharks."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "S5",
+        "start_s": 105.0,
+        "end_s": 106.0,
+        "function": "demonstrates",
+        "addressed": [
+          "UNKNOWN"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara remarks that she thought she had seen it all."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "S5",
+        "start_s": 110.0,
+        "end_s": 112.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara says she cannot wait to put the ornaments on and asks Lori."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "F1",
+        "start_s": 115.0,
+        "end_s": 116.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jason asks Lori what she thinks of the product."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "S3",
+        "start_s": 117.0,
+        "end_s": 118.0,
+        "function": "demonstrates",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert teases that the beard is not his best look."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "F2",
+        "start_s": 128.0,
+        "end_s": 129.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Cooper tells the sharks they can clip the ornaments anywhere."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "S1",
+        "start_s": 129.0,
+        "end_s": 131.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin thanks Cooper for the suggestion."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "S3",
+        "start_s": 132.0,
+        "end_s": 134.0,
+        "function": "demonstrates",
+        "addressed": [
+          "UNKNOWN"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert says he thinks the ornaments will look terrific."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "F1",
+        "start_s": 136.0,
+        "end_s": 139.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jason announces that Santa and the elf have to go wrap presents and sends them off."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "S2",
+        "start_s": 143.0,
+        "end_s": 145.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks Jason why he came up with this idea."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "F1",
+        "start_s": 145.0,
+        "end_s": 167.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          20
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Jason explains he started it for a Christmas party, sold out online, and made 80k the first year."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "S3",
+        "start_s": 169.0,
+        "end_s": 171.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks what the sales were in the second year."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "F1",
+        "start_s": 171.0,
+        "end_s": 173.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          22
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Jason states that the second year brought in 155,000 in sales."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "S1",
+        "start_s": 174.0,
+        "end_s": 175.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks what the sales were last year."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "F1",
+        "start_s": 176.0,
+        "end_s": 177.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          24
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Jason says last year they did 462,000 in sales."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "S4",
+        "start_s": 180.0,
+        "end_s": 181.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks what the sales are year to date."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "F1",
+        "start_s": 181.0,
+        "end_s": 184.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          26
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "forecast",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Jason replies they are projecting to do about 600 to 700 thousand in sales this year."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "S1",
+        "start_s": 184.0,
+        "end_s": 185.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks if all the sales are direct to customer."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "F1",
+        "start_s": 186.0,
+        "end_s": 187.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          28
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "too_short"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Jason confirms that all sales are direct to customer."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "S4",
+        "start_s": 187.0,
+        "end_s": 190.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          29
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark expresses disbelief at the impressive sales figures."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "F1",
+        "start_s": 191.0,
+        "end_s": 198.0,
+        "function": "NONE",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jason volunteers that regular ornaments sell for 9.99 and cost 1.66 to make."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "S2",
+        "start_s": 200.0,
+        "end_s": 201.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks what he charges for the light-up ornaments."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "F1",
+        "start_s": 201.0,
+        "end_s": 204.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          32
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "too_short"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Jason answers they sell for 19.99 and cost 4.26 to make."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "S2",
+        "start_s": 205.0,
+        "end_s": 206.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks how many ornaments come in a pack."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "F1",
+        "start_s": 206.0,
+        "end_s": 208.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          34
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "too_short"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Jason clarifies there are 10 regular ornaments and 6 lights in a pack."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "S2",
+        "start_s": 208.0,
+        "end_s": 209.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks how long the lights last."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "F1",
+        "start_s": 209.0,
+        "end_s": 212.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          36
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Jason explains they last about two days of continuous use and can be turned off."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "S2",
+        "start_s": 212.0,
+        "end_s": 215.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "customer_retention",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks if he wants them to burn out so customers buy again, asking where the switch is."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "F1",
+        "start_s": 215.0,
+        "end_s": 216.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          38
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "partial",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "too_short"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Jason points out the location of the on and off switch."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "S3",
+        "start_s": 216.0,
+        "end_s": 218.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "customer_retention",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert questions how many people actually save a ten-dollar item."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "S1",
+        "start_s": 218.0,
+        "end_s": 222.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "customer_acquisition",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks how Jason is acquiring customers from the specific subset of men with facial hair."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "F1",
+        "start_s": 222.0,
+        "end_s": 236.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          41
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "customer_acquisition",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Jason explains that viral videos with 130 million views brought in customers with zero marketing cost."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "S3",
+        "start_s": 236.0,
+        "end_s": 238.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "customer_acquisition",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks if Jason can repeat that viral success every year."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "F1",
+        "start_s": 238.0,
+        "end_s": 244.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          43
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "customer_acquisition",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Jason says he maintained sales last year by doing a ton of email blasts to existing customers."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "S2",
+        "start_s": 244.0,
+        "end_s": 245.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks Jason what his professional background is."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "F1",
+        "start_s": 245.0,
+        "end_s": 247.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          45
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "too_short"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Jason states he is a director of sales for a telecom distributor."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "S2",
+        "start_s": 247.0,
+        "end_s": 248.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks to confirm that he is not an e-commerce expert."
+      },
+      {
+        "turn_id": 48,
+        "speaker": "F1",
+        "start_s": 248.0,
+        "end_s": 255.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          47
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Jason confirms he is bootstrapping the business and shipping products from his basement."
+      },
+      {
+        "turn_id": 49,
+        "speaker": "S4",
+        "start_s": 255.0,
+        "end_s": 256.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          48
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark compliments Jason, saying he is killing it."
+      },
+      {
+        "turn_id": 50,
+        "speaker": "F1",
+        "start_s": 256.0,
+        "end_s": 258.0,
+        "function": "NONE",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jason mentions he has ideas for where he wants to take the business next."
+      },
+      {
+        "turn_id": 51,
+        "speaker": "S1",
+        "start_s": 258.0,
+        "end_s": 259.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "vision",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks what those ideas are."
+      },
+      {
+        "turn_id": 52,
+        "speaker": "F1",
+        "start_s": 259.0,
+        "end_s": 268.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          51
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "vision",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Jason suggests sports licensing to sell ornaments with team logos at stadiums."
+      },
+      {
+        "turn_id": 53,
+        "speaker": "S3",
+        "start_s": 268.0,
+        "end_s": 270.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          52
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert expresses doubt that sports licensing is a great idea."
+      },
+      {
+        "turn_id": 54,
+        "speaker": "S1",
+        "start_s": 270.0,
+        "end_s": 272.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks what Jason wants the 150,000 dollars for."
+      },
+      {
+        "turn_id": 55,
+        "speaker": "F1",
+        "start_s": 272.0,
+        "end_s": 289.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          54
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Jason lists licensing, expanding to other holidays, getting into retail, and international expansion as his goals."
+      },
+      {
+        "turn_id": 56,
+        "speaker": "S4",
+        "start_s": 289.0,
+        "end_s": 317.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark praises the business but says he does not see it as investable for himself, and exits."
+      },
+      {
+        "turn_id": 57,
+        "speaker": "S2",
+        "start_s": 318.0,
+        "end_s": 344.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori agrees it is a fun idea but says he does not need a shark, and exits."
+      },
+      {
+        "turn_id": 58,
+        "speaker": "F1",
+        "start_s": 345.0,
+        "end_s": 355.0,
+        "function": "NONE",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jason states he is not there just for the money, but wants help growing to 5 million."
+      },
+      {
+        "turn_id": 59,
+        "speaker": "S3",
+        "start_s": 355.0,
+        "end_s": 361.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Robert asks why the company is worth a 1.5 million dollar valuation."
+      },
+      {
+        "turn_id": 60,
+        "speaker": "F1",
+        "start_s": 361.0,
+        "end_s": 370.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          59
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Jason explains he expects 250 to 300 thousand in net profit this year, justifying a 5x multiple."
+      },
+      {
+        "turn_id": 61,
+        "speaker": "S5",
+        "start_s": 370.0,
+        "end_s": 395.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Barbara says trying to create new markets for a single product is a mistake and exits."
+      },
+      {
+        "turn_id": 62,
+        "speaker": "F1",
+        "start_s": 395.0,
+        "end_s": 396.0,
+        "function": "social",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": null,
+        "responds_to": [
+          61
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jason thanks Barbara for her feedback."
+      },
+      {
+        "turn_id": 63,
+        "speaker": "S3",
+        "start_s": 396.0,
+        "end_s": 411.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert says it is a part-time gig and he wants an entrepreneur who is all in, exiting."
+      },
+      {
+        "turn_id": 64,
+        "speaker": "S1",
+        "start_s": 412.0,
+        "end_s": 415.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks how he would get his 150,000 dollar investment back."
+      },
+      {
+        "turn_id": 65,
+        "speaker": "F1",
+        "start_s": 415.0,
+        "end_s": 419.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          64
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Jason says Kevin would get his money back through distributions as they grow the business."
+      },
+      {
+        "turn_id": 66,
+        "speaker": "S1",
+        "start_s": 422.0,
+        "end_s": 428.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin notes he is the only shark who has made money selling crazy chicken things."
+      },
+      {
+        "turn_id": 67,
+        "speaker": "S3",
+        "start_s": 429.0,
+        "end_s": 432.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert jokes that he wants to draw a cat for Jason."
+      },
+      {
+        "turn_id": 68,
+        "speaker": "F1",
+        "start_s": 433.0,
+        "end_s": 435.0,
+        "function": "social",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jason acknowledges the joke, admitting it was silly."
+      },
+      {
+        "turn_id": 69,
+        "speaker": "S1",
+        "start_s": 436.0,
+        "end_s": 446.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin compares it to his successful Potato Parcel deal, noting his own lack of hair."
+      },
+      {
+        "turn_id": 70,
+        "speaker": "F1",
+        "start_s": 446.0,
+        "end_s": 449.0,
+        "function": "social",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jason takes off his hat to reveal his bald head in solidarity with Kevin."
+      },
+      {
+        "turn_id": 71,
+        "speaker": "S4",
+        "start_s": 449.0,
+        "end_s": 451.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark reacts with surprise and amusement to Jason's bald head."
+      },
+      {
+        "turn_id": 72,
+        "speaker": "S1",
+        "start_s": 455.0,
+        "end_s": 460.0,
+        "function": "social",
+        "addressed": [
+          "UNKNOWN"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin talks to himself, asking what his gut says about the deal."
+      },
+      {
+        "turn_id": 73,
+        "speaker": "S1",
+        "start_s": 462.0,
+        "end_s": 474.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin says the deal is great but too frivolous, and decides to pass."
+      },
+      {
+        "turn_id": 74,
+        "speaker": "S3",
+        "start_s": 475.0,
+        "end_s": 476.0,
+        "function": "social",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert jokes that a frivolous deal is exactly Kevin's style."
+      },
+      {
+        "turn_id": 75,
+        "speaker": "F1",
+        "start_s": 476.0,
+        "end_s": 479.0,
+        "function": "negotiates",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jason tells Kevin he likes money just as much and they can make it work."
+      },
+      {
+        "turn_id": 76,
+        "speaker": "S1",
+        "start_s": 480.0,
+        "end_s": 482.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin offers 150,000 dollars for a 25 percent stake in the company."
+      },
+      {
+        "turn_id": 77,
+        "speaker": "S3",
+        "start_s": 484.0,
+        "end_s": 485.0,
+        "function": "social",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          76
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Robert jokingly says deal on Jason's behalf."
+      },
+      {
+        "turn_id": 78,
+        "speaker": "F1",
+        "start_s": 486.0,
+        "end_s": 487.0,
+        "function": "decides",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          76
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Jason accepts Kevin's offer."
+      },
+      {
+        "turn_id": 79,
+        "speaker": "S1",
+        "start_s": 488.0,
+        "end_s": 489.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin expresses his own surprise at making the deal."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "substantive",
+        "topic": "self_promotion",
+        "label": "origin of the business"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "sales history and projections"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "pricing and cost"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "product lifespan"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "customer_acquisition",
+        "label": "marketing and customer acquisition"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "substantive",
+        "topic": "self_promotion",
+        "label": "founder background"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "substantive",
+        "topic": "vision",
+        "label": "growth ideas and use of funds"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "company valuation"
+      },
+      {
+        "exchange_id": 9,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "investor return"
+      },
+      {
+        "exchange_id": 10,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "joking about crazy deals"
+      },
+      {
+        "exchange_id": 11,
+        "kind": "negotiation",
+        "topic": "NONE",
+        "label": "Kevin's offer"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S4",
+        "kind": "exit",
+        "time_s": 289.0,
+        "turn_id": 56,
+        "offer_id": null,
+        "terms": "",
+        "note": "Not investable for me, you don't need us."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S2",
+        "kind": "exit",
+        "time_s": 318.0,
+        "turn_id": 57,
+        "offer_id": null,
+        "terms": "",
+        "note": "Fun kitschy idea but you don't need a shark."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S5",
+        "kind": "exit",
+        "time_s": 370.0,
+        "turn_id": 61,
+        "offer_id": null,
+        "terms": "",
+        "note": "Trying to create new markets for a single product is a mistake."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S3",
+        "kind": "exit",
+        "time_s": 396.0,
+        "turn_id": 63,
+        "offer_id": null,
+        "terms": "",
+        "note": "Part-time gig, want an entrepreneur who is all in."
+      },
+      {
+        "decision_id": 5,
+        "actor": "S1",
+        "kind": "exit",
+        "time_s": 462.0,
+        "turn_id": 73,
+        "offer_id": null,
+        "terms": "",
+        "note": "It's great but it's frivolous."
+      },
+      {
+        "decision_id": 6,
+        "actor": "S1",
+        "kind": "offer",
+        "time_s": 480.0,
+        "turn_id": 76,
+        "offer_id": "O1",
+        "terms": "150 for 25%",
+        "note": "Re-enters the deal and offers 150k for 25%."
+      },
+      {
+        "decision_id": 7,
+        "actor": "F1",
+        "kind": "founder_accepts",
+        "time_s": 486.0,
+        "turn_id": 78,
+        "offer_id": "O1",
+        "terms": "Deal.",
+        "note": "Accepts Kevin's offer."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": "Kevin explicitly passes at 7:42, but Jason pushes back and Kevin makes an offer at 8:00, re-entering the deal."
+  }
+}

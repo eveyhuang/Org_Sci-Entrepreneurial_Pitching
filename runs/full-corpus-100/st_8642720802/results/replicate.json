@@ -1,0 +1,2302 @@
+{
+  "pass": "replicate",
+  "unit_key": "panel__st_8642720802__replicate",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:21-1:52"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "demonstration",
+      "3": "demonstration",
+      "4": "demonstration",
+      "5": "demonstration",
+      "6": "qa",
+      "7": "qa",
+      "8": "qa",
+      "9": "qa",
+      "10": "social",
+      "11": "social",
+      "12": "social",
+      "13": "qa",
+      "14": "qa",
+      "15": "qa",
+      "16": "qa",
+      "17": "qa",
+      "18": "qa",
+      "19": "qa",
+      "20": "qa",
+      "21": "qa",
+      "22": "qa",
+      "23": "qa",
+      "24": "qa",
+      "25": "qa",
+      "26": "qa",
+      "27": "qa",
+      "28": "qa",
+      "29": "qa",
+      "30": "qa",
+      "31": "qa",
+      "32": "qa",
+      "33": "qa",
+      "34": "qa",
+      "35": "qa",
+      "36": "qa",
+      "37": "qa",
+      "38": "qa",
+      "39": "qa",
+      "40": "qa",
+      "41": "qa",
+      "42": "qa",
+      "43": "qa",
+      "44": "qa",
+      "45": "qa",
+      "46": "qa",
+      "47": "qa",
+      "48": "none",
+      "49": "none",
+      "50": "none",
+      "51": "negotiation",
+      "52": "negotiation",
+      "53": "negotiation",
+      "54": "none",
+      "55": "negotiation",
+      "56": "negotiation",
+      "57": "negotiation",
+      "58": "negotiation",
+      "59": "negotiation",
+      "60": "negotiation",
+      "61": "demonstration"
+    },
+    "segment_seconds": {
+      "presentation": 91.0,
+      "qa": 205.0,
+      "social": 4.0,
+      "demonstration": 53.0,
+      "negotiation": 140.0,
+      "none": 84.0
+    },
+    "exchange_counts": {
+      "substantive": 9,
+      "social": 1,
+      "demonstration": 1,
+      "negotiation": 1
+    },
+    "turn_frame": {
+      "6": "promotion",
+      "7": "promotion",
+      "8": "promotion",
+      "9": "promotion",
+      "13": "promotion",
+      "14": "promotion",
+      "15": "promotion",
+      "16": "promotion",
+      "17": "promotion",
+      "18": "promotion",
+      "19": "promotion",
+      "21": "promotion",
+      "22": "promotion",
+      "23": "prevention",
+      "24": "prevention",
+      "25": "prevention",
+      "26": "prevention",
+      "27": "promotion",
+      "28": "promotion",
+      "29": "promotion",
+      "30": "promotion",
+      "32": "promotion",
+      "33": "prevention",
+      "34": "prevention",
+      "35": "prevention",
+      "36": "prevention",
+      "37": "unclassified",
+      "38": "unclassified",
+      "39": "unclassified",
+      "40": "unclassified",
+      "42": "unclassified",
+      "43": "unclassified",
+      "44": "unclassified",
+      "45": "unclassified",
+      "46": "unclassified"
+    },
+    "frame_match": {
+      "7": "match",
+      "9": "match",
+      "13": "match",
+      "14": "match",
+      "15": "match",
+      "17": "match",
+      "19": "match",
+      "22": "match",
+      "24": "match",
+      "26": "match",
+      "28": "match",
+      "30": "match",
+      "32": "match",
+      "34": "match",
+      "36": "match",
+      "38": "unclassified",
+      "40": "unclassified",
+      "42": "unclassified",
+      "44": "unclassified",
+      "46": "unclassified"
+    },
+    "other_concepts": []
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Trevor Lambert"
+      },
+      {
+        "actor_id": "F2",
+        "role": "founder",
+        "label": "John Vadnais"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Mark Cuban"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Daymond John"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Peter Jones"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Lori Greiner"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 21.0,
+        "end_s": 112.0
+      }
+    ],
+    "excluded_spans": [],
+    "gaps": [],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 52.0,
+        "note": "They deliver the pitch with strong, enthusiastic engagement and frequent smiling."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 76.0,
+        "note": "They show sustained engagement and excitement with the product throughout the presentation."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 3,
+        "uncodable": false,
+        "moment_s": 22.0,
+        "note": "They are friendly and approachable, though some parts are more focused on the product."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "0",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "A 2-in-1 broom with a built-in vacuum to eliminate the need for a dustpan.",
+      "primary_industry": "home_household",
+      "secondary_industries": [],
+      "product_form": "physical_good",
+      "customer_type": "consumer",
+      "founder_gender": "all_men",
+      "product_category": "cleaning tools",
+      "earliest_s": 27.0,
+      "note": "",
+      "ask_amount_usd": 350000,
+      "ask_equity_pct": 2.5,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 21.0,
+        "end_s": 112.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The founders introduce themselves, their ask, and present the Vabroom, a broom with a built-in vacuum."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "S5",
+        "start_s": 112.0,
+        "end_s": 113.0,
+        "function": "accepts",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin volunteers to try the product."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "S3",
+        "start_s": 113.0,
+        "end_s": 115.0,
+        "function": "accepts",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Peter says he would like to try it."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "S3",
+        "start_s": 117.0,
+        "end_s": 145.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL",
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Peter comes up to sweep and vacuum the cereal pile while the founders guide him."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "S4",
+        "start_s": 145.0,
+        "end_s": 150.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori looks closely at the sample provided to her."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "S2",
+        "start_s": 150.0,
+        "end_s": 152.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Daymond asks why someone wouldn't just buy a vacuum instead."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "F1",
+        "start_s": 152.0,
+        "end_s": 160.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          6
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Trevor explains it is not meant to replace an upright vacuum, but is for quick cleanups."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "S4",
+        "start_s": 160.0,
+        "end_s": 162.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks the founders to tell the panel about themselves."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "F1",
+        "start_s": 162.0,
+        "end_s": 165.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          8
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Trevor shares that he is married and has five kids."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "S1",
+        "start_s": 165.0,
+        "end_s": 166.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark jokes that it's a little bit like the Brady Bunch."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "S2",
+        "start_s": 166.0,
+        "end_s": 168.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond jokes that this explains the belly weight."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "F1",
+        "start_s": 168.0,
+        "end_s": 169.0,
+        "function": "social",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          11
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Trevor laughs and agrees with Daymond's joke."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "F1",
+        "start_s": 169.0,
+        "end_s": 192.0,
+        "function": "answer",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          8
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Trevor explains he founded a design firm in 2010 that helps small companies license products, which is how he met John."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "F2",
+        "start_s": 193.0,
+        "end_s": 204.0,
+        "function": "answer",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          8
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "John shares he is a fourth-generation plumber who constantly sees problems and makes solutions, leading to patents."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "F2",
+        "start_s": 204.0,
+        "end_s": 221.0,
+        "function": "answer",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          8
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "John explains Trevor's firm helped him launch an item, and Trevor's firm wanted to pivot to retail with this product."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "S3",
+        "start_s": 221.0,
+        "end_s": 222.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Peter asks if the product has taken off already."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "F1",
+        "start_s": 223.0,
+        "end_s": 224.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          16
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "1",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Trevor confirms that they have come with sales."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "S3",
+        "start_s": 225.0,
+        "end_s": 228.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Peter asks for their sales over the last twelve months."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "F2",
+        "start_s": 228.0,
+        "end_s": 231.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          18
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "John answers that they have done $3.1 million in sales in the last twelve months."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "S4",
+        "start_s": 231.0,
+        "end_s": 236.0,
+        "function": "accepts",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          19
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori, Daymond and Peter react positively to the impressive sales figures."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "S1",
+        "start_s": 236.0,
+        "end_s": 237.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks where they are selling the product."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "F1",
+        "start_s": 237.0,
+        "end_s": 252.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          21
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Trevor answers they sell direct-to-consumer and just started retail at Bed Bath & Beyond, selling out of their online stock."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "S3",
+        "start_s": 252.0,
+        "end_s": 254.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Peter asks about the cost of the product and the margin."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "F2",
+        "start_s": 255.0,
+        "end_s": 261.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          23
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "John answers it is $17 landed, wholesales for $37, and retails for $59.99."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "S3",
+        "start_s": 261.0,
+        "end_s": 263.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Peter asks what the profit was on the $3.1 million in sales."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "F1",
+        "start_s": 263.0,
+        "end_s": 268.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          25
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Trevor answers the profit was about $300,000, which they rolled right into inventory."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "S4",
+        "start_s": 269.0,
+        "end_s": 271.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks if they have anything patent pending or patented."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "F1",
+        "start_s": 271.0,
+        "end_s": 277.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          27
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Trevor confirms they have international patents pending and a design patent issued in the US."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "S4",
+        "start_s": 277.0,
+        "end_s": 286.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori asks how it is different from a Dustbuster or a similar handheld vacuum."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "F1",
+        "start_s": 286.0,
+        "end_s": 291.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          29
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Trevor explains they developed it because they hate the dustpan, which is a frustrating pain point."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "S1",
+        "start_s": 291.0,
+        "end_s": 295.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          30
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark agrees, noting that nobody can get everything into a dustpan."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "F1",
+        "start_s": 295.0,
+        "end_s": 311.0,
+        "function": "answer",
+        "addressed": [
+          "S1",
+          "S4"
+        ],
+        "exchange_id": 9,
+        "responds_to": [
+          29
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Trevor adds that customer feedback highlighted it as a lifesaver for people with mobility challenges who cannot bend over."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "S1",
+        "start_s": 311.0,
+        "end_s": 312.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks how much they have invested in the product."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "F2",
+        "start_s": 312.0,
+        "end_s": 314.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          33
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "John answers that he invested $200,000."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "S4",
+        "start_s": 315.0,
+        "end_s": 317.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 10,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Lori notes there was $100,000 raised on Kickstarter."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "F1",
+        "start_s": 317.0,
+        "end_s": 320.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 10,
+        "responds_to": [
+          35
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Trevor confirms the Kickstarter and adds that it was subsequently self-funded by the company."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "S5",
+        "start_s": 320.0,
+        "end_s": 325.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks if he is getting a piece of the industrial design firm."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "F1",
+        "start_s": 325.0,
+        "end_s": 332.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          37
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Trevor explains they shuffled employees from the design firm into this new entity."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "S5",
+        "start_s": 332.0,
+        "end_s": 335.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Kevin asks if there is a contract between the investment entity and the design firm."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "F1",
+        "start_s": 336.0,
+        "end_s": 338.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          39
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Trevor confirms there is a royalty paid to the design firm."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "S5",
+        "start_s": 338.0,
+        "end_s": 342.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          40
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin reacts with amusement upon hearing the word royalty."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "F1",
+        "start_s": 342.0,
+        "end_s": 348.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          39
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Trevor clarifies that the royalty is a clean way to pay back the design firm for its initial investment."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "S1",
+        "start_s": 348.0,
+        "end_s": 349.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Mark asks how much that investment royalty is."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "F1",
+        "start_s": 349.0,
+        "end_s": 350.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          43
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Trevor answers that the royalty is five percent."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "S3",
+        "start_s": 350.0,
+        "end_s": 354.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Peter asks why they didn't just package the whole design firm together for the investment."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "F1",
+        "start_s": 354.0,
+        "end_s": 364.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          45
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "deal_terms",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "Trevor explains the design firm does other things, but they would entertain offers for it if there is interest."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "S3",
+        "start_s": 364.0,
+        "end_s": 366.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 11,
+        "responds_to": [
+          46
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Peter counters that otherwise the structure gets very messy."
+      },
+      {
+        "turn_id": 48,
+        "speaker": "S1",
+        "start_s": 366.0,
+        "end_s": 400.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Mark explains that the complex structure and small equity offered are not worth his time, and he exits."
+      },
+      {
+        "turn_id": 49,
+        "speaker": "S3",
+        "start_s": 400.0,
+        "end_s": 420.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Peter states he is not convinced the problem is big enough to reinvent the broom so completely, and he exits."
+      },
+      {
+        "turn_id": 50,
+        "speaker": "S2",
+        "start_s": 420.0,
+        "end_s": 437.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Daymond says the small equity ask indicates they just want exposure, not a real partner, and he exits."
+      },
+      {
+        "turn_id": 51,
+        "speaker": "S5",
+        "start_s": 438.0,
+        "end_s": 502.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin offers the requested money for a royalty and equity in the design firm to secure his return."
+      },
+      {
+        "turn_id": 52,
+        "speaker": "S4",
+        "start_s": 502.0,
+        "end_s": 504.0,
+        "function": "accepts",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 12,
+        "responds_to": [
+          51
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori reacts with surprise to the terms of Kevin's offer."
+      },
+      {
+        "turn_id": 53,
+        "speaker": "S5",
+        "start_s": 504.0,
+        "end_s": 511.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 12,
+        "responds_to": [
+          51
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin reiterates that his offer is a venture debt deal that gets him paid back."
+      },
+      {
+        "turn_id": 54,
+        "speaker": "S4",
+        "start_s": 511.0,
+        "end_s": 524.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Lori says she loves innovation but the competition and patent situation make her uncomfortable, and she exits."
+      },
+      {
+        "turn_id": 55,
+        "speaker": "F1",
+        "start_s": 524.0,
+        "end_s": 549.0,
+        "function": "negotiates",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 12,
+        "responds_to": [
+          51
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Trevor confirms the terms of Kevin's offer to make sure they understand the royalty structure."
+      },
+      {
+        "turn_id": 56,
+        "speaker": "F1",
+        "start_s": 549.0,
+        "end_s": 553.0,
+        "function": "negotiates",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Trevor and John confer briefly about the offer."
+      },
+      {
+        "turn_id": 57,
+        "speaker": "F1",
+        "start_s": 553.0,
+        "end_s": 559.0,
+        "function": "decides",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 12,
+        "responds_to": [
+          51
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Trevor counters Kevin, asking for double the investment for double the equity, dropping the royalty."
+      },
+      {
+        "turn_id": 58,
+        "speaker": "S5",
+        "start_s": 559.0,
+        "end_s": 564.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 12,
+        "responds_to": [
+          57
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin rejects the counter-offer, stating his original offer is the right fit."
+      },
+      {
+        "turn_id": 59,
+        "speaker": "S5",
+        "start_s": 564.0,
+        "end_s": 588.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 12,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin pitches the value he brings and the success of his other deals to convince them."
+      },
+      {
+        "turn_id": 60,
+        "speaker": "F1",
+        "start_s": 588.0,
+        "end_s": 591.0,
+        "function": "decides",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 12,
+        "responds_to": [
+          51
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Trevor accepts Kevin's standing offer."
+      },
+      {
+        "turn_id": 61,
+        "speaker": "S5",
+        "start_s": 591.0,
+        "end_s": 608.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL",
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "Kevin holds up the broom, celebrating the deal and joking about buying it for Barbara."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "demonstration",
+        "topic": "NONE",
+        "label": "handling the product"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "substantive",
+        "topic": "usage",
+        "label": "why not a vacuum"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "self_promotion",
+        "label": "founders background"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "brady bunch joke"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "sales figures"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "substantive",
+        "topic": "go_to_market",
+        "label": "where selling"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "substantive",
+        "topic": "operating_efficiency",
+        "label": "cost and margin"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "substantive",
+        "topic": "assets",
+        "label": "patents"
+      },
+      {
+        "exchange_id": 9,
+        "kind": "substantive",
+        "topic": "assets",
+        "label": "difference from dustbuster"
+      },
+      {
+        "exchange_id": 10,
+        "kind": "substantive",
+        "topic": "operating_efficiency",
+        "label": "investment to date"
+      },
+      {
+        "exchange_id": 11,
+        "kind": "substantive",
+        "topic": "deal_terms",
+        "label": "design firm structure"
+      },
+      {
+        "exchange_id": 12,
+        "kind": "negotiation",
+        "topic": "NONE",
+        "label": "negotiating terms"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S1",
+        "kind": "exit",
+        "time_s": 398.0,
+        "turn_id": 48,
+        "offer_id": null,
+        "terms": "I'm out",
+        "note": "Exits because the corporate structure is too complicated and the equity offered is too small."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S3",
+        "kind": "exit",
+        "time_s": 418.0,
+        "turn_id": 49,
+        "offer_id": null,
+        "terms": "I'm out",
+        "note": "Exits because he feels reinventing the broom is too complicated for the problem it solves."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S2",
+        "kind": "exit",
+        "time_s": 436.0,
+        "turn_id": 50,
+        "offer_id": null,
+        "terms": "I'm out",
+        "note": "Exits because the 2.5% equity ask indicates they just want exposure, not a partner."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S5",
+        "kind": "offer",
+        "time_s": 438.0,
+        "turn_id": 51,
+        "offer_id": "O1",
+        "terms": "$350k for a $3 royalty until $700k is paid, plus 2.5% of the design firm",
+        "note": "Offers the requested money with a royalty to secure his return and equity in the parent firm."
+      },
+      {
+        "decision_id": 5,
+        "actor": "S4",
+        "kind": "exit",
+        "time_s": 522.0,
+        "turn_id": 54,
+        "offer_id": null,
+        "terms": "I'm out",
+        "note": "Exits due to concerns about competition and the strength of the patent."
+      },
+      {
+        "decision_id": 6,
+        "actor": "F1",
+        "kind": "founder_counters",
+        "time_s": 553.0,
+        "turn_id": 57,
+        "offer_id": "O1",
+        "terms": "$700k for 5%",
+        "note": "Counters by asking for double the investment for double the equity, without the royalty."
+      },
+      {
+        "decision_id": 7,
+        "actor": "S5",
+        "kind": "revises_offer",
+        "time_s": 559.0,
+        "turn_id": 58,
+        "offer_id": "O1",
+        "terms": "No",
+        "note": "Rejects the counter-offer, keeping his original standing offer."
+      },
+      {
+        "decision_id": 8,
+        "actor": "F1",
+        "kind": "founder_accepts",
+        "time_s": 588.0,
+        "turn_id": 60,
+        "offer_id": "O1",
+        "terms": "You got a deal",
+        "note": "Accepts Kevin's offer after he pitches his value."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": ""
+  }
+}

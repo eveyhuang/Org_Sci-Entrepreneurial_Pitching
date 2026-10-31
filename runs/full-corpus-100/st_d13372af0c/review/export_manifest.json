@@ -1,0 +1,457 @@
+{
+  "videos": {
+    "st_d13372af0c": {
+      "video_id": "st_d13372af0c",
+      "sheet": "st_d13372af0c__review.csv",
+      "release_id": "v3-dev9",
+      "annotation_context": "descriptive_full_context",
+      "seed": 20261013,
+      "sample_unflagged": null,
+      "max_flagged": null,
+      "preset": "exchange",
+      "field_classes": null,
+      "blind": true,
+      "pass": "primary",
+      "primary_sha256": "2c5dc4632f1cca084ec33ecbbd758697b966287653cea986303482f25bc8bc1e",
+      "replicate_sha256": "578f88937e53ce58f088f010fb395f78b45b45ad1c44244798a8db08624de340",
+      "counts": {
+        "by_field_class": {
+          "turn_code": 24,
+          "cut": 1
+        },
+        "by_selection": {
+          "flagged": 0,
+          "sampled": 25
+        },
+        "by_priority": {
+          "1": 25,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "by_reason": {
+          "passes_differ": 5
+        }
+      },
+      "flagged": null,
+      "sample": {
+        "seed": 20261013,
+        "key": "st_d13372af0c",
+        "requested": {
+          "stage_a": 0,
+          "exchanges": 0,
+          "qa": 4,
+          "venture": 0,
+          "qa_codes": [
+            [
+              "question",
+              "PR-CONCEPT"
+            ],
+            [
+              "question",
+              "PR-SEV"
+            ],
+            [
+              "answer",
+              "RS-RESP"
+            ],
+            [
+              "answer",
+              "RS-EVID"
+            ],
+            [
+              "answer",
+              "PREP-SUBS"
+            ],
+            [
+              "answer",
+              "PREP-COH"
+            ]
+          ]
+        },
+        "drawn": {
+          "pitch": [
+            "first_decision"
+          ],
+          "venture": [],
+          "stage_a": [],
+          "exchanges": [],
+          "qa": [
+            [
+              32,
+              33
+            ],
+            [
+              34,
+              35
+            ],
+            [
+              38,
+              39
+            ],
+            [
+              42,
+              43
+            ]
+          ]
+        },
+        "available": {
+          "venture": 4,
+          "stage_a": 3,
+          "exchanges": 7,
+          "qa": 14
+        },
+        "qa_before_cut": true,
+        "on_sheet": {
+          "turn_code": 24,
+          "cut": 1
+        },
+        "population": {
+          "turn_code": 82,
+          "exchange_topic": 7,
+          "stage_a": 3,
+          "venture": 4,
+          "cut": 1
+        }
+      },
+      "unflagged": null,
+      "rows": [
+        {
+          "path": "pitch:first_decision",
+          "field_class": "cut",
+          "clock_start": null,
+          "clock_end": null,
+          "context": "the pitch: S4 exit@6:07, S2 exit@7:11, S3 exit@7:37, S1 exit@7:57, S5 offer@8:38, S5 revises_offer@8:53",
+          "blind_context": "the pitch: When is the first decision spoken?",
+          "primary": "6:07",
+          "replicate": "5:33",
+          "reasons": [
+            "passes_differ"
+          ],
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:32/code:PR-CONCEPT",
+          "field_class": "turn_code",
+          "clock_start": "4:53",
+          "clock_end": "4:55",
+          "context": "question turn 32 (4:53-4:55) S5 (Daniel Lubetzky): S5 asks for the specific dollar amount of sheet sales out of the two million total. -> answer turn 33 (4:55-5:03) F1 (Chris Videau): F1 states sheet sales were 1.2 million and mentions an exclusivity agreement for the patent with Kimberly Clark.",
+          "primary": "sales",
+          "replicate": "sales",
+          "reasons": [],
+          "blind_context": "question turn 32 (4:53-4:55) S5 (Daniel Lubetzky): S5 asks for the specific dollar amount of sheet sales out of the two million total. -> answer turn 33 (4:55-5:03) F1 (Chris Videau): F1 states sheet sales were 1.2 million and mentions an exclusivity agreement for the patent with Kimberly Clark.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:32/code:PR-SEV",
+          "field_class": "turn_code",
+          "clock_start": "4:53",
+          "clock_end": "4:55",
+          "context": "question turn 32 (4:53-4:55) S5 (Daniel Lubetzky): S5 asks for the specific dollar amount of sheet sales out of the two million total. -> answer turn 33 (4:55-5:03) F1 (Chris Videau): F1 states sheet sales were 1.2 million and mentions an exclusivity agreement for the patent with Kimberly Clark.",
+          "primary": "1",
+          "replicate": "1",
+          "reasons": [],
+          "blind_context": "question turn 32 (4:53-4:55) S5 (Daniel Lubetzky): S5 asks for the specific dollar amount of sheet sales out of the two million total. -> answer turn 33 (4:55-5:03) F1 (Chris Videau): F1 states sheet sales were 1.2 million and mentions an exclusivity agreement for the patent with Kimberly Clark.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:33/code:PREP-COH",
+          "field_class": "turn_code",
+          "clock_start": "4:55",
+          "clock_end": "5:03",
+          "context": "question turn 32 (4:53-4:55) S5 (Daniel Lubetzky): S5 asks for the specific dollar amount of sheet sales out of the two million total. -> answer turn 33 (4:55-5:03) F1 (Chris Videau): F1 states sheet sales were 1.2 million and mentions an exclusivity agreement for the patent with Kimberly Clark.",
+          "primary": "4",
+          "replicate": "4",
+          "reasons": [],
+          "blind_context": "question turn 32 (4:53-4:55) S5 (Daniel Lubetzky): S5 asks for the specific dollar amount of sheet sales out of the two million total. -> answer turn 33 (4:55-5:03) F1 (Chris Videau): F1 states sheet sales were 1.2 million and mentions an exclusivity agreement for the patent with Kimberly Clark.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:33/code:PREP-SUBS",
+          "field_class": "turn_code",
+          "clock_start": "4:55",
+          "clock_end": "5:03",
+          "context": "question turn 32 (4:53-4:55) S5 (Daniel Lubetzky): S5 asks for the specific dollar amount of sheet sales out of the two million total. -> answer turn 33 (4:55-5:03) F1 (Chris Videau): F1 states sheet sales were 1.2 million and mentions an exclusivity agreement for the patent with Kimberly Clark.",
+          "primary": "4",
+          "replicate": "3",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 32 (4:53-4:55) S5 (Daniel Lubetzky): S5 asks for the specific dollar amount of sheet sales out of the two million total. -> answer turn 33 (4:55-5:03) F1 (Chris Videau): F1 states sheet sales were 1.2 million and mentions an exclusivity agreement for the patent with Kimberly Clark.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:33/code:RS-EVID",
+          "field_class": "turn_code",
+          "clock_start": "4:55",
+          "clock_end": "5:03",
+          "context": "question turn 32 (4:53-4:55) S5 (Daniel Lubetzky): S5 asks for the specific dollar amount of sheet sales out of the two million total. -> answer turn 33 (4:55-5:03) F1 (Chris Videau): F1 states sheet sales were 1.2 million and mentions an exclusivity agreement for the patent with Kimberly Clark.",
+          "primary": "true",
+          "replicate": "true",
+          "reasons": [],
+          "blind_context": "question turn 32 (4:53-4:55) S5 (Daniel Lubetzky): S5 asks for the specific dollar amount of sheet sales out of the two million total. -> answer turn 33 (4:55-5:03) F1 (Chris Videau): F1 states sheet sales were 1.2 million and mentions an exclusivity agreement for the patent with Kimberly Clark.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:33/code:RS-RESP",
+          "field_class": "turn_code",
+          "clock_start": "4:55",
+          "clock_end": "5:03",
+          "context": "question turn 32 (4:53-4:55) S5 (Daniel Lubetzky): S5 asks for the specific dollar amount of sheet sales out of the two million total. -> answer turn 33 (4:55-5:03) F1 (Chris Videau): F1 states sheet sales were 1.2 million and mentions an exclusivity agreement for the patent with Kimberly Clark.",
+          "primary": "addresses",
+          "replicate": "addresses",
+          "reasons": [],
+          "blind_context": "question turn 32 (4:53-4:55) S5 (Daniel Lubetzky): S5 asks for the specific dollar amount of sheet sales out of the two million total. -> answer turn 33 (4:55-5:03) F1 (Chris Videau): F1 states sheet sales were 1.2 million and mentions an exclusivity agreement for the patent with Kimberly Clark.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:34/code:PR-CONCEPT",
+          "field_class": "turn_code",
+          "clock_start": "5:03",
+          "clock_end": "5:04",
+          "context": "question turn 34 (5:03-5:04) S2 (Kevin O'Leary): S2 asks if they pay a royalty to Kimberly Clark for the patent. -> answer turn 35 (5:04-5:05) F1 (Chris Videau): F1 confirms that they do pay a royalty.",
+          "primary": "operating_efficiency",
+          "replicate": "operating_efficiency",
+          "reasons": [],
+          "blind_context": "question turn 34 (5:03-5:04) S2 (Kevin O'Leary): S2 asks if they pay a royalty to Kimberly Clark for the patent. -> answer turn 35 (5:04-5:05) F1 (Chris Videau): F1 confirms that they do pay a royalty.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:34/code:PR-SEV",
+          "field_class": "turn_code",
+          "clock_start": "5:03",
+          "clock_end": "5:04",
+          "context": "question turn 34 (5:03-5:04) S2 (Kevin O'Leary): S2 asks if they pay a royalty to Kimberly Clark for the patent. -> answer turn 35 (5:04-5:05) F1 (Chris Videau): F1 confirms that they do pay a royalty.",
+          "primary": "1",
+          "replicate": "1",
+          "reasons": [],
+          "blind_context": "question turn 34 (5:03-5:04) S2 (Kevin O'Leary): S2 asks if they pay a royalty to Kimberly Clark for the patent. -> answer turn 35 (5:04-5:05) F1 (Chris Videau): F1 confirms that they do pay a royalty.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:35/code:PREP-COH",
+          "field_class": "turn_code",
+          "clock_start": "5:04",
+          "clock_end": "5:05",
+          "context": "question turn 34 (5:03-5:04) S2 (Kevin O'Leary): S2 asks if they pay a royalty to Kimberly Clark for the patent. -> answer turn 35 (5:04-5:05) F1 (Chris Videau): F1 confirms that they do pay a royalty.",
+          "primary": "3",
+          "replicate": "2",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 34 (5:03-5:04) S2 (Kevin O'Leary): S2 asks if they pay a royalty to Kimberly Clark for the patent. -> answer turn 35 (5:04-5:05) F1 (Chris Videau): F1 confirms that they do pay a royalty.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:35/code:PREP-SUBS",
+          "field_class": "turn_code",
+          "clock_start": "5:04",
+          "clock_end": "5:05",
+          "context": "question turn 34 (5:03-5:04) S2 (Kevin O'Leary): S2 asks if they pay a royalty to Kimberly Clark for the patent. -> answer turn 35 (5:04-5:05) F1 (Chris Videau): F1 confirms that they do pay a royalty.",
+          "primary": "2",
+          "replicate": "2",
+          "reasons": [],
+          "blind_context": "question turn 34 (5:03-5:04) S2 (Kevin O'Leary): S2 asks if they pay a royalty to Kimberly Clark for the patent. -> answer turn 35 (5:04-5:05) F1 (Chris Videau): F1 confirms that they do pay a royalty.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:35/code:RS-EVID",
+          "field_class": "turn_code",
+          "clock_start": "5:04",
+          "clock_end": "5:05",
+          "context": "question turn 34 (5:03-5:04) S2 (Kevin O'Leary): S2 asks if they pay a royalty to Kimberly Clark for the patent. -> answer turn 35 (5:04-5:05) F1 (Chris Videau): F1 confirms that they do pay a royalty.",
+          "primary": "false",
+          "replicate": "false",
+          "reasons": [],
+          "blind_context": "question turn 34 (5:03-5:04) S2 (Kevin O'Leary): S2 asks if they pay a royalty to Kimberly Clark for the patent. -> answer turn 35 (5:04-5:05) F1 (Chris Videau): F1 confirms that they do pay a royalty.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:35/code:RS-RESP",
+          "field_class": "turn_code",
+          "clock_start": "5:04",
+          "clock_end": "5:05",
+          "context": "question turn 34 (5:03-5:04) S2 (Kevin O'Leary): S2 asks if they pay a royalty to Kimberly Clark for the patent. -> answer turn 35 (5:04-5:05) F1 (Chris Videau): F1 confirms that they do pay a royalty.",
+          "primary": "addresses",
+          "replicate": "addresses",
+          "reasons": [],
+          "blind_context": "question turn 34 (5:03-5:04) S2 (Kevin O'Leary): S2 asks if they pay a royalty to Kimberly Clark for the patent. -> answer turn 35 (5:04-5:05) F1 (Chris Videau): F1 confirms that they do pay a royalty.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:38/code:PR-CONCEPT",
+          "field_class": "turn_code",
+          "clock_start": "5:12",
+          "clock_end": "5:13",
+          "context": "question turn 38 (5:12-5:13) S5 (Daniel Lubetzky): S5 asks if there are any limitations on their exclusive use of the patent. -> answer turn 39 (5:13-5:17) F1 (Chris Videau): F1 explains the patent remains exclusive to them as long as they pay their annual royalties.",
+          "primary": "assets",
+          "replicate": null,
+          "reasons": [],
+          "blind_context": "question turn 38 (5:12-5:13) S5 (Daniel Lubetzky): S5 asks if there are any limitations on their exclusive use of the patent. -> answer turn 39 (5:13-5:17) F1 (Chris Videau): F1 explains the patent remains exclusive to them as long as they pay their annual royalties.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:38/code:PR-SEV",
+          "field_class": "turn_code",
+          "clock_start": "5:12",
+          "clock_end": "5:13",
+          "context": "question turn 38 (5:12-5:13) S5 (Daniel Lubetzky): S5 asks if there are any limitations on their exclusive use of the patent. -> answer turn 39 (5:13-5:17) F1 (Chris Videau): F1 explains the patent remains exclusive to them as long as they pay their annual royalties.",
+          "primary": "1",
+          "replicate": null,
+          "reasons": [],
+          "blind_context": "question turn 38 (5:12-5:13) S5 (Daniel Lubetzky): S5 asks if there are any limitations on their exclusive use of the patent. -> answer turn 39 (5:13-5:17) F1 (Chris Videau): F1 explains the patent remains exclusive to them as long as they pay their annual royalties.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:39/code:PREP-COH",
+          "field_class": "turn_code",
+          "clock_start": "5:13",
+          "clock_end": "5:17",
+          "context": "question turn 38 (5:12-5:13) S5 (Daniel Lubetzky): S5 asks if there are any limitations on their exclusive use of the patent. -> answer turn 39 (5:13-5:17) F1 (Chris Videau): F1 explains the patent remains exclusive to them as long as they pay their annual royalties.",
+          "primary": "3",
+          "replicate": "4",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 38 (5:12-5:13) S5 (Daniel Lubetzky): S5 asks if there are any limitations on their exclusive use of the patent. -> answer turn 39 (5:13-5:17) F1 (Chris Videau): F1 explains the patent remains exclusive to them as long as they pay their annual royalties.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:39/code:PREP-SUBS",
+          "field_class": "turn_code",
+          "clock_start": "5:13",
+          "clock_end": "5:17",
+          "context": "question turn 38 (5:12-5:13) S5 (Daniel Lubetzky): S5 asks if there are any limitations on their exclusive use of the patent. -> answer turn 39 (5:13-5:17) F1 (Chris Videau): F1 explains the patent remains exclusive to them as long as they pay their annual royalties.",
+          "primary": "3",
+          "replicate": "3",
+          "reasons": [],
+          "blind_context": "question turn 38 (5:12-5:13) S5 (Daniel Lubetzky): S5 asks if there are any limitations on their exclusive use of the patent. -> answer turn 39 (5:13-5:17) F1 (Chris Videau): F1 explains the patent remains exclusive to them as long as they pay their annual royalties.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:39/code:RS-EVID",
+          "field_class": "turn_code",
+          "clock_start": "5:13",
+          "clock_end": "5:17",
+          "context": "question turn 38 (5:12-5:13) S5 (Daniel Lubetzky): S5 asks if there are any limitations on their exclusive use of the patent. -> answer turn 39 (5:13-5:17) F1 (Chris Videau): F1 explains the patent remains exclusive to them as long as they pay their annual royalties.",
+          "primary": "false",
+          "replicate": "false",
+          "reasons": [],
+          "blind_context": "question turn 38 (5:12-5:13) S5 (Daniel Lubetzky): S5 asks if there are any limitations on their exclusive use of the patent. -> answer turn 39 (5:13-5:17) F1 (Chris Videau): F1 explains the patent remains exclusive to them as long as they pay their annual royalties.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:39/code:RS-RESP",
+          "field_class": "turn_code",
+          "clock_start": "5:13",
+          "clock_end": "5:17",
+          "context": "question turn 38 (5:12-5:13) S5 (Daniel Lubetzky): S5 asks if there are any limitations on their exclusive use of the patent. -> answer turn 39 (5:13-5:17) F1 (Chris Videau): F1 explains the patent remains exclusive to them as long as they pay their annual royalties.",
+          "primary": "addresses",
+          "replicate": "addresses",
+          "reasons": [],
+          "blind_context": "question turn 38 (5:12-5:13) S5 (Daniel Lubetzky): S5 asks if there are any limitations on their exclusive use of the patent. -> answer turn 39 (5:13-5:17) F1 (Chris Videau): F1 explains the patent remains exclusive to them as long as they pay their annual royalties.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:42/code:PR-CONCEPT",
+          "field_class": "turn_code",
+          "clock_start": "5:28",
+          "clock_end": "5:29",
+          "context": "question turn 42 (5:28-5:29) S2 (Kevin O'Leary): S2 asks what happens after that date and if they have an option to renew the agreement. -> answer turn 43 (5:29-5:31) F1 (Chris Videau): F1 clarifies that the agreement simply expires.",
+          "primary": "assets",
+          "replicate": "assets",
+          "reasons": [],
+          "blind_context": "question turn 42 (5:28-5:29) S2 (Kevin O'Leary): S2 asks what happens after that date and if they have an option to renew the agreement. -> answer turn 43 (5:29-5:31) F1 (Chris Videau): F1 clarifies that the agreement simply expires.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:42/code:PR-SEV",
+          "field_class": "turn_code",
+          "clock_start": "5:28",
+          "clock_end": "5:29",
+          "context": "question turn 42 (5:28-5:29) S2 (Kevin O'Leary): S2 asks what happens after that date and if they have an option to renew the agreement. -> answer turn 43 (5:29-5:31) F1 (Chris Videau): F1 clarifies that the agreement simply expires.",
+          "primary": "2",
+          "replicate": "1",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 42 (5:28-5:29) S2 (Kevin O'Leary): S2 asks what happens after that date and if they have an option to renew the agreement. -> answer turn 43 (5:29-5:31) F1 (Chris Videau): F1 clarifies that the agreement simply expires.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:43/code:PREP-COH",
+          "field_class": "turn_code",
+          "clock_start": "5:29",
+          "clock_end": "5:31",
+          "context": "question turn 42 (5:28-5:29) S2 (Kevin O'Leary): S2 asks what happens after that date and if they have an option to renew the agreement. -> answer turn 43 (5:29-5:31) F1 (Chris Videau): F1 clarifies that the agreement simply expires.",
+          "primary": "3",
+          "replicate": "3",
+          "reasons": [],
+          "blind_context": "question turn 42 (5:28-5:29) S2 (Kevin O'Leary): S2 asks what happens after that date and if they have an option to renew the agreement. -> answer turn 43 (5:29-5:31) F1 (Chris Videau): F1 clarifies that the agreement simply expires.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:43/code:PREP-SUBS",
+          "field_class": "turn_code",
+          "clock_start": "5:29",
+          "clock_end": "5:31",
+          "context": "question turn 42 (5:28-5:29) S2 (Kevin O'Leary): S2 asks what happens after that date and if they have an option to renew the agreement. -> answer turn 43 (5:29-5:31) F1 (Chris Videau): F1 clarifies that the agreement simply expires.",
+          "primary": "2",
+          "replicate": "2",
+          "reasons": [],
+          "blind_context": "question turn 42 (5:28-5:29) S2 (Kevin O'Leary): S2 asks what happens after that date and if they have an option to renew the agreement. -> answer turn 43 (5:29-5:31) F1 (Chris Videau): F1 clarifies that the agreement simply expires.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:43/code:RS-EVID",
+          "field_class": "turn_code",
+          "clock_start": "5:29",
+          "clock_end": "5:31",
+          "context": "question turn 42 (5:28-5:29) S2 (Kevin O'Leary): S2 asks what happens after that date and if they have an option to renew the agreement. -> answer turn 43 (5:29-5:31) F1 (Chris Videau): F1 clarifies that the agreement simply expires.",
+          "primary": "false",
+          "replicate": "false",
+          "reasons": [],
+          "blind_context": "question turn 42 (5:28-5:29) S2 (Kevin O'Leary): S2 asks what happens after that date and if they have an option to renew the agreement. -> answer turn 43 (5:29-5:31) F1 (Chris Videau): F1 clarifies that the agreement simply expires.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:43/code:RS-RESP",
+          "field_class": "turn_code",
+          "clock_start": "5:29",
+          "clock_end": "5:31",
+          "context": "question turn 42 (5:28-5:29) S2 (Kevin O'Leary): S2 asks what happens after that date and if they have an option to renew the agreement. -> answer turn 43 (5:29-5:31) F1 (Chris Videau): F1 clarifies that the agreement simply expires.",
+          "primary": "addresses",
+          "replicate": "addresses",
+          "reasons": [],
+          "blind_context": "question turn 42 (5:28-5:29) S2 (Kevin O'Leary): S2 asks what happens after that date and if they have an option to renew the agreement. -> answer turn 43 (5:29-5:31) F1 (Chris Videau): F1 clarifies that the agreement simply expires.",
+          "selected_as": "sampled",
+          "priority": 1
+        }
+      ]
+    }
+  }
+}

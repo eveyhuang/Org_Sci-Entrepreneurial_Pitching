@@ -1,0 +1,2516 @@
+{
+  "pass": "primary",
+  "unit_key": "panel__st_d13372af0c__primary",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:13-1:32"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "presentation",
+      "3": "presentation",
+      "4": "presentation",
+      "5": "presentation",
+      "6": "presentation",
+      "7": "presentation",
+      "8": "demonstration",
+      "9": "demonstration",
+      "10": "demonstration",
+      "11": "demonstration",
+      "12": "demonstration",
+      "13": "demonstration",
+      "14": "demonstration",
+      "15": "demonstration",
+      "16": "qa",
+      "17": "qa",
+      "18": "qa",
+      "19": "qa",
+      "20": "qa",
+      "21": "qa",
+      "22": "qa",
+      "23": "qa",
+      "24": "qa",
+      "25": "qa",
+      "26": "qa",
+      "27": "qa",
+      "28": "qa",
+      "29": "qa",
+      "30": "qa",
+      "31": "qa",
+      "32": "qa",
+      "33": "qa",
+      "34": "qa",
+      "35": "qa",
+      "36": "qa",
+      "37": "qa",
+      "38": "qa",
+      "39": "qa",
+      "40": "qa",
+      "41": "qa",
+      "42": "qa",
+      "43": "qa",
+      "44": "none",
+      "45": "qa",
+      "46": "qa",
+      "47": "qa",
+      "48": "qa",
+      "49": "qa",
+      "50": "qa",
+      "51": "qa",
+      "52": "qa",
+      "53": "qa",
+      "54": "qa",
+      "55": "none",
+      "56": "none",
+      "57": "qa",
+      "58": "qa",
+      "59": "none",
+      "60": "qa",
+      "61": "qa",
+      "62": "qa",
+      "63": "negotiation",
+      "64": "negotiation",
+      "65": "negotiation",
+      "66": "negotiation",
+      "67": "negotiation",
+      "68": "negotiation",
+      "69": "negotiation"
+    },
+    "segment_seconds": {
+      "presentation": 77.0,
+      "qa": 255.0,
+      "social": 0.0,
+      "demonstration": 39.0,
+      "negotiation": 45.0,
+      "none": 86.0
+    },
+    "exchange_counts": {
+      "substantive": 7,
+      "social": 0,
+      "demonstration": 1,
+      "negotiation": 1
+    },
+    "turn_frame": {
+      "16": "prevention",
+      "17": "prevention",
+      "18": "promotion",
+      "19": "promotion",
+      "20": "promotion",
+      "21": "promotion",
+      "22": "promotion",
+      "23": "promotion",
+      "24": "promotion",
+      "25": "promotion",
+      "26": "promotion",
+      "27": "promotion",
+      "28": "promotion",
+      "30": "promotion",
+      "31": "promotion",
+      "32": "promotion",
+      "33": "promotion",
+      "34": "prevention",
+      "35": "prevention",
+      "36": "promotion",
+      "37": "promotion",
+      "38": "promotion",
+      "39": "promotion",
+      "40": "promotion",
+      "41": "promotion",
+      "42": "promotion",
+      "43": "promotion",
+      "46": "promotion",
+      "47": "prevention",
+      "48": "prevention",
+      "49": "promotion",
+      "50": "promotion",
+      "51": "promotion",
+      "52": "promotion",
+      "53": "promotion",
+      "54": "promotion",
+      "57": "prevention",
+      "58": "promotion",
+      "60": "promotion",
+      "61": "promotion",
+      "62": "promotion"
+    },
+    "frame_match": {
+      "17": "match",
+      "19": "match",
+      "20": "match",
+      "22": "match",
+      "24": "match",
+      "26": "match",
+      "28": "match",
+      "31": "match",
+      "33": "match",
+      "35": "match",
+      "37": "match",
+      "39": "match",
+      "41": "match",
+      "43": "match",
+      "48": "match",
+      "50": "match",
+      "52": "match",
+      "54": "match",
+      "58": "switch_to_promotion",
+      "61": "match",
+      "62": "match"
+    },
+    "other_concepts": []
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "H1",
+        "role": "host",
+        "label": "Narrator"
+      },
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Chris Videau"
+      },
+      {
+        "actor_id": "F2",
+        "role": "founder",
+        "label": "Chris Campbell"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Mark Cuban"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Kevin O'Leary"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Lori Greiner"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Barbara Corcoran"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Daniel Lubetzky"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 13.0,
+        "end_s": 92.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 13.0,
+        "kind": "narration"
+      },
+      {
+        "start_s": 568.0,
+        "end_s": 611.0,
+        "kind": "interview"
+      }
+    ],
+    "gaps": [
+      {
+        "at_s": 548.0,
+        "note": "Founders step back to whisper to each other, largely inaudible."
+      }
+    ],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 83.0,
+        "note": "F1 smiles broadly and speaks with strong positive engagement about their mission."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 35.0,
+        "note": "F2 shows sustained engaged excitement when describing the problem they are solving."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 3,
+        "uncodable": false,
+        "moment_s": 13.0,
+        "note": "Friendly initial greeting, but the pitch maintains a serious, purpose-driven tone."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "1",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "Eco-friendly, plastic-free laundry detergent sheets and household cleaning products.",
+      "primary_industry": "home_household",
+      "secondary_industries": [],
+      "product_form": "physical_good",
+      "customer_type": "consumer",
+      "founder_gender": "all_men",
+      "product_category": "Laundry detergent sheets",
+      "earliest_s": 17.0,
+      "note": "The founders state they are seeking $500,000 for 5% of their company.",
+      "ask_amount_usd": 500000,
+      "ask_equity_pct": 5.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 13.0,
+        "end_s": 14.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 introduces himself to the panel of investors."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "F2",
+        "start_s": 14.0,
+        "end_s": 24.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F2 introduces himself, states the company name, and asks for five hundred thousand dollars for five percent equity."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "F1",
+        "start_s": 25.0,
+        "end_s": 34.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 shares his background flying helicopters in the military and observing global plastic waste, motivating the business."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "F2",
+        "start_s": 35.0,
+        "end_s": 50.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F2 explains that the plastic crisis affects cities and oceans, pointing to the laundry industry as a major culprit."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "F1",
+        "start_s": 50.0,
+        "end_s": 63.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 states they developed a patented, eco-friendly, dehydrated laundry detergent sheet to combat the plastic crisis."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "F2",
+        "start_s": 63.0,
+        "end_s": 83.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F2 describes the product as lightweight, mess-free, and one hundred percent plastic-free compared to mainstream liquid detergents."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "F1",
+        "start_s": 83.0,
+        "end_s": 92.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 concludes the pitch by asking the investors who wants to join their mission to eliminate plastic."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "F2",
+        "start_s": 93.0,
+        "end_s": 101.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F2 instructs the investors to roll up the detergent sheet provided to them."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "S3",
+        "start_s": 101.0,
+        "end_s": 103.0,
+        "function": "demonstrates",
+        "addressed": [
+          "UNKNOWN"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S3 remarks positively on the scent of the detergent sheet."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "F2",
+        "start_s": 103.0,
+        "end_s": 106.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F2 tells the panel to roll the sheet tight enough to fit inside the provided glass bottle."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "F1",
+        "start_s": 106.0,
+        "end_s": 116.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 instructs them to drop the sheet into the cold water in the bottle, noting it begins to dissolve."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "F2",
+        "start_s": 116.0,
+        "end_s": 125.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F2 tells the investors to shake the bottle for a few seconds."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "F1",
+        "start_s": 125.0,
+        "end_s": 127.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 points out that bubbles have formed in the bottle."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "F2",
+        "start_s": 127.0,
+        "end_s": 129.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F2 confirms they have successfully turned the solid sheet into soapy bubbles."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "S3",
+        "start_s": 129.0,
+        "end_s": 132.0,
+        "function": "accepts",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S3 expresses positive approval of the demonstration."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "S5",
+        "start_s": 133.0,
+        "end_s": 135.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S5 asks about the specific ingredients contained within the detergent sheet."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "F1",
+        "start_s": 135.0,
+        "end_s": 154.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          16
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 details the primary plant-based ingredients, noting the absence of synthetic chemicals found in mainstream detergents."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "S4",
+        "start_s": 154.0,
+        "end_s": 167.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S4 asks about the founders' backgrounds, their roles in the company, and how they transitioned from the military."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "F1",
+        "start_s": 167.0,
+        "end_s": 239.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          18
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "5",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "4",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 details his military career, lung damage from burn pits in Iraq, and his motivation to eliminate plastic waste."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "F2",
+        "start_s": 240.0,
+        "end_s": 253.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          18
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F2 explains his fifteen years of entrepreneurial experience and his desire to build a purpose-driven business with F1."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "S2",
+        "start_s": 254.0,
+        "end_s": 257.0,
+        "function": "question",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S2 asks about the other products displayed on the table besides the laundry sheets."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "F1",
+        "start_s": 258.0,
+        "end_s": 264.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          21
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 states they have forty-six different SKUs covering various cleaning product categories."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "S2",
+        "start_s": 264.0,
+        "end_s": 266.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S2 clarifies that the business sells multiple items rather than just the detergent sheets."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "F2",
+        "start_s": 266.0,
+        "end_s": 274.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          23
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F2 confirms they sell floor cleaners and scent boosters, though laundry sheets remain the primary focus."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "S4",
+        "start_s": 274.0,
+        "end_s": 275.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S4 asks when the company officially launched its products."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "F1",
+        "start_s": 276.0,
+        "end_s": 279.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          25
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 states they officially launched to the public in January of twenty twenty."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "S5",
+        "start_s": 279.0,
+        "end_s": 281.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S5 asks for their total sales figures for the year twenty twenty."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "F1",
+        "start_s": 281.0,
+        "end_s": 284.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          27
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 reports just over two million dollars in total sales for twenty twenty."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "S5",
+        "start_s": 284.0,
+        "end_s": 287.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S5 remarks that the two million dollar sales figure is impressive."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "S5",
+        "start_s": 287.0,
+        "end_s": 289.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S5 asks what percentage of their sales comes from their top-selling item."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "F1",
+        "start_s": 289.0,
+        "end_s": 292.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          30
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 confirms that the laundry sheets are their best-selling product."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "S5",
+        "start_s": 293.0,
+        "end_s": 295.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S5 asks for the specific dollar amount of sheet sales out of the two million total."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "F1",
+        "start_s": 295.0,
+        "end_s": 303.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          32
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 states sheet sales were 1.2 million and mentions an exclusivity agreement for the patent with Kimberly Clark."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "S2",
+        "start_s": 303.0,
+        "end_s": 304.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S2 asks if they pay a royalty to Kimberly Clark for the patent."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "F1",
+        "start_s": 304.0,
+        "end_s": 305.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          34
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 confirms that they do pay a royalty."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "S4",
+        "start_s": 306.0,
+        "end_s": 311.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S4 asks if they are the only company allowed to use the patent."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "F1",
+        "start_s": 311.0,
+        "end_s": 312.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          36
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 confirms they have exclusive rights."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "S5",
+        "start_s": 312.0,
+        "end_s": 313.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S5 asks if there are any limitations on their exclusive use of the patent."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "F1",
+        "start_s": 313.0,
+        "end_s": 317.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          38
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 explains the patent remains exclusive to them as long as they pay their annual royalties."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "S2",
+        "start_s": 318.0,
+        "end_s": 326.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S2 points out they do not own the IP and asks how long the agreement with Kimberly Clark lasts."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "F1",
+        "start_s": 326.0,
+        "end_s": 327.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          40
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 states the agreement lasts through October of twenty twenty-four."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "S2",
+        "start_s": 328.0,
+        "end_s": 329.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S2 asks what happens after that date and if they have an option to renew the agreement."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "F1",
+        "start_s": 329.0,
+        "end_s": 331.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          42
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 clarifies that the agreement simply expires."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "S4",
+        "start_s": 333.0,
+        "end_s": 369.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S4 exits, citing concerns over the expiring patent, too many SKUs, and her perception that the founders lack salesmanship."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "S2",
+        "start_s": 370.0,
+        "end_s": 373.0,
+        "function": "challenges",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S2 teases the founders about S4 calling them the worst salesmen she has seen on the show."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "F1",
+        "start_s": 374.0,
+        "end_s": 377.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          45
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "forecast",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 counters by stating they are on track to reach nearly seven million dollars in sales for the current year."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "S3",
+        "start_s": 378.0,
+        "end_s": 381.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S3 praises the response and asks for their net profit margin."
+      },
+      {
+        "turn_id": 48,
+        "speaker": "F1",
+        "start_s": 381.0,
+        "end_s": 382.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          47
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "operating_efficiency",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 states their net profit margin is twenty-four percent."
+      },
+      {
+        "turn_id": 49,
+        "speaker": "S2",
+        "start_s": 382.0,
+        "end_s": 386.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "forecast",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S2 asks to confirm they are projecting growth from two million to seven million in one year."
+      },
+      {
+        "turn_id": 50,
+        "speaker": "F1",
+        "start_s": 386.0,
+        "end_s": 388.0,
+        "function": "answer",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          49
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "forecast",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 confirms the projected growth figure."
+      },
+      {
+        "turn_id": 51,
+        "speaker": "S3",
+        "start_s": 389.0,
+        "end_s": 391.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "customer_acquisition",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S3 asks how they achieved such sales growth given S4's criticism of their sales skills."
+      },
+      {
+        "turn_id": 52,
+        "speaker": "F2",
+        "start_s": 391.0,
+        "end_s": 399.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          51
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "customer_acquisition",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F2 explains they used aggressive advertising campaigns and user-generated content from customers to drive sales."
+      },
+      {
+        "turn_id": 53,
+        "speaker": "S3",
+        "start_s": 400.0,
+        "end_s": 404.0,
+        "function": "question",
+        "addressed": [
+          "F2"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S3 asks which social media platforms they used to run their video advertisements and testimonials."
+      },
+      {
+        "turn_id": 54,
+        "speaker": "F2",
+        "start_s": 404.0,
+        "end_s": 414.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 6,
+        "responds_to": [
+          53
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F2 lists Pinterest, AdWords, and social platforms, emphasizing his background in marketing and e-commerce rather than traditional sales."
+      },
+      {
+        "turn_id": 55,
+        "speaker": "S2",
+        "start_s": 415.0,
+        "end_s": 432.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S2 exits, noting a conflict of interest because he is already invested in a competing eco-friendly cleaning company."
+      },
+      {
+        "turn_id": 56,
+        "speaker": "S3",
+        "start_s": 435.0,
+        "end_s": 458.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S3 exits, stating that while she likes the mission, the valuation is too high for the equity offered."
+      },
+      {
+        "turn_id": 57,
+        "speaker": "S1",
+        "start_s": 460.0,
+        "end_s": 465.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S1 asks what they specifically plan to do with the five hundred thousand dollar investment."
+      },
+      {
+        "turn_id": 58,
+        "speaker": "F1",
+        "start_s": 466.0,
+        "end_s": 469.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 7,
+        "responds_to": [
+          57
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "market_opportunity",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 explains they want to use the funds to expand the business globally and make a worldwide impact."
+      },
+      {
+        "turn_id": 59,
+        "speaker": "S1",
+        "start_s": 469.0,
+        "end_s": 479.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S1 exits, disagreeing with the expensive global expansion plan and advising them to conserve their cash instead."
+      },
+      {
+        "turn_id": 60,
+        "speaker": "S5",
+        "start_s": 480.0,
+        "end_s": 488.0,
+        "function": "question",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "forecast",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "S5 asks why they are confident in hitting seven million in sales, noting it would justify their valuation."
+      },
+      {
+        "turn_id": 61,
+        "speaker": "F1",
+        "start_s": 489.0,
+        "end_s": 494.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          60
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F1 cites over twenty-one thousand monthly subscribers, projecting nearly three million in recurring revenue alone."
+      },
+      {
+        "turn_id": 62,
+        "speaker": "F2",
+        "start_s": 495.0,
+        "end_s": 499.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          60
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "go_to_market",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "2",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "F2 adds they are working with a consumer goods group and hope to enter retail stores soon."
+      },
+      {
+        "turn_id": 63,
+        "speaker": "S5",
+        "start_s": 500.0,
+        "end_s": 522.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S5 offers five hundred thousand dollars for ten percent equity, praising their digital marketing skills and subscriber base."
+      },
+      {
+        "turn_id": 64,
+        "speaker": "F1",
+        "start_s": 523.0,
+        "end_s": 532.0,
+        "function": "decides",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 counters S5's offer, asking if he would accept eight percent equity, which was their planned ceiling."
+      },
+      {
+        "turn_id": 65,
+        "speaker": "S5",
+        "start_s": 533.0,
+        "end_s": 536.0,
+        "function": "decides",
+        "addressed": [
+          "F1",
+          "F2"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S5 revises his offer to eight percent equity plus two percent in advisory shares to maintain his desired stake."
+      },
+      {
+        "turn_id": 66,
+        "speaker": "F1",
+        "start_s": 537.0,
+        "end_s": 538.0,
+        "function": "negotiates",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 asks to clarify if the revised terms effectively mean ten percent total equity."
+      },
+      {
+        "turn_id": 67,
+        "speaker": "S5",
+        "start_s": 538.0,
+        "end_s": 544.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "S5 confirms the total is ten percent and presses the founders to make a decision on the deal."
+      },
+      {
+        "turn_id": 68,
+        "speaker": "F1",
+        "start_s": 544.0,
+        "end_s": 547.0,
+        "function": "negotiates",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 asks for ten seconds to discuss the offer privately with his co-founder."
+      },
+      {
+        "turn_id": 69,
+        "speaker": "F1",
+        "start_s": 556.0,
+        "end_s": 557.0,
+        "function": "decides",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 9,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "F1 accepts S5's revised offer of eight percent equity and two percent advisory shares."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "demonstration",
+        "topic": "NONE",
+        "label": "Detergent sheet dissolving demo"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "Sheet ingredients"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "self_promotion",
+        "label": "Founders' backgrounds"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "Product line and 2020 sales"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "assets",
+        "label": "Patent exclusivity and terms"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "substantive",
+        "topic": "forecast",
+        "label": "Sales projections and marketing"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "substantive",
+        "topic": "execution",
+        "label": "Use of funds for expansion"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "substantive",
+        "topic": "forecast",
+        "label": "Confidence in 7M projection"
+      },
+      {
+        "exchange_id": 9,
+        "kind": "negotiation",
+        "topic": "NONE",
+        "label": "Negotiating investment terms"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S4",
+        "kind": "exit",
+        "time_s": 367.0,
+        "turn_id": 44,
+        "offer_id": null,
+        "terms": "I'm out",
+        "note": "Concerns over expiring patent, too many SKUs, and lack of salesmanship."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S2",
+        "kind": "exit",
+        "time_s": 431.0,
+        "turn_id": 55,
+        "offer_id": null,
+        "terms": "I'm out",
+        "note": "Conflict of interest with his existing portfolio company Blueland."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S3",
+        "kind": "exit",
+        "time_s": 457.0,
+        "turn_id": 56,
+        "offer_id": null,
+        "terms": "I'm out",
+        "note": "Valuation is too high for the equity offered."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S1",
+        "kind": "exit",
+        "time_s": 477.0,
+        "turn_id": 59,
+        "offer_id": null,
+        "terms": "I'm out",
+        "note": "Disagrees with expensive global expansion plan, advises conserving cash."
+      },
+      {
+        "decision_id": 5,
+        "actor": "S5",
+        "kind": "offer",
+        "time_s": 518.0,
+        "turn_id": 63,
+        "offer_id": "O1",
+        "terms": "$500,000 for 10%",
+        "note": "Impressed by their digital marketing skills and subscriber base."
+      },
+      {
+        "decision_id": 6,
+        "actor": "F1",
+        "kind": "founder_counters",
+        "time_s": 530.0,
+        "turn_id": 64,
+        "offer_id": "O1",
+        "terms": "$500,000 for 8%",
+        "note": "Ceiling for equity is 8%."
+      },
+      {
+        "decision_id": 7,
+        "actor": "S5",
+        "kind": "revises_offer",
+        "time_s": 533.0,
+        "turn_id": 65,
+        "offer_id": "O1",
+        "terms": "$500,000 for 8% and 2% in advisory shares",
+        "note": "Wants to maintain 10% total equity value."
+      },
+      {
+        "decision_id": 8,
+        "actor": "F1",
+        "kind": "founder_accepts",
+        "time_s": 556.0,
+        "turn_id": 69,
+        "offer_id": "O1",
+        "terms": "$500,000 for 8% and 2% in advisory shares",
+        "note": "Accepts the revised counter offer."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": ""
+  }
+}

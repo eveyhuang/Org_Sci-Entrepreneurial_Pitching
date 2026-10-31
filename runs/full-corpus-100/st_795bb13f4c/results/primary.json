@@ -1,0 +1,1926 @@
+{
+  "pass": "primary",
+  "unit_key": "panel__st_795bb13f4c__primary",
+  "annotation_context": "descriptive_full_context",
+  "prompt_hash": "da25fe52ab681598",
+  "model_version": "gemini-3.1-pro-preview",
+  "time_format": "clock_on_wire_seconds_in_record",
+  "prepared_window": [
+    "0:17-2:24"
+  ],
+  "derived": {
+    "turn_segment": {
+      "1": "presentation",
+      "2": "demonstration",
+      "3": "demonstration",
+      "4": "demonstration",
+      "5": "demonstration",
+      "6": "demonstration",
+      "7": "demonstration",
+      "8": "qa",
+      "9": "qa",
+      "10": "qa",
+      "11": "qa",
+      "12": "qa",
+      "13": "qa",
+      "14": "qa",
+      "15": "qa",
+      "16": "qa",
+      "17": "qa",
+      "18": "qa",
+      "19": "qa",
+      "20": "qa",
+      "21": "qa",
+      "22": "qa",
+      "23": "qa",
+      "24": "qa",
+      "25": "qa",
+      "26": "qa",
+      "27": "qa",
+      "28": "qa",
+      "29": "qa",
+      "30": "qa",
+      "31": "qa",
+      "32": "qa",
+      "33": "qa",
+      "34": "qa",
+      "35": "qa",
+      "36": "qa",
+      "37": "qa",
+      "38": "qa",
+      "39": "none",
+      "40": "none",
+      "41": "none",
+      "42": "none",
+      "43": "none",
+      "44": "none",
+      "45": "social",
+      "46": "social",
+      "47": "none",
+      "48": "social",
+      "49": "negotiation",
+      "50": "social",
+      "51": "negotiation",
+      "52": "negotiation",
+      "53": "negotiation",
+      "54": "negotiation",
+      "55": "negotiation",
+      "56": "negotiation",
+      "57": "negotiation",
+      "58": "negotiation",
+      "59": "negotiation"
+    },
+    "segment_seconds": {
+      "presentation": 127.0,
+      "qa": 159.0,
+      "social": 8.0,
+      "demonstration": 28.0,
+      "negotiation": 41.0,
+      "none": 95.0
+    },
+    "exchange_counts": {
+      "substantive": 4,
+      "social": 2,
+      "demonstration": 1,
+      "negotiation": 1
+    },
+    "turn_frame": {
+      "4": "unclassified",
+      "5": "unclassified",
+      "9": "promotion",
+      "10": "promotion",
+      "12": "promotion",
+      "14": "promotion",
+      "17": "promotion",
+      "19": "promotion",
+      "20": "promotion",
+      "21": "promotion",
+      "22": "promotion",
+      "23": "promotion",
+      "24": "promotion",
+      "25": "promotion",
+      "26": "promotion",
+      "27": "promotion",
+      "28": "promotion",
+      "30": "prevention",
+      "31": "prevention",
+      "34": "prevention",
+      "35": "prevention",
+      "40": "prevention",
+      "43": "promotion"
+    },
+    "frame_match": {
+      "5": "unclassified",
+      "10": "match",
+      "20": "match",
+      "22": "match",
+      "24": "match",
+      "26": "match",
+      "28": "match",
+      "31": "match",
+      "35": "match"
+    },
+    "other_concepts": [
+      {
+        "where": "turn",
+        "id": 4,
+        "code": "PR-CONCEPT",
+        "name": "the prepared dishes",
+        "clock": "2:37"
+      },
+      {
+        "where": "turn",
+        "id": 5,
+        "code": "RS-CONCEPT",
+        "name": "the prepared dishes",
+        "clock": "2:38"
+      }
+    ]
+  },
+  "normalizations": [],
+  "record": {
+    "actors": [
+      {
+        "actor_id": "H1",
+        "role": "host",
+        "label": "Narrator"
+      },
+      {
+        "actor_id": "F1",
+        "role": "founder",
+        "label": "Alfonso Tejada"
+      },
+      {
+        "actor_id": "S1",
+        "role": "investor",
+        "label": "Daymond John"
+      },
+      {
+        "actor_id": "S2",
+        "role": "investor",
+        "label": "Mark Cuban"
+      },
+      {
+        "actor_id": "S3",
+        "role": "investor",
+        "label": "Bethenny Frankel"
+      },
+      {
+        "actor_id": "S4",
+        "role": "investor",
+        "label": "Robert Herjavec"
+      },
+      {
+        "actor_id": "S5",
+        "role": "investor",
+        "label": "Lori Greiner"
+      }
+    ],
+    "prepared_spans": [
+      {
+        "start_s": 17.0,
+        "end_s": 144.0
+      }
+    ],
+    "excluded_spans": [
+      {
+        "start_s": 0.0,
+        "end_s": 16.0,
+        "kind": "teaser"
+      },
+      {
+        "start_s": 549.0,
+        "end_s": 580.0,
+        "kind": "other"
+      }
+    ],
+    "gaps": [
+      {
+        "at_s": 144.0,
+        "note": "Edit between the end of the presentation and the tasting segment."
+      },
+      {
+        "at_s": 521.0,
+        "note": "Suspense edit before the founder accepts the final offer."
+      }
+    ],
+    "source_complete": true,
+    "stage_a": [
+      {
+        "code": "pitch_positivity",
+        "value": 5,
+        "uncodable": false,
+        "moment_s": 79.0,
+        "note": "The founder delivers a highly energetic, positive presentation, smiling and performing enthusiastically throughout."
+      },
+      {
+        "code": "expressed_enthusiasm",
+        "value": 5,
+        "uncodable": false,
+        "moment_s": 74.0,
+        "note": "Pronounced excitement is shown as the founder shouts and dramatically punches a prop to demonstrate benefits."
+      },
+      {
+        "code": "interpersonal_warmth",
+        "value": 4,
+        "uncodable": false,
+        "moment_s": 61.0,
+        "note": "The founder maintains a friendly, approachable demeanor, smiling and engaging warmly with the panel."
+      }
+    ],
+    "prepared": [
+      {
+        "code": "PRES-SUBS",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-COH",
+        "value": "4",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-CTX",
+        "value": "3",
+        "missing": "none"
+      },
+      {
+        "code": "PRES-EVID",
+        "value": "3",
+        "missing": "none"
+      }
+    ],
+    "venture": {
+      "description": "A low-calorie, low-carb, gluten-free pasta substitute made entirely from hearts of palm.",
+      "primary_industry": "food_beverage",
+      "secondary_industries": [
+        "health_personal_care"
+      ],
+      "product_form": "physical_good",
+      "customer_type": "consumer",
+      "founder_gender": "all_men",
+      "product_category": "pasta substitute",
+      "earliest_s": 28.0,
+      "note": "The product is presented as a healthy alternative to traditional pasta.",
+      "ask_amount_usd": 300000,
+      "ask_equity_pct": 10.0,
+      "ask_missing": "none"
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "speaker": "F1",
+        "start_s": 17.0,
+        "end_s": 144.0,
+        "function": "presents",
+        "addressed": [],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The founder delivers a high-energy prepared presentation explaining the nutritional benefits and preparation of the pasta substitute."
+      },
+      {
+        "turn_id": 2,
+        "speaker": "S2",
+        "start_s": 145.0,
+        "end_s": 148.0,
+        "function": "demonstrates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "An investor enthusiastically asks to taste the prepared dishes."
+      },
+      {
+        "turn_id": 3,
+        "speaker": "F1",
+        "start_s": 148.0,
+        "end_s": 156.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The founder confirms he will serve three different preparations of the product to the panel."
+      },
+      {
+        "turn_id": 4,
+        "speaker": "S4",
+        "start_s": 157.0,
+        "end_s": 158.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "other",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": "the prepared dishes",
+        "summary": "An investor asks for clarification on what specific dishes they are currently eating."
+      },
+      {
+        "turn_id": 5,
+        "speaker": "F1",
+        "start_s": 158.0,
+        "end_s": 165.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 1,
+        "responds_to": [
+          4
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "other",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": "the prepared dishes",
+        "summary": "The founder explains that the first dish is a slightly spicy salad prepared with shrimp."
+      },
+      {
+        "turn_id": 6,
+        "speaker": "S4",
+        "start_s": 168.0,
+        "end_s": 169.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "An investor coughs and jokes that he does not enjoy the spicy dish."
+      },
+      {
+        "turn_id": 7,
+        "speaker": "F1",
+        "start_s": 169.0,
+        "end_s": 177.0,
+        "function": "demonstrates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 1,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The founder describes the other two dishes, which include a garlic alfredo and a traditional marinara with meatballs."
+      },
+      {
+        "turn_id": 8,
+        "speaker": "S5",
+        "start_s": 178.0,
+        "end_s": 181.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "An investor compliments the taste, noting her existing preference for hearts of palm."
+      },
+      {
+        "turn_id": 9,
+        "speaker": "S3",
+        "start_s": 181.0,
+        "end_s": 188.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "An investor asks for clarification, having assumed the product was powdered rather than cut directly from the vegetable."
+      },
+      {
+        "turn_id": 10,
+        "speaker": "F1",
+        "start_s": 188.0,
+        "end_s": 202.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          9
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder confirms the product is cut directly into noodle shapes, noting the difficulty and a pending patent."
+      },
+      {
+        "turn_id": 11,
+        "speaker": "S4",
+        "start_s": 203.0,
+        "end_s": 204.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "An investor challenges the product by stating that it does not taste like real pasta."
+      },
+      {
+        "turn_id": 12,
+        "speaker": "F1",
+        "start_s": 205.0,
+        "end_s": 209.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          11
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder acknowledges that opinions vary, with some customers finding the taste similar to pasta and others disagreeing."
+      },
+      {
+        "turn_id": 13,
+        "speaker": "S4",
+        "start_s": 210.0,
+        "end_s": 212.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "An investor expresses disappointment, reiterating his love for traditional pasta."
+      },
+      {
+        "turn_id": 14,
+        "speaker": "F1",
+        "start_s": 213.0,
+        "end_s": 220.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          13
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "usage",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder relates to loving pasta but emphasizes the benefit of eating the substitute without feeling bloated."
+      },
+      {
+        "turn_id": 15,
+        "speaker": "S3",
+        "start_s": 221.0,
+        "end_s": 225.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "An investor challenges the value proposition, noting one could simply eat canned hearts of palm."
+      },
+      {
+        "turn_id": 16,
+        "speaker": "S5",
+        "start_s": 226.0,
+        "end_s": 236.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "An investor expresses surprise that it is just a cut vegetable rather than a reformulated pasta dough."
+      },
+      {
+        "turn_id": 17,
+        "speaker": "F1",
+        "start_s": 236.0,
+        "end_s": 239.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 2,
+        "responds_to": [
+          16
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "deflects",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "assets",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "too_short"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder briefly deflects the criticism by asking what is wrong with the product being a vegetable."
+      },
+      {
+        "turn_id": 18,
+        "speaker": "S2",
+        "start_s": 240.0,
+        "end_s": 242.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 2,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "An investor validates the product, noting there are many good health reasons to choose it over traditional pasta."
+      },
+      {
+        "turn_id": 19,
+        "speaker": "S5",
+        "start_s": 243.0,
+        "end_s": 244.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 3,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "An investor asks the founder to share his professional and educational background."
+      },
+      {
+        "turn_id": 20,
+        "speaker": "F1",
+        "start_s": 245.0,
+        "end_s": 272.0,
+        "function": "answer",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 3,
+        "responds_to": [
+          19
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "self_promotion",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder details his business school education and his experience starting an agricultural machinery and quinoa importing business."
+      },
+      {
+        "turn_id": 21,
+        "speaker": "S4",
+        "start_s": 272.0,
+        "end_s": 274.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "An investor asks for the current revenue figures for the founder's quinoa importing business."
+      },
+      {
+        "turn_id": 22,
+        "speaker": "F1",
+        "start_s": 274.0,
+        "end_s": 279.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          21
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder states that the quinoa business has generated four hundred thousand dollars in sales so far this year."
+      },
+      {
+        "turn_id": 23,
+        "speaker": "S1",
+        "start_s": 279.0,
+        "end_s": 282.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "An investor asks for the current sales figures specifically for the pasta substitute product."
+      },
+      {
+        "turn_id": 24,
+        "speaker": "F1",
+        "start_s": 282.0,
+        "end_s": 287.0,
+        "function": "answer",
+        "addressed": [
+          "S1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          23
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder explains they received inventory three months ago and quickly sold out of their initial two thousand units."
+      },
+      {
+        "turn_id": 25,
+        "speaker": "S4",
+        "start_s": 288.0,
+        "end_s": 289.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "An investor asks for the specific dollar amount of revenue generated by the pasta substitute."
+      },
+      {
+        "turn_id": 26,
+        "speaker": "F1",
+        "start_s": 289.0,
+        "end_s": 292.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          25
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder clarifies that the pasta substitute generated fifty thousand dollars in sales over those three months."
+      },
+      {
+        "turn_id": 27,
+        "speaker": "S4",
+        "start_s": 294.0,
+        "end_s": 295.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 4,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "An investor asks for the current retail price of the product."
+      },
+      {
+        "turn_id": 28,
+        "speaker": "F1",
+        "start_s": 296.0,
+        "end_s": 299.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": 4,
+        "responds_to": [
+          27
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "sales",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder states the product sells for nearly ten dollars on Amazon, admitting this price point is too high."
+      },
+      {
+        "turn_id": 29,
+        "speaker": "S3",
+        "start_s": 299.0,
+        "end_s": 302.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "An investor challenges the product's uniqueness, calling it merely shredded hearts of palm."
+      },
+      {
+        "turn_id": 30,
+        "speaker": "S3",
+        "start_s": 304.0,
+        "end_s": 312.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "An investor asks what prevents a large food corporation from replicating the processing machine and entering the market."
+      },
+      {
+        "turn_id": 31,
+        "speaker": "F1",
+        "start_s": 313.0,
+        "end_s": 324.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          30
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "true",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "4",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder cites the two years spent developing the machine and its pending patent as competitive defense."
+      },
+      {
+        "turn_id": 32,
+        "speaker": "S3",
+        "start_s": 324.0,
+        "end_s": 327.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "An investor dismisses the patent defense, arguing that large competitors routinely overcome such barriers."
+      },
+      {
+        "turn_id": 33,
+        "speaker": "S5",
+        "start_s": 328.0,
+        "end_s": 338.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "An investor defends the product's difficulty, noting that achieving such uniform cuts with hearts of palm is challenging."
+      },
+      {
+        "turn_id": 34,
+        "speaker": "S3",
+        "start_s": 338.0,
+        "end_s": 342.0,
+        "function": "question",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [
+          {
+            "code": "PR-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "PR-SEV",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "An investor presses again on how the founder plans to defend against large corporate competitors."
+      },
+      {
+        "turn_id": 35,
+        "speaker": "F1",
+        "start_s": 343.0,
+        "end_s": 344.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": 5,
+        "responds_to": [
+          34
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "deflects",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "competition",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-COH",
+            "value": null,
+            "missing": "too_short"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": null,
+            "missing": "too_short"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder deflects the question by stating his plan is to partner with one of the investors."
+      },
+      {
+        "turn_id": 36,
+        "speaker": "S3",
+        "start_s": 345.0,
+        "end_s": 346.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "An investor challenges the founder's reliance on simply securing an investment as a competitive strategy."
+      },
+      {
+        "turn_id": 37,
+        "speaker": "S2",
+        "start_s": 348.0,
+        "end_s": 353.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "An investor validates the founder's approach, noting that speed is essential when competing against large corporations."
+      },
+      {
+        "turn_id": 38,
+        "speaker": "S3",
+        "start_s": 354.0,
+        "end_s": 359.0,
+        "function": "challenges",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 5,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "An investor reiterates her skepticism, arguing that a basic vegetable cutting method cannot be effectively protected."
+      },
+      {
+        "turn_id": 39,
+        "speaker": "S3",
+        "start_s": 360.0,
+        "end_s": 379.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "An investor decides not to invest, citing the ease of replication by large manufacturers despite the strong market trend."
+      },
+      {
+        "turn_id": 40,
+        "speaker": "F1",
+        "start_s": 380.0,
+        "end_s": 385.0,
+        "function": "answer",
+        "addressed": [
+          "S3"
+        ],
+        "exchange_id": null,
+        "responds_to": [
+          39
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "addresses",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "execution",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "1",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder responds to the exit, insisting that the investor underestimates the manufacturing difficulty."
+      },
+      {
+        "turn_id": 41,
+        "speaker": "S1",
+        "start_s": 386.0,
+        "end_s": 404.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "An investor decides not to invest, arguing the three million dollar valuation is unjustified given the corporate competition."
+      },
+      {
+        "turn_id": 42,
+        "speaker": "S4",
+        "start_s": 406.0,
+        "end_s": 419.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "An investor decides not to invest, stating a personal preference for real pasta over vegetable substitutes."
+      },
+      {
+        "turn_id": 43,
+        "speaker": "F1",
+        "start_s": 420.0,
+        "end_s": 434.0,
+        "function": "answer",
+        "addressed": [
+          "S4"
+        ],
+        "exchange_id": null,
+        "responds_to": [
+          42
+        ],
+        "codes": [
+          {
+            "code": "RS-RESP",
+            "value": "deflects",
+            "missing": "none"
+          },
+          {
+            "code": "RS-CONCEPT",
+            "value": "vision",
+            "missing": "none"
+          },
+          {
+            "code": "RS-EVID",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "RS-UNCERT",
+            "value": "false",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-SUBS",
+            "value": "2",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-COH",
+            "value": "3",
+            "missing": "none"
+          },
+          {
+            "code": "PREP-CTX",
+            "value": "3",
+            "missing": "none"
+          }
+        ],
+        "other_concept": null,
+        "summary": "The founder responds to the exit by comparing his product's potential to a major sugar substitute brand."
+      },
+      {
+        "turn_id": 44,
+        "speaker": "S5",
+        "start_s": 434.0,
+        "end_s": 454.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "An investor expresses strong enthusiasm for the product's low calorie count and states a desire to partner."
+      },
+      {
+        "turn_id": 45,
+        "speaker": "F1",
+        "start_s": 454.0,
+        "end_s": 455.0,
+        "function": "social",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The founder jokes that another investor also loves the product very much."
+      },
+      {
+        "turn_id": 46,
+        "speaker": "S2",
+        "start_s": 456.0,
+        "end_s": 457.0,
+        "function": "social",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 6,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "An investor jokingly agrees with the founder about his strong liking for the product."
+      },
+      {
+        "turn_id": 47,
+        "speaker": "S5",
+        "start_s": 458.0,
+        "end_s": 464.0,
+        "function": "accepts",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": null,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "An investor notes the significant work required to improve the product's packaging."
+      },
+      {
+        "turn_id": 48,
+        "speaker": "F1",
+        "start_s": 464.0,
+        "end_s": 468.0,
+        "function": "social",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The founder expresses excitement, anticipating an imminent investment offer from the panel."
+      },
+      {
+        "turn_id": 49,
+        "speaker": "S5",
+        "start_s": 469.0,
+        "end_s": 474.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "An investor makes a joint offer with another investor for three hundred thousand dollars in exchange for thirty percent equity."
+      },
+      {
+        "turn_id": 50,
+        "speaker": "S4",
+        "start_s": 475.0,
+        "end_s": 477.0,
+        "function": "social",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 7,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "An investor reacts with surprise to the joint offer presented to the founder."
+      },
+      {
+        "turn_id": 51,
+        "speaker": "S5",
+        "start_s": 482.0,
+        "end_s": 498.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "An investor emphasizes the value she and her partner bring in competing with large food companies."
+      },
+      {
+        "turn_id": 52,
+        "speaker": "F1",
+        "start_s": 499.0,
+        "end_s": 500.0,
+        "function": "decides",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          49
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The founder counters the joint offer, asking if the investors would accept eighteen percent equity instead."
+      },
+      {
+        "turn_id": 53,
+        "speaker": "S5",
+        "start_s": 501.0,
+        "end_s": 504.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "An investor immediately rejects the founder's counter-offer of eighteen percent equity."
+      },
+      {
+        "turn_id": 54,
+        "speaker": "F1",
+        "start_s": 504.0,
+        "end_s": 507.0,
+        "function": "decides",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          53
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The founder makes a second counter-offer, proposing twenty percent equity for the requested investment amount."
+      },
+      {
+        "turn_id": 55,
+        "speaker": "S2",
+        "start_s": 508.0,
+        "end_s": 510.0,
+        "function": "negotiates",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "An investor encourages the founder to accept the original offer, emphasizing its value."
+      },
+      {
+        "turn_id": 56,
+        "speaker": "F1",
+        "start_s": 511.0,
+        "end_s": 515.0,
+        "function": "negotiates",
+        "addressed": [
+          "PANEL"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The founder pleads his case, promising the investors that the partnership will be worthwhile."
+      },
+      {
+        "turn_id": 57,
+        "speaker": "S5",
+        "start_s": 515.0,
+        "end_s": 517.0,
+        "function": "negotiates",
+        "addressed": [
+          "S2"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "An investor consults her partner about revising their offer to twenty-five percent equity."
+      },
+      {
+        "turn_id": 58,
+        "speaker": "S5",
+        "start_s": 518.0,
+        "end_s": 521.0,
+        "function": "decides",
+        "addressed": [
+          "F1"
+        ],
+        "exchange_id": 8,
+        "responds_to": [],
+        "codes": [],
+        "other_concept": null,
+        "summary": "An investor formally revises the joint offer to three hundred thousand dollars for twenty-five percent equity."
+      },
+      {
+        "turn_id": 59,
+        "speaker": "F1",
+        "start_s": 526.0,
+        "end_s": 528.0,
+        "function": "decides",
+        "addressed": [
+          "S5"
+        ],
+        "exchange_id": 8,
+        "responds_to": [
+          58
+        ],
+        "codes": [],
+        "other_concept": null,
+        "summary": "The founder accepts the revised joint offer for twenty-five percent equity."
+      }
+    ],
+    "exchanges": [
+      {
+        "exchange_id": 1,
+        "kind": "demonstration",
+        "topic": "NONE",
+        "label": "Tasting the dishes"
+      },
+      {
+        "exchange_id": 2,
+        "kind": "substantive",
+        "topic": "assets",
+        "label": "Product composition and taste"
+      },
+      {
+        "exchange_id": 3,
+        "kind": "substantive",
+        "topic": "self_promotion",
+        "label": "Founder background"
+      },
+      {
+        "exchange_id": 4,
+        "kind": "substantive",
+        "topic": "sales",
+        "label": "Sales and pricing"
+      },
+      {
+        "exchange_id": 5,
+        "kind": "substantive",
+        "topic": "competition",
+        "label": "Defensibility against big brands"
+      },
+      {
+        "exchange_id": 6,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "Joking about Mark"
+      },
+      {
+        "exchange_id": 7,
+        "kind": "social",
+        "topic": "NONE",
+        "label": "Anticipating offer"
+      },
+      {
+        "exchange_id": 8,
+        "kind": "negotiation",
+        "topic": "NONE",
+        "label": "Negotiating equity"
+      }
+    ],
+    "decisions": [
+      {
+        "decision_id": 1,
+        "actor": "S3",
+        "kind": "exit",
+        "time_s": 379.0,
+        "turn_id": 39,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Believes the manufacturing process is too easy for large corporations to copy and dominate."
+      },
+      {
+        "decision_id": 2,
+        "actor": "S1",
+        "kind": "exit",
+        "time_s": 403.0,
+        "turn_id": 41,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Considers the three million dollar valuation too high given the threat of corporate competition."
+      },
+      {
+        "decision_id": 3,
+        "actor": "S4",
+        "kind": "exit",
+        "time_s": 418.0,
+        "turn_id": 42,
+        "offer_id": null,
+        "terms": "I'm out.",
+        "note": "Personally prefers real pasta and does not believe in sliced vegetable substitutes."
+      },
+      {
+        "decision_id": 4,
+        "actor": "S5",
+        "kind": "offer",
+        "time_s": 472.0,
+        "turn_id": 49,
+        "offer_id": "O1",
+        "terms": "$300,000 for 30%",
+        "note": "Offers a joint deal with Mark Cuban, citing love for the product and its low calories."
+      },
+      {
+        "decision_id": 5,
+        "actor": "F1",
+        "kind": "founder_counters",
+        "time_s": 499.0,
+        "turn_id": 52,
+        "offer_id": "O1",
+        "terms": "$300,000 for 18%",
+        "note": "Counters the joint offer, asking to lower the equity stake to eighteen percent."
+      },
+      {
+        "decision_id": 6,
+        "actor": "F1",
+        "kind": "founder_counters",
+        "time_s": 504.0,
+        "turn_id": 54,
+        "offer_id": "O1",
+        "terms": "$300,000 for 20%",
+        "note": "Bumps up the counter-offer after the investors immediately reject eighteen percent."
+      },
+      {
+        "decision_id": 7,
+        "actor": "S5",
+        "kind": "revises_offer",
+        "time_s": 518.0,
+        "turn_id": 58,
+        "offer_id": "O1",
+        "terms": "$300,000 for a 25% stake",
+        "note": "Consults Mark and agrees to meet the founder in the middle at twenty-five percent."
+      },
+      {
+        "decision_id": 8,
+        "actor": "F1",
+        "kind": "founder_accepts",
+        "time_s": 526.0,
+        "turn_id": 59,
+        "offer_id": "O1",
+        "terms": "Let's do it.",
+        "note": "Accepts the revised joint offer from Lori and Mark."
+      }
+    ],
+    "claim_conflicts": [],
+    "notes": "Lori speaks for herself and Mark Cuban when making the joint offer; Mark's agreement is implicit."
+  }
+}

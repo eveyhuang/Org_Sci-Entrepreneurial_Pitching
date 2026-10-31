@@ -1,0 +1,451 @@
+{
+  "videos": {
+    "st_8a6fd25840": {
+      "video_id": "st_8a6fd25840",
+      "sheet": "st_8a6fd25840__review.csv",
+      "release_id": "v3-dev9",
+      "annotation_context": "descriptive_full_context",
+      "seed": 0,
+      "sample_unflagged": null,
+      "max_flagged": null,
+      "preset": "exchange",
+      "field_classes": null,
+      "blind": true,
+      "pass": "primary",
+      "primary_sha256": "8e963a672f926258aaeea5eea0d61589577c3b9bf5d229672f533dcde8a0ada5",
+      "replicate_sha256": "9c17a352d7b698f740e5de1d2b5b0825f3ab5b6bd61f7b4fa6319cc29a2a7a90",
+      "counts": {
+        "by_field_class": {
+          "turn_code": 24,
+          "cut": 1
+        },
+        "by_selection": {
+          "flagged": 0,
+          "sampled": 25
+        },
+        "by_priority": {
+          "1": 25,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "by_reason": {
+          "passes_differ": 2
+        }
+      },
+      "flagged": null,
+      "sample": {
+        "seed": 0,
+        "key": "st_8a6fd25840",
+        "requested": {
+          "stage_a": 0,
+          "exchanges": 0,
+          "qa": 4,
+          "venture": 0,
+          "qa_codes": [
+            [
+              "question",
+              "PR-CONCEPT"
+            ],
+            [
+              "question",
+              "PR-SEV"
+            ],
+            [
+              "answer",
+              "RS-RESP"
+            ],
+            [
+              "answer",
+              "RS-EVID"
+            ],
+            [
+              "answer",
+              "PREP-SUBS"
+            ],
+            [
+              "answer",
+              "PREP-COH"
+            ]
+          ]
+        },
+        "drawn": {
+          "pitch": [
+            "first_decision"
+          ],
+          "venture": [],
+          "stage_a": [],
+          "exchanges": [],
+          "qa": [
+            [
+              7,
+              8
+            ],
+            [
+              9,
+              11
+            ],
+            [
+              16,
+              17
+            ],
+            [
+              18,
+              19
+            ]
+          ]
+        },
+        "available": {
+          "venture": 4,
+          "stage_a": 3,
+          "exchanges": 11,
+          "qa": 12
+        },
+        "qa_before_cut": true,
+        "on_sheet": {
+          "turn_code": 24,
+          "cut": 1
+        },
+        "population": {
+          "turn_code": 72,
+          "exchange_topic": 11,
+          "stage_a": 3,
+          "venture": 4,
+          "cut": 1
+        }
+      },
+      "unflagged": null,
+      "rows": [
+        {
+          "path": "pitch:first_decision",
+          "field_class": "cut",
+          "clock_start": null,
+          "clock_end": null,
+          "context": "the pitch: S5 exit@5:40, S2 exit@5:55, S3 exit@6:15, S1 offer@7:15, S4 joins_offer@7:34",
+          "blind_context": "the pitch: When is the first decision spoken?",
+          "primary": "5:40",
+          "replicate": "5:40",
+          "reasons": [],
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:7/code:PR-CONCEPT",
+          "field_class": "turn_code",
+          "clock_start": "2:34",
+          "clock_end": "2:36",
+          "context": "question turn 7 (2:34-2:36) S3 (Daymond John): Daymond asks if the pump shown is a standard pump found in every pool. -> answer turn 8 (2:36-2:45) F1 (Bianca Wittenberg): Bianca confirms the pump is standard, but the adapter requires a one-time installation by a pool professional.",
+          "primary": "execution",
+          "replicate": "execution",
+          "reasons": [],
+          "blind_context": "question turn 7 (2:34-2:36) S3 (Daymond John): Daymond asks if the pump shown is a standard pump found in every pool. -> answer turn 8 (2:36-2:45) F1 (Bianca Wittenberg): Bianca confirms the pump is standard, but the adapter requires a one-time installation by a pool professional.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:7/code:PR-SEV",
+          "field_class": "turn_code",
+          "clock_start": "2:34",
+          "clock_end": "2:36",
+          "context": "question turn 7 (2:34-2:36) S3 (Daymond John): Daymond asks if the pump shown is a standard pump found in every pool. -> answer turn 8 (2:36-2:45) F1 (Bianca Wittenberg): Bianca confirms the pump is standard, but the adapter requires a one-time installation by a pool professional.",
+          "primary": "1",
+          "replicate": "1",
+          "reasons": [],
+          "blind_context": "question turn 7 (2:34-2:36) S3 (Daymond John): Daymond asks if the pump shown is a standard pump found in every pool. -> answer turn 8 (2:36-2:45) F1 (Bianca Wittenberg): Bianca confirms the pump is standard, but the adapter requires a one-time installation by a pool professional.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:8/code:PREP-COH",
+          "field_class": "turn_code",
+          "clock_start": "2:36",
+          "clock_end": "2:45",
+          "context": "question turn 7 (2:34-2:36) S3 (Daymond John): Daymond asks if the pump shown is a standard pump found in every pool. -> answer turn 8 (2:36-2:45) F1 (Bianca Wittenberg): Bianca confirms the pump is standard, but the adapter requires a one-time installation by a pool professional.",
+          "primary": "4",
+          "replicate": "4",
+          "reasons": [],
+          "blind_context": "question turn 7 (2:34-2:36) S3 (Daymond John): Daymond asks if the pump shown is a standard pump found in every pool. -> answer turn 8 (2:36-2:45) F1 (Bianca Wittenberg): Bianca confirms the pump is standard, but the adapter requires a one-time installation by a pool professional.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:8/code:PREP-SUBS",
+          "field_class": "turn_code",
+          "clock_start": "2:36",
+          "clock_end": "2:45",
+          "context": "question turn 7 (2:34-2:36) S3 (Daymond John): Daymond asks if the pump shown is a standard pump found in every pool. -> answer turn 8 (2:36-2:45) F1 (Bianca Wittenberg): Bianca confirms the pump is standard, but the adapter requires a one-time installation by a pool professional.",
+          "primary": "4",
+          "replicate": "4",
+          "reasons": [],
+          "blind_context": "question turn 7 (2:34-2:36) S3 (Daymond John): Daymond asks if the pump shown is a standard pump found in every pool. -> answer turn 8 (2:36-2:45) F1 (Bianca Wittenberg): Bianca confirms the pump is standard, but the adapter requires a one-time installation by a pool professional.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:8/code:RS-EVID",
+          "field_class": "turn_code",
+          "clock_start": "2:36",
+          "clock_end": "2:45",
+          "context": "question turn 7 (2:34-2:36) S3 (Daymond John): Daymond asks if the pump shown is a standard pump found in every pool. -> answer turn 8 (2:36-2:45) F1 (Bianca Wittenberg): Bianca confirms the pump is standard, but the adapter requires a one-time installation by a pool professional.",
+          "primary": "false",
+          "replicate": "true",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 7 (2:34-2:36) S3 (Daymond John): Daymond asks if the pump shown is a standard pump found in every pool. -> answer turn 8 (2:36-2:45) F1 (Bianca Wittenberg): Bianca confirms the pump is standard, but the adapter requires a one-time installation by a pool professional.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:8/code:RS-RESP",
+          "field_class": "turn_code",
+          "clock_start": "2:36",
+          "clock_end": "2:45",
+          "context": "question turn 7 (2:34-2:36) S3 (Daymond John): Daymond asks if the pump shown is a standard pump found in every pool. -> answer turn 8 (2:36-2:45) F1 (Bianca Wittenberg): Bianca confirms the pump is standard, but the adapter requires a one-time installation by a pool professional.",
+          "primary": "addresses",
+          "replicate": "addresses",
+          "reasons": [],
+          "blind_context": "question turn 7 (2:34-2:36) S3 (Daymond John): Daymond asks if the pump shown is a standard pump found in every pool. -> answer turn 8 (2:36-2:45) F1 (Bianca Wittenberg): Bianca confirms the pump is standard, but the adapter requires a one-time installation by a pool professional.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:9/code:PR-CONCEPT",
+          "field_class": "turn_code",
+          "clock_start": "2:45",
+          "clock_end": "2:50",
+          "context": "question turn 9 (2:45-2:50) S4 (Mark Cuban): Mark notes that the installation requires proactive effort by hiring a pool guy. -> answer turn 11 (2:51-3:03) F1 (Bianca Wittenberg): Bianca confirms it is a one-time setup and notes many pools already have open ports.",
+          "primary": "execution",
+          "replicate": "execution",
+          "reasons": [],
+          "blind_context": "question turn 9 (2:45-2:50) S4 (Mark Cuban): Mark notes that the installation requires proactive effort by hiring a pool guy. -> answer turn 11 (2:51-3:03) F1 (Bianca Wittenberg): Bianca confirms it is a one-time setup and notes many pools already have open ports.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:9/code:PR-SEV",
+          "field_class": "turn_code",
+          "clock_start": "2:45",
+          "clock_end": "2:50",
+          "context": "question turn 9 (2:45-2:50) S4 (Mark Cuban): Mark notes that the installation requires proactive effort by hiring a pool guy. -> answer turn 11 (2:51-3:03) F1 (Bianca Wittenberg): Bianca confirms it is a one-time setup and notes many pools already have open ports.",
+          "primary": "2",
+          "replicate": "3",
+          "reasons": [
+            "passes_differ"
+          ],
+          "blind_context": "question turn 9 (2:45-2:50) S4 (Mark Cuban): Mark notes that the installation requires proactive effort by hiring a pool guy. -> answer turn 11 (2:51-3:03) F1 (Bianca Wittenberg): Bianca confirms it is a one-time setup and notes many pools already have open ports.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:11/code:PREP-COH",
+          "field_class": "turn_code",
+          "clock_start": "2:51",
+          "clock_end": "3:03",
+          "context": "question turn 9 (2:45-2:50) S4 (Mark Cuban): Mark notes that the installation requires proactive effort by hiring a pool guy. -> answer turn 11 (2:51-3:03) F1 (Bianca Wittenberg): Bianca confirms it is a one-time setup and notes many pools already have open ports.",
+          "primary": "4",
+          "replicate": "4",
+          "reasons": [],
+          "blind_context": "question turn 9 (2:45-2:50) S4 (Mark Cuban): Mark notes that the installation requires proactive effort by hiring a pool guy. -> answer turn 11 (2:51-3:03) F1 (Bianca Wittenberg): Bianca confirms it is a one-time setup and notes many pools already have open ports.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:11/code:PREP-SUBS",
+          "field_class": "turn_code",
+          "clock_start": "2:51",
+          "clock_end": "3:03",
+          "context": "question turn 9 (2:45-2:50) S4 (Mark Cuban): Mark notes that the installation requires proactive effort by hiring a pool guy. -> answer turn 11 (2:51-3:03) F1 (Bianca Wittenberg): Bianca confirms it is a one-time setup and notes many pools already have open ports.",
+          "primary": "4",
+          "replicate": "4",
+          "reasons": [],
+          "blind_context": "question turn 9 (2:45-2:50) S4 (Mark Cuban): Mark notes that the installation requires proactive effort by hiring a pool guy. -> answer turn 11 (2:51-3:03) F1 (Bianca Wittenberg): Bianca confirms it is a one-time setup and notes many pools already have open ports.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:11/code:RS-EVID",
+          "field_class": "turn_code",
+          "clock_start": "2:51",
+          "clock_end": "3:03",
+          "context": "question turn 9 (2:45-2:50) S4 (Mark Cuban): Mark notes that the installation requires proactive effort by hiring a pool guy. -> answer turn 11 (2:51-3:03) F1 (Bianca Wittenberg): Bianca confirms it is a one-time setup and notes many pools already have open ports.",
+          "primary": "true",
+          "replicate": "true",
+          "reasons": [],
+          "blind_context": "question turn 9 (2:45-2:50) S4 (Mark Cuban): Mark notes that the installation requires proactive effort by hiring a pool guy. -> answer turn 11 (2:51-3:03) F1 (Bianca Wittenberg): Bianca confirms it is a one-time setup and notes many pools already have open ports.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:11/code:RS-RESP",
+          "field_class": "turn_code",
+          "clock_start": "2:51",
+          "clock_end": "3:03",
+          "context": "question turn 9 (2:45-2:50) S4 (Mark Cuban): Mark notes that the installation requires proactive effort by hiring a pool guy. -> answer turn 11 (2:51-3:03) F1 (Bianca Wittenberg): Bianca confirms it is a one-time setup and notes many pools already have open ports.",
+          "primary": "addresses",
+          "replicate": "addresses",
+          "reasons": [],
+          "blind_context": "question turn 9 (2:45-2:50) S4 (Mark Cuban): Mark notes that the installation requires proactive effort by hiring a pool guy. -> answer turn 11 (2:51-3:03) F1 (Bianca Wittenberg): Bianca confirms it is a one-time setup and notes many pools already have open ports.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:16/code:PR-CONCEPT",
+          "field_class": "turn_code",
+          "clock_start": "3:56",
+          "clock_end": "4:06",
+          "context": "question turn 16 (3:56-4:06) S1 (Lori Greiner): Lori asks Bianca to share her background and the story about her father inventing the product. -> answer turn 17 (4:06-4:39) F1 (Bianca Wittenberg): Bianca shares that her late father came up with the idea after seeing pool water sit unused during fires.",
+          "primary": "self_promotion",
+          "replicate": "self_promotion",
+          "reasons": [],
+          "blind_context": "question turn 16 (3:56-4:06) S1 (Lori Greiner): Lori asks Bianca to share her background and the story about her father inventing the product. -> answer turn 17 (4:06-4:39) F1 (Bianca Wittenberg): Bianca shares that her late father came up with the idea after seeing pool water sit unused during fires.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:16/code:PR-SEV",
+          "field_class": "turn_code",
+          "clock_start": "3:56",
+          "clock_end": "4:06",
+          "context": "question turn 16 (3:56-4:06) S1 (Lori Greiner): Lori asks Bianca to share her background and the story about her father inventing the product. -> answer turn 17 (4:06-4:39) F1 (Bianca Wittenberg): Bianca shares that her late father came up with the idea after seeing pool water sit unused during fires.",
+          "primary": "1",
+          "replicate": "1",
+          "reasons": [],
+          "blind_context": "question turn 16 (3:56-4:06) S1 (Lori Greiner): Lori asks Bianca to share her background and the story about her father inventing the product. -> answer turn 17 (4:06-4:39) F1 (Bianca Wittenberg): Bianca shares that her late father came up with the idea after seeing pool water sit unused during fires.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:17/code:PREP-COH",
+          "field_class": "turn_code",
+          "clock_start": "4:06",
+          "clock_end": "4:39",
+          "context": "question turn 16 (3:56-4:06) S1 (Lori Greiner): Lori asks Bianca to share her background and the story about her father inventing the product. -> answer turn 17 (4:06-4:39) F1 (Bianca Wittenberg): Bianca shares that her late father came up with the idea after seeing pool water sit unused during fires.",
+          "primary": "4",
+          "replicate": "4",
+          "reasons": [],
+          "blind_context": "question turn 16 (3:56-4:06) S1 (Lori Greiner): Lori asks Bianca to share her background and the story about her father inventing the product. -> answer turn 17 (4:06-4:39) F1 (Bianca Wittenberg): Bianca shares that her late father came up with the idea after seeing pool water sit unused during fires.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:17/code:PREP-SUBS",
+          "field_class": "turn_code",
+          "clock_start": "4:06",
+          "clock_end": "4:39",
+          "context": "question turn 16 (3:56-4:06) S1 (Lori Greiner): Lori asks Bianca to share her background and the story about her father inventing the product. -> answer turn 17 (4:06-4:39) F1 (Bianca Wittenberg): Bianca shares that her late father came up with the idea after seeing pool water sit unused during fires.",
+          "primary": "4",
+          "replicate": "4",
+          "reasons": [],
+          "blind_context": "question turn 16 (3:56-4:06) S1 (Lori Greiner): Lori asks Bianca to share her background and the story about her father inventing the product. -> answer turn 17 (4:06-4:39) F1 (Bianca Wittenberg): Bianca shares that her late father came up with the idea after seeing pool water sit unused during fires.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:17/code:RS-EVID",
+          "field_class": "turn_code",
+          "clock_start": "4:06",
+          "clock_end": "4:39",
+          "context": "question turn 16 (3:56-4:06) S1 (Lori Greiner): Lori asks Bianca to share her background and the story about her father inventing the product. -> answer turn 17 (4:06-4:39) F1 (Bianca Wittenberg): Bianca shares that her late father came up with the idea after seeing pool water sit unused during fires.",
+          "primary": "true",
+          "replicate": "true",
+          "reasons": [],
+          "blind_context": "question turn 16 (3:56-4:06) S1 (Lori Greiner): Lori asks Bianca to share her background and the story about her father inventing the product. -> answer turn 17 (4:06-4:39) F1 (Bianca Wittenberg): Bianca shares that her late father came up with the idea after seeing pool water sit unused during fires.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:17/code:RS-RESP",
+          "field_class": "turn_code",
+          "clock_start": "4:06",
+          "clock_end": "4:39",
+          "context": "question turn 16 (3:56-4:06) S1 (Lori Greiner): Lori asks Bianca to share her background and the story about her father inventing the product. -> answer turn 17 (4:06-4:39) F1 (Bianca Wittenberg): Bianca shares that her late father came up with the idea after seeing pool water sit unused during fires.",
+          "primary": "addresses",
+          "replicate": "addresses",
+          "reasons": [],
+          "blind_context": "question turn 16 (3:56-4:06) S1 (Lori Greiner): Lori asks Bianca to share her background and the story about her father inventing the product. -> answer turn 17 (4:06-4:39) F1 (Bianca Wittenberg): Bianca shares that her late father came up with the idea after seeing pool water sit unused during fires.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:18/code:PR-CONCEPT",
+          "field_class": "turn_code",
+          "clock_start": "4:39",
+          "clock_end": "4:47",
+          "context": "question turn 18 (4:39-4:47) S5 (Daniel Lubetzky): Daniel asks if professional firemen can use the product to drain pools to fight fires. -> answer turn 19 (4:47-4:53) F1 (Bianca Wittenberg): Bianca confirms they can, and the long-term goal is for fire departments to map these accessible pools.",
+          "primary": "usage",
+          "replicate": "usage",
+          "reasons": [],
+          "blind_context": "question turn 18 (4:39-4:47) S5 (Daniel Lubetzky): Daniel asks if professional firemen can use the product to drain pools to fight fires. -> answer turn 19 (4:47-4:53) F1 (Bianca Wittenberg): Bianca confirms they can, and the long-term goal is for fire departments to map these accessible pools.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:18/code:PR-SEV",
+          "field_class": "turn_code",
+          "clock_start": "4:39",
+          "clock_end": "4:47",
+          "context": "question turn 18 (4:39-4:47) S5 (Daniel Lubetzky): Daniel asks if professional firemen can use the product to drain pools to fight fires. -> answer turn 19 (4:47-4:53) F1 (Bianca Wittenberg): Bianca confirms they can, and the long-term goal is for fire departments to map these accessible pools.",
+          "primary": "1",
+          "replicate": "1",
+          "reasons": [],
+          "blind_context": "question turn 18 (4:39-4:47) S5 (Daniel Lubetzky): Daniel asks if professional firemen can use the product to drain pools to fight fires. -> answer turn 19 (4:47-4:53) F1 (Bianca Wittenberg): Bianca confirms they can, and the long-term goal is for fire departments to map these accessible pools.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:19/code:PREP-COH",
+          "field_class": "turn_code",
+          "clock_start": "4:47",
+          "clock_end": "4:53",
+          "context": "question turn 18 (4:39-4:47) S5 (Daniel Lubetzky): Daniel asks if professional firemen can use the product to drain pools to fight fires. -> answer turn 19 (4:47-4:53) F1 (Bianca Wittenberg): Bianca confirms they can, and the long-term goal is for fire departments to map these accessible pools.",
+          "primary": "4",
+          "replicate": "4",
+          "reasons": [],
+          "blind_context": "question turn 18 (4:39-4:47) S5 (Daniel Lubetzky): Daniel asks if professional firemen can use the product to drain pools to fight fires. -> answer turn 19 (4:47-4:53) F1 (Bianca Wittenberg): Bianca confirms they can, and the long-term goal is for fire departments to map these accessible pools.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:19/code:PREP-SUBS",
+          "field_class": "turn_code",
+          "clock_start": "4:47",
+          "clock_end": "4:53",
+          "context": "question turn 18 (4:39-4:47) S5 (Daniel Lubetzky): Daniel asks if professional firemen can use the product to drain pools to fight fires. -> answer turn 19 (4:47-4:53) F1 (Bianca Wittenberg): Bianca confirms they can, and the long-term goal is for fire departments to map these accessible pools.",
+          "primary": "3",
+          "replicate": "3",
+          "reasons": [],
+          "blind_context": "question turn 18 (4:39-4:47) S5 (Daniel Lubetzky): Daniel asks if professional firemen can use the product to drain pools to fight fires. -> answer turn 19 (4:47-4:53) F1 (Bianca Wittenberg): Bianca confirms they can, and the long-term goal is for fire departments to map these accessible pools.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:19/code:RS-EVID",
+          "field_class": "turn_code",
+          "clock_start": "4:47",
+          "clock_end": "4:53",
+          "context": "question turn 18 (4:39-4:47) S5 (Daniel Lubetzky): Daniel asks if professional firemen can use the product to drain pools to fight fires. -> answer turn 19 (4:47-4:53) F1 (Bianca Wittenberg): Bianca confirms they can, and the long-term goal is for fire departments to map these accessible pools.",
+          "primary": "false",
+          "replicate": "false",
+          "reasons": [],
+          "blind_context": "question turn 18 (4:39-4:47) S5 (Daniel Lubetzky): Daniel asks if professional firemen can use the product to drain pools to fight fires. -> answer turn 19 (4:47-4:53) F1 (Bianca Wittenberg): Bianca confirms they can, and the long-term goal is for fire departments to map these accessible pools.",
+          "selected_as": "sampled",
+          "priority": 1
+        },
+        {
+          "path": "turn:19/code:RS-RESP",
+          "field_class": "turn_code",
+          "clock_start": "4:47",
+          "clock_end": "4:53",
+          "context": "question turn 18 (4:39-4:47) S5 (Daniel Lubetzky): Daniel asks if professional firemen can use the product to drain pools to fight fires. -> answer turn 19 (4:47-4:53) F1 (Bianca Wittenberg): Bianca confirms they can, and the long-term goal is for fire departments to map these accessible pools.",
+          "primary": "addresses",
+          "replicate": "addresses",
+          "reasons": [],
+          "blind_context": "question turn 18 (4:39-4:47) S5 (Daniel Lubetzky): Daniel asks if professional firemen can use the product to drain pools to fight fires. -> answer turn 19 (4:47-4:53) F1 (Bianca Wittenberg): Bianca confirms they can, and the long-term goal is for fire departments to map these accessible pools.",
+          "selected_as": "sampled",
+          "priority": 1
+        }
+      ]
+    }
+  }
+}
