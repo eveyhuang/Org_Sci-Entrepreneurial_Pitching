@@ -474,7 +474,7 @@ Limits of the method:
 
 ## 9. Provenance
 
-- git commit: eb9ebab84ccd4005960f5fddd2d332b4ccfe9f2a
+- git commit: anonymized
 - release ids: v3-dev9
 - seed: 42
 - n_boot: 1999

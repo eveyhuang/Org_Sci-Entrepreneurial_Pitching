@@ -17,7 +17,7 @@ The notebook follows **Firefighter1** through four sections:
 
 The demo uses saved records and needs **no API key**. It recalculates the Firefighter1 human agreement, rebuilds the concepts, and fits the example's held-out prediction. The corpus validation and predictive comparisons use saved research results. Panel B compares pair-ranking performance with **50% chance**, rather than reporting classification accuracy.
 
-The Firefighter1 MP4 is included and embedded in the notebook. If playback fails, use the notebook's [YouTube link](https://www.youtube.com/watch?v=dxsV1p3Hue0). Download the [completed coding sheet (HTML)](examples/firefighter1_review/pages/human1__completed.html) and open it in a browser to see the full interface and submitted answers. The [blank sheet](examples/firefighter1_review/pages/human1__tasks.html) is also available.
+The notebook plays the Firefighter1 MP4 from disk when available, keeping the notebook small. Anonymous downloads may contain only a Git LFS pointer for the MP4. If the video is unavailable or playback fails, use the notebook's [YouTube link](https://www.youtube.com/watch?v=dxsV1p3Hue0). Download the [completed coding sheet (HTML)](examples/firefighter1_review/pages/human1__completed.html) and open it in a browser to see the full interface and submitted answers. The [blank sheet](examples/firefighter1_review/pages/human1__tasks.html) is also available.
 
 ## How to run the demo
 
@@ -39,7 +39,7 @@ py -3 -m venv .venv
 
 Open the repository folder in VS Code with notebook support, open `Demo.ipynb`, select the `.venv` Python environment as the kernel, and choose **Restart Kernel and Run All**. Run from the repository root so the relative paths resolve correctly. Installing dependencies and watching YouTube require internet; the saved-record calculations run offline.
 
-The setup cell's `VIDEO_PATH` points to the included MP4. If your copy lacks that file, set `VIDEO_PATH = ""` to display the YouTube link instead. The human-validation cell opens the completed coding sheet in your browser by default; set `OPEN_REVIEW_SHEET = None` to keep only the notebook preview, or `"blank"` to open the blank sheet.
+The setup cell's `VIDEO_PATH` points to the included MP4. If that file is missing or is only a Git LFS pointer, the notebook automatically uses the YouTube link. You can also set `VIDEO_PATH = ""` to skip local playback. The human-validation cell opens the completed coding sheet in your browser by default; set `OPEN_REVIEW_SHEET = None` to keep only the notebook preview, or `"blank"` to open the blank sheet.
 
 You can also execute the notebook and save its outputs from a terminal:
 
@@ -51,7 +51,7 @@ On Windows, replace `.venv/bin/python` with `.venv\Scripts\python.exe`.
 
 ## Inspect the evidence and code
 
-The reported run, `full-corpus-100`, contains the saved annotation records and analysis outputs for the 100-episode corpus. The included Firefighter1 video provides the worked example.
+The reported run, `full-corpus-100`, contains the saved annotation records and analysis outputs for the 100-episode corpus. The included Firefighter1 video provides the worked example. The saved analysis does not need the other source videos. To rerun annotation or export clips for the full corpus, supply those videos under `data/shark tank/downloads/`, using the filenames in `selection_all100.json`, and run the commands from the repository root. Archived source-video paths are relative to that root.
 
 | To inspect | Open |
 |---|---|

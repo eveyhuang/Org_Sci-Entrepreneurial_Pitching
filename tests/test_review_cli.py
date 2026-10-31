@@ -1488,7 +1488,7 @@ def test_a_coder_does_not_touch_an_existing_reviewed_record(tmp_path, books):
     assert rp.main(["export", "--run", str(run), "--blind", "--stage-a-per-video", "all"]) == 0
     sheet = vdir / "review" / "vid1__review.csv"
     fill(sheet, {"stage_a:interpersonal_warmth": {"human_value": "4"}})
-    assert rp.main(["import", "--run", str(run), "--sheet", str(sheet), "--reviewer", "evey",
+    assert rp.main(["import", "--run", str(run), "--sheet", str(sheet), "--reviewer", "reviewer_1",
                     "--role", "adjudicator"]) == 0
     before = snapshot(vdir)
     assert before["reviewed.json"] is not None
@@ -1496,7 +1496,7 @@ def test_a_coder_does_not_touch_an_existing_reviewed_record(tmp_path, books):
     assert rp.main(["import", "--run", str(run), "--sheet", str(sheet), "--reviewer", "ana"]) == 0
     assert snapshot(vdir) == before
     reviewed = json.loads((vdir / "results" / "reviewed.json").read_text())
-    assert reviewed["reviewer"] == "evey" and reviewed["corrections"] == 1
+    assert reviewed["reviewer"] == "reviewer_1" and reviewed["corrections"] == 1
 
 
 def test_an_adjudicator_writes_the_record_and_coders_stay_apart(tmp_path, books, capsys):
@@ -1509,11 +1509,11 @@ def test_an_adjudicator_writes_the_record_and_coders_stay_apart(tmp_path, books,
     assert rp.main(["import", "--run", str(run), "--sheet", str(sheet), "--reviewer", "ben"]) == 0
     fill(sheet, {"stage_a:interpersonal_warmth": {"human_value": "4"}})
     capsys.readouterr()
-    assert rp.main(["import", "--run", str(run), "--sheet", str(sheet), "--reviewer", "evey", "--role", "adjudicator"]) == 0
+    assert rp.main(["import", "--run", str(run), "--sheet", str(sheet), "--reviewer", "reviewer_1", "--role", "adjudicator"]) == 0
     assert "exported blind" in capsys.readouterr().err
     reviewed = json.loads((vdir / "results" / "reviewed.json").read_text())
     value = next(i["value"] for i in reviewed["record"]["stage_a"] if i["code"] == "interpersonal_warmth")
-    assert value == 4 and reviewed["reviewer"] == "evey"
+    assert value == 4 and reviewed["reviewer"] == "reviewer_1"
     lines = log_of(vdir)
     by = rp._lines_by_reviewer(lines)
     assert by["ana"]["stage_a:interpersonal_warmth"]["new"] == "5" and by["ben"]["stage_a:interpersonal_warmth"]["new"] == "2"
@@ -1626,7 +1626,7 @@ def test_an_adjudicator_changes_neither_the_validity_figures_nor_the_summary(tmp
     _import_as(run, sheet, "ana", "5")
     _import_as(run, sheet, "ben", "2")
     two_coders = _measures(run, vdir, capsys)
-    _import_as(run, sheet, "evey", "4", "--role", "adjudicator")
+    _import_as(run, sheet, "reviewer_1", "4", "--role", "adjudicator")
     assert _measures(run, vdir, capsys) == two_coders
     agreement = json.loads((vdir / "review" / "human_agreement.json").read_text())
     assert set(agreement["by_reviewer"]) == {"ana", "ben"}
@@ -1659,7 +1659,7 @@ def test_a_coders_outcome_override_never_reaches_the_reviewed_record(tmp_path, b
     _import_as(run, sheet, "ana", None, edits={"pitch:any_offer": {"human_value": flipped}})
     assert json.loads(next(l for l in (vdir / "review" / "review_log.jsonl").read_text().splitlines()))["resolution"] \
         == "outcome_override"
-    _import_as(run, sheet, "evey", "4", "--role", "adjudicator")
+    _import_as(run, sheet, "reviewer_1", "4", "--role", "adjudicator")
     reviewed = json.loads((vdir / "results" / "reviewed.json").read_text())
     assert reviewed["pitch_override"] == {"any_offer": None, "first_decision": None}
 
@@ -1670,14 +1670,14 @@ def test_a_coders_line_neither_opens_nor_clears_an_issue_of_the_reviewed_record(
     assert export(run, "--blind") == 0
     sheet = vdir / "review" / "vid1__review.csv"
     # adjudicator confirms the decision; a coder then judges it structural: still no open issue
-    _import_as(run, sheet, "evey", None, "--role", "adjudicator",
+    _import_as(run, sheet, "reviewer_1", None, "--role", "adjudicator",
                edits={"decision:3/kind": {"resolution": "confirm_primary"}})
     reviewed = (vdir / "results" / "reviewed.json").read_bytes()
     _import_as(run, sheet, "ana", None, edits={"decision:3/kind": {"resolution": "structural", "note": "two"}})
     assert review_open_issues(vdir)["review_structural_on_decisions"] == 0
     assert (vdir / "results" / "reviewed.json").read_bytes() == reviewed
     # the other way: an adjudicator's open issue is not cleared by a later coder's confirmation
-    _import_as(run, sheet, "evey", None, "--role", "adjudicator",
+    _import_as(run, sheet, "reviewer_1", None, "--role", "adjudicator",
                edits={"decision:3/kind": {"resolution": "structural", "note": "two"}})
     assert review_open_issues(vdir)["review_structural_on_decisions"] == 1
     _import_as(run, sheet, "ben", None, edits={"decision:3/kind": {"resolution": "confirm_primary"}})

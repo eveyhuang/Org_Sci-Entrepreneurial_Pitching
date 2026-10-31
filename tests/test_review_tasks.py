@@ -131,11 +131,11 @@ def test_session_export_over_an_earlier_one_needs_force_and_keeps_a_blind_export
 
 
 def test_two_videos_make_one_comparison_and_an_odd_number_is_refused(run, capsys):
-    assert rp.main(["session-export", "--run", str(run), "--video-ids", "v00", "v01", "--coders", "evey"]) == 0
-    page = page_of(run / "review" / "pages" / "evey__tasks.html")
+    assert rp.main(["session-export", "--run", str(run), "--video-ids", "v00", "v01", "--coders", "reviewer_1"]) == 0
+    page = page_of(run / "review" / "pages" / "reviewer_1__tasks.html")
     assert [t["task"] for t in page["videos"]] == ["video", "video", "compare"]
     capsys.readouterr()
-    assert rp.main(["session-export", "--run", str(run), "--video-ids", "v00", "v01", "v02", "--coders", "evey",
+    assert rp.main(["session-export", "--run", str(run), "--video-ids", "v00", "v01", "v02", "--coders", "reviewer_1",
                     "--force"]) == 1
     assert "even number of videos" in capsys.readouterr().err
 
@@ -612,7 +612,7 @@ def test_an_empty_task_page_writes_no_sheet_and_the_pair_tick_and_note_reach_eve
 
 def test_demo_namespace_does_not_migrate_another_designs_answers():
     script = _script()
-    p = {'mode': 'tasks', 'run': 'reference', 'coder': 'Evey', 'design_id': 'a'*12,
+    p = {'mode': 'tasks', 'run': 'reference', 'coder': 'reviewer_1', 'design_id': 'a'*12,
          'storage_namespace': 'demo', 'videos': [{'video_id': 'one'}]}
     tail = '''
 let state = {one: {answer: 'A'}};

@@ -1,6 +1,6 @@
 # Review sheet: st_d13372af0c
 
-- Video file: `/Users/eveyhuang/Documents/NICO/entrepreneurship-pitch-interaction/data/shark tank/downloads/Barbara Gets Mean With Sheets Laundry Club | Shark Tank US | Shark Tank Global.mp4`
+- Video file: `data/shark tank/downloads/Barbara Gets Mean With Sheets Laundry Club | Shark Tank US | Shark Tank Global.mp4`
 - Run: `runs/full-corpus-100` (instrument release v3-dev9)
 - Sheet: `st_d13372af0c__review.csv`, 25 rows, preset `exchange`
 - Mode: blind: the model's values and the reasons for selecting a row are hidden; code each row from the footage
