@@ -4,6 +4,8 @@
 
 This repository accompanies our submission to *Organization Science* special issue: AI-Enabled Frontiers in Organizational Science. We propose an AI-enabled method for empirically addressing the long-standing question of what makes entrepreneurial pitches effective. Specifically, we seek to address the gap identified by Kalvalpalle et al 2024’s meta-analysis of the entrepreneurial pitch literature that past research on entrepreneurial pitching has almost always focused on either the entrepreneur or the investor but rarely the interaction between the two. Here, we examine entrepreneurial pitch videos where entrepreneurs and investors interact to study how their back-and-forth exchanges convince investors of the merits of the entrepreneurs’ ideas.
 
+![Figure 1](docs/figures/fig%201.png)
+
 <a id="run-the-demo"></a>
 
 ## Step 1: Set up your environment
@@ -32,16 +34,37 @@ py -3.12 -m venv .venv
 
 ## Step 2: Run the Demo.ipynb
 
-Open the downloaded repository folder in VS Code, then click **[Open Demo.ipynb](Demo.ipynb)**. Select the repository's `.venv` kernel showing **Python 3.11 or newer**, and choose **Restart Kernel and Run All**. Run from the repository root so the relative paths resolve correctly. The saved-record calculations run offline; watching YouTube requires internet.
+**Register the environment as a notebook kernel.** From the repository root, run the command for your operating system:
 
-### Troubleshooting: If `.venv` is missing from the kernel list
+On macOS or Linux:
+
+```sh
+.venv/bin/python -m ipykernel install --user --name pitch-interaction --display-name "pitch interaction"
+```
+
+On Windows (PowerShell):
+
+```powershell
+.venv\Scripts\python.exe -m ipykernel install --user --name pitch-interaction --display-name "pitch interaction"
+```
+
+The environment folder stays `.venv`; **pitch interaction** is the name shown in notebook kernel menus. Using `.venv`'s Python explicitly registers the environment where you installed the packages. If you keep several copies of this project, use a different `--name` and `--display-name` for each; registering the same name again points that kernel at the latest copy.
+
+**Open [Demo.ipynb](Demo.ipynb) and select the kernel.** Use either application:
+
+- **VS Code:** open the repository folder, then the notebook. Choose **Select Kernel → Select Another Kernel… → Jupyter Kernels → pitch interaction**. Alternatively, choose **Python Environments… → .venv** for this repository.
+- **Jupyter Notebook:** start your existing Jupyter installation from the repository root (for example, run `jupyter notebook` there), open **[Demo.ipynb](Demo.ipynb)**, and choose **Kernel → Change Kernel → pitch interaction**. If the new kernel is not listed, restart Jupyter and reopen the notebook.
+
+**Run the cells from top to bottom.** Later cells use data loaded by earlier ones. For a fresh run, restart the kernel and run all cells. Keep the notebook in the repository root so relative paths such as `data/`, `examples/`, and `runs/` resolve correctly. The saved-record calculations run offline; watching YouTube requires internet.
+
+### Troubleshooting in VS Code: If the kernel is missing from the list
 
 Installing the Python packages does not install VS Code's Python extension. If `.venv` is not listed when you try to choose the venv kernel in the Demo.ipynb:
 
 1. Click **Install Python Extension** in the kernel picker and install **Python by Microsoft**. If that option is absent, open VS Code's Extensions view and find it there. Make sure **Jupyter by Microsoft** is also installed and enabled.
 2. Press **⌘⇧P** on macOS or **Ctrl+Shift+P** on Windows/Linux, then run **Developer: Reload Window**.
 3. Open [Demo.ipynb](Demo.ipynb), click **Select Kernel → Select Another Kernel… → Python Environments…**. If the kernel-source menu is already open, choose **Python Environments…** directly.
-4. Select this repository's **`.venv`**, showing **Python 3.11 or newer**.
+4. Select this repository's **`.venv`**, showing **Python 3.11 or newer**, or choose **Jupyter Kernels → pitch interaction** from the kernel-source menu.
 
 If it is still missing, run **Python: Select Interpreter** from the Command Palette, choose **Enter interpreter path → Find**, and select `.venv/bin/python` inside this repository (Windows: `.venv\Scripts\python.exe`). On macOS, press **⌘⇧.** in the file picker to reveal the hidden `.venv` folder. Then return to **Select Kernel → Python Environments…** and select that environment.
 
@@ -64,7 +87,7 @@ On Windows, replace `.venv/bin/python` with `.venv\Scripts\python.exe`.
 4. **Across the full 100 episodes:** Using the full corpus of 100 episodes, the demo then shows the summary statistics and distributions of annotations and concepts, the full results from human validation (by two human coders) on sampled 10 episodes to reproduce Figure 3 in proposal. Lastly, it compares predictive performance across concept families and reproduces Figure 2.
 
 
-## Inspect the evidence and code
+## Step 3: Inspect the evidence and code 
 
 The reported run, `full-corpus-100`, contains the saved annotation records and analysis outputs for the 100-episode corpus. The included Firefighter1 video provides the worked example. The saved analysis does not need the other source videos. To rerun annotation or export clips for the full corpus, supply those videos under `data/shark tank/downloads/`, using the filenames in `selection_all100.json`, and run the commands from the repository root. Archived source-video paths are relative to that root.
 
